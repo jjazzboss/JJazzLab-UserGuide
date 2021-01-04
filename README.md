@@ -1,1 +1,1 @@
-# JJazzLab-X Documentation source files for GitBook
+JJazzLab-X Documentation source files for GitBook
