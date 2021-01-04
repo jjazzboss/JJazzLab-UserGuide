@@ -4,7 +4,7 @@ JJazzLab is a desktop application which automatically generates backing tracks f
 
 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere with the band !
 
-Thanks to the JJazzLab-X open-source platform,  JJazzLab can easily be extended to add new features and new music generation capabilities.
+Thanks to the JJazzLab-X open-source platform,  JJazzLab can easily be extended to add new features and new music generation capabilities.  
 
 ![](../../.gitbook/assets/jjazzlabscreenshot.png)
 
