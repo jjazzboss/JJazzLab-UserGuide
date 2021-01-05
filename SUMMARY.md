@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Documentation](README.md)
+* [Video tutorials](video-tutorials.md)
 * [Getting Started](getting-started.md)
 * [FAQ](faq.md)
 
@@ -31,4 +32,8 @@
   * [JJazzLab](configuration/untitled-2/jjazzlab-21.md)
 * [Untitled](configuration/untitled-1.md)
 * [Untitled](configuration/untitled.md)
+
+---
+
+* [How to contribute](how-to-contribute.md)
 

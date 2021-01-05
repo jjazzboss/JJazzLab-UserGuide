@@ -1,3 +1,9 @@
+---
+description: >-
+  Want to add content or fix issues? You're welcome! Visit the How to contribute
+  page.
+---
+
 # Documentation
 
 ## What is JJazzLab ? 
@@ -20,7 +26,23 @@ For a more complete video tutorial \(but longer, 15 min.\), it's here: [YouTube 
 
 ### Midi Configuration
 
-Upon first start, JJazzLab will show you a Midi configuration wizard. 
+Upon a fresh start after installation JJazzLab will show you a Midi configuration wizard. 
+
+{% tabs %}
+{% tab title="Windows" %}
+We strongly recommend to use the JJazzLab SoundFont with VirtualMidiSynth.  You'll get a rather good sounding, , with a simple installation.
+{% endtab %}
+
+{% tab title="Linux" %}
+
+{% endtab %}
+
+{% tab title="MacOS" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 JJazzLab is a Midi application. It does not produce sounds itself, rather it sends Midi messages \(e.g. "play 
 
