@@ -1,15 +1,13 @@
-# How to contribute
+# Contribute to docs
 
-The document is hosted by GitBook, which lets users update the documentation, like in a Wiki. Edition is done directly in the internet browser, it's quite easy and you don't need to be a computer guru.
+This site is hosted by GitBook, which lets users update the documentation, like in a Wiki. Making changes is rather easy because it's done directly in the internet browser via a WYSIWIG editor.
 
-If you want to help just send me an email \([here](https://www.jjazzlab.com/en/contact/)\)  and tell me briefly what you want to do, so I can grant you write access rights to the JJazzLab GitBook. 
+If you want to contribute just send me an email \([here](https://www.jjazzlab.com/en/contact/)\) and tell me briefly what you want to do so I can grant you write access rights to the JJazzLab GitBook. 
 
-Note that if you're a GitHub user you can also make a pull-request directly on the JJazzLabDoc repository.
+If you're a GitHub user you can also make a pull-request directly on the [JJazzLabDoc repository](https://github.com/jjazzboss/JJazzLabDoc).
 
-## Recommendations
 
-* Make sure you don't add redundant information
-* 
+
 
 
 

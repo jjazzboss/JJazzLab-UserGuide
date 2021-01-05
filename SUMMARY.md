@@ -2,8 +2,7 @@
 
 * [Documentation](README.md)
 * [Video tutorials](video-tutorials.md)
-* [Getting Started](getting-started.md)
-* [FAQ](faq.md)
+* [FAQ](untitled.md)
 
 ## Configuration
 
@@ -35,5 +34,5 @@
 
 ---
 
-* [How to contribute](how-to-contribute.md)
+* [Contribute to docs](how-to-contribute.md)
 
