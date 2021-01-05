@@ -1,6 +1,6 @@
 # Video tutorials
 
-## Super short tutorial
+## Start with the short one
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 

@@ -32,7 +32,9 @@
 * [Untitled](configuration/untitled-1.md)
 * [Untitled](configuration/untitled.md)
 
----
+## Contribute
 
-* [Contribute to docs](how-to-contribute.md)
+* [Improve documentation](contribute/how-to-contribute.md)
+* [Translate JJazzLab](contribute/translate-jjazzlab/README.md)
+  * [Testing translations](contribute/translate-jjazzlab/testing-translations.md)
 
