@@ -18,7 +18,7 @@ Want to add or fix documentation?  Yes you can!😀 Visit the [Improve documenta
 
 💻 Thanks to the underlying JJazzLab-X open-source platform developers can easily add new features and new music generation capabilities.   
 
-## Main features
+## Features
 
 ### Backing tracks
 

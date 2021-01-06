@@ -1,4 +1,4 @@
-# JJazzLab
+# Java internal synth
 
 The Java engine used by JJazzLab has an integrated synth \(called Gervill\) which can load SoundFonts. Unfortunately this Java Internal Synth is not high-performance and you may hear some dropped notes when too many notes are played. So when possible prefer an external SoundFont player, such as VirtualMIDISynth on Windows or FluidSynth on Linux.
 

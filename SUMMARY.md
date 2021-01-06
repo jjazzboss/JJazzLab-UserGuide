@@ -6,11 +6,11 @@
 
 ## Configuration
 
+* [JJazzLab SoundFont](configuration/jjazzlab-1/README.md)
+  * [VirtualMidiSynth \(Win\)](configuration/jjazzlab-1/jjazzlab-2.md)
+  * [FluidSynth \(Linux\)](configuration/jjazzlab-1/jjazzlab-3.md)
 * [JJazzLab](configuration/untitled-2/README.md)
-  * [JJazzLab SoundFont](configuration/untitled-2/jjazzlab-1.md)
-  * [VirtualMidiSynth \(Win\)](configuration/untitled-2/jjazzlab-2.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-3.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-4.md)
+  * [Java internal synth](configuration/untitled-2/jjazzlab-4.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-5.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-6.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-7.md)
@@ -28,8 +28,7 @@
   * [JJazzLab](configuration/untitled-2/jjazzlab-19.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-20.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-21.md)
-* [Untitled](configuration/untitled-1.md)
-* [Untitled](configuration/untitled.md)
+  * [LinkTBD](configuration/untitled-2/linktbd.md)
 
 ## Contribute
 
