@@ -12,7 +12,7 @@ If you’re familiar with Midi and use a hardware synthesizer or VST/AU instrume
 
 ## Midi Configuration Wizard <a id="midi-configuration-wizard"></a>
 
-This wizard will help you select the best Midi configuration.
+This wizard will help you select the best Midi configuration.  
 
 It is launched automatically the first time you run JJazzLab. You can also run it manually from the _menu Tools/Midi Configuration Wizard_.
 
