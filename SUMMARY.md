@@ -6,10 +6,9 @@
 
 ## Configuration
 
-* [Midi configuration](configuration/midi-configuration.md)
-* [JJazzLab SoundFont](configuration/jjazzlab-1.md)
-* [Output synth](configuration/output-synth-editor.md)
-* [Untitled](configuration/untitled.md)
+* [Midi configuration](configuration/midi-configuration/README.md)
+  * [JJazzLab SoundFont](configuration/midi-configuration/jjazzlab-1.md)
+  * [Output synth](configuration/midi-configuration/output-synth-editor.md)
 
 ## Contribute
 
