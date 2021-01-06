@@ -1,14 +1,46 @@
 # Midi configuration
 
-JJazzLab is a Midi-based application. It does **not** directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent to a sound device via a Midi connection. That’s why JJazzLab needs to know about your Midi configuration in order to work properly.
-
-## Possible usages
+{% hint style="success" %}
+If you don't want to mess with Midi, use the [JJazzLab SoundFont](jjazzlab-1.md): it's optimized for JJazzLab with the best compromise Sound quality Vs Ease of set up.
+{% endhint %}
 
 ![](../.gitbook/assets/midiwizard-image1.png)
+
+JJazzLab is a Midi application. It does not directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent via the **Midi out device** to your **output synth**. 
+
+The **Midi out device** can be selected in the menu **Tools/Options/Midi**.
+
+The **output synth** produces the sounds. If JJazzLab knows the capabilities of your **output synth**, you can directly control it from the **mix console**, and -this is the most important- it can automatically select the most relevant sounds used by each rhythm, using drum key map conversion when necessary.
+
+Use the output synth editor to edit the capabilities of your **output synth**.
+
+
+
+## 
+
+## Ouput synth
+
+In JJazzLab the Output synth represents the audio synth which receives the Midi messages from JJazzLab. 
+
+
+
+That’s why JJazzLab needs to know about your Midi configuration in order to work properly.
+
+| Output synth | Sound quality | Ease of setup | Comment |
+| :--- | :--- | :--- | :--- |
+| SoundFont player | ++ | ++ |  |
+| External synthesizer | +++ | ++ | Connection via a Midi cable.  |
+| VST, virtual instruments | +++ | + | Need a virtual Midi port |
+| Java internal synth | + | +++ | Everything is embedded |
 
 In general we recommend to [use the JJazzLab SoundFont](https://www.jjazzlab.com/en/doc/jjazzlab-soundfont).
 
 If you’re familiar with Midi and use a hardware synthesizer or VST/AU instruments, then learn about the [Output Synth Editor](https://www.jjazzlab.com/en/doc/output-synth-editor).
+
+3 things
+
+* automatic selection of appropriate sounds for a given rhythm
+* control mix from JJazzLab or outside of JJazzLab
 
 ## Midi Configuration Wizard <a id="midi-configuration-wizard"></a>
 

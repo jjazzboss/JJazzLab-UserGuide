@@ -7,7 +7,8 @@
 ## Configuration
 
 * [Midi configuration](configuration/midi-configuration.md)
-* [Use the JJazzLab SoundFont](configuration/jjazzlab-1.md)
+* [JJazzLab SoundFont](configuration/jjazzlab-1.md)
+* [Output synth editor](configuration/output-synth-editor.md)
 
 ## Contribute
 

@@ -2,7 +2,7 @@
 description: Optimized for Yamaha styles rendering
 ---
 
-# Use the JJazzLab SoundFont
+# JJazzLab SoundFont
 
 The free JJazzLab SoundFont contains 128 high-quality GM sounds plus some extra sounds. It also contains 14 XG-compatible drum kits.
 
