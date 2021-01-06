@@ -5,7 +5,7 @@ description: JJazzLab-X / JJazzLab
 # Documentation
 
 {% hint style="info" %}
-Want to add or fix documentation?  Yes you can!😀 Visit the [Improve documentation](contribute/how-to-contribute.md) page.
+Want to add or fix documentation?  Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
 ## What is JJazzLab? 

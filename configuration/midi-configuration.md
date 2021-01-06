@@ -14,7 +14,7 @@ The **Midi out device** can be selected in the menu **Tools/Options/Midi**.
 
 The **output synth** produces the sounds. If JJazzLab knows the capabilities of your **output synth**, JJazzLab can directly control it from the **mix console.** And most importantly when you select a rhythm JJazzLab can automatically select the relevant sounds, using drum map conversion when necessary. 
 
-Visit the [output synth](output-synth-editor.md) page for more information.
+Visit the [output synth](output-synth.md) page for more information.
 
 ## Midi Configuration Wizard <a id="midi-configuration-wizard"></a>
 

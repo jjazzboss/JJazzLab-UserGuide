@@ -13,7 +13,7 @@ description: Frequently Asked Questions
 ## I like JJazzLab and want to keep it free, how can I help? <a id="how-to-help"></a>
 
 * Help [translate](../../download/translating) JJazzLab
-* [Contribute ](contribute/how-to-contribute.md)to improve this documentation
+* [Contribute ](contribute/improve-doc.md)to improve this documentation
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel. Insert a [JJazzLab logo](../../resources#logos) in the video.
 * Spread the word ! Talk and add links to www.jjazzlab.com on social networks, blogs, websites, etc.
