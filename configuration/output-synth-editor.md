@@ -75,11 +75,11 @@ You need to add one or more [Midi synth definition files](output-synth-editor.md
 
 ### Controlling the mix outside of JJazzLab
 
-You may want to prevent JJazzLab from controlling your synth, because you directly control it \(e.g. set the instrument and volume on each channel, etc.\).
+You may want to prevent JJazzLab from controlling your synth via Midi, because you control it directly \(e.g. you set instruments, volumes, etc. directly on the synth\).
 
-You need to disable the **Midi parameters** in the **mix console**, so that JJazzLab only send notes Midi messages but no program or controller change Midi messages.
+To achieve this you need to disable the **Midi parameters** in the **mix console**, so that JJazzLab only send Midi notes but no program/controller change Midi messages.
 
-You can do it globally via the **Midi menu**: 
+You can do it globally for all channels via the **Midi menu**: 
 
 ![](../.gitbook/assets/2021-01-06-22_02_58-jjazzlab.png)
 
