@@ -1,7 +1,7 @@
 # Midi configuration
 
 {% hint style="success" %}
-If you don't want to mess with Midi, use the [JJazzLab SoundFont](jjazzlab-1.md): it's optimized for JJazzLab and Yamaha styles, with the best compromise Sound quality Vs Ease of set up.
+If you don't want to mess with Midi, use the [JJazzLab SoundFont](jjazzlab-soundfont.md): it's optimized for JJazzLab and Yamaha styles, with the best compromise Sound quality Vs Ease of set up.
 {% endhint %}
 
 ## Overview
@@ -20,36 +20,7 @@ Visit the [output synth](output-synth-editor.md) page for more information.
 
 This wizard will help you select the best Midi configuration.  It is launched automatically the first time you run JJazzLab. You can also run it manually from the menu **Tools/Midi Configuration Wizard**.
 
-## Usual configurations
-
-### GM/GM2/GS/XG synths
-
-If your synth is compatible with one or more of these standards, it's a good thing. Best is XG for Yamaha styles.
-
-### SoundFont players
-
-We strongly recommend **VirtualMidiSynth** for Windows, or **FluidSynth** for Linux/MacOs, together with the JJazzLab SoundFont. See the [setup instructions](jjazzlab-1.md#initial-setup).
-
-If you use different SoundFont players or SoundFont, make sure it has s
-
-| Output synth | Sound quality | Ease of setup | Comment |
-| :--- | :--- | :--- | :--- |
-| VirtualMidiSynth + JJazzLab Sound Font | +++ | +++ | The recommended way on Windows. |
-| FluidSynth + JJazzLab SoundFont | +++ | ++ | The recommended way on Linux and MacOS |
-| Other SoundFont players with other SoundFonts | variable | + | Connection via a Midi cable.  |
-| VST, virtual instruments | +++ | + | Need a virtual Midi port |
-| Java internal synth | + | +++ | Everything is embedded |
-
-In general we recommend to [use the JJazzLab SoundFont](https://www.jjazzlab.com/en/doc/jjazzlab-soundfont).
-
-If you’re familiar with Midi and use a hardware synthesizer or VST/AU instruments, then learn about the [Output Synth Editor](https://www.jjazzlab.com/en/doc/output-synth-editor).
-
-3 things
-
-* automatic selection of appropriate sounds for a given rhythm
-* control mix from JJazzLab or outside of JJazzLab
-
-## Drums issues with GM-only compatible sound devices <a id="GM-drums-issue"></a>
+## GM drums issues <a id="GM-drums-issue"></a>
 
 A GM-only compatible output synth normally accepts drums/percussion data _only_ on channel 10. What if the JJazzLab song needs more than one drums channel ?
 

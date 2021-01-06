@@ -2,13 +2,13 @@
 
 * [Documentation](README.md)
 * [Video tutorials](video-tutorials.md)
-* [FAQ](untitled.md)
+* [FAQ](faq.md)
 
 ## Configuration
 
-* [Midi configuration](configuration/midi-configuration/README.md)
-  * [JJazzLab SoundFont](configuration/midi-configuration/jjazzlab-1.md)
-  * [Output synth](configuration/midi-configuration/output-synth-editor.md)
+* [Midi configuration](configuration/midi-configuration.md)
+* [JJazzLab SoundFont](configuration/jjazzlab-soundfont.md)
+* [Output synth](configuration/output-synth-editor.md)
 
 ## Contribute
 
