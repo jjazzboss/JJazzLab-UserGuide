@@ -1,6 +1,10 @@
-# JJazzLab
+# Midi configuration
 
-JJazzLab is a Midi-based application. It does _not_ directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent to a sound device via a Midi connection. That’s why JJazzLab needs to know about your Midi configuration in order to work properly.
+JJazzLab is a Midi-based application. It does **not** directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent to a sound device via a Midi connection. That’s why JJazzLab needs to know about your Midi configuration in order to work properly.
+
+## Possible usages
+
+![](../.gitbook/assets/midiwizard-image1.png)
 
 In general we recommend to [use the JJazzLab SoundFont](https://www.jjazzlab.com/en/doc/jjazzlab-soundfont).
 

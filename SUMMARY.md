@@ -6,29 +6,8 @@
 
 ## Configuration
 
-* [JJazzLab SoundFont](configuration/jjazzlab-1/README.md)
-  * [VirtualMidiSynth \(Win\)](configuration/jjazzlab-1/jjazzlab-2.md)
-  * [FluidSynth \(Linux\)](configuration/jjazzlab-1/jjazzlab-3.md)
-* [JJazzLab](configuration/untitled-2/README.md)
-  * [Java internal synth](configuration/untitled-2/jjazzlab-4.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-5.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-6.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-7.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-8.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-9.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-10.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-11.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-12.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-13.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-14.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-15.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-16.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-17.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-18.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-19.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-20.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-21.md)
-  * [LinkTBD](configuration/untitled-2/linktbd.md)
+* [Midi configuration](configuration/midi-configuration.md)
+* [Use the JJazzLab SoundFont](configuration/jjazzlab-1.md)
 
 ## Contribute
 
