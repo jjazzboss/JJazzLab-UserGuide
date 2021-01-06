@@ -7,9 +7,8 @@
 ## Configuration
 
 * [JJazzLab](configuration/untitled-2/README.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-1.md)
-  * [JJazzLab](configuration/untitled-2/jjazzlab-2.md)
+  * [JJazzLab SoundFont](configuration/untitled-2/jjazzlab-1.md)
+  * [VirtualMidiSynth \(Win\)](configuration/untitled-2/jjazzlab-2.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-3.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-4.md)
   * [JJazzLab](configuration/untitled-2/jjazzlab-5.md)

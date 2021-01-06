@@ -17,6 +17,7 @@ description: Frequently Asked Questions
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel. Insert a [JJazzLab logo](../../resources#logos) in the video.
 * Spread the word ! Talk and add links to www.jjazzlab.com on social networks, blogs, websites, etc.
+* If you're a developer, [contribute code](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
 
 ## The documentation mentions a menu **Tools/Options** but I can't find it on MacOS
 
@@ -60,13 +61,13 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the **Output Synth configuration editor** and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
 
-## How to make font bigger? <a id="font-bigger"></a>
+## How to make fonts bigger? <a id="font-bigger"></a>
 
-In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add `--fontsize 16` \(16 or any other value, default is 11\) in the `default_options` variable, you should end up with something like this:
+In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add **--fontsize 16** \(16 or any other value, default is 11\) in the **default\_options** variable, you should end up with something like this:
 
 `default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY -J-DNOT_RUN_FROM_IDE=true --fontsize 16"` 
 
 Restart JJazzLab. All menus should look bigger now.
 
-This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The theme user settings are automatically saved, so you need to do this only once.
+This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
 
