@@ -132,8 +132,11 @@ You can force a section which is not on the first bar of a row to start on the n
 
 Select a bar with a section defined or select the section itself, right-click menu "Force Section at New Line".
 
-   
- This will result in the display below. 
+![](../../.gitbook/assets/forcesectionnewline1.png)
+
+  This will result in the display below. 
+
+![](../../.gitbook/assets/forcesectionnewline2.png)
 
 ## Mouse shortcuts
 
@@ -141,7 +144,22 @@ Selection \| Mouse \| Action \|--------\|------\|------- Bar, Chord Symbol, Sect
 
 ## Keyboard shortcuts
 
-_Tip_: many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated keyboard is displayed.
+{% hint style="info" %}
+Many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated keyboard is displayed.
+{% endhint %}
 
-Selection \| key \| Action \|--------\|------\|------- Chord Symbol       \| enter       \| edit using the chord symbol editor dialog Bar, Section       \| enter       \| edit using the bar editor dialog Bar       \| ctrl-E       \| set end bar Bar       \| I       \| insert bars Bar       \| delete       \| clear bar contents Chord Symbol, Section       \| delete       \| remove Bar       \| shift-delete       \| remove Chord Symbol \| ctrl-up/down\| transpose Chord Symbol \| P \| change interpretation Chord Symbol \| S \| stronger accent Chord Symbol \| H \| crash cymbal/no crash Chord Symbol \| X \| hold/shot extended Chord Symbol, Section \| ctrl-A \| select similar items from the current section. Then from the chord leadsheet. Bar, Chord Symbol, Section        \| ctrl-C/X/V \| copy/cut/paste items Editor       \| ctrl-Z/Y       \| undo/redo Editor       \| ctrl-O       \| set current song active \(On/Off\) Editor       \| ctrl-W       \| close current song
+| Selection | Key | Action |
+| :--- | :--- | :--- |
+| Chord Symbol | enter | edit with chord symbol editor |
+| Bar, Section | enter        | edit with bar editor dialog |
+| Bar  | ctrl-E | set end bar |
+|  | I | Insert bars |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+   I       \| insert bars Bar       \| delete       \| clear bar contents Chord Symbol, Section       \| delete       \| remove Bar       \| shift-delete       \| remove Chord Symbol \| ctrl-up/down\| transpose Chord Symbol \| P \| change interpretation Chord Symbol \| S \| stronger accent Chord Symbol \| H \| crash cymbal/no crash Chord Symbol \| X \| hold/shot extended Chord Symbol, Section \| ctrl-A \| select similar items from the current section. Then from the chord leadsheet. Bar, Chord Symbol, Section        \| ctrl-C/X/V \| copy/cut/paste items Editor       \| ctrl-Z/Y       \| undo/redo Editor       \| ctrl-O       \| set current song active \(On/Off\) Editor       \| ctrl-W       \| close current song
 
