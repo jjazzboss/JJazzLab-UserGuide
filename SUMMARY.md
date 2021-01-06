@@ -8,7 +8,8 @@
 
 * [Midi configuration](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-1.md)
-* [Output synth editor](configuration/output-synth-editor.md)
+* [Output synth](configuration/output-synth-editor.md)
+* [Untitled](configuration/untitled.md)
 
 ## Contribute
 

@@ -1,28 +1,38 @@
-# Output synth editor
+# Output synth
 
 {% hint style="info" %}
-If you use the [JJazzLab SoundFont](jjazzlab-1.md) you may skip this page because you’ll only use one of the Output Synth presets. 
-
-Read on if you need JJazzLab to control a specific synth, like a hardware synthesizer, VSTs, your own SoundFont, etc.
+If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-1.md) page. 
 {% endhint %}
 
-## Output Synth concept <a id="output-synth-concept"></a>
+## Output synth concept <a id="output-synth-concept"></a>
 
-The Output Synth represents the Midi synth you have connected to the output of JJazzLab:
+The output synth represents the Midi synth you have connected to the output of JJazzLab:
 
 ![](../.gitbook/assets/outputsynth-concept%20%281%29.png)
 
- The Output Synth provides information used by JJazzLab for 3 important tasks:
+ The output synth provides information used by JJazzLab for 3 important tasks:
 
 1. Propose the most relevant instruments for a given rhythm
 2. Automatically remap drum sounds when needed \(there are several standard drum key maps, like the [GM drum key map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
-3. Access the available instruments from the mix console
+3. Access the synth instruments directly from the mix console
 
-The Output Synth information can be edited in the Output Synth Editor. The information can be load/saved in configuration files. By default JJazzLab uses Default.cfg.
+In other words the output synth information enables JJazzLab to directly control the output synth. This way you can select instruments directly from the mix console, and the song mix can be automatically restored when you load the song.
 
-### Example <a id="example"></a>
+{% hint style="danger" %}
+If the output synth configuration in JJazzLab is not inline with the actual output synth, this can lead to weird sounds in the backing tracks.
+{% endhint %}
 
-You have connected your old GM-compatible Roland synthesizer to JJazzLab. So in the Output Synth editor you have checked “GM compatible”.
+## Output synth editor
+
+The **output synth** capabilities can be edited in the **output synth editor**. 
+
+![](../.gitbook/assets/outputsyntheditor.png)
+
+The output synth configuration can be loaded or saved to a file. By default JJazzLab uses **Default.cfg**.
+
+## Example
+
+You have connected your old GM-compatible Roland synthesizer to JJazzLab. So in the **output synth editor** you have checked **GM compatible**.
 
 Your song uses the rhythm SimpleFolk.sty, a Yamaha style which defines 3 instruments:
 
@@ -30,27 +40,44 @@ Your song uses the rhythm SimpleFolk.sty, a Yamaha style which defines 3 instrum
 * Guitar, preferred instrument is XG ‘12 String Guitar’
 * Drums, preferred drum kit is ‘Brush’ type with the XG drums key map
 
-Using the Output Synth information \(“my synth is only GM compatible”\), JJazzLab will do the following before playing the song:
+Using the output synth information \(“my synth is only GM compatible”\), JJazzLab will do the following before playing the song:
 
-* Send a Midi message “Switch GM mode ON” to the Roland synth
+* Send a Midi message **Switch GM mode ON** to the Roland synth
 * Bass: select the GM ‘Acoustic Bass’ via standard GM messages
 * Guitar: select the GM ‘Steel Guitar’, which is the closest instrument from the XG ‘12 String Guitar’
 * Drum: select the GM standard drums \(GM only has a single drum kit\), and remap all XG-specific drum notes to GM drum notes
 
-In conclusion, JJazzLab uses the Output Synth information to make the rhythm sound as close as possible as the original rhythm \(as programmed by the rhythm designer\).
+{% hint style="success" %}
+In conclusion, JJazzLab uses the output synth information to make the rhythm sound as close as possible as the original rhythm \(as programmed by the rhythm designer\).
+{% endhint %}
 
-If your sound device/Midi synth corresponds to one of the configutations below, just apply the corresponding preset.
+## Usual configurations
+
+### Presets
+
+If your sound device/Midi synth corresponds to one of the configurations below, just apply the corresponding preset from the output synth editor menu bar.
 
 * **GM**: a GM-compatible synth
 * **JJazzLab SoundFont**: a soundfont player with the JazzLab SoundFont loaded
-* **Yamaha Tyros**: a Yamaha arranger keyboard of the Tyros/PSR family
+* **Yamaha Tyros**: a Yamaha arranger keyboard of the Tyros or PSR family
+
+### GM2/GS/XG compatible synths
+
+Just check the corresponding checkbox.
+
+
+
+
 
 ## Default instruments <a id="default-instruments"></a>
 
-The Ouput Synth Editor lets you map standard GM Instruments to Default Instruments of your choice. You can also set a default instrument for a ‘family’, e.g. all the organs.
+The **output synth editor** lets you map standard GM Instruments to **default instruments** of your choice. You can also set a **default instrument** for an instrument **family**, e.g. all the organs.
 
-  
- EXAMPLE: You mapped the GM instrument ‘Bright Piano’ to the JJazzLab SoundFont instrument ‘Hard FM EP’. Now each time a rhythm needs a GM Bright Piano, JJazzLab will use the ‘Hard FM EP’ instrument instead.
+![](../.gitbook/assets/outputsynth-defaultinstruments.png)
+
+{% hint style="info" %}
+You mapped the GM instrument ‘Bright Piano’ to the JJazzLab SoundFont instrument ‘Hard FM EP’. Now each time a rhythm needs a GM Bright Piano, JJazzLab will use the ‘Hard FM EP’ instrument instead.
+{% endhint %}
 
 ## Midi synth definition files \(Cakewalk .ins format\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
