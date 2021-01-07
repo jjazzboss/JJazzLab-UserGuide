@@ -10,7 +10,7 @@ Want to add or fix documentation?  Yes you can!😀 Visit the [Improve documenta
 
 If you don't know where to start, try this very short [video tutorial](video-tutorials.md#for-starters).
 
-If you look for a developer's guide/API, it's here.
+If you look for a developer's guide/API, it's [here](https://jjazzlab.gitbook.io/developer-guide/).
 
 ## What is JJazzLab? 
 
