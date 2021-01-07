@@ -9,7 +9,7 @@ The free JJazzLab SoundFont contains 128 high-quality GM sounds plus some extra 
 It also contains 14 XG-compatible drum kits.
 
 {% hint style="danger" %}
-Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth]() is not XG-compatible you may hear weird/sub-optimal drums sounds when playing a style. 
+Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth](output-synth.md) is not XG-compatible you may hear weird/sub-optimal drums sounds when playing a style. 
 {% endhint %}
 
 ## Download <a id="high-quality-sounds"></a>
@@ -22,7 +22,7 @@ Most Yamaha styles use the XG drum map, which defines more drum sounds than the 
 {% tab title="VirtualMidiSynth \(Windows\)" %}
 VirtualMIDISynth is a free, lightweight \(~2MB!\) and efficient SoundFont player for Windows. It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI Out device.
 
-Note that VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](https://www.jjazzlab.com/en/doc/faq#generate-mp3) for more info.
+Note that VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../faq.md#generate-mp3) for more info.
 
 ### Instructions
 
@@ -40,7 +40,7 @@ The Midi Configuration Wizard will automatically perform steps 4 \(if VirtualMID
 {% tab title="FluidSynth \(Linux/Mac\)" %}
 [FluidSynth ](https://www.fluidsynth.org/)is a free and efficient SoundFont player for Linux.
 
-Note that FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](https://www.jjazzlab.com/en/doc/faq#generate-mp3) for more info.
+Note that FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../faq.md#generate-mp3) for more info.
 
 ### Instructions
 

@@ -11,26 +11,28 @@ helpTitle: false
 Use the **song structure editor** to:
 
 * Define the order of sections, eg "AABA", "verse verse chorus verse", ...
-* Select the rhythm\(s\) to be used 
-* Adjust the rhythm parameters to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
+* Select the **rhythm**\(s\) to be used 
+* Adjust the **rhythm parameters** to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
 
 ![](../../.gitbook/assets/songstructureeditor.png)
 
 ## Song parts
 
-A song part is linked to a parent section of the [chord lead sheet](chord-lead-sheet.md).
+A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
 
-A song part has a name, a rhythm and a value for each of the rhythm parameters.
+A song part has a name, a **rhythm** and a value for each of the **rhythm parameters**.
 
 To add a new song part:
 
-* drag a section from the [chord leadsheet editor](../chord-leadsheet-editor) into the song structure editor, or
-* right-click menu Insert, or 
-* copy an existing song part: drag it while pressing the ctrl key, use copy & paste, or right-click menu Duplicate
+* drag a section from the chord lead sheet into the song structure editor, or
+* right-click menu **Insert**, or 
+* copy an existing song part: drag it while pressing the ctrl key, use copy & paste, or right-click menu **Duplicate**
 
-By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name between parenthesis.
+By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name.
 
 If some contiguous song parts share the same name, then the name is displayed only on the first song part and a line is shown on the contiguous song parts. Clicking this line will select all the related song parts.
+
+![](../../.gitbook/assets/songparts-samename.png)
 
 Song parts can be reordered by dragging them using the mouse.
 

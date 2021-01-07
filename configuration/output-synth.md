@@ -13,7 +13,7 @@ The output synth represents the Midi synth you have connected to the output of J
  The output synth provides information used by JJazzLab for 3 important tasks:
 
 1. Propose the most relevant instruments for a given rhythm
-2. Automatically remap drum sounds when needed \(there are several standard drum key maps, like the [GM drum key map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
+2. Automatically remap drum sounds when needed \(there are several standard drum key maps, like the [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
 3. Access the synth instruments directly from the mix console
 
 In other words the output synth information enables JJazzLab to directly control the output synth. This way you can select instruments directly from the mix console, and the song mix can be automatically restored when you load the song.

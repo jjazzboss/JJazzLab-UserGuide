@@ -31,7 +31,7 @@ You can also select an existing chord symbol and move it while pressing the cont
 
 To move a chord symbol just select it and move it with the mouse.
 
-To change the size of the lead sheet, select a bar then right-click menu and select Set End Bar.
+To change the size of the lead sheet, select a bar then right-click menu and select **Set end bar**.
 
 Use ctrl-click or shift-click for multiple selection.
 
@@ -43,18 +43,18 @@ In order to input a lead sheet from scratch, the easier way is to select the fir
 
 JJazzLab recognizes many aliases for each chord symbol. For example C7M can be written Cmaj7, Cma7, CM7, CMAJ7 etc.
 
-You can add more aliases using the Chord Symbols panel in the Options/Preferences.
+You can add more aliases in menu **Options/Chord Symbols**.
 
 ### Interpretation
 
-Select a chord symbol, edit it \(double-click, press enter, or right-click menu\), and select the Interpretation tab.
+Select a chord symbol, edit it \(double-click, press enter, or right-click menu\), and select the **Interpretation** tab.
 
 ![](../../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
-The Interpretation tab lets you decide how this chord symbol should be played:
+The **Interpretation** tab lets you decide how this chord symbol should be played:
 
 * **Normal**
-* **Accent**: add a rhytmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
+* **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
 * **Hold**: add a rhythmic accent and hold notes until next chord symbol. If extended more instruments are hold.
 * **Shot**: add a rhythmic accent with chord notes played briefly. If extended more instruments are shot.
 * **Pedal bass**: bass line will only play the bass note \(for ex. F for Fm7 or C for Fm7/C\). This setting is on by default when you enter a slash chord.
@@ -77,18 +77,18 @@ you could use the following interpretation parameters:
 ![](../../.gitbook/assets/examplerhythmicaccents.png)
 
 {% hint style="info" %}
-_S_ee below keyboard shortcuts to quickly change the interpretation of selected chords.
+See below the keyboard shortcuts to change the interpretation of selected chords.
 {% endhint %}
 
 ### Harmony
 
-Select a chord symbol, edit it and select the Harmony tab.
+Select a chord symbol, edit it and select the **Harmony** tab.
 
 ![](../../.gitbook/assets/chordsymbolharmonydialog.png)
 
-The Harmony tab lets you select the scale to be used when rendering the music for this chord symbol.
+The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
 
-**Example** Suppose that the reference bass line for Eb7M contains a Ab \(4th degree of the Eb major scale\). If you select the lydian mode \(which has a sharp 11th degree\) then the reference bass note Ab will be rendered as A for this chord symbol.
+**Example** Suppose that the reference bass line for Eb7M contains a Ab \(4th degree of the Eb major scale\). If you select the Lydian mode \(which has a sharp 11th degree\) then the reference bass note Ab will be rendered as A for this chord symbol.
 
 By default no scale is selected: each rhythm generation engine will decide the "best" scale to use.
 
@@ -98,15 +98,17 @@ Select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
 ![Snapshot to be updated! Alternate &amp;gt; Substitute](../../.gitbook/assets/chordsymbolalternatedialog.png)
 
-This tab lets you define an **substitute** chord symbol which will be used when some conditions are met. The **substitute** chord symbol can be a completely different chord symbol, the same but with a different interpretation or harmony, or no chord symbol at all \(void chord\). This is useful when you need to introduce a slight variation during a song.
+This tab lets you define a **substitute** chord symbol which will be used when some conditions are met. 
 
-Chord symbols which have an **substitute** chord symbol defined are displayed with a different color \(see image below\).
+**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
+
+The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all \(void chord\). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color \(see image below\).
 
 _Example:_
 
 In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute** chord symbol can provide a simpler solution.
 
-You can see below \(and in the dialog snapshot above\) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts \(see the [Song Structure Editor](../song-structure-editor)\) where the marker is set to Theme2. On the image below it means the C7M will be used on the 2nd occurrence of section A1.
+You can see below \(and in the dialog snapshot above\) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts \(see the [song structure editor](song-structure.md)\) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
 
 ![Snapshot to be updated! ALTERNATE &amp;gt; SUBSTITUTE](../../.gitbook/assets/alternatechordleadsheet.png)
 
@@ -116,7 +118,7 @@ There is another **substitute** chord symbol example in the 3rd bar: A7. If you 
 
 Typical sections are 'intro', 'verse', 'chorus', etc.
 
-A Song section is the basic unit used by JJazzLab to define the song structure \(see the [Song Structure Editor](../song-structure-editor)\). There is always a section defined on the first bar.
+A Song section is the basic unit used by JJazzLab to define the song structure. There is always a section defined on the first bar.
 
 To add a section select a bar which is not after the end then:
 
@@ -145,7 +147,7 @@ Select a bar with a section defined or select the section itself, right-click me
 | bar, chord symbol, section | click | select |
 | chord symbol | double click | edit using chord symbol editor |
 | bar, section | double click | edit using bar editor |
-| bar, chord symbol, section | righ-click | popup menu |
+| bar, chord symbol, section | right-click | popup menu |
 | chord symbol | mouse-wheel | transpose |
 | editor | ctrl mouse-wheel | change X zoom factor |
 
