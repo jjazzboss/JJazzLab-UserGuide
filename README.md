@@ -14,7 +14,7 @@ If you look for a developer's guide/API, it's [here](https://jjazzlab.gitbook.io
 
 ## What is JJazzLab? 
 
-![](.gitbook/assets/jjazzlabscreenshot-w500.png)
+![](.gitbook/assets/jjazzlabscreenshot.png)
 
 🎵 JJazzLab is a desktop application which automatically generates backing tracks for any song, even complex ones. It’s a jam buddy to have fun improvising at home, learn new stuff or just practice your instrument. It’s also a great tool for teachers.  
 
