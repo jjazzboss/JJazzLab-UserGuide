@@ -21,6 +21,9 @@
 
 ## Rhythms
 
+* [Rhythm files](rhythms/rhythm-files.md)
+* [Adapted rhythms](rhythms/adapted-rhythms.md)
+
 ## Rhythm generation engines
 
 * [Untitled](rhythm-generation-engines/untitled.md)
