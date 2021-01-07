@@ -1,6 +1,6 @@
 # Yamaha styles
 
-The YamJJazz engine is able to read all Yamaha style files \(.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format\). You can find thousands of style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
+The [YamJJazz ](./)engine is able to read all Yamaha style files \(.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format\). You can find thousands of style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
 
 Yamaha styles usually have 4 variations _Main A, Main B, Main C, Main D_, plus some _Intros_ and _Endings_. Each variation can use tracks of the following types:
 
@@ -21,7 +21,7 @@ Other keyboards or SoundFonts \(including the JJazzLab SoundFont\) can’t repro
 
 ## Limitations <a id="limitations"></a>
 
-JJazzLab is designed to host any kind of rhythm generation engines, and they must work with any kind of sound devices, not only the Yamaha keyboards. Therefore some specific Yamaha style file features are not supported:
+JJazzLab is designed to host any kind of rhythm generation engines, and they must work with any kind of output synth, not only the Yamaha keyboards. Therefore some specific Yamaha style file features are not supported:
 
 * SysEx Midi messages: ignored.
 * Controller messages: ignored.

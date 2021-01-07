@@ -38,9 +38,19 @@ Song parts can be reordered by dragging them using the mouse.
 
 ## Editing
 
-Song parts can be edited directly from the song structure editor or from the song part editor tab. Edited values will impact all the selected song parts or rhythm parameters.
+You can modify the song part **name**, **rhythm**, and **rhythm parameter** values.
 
-The song part's name, rhythm and rhythm parameters can be edited. When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+Edition is done directly from in the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** \(see snapshot at the top of this page\). Edited values will impact all the selected song parts or rhythm parameters.
+
+Press **R** or click the rhythm name to open the **rhythm selection dialog**.
+
+![](../../.gitbook/assets/rhythm-selection-dialog.png)
+
+When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+
+{% hint style="warning" %}
+Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
+{% endhint %}
 
 ## Mouse shortcuts
 

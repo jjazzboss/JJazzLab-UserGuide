@@ -1,8 +1,8 @@
 # Extended Yamaha styles
 
-The **YamJJazz rhythm engine** can read ****a new file format \(.yjz\) which extends the capabilities of a standard Yamaha style file \(.sty, .prs\). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+The [YamJJazz rhythm engine](./) ****can read ****a new file format \(.yjz\) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file \(.sty, .prs\). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
 
-An extended style \(.yjz\) supports :
+An **extended style** \(.yjz\) supports :
 
 * **Unlimited number of variations** Instead of Main A, Main B, Main C, you can define Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, … 
 * **Unlimited "alternate takes" for each variation** With a standard Yamaha style the same phrase is always used for a given variation, let’s say Main A. **Alternate takes** lets the rhythm designer define different-but-similar phrases for Main A, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
@@ -13,7 +13,7 @@ A .yjz file is just the extension part of a standard Yamaha style file, the **ba
 
 ## Extended style creation wizard
 
-This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized YamJJazz extended style file \(.yjz\) for a standard Yamaha style file \(.sty, .prs, ...\). 
+This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** \(.yjz\) for a standard Yamaha style file \(.sty, .prs, ...\). 
 
 {% hint style="warning" %}
 Once created you'll need to manually alter the musical phrases of the .yjz file using a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.

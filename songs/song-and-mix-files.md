@@ -21,13 +21,13 @@ When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same dir
 
 ## Default rhythm mix
 
-Each JJazzLab rhythm has a builtin default mix. This builtin default mix can only use GM instruments for maximum portability.
+Each JJazzLab rhythm has a builtin default mix. This builtin default mix can only use **GM instruments** for maximum portability.
 
-You can override the rhythm's builtin mix by saving a **default rhythm mix** file.  Unlike the builtin mix, this rhythm mix can use any instruments.
+You can override the rhythm's builtin mix by saving a **default rhythm mix** file.  Unlike the builtin mix, **this rhythm mix can use any instruments**.
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-By default this file is stored in the user rhythm directory set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
+By default this file is stored in the **user rhythm directory** set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
 
 ## Mix file lookup order
 
