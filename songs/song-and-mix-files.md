@@ -27,7 +27,7 @@ You can override the rhythm's builtin mix by saving a default rhythm mix file:  
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-By default this file is stored in the user rhythm directory set in the Rhythms Options/Preferences, but this can be changed in General Options/Preferences.
+By default this file is stored in the user rhythm directory set in **Options/Rhythms**, but the directory can be changed in **Options/General**.
 
 ## Mix file lookup order
 

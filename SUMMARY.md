@@ -21,8 +21,6 @@
 
 ## Rhythms
 
-* [Untitled](rhythms/untitled.md)
-
 ## Rhythm generation engines
 
 * [Untitled](rhythm-generation-engines/untitled.md)
