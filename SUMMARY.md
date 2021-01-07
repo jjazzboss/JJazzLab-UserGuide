@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documentation](README.md)
+* [Home](README.md)
 * [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
 
