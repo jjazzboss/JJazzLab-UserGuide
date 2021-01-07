@@ -24,9 +24,12 @@
 * [Rhythm files](rhythms/rhythm-files.md)
 * [Adapted rhythms](rhythms/adapted-rhythms.md)
 
-## Rhythm generation engines
+## Rhythm engines
 
-* [Untitled](rhythm-generation-engines/untitled.md)
+* [Overview](rhythm-engines/untitled.md)
+* [YamJJazz rhythm engine](rhythm-engines/yamjjazz-rhythm-engine/README.md)
+  * [Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
+  * [Extended Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
 
 ## Contribute
 
