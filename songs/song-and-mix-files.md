@@ -8,8 +8,6 @@ helpTitle: true
 
 # Song and mix files
 
-## Song files and song mix files
-
 When you save a song called **mySong**, JJazzLab actually saves 2 different files:
 
 * **mySong.sng**: contains everything except the mix information
