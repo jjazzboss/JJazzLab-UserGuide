@@ -10,6 +10,8 @@ draft: false
 
 JJazzLab uses the [crowdin.com](crowdin.com) platform, which makes it super easy to translate phrases, directly from your browser.
 
+![](../../.gitbook/assets/crowdinlanguages.png)
+
 ## Who can do it?
 
 Everyone, provided that you're a native speaker of the target language and you're familiar with music software terms.
@@ -25,12 +27,16 @@ Use **ctrl-O** \(or **upper-left menu Open**\) to open a different file. Done!
 
 Crowdin provides many other translation facilities, like automatic translation proposals, possibility to request more info, a validation process, etc.
 
+![](../../.gitbook/assets/crowdineditor.png)
+
+
+
 ## Recommendations & tips
 
 * **The shorter the better** Don't forget that your phrases will be part of the JJazzLab user interface.  
 * **Be consistent across translations** If "leadsheet" is "xyz" in your language, try to reuse "xyz" whenever possible. Use the Glossary if a term is often reused.
 * **Translate the Glossary first** It's the last translation file at the bottom. It contains the most used terms found in JJazzLab, and helps maintain consistency across translations.
-* **Reviewer role** A phrase needs to be validated by at least one reviewer in order to make it to the application. If you feel ready for this role, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
+* **Proofreader role** A proofreader validates maintains consistency and validate translation phrases. If you feel ready for this role, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
 * **Missing language** If you want to add a language not listed in Crowdin, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
-* **Want to try JJazzLab with the latest translation files?** It's possible, though not for beginners in computing. See [this page](../translating-try-jjazzlab).
+* **Want to try JJazzLab with the latest translation files?** See [this page](testing-translations.md).
 

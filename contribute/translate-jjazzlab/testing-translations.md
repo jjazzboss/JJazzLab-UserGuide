@@ -22,7 +22,7 @@ This is the development environment and platform on which JJazzLab-X is built.
 
 You need to patch Netbeans 12.0 to overcome an annoying limitation regarding the file encoding of language files.
 
-1. Download the patched file [org-openide-util.jar](/docs/org-openide-util.jar)
+1. Download the patched file [org-openide-util.jar](https://www.jjazzlab.com/docs/org-openide-util.jar)
 2. Go to **&lt;Netbeans\_install\_dir&gt;/platform/lib**
 3. Replace **org-openide-util.jar** with the patched version \(for safety make a backup of the original file\)
 
@@ -31,7 +31,7 @@ You need to patch Netbeans 12.0 to overcome an annoying limitation regarding the
 ### Retrieve the JJazzLab-X code source project from GitHub
 
 1. Menu **Team/Git/Clone**
-2. Enter repository address [https://github.com/jjazzboss/JJazzLab-X.git](https://github.com/jjazzboss/JJazzLab-X.git) 
+2. Enter repository address **https://github.com/jjazzboss/JJazzLab-X.git** 
 3. Leave user and password blank
 4. Press **Next** and select _only_ the branch **l10n\_master** \(l10n means "localization"\)
 5. let Netbeans open the **JJazzLab-X** project from the cloned files
@@ -42,7 +42,7 @@ The **l10n\_master** branch is a localization branch where Crowdin automatically
 
 ### Build the JJazzLab-X application
 
-1. Select the **JJazzLab-X** project, right-click **Build**. When it's done you should see "BUILD SUCCESSFUL" in the **Output** window.
+1. Select the **JJazzLab-X** project, right-click **Build**.  When it's done you should see "BUILD SUCCESSFUL" in the **Output** window.
 
 ### Run JJazzLab-X
 
@@ -52,7 +52,7 @@ JJazzLab-X should start with the default language set up for your computer, e.g.
 
 {% hint style="danger" %}
 * The application will have no branding and no rhythms, this is normal, those come with the JJazzLab distribution
-* The main menu bar \(**File**, **Edit**, **Tools**, **Window**, **Help**, **Check for updates**\) and a few window popup-menus will remain in English, this is also normal
+* The main menu bar \(File, Edit, Tools, Window, Help, Check for updates\) and a few window popup-menus will remain in English, this is also normal
 {% endhint %}
 
 ### Force JJazzLab-X to run with a different language
