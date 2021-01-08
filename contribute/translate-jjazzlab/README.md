@@ -37,6 +37,6 @@ Crowdin provides many other translation facilities, like automatic translation p
 * **Be consistent across translations** If "leadsheet" is "xyz" in your language, try to reuse "xyz" whenever possible. Use the Glossary if a term is often reused.
 * **Translate the Glossary first** It's the last translation file at the bottom. It contains the most used terms found in JJazzLab, and helps maintain consistency across translations.
 * **Proofreader role** A proofreader validates maintains consistency and validate translation phrases. If you feel ready for this role, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
-* **Missing language** If you want to add a language not listed in Crowdin, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
+* **Language missing?** If you want to add a language not listed in Crowdin, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
 * **Want to try JJazzLab with the latest translation files?** See [this page](testing-translations.md).
 

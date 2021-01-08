@@ -10,13 +10,12 @@ The output synth represents the Midi synth you have connected to the output of J
 
 ![](../.gitbook/assets/outputsynth-concept%20%281%29.png)
 
- The output synth provides information used by JJazzLab for 3 important tasks:
+The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../songs/song-editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
 
-1. Propose the most relevant instruments for a given rhythm
-2. Automatically remap drum sounds when needed \(there are several standard drum key maps, like the [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
-3. Access the synth instruments directly from the mix console
+The output synth information is also used by JJazzLab for 2 important tasks:
 
-In other words the output synth information enables JJazzLab to directly control the output synth. This way you can select instruments directly from the mix console, and the song mix can be automatically restored when you load the song.
+1. Automatically select the most relevant instruments for a new rhythm
+2. Automatically remap drum sounds when needed \(e.g from [XG drum map ](https://www.jjazzlab.com/images/doc/XG-DrumMap.png)to [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
 
 {% hint style="danger" %}
 If the output synth configuration in JJazzLab is not inline with the actual output synth \(e.g. you use a non-GM VST instrument but JJazzLab thinks it's GM-compatible\), you'll have problems selecting instruments and the backing tracks may sound very weird.
