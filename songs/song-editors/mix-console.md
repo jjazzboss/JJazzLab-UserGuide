@@ -74,7 +74,7 @@ Use the channel settings to:
 
 * **Disable sending specific Midi messages**  
 
-  Probably because you control the parameter yourself directly on the output synth.  
+  Probably because you control the parameter yourself directly on the [output synth](../../configuration/output-synth.md).  
 
 * **Use drums-rerouting for channels drums**  
 
