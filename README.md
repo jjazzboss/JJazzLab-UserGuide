@@ -1,5 +1,5 @@
 ---
-description: JJazzLab-X
+description: ... and JJazzLab-X
 ---
 
 # JJazzLab
