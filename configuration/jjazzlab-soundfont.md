@@ -1,15 +1,11 @@
----
-description: Optimized for Yamaha styles rendering
----
-
 # JJazzLab SoundFont
 
-The free JJazzLab SoundFont contains 128 high-quality GM sounds plus some extra sounds. 
+The **JJazzLab SoundFont** is optimized for JJazzLab with a good trade-off between **sound quality** and **ease of set up**.
 
-It also contains 14 XG-compatible drum kits.
+This free SoundFont contains 128 high-quality GM sounds plus some extra sounds. It also contains 14 XG-compatible drum kits.
 
 {% hint style="danger" %}
-Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth](output-synth.md) is not XG-compatible you may hear weird/sub-optimal drums sounds when playing a style. 
+Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth](output-synth.md) is not XG-compatible JJazzLab will make its best to make the style drums/percussion sound OK, but it's not always optimal.
 {% endhint %}
 
 ## Download <a id="high-quality-sounds"></a>

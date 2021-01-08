@@ -1,7 +1,7 @@
 # Midi configuration
 
 {% hint style="success" %}
-If you don't want to mess with Midi, use the [JJazzLab SoundFont](jjazzlab-soundfont.md). It's optimized for JJazzLab and Yamaha styles, with the best compromise Sound quality Vs Ease of set up.
+If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-soundfont.md). 
 {% endhint %}
 
 ## Overview
