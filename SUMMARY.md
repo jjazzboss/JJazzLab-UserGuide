@@ -9,7 +9,7 @@
 * [Midi configuration](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(win\)](configuration/jjazzlab-soundfont/virtualmidisynth-win.md)
-* [Untitled](configuration/untitled.md)
+  * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/untitled.md)
 * [Output synth](configuration/output-synth.md)
 
 ## Songs

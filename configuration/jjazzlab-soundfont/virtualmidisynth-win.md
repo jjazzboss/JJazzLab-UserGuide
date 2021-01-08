@@ -8,7 +8,7 @@ It is implemented as a Windows multimedia user driver, so it is directly accessi
 VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
 {% endhint %}
 
-## Initial set up
+## Initial setup
 
 1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036)  
 2. Download and install **VirtualMIDISynth** from the [CoolSoft web site](https://coolsoft.altervista.org/virtualmidisynth) Accept all installer default settings. 
@@ -17,6 +17,6 @@ VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily ge
 5. Go to the [output synth](../output-synth.md) editor and apply the preset **VirtualMIDISynth** ![](../../.gitbook/assets/outputsynth-presetvms.png) ****
 
 {% hint style="info" %}
-The [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform steps 4 \(if VirtualMIDISynth is installed\) and 5 if you choose to use the JJazzLab SoundFont on Windows.
+On Windows the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform steps 4 \(if VirtualMIDISynth is installed\) and 5 if you choose to use the JJazzLab SoundFont.
 {% endhint %}
 
