@@ -8,6 +8,7 @@
 
 * [Midi configuration](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont.md)
+* [Untitled](configuration/untitled.md)
 * [Output synth](configuration/output-synth.md)
 
 ## Songs
