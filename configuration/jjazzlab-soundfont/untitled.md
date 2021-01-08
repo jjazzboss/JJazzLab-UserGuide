@@ -1,6 +1,6 @@
 # FluidSynth \(Linux/Mac\)
 
-[FluidSynth ](https://www.fluidsynth.org/)is a free and efficient SoundFont player for Linux.
+[FluidSynth ](https://www.fluidsynth.org/)is a free and efficient SoundFont player for many platforms. We recommend it for Linux and MacOS.
 
 {% hint style="success" %}
 FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
