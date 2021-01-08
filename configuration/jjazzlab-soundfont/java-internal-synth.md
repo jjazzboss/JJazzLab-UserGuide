@@ -12,8 +12,6 @@ The built-in GM sounds are not good quality sounds, but it can be enough to test
 
 {% hint style="warning" %}
 The Java internal synth is not high-performance. When used with a large SoundFont like the JJazzLab SoundFont you may hear some dropped notes when too many notes are played. 
-
-If possible prefer an external SoundFont player such as VirtualMIDISynth on Windows, or FluidSynth on Linux/MacOS.
 {% endhint %}
 
 1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036)  
