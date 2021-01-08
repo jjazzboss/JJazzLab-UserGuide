@@ -24,7 +24,7 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 
 ![](../../.gitbook/assets/mixconsole.png)
 
-## Menu bar
+## MIx console menu bar
 
 ### Menu File
 
