@@ -114,7 +114,7 @@ The **output synth editor** lets you map standard GM Instruments to **default in
 These .ins format extensions are not mandatory to use for JJazzLab to work. But they are required if you have a custom .ins file and want to fully benefit from the JJazzLab features in order to get better sounding backing tracks.
 {% endhint %}
 
-The standard .ins file format lacks some information for JJazzLab to fully optimize instrument selection and **drum key map** conversion.
+The standard .ins file format lacks some information for JJazzLab to fully optimize instrument selection and **drum map** conversion.
 
 For an optimum use JJazzLab needs:
 
