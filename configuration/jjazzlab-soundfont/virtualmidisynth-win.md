@@ -1,4 +1,4 @@
-# VirtualMIDISynth \(win\)
+# VirtualMIDISynth \(Win\)
 
 **VirtualMIDISynth** is a free, lightweight and efficient SoundFont player for Windows. 
 
