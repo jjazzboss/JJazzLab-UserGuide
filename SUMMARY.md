@@ -7,7 +7,8 @@
 ## Configuration
 
 * [Midi configuration](configuration/midi-configuration.md)
-* [JJazzLab SoundFont](configuration/jjazzlab-soundfont.md)
+* [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
+  * [VirtualMIDISynth \(win\)](configuration/jjazzlab-soundfont/virtualmidisynth-win.md)
 * [Untitled](configuration/untitled.md)
 * [Output synth](configuration/output-synth.md)
 

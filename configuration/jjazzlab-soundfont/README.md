@@ -5,7 +5,7 @@ The **JJazzLab SoundFont** is optimized for JJazzLab with a good trade-off betwe
 This free SoundFont contains 128 high-quality GM sounds plus some extra sounds. It also contains 14 XG-compatible drum kits.
 
 {% hint style="danger" %}
-Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth](output-synth.md) is not XG-compatible JJazzLab will make its best to make the style drums/percussion sound OK, but it may be not optimal.
+Most Yamaha styles use the XG drum map, which defines more drum sounds than the GM drum map. If your [output synth](../output-synth.md) is not XG-compatible JJazzLab will make its best to make the style drums/percussion sound OK, but it may be not optimal.
 {% endhint %}
 
 ## Download <a id="high-quality-sounds"></a>
@@ -20,15 +20,15 @@ Most Yamaha styles use the XG drum map, which defines more drum sounds than the 
 {% tab title="VirtualMidiSynth \(Windows\)" %}
 VirtualMIDISynth is a free, lightweight \(~2MB!\) and efficient SoundFont player for Windows. It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI Out device.
 
-Note that VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../faq.md#generate-mp3) for more info.
+Note that VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
 
 ### Instructions
 
 1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036) 
 2. Download and install **VirtualMIDISynth** from the [CoolSoft web site](https://coolsoft.altervista.org/virtualmidisynth) \(accept all installer default settings\) 
-3. Load the Soundfont in **VirtualMIDISynth**  ![](../.gitbook/assets/vms-loadsoundfont.png)  Click on the pen icon if you need to adjust the default volume \(0-500%\) of the SoundFont. 
-4. Start JJazzLab and go to **Midi Options/Preferences**, set **VirtualMIDISynth** as the **Midi Out device**  ![](../.gitbook/assets/vms-setmididevice.png)  
-5. Go to the **Output Synth Editor** and apply the preset **VirtualMIDISynth** ![](../.gitbook/assets/outputsynth-presetvms.png) 
+3. Load the Soundfont in **VirtualMIDISynth**  ![](../../.gitbook/assets/vms-loadsoundfont.png)  Click on the pen icon if you need to adjust the default volume \(0-500%\) of the SoundFont. 
+4. Start JJazzLab and go to **Midi Options/Preferences**, set **VirtualMIDISynth** as the **Midi Out device**  ![](../../.gitbook/assets/vms-setmididevice.png)  
+5. Go to the **Output Synth Editor** and apply the preset **VirtualMIDISynth** ![](../../.gitbook/assets/outputsynth-presetvms.png) 
 
 {% hint style="info" %}
 The Midi Configuration Wizard will automatically perform steps 4 \(if VirtualMIDISynth is installed\) and 5 if you choose to use the JJazzLab SoundFont.
@@ -38,7 +38,7 @@ The Midi Configuration Wizard will automatically perform steps 4 \(if VirtualMID
 {% tab title="FluidSynth \(Linux/Mac\)" %}
 [FluidSynth ](https://www.fluidsynth.org/)is a free and efficient SoundFont player for Linux.
 
-Note that FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../faq.md#generate-mp3) for more info.
+Note that FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
 
 ### Instructions
 
@@ -75,9 +75,9 @@ Note that FluidSynth can redirect its output as a .wav file. This can be used to
    qsynth &
    ```
 
-   ![](../.gitbook/assets/fluidsynth-qsynth.png)   
+   ![](../../.gitbook/assets/fluidsynth-qsynth.png)   
 
-5. Load the **JJazzLab SoundFont** and adjust **FluidSynth** settings    ![](../.gitbook/assets/qsynth-loadsoundfont.png) ![](../.gitbook/assets/qsynth-midisettings.png)  ![](../.gitbook/assets/qsynth-audiosettings.png)   
+5. Load the **JJazzLab SoundFont** and adjust **FluidSynth** settings    ![](../../.gitbook/assets/qsynth-loadsoundfont.png) ![](../../.gitbook/assets/qsynth-midisettings.png)  ![](../../.gitbook/assets/qsynth-audiosettings.png)   
 6. Connect the virtual port to **FluidSynth**  
     You should see a new port, like in the example below:
 
@@ -99,8 +99,8 @@ Note that FluidSynth can redirect its output as a .wav file. This can be used to
 
    ⚠ This connection needs to be restored each time the **FluidSynth** engine is restarted.  
 
-7. In JJazzLab go to the **Midi Options** and select the first **virMIDI** out device   ![](../.gitbook/assets/fluidsynth-setmididevice.png)  
-8. Go to the **Output Synth Editor** and apply the preset **FluidSynth**  ![](../.gitbook/assets/outputsynth-presetfluidsynth.png) 
+7. In JJazzLab go to the **Midi Options** and select the first **virMIDI** out device   ![](../../.gitbook/assets/fluidsynth-setmididevice.png)  
+8. Go to the **Output Synth Editor** and apply the preset **FluidSynth**  ![](../../.gitbook/assets/outputsynth-presetfluidsynth.png) 
 
 {% hint style="info" %}
 The start of FluidSynth with the virtual Midi port can be automated via a shell script.
@@ -119,8 +119,8 @@ The Java internal synth is not high-performance, you may hear some dropped notes
 ## Instructions <a id="setup-instructions"></a>
 
 1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036) 
-2. In the JJazzLab **Midi options**, select the **Java Internal Synth** and load the **JJazzLab-SoundFont.sf2**  ![](../.gitbook/assets/loadsoundfont-javasynth.png)  
-3. Go to the **Output Synth Editor** and apply the preset **Java Internal Synth** ![](../.gitbook/assets/outputsynth-presetjavasynth.png) 
+2. In the JJazzLab **Midi options**, select the **Java Internal Synth** and load the **JJazzLab-SoundFont.sf2**  ![](../../.gitbook/assets/loadsoundfont-javasynth.png)  
+3. Go to the **Output Synth Editor** and apply the preset **Java Internal Synth** ![](../../.gitbook/assets/outputsynth-presetjavasynth.png) 
 
 {% hint style="info" %}
 If you’re on Mac OSX the Midi Configuration Wizard will automatically perform the same steps if you choose to use the JJazzLab SoundFont.

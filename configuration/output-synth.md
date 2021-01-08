@@ -1,7 +1,7 @@
 # Output synth
 
 {% hint style="info" %}
-If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont.md) page. 
+If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont/) page. 
 {% endhint %}
 
 ## Output synth concept <a id="output-synth-concept"></a>

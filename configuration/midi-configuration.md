@@ -1,7 +1,7 @@
 # Midi configuration
 
 {% hint style="success" %}
-If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-soundfont.md). 
+If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-soundfont/). 
 {% endhint %}
 
 ## Overview
