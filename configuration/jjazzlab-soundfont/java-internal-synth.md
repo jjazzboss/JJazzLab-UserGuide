@@ -2,7 +2,7 @@
 
 The Java runtime engine used by JJazzLab has an internal Midi synth \(sometimes callled Gervill\).
 
-If you don't load a SoundFont file it will use built-in GM sounds.
+If you don't load a SoundFont file it will use its built-in GM sounds.
 
 {% hint style="warning" %}
 The built-in GM sounds are not good quality sounds, but it can be enough to test JJazzLab. The good thing is that no setup is required, it will work out-of-the-box.
