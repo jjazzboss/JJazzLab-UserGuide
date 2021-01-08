@@ -36,9 +36,8 @@ In order to avoid having too many files cluttering the **User Directory for Rhyt
   
    Standard [Yamaha styles ](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)\(.sty, .prs, .sst or .bcs\) should appear in the **YamJJazz standard styles**, and [extended Yamaha styles](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) \(.yjz\) should appear in the **YamJJazz extended styles**.   
 
-2. **Copy the validated rhythm files** Once you have selected the “best” rhythm files, copy them somewhere in the **User Directory for Rhythm Files** \(see above\).
-
-**3. Force a Rescan from Options/Rhythms**
+2. **Copy the validated rhythm files** Once you have selected the “best” rhythm files, copy them somewhere in the **User Directory for Rhythm Files** \(see above\). 
+3. **Force a Rescan from Options/Rhythms**
 
 {% hint style="danger" %}
 Quality of Yamaha style files found on the web vary a lot. Furthermore some styles are sometimes “broken” \(invalid file format\). If there is an error the corresponding rhythm won’t show up in the rhythm selection dialog.
