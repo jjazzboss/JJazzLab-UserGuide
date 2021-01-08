@@ -1,7 +1,3 @@
----
-description: JJazzLab-X / JJazzLab
----
-
 # Home
 
 **Links**   [Developer Guide](https://jjazzlab.gitbook.io/developer-guide)  -  [JJazzLab-X GitHub repository](https://github.com/jjazzboss/JJazzLab-X)  -  [www.jjazzlab.com](https://www.jjazzlab.com)
