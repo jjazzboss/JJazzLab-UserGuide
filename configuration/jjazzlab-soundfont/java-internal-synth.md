@@ -8,7 +8,7 @@ If you don't load a SoundFont file it will use its built-in GM sounds.
 The built-in GM sounds are not good quality sounds, but it can be enough to test JJazzLab. The good thing is that no setup is required, it will work out-of-the-box.
 {% endhint %}
 
-## JJazzLab SoundFont setup <a id="setup-instructions"></a>
+## Initial setup with the JJazzLab SoundFont <a id="setup-instructions"></a>
 
 {% hint style="warning" %}
 The Java internal synth is not high-performance. When used with a large SoundFont like the JJazzLab SoundFont you may hear some dropped notes when too many notes are played. 
