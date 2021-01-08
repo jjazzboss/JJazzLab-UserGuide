@@ -10,6 +10,7 @@
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(win\)](configuration/jjazzlab-soundfont/virtualmidisynth-win.md)
   * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/untitled.md)
+  * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [Output synth](configuration/output-synth.md)
 
 ## Songs
