@@ -6,7 +6,7 @@ For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engin
 
 ## Rhythm files location <a id="rhythm-files-location"></a>
 
-JJazzLab expects rhythm files to be in the **User Directory for Rhythm Files**. The location of this directory can be changed in the **Options/Rhythms**. 
+JJazzLab expects rhythm files to be in the **User directory for rhythm Files**. The location of this directory can be changed in the **Options/Rhythms**. 
 
 {% hint style="info" %}
 You can use up to 2 levels of sub-directories to organize the rhythms. Sub-directories whose name starts with an underscore '\_' are not scanned.
@@ -21,12 +21,12 @@ Your **rhythm files** are scanned at startup only upon a fresh install, and the 
 This cache file is then used to get the **rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files. 
 
 {% hint style="info" %}
-If you add or remove **rhythm files** you need to manually force a re-scan in order to update the cache file. This can be done in **Option/Rhythms** \(see image above\).
+If you add or remove **rhythm files** in the **user directory for rhythm files** \(or a subdirectory\) you need to manually force a re-scan in order to update the cache file. This can be done in **Option/Rhythms** \(see image above\).
 {% endhint %}
 
 ## Adding new rhythm files <a id="adding-new-rhythm-files"></a>
 
-In order to avoid having too many files cluttering the **User Directory for Rhythm Files**, the recommended way is:
+In order to avoid having too many files cluttering the **User directory for rhythm files**, the recommended way is:
 
 1. **Test the rhythm files**  
    In the **rhythm selection dialog**, use the **Add Rhythms** button to load additional rhythm files for the current session only. These files can be anywhere on your hard drive.  
