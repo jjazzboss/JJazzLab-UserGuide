@@ -2,7 +2,7 @@
 
 **VirtualMIDISynth** is a free, lightweight and efficient SoundFont player for Windows. 
 
-It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI out device -no need for a virtual Midi port.
+It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI out device \(no need for a virtual Midi port\).
 
 {% hint style="success" %}
 VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
