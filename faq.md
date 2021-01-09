@@ -32,7 +32,7 @@ On MacOS the **Options** dialog is accessed via the main menu **JJazzLab/Prefere
 
 {% tabs %}
 {% tab title="Windows" %}
-It's easy if you use **VirtualMidiSynth** with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/):
+It's easy if you use **VirtualMidiSynth** with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/virtualmidisynth-win.md):
 
 1. in JJazzLab, save the backing tracks as a .mid file using menu **File/Export to Midi file**
 2. open **VirtualMIDISynth** \(right-click from the icon in the Windows system tray\) and select the **MIDI converter**. Select the .mid file and generate the audio file.
