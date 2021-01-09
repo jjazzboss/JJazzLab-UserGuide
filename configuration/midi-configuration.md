@@ -16,5 +16,5 @@ The **output synth** produces the sounds. If JJazzLab knows the capabilities of 
 
 ## Midi Configuration Wizard <a id="midi-configuration-wizard"></a>
 
-This wizard will help you select the best Midi configuration.  It is launched automatically the first time you run JJazzLab. You can also run it manually from the menu **Tools/Midi Configuration Wizard**.
+This wizard will help you select the best Midi configuration.  It is launched automatically the first time you run JJazzLab. You can also run it manually from menu **Tools/Midi Configuration Wizard**.
 
