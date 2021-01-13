@@ -106,5 +106,5 @@ If for some reason the above does not work:
 If you can't find the **Netbeans user dir**., make sure your explorer shows the hidden files \(e.g. the AppData directory is usually hidden on Windows\)
 {% endhint %}
 
-
+ 
 
