@@ -55,7 +55,7 @@ You need to reset all JJazzLab user settings \(uninstall/re-install is not enoug
 
 The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
 
-The hard way: find the location of your **Netbeans user dir.** in menu **Help/About/System Information**, ****exit JJazzLab, then delete the **Netbeans user dir**.
+The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, ****exit JJazzLab, then delete the **Netbeans user dir**.
 
 ## I don't have administration privileges on my Windows computer, can I install JJazzLab?
 
