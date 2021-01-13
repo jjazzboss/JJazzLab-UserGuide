@@ -75,7 +75,7 @@ This won't solve everything though, as some editor fonts do not depend on this s
 
 Send an [email ](https://www.jjazzlab.com/en/contact/)or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
 
-Help us to help you, we need information in order to reproduce your issue:
+We need the following information in order to help you:
 
 * Provide the content of the **log file** 
 * Describe what does not work as expected
