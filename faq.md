@@ -71,3 +71,29 @@ Restart JJazzLab. All menus should look bigger now.
 
 This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
 
+## How to submit a bug? How to find the "log" file?
+
+Send an [email ](https://www.jjazzlab.com/en/contact/)or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
+
+Help us to help you, we need information in order to reproduce your issue:
+
+* Provide the content of the **log file** 
+* Describe what does not work as expected
+* Describe the sequence of actions that caused the issue
+
+{% hint style="info" %}
+A new **log file** is created upon each start of JJazzLab. It's important to get the log file when the problem occured.
+{% endhint %}
+
+To get the log file content:
+
+1. Right after the problem has occured, go to menu **Tools/Options/Advanced**
+2. Click on **Show Log Window**
+3. Copy & paste **the full content** of this window in your bug report
+
+If for some reason the above does not work:
+
+1. Go to menu **Help/About** and find the location of your **Netbeans user dir**.  For ex. on Windows `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` For ex. on Linux `/home/MyName/.jjazz/2.2`
+2. Open an explorer, go to this directory then to **var/log** subdirectory
+3. The last log file is **messages.log**, the previous one is **messages.log.1**, the before previous is **messages.log.2**, etc.
+
