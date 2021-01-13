@@ -19,7 +19,7 @@ description: Frequently Asked Questions
 * Spread the word ! Talk and add links to **www.jjazzlab.com** on social networks, blogs, websites, etc.
 * If you're a developer, [contribute code](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
 
-## I use MacOS, where is menu **Tools/Options?**
+## I use MacOS, I can't find menu **Tools/Options?**
 
 On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**.
 
