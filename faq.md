@@ -82,7 +82,7 @@ We need the following information in order to help you:
 * Describe the sequence of actions that caused the issue
 
 {% hint style="info" %}
-A new **log file** is created upon each start of JJazzLab. It's important to get the log file when the problem occured.
+A new **log file** is created upon each start of JJazzLab. It's important to get the right log file when the problem occured.
 {% endhint %}
 
 To get the log file content:
