@@ -19,9 +19,9 @@ description: Frequently Asked Questions
 * Spread the word ! Talk and add links to **www.jjazzlab.com** on social networks, blogs, websites, etc.
 * If you're a developer, [contribute code](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
 
-## The documentation mentions a menu **Tools/Options** but I can't find it on MacOS
+## I use MacOS, where is menu **Tools/Options?**
 
-On MacOS the **Options** dialog is accessed via the main menu **JJazzLab/Preferences**.
+On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**.
 
 ## How do I transpose a song? <a id="how-to-transpose-song"></a>
 
@@ -51,7 +51,7 @@ Use the VST host \(Cubase, Reaper, etc.\) capabilities to record the output of t
 
 ## How to force a clean re-installation?
 
-You need to reset all JJazzLab user-settings \(uninstall/re-install is not enough\). 
+You need to reset all JJazzLab user settings \(uninstall/re-install is not enough\). 
 
 The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
 
