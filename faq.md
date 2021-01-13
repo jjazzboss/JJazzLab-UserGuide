@@ -49,9 +49,13 @@ Use the VST host \(Cubase, Reaper, etc.\) capabilities to record the output of t
 {% endtab %}
 {% endtabs %}
 
-## Can I use JJazzLab like a virtual arranger keyboard, i.e. play the chords in real time on my keyboard to control JJazzLab?
+## How to force a clean re-installation?
 
-No you can't, JJazzLab was not designed for this purpose.
+You need to reset all JJazzLab user-settings \(uninstall/re-install is not enough\). 
+
+The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
+
+The hard way: find the location of your **Netbeans user dir.** in menu **Help/About/System Information**, ****exit JJazzLab, then delete the **Netbeans user dir**.
 
 ## I don't have administration privileges on my Windows computer, can I install JJazzLab?
 
