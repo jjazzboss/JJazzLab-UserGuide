@@ -1,16 +1,16 @@
 ---
-description: ... and JJazzLab-X
+description: / JazzLab-X
 ---
 
 # JJazzLab
-
-**Links**   [Developer Guide](https://jjazzlab.gitbook.io/developer-guide)  -  [JJazzLab-X GitHub repository](https://github.com/jjazzboss/JJazzLab-X)  -  [www.jjazzlab.com](https://www.jjazzlab.com)
 
 {% hint style="info" %}
 Want to add or fix documentation?  Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
-🤔 If you don't know where to start, try this very short [video tutorial](video-tutorials.md#for-starters).
+## Where to start?
+
+Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 ## What is JJazzLab? 
 
