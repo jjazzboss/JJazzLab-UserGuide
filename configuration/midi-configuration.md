@@ -15,7 +15,7 @@ The **Midi out device** can be selected in the menu **Tools/Options/Midi**.
 The **Midi out device** must be connected to external hardware synths via a Midi or USB cable, or via a **virtual Midi port** for software synths such as VST instruments, SoundFont players, etc. There are free **virtual Midi ports** on the web, such as [LoopBe1 ](https://nerds.de/en/loopbe1.html)on Windows or [Virmidi ](https://alsa.opensrc.org/Virmidi)on Linux.
 
 {% hint style="warning" %}
-If you use the VirtualMidiSynth SoundFont player on Windows, you don't need a **virtual Midi port** because VirtualMidiSynth installs itself as a Midi out device.
+If you use the VirtualMidiSynth SoundFont player on Windows, you don't need a **virtual Midi port** because VirtualMidiSynth installs itself as a **Midi out device**.
 {% endhint %}
 
 The **output synth** produces the sounds. If JJazzLab knows the capabilities of your **output synth**, JJazzLab can directly control it from the [**mix console**](../songs/song-editors/mix-console.md)**.** And most importantly when you select a rhythm JJazzLab can automatically select the relevant sounds, using drum map conversion when necessary. 
