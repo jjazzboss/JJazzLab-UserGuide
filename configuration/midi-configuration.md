@@ -6,7 +6,7 @@ If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-
 
 ## Overview
 
-![](../.gitbook/assets/midiwizard-image1.png)
+![](../.gitbook/assets/midiwizard-image1%20%281%29.png)
 
 JJazzLab is a Midi application. It does not directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent via the **Midi out device** to your [**output synth**](output-synth.md). 
 
