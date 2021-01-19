@@ -18,7 +18,7 @@ The song import feature is not 100% reliable, but most of the files should be OK
 
 ## musicXML files
 
-JJazzLab can import musicXML \(.xml\) or compress musicXML \(.mxl\). 
+JJazzLab can import musicXML \(.xml\) or compressed musicXML \(.mxl\). 
 
 The import is limited to the time signatures and chord symbols.
 
