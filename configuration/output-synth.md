@@ -86,6 +86,8 @@ Or do it channel by channel, and parameter by parameter, via the **channel setti
 
 ![](../.gitbook/assets/channelsettings.png)
 
+Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments \(Bank Select/Program Midi messages\).
+
 ## Midi synth definition files \(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
 JJazzLab can read Cakewalk instrument definition files \(.ins\). An instrument definition file defines a **Midi synth** with its list of instruments and how to select them via Midi \(Bank Select/Program Change values\).
