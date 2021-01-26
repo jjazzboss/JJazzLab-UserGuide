@@ -69,7 +69,7 @@ JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect y
 
 In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add **--fontsize 16** \(16 or any other value, default is 11\) in the **default\_options** variable, you should end up with something like this:
 
-`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY -J-DNOT_RUN_FROM_IDE=true --fontsize 16"` 
+`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"` 
 
 Restart JJazzLab. All menus should look bigger now.
 
