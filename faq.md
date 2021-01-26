@@ -75,6 +75,15 @@ Restart JJazzLab. All menus should look bigger now.
 
 This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
 
+## Can I start JJazzLab with command line arguments?
+
+You can pass one or more .sng file names on the command line, JJazzLab will open them upon start.
+
+```text
+# Example on Win10
+"C:\Program Files\JJazzLab\bin\jjazzlab64.exe" C:\MySong.sng C:\AnotherSong.sng
+```
+
 ## How to submit a bug? How to find the "log" file?
 
 Send an [email ](https://www.jjazzlab.com/en/contact/)or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
