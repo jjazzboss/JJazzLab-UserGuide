@@ -14,8 +14,8 @@ Most Yamaha styles use the [XG drum map](https://www.jjazzlab.com/images/doc/XG-
 
 ## Setup
 
-* With [VirtualMidiSynth](virtualmidisynth-win.md) \(recommended for Windows\) 
-* With [FluidSynth](untitled.md) \(recommended for Linux/MacOS\) 
+* With [VirtualMidiSynth](virtualmidisynth.md) \(recommended for Windows\) 
+* With [FluidSynth](fluidsynth.md) \(recommended for Linux/MacOS\) 
 * With the [Java internal synth](java-internal-synth.md) \(all OS, easiest setup but lower sound quality\)
 
 
