@@ -1,6 +1,6 @@
 # Rhythm files
 
-Rhythms are made available by [rhythm engines](../rhythm-engines/rhythm-engines-overview.md). Some rhythms can be based on **rhythm files**. 
+Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. 
 
 For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
 
