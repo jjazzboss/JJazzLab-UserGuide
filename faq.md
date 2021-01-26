@@ -80,7 +80,7 @@ This won't solve everything though, as some editor fonts do not depend on this s
 You can pass one or more .sng file names on the command line, JJazzLab will open them upon start.
 
 ```text
-# Example on Win10
+# Example on Win10 (x64)
 "C:\Program Files\JJazzLab\bin\jjazzlab64.exe" C:\MySong.sng C:\AnotherSong.sng
 ```
 
