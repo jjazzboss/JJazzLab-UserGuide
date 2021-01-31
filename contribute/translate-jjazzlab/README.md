@@ -10,7 +10,7 @@ draft: false
 
 JJazzLab uses the [crowdin.com](crowdin.com) platform, which makes it super easy to translate phrases, directly from your browser.
 
-![](../../.gitbook/assets/crowdinlanguages.png)
+![](../../.gitbook/assets/2021-01-31-21_16_39-jjazzlab-translations-in-crowdin-mozilla-firefox.png)
 
 ## Who can do it?
 
