@@ -72,7 +72,7 @@ Trackname examples:
 * Ending B-1-piano-4
 * Ending B-1-bass-4
 
-For `<id string>` you can use whatever string you like, but it's a good practice to mention at least the target instrument. If you use the **Extended style creation wizard**, `id string` will be something like `[Bass, C7M, ch11]` : the instrument name, the **source chord** and **source Midi channel**.
+For `<id string>` you can use whatever string you like, but it's a good practice to mention at least the target instrument. If you use the **Extended style creation wizard**, `id string` is generated for you and will be something like `[Bass, C7M, ch11]` : the instrument name, the **source chord** and **source Midi channel**.
 
 All tracks for a given variation must have the same length in beats. But different variations can have different lengths.
 
