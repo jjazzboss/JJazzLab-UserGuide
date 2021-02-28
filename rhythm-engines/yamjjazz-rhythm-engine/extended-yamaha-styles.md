@@ -23,7 +23,7 @@ Once created you'll need to manually alter the musical phrases of the .yjz Midi 
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
-## .yjz extension file format <a id="yjz-extension-file-format"></a>
+## .yjz file format <a id="yjz-extension-file-format"></a>
 
 {% hint style="info" %}
 If you don’t plan to create your own .yjz file you can skip this paragraph.
