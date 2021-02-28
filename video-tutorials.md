@@ -12,6 +12,10 @@
 
 
 
+## How to make your own Yamaha extended styles - tutorial
+
+{% embed url="https://youtu.be/2iVB8t6uAVA" %}
+
 
 
 
