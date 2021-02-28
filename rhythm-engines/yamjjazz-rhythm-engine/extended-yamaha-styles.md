@@ -1,6 +1,6 @@
 # Extended Yamaha styles
 
-The [YamJJazz rhythm engine](./) ****can read ****a new file format \(.yjz\) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file \(.sty, .prs\). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+The [YamJJazz rhythm engine](./) ****can read ****a new file format \(.yjz\) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file \(.sty, .prs, .sst, etc.\). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
 
 An **extended style** \(.yjz\) supports :
 
@@ -13,7 +13,7 @@ A .yjz file is just the extension part of a standard Yamaha style file, the **ba
 
 ## Extended style creation wizard
 
-This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** \(.yjz\) from a standard Yamaha style file \(.sty, .prs, ...\). See the  video below for how to use this wizard.
+This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** \(.yjz\) from a standard Yamaha style file \(.sty, .prs, ...\). See the  video below for how to use it.
 
 {% hint style="warning" %}
 Once created you'll need to manually alter the musical phrases of the .yjz Midi file using a Midi editor or a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.
@@ -29,7 +29,7 @@ Once created you'll need to manually alter the musical phrases of the .yjz Midi 
 If you don’t plan to create your own .yjz file you can skip this paragraph.
 {% endhint %}
 
-We recommend to use the **Extended style creation wizard** to create a .yjz for you \(see above\).
+We recommend to use the **Extended style creation wizard** to prepare a .yjz file ready to be customized \(see above\).
 
 The extension file \(.yjz\) must be associated to a base Yamaha style file \(.sty, .prs, .sst, etc.\) with the same name in the same directory.
 
@@ -53,13 +53,13 @@ If the base style does not have variation Intro B \(example\), then it’s **not
 
 ### Midi format <a id="midi-format"></a>
 
-**.yjz files use Midi format 1**, they can contain several tracks. Note that .sty or .prs files use Midi format 0, they contain a single track.
+**.yjz files use Midi format 1**, they contain several tracks. Note that .sty or .prs files use Midi format 0, they contain a single track.
 
 Each track of the extension file must start with a Midi trackname meta event with the following syntax:
 
 **`trackname=<base variation>-<complexity level>-<id string>-<phrase length in beats>`**
 
-Examples:
+Trackname examples:
 
 * Main A-1-drums-8
 * Main A-1-bass-8
@@ -77,15 +77,21 @@ For `<id string>` you can use whatever string you like, but it's a good practice
 All tracks for a given variation must have the same length in beats. But different variations can have different lengths.
 
 {% hint style="warning" %}
-Depending on the CASM data, there might more than one source phrase for a given destination channel \(the guitar and guitar\_root phrases in the example above\).
+Depending on the CASM data, there might be more than one source phrase for a given instrument \(the guitar and guitar\_root phrases in the example above\). For example one channel can be used for major chords, the other one for minor chords.
 {% endhint %}
 
-A track should only contain Midi note on/off messages for its **source chord** and **source Midi channel,** as defined in the CASM data of the base style. If you used the **Extended style creation wizard**, you have the source chord and Midi channel in the `<id string>`, as explained above.
+A track should only contain Midi note on/off messages for its **source chord** and **source Midi channel,** as defined in the CASM data of the base style. If you used the **Extended style creation wizard**, you have the **source chord** and **Midi channel** indicated in the `<id string>`, as explained above.
 
 ### Alternate source phrases <a id="alternate-takes"></a>
 
-To add alternate source phrases for a given variation, just append source phrases on each track of this variation. Each appended source phrase must have the same length than the original phrase.
+To add **alternate source phrases** for a given variation, just append source phrases on each track of this variation. Each appended source phrase must have the same length than the original phrase.
 
 **Example**  
-The source phrase length of track Main A-1-bass-8 is 8 beats. You can append 2 similar 8-beat source phrases on that track, so the track length becomes 24 beats. YamJJazz will consider the 2 appended phrases as ‘alternate takes’ of the first source phrase, to be used randomly when rendering the Main A-1 bass part. Note that 2 ‘alternate takes’ must be also added for all the other Main A-1 tracks: Main A-1-drums-8, Main A-1-guitar-8 and Main A-1-guitar\_root-8.
+The source phrase length of track Main A-1-bass-8 is 8 beats \(2 bars in 4/4\). You can append 2 similar 8-beat source phrases on that track, so the track length becomes 24 beats. YamJJazz will consider the 2 appended phrases as **alternate source phrases** of the first source phrase, to be used randomly when rendering the Main A-1 bass part. 
+
+Note that 2 alternate source phrases must be also added for all the other Main A-1 tracks: Main A-1-drums-8, Main A-1-guitar-8 and Main A-1-guitar\_root-8.
+
+{% hint style="info" %}
+If you have for example 3 source phrases for Main A-1, JJazzLab will randomly pick a source phrase every 2 bars. The selection is actually not 100% random: the first source phrase has more chances to be selected than the second one, and the second one has more chances to be selected than the third one, etc. In other words the last source phrase has the least chances to get selected.
+{% endhint %}
 
