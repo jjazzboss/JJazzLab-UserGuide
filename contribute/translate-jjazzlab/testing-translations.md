@@ -14,17 +14,9 @@ It's not that simple, but perfectly feasible if you're motivated enough. Below a
 
 If not, install it from [adoptopenjdk.net](https://adoptopenjdk.net/).
 
-### Download and install Netbeans IDE 12.0 from [Apache Netbeans](https://netbeans.apache.org/) website
+### Download and install Netbeans IDE 12.3 from [Apache Netbeans](https://netbeans.apache.org/) website
 
 This is the development environment and platform on which JJazzLab-X is built.
-
-### Patch the Netbeans IDE
-
-You need to patch Netbeans 12.0 to overcome an annoying limitation regarding the file encoding of language files.
-
-1. Download the patched file [org-openide-util.jar](https://www.jjazzlab.com/docs/org-openide-util.jar)
-2. Go to **&lt;Netbeans\_install\_dir&gt;/platform/lib**
-3. Replace **org-openide-util.jar** with the patched version \(for safety make a backup of the original file\)
 
 ### Start Netbeans IDE
 
