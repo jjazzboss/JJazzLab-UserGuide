@@ -14,7 +14,7 @@ It's not that simple, but perfectly feasible if you're motivated enough. Below a
 
 If not, install it from [adoptopenjdk.net](https://adoptopenjdk.net/).
 
-### Download and install Netbeans IDE 12.3 from [Apache Netbeans](https://netbeans.apache.org/) website
+### Download and install Netbeans IDE 12.3 \(or later\) from [Apache Netbeans](https://netbeans.apache.org/) website
 
 This is the development environment and platform on which JJazzLab-X is built.
 
