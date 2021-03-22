@@ -61,7 +61,7 @@ The hard way: find the location of your **Netbeans user dir** in menu **Help/Abo
 
 Yes. When first prompted by the JJazzLab installer, select "Install only for me", then select an installation directory where you have write access \(in My Documents for example\).
 
-## How to get better sounding backing tracks?
+## How to get better sounds?
 
 You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account: 
 
