@@ -86,6 +86,10 @@ Below are some typical configurations.
 
 For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
 
+{% hint style="info" %}
+JJazzLab concept is to be able to _quickly_ generate a decent backing track. Users who want optimal quality often just export the backing track to a Midi file, then import it in their preferred DAW for customization.
+{% endhint %}
+
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
 JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
