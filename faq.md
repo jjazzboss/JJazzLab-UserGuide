@@ -84,11 +84,15 @@ Below are some typical configurations.
 | Hardware synthesizer | Very good | In GM mode the mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. If you find a Cakewalk instrument definition file \(.ins\) on the web for your synth, you can control it directly from JJazzLab. |
 | Software synthesizers | Best | Usually no GM compatibility. Need some effort for the initial set up : virtual Midi device + VST host, select each instrument sound, adjust mix from VST host, ... Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. Unless you created your own Cakewalk instrument definition file \(.ins\), you'll need to adjust your setup when you change rhythm. |
 
-For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
-
 {% hint style="info" %}
 JJazzLab concept is to be able to _quickly_ generate a decent backing track. Users who want optimal quality often just export the backing track to a Midi file, then import it in their preferred DAW for customization.
 {% endhint %}
+
+Also, when a rhythm does not sound good, you'd be surprised how you can improve things just by trying different instruments and adjusting the mix \(volume, effect, panoramic, velocity shift\).
+
+If you want to fully customize a backing track, remember that you can simply export to a Midi file, then import the file into your preferred DAW for customization \(change instrument sounds, add per-instrument effects, etc.\).
+
+For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
 
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
