@@ -79,10 +79,12 @@ Below are some typical configurations.
 | Output Synth | Sound Quality | Comments |
 | :--- | :--- | :--- |
 | Java Internal Synth with default bank | Low | Works out of the box. Considering the super small size of the default sound bank, the overall sound balance is quite good actually. |
-| GM SoundFonts | Low-Medium | Difficult to find a well-balanced soundfont, e.g. you get a nice piano but the bass sucks, etc. Per-instrument effects are limited to reverb and chorus. No XG compatibility.  |
+| GM SoundFonts | Low-Medium | Difficult to find a well-balanced SoundFont, e.g. you get a nice piano but the bass sucks, etc. Per-instrument effects are limited to reverb and chorus. No XG compatibility.  |
 | JJazzLab SoundFont | Medium | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. Per-instrument effects are limited to reverb and chorus.  |
 | Hardware synthesizer | Very good | In GM mode the mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), which has a big impact on overall rendering. If you find a Cakewalk instrument definition file \(.ins\) on the web for your synth, you can control it directly from JJazzLab. |
 | Software synthesizers | Best | Usually no GM compatibility. Need some effort to set up. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), which has a big impact on overall rendering. Unless you created your own Cakewalk instrument definition file \(.ins\), you'll need to adjust your setup when you change rhythm. |
+
+For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
 
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
