@@ -28,7 +28,8 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
        0 'VirMIDI 1-0'
    ```
 
-3. Install **FluidSynth** and **QSynth**, its graphical user interface
+3. Install **FluidSynth** and **QSynth**, its graphical user interface  
+   \(tested OK on Linux Mint, if problem please consult the FluidSynth documentation\)
 
    ```text
    $ sudo apt-get update -y            # Get latest packages info
