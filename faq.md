@@ -72,7 +72,7 @@ You need a _good synthesizer_ connected to the output of JJazzLab. But what mean
 2 other factors can also impact the backing track rendering : 
 
 * **Drums XG compatibility**: many Yamaha styles use specific XG drum/percussion sounds, e.g. jazz brushes, etc.
-* **Correct Output Synth configuration in JJazzLab**: Yamaha styles define a preferred instrument \(e.g. synth bass\) for each channel. If the Output Synth configuration is wrong, JJazzLab can't select the optimal instrument for each channel \(e.g. use wooden bass instead of a synth bass\).
+* **Correct Output Synth configuration in JJazzLab**: Yamaha styles define a preferred instrument \(e.g. synth bass\) for each channel. If the Output Synth configuration is wrong, JJazzLab can't select the optimal instrument for each channel \(e.g. use a piano sound instead of a synth bass\).
 
 Below are some typical configurations.
 
