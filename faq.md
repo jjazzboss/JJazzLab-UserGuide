@@ -61,6 +61,29 @@ The hard way: find the location of your **Netbeans user dir** in menu **Help/Abo
 
 Yes. When first prompted by the JJazzLab installer, select "Install only for me", then select an installation directory where you have write access \(in My Documents for example\).
 
+## How to get better sounding backing tracks?
+
+You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account: 
+
+* **Individual sound quality** \(sounds for drums, bass, piano, ...\)
+* **Overall sound mix**  \(how the different instruments fit together\)
+* **Effects** \(overall and per-instrument effects\)
+
+2 other factors can also impact the backing track rendering : 
+
+* **Drums XG compatibility**: many Yamaha styles use specific XG drum/percussion sounds, e.g. jazz brushes, etc.
+* **Correct Output Synth configuration in JJazzLab**: Yamaha styles define a preferred instrument \(e.g. synth bass\) for each channel. If the Output Synth configuration is wrong, JJazzLab can't select the optimal instrument for each channel \(e.g. use wooden bass instead of a synth bass\).
+
+Below are some typical configurations.
+
+| Output Synth | Sound Quality | Comments |
+| :--- | :--- | :--- |
+| Java Internal Synth with default bank | Low | Works out of the box. Considering its super small size of the default sound bank, the overall sound balance is quite good actually. |
+| GM SoundFonts | Low-Medium | Difficult to find a well-balanced soundfont, e.g. you get a nice piano but the bass sucks, etc. Per-instrument effects are limited to reverb and chorus. No XG compatibility.  |
+| JJazzLab SoundFont | Medium | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. |
+| Hardware synthesizer | Very good | The mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), which has a big impact on overall rendering. If you find a Cakewalk instrument definition file \(.ins\) on the web for your synth, you can control it directly from JJazzLab. |
+| Software synthesizers | Best | Need some effort to set up. Unless you created your own Cakewalk instrument definition file \(.ins\), you'll need to adjust your setup when you change the rhythm. |
+
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
 JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
