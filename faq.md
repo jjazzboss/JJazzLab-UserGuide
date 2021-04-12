@@ -110,7 +110,7 @@ You can pass one or more .sng file names on the command line, JJazzLab will open
 
 ```text
 # Example on Win10 (x64)
-"C:\Program Files\JJazzLab\bin\jjazzlab64.exe" C:\MySong.sng C:\AnotherSong.sng
+"C:\Program Files\JJazzLab\bin\jjazzlab64.exe" "C:\my dir\MySong.sng" "D:\AnotherSong.sng"
 ```
 
 ## How to submit a bug? How to find the "log" file?
