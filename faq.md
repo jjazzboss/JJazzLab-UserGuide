@@ -65,9 +65,13 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account: 
 
-* **Individual sound quality** \(sounds for drums, bass, piano, ...\)
-* **Overall sound mix**  \(how the different instruments fit together\)
-* **Effects** \(overall and per-instrument effects\)
+1. **Individual sound quality** \(sounds for drums, bass, piano, ...\)
+2. **Overall sound mix**  \(how the different instruments fit together\)
+3. **Effects** \(overall and per-instrument effects\)
+
+{% hint style="info" %}
+Experience shows that factors 2. and 3. can be as much important as factor 1.
+{% endhint %}
 
 2 other factors can also impact the backing track rendering : 
 
@@ -79,8 +83,8 @@ Below are some typical configurations.
 | Output Synth | Sound Quality | Comments |
 | :--- | :--- | :--- |
 | Java Internal Synth with default bank | Low | Works out of the box. Considering the super small size of the default sound bank, the overall sound balance is quite good actually. |
-| GM SoundFonts | Low-Medium | Difficult to find a well-balanced SoundFont, e.g. you get a nice piano but the bass sucks, etc. Per-instrument effects are limited to reverb and chorus. No XG compatibility.  |
-| JJazzLab SoundFont | Medium | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. Per-instrument effects are limited to reverb and chorus.  |
+| GM SoundFonts | Low-Medium | Difficult to find a well-balanced SoundFont, e.g. you get a nice piano but the bass sucks, etc. No individual effect per instrument. No XG compatibility.  |
+| JJazzLab SoundFont | Medium | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. No individual effect per instrument.  |
 | Hardware synthesizer | Very good | In GM mode the mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. If you find a Cakewalk instrument definition file \(.ins\) on the web for your synth, you can control it directly from JJazzLab. |
 | Software synthesizers | Best | Usually no GM compatibility. Need some effort for the initial set up : virtual Midi device + VST host, select each instrument sound, adjust mix from VST host, ... Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. Unless you created your own Cakewalk instrument definition file \(.ins\), you'll need to adjust your setup when you change rhythm. |
 
