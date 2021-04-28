@@ -101,5 +101,5 @@ Note that some commands such as menu **Edit/Reset channels** will not be applied
 | Selection | Mouse | Action |
 | :--- | :--- | :--- |
 | channel volume slider, knobs | double-click | Input value with keyboard |
-| channel volume slider | shift-drag | change volume of all channels |
+| channel volume slider | shift + mouse-drag | change volume of all channels |
 

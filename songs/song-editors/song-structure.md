@@ -60,9 +60,10 @@ Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. 
 | song part | double click | edit song part name |
 | song part name | click | edit  |
 | rhythm | click | select a rhythm |
-| rhythm param. | double click | show in the song part editor |
 | editor, song part, rhythm param. | right-click | open popup menu |
-| rhythm param. | mouse wheel | change value |
+| rhythm parameter | double-click | edit value |
+| rhythm parameter | mouse wheel | change value |
+| rhythm parameters | shift+mouse wheel | make values identical then change value |
 | editor | ctrl mouse wheel | change X zoom factor |
 
 ## Keyboard shortcuts
@@ -79,8 +80,8 @@ Many actions are also available via the context menu \(right-click on Windows/Li
 | song part, rhythm param. | ctrl-I | append song part |
 | song part, rhythm param. | D | duplicate song part\(s\) |
 | song part | delete | delete song part\(s\) |
-| rhythm param. | ctrl-up/down | next/previous value |
-| rhythm param. | Z | reset param. value |
+| rhythm parameter | ctrl-up/down | next/previous value |
+| rhythm parameter | Z | reset param. value |
 | song part | ctrl-C/X/V | copy/cut/paste |
 | editor | ctrl-Z/Y | undo/redo |
 | editor | ctrl-F | zoom to fit width |
