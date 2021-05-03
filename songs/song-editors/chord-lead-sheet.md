@@ -165,6 +165,7 @@ Many actions are also available via the context menu \(right-click on Windows/Li
 | bar | I | insert bars |
 | bar | delete | clear bar contents |
 | chord symbol, section | delete | remove |
+| chord symbol, section | ctrl-left/right | move item one bar left/right |
 | bar | shift-delete | remove |
 | chord symbol | ctrl-up/down | transpose |
 | chord symbol | P | change interpretation |
