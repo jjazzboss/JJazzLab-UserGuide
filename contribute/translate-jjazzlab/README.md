@@ -6,6 +6,14 @@ draft: false
 
 # Translate JJazzLab
 
+## THANKS to the top translation contributors!
+
+* **Chinese**: Yafei
+* **German**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch
+* **French**: Daniel Patin, Hans Hahn
+
+\(top contributors are listed only for complete language packs\)
+
 ## It's easy
 
 JJazzLab uses the [crowdin.com](crowdin.com) platform, which makes it super easy to translate phrases, directly from your browser.
