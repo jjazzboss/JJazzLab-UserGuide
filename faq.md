@@ -64,6 +64,10 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 ## How to get better sounds?
 
+{% hint style="warning" %}
+May 2021 update: the new free version of Halion Sonic SE from Steinberg can be used with JJazzLab to get **really good** sounding backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
+{% endhint %}
+
 You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account: 
 
 1. **Individual sound quality** \(sounds for drums, bass, piano, ...\)
