@@ -26,9 +26,13 @@ You can find more explanations in this [good article](https://www.digitalcitizen
 
 Unzip the package. 
 
-Start JJazzLab using **bin/jjazzlab** in the installation directory.
+Start JJazzLab using **bin/jjazzlab** in the installation directory. 
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
+
+{% hint style="success" %}
+If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    \(thanks to jypma!\) 
+{% endhint %}
 
 ## MacOS instructions
 
