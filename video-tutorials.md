@@ -1,18 +1,18 @@
-# Video tutorials
+# ビデオチュートリアル
 
-## For starters
+## 初めての方向け
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
  
 
-## 15 minutes tutorial
+## 15分チュートリアル
 
 {% embed url="https://www.youtube.com/watch?v=qEP02JZexEU&t=3s" %}
 
 
 
-## How to make your own Yamaha extended styles - tutorial
+## 独自のヤマハ拡張スタイルの作り方チュートリアル
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
