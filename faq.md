@@ -12,8 +12,8 @@ description: よく聞かれる質問
 
 ## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a id="how-to-help"></a>
 
-* [寄付 ](https://www.jjazzlab.com/en/donate/)JJazzLabがみんなに無料のままでいられます。
-* JJazzLab [translate ](contribute/translate-jjazzlab/)の翻訳を手伝ってください。
+* [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
+* JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
 * [ご協力 ](contribute/improve-doc.md)は、この文章の改訂でもお願いしています。
 * ビデオにいいね！と、 [YouTube チャンネル](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)の登録を！
 * あなたがJJazzLabと一緒に演奏しているのを録画して！：そのビデオを、JJazzLabのYouTubeチャンネルに掲載します。
