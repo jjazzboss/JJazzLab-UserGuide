@@ -5,18 +5,20 @@ description: / JJazzLab-X
 # JJazzLab
 
 {% hint style="info" %}
-文章の追加や修正をしたいですか？ できますよ！😀 どうぞ [文章校正](contribute/improve-doc.md) ページへ。
+Want to add or update documentation? Yes you can！😀 See the [Improve doc.](contribute/improve-doc.md) page.
 {% endhint %}
 
-## 手始めに
+## Where to start?
 
-この[ビデオチュートリアル](video-tutorials.md#for-starters)も短いのでまずは御覧ください。
+Try this very short tutorial.
 
-## JJazzLabって、何? 
+{% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
+
+## What is JJazzLab?
 
 ![](.gitbook/assets/jjazzlabscreenshot.png)
 
-🎵 JJazzLabは、複雑なものでも、好きな曲の伴奏\(バッキングトラック\)を自動的に生成するデスクトップアプリケーションです。自宅で即興で楽しんだり、新しいことを学んだり、楽器を練習したりするジャムの相棒です。また、先生にとっても素晴らしいツールです。  
+🎵 JJazzLab is a 。  
 
 🎷 JJazzLabは、飽きの来ない伴奏、様々なリズミカルなアクセントとダイナミクスを持つ伴奏を作るようにデザインされています。ゆったりとソロを始め、徐々に雰囲気を作り上げることもできます！
 
