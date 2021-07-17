@@ -1,8 +1,8 @@
 # Table of contents
 
-* [JJazzLab](README.md)
-* [インストール](installation.md)
-* [ビデオチュートリアル](video-tutorials.md)
+* [index](README.md)
+* [Installation](installation.md)
+* [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
 
 ## Configuration
