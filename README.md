@@ -18,11 +18,11 @@ Try this very short tutorial.
 
 ![](.gitbook/assets/jjazzlabscreenshot.png)
 
-🎵 JJazzLab is a 。  
+🎵 JJazzLab is a desktop application which automatically generates backing tracks for any song, even complex ones. It's a jam buddy to hav e fun improvising at home, learn new stuff or just practice your instrument.  
 
-🎷 JJazzLabは、飽きの来ない伴奏、様々なリズミカルなアクセントとダイナミクスを持つ伴奏を作るようにデザインされています。ゆったりとソロを始め、徐々に雰囲気を作り上げることもできます！
+🎷 JJazzLab is designed to make non boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
 
-💻 基盤となるJJazzLab-Xオープンソースプラットフォームの開発者のおかげで、新しい機能と新しい音楽生成機能を簡単に追加できます。   
+💻 Thanks to the underlying JJazzLab-X open source platform developers can easily add new features and new backing track generation capabilities.   
 
 ## 特徴
 
