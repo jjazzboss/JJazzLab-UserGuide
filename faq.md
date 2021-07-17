@@ -5,40 +5,40 @@ draft: false
 weight: 1000
 helpTitle: true
 toc: true
-description: Frequently Asked Questions
+description: よく聞かれる質問
 ---
 
 # FAQ
 
-## I like JJazzLab and want to keep it free, how can I help? <a id="how-to-help"></a>
+## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a id="how-to-help"></a>
 
-* [Donate ](https://www.jjazzlab.com/en/donate/)to keep JJazzLab free for all
-* Help [translate ](contribute/translate-jjazzlab/)JJazzLab
-* [Contribute ](contribute/improve-doc.md)to improve this documentation
-* Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
-* Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel
-* Spread the word ! Talk and add links to **www.jjazzlab.com** on social networks, blogs, websites, etc.
-* If you're a developer, [contribute code](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
+* [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
+* JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
+* [ご協力 ](contribute/improve-doc.md)は、この文章の改訂でもお願いしています。
+* ビデオにいいね！と、 [YouTube チャンネル](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)の登録を！
+* あなたがJJazzLabと一緒に演奏しているのを録画して！：そのビデオを、JJazzLabのYouTubeチャンネルに掲載します。
+* 口コミ拡散！トークと **www.jjazzlab.com** へのリンクをソーシャルネットワーク、ブログ、ウェブサイトなどで！
+* プログラマーなら、 [プログラムコードにご協力を](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
 
-## I use MacOS, I can't find menu **Tools/Options?**
+## MacOS使いなんですけど、**Tools/Optionsが見当たりませんが?**
 
-On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**.
+MacOSでは、**Options** メインメニューの **JJazzLab/Preferences**からアクセスします。
 
-## How do I transpose a song? <a id="how-to-transpose-song"></a>
+## 曲の移調はどうするのですか？ <a id="how-to-transpose-song"></a>
 
-1. Select all the chord symbols \(right-click menu **Select all the chord symbols**\)
-2. Use the mouse-wheel, or right-click menu **Transpose**
+1. コード記号をすべて選択\(右クリックメニューの **Select all the chord symbols**\)
+2. マウスホイールを使うか、右クリックメニューで移調\( **Transpose** \)
 
-## How to generate an audio file \(.mp3, .wav, etc.\) from a JJazzLab backing track? <a id="generate-mp3"></a>
+## JJazzLabで伴奏オーディオファイル\(.mp3, .wav, etc.\)はどうやって作るのですか？ <a id="generate-mp3"></a>
 
 {% tabs %}
 {% tab title="Windows" %}
-It's easy if you use **VirtualMidiSynth** with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/):
+もし、**VirtualMidiSynth** で[JJazzLab SoundFont](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
 
-1. in JJazzLab, save the backing tracks as a .mid file using menu **File/Export to Midi file**
-2. open **VirtualMIDISynth** \(right-click from the icon in the Windows system tray\) and select the **MIDI converter**. Select the .mid file and generate the audio file.
+1. JJazzLabで、伴奏トラックを **File/Export to Midi file**を使って.midファイルで保存します。
+2. 次に**VirtualMIDISynth** を起動\(Windowsのシステムトレイにあるアイコンを右クリック\)し、MIDIファイルを変換\( **MIDI converter**\)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
 
-You can also use a screen recorder software: some of them directly capture the output of the computer sound card and save it to a .mp3 file.
+また、スクリーンレコーダーソフトウェアを使用することもできます。コンピュータのサウンドカードの出力を直接キャプチャして、.mp3ファイルに保存するものもあります。
 {% endtab %}
 
 {% tab title="Linux" %}
