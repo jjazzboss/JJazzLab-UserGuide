@@ -2,7 +2,7 @@
 description: / JJazzLab-X
 ---
 
-# index
+# JJazzLab
 
 {% hint style="info" %}
 Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.

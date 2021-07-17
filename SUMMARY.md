@@ -1,6 +1,6 @@
 # Table of contents
 
-* [index](README.md)
+* [JJazzLab](README.md)
 * [Installation](installation.md)
 * [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
