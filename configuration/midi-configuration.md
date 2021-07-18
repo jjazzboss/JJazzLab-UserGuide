@@ -1,26 +1,26 @@
 # Midi コンフィギュレーション
 
 {% hint style="success" %}
-If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-soundfont/). 
+Midiでわずらわしいことをしたくない場合は、[JJazzLab サウンドフォント](jjazzlab-soundfont/)を使ってください。
 {% endhint %}
 
-## Overview
+## 概要
 
 ![](../.gitbook/assets/midiwizard-image1%20%282%29.png)
 
-JJazzLab is a Midi application. It does not directly generate audio output, rather it generates Midi messages \(eg “play a D on the bass”\) which are sent via the **Midi out device** to your [**output synth**](output-synth.md). 
+JJazzLabはMidiアプリケーションです。JJazzLabはオーディオ出力を直接生成するのではなく、Midiメッセージ（例：「ベースでDを弾いて」）を生成し、 **Midi**  **出力デバイス** 通して [**シンセ出力**](output-synth.md)に送信します。 
 
-The **Midi out device** can be selected in the menu **Tools/Options/Midi**.
+**Midi出力デバイス**は、メニューの **Tools/Options/Midi**で選択できます。
 
-The **Midi out device** must be connected to an external hardware synth via a Midi or USB cable, or via a **virtual Midi port** for a software synth \(VST instruments, SoundFont players, etc\). There are free virtual Midi ports on the web, such as [LoopBe1 ](https://nerds.de/en/loopbe1.html)on Windows or [Virmidi ](https://alsa.opensrc.org/Virmidi)on Linux.
+**Midi出力デバイス** は、MidiまたはUSBケーブルで外部のハードウェアシンセに接続するか、ソフトウェアシンセ（VSTインストゥルメント、サウンドフォントプレーヤーなど）の**仮想Midiポート**を通して接続する必要があります。ウェブ上には、Windowsの[LoopBe1 ](https://nerds.de/en/loopbe1.html)Linuxの [Virmidi ](https://alsa.opensrc.org/Virmidi)のような無料の仮想MIDIポートがあります。
 
 {% hint style="warning" %}
-You don't need a **virtual Midi port** if you use the **VirtualMidiSynth** SoundFont player on Windows, because this application installs itself as a **Midi out device**.
+Windowsで**VirtualMidiSynth**サウンドフォントプレーヤーを使用する場合は、**仮想Midiポート** は必要ありません。このアプリケーションは、 **Midi出力デバイス**として自身をインストールするからです。
 {% endhint %}
 
-The **output synth** produces the sounds. If JJazzLab knows the capabilities of your **output synth**, JJazzLab can directly control it from the [**mix console**](../songs/song-editors/mix-console.md)**.** And most importantly when you select a rhythm JJazzLab can automatically select the relevant sounds, using drum map conversion when necessary. 
+**シンセ出力** は音を出します。もしJJazzLabが**シンセ出力**の機能を知れば、JJazzLabは [**ミックスコンソール**](../songs/song-editors/mix-console.md)から直接それをコントロールすることができます。そして最も重要なことは、リズムを選択するとJJazzLabは自動的に関連するサウンドを選択し、必要に応じてドラムマップ変換を行うことです。
 
-## Midi Configuration Wizard <a id="midi-configuration-wizard"></a>
+## Midiコンフィギュレーションウイザード <a id="midi-configuration-wizard"></a>
 
-This wizard will help you select the best Midi configuration.  It is launched automatically the first time you run JJazzLab. You can also run it manually from menu **Tools/Midi Configuration Wizard**.
+このウィザードは、最適なMIDIコンフィギュレーションを選択するのに便利です。 このウィザードは、JJazzLab を初めて起動したときに自動的に起動します。メニューの**Tools/Midi Configuration Wizard**から手動で起動することもできます。
 
