@@ -8,7 +8,7 @@
 ## コンフィギュレーション <a id="configuration"></a>
 
 * [Midi コンフィギュレーション](configuration/midi-configuration.md)
-* [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
+* [JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
   * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)
   * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)

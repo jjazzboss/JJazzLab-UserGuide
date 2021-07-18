@@ -1,4 +1,4 @@
-# JJazzLab SoundFont
+# JJazzLab サウンドフォント
 
 The **JJazzLab SoundFont** is optimized for JJazzLab with a good trade-off between **sound quality** and **ease of set up**.
 
