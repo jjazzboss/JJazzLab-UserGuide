@@ -1,52 +1,52 @@
 # インストール
 
-## Windows instructions
+## Windowsでの説明
 
-Download and run the setup program. 
+セットアッププログラムをダンロードして起動してください。 
 
 {% hint style="info" %}
-If you don't have admin. rights on your computer, choose **Install for me only** during setup
+管理者権限がない場合は、 **Install for me only** をセットアップ中に選んでください。
 {% endhint %}
 
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
+JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="warning" %}
-If you get a **Windows Smart Screen** alert
+もし、 **Windows Smart Screen** 警告が出たら
 
 ![](.gitbook/assets/win10smartscreen.png) 
 
-Windows Smart Screen blocks the program NOT because it is a malware \(it is NOT!\), but just because JJazzLab is new, so Windows security servers don't have enough statistics to evaluate its "security reputation".
+Windows Smart Screenがプログラムをブロックするのは、JJazzLabがマルウェアだからではなく（マルウェアではありません！）、JJazzLabが新しいプログラムであるために、Windowsのセキュリティサーバーがその「セキュリティの評判」を評価するのに十分な統計情報を持っていないからです。
 
-Once enough users will have successfully downloaded and installed it, Windows Smart Screen will not block the program anymore.
+十分な数のユーザーがJJazzLabのダウンロードとインストールに成功すれば、Windows Smart Screenはプログラムをブロックしなくなります。
 
-You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
+より詳しい説明はこちらの [良くできた記事](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work)をご覧ください。
 {% endhint %}
 
-## Linux instructions
+## Linux での説明
 
-Unzip the package. 
+パッケージを解凍してください。 
 
-Start JJazzLab using **bin/jjazzlab** in the installation directory. 
+インストールディレクトリにある **bin/jjazzlab** を使ってJJazzLabを起動します。
 
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
+JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="success" %}
 If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    \(thanks to jypma!\) 
 {% endhint %}
 
-## MacOS instructions
+## MacOS での説明
 
-Unzip the package and open it to start JJazzLab. 
+パッケージを解凍し、開けてJJazzLabを起動してください。
 
 {% hint style="warning" %}
-If you get a **security alert**
+もし、**security alert**が出たら
 
-Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**, this will give you the choice to open the application in spite of the security alert.
+その場合、**Finder** を使ってJJazzLabパッケージを選択し、**ctrl+** **メニュークリック**, **開く**で、セキュリティアラートが出ていてもアプリケーションを開くことができるようになります。
 {% endhint %}
 
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
+JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="warning" %}
-There is a known bug on MacOS: sometimes, after the computer wakes up from sleep mode, the audio can lag 2 or 3 seconds behind. This is due to a JDK problem, JJazzLab can't do anything.
+MacOSには既知のバグがあります。コンピュータがスリープモードから起動した後に、オーディオが2～3秒遅れて再生されることがあります。これはJDKの問題によるもので、JJazzLabでは何もできません。
 {% endhint %}
 
