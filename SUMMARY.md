@@ -14,7 +14,7 @@
   * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [Output synth](configuration/output-synth.md)
 
-## Songs
+## ソング <a id="songs"></a>
 
 * [Song editors](songs/song-editors/README.md)
   * [Chord lead sheet](songs/song-editors/chord-lead-sheet.md)
@@ -23,19 +23,19 @@
 * [Song and mix files](songs/song-and-mix-files.md)
 * [Importing songs](songs/importing-songs.md)
 
-## Rhythms
+## リズム <a id="rhythms"></a>
 
 * [Rhythm files](rhythms/rhythm-files.md)
 * [Adapted rhythms](rhythms/adapted-rhythms.md)
 
-## Rhythm engines
+## リズムエンジン <a id="rhythm-engines"></a>
 
 * [Rhythm engines overview](rhythm-engines/overview.md)
 * [YamJJazz rhythm engine](rhythm-engines/yamjjazz-rhythm-engine/README.md)
   * [Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
   * [Extended Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
 
-## Contribute
+## ご協力 <a id="contribute"></a>
 
 * [Improve documentation](contribute/improve-doc.md)
 * [Translate JJazzLab](contribute/translate-jjazzlab/README.md)
