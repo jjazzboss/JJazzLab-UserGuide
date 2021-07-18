@@ -10,7 +10,7 @@ description: / JJazzLab-X
 
 ## 手始めに
 
-この[ビデオチュートリアル](video-tutorials.md#for-starters)も短いのでまずは御覧ください。
+この[ビデオチュートリアル](video-tutorials.md#for-starters)が短いのでまずは御覧ください。
 
 ## JJazzLabって、何? 
 
