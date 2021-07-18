@@ -5,7 +5,7 @@
 * [ビデオチュートリアル](video-tutorials.md)
 * [FAQ](faq.md)
 
-## Configuration
+## コンフィギュレーション <a id="configuration"></a>
 
 * [Midi コンフィギュレーション](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
