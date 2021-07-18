@@ -50,54 +50,54 @@ Use the VST host \(Cubase, Reaper, etc.\) capabilities to record the output of t
 {% endtab %}
 {% endtabs %}
 
-## How to force a clean re-installation?
+## 真っ新な再インストールはどうするのですか？
 
-You need to reset all JJazzLab user settings \(uninstall/re-install is not enough\). 
+JJazzLabのユーザー設定を全てリセットする必要があります\(アンインストール／再インストールでは十分ではありません\)。 
 
-The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
+簡単な方法： メニュー **Tools/Options/Advanced** の **Reset all user settings**のボタンです。
 
-The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, ****exit JJazzLab, then delete the **Netbeans user dir**.
+難しい方法：メニューの **Help/About/System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
 
-## I don't have administration privileges on my Windows computer, can I install JJazzLab?
+## Windowsの管理者権限がありませんが、JJazzLabをインストールできますか？
 
-Yes. When first prompted by the JJazzLab installer, select "Install only for me", then select an installation directory where you have write access \(in My Documents for example\).
+はい。JJazzLab インストーラの最初のプロンプトで、「Install only for me」を選択し、書き込み権限のあるインストールディレクトリを選択してください（例：マイドキュメント）。
 
-## How to get better sounds?
+## より良いサウンドはどうしたらよいでしょうか？
 
 {% hint style="warning" %}
-May 2021 update: the new free version of Halion Sonic SE from Steinberg can be used with JJazzLab to get **really good** sounding backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
+2021年5月更新: スタインバーグ社の新製品「Halion Sonic SE」（無料）をJJazzLabで使うと、とても**良い音**のバッキングトラックができます。詳しくは[JJazzLab フォーラム](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab)で。
 {% endhint %}
 
-You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account: 
+JJazzLabの出力には、_良いシンセサイザー_が必要です。では、バッキングトラックの生成に必要な良いシンセサイザーとは何か？考慮すべき要素は大きく分けて3つあります： 
 
-1. **Individual sound quality** \(sounds for drums, bass, piano, ...\)
-2. **Overall sound mix**  \(how the different instruments fit together\)
-3. **Effects** \(overall and per-instrument effects\)
+1. **個別の音源品質** \(ドラム、ベース、ピアノなどの音源\)
+2. **サウンド全体のミックス**  \(全く違う楽器でも一緒に合わせる\)
+3. **効果** \(全体と楽器ごとの効果\)
 
 {% hint style="info" %}
-Experience shows that factors 2. and 3. can be as much important as factor 1.
+経験上、2.と3.の要素は、1.の要素と同じくらい重要であると考えられます。
 {% endhint %}
 
-2 other factors can also impact the backing track rendering : 
+他にも2つの要素が、バッキングトラックのレンダリングに影響を与えます：
 
-* **Drums XG compatibility**: many Yamaha styles use specific XG drum/percussion sounds, e.g. jazz brushes, etc.
-* **Correct Output Synth configuration in JJazzLab**: Yamaha styles define a preferred instrument \(e.g. synth bass\) for each channel. If the Output Synth configuration is wrong, JJazzLab can't select the optimal instrument for each channel \(e.g. use a piano sound instead of a synth bass\).
+* **Drums XG** **互換性**: ヤマハスタイルでは、ジャズブラシなど、XGのドラム／パーカッションサウンドがたくさん使用されています。
+* **JJazzLabでの正しいシンセ出力の設定**: ヤマハスタイルでは、各チャンネルに好ましい楽器（例：シンセベース）を定義します。シンセ出力の設定が間違っていると、JJazzLabは各チャンネルに最適な楽器を選択することができません（例：シンセベースの代わりにピアノの音を使う）。
 
-Below are some typical configurations.
+以下に一般的なコンフィギュレーションをいくつか挙げます。
 
-| Output Synth | Sound Quality | Comments |
+| シンセ出力 | 音質 | コメント |
 | :--- | :--- | :--- |
-| Java Internal Synth with default bank | Low | Works out of the box. Considering the super small size of the default sound bank, the overall sound balance is quite good actually. |
-| GM SoundFonts | Low-Medium | Difficult to find a well-balanced SoundFont, e.g. you get a nice piano but the bass sucks, etc. No individual effect per instrument. No XG compatibility.  |
-| JJazzLab SoundFont | Medium | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. No individual effect per instrument.  |
-| Hardware synthesizer | Very good | In GM mode the mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. If you find a Cakewalk instrument definition file \(.ins\) on the web for your synth, you can control it directly from JJazzLab. |
-| Software synthesizers | Best | Usually no GM compatibility. Need some effort for the initial set up : virtual Midi device + VST host, select each instrument sound, adjust mix from VST host, ... Each individual sound can have its own effects \(e.g. distortion for guitar, etc.\), this has a big impact on the overall rendering. Unless you created your own Cakewalk instrument definition file \(.ins\), you'll need to adjust your setup when you change rhythm. |
+| Java Internal Synth with default bank | 低 | すぐに使えます。デフォルトのサウンドバンクのサイズが非常に小さいことを考慮すると、全体のサウンドバランスは非常に良いです。 |
+| GM サウンドフォント | 低～並 | バランスのとれたサウンドフォントを見つけるのが難しい（例：いいピアノが手に入ったが、低音がダメだった、など。楽器ごとのエフェクトがない。XGとの互換性がない。）  |
+| JJazzLab サウンドフォント | 並 | 多くのヤマハスタイルでテスト済み。XGに対応し、さらにいくつかの追加サウンドとドラムキットを搭載しています。Output Synthの設定プリセットがあるので、すぐに設定できます。楽器ごとの個別のエフェクトはありません。 |
+| ハードウェアシンセサイザー | とても良い | GMモードでは、個々のサウンド間のミックスは、通常、そのままでも非常に良い状態です。個々のサウンドには独自のエフェクト（例：ギターのディストーションなど）をかけることができ、これが全体のレンダリングに大きな影響を与えます。シンセのためのCakewalkインストゥルメント定義ファイル\(.ins\)がウェブ上にあれば、JJazzLabから直接コントロールすることができます。 |
+| ソフトウェアシンセサイザー | 最高 | 通常、GMとの互換性はありません。バーチャルMIDIデバイス＋VSTホスト、各楽器の音の選択、VSTホストからのミックス調整など、初期設定に手間がかかります...。個々の音にはそれぞれエフェクトがあり（例：ギターのディストーションなど）、これは全体のレンダリングに大きな影響を与えます。Cakewalk のインストゥルメント定義ファイル \(.ins\) を独自に作成していない限り、リズムを変更する際にはセットアップを調整する必要があります。 |
 
-Also, when a rhythm does not sound good, you'd be surprised how you can improve things just by trying different instruments and adjusting the mix \(volume, effect, panoramic, velocity shift\).
+また、リズムがうまく鳴らないときには、別の楽器を試したり、ミックス（ボリューム、エフェクト、パン、ベロシティシフト）を調整するだけで、驚くほど改善されます。
 
-If you want to fully customize a backing track, you may simply export to a Midi file, then import the Midi file into your preferred DAW for advanced customization.
+バッキングトラックを完全にカスタマイズしたい場合は、MIDIファイルにエクスポートし、そのMIDIファイルをお好みのDAWにインポートして高度なカスタマイズを行うことができます。
 
-For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
+詳しくは、 [Midi configuration](configuration/midi-configuration.md) のページをご覧ください。
 
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
