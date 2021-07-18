@@ -6,9 +6,9 @@
 FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
 {% endhint %}
 
-## Initial setup
+## 初期設定
 
-1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036)  
+1. **JJazzLab-SoundFont.sf2**を[Musical Artefacts ウェブサイト](https://musical-artifacts.com/artifacts/1036)からダウンロードします。 
 2. Install a virtual midi port
 
    ```text
@@ -69,7 +69,7 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
    ⚠ This connection needs to be restored each time the **FluidSynth** engine is restarted.  
 
 7. In JJazzLab go to **Options/Midi** and select the first **virMIDI** out device  ![](../../.gitbook/assets/fluidsynth-setmididevice.png) 
-8. Go to the [output synth](../output-synth.md) editor and apply the preset **FluidSynth**  ![](../../.gitbook/assets/outputsynth-presetfluidsynth.png)
+8. [シンセ出力](../output-synth.md)エディターに進み\[訳注：鍵盤アイコンをクリック\]、プリセットの **FluidSynth**を適用します。  ****![](../../.gitbook/assets/outputsynth-presetfluidsynth.png)
 
 {% hint style="info" %}
 The start of FluidSynth with the virtual Midi port can be automated via a shell script.
