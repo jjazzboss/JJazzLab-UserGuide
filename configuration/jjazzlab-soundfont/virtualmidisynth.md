@@ -1,22 +1,22 @@
 # VirtualMIDISynth \(Win\)
 
-**VirtualMIDISynth** is a free, lightweight and efficient SoundFont player for Windows. 
+**VirtualMIDISynth**は、Windows用のフリーで軽量かつ効率的なサウンドフォントプレーヤーです。
 
-It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI out device \(no need for a virtual Midi port\).
+Windowsのマルチメディアユーザードライバとして実装されていますので、標準的なMIDI出力デバイスとして直接アクセスすることができます（Virtual MIDI ポートは必要ありません）。
 
 {% hint style="success" %}
-VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
+VirtualMIDISynthは、Midiファイルを.mp3に変換することもできます。これにより、JJazzLabのバッキング・トラックを簡単にオーディオ・ファイルとして入手することができます。詳しくは[FAQ](../../faq.md#generate-mp3)をご覧下さい。
 {% endhint %}
 
-## Initial setup
+## 初期設定
 
-1. Download **JJazzLab-SoundFont.sf2** from the [Musical Artefacts web site](https://musical-artifacts.com/artifacts/1036)  
-2. Download and install **VirtualMIDISynth** from the [CoolSoft web site](https://coolsoft.altervista.org/virtualmidisynth) Accept all installer default settings. 
-3. Load the Soundfont in **VirtualMIDISynth** ![](../../.gitbook/assets/vms-loadsoundfont.png)  ****Click on the pen icon if you need to adjust the default volume \(0-500%\) of the SoundFont.  
-4. Start JJazzLab and go to **Options/Midi**, set **VirtualMIDISynth** as the **Midi OUT device**      ![](../../.gitbook/assets/vms-setmididevice.png)  
-5. Go to the [output synth](../output-synth.md) editor and apply the preset **VirtualMIDISynth** ![](../../.gitbook/assets/outputsynth-presetvms.png) ****
+1. **JJazzLab-SoundFont.sf2**を[Musical Artefacts ウェブサイト](https://musical-artifacts.com/artifacts/1036)からダウンロードします。 
+2. 次に**VirtualMIDISynth**を、[CoolSoft ウェブサイト](https://coolsoft.altervista.org/virtualmidisynth)からダウンロードしてインストールします。 インストーラーのデフォルト設定をすべて受け入れます。 
+3. **VirtualMIDISynth**にサウンドフォントをロードします。 ****![](../../.gitbook/assets/vms-loadsoundfont.png)  ****サウンドフォントのデフォルトボリューム（0～500％）を調整する必要がある場合は、ペンのアイコンをクリックしてください。 
+4. JJazzLabを起動して、**Tools→Options→Midi**と進み、**VirtualMIDISynth**を**Midi OUT device** として設定します。  ![](../../.gitbook/assets/vms-setmididevice.png)  
+5. [シンセ出力](../output-synth.md) エディターに進み\[訳注：鍵盤アイコンをクリック\]、プリセットの**VirtualMIDISynth**を適用します。 ****![](../../.gitbook/assets/outputsynth-presetvms.png) ****
 
 {% hint style="info" %}
-On Windows the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform steps 4 \(if VirtualMIDISynth is installed\) and 5 if you choose to use the JJazzLab SoundFont.
+Windowsの場合、JazzLabサウンドフォントを使用することを選択すると、 [MIDIコンフィギュレーション・ウィザード](../midi-configuration.md#midi-configuration-wizard)がステップ4（VirtualMIDISynthがインストールされている場合）と5を自動的に実行します。
 {% endhint %}
 
