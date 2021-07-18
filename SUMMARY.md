@@ -7,7 +7,7 @@
 
 ## Configuration
 
-* [Midi configuration](configuration/midi-configuration.md)
+* [Midi コンフィギュレーション](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
   * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)

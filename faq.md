@@ -99,58 +99,58 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 詳しくは、 [Midi configuration](configuration/midi-configuration.md) のページをご覧ください。
 
-## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
+## ヤマハのアレンジャー・キーボード\(Tyros, PSR, ...\)を持っていますが、どうやればJJazzLabと一緒に使うことができますか？
 
-JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
+JJazzLabはあなたのキーボードをドライブして、その最適化されたサウンドを利用することができます。キーボードをMidiで接続し、 [**シンセ出力エディター**](configuration/output-synth.md) で **ヤマハ Tyros** プリセットを適用します。このプリセットはTyros5をベースにしており、以前のTyrosモデルやほとんどのPSRキーボードとの下位互換性があります。
 
-## How to make fonts bigger? <a id="font-bigger"></a>
+## フォントを大きくするにはどうしたらよいですか？ <a id="font-bigger"></a>
 
-In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add **--fontsize 16** \(16 or any other value, default is 11\) in the **default\_options** variable, you should end up with something like this:
+JJazzLab をインストールしたディレクトリで、 **etc/jjazzlab.conf**  ファイルを編集し、**default\_option**変数に**--fontsize 16** \(16 またはその他の値、デフォルトは 11\)を追加すると、以下のようになるはずです：
 
 `default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"` 
 
-Restart JJazzLab. All menus should look bigger now.
+JJazzLab再起動すると、全メニューが大きく見えるはずです。
 
-This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
+ エディターフォントの中には、この設定に依存しないものもあるので、これですべてが解決するわけではありません。しかし、メニューの**Tools/Options/Theme**を使って、そのうちのいくつかを調整することができます。リストの各項目をチェックし、フォントが定義されている場合は、それを変更して大きくします。ユーザー設定は自動的に保存されますので、この作業は一度だけ行う必要があります。
 
-## Can I start JJazzLab with command line arguments?
+## コマンドライン引数でJJazzLabを起動できますか？
 
-You can pass one or more .sng file names on the command line, JJazzLab will open them upon start.
+コマンドラインで1つまたは複数の.sngファイル名を渡せば、JJazzLabの起動時にそれらのファイルを開くことができます。
 
 ```text
 # Example on Win10 (x64)
 "C:\Program Files\JJazzLab\bin\jjazzlab64.exe" "C:\my dir\MySong.sng" "D:\AnotherSong.sng"
 ```
 
-## How to submit a bug? How to find the "log" file?
+## バグの提出方法は？ "log"ファイルはどうやって見つけるの？
 
-Send an [email ](https://www.jjazzlab.com/en/contact/)or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
+バグは[Eメール ](https://www.jjazzlab.com/en/contact/)を送っていただくか、GitHub ユーザーなら [issue](https://github.com/jjazzboss/JJazzLab-X/issues)を作ってください。
 
-We need the following information in order to help you:
+サポートするためには、以下の情報が必要です：
 
-* Provide the content of the **log file** 
-* Describe what does not work as expected
-* Describe the sequence of actions that caused the issue
+* **ログファイル** の内容の提供
+* 何が期待通りに動作しないかの記述
+* 問題の原因となった一連の動作の記述
 
 {% hint style="info" %}
-A new **log file** is created upon each start of JJazzLab. It's important to get the right log file when the problem occured.
+JJazzLabを起動するたびに、新しい**ログファイル** が作成されます。問題が発生したときに正しいログファイルを取得することが重要です。
 {% endhint %}
 
-To get the log file content:
+ログファイルの内容を取得するには：
 
-1. Right after the problem has occured, go to menu **Tools/Options/Advanced**
-2. Click on **Show Log Window**
-3. Copy & paste **the full content** of this window in your bug report
+1. 問題が発生した直後に、メニューの **Tools/Options/Advanced**を開きます。
+2. **Show Log Window**をクリック
+3. バグリポート内にあるウィンドウの **内容全部** をコピー＆ペースト
 
-If for some reason the above does not work:
+何らかの理由で上記が上手くいかない場合は：
 
-1. Go to menu **Help/About** and find the location of your **Netbeans user dir**.  For ex. on Windows `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` For ex. on Linux `/home/MyName/.jjazzlab/2.2`
-2. Open an explorer, go to this directory then to the **var/log** subdirectory
-3. The last log file is **messages.log**, the previous one is **messages.log.1**, the before previous is **messages.log.2**, etc.
-4. Find the relevant log file and send it with your bug report
+1. メニューの **Help/About**に進み、 **Netbeans user dir**を見つけます。 Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` Linuxの例 `/home/MyName/.jjazzlab/2.2`
+2. エクスプローラーを開き、そのディレクトリに進んで、そのサブディレクトリの **var/log** に進みます。
+3. 最後のログファイルは、**messages.log**で、１つ前は**messages.log.1**、さらにもう１つ前は、 **messages.log.2**などとなっています。
+4. 該当するログファイルを見つけて、バグレポートと一緒に送信してください。
 
 {% hint style="danger" %}
-If you can't find the **Netbeans user dir**., make sure your explorer shows the hidden files \(e.g. the AppData directory is usually hidden on Windows\)
+**Netbeans user dir**が見当たらない場合、エクスプローラが隠しファイルを表示するようになっているか確認してください\(例. AppData ディレクトリはWindowsでは通常、隠されています\)。
 {% endhint %}
 
  

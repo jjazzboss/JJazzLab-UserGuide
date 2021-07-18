@@ -1,4 +1,4 @@
-# Midi configuration
+# Midi コンフィギュレーション
 
 {% hint style="success" %}
 If you don't want to mess with Midi, just use the [JJazzLab SoundFont](jjazzlab-soundfont/). 
