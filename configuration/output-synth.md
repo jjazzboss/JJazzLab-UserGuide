@@ -1,27 +1,29 @@
-# Output synth
+# シンセ出力
+
+
 
 {% hint style="info" %}
-If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont/) page. 
+JJazzLab サウンドフォントをお使いの方は、このページをスキップして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。 
 {% endhint %}
 
-## Output synth concept <a id="output-synth-concept"></a>
+## シンセ出力の概念 <a id="output-synth-concept"></a>
 
-The output synth represents the Midi synth you have connected to the output of JJazzLab:
+シンセ出力とは、JJazzLabの出力に接続されているMIDIシンセを表しています：
 
 ![](../.gitbook/assets/outputsynth-concept%20%281%29.png)
 
-The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../songs/song-editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
+シンセ出力の情報によって、JJazzLabはシンセを直接コントロールすることが可能となります。[ミックスコンソール](../songs/song-editors/mix-console.md)から直接楽器を選択したり、曲をロードしたときにソングミックスを自動的に復元したりできるのはこのためです。
 
-The output synth information is also used by JJazzLab for 2 important tasks:
+シンセ出力の情報は、JJazzLabでも2つの重要な作業に使われています：
 
-1. Automatically select the most relevant instruments for a new rhythm
-2. Automatically remap drum sounds when needed \(e.g from [XG drum map ](https://www.jjazzlab.com/images/doc/XG-DrumMap.png)to [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
+1. 自動的に新しいリズムに最適な楽器を選択
+2. 自動的に必要に応じてドラムサウンドをリマップする（例：[XGドラムマップ](https://www.jjazzlab.com/images/doc/XG-DrumMap.png)から[GMドラムマップ](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)に変更）
 
 {% hint style="danger" %}
-If the output synth configuration in JJazzLab is not inline with the actual output synth \(e.g. you use a non-GM VST instrument but JJazzLab thinks it's GM-compatible\), you'll have problems selecting instruments and the backing tracks may sound very weird.
+JJazzLabでのシンセ出力のコンフィギュレーションが実際のシンセ出力と一致していない場合（例えば、GM以外のVSTインストゥルメントを使用しているのに、JJazzLabではGMに対応していると思い込んでいる場合）、楽器の選択に問題が生じ、バッキングトラックがかなり変な音になってしまうことがあります。
 {% endhint %}
 
-## Output synth editor
+## シンセ出力エディター
 
 The **output synth** capabilities can be edited in the **output synth editor**. 
 
