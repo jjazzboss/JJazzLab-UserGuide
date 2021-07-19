@@ -5,9 +5,9 @@
 * [ビデオチュートリアル](video-tutorials.md)
 * [FAQ](faq.md)
 
-## コンフィギュレーション <a id="configuration"></a>
+## 設定\(コンフィギュレーション\) <a id="configuration"></a>
 
-* [MIDI コンフィギュレーション](configuration/midi-configuration.md)
+* [MIDI設定](configuration/midi-configuration.md)
 * [JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
   * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)

@@ -20,9 +20,9 @@ description: よく聞かれる質問
 * 口コミ拡散！トークと **www.jjazzlab.com** へのリンクをソーシャルネットワーク、ブログ、ウェブサイトなどで！
 * プログラマーなら、 [プログラムコードにご協力を](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
 
-## MacOS使いなんですけど、**Tools/Optionsが見当たりませんが?**
+## MacOS使いなんですけど、**Tools→Optionsが見当たりませんが?**
 
-MacOSでは、**Options** メインメニューの **JJazzLab/Preferences**からアクセスします。
+MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**からアクセスします。
 
 ## 曲の移調はどうするのですか？ <a id="how-to-transpose-song"></a>
 
@@ -33,9 +33,9 @@ MacOSでは、**Options** メインメニューの **JJazzLab/Preferences**か�
 
 {% tabs %}
 {% tab title="Windows" %}
-もし、**VirtualMidiSynth** で[JJazzLab SoundFont](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
+もし、**VirtualMidiSynth** で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
 
-1. JJazzLabで、伴奏トラックを **File/Export to Midi file**を使って.midファイルで保存します。
+1. JJazzLabで、伴奏トラックを **File→Export to Midi file**を使って.midファイルで保存します。
 2. 次に**VirtualMIDISynth** を起動\(Windowsのシステムトレイにあるアイコンを右クリック\)し、MIDIファイルを変換\( **MIDI converter**\)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
 
 また、スクリーンレコーダーソフトウェアを使用することもできます。コンピュータのサウンドカードの出力を直接キャプチャして、.mp3ファイルに保存するものもあります。
@@ -54,9 +54,9 @@ Use the VST host \(Cubase, Reaper, etc.\) capabilities to record the output of t
 
 JJazzLabのユーザー設定を全てリセットする必要があります\(アンインストール／再インストールでは十分ではありません\)。 
 
-簡単な方法： メニュー **Tools/Options/Advanced** の **Reset all user settings**のボタンです。
+簡単な方法： メニュー **Tools→Options→Advanced** の **Reset all user settings**のボタンです。
 
-難しい方法：メニューの **Help/About/System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
+難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
 
 ## Windowsの管理者権限がありませんが、JJazzLabをインストールできますか？
 
@@ -97,7 +97,7 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 バッキングトラックを完全にカスタマイズしたい場合は、MIDIファイルにエクスポートし、そのMIDIファイルをお好みのDAWにインポートして高度なカスタマイズを行うことができます。
 
-詳しくは、 [Midi configuration](configuration/midi-configuration.md) のページをご覧ください。
+詳しくは、 [MIDI設定](configuration/midi-configuration.md) のページをご覧ください。
 
 ## ヤマハのアレンジャー・キーボード\(Tyros, PSR, ...\)を持っていますが、どうやればJJazzLabと一緒に使うことができますか？
 
@@ -138,13 +138,13 @@ JJazzLabを起動するたびに、新しい**ログファイル** が作成さ�
 
 ログファイルの内容を取得するには：
 
-1. 問題が発生した直後に、メニューの **Tools/Options/Advanced**を開きます。
+1. 問題が発生した直後に、メニューの **Tools→Options→Advanced**を開きます。
 2. **Show Log Window**をクリック
 3. バグリポート内にあるウィンドウの **内容全部** をコピー＆ペースト
 
 何らかの理由で上記が上手くいかない場合は：
 
-1. メニューの **Help/About**に進み、 **Netbeans user dir**を見つけます。 Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` Linuxの例 `/home/MyName/.jjazzlab/2.2`
+1. メニューの **Help→About**に進み、 **Netbeans user dir**を見つけます。 Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` Linuxの例 `/home/MyName/.jjazzlab/2.2`
 2. エクスプローラーを開き、そのディレクトリに進んで、そのサブディレクトリの **var/log** に進みます。
 3. 最後のログファイルは、**messages.log**で、１つ前は**messages.log.1**、さらにもう１つ前は、 **messages.log.2**などとなっています。
 4. 該当するログファイルを見つけて、バグレポートと一緒に送信してください。
