@@ -29,27 +29,27 @@ The **output synth** capabilities can be edited in the **output synth editor**.
 
 ![](../.gitbook/assets/outputsyntheditor.png)
 
-The output synth configurations can be loaded/saved from/to files. By default JJazzLab uses **Default.cfg**.
+シンセ出力の設定は、ファイルの読み込み／ファイルに保存ができます。デフォルトでは、JJazzLabは **Default.cfg**を使用します。
 
-## Example
+## 例
 
-You have connected your old GM-compatible Roland synthesizer to JJazzLab. So in the **output synth editor** you have checked **GM compatible**.
+GM互換の古いローランドのシンセサイザーをJJazzLabに接続しました。そのため、**シンセ出力エディター**で**GM compatible**にチェックを入れています。
 
-Your song uses the rhythm SimpleFolk.sty, a Yamaha style which defines 3 instruments:
+曲でSimpleFolk.styというリズムを使っています。これはヤマハスタイルで、3つの楽器を定義しています：
 
-* Bass, preferred instrument is GM ‘Acoustic Bass’
-* Guitar, preferred instrument is XG ‘12 String Guitar’
-* Drums, preferred drum kit is ‘Brush’ type with the XG drums key map
+* ベース、適切な楽器は、GM ‘Acoustic Bass’です。
+* ギター、適切な楽器は、XG ‘12 String Guitar’です。
+* ドラム、適切なドラムキットは、XG drumsのキーマップを使用した「Brush」タイプのドラムキットです。
 
-Using the output synth information \(“my synth is only GM compatible”\), JJazzLab will do the following before playing the song:
+シンセ出力の情報（「このシンセはGMにしか対応していない」）を使って、JJazzLabは曲を演奏する前に次のようなことを行います：
 
-* Send a Midi message **Switch GM mode ON** to the Roland synth
-* Bass: select the GM ‘Acoustic Bass’ via standard GM messages
-* Guitar: select the GM ‘Steel Guitar’, which is the closest instrument from the XG ‘12 String Guitar’
-* Drum: select the GM standard drums \(GM only has a single drum kit\), and remap all XG-specific drum notes to GM drum notes
+* ローランドのシンセに、**GMモードONに切り替え** というMIDIメッセージを送信
+* ベース：標準GMメッセージを通してGM ‘Acoustic Bass’を選択
+* ギター：XG ‘12 String Guitar’に最も近い楽器であるGM ‘Steel Guitar’を選択
+* ドラム：GM standard drumsを選択（GMはドラムキットを1つしか持っていない）し、XG固有のドラム音をすべてGMのドラム音にリマップ
 
 {% hint style="success" %}
-In conclusion, JJazzLab uses the output synth information to make the rhythm sound as close as possible as the original rhythm \(as programmed by the rhythm designer\).
+結論として、JJazzLabはシンセ出力の情報を使って、（リズムデザイナーがプログラムした）オリジナルのリズムに近い音を出すことができます。
 {% endhint %}
 
 ## Usual configurations
