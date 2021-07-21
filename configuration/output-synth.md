@@ -3,7 +3,7 @@
 
 
 {% hint style="info" %}
-JJazzLab サウンドフォントをお使いの方は、このページをスキップして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。 
+JJazzLab サウンドフォントをお使いの方は、このページを飛ばして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。 
 {% endhint %}
 
 ## シンセ出力の概念 <a id="output-synth-concept"></a>
@@ -52,15 +52,15 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 結論として、JJazzLabはシンセ出力の情報を使って、（リズムデザイナーがプログラムした）オリジナルのリズムに近い音を出すことができます。
 {% endhint %}
 
-## Usual configurations
+## 一般的な設定
 
 ### Presets
 
-If your output synth corresponds to one of the configurations below, just apply the corresponding preset from the output synth editor menu bar.
+シンセ出力が以下の構成のいずれかに該当する場合、シンセ出力エディターのメニューバーから対応するプリセットを適用するだけでかまいません。
 
-* **GM**: a GM-compatible synth
-* **JJazzLab SoundFont**: a soundfont player with the JazzLab SoundFont loaded
-* **Yamaha Tyros**: a Yamaha arranger keyboard of the Tyros or PSR family
+* **GM**: GM互換シンセ
+* **JJazzLab SoundFont**: JazzLabサウンドフォントをロードしたサウンドフォントプレイヤー
+* **Yamaha Tyros**: TyrosまたはPSRシリーズのヤマハアレンジャーキーボード
 
 ### GM2/GS/XG compatible synths
 

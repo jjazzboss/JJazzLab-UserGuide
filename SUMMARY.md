@@ -16,7 +16,7 @@
 
 ## ソング <a id="songs"></a>
 
-* [Song editors](songs/song-editors/README.md)
+* [ソングエディター](songs/song-editors/README.md)
   * [Chord lead sheet](songs/song-editors/chord-lead-sheet.md)
   * [Song structure](songs/song-editors/song-structure.md)
   * [Mix console](songs/song-editors/mix-console.md)

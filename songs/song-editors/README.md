@@ -6,7 +6,7 @@ weight: 300
 helpTitle: true
 ---
 
-# Song editors
+# ソングエディター
 
 ![](../../.gitbook/assets/jjazzlab-legende.png)
 
