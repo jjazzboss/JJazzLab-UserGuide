@@ -45,9 +45,9 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 
 別名を追加するには、メニューから **Options→Chord Symbols**を選択します。
 
-### Interpretation
+### 解釈\(Interpretation\)
 
-Select a chord symbol, edit it \(double-click, press enter, or right-click menu\), and select the **Interpretation** tab.
+コード記号を選択して、編集（ダブルクリック、エンターキー、または右クリックメニュー）にある、**Interpretation**タブを選択します。
 
 ![](../../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
