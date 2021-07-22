@@ -6,44 +6,44 @@ weight: 310
 helpTitle: false
 ---
 
-# Chord lead sheet
+# コードリードシート
 
-Use the **chord leadsheet editor** to:
+**コードリードシートエディター** \(Chord lead sheet editor\)を使用する場面は、：
 
-* Add chord symbols, eg **Cm6, Ab7**
-* Add sections, eg **A, B, verse, chorus,** ...
-* Move and edit chords to adjust rhythm accents, interpretation or harmony
+* コード記号の追加: 例 **Cm6, Ab7**
+* セクションの追加: 例 **"A"、"B"、"ヴァース"、"コーラス**"...など
+* コードの移動や編集による、リズムのアクセント、解釈、ハーモニーの調整
 
 ![](../../.gitbook/assets/chordleadsheeteditor.png)
 
-## Chord symbols
+## コード記号
 
-### Input
+### 入力
 
-Select a bar or a chord symbol then:
+小節またはコード記号を選択します。：
 
-* type the first letter of the chord symbol \('A' to 'G'\), or
-* press ENTER, or
-* double-click, or
-* right-click menu, Edit
+* コード記号の最初の文字（A～G）を入力する、または
+* ENTERキーを押す、または
+* ダブルクリック、または
+* 右クリックメニューで「編集」
 
-You can also select an existing chord symbol and move it while pressing the control button, it will create a new copy that can be edited.
+また、既存のコード記号を選択してコントロールボタンを押しながら移動すると、編集可能な新しいコピーが作成されます。
 
-To move a chord symbol just select it and move it with the mouse.
+コード記号の移動は、コード記号を選択してマウスで移動させます。
 
-To change the size of the lead sheet, select a bar then right-click menu and select **Set end bar**.
+リードシートのサイズを変更するには、小節を選択して右クリックメニューから**Set end bar**を選択します。
 
-Use ctrl-click or shift-click for multiple selection.
+複数選択する場合はctrl+clickまたはshift+clickを使用してください。
 
 {% hint style="info" %}
-In order to input a lead sheet from scratch, the easier way is to select the first bar, directly type in the chord symbols, press ENTER \(it will automatically select the next bar\), type in the chord symbols for the second bar, etc.
+最初からリードシートを入力するには、最初の小節を選択し、コード記号を直接入力してENTERを押し（自動的に次の小節が選択されます）、2番目の小節のコード記号を入力する、などの方法が簡単です。
 {% endhint %}
 
-### Aliases
+### 様々なコード表記
 
-JJazzLab recognizes many aliases for each chord symbol. For example C7M can be written Cmaj7, Cma7, CM7, CMAJ7 etc.
+JJazzLabでは、各コード記号に対して多くの別名を認識しています。例えば、C7MはCmaj7、Cma7、CM7、CMAJ7などと書くことができます。
 
-You can add more aliases in menu **Options/Chord Symbols**.
+別名を追加するには、メニューから **Options→Chord Symbols**を選択します。
 
 ### Interpretation
 
