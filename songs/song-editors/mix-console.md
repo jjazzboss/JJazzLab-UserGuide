@@ -96,9 +96,9 @@ When a song uses 2 or more rhythms, a popup is displayed in the upper left corne
 
 Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm\(s\).
 
-## Mouse shortcuts
+## マウスショートカット
 
-| Selection | Mouse | Action |
+| 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
 | channel volume slider, knobs | double-click | Input value with keyboard |
 | channel volume slider | shift + mouse-drag | change volume of all channels |

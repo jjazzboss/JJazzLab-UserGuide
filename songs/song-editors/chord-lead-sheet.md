@@ -116,40 +116,40 @@ _例：_
 
 ## セクション入力
 
-Typical sections are 'intro', 'verse', 'chorus', etc.
+一般的なセクションとは、「イントロ」「ヴァース」「コーラス」などです。
 
-A Song section is the basic unit used by JJazzLab to define the song structure. There is always a section defined on the first bar.
+ソングセクションとは、JJazzLabが曲の構造を定義するために使用する基本的な単位です。最初の小節には必ず定義されたセクションがあります。
 
-To add a section select a bar which is not after the end then:
+セクションを追加するには、終端ではない小節を選択し、その次に：
 
-* press ENTER, or
-* double-click, or
-* right-click menu, Edit
+* ENTERキー、または
+* ダブルクリック、または
+* 右クリックの編集\(Edit\)
 
-The new section name must be different than the existing one.
+新しいセクション名は、既存のセクション名とは異なるものでなければなりません。
 
-### Force a section at new line
+### セクションを新しい行に強制する
 
-You can force a section which is not on the first bar of a row to start on the next line. This can be useful when some sections have an odd number of bars.
+列で途中の小節にあるセクションを、強制的に次の行から開始させることができます。これはセクションの小節数が奇数の場合に便利です。
 
-Select a bar with a section defined or select the section itself, right-click menu "Force Section at New Line".
+セクションが定義されている小節を選択するかセクション自体を選択し、右クリックメニューで「Force Section at New Line\(セクションを新しい行に強制する\)」を選択します。
 
-![](../../.gitbook/assets/forcesectionnewline1.png)
+![Enter&#x30AD;&#x30FC;&#x3067;&#x753B;&#x50CF;&#x62E1;&#x5927;](../../.gitbook/assets/forcesectionnewline1.png)
 
-  This will result in the display below. 
+  下のような表示になります。
 
 ![](../../.gitbook/assets/forcesectionnewline2.png)
 
-## Mouse shortcuts
+## マウスショートカット
 
-| Selection | Mouse | Action |
+| 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
-| bar, chord symbol, section | click | select |
-| chord symbol | double click | edit using chord symbol editor |
-| bar, section | double click | edit using bar editor |
-| bar, chord symbol, section | right-click | popup menu |
-| chord symbol | mouse-wheel | transpose |
-| editor | ctrl mouse-wheel | change X zoom factor |
+| 小節、コード記号、セクション | クリック | 選択 |
+| コード記号 | ダブルクリック | コード記号エディターを使用する編集 |
+| 小節、セクション | ダブルクリック | 小節エディターを使用する編集 |
+| 小節、コード記号、セクション | 右クリック | ポップアップメニュー |
+| コード記号 | マウスホイール | 移調 |
+| エディター | ctrl+マウスホイール | 水平方向ズーム変更 |
 
 ## Keyboard shortcuts
 
@@ -157,24 +157,26 @@ Select a bar with a section defined or select the section itself, right-click me
 Many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated keyboard is displayed.
 {% endhint %}
 
-| Selection | Key | Action |
+| 対象 | キー | 動作 |
 | :--- | :--- | :--- |
-| chord Symbol | enter | edit with chord symbol editor |
-| bar, section | enter        | edit with bar editor dialog |
-| bar  | ctrl-E | set end bar |
-| bar | I | insert bars |
-| bar | delete | clear bar contents |
-| chord symbol, section | delete | remove |
-| chord symbol, section | ctrl-left/right | move item one bar left/right |
-| bar | shift-delete | remove |
-| chord symbol | ctrl-up/down | transpose |
-| chord symbol | P | change interpretation |
-| chord symbol | S | stronger accent |
-| chord symbol | H | crash cymbal/no crash |
-| chord symbol | X | hold/shot more instruments |
-| chord symbol, section | ctrl-A | select all in section, then in lead sheet |
-| bar, chord symbol, section | ctrl-C/X/V | copy/cut/paste items |
-| editor | ctrl-Z/Y | undo/redo |
-| editor | ctrl-O | set song active \(On/Off\) |
-| editor | ctrl-W | close song |
+| コード記号 | enter | コード記号エディターを使用する編集 |
+| 小節、セクション | enter        | 小節エディターダイアログで編集 |
+| 小節 | ctrl+E | 最終小節を設定 |
+| 小節 | I | 小節挿入 |
+| 小節 | delete | 小節の内容クリア |
+| コード記号、セクション | delete | 除去 |
+| コード記号、セクション | ctrl+left/right | アイテムを1小節左右に移動 |
+| 小節 | shift+delete | 除去 |
+| コード記号 | ctrl+up/down | 移調 |
+| コード記号 | P | 解釈変更 |
+| コード記号 | S | 強めのアクセント |
+| コード記号 | H | クラッシュシンバルの有無 |
+| コード記号 | X | より多数の楽器の保持／ショット |
+| コード記号、セクション | ctrl+A | 全セクション選択後、リードシート内へ |
+| 小節、コード記号、セクション | ctrl+C/X/V | コピー/切り取り/ペースト |
+| エディター | ctrl+Z/Y | 取り消し／やり直し |
+| エディター | ctrl+O | ソングアクティブのオン／オフセット |
+| エディター | ctrl+W | ソングを閉じる |
+
+
 

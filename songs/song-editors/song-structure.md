@@ -6,7 +6,7 @@ weight: 320
 helpTitle: false
 ---
 
-# Song structure
+# ソング構成
 
 Use the **song structure editor** to:
 
@@ -52,9 +52,9 @@ When changing the rhythm, JJazzLab tries to adapt the values of the previous rhy
 Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
 {% endhint %}
 
-## Mouse shortcuts
+## マウスショートカット
 
-| Selection | Mouse | Action |
+| 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
 | song part, rhythm param. | click | select |
 | song part | double click | edit song part name |
@@ -66,13 +66,13 @@ Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. 
 | rhythm parameters | shift+mouse wheel | make values identical then change value |
 | editor | ctrl mouse wheel | change X zoom factor |
 
-## Keyboard shortcuts
+## キーボードショートカット
 
 {% hint style="info" %}
 Many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated shortcut is displayed.
 {% endhint %}
 
-| Selection | Key | Action |
+| 対象 | キー | 動作 |
 | :--- | :--- | :--- |
 | song part, rhythm param. | enter | edit song part name |
 | song part, rhythm param. | R | select rhythm |
