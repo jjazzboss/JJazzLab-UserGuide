@@ -51,20 +51,20 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 
 ![](../../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
-The **Interpretation** tab lets you decide how this chord symbol should be played:
+**解釈\(Interpretation\)**タブでは、このコード・シンボルをどのように演奏するかを決定します:
 
-* **Normal**
-* **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
-* **Hold**: add a rhythmic accent and hold notes until next chord symbol. If extended more instruments are hold.
-* **Shot**: add a rhythmic accent with chord notes played briefly. If extended more instruments are shot.
-* **Pedal bass**: bass line will only play the bass note \(for ex. F for Fm7 or C for Fm7/C\). This setting is on by default when you enter a slash chord.
+* **Normal**\(通常\)
+* **Accent**\(アクセント\): リズミカルなアクセントを加え、クラッシュシンバルをランダムに演奏します。アクセントを強くしたり、クラッシュシンバルを鳴らしたり鳴らさなかったりすることができます。
+* **Hold**\(持続\): リズミカルなアクセントを加え、次のコード記号まで音を持続します。拡張\(Extended\)した場合、より多くの楽器を持続します。
+* **Shot**\(ショット\): リズミカルなアクセントを加え、コード音を短く演奏します。拡張\(Extended\)した場合、より多くの楽器のショットになります。
+* **Pedal bass**\(ペダルベース\): ベースラインでベース音のみを演奏します（例：Fm7ならF、Fm7/CならC）。この設定は、スラッシュコードを入力したときにデフォルトでオンになります。
 
 {% hint style="info" %}
-Each rhythm generation engine may render these Interpretation parameters differently.
+リズム生成エンジンによって、これらの解釈パラメータの表示方法が異なる場合があります。
 {% endhint %}
 
   
- The shape of the marker below the chord symbol depends on the interpretation mode:
+ コード記号の下に表示されるマーカーの形状は、解釈モードによって異なってきます:
 
 ![](../../.gitbook/assets/interpretationmarkers.png)
 
