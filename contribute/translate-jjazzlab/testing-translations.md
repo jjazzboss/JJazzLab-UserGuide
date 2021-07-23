@@ -6,9 +6,9 @@ draft: false
 
 # Testing translations
 
-If you can't wait for the next official JJazzLab release, you may want to try JJazzLab with the latest translation files, to see how it looks.
+If you can't wait for the next official JJazzLab release, you may want to try JJazzLab with the latest translation files, to see how it looks. 
 
-It's not that simple, but perfectly feasible if you're motivated enough. You'll need to build JJazzLab-X from the source code, according to [these instructions](https://jjazzlab.gitbook.io/developer-guide/build-from-source-code), but use the **l10n\_master** branch instead of the master branch, as explained below:
+First you'll need to build JJazzLab-X from the source code, according to [these instructions](https://jjazzlab.gitbook.io/developer-guide/build-from-source-code), but use the **l10n\_master** branch instead of the master branch, as explained below:
 
 ### Retrieve the JJazzLab-X code source project from GitHub
 
