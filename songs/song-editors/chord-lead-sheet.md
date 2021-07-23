@@ -112,9 +112,9 @@ _例：_
 
 ![&#x3053;&#x308C;&#x306F;&#x53E4;&#x3044;&#x753B;&#x50CF;&#x3067;&#x3059;&#x3002;Substitute&#x3068;&#x306A;&#x308B;&#x3079;&#x304D;&#x3068;&#x3053;&#x308D;&#x304C;Alternate&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;](../../.gitbook/assets/alternatechordleadsheet.png)
 
-There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" \(same as no chord symbol\) when marker is _not_ "Solo".
+3小節目にも**代替**コード記号の例があります。A7です。 原曲を聴いてみると原曲を聴いてみると、ソロの時だけ3小節目の最後の拍でA7を弾いていることに気づくでしょう。ソロの時だけです。そこで、A7のコード記号は、その**代替**コード記号はソロ"以外"では「ボイド\(void\)コード記号」\(コード記号が書いてないのと同じ\)と定義します。
 
-## Sections input
+## セクション入力
 
 Typical sections are 'intro', 'verse', 'chorus', etc.
 
