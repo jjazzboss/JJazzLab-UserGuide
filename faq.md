@@ -95,7 +95,7 @@ For additional information visit the [Midi configuration](configuration/midi-con
 
 ## I have a Yamaha arranger keyboard \(Tyros, PSR, ...\), how can I use it with JJazzLab?
 
-JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
+JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md#output-synth-editor) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
 
 ## How to make fonts bigger? <a id="font-bigger"></a>
 
