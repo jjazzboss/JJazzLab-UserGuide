@@ -60,7 +60,7 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 * **Pedal bass**\(ペダルベース\): ベースラインでベース音のみを演奏します（例：Fm7ならF、Fm7/CならC）。この設定は、スラッシュコードを入力したときにデフォルトでオンになります。
 
 {% hint style="info" %}
-リズム生成エンジンによって、これらの解釈パラメータの表示方法が異なる場合があります。
+リズム生成エンジンによって、これらの解釈パラメーターの表示が異なる場合があります。
 {% endhint %}
 
   
@@ -68,35 +68,35 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 
 ![](../../.gitbook/assets/interpretationmarkers.png)
 
- For example, in order to render: 
+例えば、このように表現するためには : 
 
 ![](../../.gitbook/assets/rhythmicaccents.png)
 
-you could use the following interpretation parameters: 
+次のような解釈パラメーターが使用できるでしょう。: 
 
 ![](../../.gitbook/assets/examplerhythmicaccents.png)
 
 {% hint style="info" %}
-See below the keyboard shortcuts to change the interpretation of selected chords.
+選択したコードの解釈を変更するキーボードショートカットは下の方を参照してください。
 {% endhint %}
 
-### Harmony
+### モードスケール\(Harmony\)
 
-Select a chord symbol, edit it and select the **Harmony** tab.
+モードスケールを設定するには、コード記号を選択して編集にある**Harmony**タブを選びます。
 
 ![](../../.gitbook/assets/chordsymbolharmonydialog.png)
 
-The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
+この**Harmony**タブでは、選んだコード記号を表現する際に使用するスケールを選択できます。
 
-**Example** Suppose that the reference bass line for Eb7M contains a Ab \(4th degree of the Eb major scale\). If you select the Lydian mode \(which has a sharp 11th degree\) then the reference bass note Ab will be rendered as A for this chord symbol.
+**例** Eb△7のときに、基準のベースラインに、Ab（Ebメジャースケールの4度）が含まれているとします。リディアンモード（\#11度がある）を選択した場合、このコード記号の基準のベース音AbはAとして演奏されます。
 
-By default no scale is selected: each rhythm generation engine will decide the "best" scale to use.
+初期設定では音階は選択されていません。各リズム生成エンジンが「最適な」音階を決定します。
 
-### Substitute chord symbol
+### コードの代替
 
-Select a chord symbol, edit it and select the **substitute** chord symbol tab.
+代替のコードを設定するには、コード記号を選択して編集にある**substitute** タブを選びます。
 
-![Snapshot to be updated! Alternate &amp;gt; Substitute](../../.gitbook/assets/chordsymbolalternatedialog.png)
+![&#x3053;&#x308C;&#x306F;&#x53E4;&#x3044;&#x753B;&#x50CF;&#x3067;&#x3059;&#x3002;Substitute&#x3068;&#x306A;&#x308B;&#x3079;&#x304D;&#x3068;&#x3053;&#x308D;&#x304C;Alternate&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;](../../.gitbook/assets/chordsymbolalternatedialog.png)
 
 This tab lets you define a **substitute** chord symbol which will be used when some conditions are met. 
 
@@ -110,7 +110,7 @@ In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but
 
 You can see below \(and in the dialog snapshot above\) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts \(see the [song structure editor](song-structure.md)\) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
 
-![Snapshot to be updated! ALTERNATE &amp;gt; SUBSTITUTE](../../.gitbook/assets/alternatechordleadsheet.png)
+![&#x3053;&#x308C;&#x306F;&#x53E4;&#x3044;&#x753B;&#x50CF;&#x3067;&#x3059;&#x3002;Substitute&#x3068;&#x306A;&#x308B;&#x3079;&#x304D;&#x3068;&#x3053;&#x308D;&#x304C;Alternate&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;](../../.gitbook/assets/alternatechordleadsheet.png)
 
 There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" \(same as no chord symbol\) when marker is _not_ "Solo".
 
