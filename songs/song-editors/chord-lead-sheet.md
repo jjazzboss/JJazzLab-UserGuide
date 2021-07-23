@@ -98,17 +98,17 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 
 ![&#x3053;&#x308C;&#x306F;&#x53E4;&#x3044;&#x753B;&#x50CF;&#x3067;&#x3059;&#x3002;Substitute&#x3068;&#x306A;&#x308B;&#x3079;&#x304D;&#x3068;&#x3053;&#x308D;&#x304C;Alternate&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;](../../.gitbook/assets/chordsymbolalternatedialog.png)
 
-This tab lets you define a **substitute** chord symbol which will be used when some conditions are met. 
+このタブでは、いくつかの条件が満たされたときに使用される**代替\(Substitute\)**可能なコード記号を定義できます。 
 
-**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
+**代替**コード記号は、曲の一部にちょっとした変化をつけたいときに便利です。
 
-The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all \(void chord\). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color \(see image below\).
+**代替**コード記号は、どんなコード記号でも、どんな解釈でも、どんなハーモニーでも構いません。また、コード記号が全くない状態（voidコード）も可能です。**代替**コード記号が定義されているコード記号は、別の色で表示されます。（下の画像参照）。
 
-_Example:_
+_例：_
 
-In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute** chord symbol can provide a simpler solution.
+Iカルロス・サンタナの「哀愁のヨーロッパ」では、テーマの1回目のエンディングはCm7ですが、2回目のエンディングはCM7です。これをJJazzLabで実現するには、セクションA1を複製して、異なるエンディングを持つセクションA2を作り、それに合わせて曲の構成を変更するという方法があります。この方法でも問題はありませんが、変更がわずかな場合には、**代替**コード記号を使う方がより簡単でしょう。
 
-You can see below \(and in the dialog snapshot above\) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts \(see the [song structure editor](song-structure.md)\) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
+下の図（および上のダイアログのスナップショット）では、CM7の**代替**コードが作成されています。CM7は、曲のすべてのパートで使用されます（[ソング構成エディター](song-structure.md)\) 。 マーカーがテーマ\(Theme\)2に設定されている部分です。下の画像では、CM7は2つ目のソングパートでのみ使用されることを意味します。
 
 ![&#x3053;&#x308C;&#x306F;&#x53E4;&#x3044;&#x753B;&#x50CF;&#x3067;&#x3059;&#x3002;Substitute&#x3068;&#x306A;&#x308B;&#x3079;&#x304D;&#x3068;&#x3053;&#x308D;&#x304C;Alternate&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;](../../.gitbook/assets/alternatechordleadsheet.png)
 
