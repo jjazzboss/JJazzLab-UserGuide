@@ -12,7 +12,7 @@ helpTitle: false
 
 * コード記号の追加: 例 **Cm6, Ab7**
 * セクションの追加: 例 **"A"、"B"、"ヴァース"、"コーラス**"...など
-* コードの移動や編集による、リズムのアクセント、解釈、ハーモニーの調整
+* コードの拍の移動や、アクセント、解釈、モードスケールの編集による調整
 
 ![](../../.gitbook/assets/chordleadsheeteditor.png)
 
@@ -154,7 +154,7 @@ _例：_
 ## Keyboard shortcuts
 
 {% hint style="info" %}
-Many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated keyboard is displayed.
+動作の多くは、コンテキストメニュー（Windows/Linuxでは右クリック、MacではCtrlキーを押しながらクリック）でも利用でき、また利用できる場合は関連するキーボードが表示されます。
 {% endhint %}
 
 | 対象 | キー | 動作 |

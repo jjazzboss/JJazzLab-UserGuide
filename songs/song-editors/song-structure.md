@@ -8,17 +8,17 @@ helpTitle: false
 
 # ソング構成
 
-Use the **song structure editor** to:
+**ソング構成エディター** を使う場面は、：
 
-* Define the order of sections, eg "AABA", "verse verse chorus verse", ...
-* Select the **rhythm**\(s\) to be used 
-* Adjust the **rhythm parameters** to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
+* 楽曲のセクションの順番を決めます。例えば、"AABA"や、 "ヴァース ヴァース コーラス ヴァース"といった感じです。
+* 使用する**リズム**を選択します。 
+* **リズムパラメーター**を調整して、セクションでのバリエーション、強弱、楽器のミュートなどのメリハリを出します。
 
 ![](../../.gitbook/assets/songstructureeditor.png)
 
-## Song parts
+## ソングパート\(Song parts\)
 
-A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
+**ソングパート**は、[コードリードシート](chord-lead-sheet.md)の親**セクション**と関連しています。
 
 A song part has a name, a **rhythm** and a value for each of the **rhythm parameters**.
 
