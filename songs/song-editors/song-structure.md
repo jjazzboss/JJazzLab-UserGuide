@@ -56,15 +56,15 @@ MIDIは16チャンネルしか対応できず、たいていのリズムは7～8
 
 | 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
-| song part, rhythm param. | click | select |
-| song part | double click | edit song part name |
-| song part name | click | edit  |
-| rhythm | click | select a rhythm |
-| editor, song part, rhythm param. | right-click | open popup menu |
-| rhythm parameter | double-click | edit value |
-| rhythm parameter | mouse wheel | change value |
-| rhythm parameters | shift+mouse wheel | make values identical then change value |
-| editor | ctrl mouse wheel | change X zoom factor |
+| ソングパート、リズム設定パラメーター | click | select |
+| ソングパート | double click | edit song part name |
+| ソングパート名 | click | edit  |
+| リズム | click | select a rhythm |
+| エディター、ソングパート、リズム設定パラメーター | right-click | open popup menu |
+| リズム設定パラメーター | double-click | edit value |
+| リズム設定パラメーター | mouse wheel | change value |
+| リズム設定パラメーター\(複数\) | shift+mouse wheel | make values identical then change value |
+| エディター | ctrl mouse wheel | change X zoom factor |
 
 ## キーボードショートカット
 
@@ -74,15 +74,15 @@ Many actions are also available via the context menu \(right-click on Windows/Li
 
 | 対象 | キー | 動作 |
 | :--- | :--- | :--- |
-| song part, rhythm param. | enter | edit song part name |
-| song part, rhythm param. | R | select rhythm |
-| song part, rhythm param. | I | insert song part |
-| song part, rhythm param. | ctrl-I | append song part |
-| song part, rhythm param. | D | duplicate song part\(s\) |
-| song part | delete | delete song part\(s\) |
-| rhythm parameter | ctrl-up/down | next/previous value |
-| rhythm parameter | Z | reset param. value |
-| song part | ctrl-C/X/V | copy/cut/paste |
-| editor | ctrl-Z/Y | undo/redo |
-| editor | ctrl-F | zoom to fit width |
+| ソングパート、リズム設定パラメーター | enter | edit song part name |
+| ソングパート、リズム設定パラメーター | R | select rhythm |
+| ソングパート、リズム設定パラメーター | I | insert song part |
+| ソングパート、リズム設定パラメーター | ctrl-I | append song part |
+| ソングパート、リズム設定パラメーター | D | duplicate song part\(s\) |
+| ソングパート | delete | delete song part\(s\) |
+| リズム設定パラメーター | ctrl-up/down | next/previous value |
+| リズム設定パラメーター | Z | reset param. value |
+| ソングパート | ctrl-C/X/V | copy/cut/paste |
+| エディター | ctrl-Z/Y | undo/redo |
+| エディター | ctrl-F | zoom to fit width |
 
