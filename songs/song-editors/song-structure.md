@@ -20,36 +20,36 @@ helpTitle: false
 
 **ソングパート**は、[コードリードシート](chord-lead-sheet.md)の親**セクション**と関連しています。
 
-A song part has a name, a **rhythm** and a value for each of the **rhythm parameters**.
+ソングパートには、名前が一つ、 **リズム**が一つ、そして**リズム設定パラメーター**\(variation、intensity、fill、mute、maraker\)にそれぞれ一つの値があります。
 
-To add a new song part:
+新しいソングパートの追加：
 
-* drag a section from the chord lead sheet into the song structure editor, or
-* right-click menu **Insert**, or 
-* copy an existing song part: drag it while pressing the ctrl key, use copy & paste, or right-click menu **Duplicate**
+* コードリードシートからセクションをソング構成エディターにドラッグするか、
+* メニューを右クリックして挿入\(**Insert**\)するか、
+* 既にあるソングパートをコピー: ctrlキーを押しながらドラッグしてコピー&ペースト、もしくは右クリックして複製\(**Duplicate**\)します。
 
-By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name.
+デフォルトでは、ソングパートの名前は親セクションの名前になっています。ソングパートの名前が変更された場合は、親セクションが名前の下に表示されます。
 
-If some contiguous song parts share the same name, then the name is displayed only on the first song part and a line is shown on the contiguous song parts. Clicking this line will select all the related song parts.
+いくつかの連続したソングパートが同じ名前を持つ場合、名前は最初のソングパートにのみ表示され、連続したソングパートには線が表示されます。この線をクリックすると、関連するすべてのソングパートが選択されます。
 
 ![](../../.gitbook/assets/songparts-samename.png)
 
-Song parts can be reordered by dragging them using the mouse.
+ソングパートは、マウスでドラッグすることで並び替えることができます。
 
-## Editing
+## 編集
 
-You can modify the song part **name**, **rhythm**, and **rhythm parameter** values.
+ソングパートの **名前**、**リズム**、そして**リズム設定パラメーター**の値は変更可能です。
 
-Edition is done directly from in the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** \(see snapshot at the top of this page\). Edited values will impact all the selected song parts or rhythm parameters.
+編集は、ソング構成エディターの中から [マウス](song-structure.md#mouse-shortcuts)を使って直接行うか、または**ソングパートエディター**（ページ上部のスナップショット参照）で行います。編集した値は、選択したすべてのソングパートまたはリズム設定パラメーターに影響します。
 
-Press **R** or click the rhythm name to open the **rhythm selection dialog**.
+キーボードの**R**ボタンを押すか、リズム名をクリックすると、**リズム選択ダイアログ**が表示されます。
 
 ![](../../.gitbook/assets/rhythm-selection-dialog.png)
 
-When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+リズムを変更すると、JJazzLab は以前のリズム設定パラメーターの値を新しいリズム設定パラメーターに合わせようとします。
 
 {% hint style="warning" %}
-Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
+MIDIは16チャンネルしか対応できず、たいていのリズムは7～8個の楽器を使用します。そのため、2つ以上のリズムを持つ曲を作ることは現実的には困難です。
 {% endhint %}
 
 ## マウスショートカット
