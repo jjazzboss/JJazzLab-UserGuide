@@ -56,15 +56,15 @@ MIDIは16チャンネルしか対応できず、たいていのリズムは7～8
 
 | 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
-| ソングパート、リズム設定パラメーター | click | select |
-| ソングパート | double click | edit song part name |
-| ソングパート名 | click | edit  |
-| リズム | click | select a rhythm |
-| エディター、ソングパート、リズム設定パラメーター | right-click | open popup menu |
-| リズム設定パラメーター | double-click | edit value |
-| リズム設定パラメーター | mouse wheel | change value |
-| リズム設定パラメーター\(複数\) | shift+mouse wheel | make values identical then change value |
-| エディター | ctrl mouse wheel | change X zoom factor |
+| ソングパート、リズム設定パラメーター | クリック | select |
+| ソングパート | ダブルクリック | edit song part name |
+| ソングパート名 | クリック | edit  |
+| リズム | クリック | select a rhythm |
+| エディター、ソングパート、リズム設定パラメーター | 右クリック | open popup menu |
+| リズム設定パラメーター | ダブルクリック | edit value |
+| リズム設定パラメーター | マウスホイール | change value |
+| リズム設定パラメーター\(複数\) | shift+マウスホイール | make values identical then change value |
+| エディター | ctrl+マウスホイール | change X zoom factor |
 
 ## キーボードショートカット
 
