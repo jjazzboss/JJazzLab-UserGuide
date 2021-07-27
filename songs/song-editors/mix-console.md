@@ -6,7 +6,7 @@ weight: 330
 helpTitle: false
 ---
 
-# Mix console
+# ミックスコンソール
 
 Use the **mix console** to:
 

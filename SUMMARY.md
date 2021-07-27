@@ -19,7 +19,7 @@
 * [ソングエディター](songs/song-editors/README.md)
   * [コードリードシート](songs/song-editors/chord-lead-sheet.md)
   * [ソング構成](songs/song-editors/song-structure.md)
-  * [Mix console](songs/song-editors/mix-console.md)
+  * [ミックスコンソール](songs/song-editors/mix-console.md)
 * [Song and mix files](songs/song-and-mix-files.md)
 * [Importing songs](songs/importing-songs.md)
 

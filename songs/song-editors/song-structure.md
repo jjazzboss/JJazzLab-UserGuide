@@ -56,33 +56,33 @@ MIDIは16チャンネルしか対応できず、たいていのリズムは7～8
 
 | 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
-| ソングパート、リズム設定パラメーター | クリック | select |
-| ソングパート | ダブルクリック | edit song part name |
-| ソングパート名 | クリック | edit  |
-| リズム | クリック | select a rhythm |
-| エディター、ソングパート、リズム設定パラメーター | 右クリック | open popup menu |
-| リズム設定パラメーター | ダブルクリック | edit value |
-| リズム設定パラメーター | マウスホイール | change value |
-| リズム設定パラメーター\(複数\) | shift+マウスホイール | make values identical then change value |
-| エディター | ctrl+マウスホイール | change X zoom factor |
+| ソングパート、リズム設定パラメーター | クリック | 選択 |
+| ソングパート | ダブルクリック | ソングパート名の編集 |
+| ソングパート名 | クリック | 編集 |
+| リズム | クリック | リズムを選択 |
+| エディター、ソングパート、リズム設定パラメーター | 右クリック | ポップアップメニューを開く |
+| リズム設定パラメーター | ダブルクリック | パラメーター値を編集 |
+| リズム設定パラメーター | マウスホイール | パラメーター値を変更 |
+| リズム設定パラメーター\(複数\) | shift+マウスホイール | パラメーター値を同一にしてから値を変更 |
+| エディター | ctrl+マウスホイール | 水平方向のズーム変更 |
 
 ## キーボードショートカット
 
 {% hint style="info" %}
-Many actions are also available via the context menu \(right-click on Windows/Linux, ctrl-click on Mac\), and when available the associated shortcut is displayed.
+多くのアクションは、コンテキストメニュー（Windows/Linuxでは右クリック、MacではCtrlキーを押しながらクリック）からも利用でき、利用できる場合は関連するショートカットが表示されます。
 {% endhint %}
 
 | 対象 | キー | 動作 |
 | :--- | :--- | :--- |
-| ソングパート、リズム設定パラメーター | enter | edit song part name |
-| ソングパート、リズム設定パラメーター | R | select rhythm |
-| ソングパート、リズム設定パラメーター | I | insert song part |
-| ソングパート、リズム設定パラメーター | ctrl-I | append song part |
-| ソングパート、リズム設定パラメーター | D | duplicate song part\(s\) |
-| ソングパート | delete | delete song part\(s\) |
-| リズム設定パラメーター | ctrl-up/down | next/previous value |
-| リズム設定パラメーター | Z | reset param. value |
-| ソングパート | ctrl-C/X/V | copy/cut/paste |
-| エディター | ctrl-Z/Y | undo/redo |
-| エディター | ctrl-F | zoom to fit width |
+| ソングパート、リズム設定パラメーター | enter | ソングパート名の編集 |
+| ソングパート、リズム設定パラメーター | R | リズムを選択 |
+| ソングパート、リズム設定パラメーター | I | ソングパートの挿入 |
+| ソングパート、リズム設定パラメーター | ctrl+I | ソングパートの追加 |
+| ソングパート、リズム設定パラメーター | D | ソングパート\(複数\)の複製 |
+| ソングパート | delete | ソングパート\(複数\)の削除 |
+| リズム設定パラメーター | ctrl+up/down | 次/元のパラメーター値 |
+| リズム設定パラメーター | Z | パラメーター値のリセット |
+| ソングパート | ctrl+C/X/V | コピー/カット/ペースト |
+| エディター | ctrl+Z/Y | 元に戻す/やり直し |
+| エディター | ctrl+F | 幅に合った拡大 |
 
