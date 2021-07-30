@@ -8,18 +8,18 @@ helpTitle: false
 
 # ミックスコンソール
 
-Use the **mix console** to:
+**ミックスコンソール**を使用する場面は：
 
-* Change the instruments
-* Adjust channel settings: volume, reverb, chorus, panoramic, transposition, velocity offset
-* Mute or solo channels
-* Load/save .mix file
-* And more: change Midi channel, use special Midi commands, etc.
+* 楽器の変更
+* チャンネル設定の調整：音量、リバーブ、コーラス、パン、移調、ベロシティオフセット
+* チャンネルのミュートまたはソロ
+* .mixファイルの読み込み／保存
+* さらには：MIDIチャンネルの変更、特別なMIDIコマンドの使用、等々
 
-JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](../../configuration/output-synth.md). This is done each time you make a change in the mix console, or when you start the playback.
+ JJazzLabは、**ミックスコンソール**の情報を使って、関連するMIDIメッセージを[シンセ出力](../../configuration/output-synth.md)に送ります。これは、ミックスコンソールで変更を加えるたびに、あるいはプレイバックを開始するときに行われます。
 
 {% hint style="danger" %}
-Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
+MIDIは16チャンネルだけしかありません。そのため、通常では1曲に2つ以上のリズムはできません。
 {% endhint %}
 
 ![](../../.gitbook/assets/mixconsole.png)
