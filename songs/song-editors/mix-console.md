@@ -24,82 +24,82 @@ MIDIは16チャンネルだけしかありません。そのため、通常で�
 
 ![](../../.gitbook/assets/mixconsole.png)
 
-## MIx console menu bar
+## ミックスコンソールメニューバー
 
-### Menu File
+### ファイル\(File\)
 
-* **Load/Save Default Rhythm Mix**  
+* **初期リズムミックスのLoad/Save\(Load/Save Default Rhythm Mix\)**  
 
-  Change the current mix from a file. Consult [this page](../song-and-mix-files.md) for more information about .mix files.
+  ファイルから現在のミックスを変更します。.mixファイルの情報は[本ページ](../song-and-mix-files.md) を良く読んでください。
 
-* **Import Mix...**  
+* **ミックスのインポート\(Import Mix...\)**  
 
-  Note that this will import settings only for the instruments which are common between the current mix and the imported mix.
+  現在のミックスとインポートしたミックスで共通する楽器の設定のみがインポートされることに注意してください。
 
-### Menu Edit
+### 編集\(Edit\)
 
-* **Add/Remove user channel**   
+* **ユーザーチャンネルの追加／削除\(Add/Remove user channel\)**   
 
-  The user channel is used to automatically set the instrument that you want to play for a given song or rhythm.  
+  ユーザーチャンネルは、曲やリズムに合わせて、演奏したい楽器を自動的に設定するためのものです。  
 
-  _Example: you're a keyboardist and JJazzLab is connected to your synthesizer. You made Stevie Wonder's "Isn't she lovely" song and you play a clavinet sound on it. Add the User Channel with a Clavinet sound, increase the chorus effect, then save the song. This way, the next time you load the song you'll automatically get your clavinet sound recalled on your synthesizer._  
+  _例：あなたはキーボーディストで、JJazzLabがシンセサイザーに接続されています。Stevie Wonderの "Isn't she lovely "という曲を作り、そこにクラビネットの音を入れて演奏します。クラビネットの音でユーザーチャンネルを追加し、コーラス効果を強めてから、曲を保存します。こうすれば、次に曲をロードしたときに、自動的にシンセサイザーでクラビネットサウンドが再現されます。_  
 
-* **Reset channels**  
+* **チャンネルのリセット\(Reset channels\)**  
 
-  Restore the original settings from the related rhythm.
+  関連するリズムから元の設定に戻します。
 
-### Menu Midi
+### MIDI
 
-* **Enable/Disable all Midi parameters**  
+* **全てのMIDIパラメーターの有効／無効\(Enable/Disable all Midi parameters\)**  
 
-  Use Disable all Midi parameters if you control the mix yourself directly on the output synth.
+  全てのMIDIパラメーターの有効／無効は、ミックスをシンセ出力に直接自力でコントロールするときに使います。
 
-* **Send GM/GM2/XG/GM mode ON message**  
+* **GM/GM2/XG/GMモードでONメッセージを送る\(Send GM/GM2/XG/GM mode ON message\)**  
 
-  This lets you send special Midi initialization messages to turn your output synth in the desired mode.
+  これにより、特別MIDI初期化メッセージをシンセ出力に希望のモードで送ることができます。
 
-## Change instrument
+## 楽器の変更\(Change instrument\)
 
-Click on the instrument name in the channel. Note that this is also where instrument transposition can be adjusted.
+チャンネル内の楽器名をクリックします。また、ここでは楽器の移調調整もできます。
 
 ![](../../.gitbook/assets/mixconsole-instrumentselection.png)
 
-## Channel settings
+## チャンネル設定\(Channel settings\)
 
-Use the channel settings to:
+チャンネル設定の使い方は以下の通りです。
 
-* **Add a Midi velocity offset to all notes played on this channel**  
+* **このチャンネルで演奏されるすべての音にMIDIベロシティオフセットを追加する \(Add a Midi velocity offset to all notes played on this channel\)**  
 
-  Note that this is slightly different from adjusting the volume.  
+  音量調整とは少し違いますのでご注意ください。.  
 
-* **Disable sending specific Midi messages**  
+* **特定のMIDIメッセージ送信を中止する\(Disable sending specific Midi messages\)**  
 
-  Probably because you control the parameter yourself directly on the [output synth](../../configuration/output-synth.md).  
+  おそらく、自分で直接パラメータを[シンセ出力](../../configuration/output-synth.md)でコントロールしているためと思われます。  
 
-* **Use drums-rerouting for channels drums**  
+* **チャンネルドラムに drums-rerouting を使用\(Use drums-rerouting for channels drums\)**  
 
-  If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](../../configuration/output-synth.md) information, potential issues.   
+  基本的なGM出力のシンセサイザーを使用した場合、**チャンネル10でのみ**ドラムを演奏することができます。ミックス内の他のチャンネルでドラム/パーカッションが使用されている場合は、これらのチャンネルでドラムのリルートを有効にする必要があります。なお、JJazzLab は、現在の[シンセ出力](../../configuration/output-synth.md)の情報に基づいて潜在的な問題を検出した場合、このオプションを有効にすることがあります。   
 
 ![](../../.gitbook/assets/mixconsole-channelsettings.png)
 
-## Midi channel
+## MIDIチャンネル
 
-Each Midi channel can be changed manually.
+各MIDIチャンネルは手動で変更できます。
 
 ![](../../.gitbook/assets/mixconsole-changechannel%20%281%29.png)
 
-## Multi-rhythm songs
+## 複数のリズムがあるソング
 
-When a song uses 2 or more rhythms, a popup is displayed in the upper left corner of the mix console to select the rhythm you want to display.
+曲の中で2つ以上のリズムが使われている場合は、ミックスコンソールの左上にポップアップが表示され、表示したいリズムを選択することができます。
 
 ![](../../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
-Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm\(s\).
+ただし、**Edit/Reset channels\(チャンネルの編集／リセット\)**などの一部のコマンドは、隠しリズムには適用されません。
 
 ## マウスショートカット
 
 | 対象 | マウス | 動作 |
 | :--- | :--- | :--- |
-| channel volume slider, knobs | double-click | Input value with keyboard |
-| channel volume slider | shift + mouse-drag | change volume of all channels |
+| チャンネルボリュームスライダー、つまみ | ダブルクリック | キーボードによる値入力 |
+| チャンネルボリュームスライダー | shift + マウスドラッグ | 全チャンネルのボリューム変更 |
 

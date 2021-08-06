@@ -6,7 +6,7 @@ weight: 400
 helpTitle: true
 ---
 
-# Song and mix files
+# ソングとミックスファイル
 
 When you save a song called **mySong**, JJazzLab actually saves 2 different files:
 
