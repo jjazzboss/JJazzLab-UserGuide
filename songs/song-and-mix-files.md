@@ -8,12 +8,12 @@ helpTitle: true
 
 # ソングとミックスファイル
 
-When you save a song called **mySong**, JJazzLab actually saves 2 different files:
+**mySong**という曲を保存したとすると、JJazzLabは実際には2つの異なるファイルを保存します：
 
-* **mySong.sng**: contains everything except the mix information
-* **mySong.mix**: contains only the mix information, i.e. the configuration of the instruments used.
+* **mySong.sng**：ミックス情報以外のすべての情報が含まれています。
+* **mySong.mix**：ミックス情報（使用した楽器の構成）のみが含まれています。
 
-Why using 2 different files ?
+なぜ2つの異なるファイルを使うのでしょうか ?
 
 Because the mix information is specific to your [output synth](../configuration/output-synth.md). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
 
