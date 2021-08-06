@@ -1,4 +1,4 @@
-# Importing songs
+# ソングのインポート
 
 ## Band In A Box song files
 

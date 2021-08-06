@@ -29,13 +29,13 @@ JJazzLabの各リズムには組み込みデフォルリズムミックスがあ
 
 デフォルトでは、このファイルは**Options/Rhythms**で設定した**user rhythm directory**に保存されます。しかし、このディレクトリは**オプション/全般\(Options/General\)**で変更することができます。
 
-## Mix file lookup order
+## ミックスファイルの検索順序
 
-Combining the 2 paragraphs above, below is how JJazzLab looks for mix information when you load **myDir/mySong.sng** and this songs uses rhythm **16BeatRock** :
+**myDir/mySong.sng**をロードして、この曲が**16BeatRock**のリズムを使っている場合、JJazzLabは、上の2つの段落で述べたことを組み合わせて、以下のようにミックス情報を検索します：
 
-1. use **myDir/mySong.mix** if present 
-2. use **defaultRhythmMixDir/16BeatRock.mix** if present 
-3. use **16BeatRock** builtin default mix \(GM instruments only\)
+1. **myDir/mySong.mix**があれば、それを使用する 
+2. **defaultRhythmMixDir/16BeatRock.mix**があれば、それを使用する 
+3. **16BeatRock**組み込みデフォルトミックスを使用（GM音源のみ）する。
 
-Steps 2. and 3. are also used when you add a new rhythm in a song.
+ステップ２と３は、曲の中に新しいリズムを追加するときにも使われます。
 

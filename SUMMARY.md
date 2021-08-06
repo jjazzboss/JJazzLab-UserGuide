@@ -21,7 +21,7 @@
   * [ソング構成](songs/song-editors/song-structure.md)
   * [ミックスコンソール](songs/song-editors/mix-console.md)
 * [ソングとミックスファイル](songs/song-and-mix-files.md)
-* [Importing songs](songs/importing-songs.md)
+* [ソングのインポート](songs/importing-songs.md)
 
 ## リズム <a id="rhythms"></a>
 
