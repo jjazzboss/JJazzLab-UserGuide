@@ -15,11 +15,11 @@ helpTitle: true
 
 なぜ2つの異なるファイルを使うのでしょうか ?
 
-Because the mix information is specific to your [output synth](../configuration/output-synth.md). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
+ミックス情報は、各自の[シンセ出力](../configuration/output-synth.md)に特有であるからです。 ミックスデータを.sngファイルに統合すると、他のユーザーのシンセ出力と異なるため、.sngファイルをユーザー間で持ち運びすることができなくなります。
 
-When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
+**mySong.sng**を開くと、JJazzLabは同じディレクトリにある**mySong.mix**も開きます。**mySong.mix**が存在しない場合、JJazzLabは[デフォルトリズムミックス](song-and-mix-files.md#default-rhythm-mix)を使ってミックスを作成します。
 
-## Default rhythm mix
+## デフォルトリズムミックス\(Default rhythm mix\)
 
 Each JJazzLab rhythm has a builtin default mix. This builtin default mix can only use **GM instruments** for maximum portability.
 
