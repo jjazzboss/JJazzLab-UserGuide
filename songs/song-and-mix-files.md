@@ -21,13 +21,13 @@ helpTitle: true
 
 ## デフォルトリズムミックス\(Default rhythm mix\)
 
-Each JJazzLab rhythm has a builtin default mix. This builtin default mix can only use **GM instruments** for maximum portability.
+JJazzLabの各リズムには組み込みデフォルリズムミックスがあります。この組み込みデフォルトミックスでは、移植性を高めるために**GM音源**しか使用できません。
 
-You can override the rhythm's builtin mix by saving a **default rhythm mix** file.  Unlike the builtin mix, **this rhythm mix can use any instruments**.
+**デフォルトリズムミックス**ファイルを保存すれば組み込みリズムミックスに優先させることができます。組み込みミックスとは異なり、**このリズムミックスは、任意の楽器を使用できます。**
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-By default this file is stored in the **user rhythm directory** set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
+デフォルトでは、このファイルは**Options/Rhythms**で設定した**user rhythm directory**に保存されます。しかし、このディレクトリは**オプション/全般\(Options/General\)**で変更することができます。
 
 ## Mix file lookup order
 
