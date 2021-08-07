@@ -1,4 +1,4 @@
-# Rhythm files
+# リズムファイル
 
 Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. 
 

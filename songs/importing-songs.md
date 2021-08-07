@@ -1,32 +1,32 @@
 # ソングのインポート
 
-## Band In A Box song files
+## Band In A Boxのソングファイル
 
-JJazzLab can import .SG\* or .MG\* song files.
+JJazzLabでは、.SG_または.MG_のソングファイルを読み込むことができます。
 
-Only the following Band-In-A-Box data are used to generate the corresponding JJazzLab song :
+以下のBand-In-A-Boxのデータのみが使用でき、対応するJJazzLabソングを生成します：
 
-* **song structure**: chorus start, chorus end, number of chorus, tag after, tag start, tag end, 2 bar ending
-* **chord symbols**: name, position \(including optional push settings\), rest/hold/shot settings
-* **song settings**: allow push/rest in first/middle/last chorus.
+* **ソング構成**: コーラス開始、コーラス終了、コーラス数、タグアフター、タグ開始、タグ終了、2小節エンディング
+* **コード記号**: コード名、ポジション（任意のプッシュ設定を含む）、休符/ホールド/ショット設定
+* **ソング設定**: 最初/中間/最後のサビでのプッシュ/休符を許可する。
 
-The song import feature is not 100% reliable, but most of the files should be OK.
+曲のインポート機能は100％信頼できるものではありませんが、ほとんどのファイルは問題ないはずです。
 
 {% hint style="danger" %}
-**By default imported songs will be in 4/4**. If you know that the imported song is in 3/4, then when import is done just select the initial time signature and use righ-click menu **Set time signature** to fix the time signature.
+**デフォルトでは、インポートされた曲は4/4になります。**もし、インポートする曲が3/4とわかっている場合は、インポートが完了したら、最初の拍子記号を選択して、右クリックメニューの**Set time signature**で拍子記号を修正してください。
 {% endhint %}
 
-## musicXML files
+## musicXMLファイル
 
-JJazzLab can import musicXML \(.xml\) or compressed musicXML \(.mxl\). 
+JJazzLabは、musicXML \(.xml\)または圧縮されたmusicXML \(.mxl\)をインポートできます。 
 
-The import is limited to the time signatures and chord symbols.
+インポートできるのは、拍子記号とコード記号のみです。
 
-## Impro-Visor leadsheet files
+## Impro-Visorリードシートファイル
 
-JJazzLab can import Impro-Visor \(.ls\) leadsheet files. 
+JJazzLabは、Impro-Visor \(.ls\)リードシートファイルを読み込めます。 
 
-The import is limited to the time signatures and chord symbols.
+インポートできるのは、拍子記号とコード記号のみです。
 
 
 
