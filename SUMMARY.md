@@ -26,7 +26,7 @@
 ## リズム <a id="rhythms"></a>
 
 * [リズムファイル](rhythms/rhythm-files.md)
-* [Adapted rhythms](rhythms/adapted-rhythms.md)
+* [リズムの適合](rhythms/adapted-rhythms.md)
 
 ## リズムエンジン <a id="rhythm-engines"></a>
 

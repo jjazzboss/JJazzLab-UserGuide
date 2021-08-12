@@ -1,4 +1,4 @@
-# Adapted rhythms
+# リズムの適合
 
 If you create a **section** with a different time signature, JJazzLab will create the corresponding **song part** with an **adapted rhythm**. This is simply the **rhythm** from the previous song part **adapted** to a new time signature.
 

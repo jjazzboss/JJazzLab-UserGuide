@@ -1,45 +1,45 @@
 # リズムファイル
 
-Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. 
+リズムは、[リズムエンジン](../rhythm-engines/overview.md)によって提供されます。いくつかのリズムは、**リズムファイル**をベースにしています。 
 
-For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
+例えば、[YamJJazzリズムエンジン](../rhythm-engines/yamjjazz-rhythm-engine/)は、**poprock.sty**や**TripHop.S510.prs**などのヤマハスタイルファイルをベースにしたリズムを提供しています。
 
-## Rhythm files location <a id="rhythm-files-location"></a>
+## リズムファイルの場所 <a id="rhythm-files-location"></a>
 
-JJazzLab expects rhythm files to be in the **User directory for rhythm Files**. The location of this directory can be changed in the **Options/Rhythms**. 
+JJazzLab  はリズムファイルを **リズムファイル用のユーザーディレクトリ**に置くことを想定しています。このディレクトリの場所は、**Options/Rhythms**で変更することができます。 
 
 {% hint style="info" %}
-You can use up to 2 levels of sub-directories to organize the rhythms. Sub-directories whose name starts with an underscore '\_' are not scanned.
+リズムを整理するために、最大2階層のサブディレクトリーを使用することができます。サブディレクトリの名前がアンダースコア「\_」で始まるものはスキャンされません。
 {% endhint %}
 
 ![](../.gitbook/assets/userdirforrhythmfiles.png)
 
-## Rhythm files scanning <a id="rhythm-files-scanning"></a>
+## リズムファイルのスキャン <a id="rhythm-files-scanning"></a>
 
-Your **rhythm files** are scanned at startup only upon a fresh install, and the rhythm list is saved into a **cache file**.
+インストールして初めての起動時に**リズムファイル**をスキャンし、リズムリストを**キャッシュファイル**に保存します。
 
-This cache file is then used to get the **rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files. 
+ このキャッシュファイルは、次回の起動時に **リズムリスト**を取得するために使用されるので、最初のスキャンよりもはるかに、特に多数のリズムファイルがある場合には、高速です。 
 
 {% hint style="info" %}
-If you add or remove **rhythm files** in the **user directory for rhythm files** \(or a subdirectory\) you need to manually force a re-scan in order to update the cache file. This can be done in **Option/Rhythms** \(see image above\).
+ もし、**リズムファイル**を**リズムファイル用ユーザーディレクトリ**またはサブディレクトリ）に追加または削除した場合は、キャッシュファイルを更新するために手動で再スキャンを行う必要があります。これは、**Option/Rhythms**で行うことができます（上の画像を参照）。
 {% endhint %}
 
-## Adding new rhythm files <a id="adding-new-rhythm-files"></a>
+## 新しいリズムファイルの追加 <a id="adding-new-rhythm-files"></a>
 
-In order to avoid having too many files cluttering the **User directory for rhythm files**, the recommended way is:
+あまりに多数のファイルが**リズムファイル用のユーザーディレクトリ**に増えすぎないようにするには、以下の方法を推奨します：
 
-1. **Test the rhythm files**  
-   In the **rhythm selection dialog**, use the **Add Rhythms** button to load additional rhythm files for the current session only. These files can be anywhere on your hard drive.  
+1. **リズムファイルのテスト**  
+    まず、**リズム選択ダイアログ\(rhythm selection dialog\)**で**リズム追加\(Add Rhythms\)**を使って、現在のセッションのためだけに追加のリズムファイルをロードします。これらのファイルは、ハードディスクのどこにあってもかまいません。  
   
     ![](../.gitbook/assets/addrhythmsbutton.png) 
 
   
-   Standard [Yamaha styles ](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)\(.sty, .prs, .sst or .bcs\) should appear in the **YamJJazz standard styles**, and [extended Yamaha styles](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) \(.yjz\) should appear in the **YamJJazz extended styles**.   
+   標準的な[ヤマハスタイル](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)\(.sty、.prs、.sst、.bcs\) は、**YamJJazz standard styles**に、[拡張ヤマハスタイル](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) \(.yjz\) は、**YamJJazz extended styles**に表示されます。  
 
-2. **Copy the validated rhythm files** Once you have selected the “best” rhythm files, copy them somewhere in the **User Directory for Rhythm Files** \(see above\). 
-3. **Force a Rescan from Options/Rhythms**
+2. **検証されたリズムファイルをコピーする**  最適なリズムファイルを選んだら、それを**リズムファイル用ユーザーディレクトリ**のどこかにコピーします（上記参照）。 
+3. **Options/Rhythmsから強制的に再スキャンする**
 
 {% hint style="danger" %}
-Quality of Yamaha style files found on the web vary a lot. Furthermore some styles are sometimes “broken” \(invalid file format\). If there is an error the corresponding rhythm won’t show up in the rhythm selection dialog.
+ヤマハスタイルファイルは、ウェブ上で公開されているものでも、その品質には大きなばらつきがあります。さらに、スタイルの中には、時々「壊れた」（無効なファイル形式）ものがあります。エラーが発生した場合、対応するリズムはリズム選択ダイアログに表示されません。
 {% endhint %}
 
