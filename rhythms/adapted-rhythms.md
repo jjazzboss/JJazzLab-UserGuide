@@ -1,20 +1,20 @@
-# リズムの適合
+# リズムの適応
 
-If you create a **section** with a different time signature, JJazzLab will create the corresponding **song part** with an **adapted rhythm**. This is simply the **rhythm** from the previous song part **adapted** to a new time signature.
+異なる拍子の**セクション**を作成した場合、JJazzLabは**適応するリズム**の**ソングパート**を作成します。これは、単純に前のソングパートの**リズム**を新しい拍子に**適応**させたものです。
 
 ![](../.gitbook/assets/adaptedrhythmexample.png)
 
-You’ll notice that the **adapted rhythm** does not need additional channels in the mix console: it uses the Midi channels of its source rhythm \(**fastbossa.s629.prs** in the example above\).
+ ご覧のように**適応したリズム**は、ミックスコンソールでチャンネルを追加しなくても構いません\(上の例では、**fastbossa.s629.prs**\)。
 
-If you don’t want the **adapted rhythm**, juste replace it using the **rhythm selection dialog**.
+ もし、**適応させたリズム**が不要な場合は、**リズム選択ダイアログ**を使って置き換えることができます。
 
 {% hint style="danger" %}
-You can't remove a **source rhythm** if its **adapted rhythm** is still present in the song. See example below.
+ 曲の中に**適応させたリズム**が残っている場合、**元のリズム**を削除することはできません。以下の例をご覧ください。
 {% endhint %}
 
-_Example:_ any operation \(change rhythm, remove song part, change time signature of the parent section\) which makes the source rhythm **fastbossa.s629.prs** disappear from the song will generate an error.
+_例：_元のリズム**fastbossa.s629.prs**がソングから消えるような操作（リズムの変更、曲のパートの削除、親セクションの拍子の変更）を行うと、エラーになります。
 
 ![](../.gitbook/assets/removesourcerhythmerror.png)
 
-In the above case, if you want to replace **fastbossa.s629.prs** by another rhythm, you need first to remove the second song part which uses the **adapted rhythm**.
+上記の場合、**fastbossa.s629.prs**を別のリズムに置き換えたい場合は、まず最初に、**適応したリズム**を使用している２つ目の曲のパートを削除する必要があります。
 

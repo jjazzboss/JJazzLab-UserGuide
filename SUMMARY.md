@@ -26,12 +26,12 @@
 ## リズム <a id="rhythms"></a>
 
 * [リズムファイル](rhythms/rhythm-files.md)
-* [リズムの適合](rhythms/adapted-rhythms.md)
+* [リズムの適応](rhythms/adapted-rhythms.md)
 
 ## リズムエンジン <a id="rhythm-engines"></a>
 
-* [Rhythm engines overview](rhythm-engines/overview.md)
-* [YamJJazz rhythm engine](rhythm-engines/yamjjazz-rhythm-engine/README.md)
+* [リズムエンジンの概要](rhythm-engines/overview.md)
+* [YamJJazzリズムエンジン](rhythm-engines/yamjjazz-rhythm-engine/README.md)
   * [Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
   * [Extended Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
 
