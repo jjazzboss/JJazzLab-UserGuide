@@ -32,7 +32,7 @@
 
 * [リズムエンジンの概要](rhythm-engines/overview.md)
 * [YamJJazzリズムエンジン](rhythm-engines/yamjjazz-rhythm-engine/README.md)
-  * [Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
+  * [ヤマハスタイル](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
   * [Extended Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
 
 ## ご協力 <a id="contribute"></a>

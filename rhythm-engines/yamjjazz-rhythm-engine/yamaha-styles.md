@@ -1,4 +1,4 @@
-# Yamaha styles
+# ヤマハスタイル
 
 The [YamJJazz ](./)engine is able to read all Yamaha style files \(.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format\). You can find thousands of style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
 
