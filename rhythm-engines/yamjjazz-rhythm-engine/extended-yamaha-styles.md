@@ -11,7 +11,7 @@
 .yjzファイルは、**ベーススタイル**である標準ヤマハスタイルファイルの拡張部分に過ぎません。つまり、**MyRhythm.yjz**を読もうとすると、YamJJazzは同じディレクトリに**MyRhythm.sty**（または**MyRhythm.prs**）を見つける必要があります。
 {% endhint %}
 
-## 拡張スタイル創作ウィザード
+## 拡張スタイル作成ウィザード
 
 **ツール（Tools）** メニューにあるこのウィザードは、標準のヤマハスタイルファイル\(.sty, .prs, ...\)から、すぐにカスタマイズできる**拡張スタイルファイル**\(.yjz\) を作成するためのものです。操作方法は以下のビデオをご覧ください。
 
@@ -23,32 +23,32 @@
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
-## .yjz file format <a id="yjz-extension-file-format"></a>
+## .yjzファイルフォーマット <a id="yjz-extension-file-format"></a>
 
 {% hint style="info" %}
-If you don’t plan to create your own .yjz file you can skip this paragraph.
+独自の.yjzファイルを作成する予定がない場合は、この項目を読み飛ばしても構いません。
 {% endhint %}
 
-We recommend to use the **Extended style creation wizard** to prepare a .yjz file ready to be customized \(see above\).
+**拡張スタイル作成ウィザード**を使用して、カスタマイズ可能な.yjzファイルを準備することをお勧めします（上記参照）。
 
-The extension file \(.yjz\) must be associated to a base Yamaha style file \(.sty, .prs, .sst, etc.\) with the same name in the same directory.
+拡張ファイル（.yjz）は、同じディレクトリにある同名のベースとなるヤマハスタイルファイル（.sty、.prs、.stsなど）に関連付けられている必要があります。
 
-### Overview <a id="overview"></a>
+### 概要 <a id="overview"></a>
 
-YamJJazz first reads the **base style** file to get the following Yamaha style information:
+YamJJazzは、最初に**ベーススタイル**ファイルを読み込んで、次のようなヤマハスタイル情報を得ます：
 
-* CASM data: channels parameters for each available variation \(used Midi channels, source chords, lower/upper note limits, chord/melody channels, etc.\)
-* SINT data: instruments parameters \(bank select/program change, volume, …\)
-* Musical data: the Midi source phrases for each channel of each available variation
+* CASM データ：バリエーションごとのチャンネルパラメーター（使用するMIDIチャンネル、ソースコード、ノートの下限／上限、コード／メロディーのチャンネルなど
+* SINT データ：楽器パラメーター（バンク選択／プログラムチェンジ、音量など）
+* Musical データ：使用する各バリエーションの各チャンネルのMIDIソースフレーズ
 
-Then YamJJazz reads the .yjz extension file to get Midi source phrases used to refine the available base variations and to add alternate source phrases.
+その後、YamJJazzは.yjz拡張ファイルを読み込んで、ベースとなる使用するバリエーションを改良したり、代替ソースフレーズを追加したりするためのMIDIソースフレーズを取得します。
 
-If the base style uses variation Main A \(example\), then it’s possible to define variations Main A-1, Main A-2, Main A-3, etc. in the extension file. The number is called the complexity level. As soon as you define a Main A-x variation in the extension file, it replaces the original Main A variation from the base file.
+ベーススタイルがバリエーションのメインA（例）であれば、拡張ファイルでバリエーションのメインA-1、メインA-2、メインA-3などを定義することが可能です。その数を「複雑度」と呼びます。拡張ファイルでMain A-xのバリエーションを定義するとすぐに、ベースファイルの元のMain Aのバリエーションを置き換えます。
 
-If the base file defines variation Main D \(example\) but the extension file does not define Main D-x, then the original Main D will be used with the name Main D-1.
+ベースファイルにバリエーションメインD（例）が定義されていても、エクステンションファイルにメインD-xが定義されていない場合、オリジナルのメインDがメインD-1という名前で使用されます。
 
 {% hint style="danger" %}
-If the base style does not have variation Intro B \(example\), then it’s **not** possible to define Intro B-x in the extension file.
+ベーススタイルにバリエーションIntro Bが定義されていない場合（例）、拡張ファイルにIntro B-xを定義することはできません。
 {% endhint %}
 
 ### Midi format <a id="midi-format"></a>
