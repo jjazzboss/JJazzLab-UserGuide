@@ -13,13 +13,13 @@
 
 ## 拡張スタイル創作ウィザード
 
-This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** \(.yjz\) from a standard Yamaha style file \(.sty, .prs, ...\). See the  video below for how to use it.
+**ツール（Tools）** メニューにあるこのウィザードは、標準のヤマハスタイルファイル\(.sty, .prs, ...\)から、すぐにカスタマイズできる**拡張スタイルファイル**\(.yjz\) を作成するためのものです。操作方法は以下のビデオをご覧ください。
 
 {% hint style="warning" %}
-Once created you'll need to manually alter the musical phrases of the .yjz Midi file using a Midi editor or a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.
+作成後は、MIDIエディターやCubase、Ableton LiveなどのDAWを使って、.yjz MIDIファイルの音楽フレーズを手動で変更する必要があります。そうしないと、新しいエクステンデッド・スタイルはベーススタイルと全く同じ音になってしまいます。
 {% endhint %}
 
-## Video tutorial
+## ビデオチュートリアル
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
