@@ -51,15 +51,15 @@ YamJJazzは、最初に**ベーススタイル**ファイルを読み込んで�
 ベーススタイルにバリエーションIntro Bが定義されていない場合（例）、拡張ファイルにIntro B-xを定義することはできません。
 {% endhint %}
 
-### Midi format <a id="midi-format"></a>
+### MIDIフォーマット <a id="midi-format"></a>
 
-**.yjz files use Midi format 1**, they contain several tracks. Note that .sty or .prs files use Midi format 0, they contain a single track.
+**.yjzファイルはMIDIフォーマット1を使用しており**、 複数のトラックを含んでいます。なお、.styまたは.prsファイルはMidiフォーマット0を使用しており、1つのトラックを含んでいます。
 
-Each track of the extension file must start with a Midi trackname meta event with the following syntax:
+拡張ファイルの各トラックは、次のような構文のMIDIトラック名メタイベントで始まる必要があります。
 
 **`trackname=<base variation>-<complexity level>-<id string>-<phrase length in beats>`**
 
-Trackname examples:
+トラック名の例：
 
 * Main A-1-drums-8
 * Main A-1-bass-8
