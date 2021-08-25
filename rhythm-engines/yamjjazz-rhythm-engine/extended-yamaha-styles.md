@@ -1,17 +1,17 @@
 # 拡張ヤマハスタイル
 
-The [YamJJazz rhythm engine](./) ****can read ****a new file format \(.yjz\) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file \(.sty, .prs, .sst, etc.\). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+[YamJJazz](./)[リズムエンジン](./)は、標準[ヤマハスタイル](yamaha-styles.md)ファイル（.sty、.prs、.stなど）の機能を拡張した新しいファイルフォーマット（.yjz）を読み込むことができます。目的は、リズムにより広いダイナミックレンジを持たせ、パターン繰り返しが少ないサウンドになるようデザインすることです。
 
-An **extended style** \(.yjz\) supports :
+**拡張スタイル**\(.yjz\)は、以下をサポートします：
 
-* **Unlimited number of variations** Instead of Main A/B/C/D, you can have Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, … 
-* **Unlimited number of source phrases for each variation** With a standard Yamaha style the same source phrase is always used for a given variation.  **Alternate source phrases** lets the rhythm designer define different-but-similar phrases for e.g Main A-1, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
+* **無制限のバリエーション数** メインA/B/C/Dの代わりに、メインA-1、メインA-2、メインB-1、メインB-2、メインB-3、メインC-1、メインC-2、...とすることができます。 
+* **各バリエーション毎に無制限のソースフレーズ数** 標準ヤマハスタイルでは、1つのバリエーションには必ず同じソースフレーズが使われます。  **代替ソースフレーズ**では、リズムデザイナーがメインA-1などのほんの少し異なるフレーズを定義し、YamJJazzエンジンがランダムにそれを使用することで、パターン繰り返しが少ないサウンドを実現します。
 
 {% hint style="warning" %}
-A .yjz file is just the extension part of a standard Yamaha style file, the **base style**. So when you read **MyRhythm.yjz**, YamJJazz needs to find **MyRhythm.sty** \(or **MyRhythm.prs\)** in the same directory.
+.yjzファイルは、**ベーススタイル**である標準ヤマハスタイルファイルの拡張部分に過ぎません。つまり、**MyRhythm.yjz**を読もうとすると、YamJJazzは同じディレクトリに**MyRhythm.sty**（または**MyRhythm.prs**）を見つける必要があります。
 {% endhint %}
 
-## Extended style creation wizard
+## 拡張スタイル創作ウィザード
 
 This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** \(.yjz\) from a standard Yamaha style file \(.sty, .prs, ...\). See the  video below for how to use it.
 
