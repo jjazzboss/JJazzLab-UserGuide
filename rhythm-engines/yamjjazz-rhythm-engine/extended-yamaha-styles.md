@@ -86,12 +86,12 @@ CASMデータによっては、1つの楽器に対して複数のソースフレ
 
 あるバリエーションに**代替ソースフレーズ**を追加するには、そのバリエーションの各トラックにソースフレーズを追加するだけです。追加される音源フレーズは、元のフレーズと同じ拍数でなければなりません。
 
-**Example**  
-The source phrase length of track Main A-1-bass-8 is 8 beats \(2 bars in 4/4\). You can append 2 similar 8-beat source phrases on that track, so the track length becomes 24 beats. YamJJazz will consider the 2 appended phrases as **alternate source phrases** of the first source phrase, to be used randomly when rendering the Main A-1 bass part. 
+**例**  
+トラックMain A-1-bass-8のソースフレーズの長さは8拍（4分の4拍子で2小節）です。このトラックに同様の8拍子のソースフレーズを2つ追加できるので、トラックの長さは24拍子になります。YamJJazzでは、この追加の2つのフレーズを最初のソースフレーズの**代替ソースフレーズ**とみなし、Main A-1bassパートのレンダリング時にランダムに使用します。 
 
-Note that 2 alternate source phrases must be also added for all the other Main A-1 tracks: Main A-1-drums-8, Main A-1-guitar-8 and Main A-1-guitar\_root-8.
+なお、他のMain A-1トラックである、Main A-1-drums-8、Main A-1-guitar-8、Main A-1-guitar\_root-8にも2つの代替ソースフレーズを追加しなくてはいけません。
 
 {% hint style="info" %}
-If you have for example 3 source phrases for Main A-1, JJazzLab will randomly pick a source phrase every 2 bars. The selection is actually not 100% random: the first source phrase has more chances to be selected than the second one, and the second one has more chances to be selected than the third one, etc. In other words the last source phrase has the least chances to get selected.
+例えばメインA-1に3つのソースフレーズがあった場合、JJazzLabは2小節ごとにランダムにソースフレーズを選択します。最初のソースフレーズは2番目のソースフレーズよりも選択される可能性が高く、2番目のソースフレーズは3番目のソースフレーズよりも選択される可能性が高い、といったように、実際には100％ランダムではありません。言い換えれば、最後のソースフレーズが選択される可能性は最も低いということです。
 {% endhint %}
 

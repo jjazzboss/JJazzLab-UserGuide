@@ -37,7 +37,7 @@
 
 ## ご協力 <a id="contribute"></a>
 
-* [Improve documentation](contribute/improve-doc.md)
+* [ドキュメント校正](contribute/improve-doc.md)
 * [Translate JJazzLab](contribute/translate-jjazzlab/README.md)
   * [Testing translations](contribute/translate-jjazzlab/testing-translations.md)
 
