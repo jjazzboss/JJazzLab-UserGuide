@@ -38,6 +38,6 @@
 ## ご協力 <a id="contribute"></a>
 
 * [ドキュメント校正](contribute/improve-doc.md)
-* [Translate JJazzLab](contribute/translate-jjazzlab/README.md)
+* [JJazzLabの翻訳](contribute/translate-jjazzlab/README.md)
   * [Testing translations](contribute/translate-jjazzlab/testing-translations.md)
 

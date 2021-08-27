@@ -4,7 +4,7 @@ date: '2018-07-07T09:53:27.000Z'
 draft: false
 ---
 
-# Translate JJazzLab
+# JJazzLabの翻訳
 
 ## THANKS to the top translation contributors!
 
