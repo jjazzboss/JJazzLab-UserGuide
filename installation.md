@@ -31,7 +31,7 @@ Windows Smart Screenがプログラムをブロックするのは、JJazzLabが�
 JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="success" %}
-If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    \(thanks to jypma!\) 
+ArchまたはManjaro Linuxをお使いの場合は、JJazzLabのインストールパッケージが用意されています : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    （ありがとう、jypma！） 
 {% endhint %}
 
 ## MacOS での説明
