@@ -53,7 +53,7 @@ YamJJazzは、最初に**ベーススタイル**ファイルを読み込んで�
 
 ### MIDIフォーマット <a id="midi-format"></a>
 
-**.yjzファイルはMIDIフォーマット1を使用しており**、 複数のトラックを含んでいます。なお、.styまたは.prsファイルはMidiフォーマット0を使用しており、1つのトラックを含んでいます。
+**.yjzファイルはMIDIフォーマット1を使用しており**、 複数のトラックを含んでいます。なお、.styまたは.prsファイルはMIDIフォーマット0を使用しており、1つのトラックを含んでいます。
 
 拡張ファイルの各トラックは、次のような構文のMIDIトラック名メタイベントで始まる必要があります。
 
@@ -72,19 +72,19 @@ YamJJazzは、最初に**ベーススタイル**ファイルを読み込んで�
 * Ending B-1-piano-4
 * Ending B-1-bass-4
 
-For `<id string>` you can use whatever string you like, but it's a good practice to mention at least the target instrument. If you use the **Extended style creation wizard**, `id string` is generated for you and will be something like `[Bass, C7M, ch11]` : the instrument name, the **source chord** and **source Midi channel**.
+`<id string>`には、好きな文字列を使うことができますが、少なくとも対象となる楽器を明記しておくことをお勧めします。**拡張スタイル作成ウィザード**を使用した場合、`id string`を`[Bass, C7M, ch11]`のように生成し、楽器名、**ソースコード**、**ソースMIDIチャンネル**を記述します。
 
-All tracks for a given variation must have the same length in beats. But different variations can have different lengths.
+バリエーションのトラックは、全て同じ拍数でなければなりません。しかし、異なるバリエーションは異なる拍数にすることができます。
 
 {% hint style="warning" %}
-Depending on the CASM data, there might be more than one source phrase for a given instrument \(the guitar and guitar\_root phrases in the example above\). For example one channel can be used for major chords, the other one for minor chords.
+CASMデータによっては、1つの楽器に対して複数のソースフレーズが存在する場合があります（上の例ではguitarとguitar\_rootのフレーズ）。例えば、1つのチャンネルにはメジャーコード、もう1つのチャンネルにはマイナーコードを使用することができます。
 {% endhint %}
 
-A track should only contain Midi note on/off messages for its **source chord** and **source Midi channel,** as defined in the CASM data of the base style. If you used the **Extended style creation wizard**, you have the **source chord** and **Midi channel** indicated in the `<id string>`, as explained above.
+１つのトラックは、ベーススタイルのCASMデータで定義されている、**ソースコード**と**ソースMIDIチャンネル**のMIDIノートのオン/オフメッセージのみを含んでいます。**拡張スタイル作成ウィザード**を使用した場合は、上記のように`<id string>`に**ソースコード**と**MIDIチャンネル**を指定します.
 
-### Alternate source phrases <a id="alternate-takes"></a>
+### 代替ソースフレーズ <a id="alternate-takes"></a>
 
-To add **alternate source phrases** for a given variation, just append source phrases on each track of this variation. Each appended source phrase must have the same length than the original phrase.
+あるバリエーションに**代替ソースフレーズ**を追加するには、そのバリエーションの各トラックにソースフレーズを追加するだけです。追加される音源フレーズは、元のフレーズと同じ拍数でなければなりません。
 
 **Example**  
 The source phrase length of track Main A-1-bass-8 is 8 beats \(2 bars in 4/4\). You can append 2 similar 8-beat source phrases on that track, so the track length becomes 24 beats. YamJJazz will consider the 2 appended phrases as **alternate source phrases** of the first source phrase, to be used randomly when rendering the Main A-1 bass part. 
