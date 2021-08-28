@@ -19,8 +19,6 @@ draft: false
 5. Netbeans が**JJazzLab-X**プロジェクトをクローンファイルから開きます。
 
 {% hint style="info" %}
-The **l10n\_master** branch is a localization branch where Crowdin automatically pushes new translation files. Note that this synchronization is done **every hour**, so you may not see the latest changes. Also, if there are several translation candidates for one source phrase, **only the validated one is pushed**. If no translation is validated yet, Crowdin uses the first candidate.
+**l10n\_master** ブランチは、Crowdinが新しい翻訳ファイルを自動的にプッシュするローカライズブランチです。なお、この同期は**1時間ごと**に行われるため、最新の変更点が表示されない場合があります。また、1つのソースフレーズに対して複数の翻訳候補がある場合、**検証済みのものだけがプッシュされます。**検証された翻訳がまだない場合には、Crowdinは最初の候補を使用します。
 {% endhint %}
-
-
 
