@@ -12,7 +12,7 @@ If you're a GitHub user you can also use the **Edit on GitHub** button in the up
 
 ## Translate the online doc
 
-You can also help by fixing or adding new translations. Currently there is English and Japanese. If you language does not exist yet, contact me \([here](https://www.jjazzlab.com/en/contact/)\) so that I add a "GitBook variant" for that language.
+You can also help by fixing or adding new translations. Currently there is 2 languages, English and Japanese. If you language does not exist yet, contact me \([here](https://www.jjazzlab.com/en/contact/)\) so that I add a "GitBook variant" for that language.
 
 ## Top contributors
 
