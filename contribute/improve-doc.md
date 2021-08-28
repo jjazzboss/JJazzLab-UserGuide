@@ -16,7 +16,7 @@ You can also help by fixing or adding new translations. Currently there is 2 lan
 
 ## Top contributors
 
-**Mr H. Sakuda**. : who created the Japanese doc pages
+**H. Sakuda**. : who created the Japanese doc pages
 
 
 
