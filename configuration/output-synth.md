@@ -25,7 +25,7 @@ JJazzLabでのシンセ出力のコンフィギュレーションが実際のシ
 
 ## シンセ出力エディター
 
-The **output synth** capabilities can be edited in the **output synth editor**. 
+**シンセ出力**機能は**シンセ出力エディター**で編集できます。 
 
 ![](../.gitbook/assets/outputsyntheditor.png)
 
@@ -54,7 +54,7 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 ## 一般的な設定
 
-### Presets
+### プリセット
 
 シンセ出力が以下の構成のいずれかに該当する場合、シンセ出力エディターのメニューバーから対応するプリセットを適用するだけでかまいません。
 
@@ -62,17 +62,17 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 * **JJazzLab SoundFont**: JazzLabサウンドフォントをロードしたサウンドフォントプレイヤー
 * **Yamaha Tyros**: TyrosまたはPSRシリーズのヤマハアレンジャーキーボード
 
-### GM2/GS/XG compatible synths
+### GM2/GS/XG 互換シンセ
 
-**Reset** the configuration and select the corresponding checkbox. You can uncheck GM as these 3 standards encompass GM.
+設定を**リセット**し、該当するチェックボックスを選択してください。この3つの規格はGMを包括しているので、GMのチェックを外すことができます。
 
-For Yamaha styles best is XG, but GM2 or GS are better than GM.
+ヤマハスタイルではXGがベスト、GM2やGSはGMより良いでしょう。
 
-Many synths are compatible with a standard and also have additional sounds. In this case select the compatibility checkbox and do like for the "Other synths" below.
+シンセの中には、規格に互換性があり、さらに追加のサウンドを持つものが多くあります。この場合は、互換性のチェックボックスを選択し、以下の「その他のシンセ」と同様の操作を行います。
 
-### Other synths \(VST, hardware synths, etc.\)
+### その他のシンセ（VST、ハードウェアシンセ、他）
 
-You need to add one or more [Midi synth definition files](output-synth.md#midi-synth-definition-files-cakewalk-ins-format) for your synth.
+シンセに1つまたは複数の[MIDIシンセ定義ファイル](output-synth.md#midi-synth-definition-files-cakewalk-ins-format) を追加する必要があります。
 
 ### Controlling the mix outside of JJazzLab
 
