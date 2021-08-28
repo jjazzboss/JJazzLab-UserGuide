@@ -4,9 +4,9 @@ date: '2018-07-07T09:53:27.000Z'
 draft: false
 ---
 
-# Testing translations
+# テスト中の翻訳
 
-If you can't wait for the next official JJazzLab release, you may want to try JJazzLab with the latest translation files, to see how it looks.
+次のJJazzLab公式リリースまで待ちきれないという方は、どのような見ばえかを確かめるために最新翻訳ファイルでJJazzLabを試してみたくなるかもしれませんね。
 
 First you'll need to build JJazzLab-X from the source code, according to [these instructions](https://jjazzlab.gitbook.io/developer-guide/build-from-source-code), but use the **l10n\_master** branch instead of the master branch, as explained below:
 
