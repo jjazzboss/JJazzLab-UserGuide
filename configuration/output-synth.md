@@ -74,21 +74,21 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 シンセに1つまたは複数の[MIDIシンセ定義ファイル](output-synth.md#midi-synth-definition-files-cakewalk-ins-format) を追加する必要があります。
 
-### Controlling the mix outside of JJazzLab
+### JJazzLab外のミックスコントロール
 
-You may want to prevent JJazzLab from controlling your synth via Midi, because you control it directly \(e.g. you set instruments, volumes, etc. directly on the synth\).
+シンセを直接操作（例えば、シンセ上で楽器や音量などを直接設定）するために、JJazzLabがMIDI経由でシンセを制御するのを防ぎたいこともあるでしょう。
 
-To achieve this you need to disable the **Midi parameters** in the **mix console**, so that JJazzLab only send Midi notes but no program/controller change Midi messages.
+そのためには、**ミックスコンソール**の**MIDIパラメータ**を無効にする必要があります。そうするとJJazzLabはMIDIノートのみを送信し、プログラム/コントローラ変更のMIDIメッセージを送信しません。
 
-You can do it globally for all channels via the **Midi menu**: 
+この設定は**MIDIメニュー**からすべてのチャンネルに対してグローバルに行うことができます。 
 
 ![](../.gitbook/assets/2021-01-06-22_02_58-jjazzlab.png)
 
-Or do it channel by channel, and parameter by parameter, via the **channel settings**:
+あるいは、**チャンネル設定**でチャンネルごとに、またパラメータごとに行うこともできます。
 
 ![](../.gitbook/assets/channelsettings.png)
 
-Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments \(Bank Select/Program Midi messages\).
+なお、すべてのMIDIパラメータを無効にすると、JJazzLabは楽器を変更するためのMIDIメッセージ（バンクセレクト/プログラムMIDIメッセージ）を送信しないため、シンセ出力の設定は無意味になります。
 
 ## Midi synth definition files \(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
