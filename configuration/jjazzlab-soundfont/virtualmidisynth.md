@@ -17,6 +17,6 @@ VirtualMIDISynthは、Midiファイルを.mp3に変換することもできま�
 5. [シンセ出力](../output-synth.md) エディターに進み\[訳注：鍵盤アイコンをクリック\]、プリセットの**VirtualMIDISynth**を適用します。 ****![](../../.gitbook/assets/outputsynth-presetvms.png) ****
 
 {% hint style="info" %}
-Windowsの場合、JazzLabサウンドフォントを使用することを選択すると、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)がステップ4（VirtualMIDISynthがインストールされている場合）と5を自動的に実行します。
+Windowsの場合、JazzLab サウンドフォントを使用することを選択すると、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)がステップ4（VirtualMIDISynthがインストールされている場合）と5を自動的に実行します。
 {% endhint %}
 

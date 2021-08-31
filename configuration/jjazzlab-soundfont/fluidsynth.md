@@ -44,7 +44,7 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
 
    ![](../../.gitbook/assets/fluidsynth-qsynth.png)   
 
-5. **JJazzLabサウンドフォント**をロードし、**FluidSynth** 設定を調整します。  ![](../../.gitbook/assets/qsynth-loadsoundfont.png)  ![](../../.gitbook/assets/qsynth-midisettings.png)   ![](../../.gitbook/assets/qsynth-audiosettings.png) 
+5. **JJazzLab サウンドフォント**をロードし、**FluidSynth** 設定を調整します。  ![](../../.gitbook/assets/qsynth-loadsoundfont.png)  ![](../../.gitbook/assets/qsynth-midisettings.png)   ![](../../.gitbook/assets/qsynth-audiosettings.png) 
 6. 仮想ポートを**FluidSynth**に接続します。  
    ****  
    下の例のように、新しいポートが表示されるはずです。
@@ -73,6 +73,6 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
 {% hint style="info" %}
 仮想MIDIポートを使うFluidSynthの起動は、シェルスクリプトで自動化できます。
 
-Linuxで、JJazzLabサウンドフォントの使用を選択した場合、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)は自動的にステップ8を実行します。
+Linuxで、JJazzLab サウンドフォントの使用を選択した場合、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)は自動的にステップ8を実行します。
 {% endhint %}
 
