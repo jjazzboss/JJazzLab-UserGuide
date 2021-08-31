@@ -28,8 +28,7 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
        0 'VirMIDI 1-0'
    ```
 
-3. Install **FluidSynth** and **QSynth**, its graphical user interface  
-   \(tested OK on Linux Mint, if problem please consult the FluidSynth documentation\)
+3. **FluidSynth**と**QSynth**（そのグラフィカルユーザインターフェース）をインストールします。 \(Linux Mintで試してOKでした。問題があれば、FluidSynth のドキュメントを参照してください\)
 
    ```text
    $ sudo apt-get update -y            # Get latest packages info
@@ -37,7 +36,7 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
    $ sudo apt-get install qsynth
    ```
 
-4. Start **QSynth**
+4. **QSynth**を起動します。
 
    ```text
    qsynth &
@@ -45,10 +44,10 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
 
    ![](../../.gitbook/assets/fluidsynth-qsynth.png)   
 
-5. Load the **JJazzLab SoundFont** and adjust **FluidSynth** settings  ![](../../.gitbook/assets/qsynth-loadsoundfont.png)  ![](../../.gitbook/assets/qsynth-midisettings.png)   ![](../../.gitbook/assets/qsynth-audiosettings.png) 
-6. Connect the virtual port to **FluidSynth**  
-  
-   You should see a new port, like in the example below:
+5. **JJazzLabサウンドフォント**をロードし、**FluidSynth** 設定を調整します。  ![](../../.gitbook/assets/qsynth-loadsoundfont.png)  ![](../../.gitbook/assets/qsynth-midisettings.png)   ![](../../.gitbook/assets/qsynth-audiosettings.png) 
+6. 仮想ポートを**FluidSynth**に接続します。  
+   ****  
+   下の例のように、新しいポートが表示されるはずです。
 
    ```text
    $ aconnect -lo
@@ -60,20 +59,20 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
        0 'Synth input port (Qsynth1:0)'
    ```
 
-   Connect the Virtual Port to the entry of the **FluidSynth**:
+   仮想ポートを**FluidSynth**エントリーに接続します。
 
    ```text
    $ aconnect 20:0 128:0      # Values might be different on your system
    ```
 
-   ⚠ This connection needs to be restored each time the **FluidSynth** engine is restarted.  
+   ⚠ この接続は、**FluidSynth**エンジンが再起動されるたびに復元する必要があります。  
 
-7. In JJazzLab go to **Options/Midi** and select the first **virMIDI** out device  ![](../../.gitbook/assets/fluidsynth-setmididevice.png) 
+7. In JJazzLabの**Options/Midi**に進み、最初の**virMIDI**出力デバイスを選択します。  ![](../../.gitbook/assets/fluidsynth-setmididevice.png) 
 8. [シンセ出力](../output-synth.md)エディターに進み\[訳注：鍵盤アイコンをクリック\]、プリセットの **FluidSynth**を適用します。  ****![](../../.gitbook/assets/outputsynth-presetfluidsynth.png)
 
 {% hint style="info" %}
-The start of FluidSynth with the virtual Midi port can be automated via a shell script.
+仮想MIDIポートを使うFluidSynthの起動は、シェルスクリプトで自動化できます。
 
-On Linux the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform step 8 if you choose to use the JJazzLab SoundFont.
+Linuxで、JJazzLabサウンドフォントの使用を選択した場合、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)は自動的にステップ8を実行します。
 {% endhint %}
 
