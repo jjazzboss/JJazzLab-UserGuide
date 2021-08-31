@@ -90,21 +90,21 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 なお、すべてのMIDIパラメータを無効にすると、JJazzLabは楽器を変更するためのMIDIメッセージ（バンクセレクト/プログラムMIDIメッセージ）を送信しないため、シンセ出力の設定は無意味になります。
 
-## Midi synth definition files \(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
+## MIDIシンセ定義ファイル\(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
-JJazzLab can read Cakewalk instrument definition files \(.ins\). An instrument definition file defines a **Midi synth** with its list of instruments and how to select them via Midi \(Bank Select/Program Change values\).
+JJazzLabはCakewalkのインストゥルメント定義ファイル\(.ins\)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメントリストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
 
-JJazzLab ships with .ins files for a few existing hardware synthesizers \(e.g. Yamaha Motif, Korg X-50, …\). If you don’t find an .ins file for your sound device, you can search the web or create your own \(google “Cakewalk Instrument Definition File” for help\).
+JJazzLabには、いくつかの既存のハードウェアシンセサイザー（ヤマハ Motif、Korg X-50など）用の.insファイルが同梱されています。お使いのサウンドデバイス用の .ins ファイルが見つからない場合は、ウェブで検索するか、自分で作成することができます（"Cakewalk Instrument Definition File"で検索してください）。
 
-Use the **Add** \(Synths\) button to add one or more .ins files to the current output synth configuration: 
+**Add** \(Synths\) ボタンを使って、現在の出力シンセの設定に１つまたは複数の .ins ファイルを追加します。
 
 ![](../.gitbook/assets/outputsynth-addsynth.png)
 
 {% hint style="info" %}
-Once a **Midi synth** has been added, its instruments become available in the instrument selection dialog in the **mix console**.
+**MIDIシンセ**を追加すると、その楽器は**ミックスコンソール**のインストゥルメント選択ダイアログで利用できるようになります。
 {% endhint %}
 
-See the [JJazzLab .ins format extensions](output-synth.md#jjazzlab-ins-format-extensions) paragraph below if you want your .ins to be optimized for JJazzLab.
+JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins フォーマット拡張](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
 
 ## Default instruments <a id="default-instruments"></a>
 
