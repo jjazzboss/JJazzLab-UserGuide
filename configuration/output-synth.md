@@ -92,7 +92,7 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 ## MIDIシンセ定義ファイル\(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
-JJazzLabはCakewalkのインストゥルメント定義ファイル\(.ins\)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメントリストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
+JJazzLabはCakewalkのインストゥルメント定義ファイル\(.ins\)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメント（楽器）リストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
 
 JJazzLabには、いくつかの既存のハードウェアシンセサイザー（ヤマハ Motif、Korg X-50など）用の.insファイルが同梱されています。お使いのサウンドデバイス用の .ins ファイルが見つからない場合は、ウェブで検索するか、自分で作成することができます（"Cakewalk Instrument Definition File"で検索してください）。
 
@@ -106,9 +106,9 @@ JJazzLabには、いくつかの既存のハードウェアシンセサイザー
 
 JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins フォーマット拡張](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
 
-## Default instruments <a id="default-instruments"></a>
+## デフォルト楽器（Default instruments） <a id="default-instruments"></a>
 
-The **output synth editor** lets you map standard GM Instruments to **default instruments** of your choice. You can also set a **default instrument** for an instrument **family**, e.g. all the organs.
+**シンセ出力エディター**では、標準GM楽器をお好みの**デフォルト楽器**にマッピングできます。また、すべてのオルガンのように、**楽器系統（familiy）**に**デフォルト楽器**を設定することもできます。
 
 ![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
 
