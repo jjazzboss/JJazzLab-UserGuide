@@ -112,17 +112,17 @@ JJazzLab用に最適化された.insを作成したい場合は、以下の[JJaz
 
 ![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
 
-## JJazzLab .ins format extensions <a id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .insフォーマット拡張 <a id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
-These .ins format extensions are not mandatory to use for JJazzLab to work. But they are required if you have a custom .ins file and want to fully benefit from the JJazzLab features in order to get better sounding backing tracks.
+これらの.ins フォーマット拡張は、JJazzLabを動作させるために必須ではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
 {% endhint %}
 
-The standard .ins file format lacks some information for JJazzLab to fully optimize instrument selection and **drum map** conversion.
+標準.insファイルフォーマットには、JJazzLabが楽器選択と**ドラムマップ**変換を最適化するための情報がいくつか欠けています。
 
-For an optimum use JJazzLab needs:
+JJazzLabを最適に使用するためには以下が必要です。
 
-1. For melodic instruments: its **GM substitute** instrument  Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
+1. メロディ楽器：その**GM代替**楽器  Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
 2. For percussion instruments/drum kits: its **type** and its **drum key map**
 
 Therefore some \(optional\) extensions have been introduced, as show in the examples below.
