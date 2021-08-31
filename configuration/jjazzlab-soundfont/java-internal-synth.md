@@ -1,24 +1,26 @@
 # Java内蔵シンセ
 
-The Java runtime engine used by JJazzLab has an internal Midi synth \(sometimes callled Gervill\).
+JJazzLabが使用しているJavaランタイムエンジンには、MIDI内蔵シンセがあります（Gervillと呼ばれることもあります）。
 
-If you don't load a SoundFont file it will use its built-in GM sounds.
+サウンドフォントファイルをロードしない場合、内蔵のGMサウンドを使用します。
 
 {% hint style="warning" %}
-The built-in GM sounds are not good quality sounds, but it can be enough to test JJazzLab. The good thing is that no setup is required, it will work out-of-the-box.
+内蔵GMサウンドは良質なものではありませんが、JJazzLabをテストするには十分でしょう。良い点は、セットアップが不要で、すぐに使えることです。
 {% endhint %}
 
 ## JJazzLab サウンドフォントと初期設定 <a id="setup-instructions"></a>
 
 {% hint style="warning" %}
-The Java internal synth is not high-performance. When used with a large SoundFont like the JJazzLab SoundFont you may hear some dropped notes when too many notes are played. 
+Java内蔵シンセは高性能ではありません。JJazzLab サウンドフォントのような大きなサウンドフォントと一緒に使用すると、あまりにも多くの音が再生されたときに、音が落ちることがあります。 
 {% endhint %}
 
 1. **JJazzLab-SoundFont.sf2**を[Musical Artefacts ウェブサイト](https://musical-artifacts.com/artifacts/1036)からダウンロードします。 
-2. In the JJazzLab **Midi options**, select the **Java Internal Synth** and load the **JJazzLab-SoundFont.sf2**  ![](../../.gitbook/assets/loadsoundfont-javasynth.png)    
+2. JJazzLab **Midi options**で、**Java Internal Synth**を選択し、**JJazzLab-SoundFont.sf2**をロードします。  ****![](../../.gitbook/assets/loadsoundfont-javasynth.png)    
 3. **Output Synth Editor** エディターに進み\[訳注：鍵盤アイコンをクリック\]、プリセットの **Java Internal Synth**を適用します。  ****![](../../.gitbook/assets/outputsynth-presetjavasynth.png)
 
 {% hint style="info" %}
-If you’re on Mac OSX the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform the same steps if you choose to use the JJazzLab SoundFont.
+Mac OSXで、JJazzLab サウンドフォントの使用を選択した場合、[MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)は自動的に同じ手順を実行します。
 {% endhint %}
+
+
 
