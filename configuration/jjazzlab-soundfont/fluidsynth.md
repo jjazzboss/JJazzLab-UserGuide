@@ -9,16 +9,16 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
 ## 初期設定
 
 1. **JJazzLab-SoundFont.sf2**を[Musical Artefacts ウェブサイト](https://musical-artifacts.com/artifacts/1036)からダウンロードします。 
-2. Install a virtual midi port
+2. 仮想MIDIポートをインストールします。
 
    ```text
    $ sudo modprobe snd-virmidi midi_devs=1
    ```
 
-   ⚠ Previous command will work for the current session only. If you want to permanently add the virtual midi device \(jack users on Debian/Ubuntu/Mint\), edit the **/etc/modules** file to add **snd-virmidi**, and create a file /etc/modprobe.d/snd-virmidi\_options.conf with the content `options snd-virmidi midi_devs=1`.  
+   ⚠ 以前のコマンドは、現在のセッションでのみ動作します。仮想MIDIデバイスを恒久的に追加したい場合（Debian/Ubuntu/MintのJACKユーザー）は、**/etc/modules**ファイルを編集して**snd-virmidi**を追加し、内容を`options snd-virmidi midi_devs=1`とした/etc/modprobe.d/snd-virmidi\_options.confファイルを作成してください。  
 
 
-   If you list the connected ports, you should see a new **Virtual Raw Midi** entry like below:
+   接続されているポートをリストアップすると、以下のような新しい**Virtual Raw Midi**のエントリが表示されます。
 
    ```text
    $ aconnect -lo  
