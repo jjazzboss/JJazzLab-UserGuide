@@ -16,7 +16,7 @@
 
 * [VirtualMidiSynth](virtualmidisynth.md) \(Windows用に推奨\) 
 * [FluidSynth](fluidsynth.md) \(Linux/MacOS用に推奨\) 
-* [Java internal synth](java-internal-synth.md) \(どのOSでもセットアップが簡単ですが音質が劣ります\)
+* [Java内蔵シンセ](java-internal-synth.md) \(どのOSでもセットアップが簡単ですが音質が劣ります\)
 
 
 

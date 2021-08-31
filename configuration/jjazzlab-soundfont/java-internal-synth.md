@@ -1,4 +1,4 @@
-# Java internal synth
+# Java内蔵シンセ
 
 The Java runtime engine used by JJazzLab has an internal Midi synth \(sometimes callled Gervill\).
 

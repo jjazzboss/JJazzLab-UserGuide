@@ -11,7 +11,7 @@
 * [JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/README.md)
   * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
   * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)
-  * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
+  * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [シンセ出力](configuration/output-synth.md)
 
 ## ソング <a id="songs"></a>
