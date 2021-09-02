@@ -104,7 +104,7 @@ JJazzLabには、いくつかの既存のハードウェアシンセサイザー
 **MIDIシンセ**を追加すると、その楽器は**ミックスコンソール**のインストゥルメント選択ダイアログで利用できるようになります。
 {% endhint %}
 
-JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins フォーマット拡張](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
+JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins 拡張フォーマット](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
 
 ## デフォルト楽器（Default instruments） <a id="default-instruments"></a>
 
@@ -112,13 +112,13 @@ JJazzLab用に最適化された.insを作成したい場合は、以下の[JJaz
 
 ![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
 
-## JJazzLab .insフォーマット拡張 <a id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .ins拡張フォーマット <a id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
-これらの.ins フォーマット拡張は、JJazzLabを動作させるために必須というわけではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
+これらの.ins 拡張フォーマットは、JJazzLabを動作させるために必須というわけではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
 {% endhint %}
 
-標準.insファイルフォーマットには、JJazzLabが楽器選択と**ドラムマップ**変換を最適化するための情報がいくつか欠けています。
+.insファイル標準フォーマットには、JJazzLabが楽器選択と**ドラムマップ**変換を最適化するための情報がいくつか欠けています。
 
 JJazzLabを最適に使用するためには以下が必要です。
 
