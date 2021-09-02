@@ -6,7 +6,7 @@ draft: false
 
 # JJazzLabの翻訳
 
-## 主要翻訳協力者への謝意！
+## 主な翻訳協力者への謝意！
 
 * **中国語**: Yafei
 * **ドイツ語**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch

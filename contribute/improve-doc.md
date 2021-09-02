@@ -8,6 +8,14 @@
 
 GitHubをお使いの方は、各ページの右上にある「**Edit on GitHub**」ボタンをクリックするか、または [JJazzLab-X-UserGuide repository](https://github.com/jjazzboss/JJazzLab-X-UserGuide)に直接プルリクエストを行うこともできます。
 
+## オンライン文章の翻訳
+
+校正や新しい翻訳を加えることでもお手伝いいただけます。今は、2言語で、英語と日本語です。まだ無い言語でしたら、（[ココ](https://www.jjazzlab.com/en/contact/)）にお問合せくださればその言語用に「GitBook variant」を追加します。
+
+## 主な協力者
+
+**アデュカス**：日本語ページ作成　（訳注：恥ズイ！）
+
 
 
 
