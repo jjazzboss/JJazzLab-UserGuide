@@ -6,7 +6,9 @@
 
 もし何か変更を加えたい場合は、メール \([コチラ](https://www.jjazzlab.com/en/contact/)\) でその内容を手短にお知らせくだされば、JJazzLab GitBookへの書き込みアクセス権をお渡しできます。 
 
-GitHubをお使いの方は、各ページの右上にある「**Edit on GitHub**」ボタンをクリックするか、または [JJazzLab-X-UserGuide repository](https://github.com/jjazzboss/JJazzLab-X-UserGuide)に直接プルリクエストを行うこともできます。
+{% hint style="info" %}
+GitHubをお使いの方は、各ページの右上にある「**Edit on GitHub** 」ボタンをクリックするか、または [JJazzLab-X-UserGuide repository](https://github.com/jjazzboss/JJazzLab-X-UserGuide)に直接プルリクエストを行うこともできます。
+{% endhint %}
 
 ## オンライン文章の翻訳
 
