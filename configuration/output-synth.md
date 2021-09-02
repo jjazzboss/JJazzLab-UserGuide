@@ -115,17 +115,17 @@ JJazzLab用に最適化された.insを作成したい場合は、以下の[JJaz
 ## JJazzLab .insフォーマット拡張 <a id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
-これらの.ins フォーマット拡張は、JJazzLabを動作させるために必須ではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
+これらの.ins フォーマット拡張は、JJazzLabを動作させるために必須というわけではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
 {% endhint %}
 
 標準.insファイルフォーマットには、JJazzLabが楽器選択と**ドラムマップ**変換を最適化するための情報がいくつか欠けています。
 
 JJazzLabを最適に使用するためには以下が必要です。
 
-1. メロディ楽器：その**GM代替**楽器  Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
-2. For percussion instruments/drum kits: its **type** and its **drum key map**
+1. メロディ楽器：その**GM代替**楽器  例：XG楽器「12 String Guitar」用の**GM代替**楽器はGM楽器「Steel Guitar」です。
+2. 打楽器/ドラムキットの場合： その**タイプ**と**ドラムキマップ**
 
-Therefore some \(optional\) extensions have been introduced, as show in the examples below.
+そのため、以下の例のように、いくつかの（オプション）拡張機能が導入されています。
 
 ```text
 ;
