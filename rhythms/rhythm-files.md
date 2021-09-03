@@ -1,8 +1,8 @@
 # リズムファイル
 
-リズムは、[リズムエンジン](../rhythm-engines/overview.md)によって提供されます。いくつかのリズムは、**リズムファイル**をベースにしています。 
+リズムは、[リズムエンジン](../rhythm-engines/overview.md)によって提供されます。いくつかのリズムは、**リズムファイル**を基礎としています。 
 
-例えば、[YamJJazzリズムエンジン](../rhythm-engines/yamjjazz-rhythm-engine/)は、**poprock.sty**や**TripHop.S510.prs**などのヤマハスタイルファイルをベースにしたリズムを提供しています。
+例えば、[YamJJazzリズムエンジン](../rhythm-engines/yamjjazz-rhythm-engine/)は、**poprock.sty**や**TripHop.S510.prs**などのヤマハスタイルファイルを基礎としたリズムを提供しています。
 
 ## リズムファイルの場所 <a id="rhythm-files-location"></a>
 
