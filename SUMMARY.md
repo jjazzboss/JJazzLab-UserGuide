@@ -1,7 +1,6 @@
 # Table of contents
 
 * [JJazzLab](README.md)
-* [Untitled](untitled.md)
 * [Installation](installation.md)
 * [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
@@ -10,8 +9,8 @@
 
 * [Midi configuration](configuration/midi-configuration.md)
 * [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
-  * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
-  * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)
+  * [VirtualMIDISynth (Win)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
+  * [FluidSynth (Linux/Mac)](configuration/jjazzlab-soundfont/fluidsynth.md)
   * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [Output synth](configuration/output-synth.md)
 
@@ -41,4 +40,3 @@
 * [Improve documentation](contribute/improve-doc.md)
 * [Translate JJazzLab](contribute/translate-jjazzlab/README.md)
   * [Testing translations](contribute/translate-jjazzlab/testing-translations.md)
-

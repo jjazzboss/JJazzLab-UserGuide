@@ -2,20 +2,20 @@
 
 ## Windows instructions
 
-Download and run the setup program. 
+Download and run the setup program.&#x20;
 
 {% hint style="info" %}
-If you don't have admin. rights on your computer, choose **Install for me only** during setup
+If you don't have admin. rights on your computer, choose **Install for me only **during setup
 {% endhint %}
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
 
 {% hint style="warning" %}
-If you get a **Windows Smart Screen** alert
+If you get a **Windows Smart Screen **alert
 
-![](.gitbook/assets/win10smartscreen.png) 
+![](.gitbook/assets/Win10SmartScreen.png)&#x20;
 
-Windows Smart Screen blocks the program NOT because it is a malware \(it is NOT!\), but just because JJazzLab is new, so Windows security servers don't have enough statistics to evaluate its "security reputation".
+Windows Smart Screen blocks the program NOT because it is a malware (it is NOT!), but just because JJazzLab is new, so Windows security servers don't have enough statistics to evaluate its "security reputation".
 
 Once enough users will have successfully downloaded and installed it, Windows Smart Screen will not block the program anymore.
 
@@ -24,19 +24,19 @@ You can find more explanations in this [good article](https://www.digitalcitizen
 
 ## Linux instructions
 
-Unzip the package. 
+Unzip the package.&#x20;
 
-Start JJazzLab using **bin/jjazzlab** in the installation directory. 
+Start JJazzLab using **bin/jjazzlab** in the installation directory.&#x20;
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
 
 {% hint style="success" %}
-If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    \(thanks to jypma!\) 
+If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    (thanks to jypma!)&#x20;
 {% endhint %}
 
 ## MacOS instructions
 
-Unzip the package and open it to start JJazzLab. 
+Unzip the package and open it to start JJazzLab.&#x20;
 
 {% hint style="warning" %}
 If you get a **security alert**
@@ -49,4 +49,3 @@ We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzla
 {% hint style="warning" %}
 There is a known bug on MacOS: sometimes, after the computer wakes up from sleep mode, the audio can lag 2 or 3 seconds behind. This is due to a JDK problem, JJazzLab can't do anything.
 {% endhint %}
-

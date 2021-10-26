@@ -1,31 +1,31 @@
 # Output synth
 
 {% hint style="info" %}
-If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont/) page. 
+If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont/) page.&#x20;
 {% endhint %}
 
-## Output synth concept <a id="output-synth-concept"></a>
+## Output synth concept <a href="output-synth-concept" id="output-synth-concept"></a>
 
 The output synth represents the Midi synth you have connected to the output of JJazzLab:
 
-![](../.gitbook/assets/outputsynth-concept%20%281%29.png)
+![](<../.gitbook/assets/OutputSynth-concept (1).png>)
 
 The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../songs/song-editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
 
 The output synth information is also used by JJazzLab for 2 important tasks:
 
 1. Automatically select the most relevant instruments for a new rhythm
-2. Automatically remap drum sounds when needed \(e.g from [XG drum map ](https://www.jjazzlab.com/images/doc/XG-DrumMap.png)to [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif)\)
+2. Automatically remap drum sounds when needed (e.g from [XG drum map ](https://www.jjazzlab.com/images/doc/XG-DrumMap.png)to [GM drum map](https://en.wikipedia.org/wiki/File:GMStandardDrumMap.gif))
 
 {% hint style="danger" %}
-If the output synth configuration in JJazzLab is not inline with the actual output synth \(e.g. you use a non-GM VST instrument but JJazzLab thinks it's GM-compatible\), you'll have problems selecting instruments and the backing tracks may sound very weird.
+If the output synth configuration in JJazzLab is not inline with the actual output synth (e.g. you use a non-GM VST instrument but JJazzLab thinks it's GM-compatible), you'll have problems selecting instruments and the backing tracks may sound very weird.
 {% endhint %}
 
 ## Output synth editor
 
-The **output synth** capabilities can be edited in the **output synth editor**. 
+The **output synth** capabilities can be edited in the **output synth editor**.&#x20;
 
-![](../.gitbook/assets/outputsyntheditor.png)
+![](../.gitbook/assets/OutputSynthEditor.png)
 
 The output synth configurations can be loaded/saved from/to files. By default JJazzLab uses **Default.cfg**.
 
@@ -39,15 +39,15 @@ Your song uses the rhythm SimpleFolk.sty, a Yamaha style which defines 3 instrum
 * Guitar, preferred instrument is XG ‘12 String Guitar’
 * Drums, preferred drum kit is ‘Brush’ type with the XG drums key map
 
-Using the output synth information \(“my synth is only GM compatible”\), JJazzLab will do the following before playing the song:
+Using the output synth information (“my synth is only GM compatible”), JJazzLab will do the following before playing the song:
 
 * Send a Midi message **Switch GM mode ON** to the Roland synth
 * Bass: select the GM ‘Acoustic Bass’ via standard GM messages
 * Guitar: select the GM ‘Steel Guitar’, which is the closest instrument from the XG ‘12 String Guitar’
-* Drum: select the GM standard drums \(GM only has a single drum kit\), and remap all XG-specific drum notes to GM drum notes
+* Drum: select the GM standard drums (GM only has a single drum kit), and remap all XG-specific drum notes to GM drum notes
 
 {% hint style="success" %}
-In conclusion, JJazzLab uses the output synth information to make the rhythm sound as close as possible as the original rhythm \(as programmed by the rhythm designer\).
+In conclusion, JJazzLab uses the output synth information to make the rhythm sound as close as possible as the original rhythm (as programmed by the rhythm designer).
 {% endhint %}
 
 ## Usual configurations
@@ -62,41 +62,41 @@ If your output synth corresponds to one of the configurations below, just apply 
 
 ### GM2/GS/XG compatible synths
 
-**Reset** the configuration and select the corresponding checkbox. You can uncheck GM as these 3 standards encompass GM.
+**Reset **the configuration and select the corresponding checkbox. You can uncheck GM as these 3 standards encompass GM.
 
 For Yamaha styles best is XG, but GM2 or GS are better than GM.
 
 Many synths are compatible with a standard and also have additional sounds. In this case select the compatibility checkbox and do like for the "Other synths" below.
 
-### Other synths \(VST, hardware synths, etc.\)
+### Other synths (VST, hardware synths, etc.)
 
 You need to add one or more [Midi synth definition files](output-synth.md#midi-synth-definition-files-cakewalk-ins-format) for your synth.
 
 ### Controlling the mix outside of JJazzLab
 
-You may want to prevent JJazzLab from controlling your synth via Midi, because you control it directly \(e.g. you set instruments, volumes, etc. directly on the synth\).
+You may want to prevent JJazzLab from controlling your synth via Midi, because you control it directly (e.g. you set instruments, volumes, etc. directly on the synth).
 
 To achieve this you need to disable the **Midi parameters** in the **mix console**, so that JJazzLab only send Midi notes but no program/controller change Midi messages.
 
-You can do it globally for all channels via the **Midi menu**: 
+You can do it globally for all channels via the **Midi menu**:&#x20;
 
-![](../.gitbook/assets/2021-01-06-22_02_58-jjazzlab.png)
+![](<../.gitbook/assets/2021-01-06 22\_02\_58-JJazzLab.png>)
 
 Or do it channel by channel, and parameter by parameter, via the **channel settings**:
 
-![](../.gitbook/assets/channelsettings.png)
+![](../.gitbook/assets/ChannelSettings.png)
 
-Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments \(Bank Select/Program Midi messages\).
+Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments (Bank Select/Program Midi messages).
 
-## Midi synth definition files \(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
+## Midi synth definition files (.ins) <a href="midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
-JJazzLab can read Cakewalk instrument definition files \(.ins\). An instrument definition file defines a **Midi synth** with its list of instruments and how to select them via Midi \(Bank Select/Program Change values\).
+JJazzLab can read Cakewalk instrument definition files (.ins). An instrument definition file defines a **Midi synth** with its list of instruments and how to select them via Midi (Bank Select/Program Change values).
 
-JJazzLab ships with .ins files for a few existing hardware synthesizers \(e.g. Yamaha Motif, Korg X-50, …\). If you don’t find an .ins file for your sound device, you can search the web or create your own \(google “Cakewalk Instrument Definition File” for help\).
+JJazzLab ships with .ins files for a few existing hardware synthesizers (e.g. Yamaha Motif, Korg X-50, …). If you don’t find an .ins file for your sound device, you can search the web or create your own (google “Cakewalk Instrument Definition File” for help).
 
-Use the **Add** \(Synths\) button to add one or more .ins files to the current output synth configuration: 
+Use the **Add **(Synths) button to add one or more .ins files to the current output synth configuration:&#x20;
 
-![](../.gitbook/assets/outputsynth-addsynth.png)
+![](../.gitbook/assets/OutputSynth-AddSynth.png)
 
 {% hint style="info" %}
 Once a **Midi synth** has been added, its instruments become available in the instrument selection dialog in the **mix console**.
@@ -104,13 +104,13 @@ Once a **Midi synth** has been added, its instruments become available in the in
 
 See the [JJazzLab .ins format extensions](output-synth.md#jjazzlab-ins-format-extensions) paragraph below if you want your .ins to be optimized for JJazzLab.
 
-## Default instruments <a id="default-instruments"></a>
+## Default instruments <a href="default-instruments" id="default-instruments"></a>
 
 The **output synth editor** lets you map standard GM Instruments to **default instruments** of your choice. You can also set a **default instrument** for an instrument **family**, e.g. all the organs.
 
-![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
+![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/OutputSynth-DefaultInstruments.png)
 
-## JJazzLab .ins format extensions <a id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .ins format extensions <a href="jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
 These .ins format extensions are not mandatory to use for JJazzLab to work. But they are required if you have a custom .ins file and want to fully benefit from the JJazzLab features in order to get better sounding backing tracks.
@@ -120,12 +120,13 @@ The standard .ins file format lacks some information for JJazzLab to fully optim
 
 For an optimum use JJazzLab needs:
 
-1. For melodic instruments: its **GM substitute** instrument  Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
-2. For percussion instruments/drum kits: its **type** and its **drum key map**
+1. For melodic instruments: its **GM substitute** instrument\
+   &#x20;Example: the **GM substitute **for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
+2. For percussion instruments/drum kits: its **type **and its **drum key map**
 
-Therefore some \(optional\) extensions have been introduced, as show in the examples below.
+Therefore some (optional) extensions have been introduced, as show in the examples below.
 
-```text
+```
 ;
 ; {{ SubGM1= }}
 ;
@@ -140,7 +141,7 @@ Therefore some \(optional\) extensions have been introduced, as show in the exam
 ...
 ```
 
-```text
+```
 ;
 ; {{ DrumKit=,  }}
 ;          : STANDARD, POWER, ROOM, ELECTRONIC, ANALOG, JAZZ, BRUSH, ORCHESTRA, SFX
@@ -154,7 +155,7 @@ Therefore some \(optional\) extensions have been introduced, as show in the exam
 ...
 ```
 
-```text
+```
 ;
 ; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
 ; {{ UseGsDrumsInstruments }}  => For drums instrument selection a GS Sysex message will be sent to make sure channel is in percussion mode
@@ -168,4 +169,3 @@ Patch[256]=Bank 2 {{ UseGsInstruments }}       ; This bank stores GS melodic ins
 Patch[*]=Drums    {{ UseGsDrumsInstruments }}  ; This bank stores GS drums instruments
 ...
 ```
-

@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
- 
+&#x20;
 
 ## 15 min. tutorial
 
@@ -12,11 +12,9 @@
 
 
 
-## How to make you own Yamaha-extended styles \(advanced\)
+## How to make you own Yamaha-extended styles (advanced)
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
-
-
 
 
 
