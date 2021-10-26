@@ -2,18 +2,18 @@
 
 ## Windowsでの説明
 
-セットアッププログラムをダウンロードして起動してください。 
+セットアッププログラムをダウンロードして起動してください。&#x20;
 
 {% hint style="info" %}
-管理者権限がない場合は、 **Install for me only** をセットアップ中に選んでください。
+管理者権限がない場合は、 **Install for me only **をセットアップ中に選んでください。
 {% endhint %}
 
 JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="warning" %}
-もし、 **Windows Smart Screen** 警告が出たら
+もし、 **Windows Smart Screen **警告が出たら
 
-![](.gitbook/assets/win10smartscreen.png) 
+![](.gitbook/assets/Win10SmartScreen.png)&#x20;
 
 Windows Smart Screenがプログラムをブロックするのは、JJazzLabがマルウェアだからではなく（マルウェアではありません！）、JJazzLabが新しいプログラムであるために、Windowsのセキュリティサーバーがその「セキュリティの評判」を評価するのに十分な統計情報を持っていないからです。
 
@@ -24,14 +24,14 @@ Windows Smart Screenがプログラムをブロックするのは、JJazzLabが�
 
 ## Linux での説明
 
-パッケージを解凍してください。 
+パッケージを解凍してください。&#x20;
 
 インストールディレクトリにある **bin/jjazzlab** を使ってJJazzLabを起動します。
 
 JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="success" %}
-ArchまたはManjaro Linuxをお使いの場合は、JJazzLabのインストールパッケージが用意されています : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    （ありがとう、jypma！） 
+ArchまたはManjaro Linuxをお使いの場合は、JJazzLabのインストールパッケージが用意されています : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    （ありがとう、jypma！）&#x20;
 {% endhint %}
 
 ## MacOS での説明
@@ -49,4 +49,3 @@ JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfo
 {% hint style="warning" %}
 MacOSには既知のバグがあります。コンピュータがスリープモードから起動した後に、オーディオが2～3秒遅れて再生されることがあります。これはJDKの問題によるもので、JJazzLabでは何もできません。
 {% endhint %}
-

@@ -4,15 +4,15 @@
 
 JJazzLabはオープンソースでプラグイン可能なアーキテクチャを採用しているため、様々なリズムエンジンを取り入れることができます。あなたが開発者であれば、簡単に自分のリズムエンジンを作ることができます！
 
-![](../.gitbook/assets/rhythmpluginsarchitecture.png)
+![](../.gitbook/assets/RhythmPluginsArchitecture.png)
 
-リズムエンジンは、サポートしているリズムとサポートしている**リズムパラメーター**をリスト提示する1つまたは複数の**リズムプロバイダー**を持っています。利用可能なすべての**リズムプロバイダー**のリストは、**リズム選択ダイアログ\(rhythm selection dialog\)**で見ることができます。
+リズムエンジンは、サポートしているリズムとサポートしている**リズムパラメーター**をリスト提示する1つまたは複数の**リズムプロバイダー**を持っています。利用可能なすべての**リズムプロバイダー**のリストは、**リズム選択ダイアログ(rhythm selection dialog)**で見ることができます。
 
-![](../.gitbook/assets/rhythmgenerationengine.png)
+![](../.gitbook/assets/RhythmGenerationEngine.png)
 
 JJazzLabには現在、ヤマハスタイルをベースにした[YamJJazz](yamjjazz-rhythm-engine/)というリズムエンジンが搭載されています。**リズムパラメータ**はバリエーション、メリハリ、フィルです（ミュートやテンポなどの他のパラメータは汎用的で、どんなリズムにも対応します）。
 
-## 将来のリズムエンジン <a id="future-rhythm-generation-engines"></a>
+## 将来のリズムエンジン <a href="future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
 
 ここでは、JJazzLab-Xの基礎構造を使って開発できる例をいくつか紹介します。
 
@@ -22,4 +22,3 @@ JJazzLabには現在、ヤマハスタイルをベースにした[YamJJazz](yamj
 * 様々なリズムのトラックを組み合わせることができる「メタエンジン」（例：ヒップホップのベースラインとラテンのドラムを組み合わせるなど）
 * Band-In-A-BoxやKORG、Ketronなどのアレンジャー・キーボードからスタイル・ファイルを読み込めるエンジン
 * その他
-

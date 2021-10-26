@@ -1,16 +1,10 @@
 ---
-title: FAQ
-date: '2018-07-07T09:53:27.000Z'
-draft: false
-weight: 1000
-helpTitle: true
-toc: true
 description: よく聞かれる質問
 ---
 
 # FAQ
 
-## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a id="how-to-help"></a>
+## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a href="how-to-help" id="how-to-help"></a>
 
 * [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
 * JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
@@ -24,39 +18,39 @@ description: よく聞かれる質問
 
 MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**からアクセスします。
 
-## 曲の移調はどうするのですか？ <a id="how-to-transpose-song"></a>
+## 曲の移調はどうするのですか？ <a href="how-to-transpose-song" id="how-to-transpose-song"></a>
 
-1. コード記号をすべて選択\(右クリックメニューの **Select all the chord symbols**\)
-2. マウスホイールを使うか、右クリックメニューで移調\( **Transpose** \)
+1. コード記号をすべて選択(右クリックメニューの **Select all the chord symbols**)
+2. マウスホイールを使うか、右クリックメニューで移調( **Transpose **)
 
-## JJazzLabで伴奏オーディオファイル\(.mp3, .wav, etc.\)はどうやって作るのですか？ <a id="generate-mp3"></a>
+## JJazzLabで伴奏オーディオファイル(.mp3, .wav, etc.)はどうやって作るのですか？ <a href="generate-mp3" id="generate-mp3"></a>
 
 {% tabs %}
 {% tab title="Windows" %}
-もし、**VirtualMidiSynth** で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
+もし、**VirtualMidiSynth **で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
 
 1. JJazzLabで、伴奏トラックを **File→Export to Midi file**を使って.midファイルで保存します。
-2. 次に**VirtualMIDISynth** を起動\(Windowsのシステムトレイにあるアイコンを右クリック\)し、MIDIファイルを変換\( **MIDI converter**\)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
+2. 次に**VirtualMIDISynth **を起動(Windowsのシステムトレイにあるアイコンを右クリック)し、MIDIファイルを変換( **MIDI converter**)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
 
 また、スクリーンレコーダーソフトウェアを使用することもできます。コンピュータのサウンドカードの出力を直接キャプチャして、.mp3ファイルに保存するものもあります。
 {% endtab %}
 
 {% tab title="Linux" %}
-Use the **FluidSynth -F** option to generate a .wav file.
+Use the** FluidSynth -F** option to generate a .wav file.
 {% endtab %}
 
 {% tab title="VST Instruments" %}
-Use the VST host \(Cubase, Reaper, etc.\) capabilities to record the output of the VST instruments.
+Use the VST host (Cubase, Reaper, etc.) capabilities to record the output of the VST instruments.
 {% endtab %}
 {% endtabs %}
 
 ## 真っ新な再インストールはどうするのですか？
 
-JJazzLabのユーザー設定を全てリセットする必要があります\(アンインストール／再インストールでは十分ではありません\)。 
+JJazzLabのユーザー設定を全てリセットする必要があります(アンインストール／再インストールでは十分ではありません)。&#x20;
 
 簡単な方法： メニュー **Tools→Options→Advanced** の **Reset all user settings**のボタンです。
 
-難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
+難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir **の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
 
 ## Windowsの管理者権限がありませんが、JJazzLabをインストールできますか？
 
@@ -68,11 +62,11 @@ JJazzLabのユーザー設定を全てリセットする必要があります\(�
 2021年5月更新: スタインバーグ社の新製品「Halion Sonic SE」（無料）をJJazzLabで使うと、とても**良い音**のバッキングトラックができます。詳しくは[JJazzLab フォーラム](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab)で。
 {% endhint %}
 
-JJazzLabの出力には、_良いシンセサイザー_が必要です。では、バッキングトラックの生成に必要な良いシンセサイザーとは何か？考慮すべき要素は大きく分けて3つあります： 
+JJazzLabの出力には、_良いシンセサイザー_が必要です。では、バッキングトラックの生成に必要な良いシンセサイザーとは何か？考慮すべき要素は大きく分けて3つあります：&#x20;
 
-1. **個別の音源品質** \(ドラム、ベース、ピアノなどの音源\)
-2. **サウンド全体のミックス**  \(全く違う楽器でも一緒に合わせる\)
-3. **効果** \(全体と楽器ごとの効果\)
+1. **個別の音源品質 **(ドラム、ベース、ピアノなどの音源)
+2. **サウンド全体のミックス**  (全く違う楽器でも一緒に合わせる)
+3. **効果** (全体と楽器ごとの効果)
 
 {% hint style="info" %}
 経験上、2.と3.の要素は、1.の要素と同じくらい重要であると考えられます。
@@ -85,13 +79,13 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 以下に一般的なコンフィギュレーションをいくつか挙げます。
 
-| シンセ出力 | 音質 | コメント |
-| :--- | :--- | :--- |
-| Java Internal Synth with default bank | 低 | すぐに使えます。デフォルトのサウンドバンクのサイズが非常に小さいことを考慮すると、全体のサウンドバランスは非常に良いです。 |
-| GM サウンドフォント | 低～並 | バランスのとれたサウンドフォントを見つけるのが難しい（例：いいピアノが手に入ったが、低音がダメだった、など。楽器ごとのエフェクトがない。XGとの互換性がない。）  |
-| JJazzLab サウンドフォント | 並 | 多くのヤマハスタイルでテスト済み。XGに対応し、さらにいくつかの追加サウンドとドラムキットを搭載しています。Output Synthの設定プリセットがあるので、すぐに設定できます。楽器ごとの個別のエフェクトはありません。 |
-| ハードウェアシンセサイザー | とても良い | GMモードでは、個々のサウンド間のミックスは、通常、そのままでも非常に良い状態です。個々のサウンドには独自のエフェクト（例：ギターのディストーションなど）をかけることができ、これが全体のレンダリングに大きな影響を与えます。シンセのためのCakewalkインストゥルメント定義ファイル\(.ins\)がウェブ上にあれば、JJazzLabから直接コントロールすることができます。 |
-| ソフトウェアシンセサイザー | 最高 | 通常、GMとの互換性はありません。バーチャルMIDIデバイス＋VSTホスト、各楽器の音の選択、VSTホストからのミックス調整など、初期設定に手間がかかります...。個々の音にはそれぞれエフェクトがあり（例：ギターのディストーションなど）、これは全体のレンダリングに大きな影響を与えます。Cakewalk のインストゥルメント定義ファイル \(.ins\) を独自に作成していない限り、リズムを変更する際にはセットアップを調整する必要があります。 |
+| シンセ出力                                 | 音質    | コメント                                                                                                                                                                                                                         |
+| ------------------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Java Internal Synth with default bank | 低     | すぐに使えます。デフォルトのサウンドバンクのサイズが非常に小さいことを考慮すると、全体のサウンドバランスは非常に良いです。                                                                                                                                                                |
+| GM サウンドフォント                           | 低～並   | バランスのとれたサウンドフォントを見つけるのが難しい（例：いいピアノが手に入ったが、低音がダメだった、など。楽器ごとのエフェクトがない。XGとの互換性がない。）                                                                                                                                             |
+| JJazzLab サウンドフォント                     | 並     | 多くのヤマハスタイルでテスト済み。XGに対応し、さらにいくつかの追加サウンドとドラムキットを搭載しています。Output Synthの設定プリセットがあるので、すぐに設定できます。楽器ごとの個別のエフェクトはありません。                                                                                                               |
+| ハードウェアシンセサイザー                         | とても良い | GMモードでは、個々のサウンド間のミックスは、通常、そのままでも非常に良い状態です。個々のサウンドには独自のエフェクト（例：ギターのディストーションなど）をかけることができ、これが全体のレンダリングに大きな影響を与えます。シンセのためのCakewalkインストゥルメント定義ファイル(.ins)がウェブ上にあれば、JJazzLabから直接コントロールすることができます。                                    |
+| ソフトウェアシンセサイザー                         | 最高    | 通常、GMとの互換性はありません。バーチャルMIDIデバイス＋VSTホスト、各楽器の音の選択、VSTホストからのミックス調整など、初期設定に手間がかかります...。個々の音にはそれぞれエフェクトがあり（例：ギターのディストーションなど）、これは全体のレンダリングに大きな影響を与えます。Cakewalk のインストゥルメント定義ファイル (.ins) を独自に作成していない限り、リズムを変更する際にはセットアップを調整する必要があります。 |
 
 また、リズムがうまく鳴らないときには、別の楽器を試したり、ミックス（ボリューム、エフェクト、パン、ベロシティシフト）を調整するだけで、驚くほど改善されます。
 
@@ -99,25 +93,25 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 詳しくは、 [MIDI設定](configuration/midi-configuration.md) のページをご覧ください。
 
-## ヤマハのアレンジャー・キーボード\(Tyros, PSR, ...\)を持っていますが、どうやればJJazzLabと一緒に使うことができますか？
+## ヤマハのアレンジャー・キーボード(Tyros, PSR, ...)を持っていますが、どうやればJJazzLabと一緒に使うことができますか？
 
 JJazzLabはあなたのキーボードをドライブして、その最適化されたサウンドを利用することができます。キーボードをMidiで接続し、 [**シンセ出力エディター**](configuration/output-synth.md) で **ヤマハ Tyros** プリセットを適用します。このプリセットはTyros5をベースにしており、以前のTyrosモデルやほとんどのPSRキーボードとの下位互換性があります。
 
-## フォントを大きくするにはどうしたらよいですか？ <a id="font-bigger"></a>
+## フォントを大きくするにはどうしたらよいですか？ <a href="font-bigger" id="font-bigger"></a>
 
-JJazzLab をインストールしたディレクトリで、 **etc/jjazzlab.conf**  ファイルを編集し、**default\_option**変数に**--fontsize 16** \(16 またはその他の値、デフォルトは 11\)を追加すると、以下のようになるはずです：
+JJazzLab をインストールしたディレクトリで、 **etc/jjazzlab.conf**  ファイルを編集し、**default\_option**変数に**--fontsize 16** (16 またはその他の値、デフォルトは 11)を追加すると、以下のようになるはずです：
 
-`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"` 
+`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16" `
 
 JJazzLab再起動すると、全メニューが大きく見えるはずです。
 
- エディターフォントの中には、この設定に依存しないものもあるので、これですべてが解決するわけではありません。しかし、メニューの**Tools/Options/Theme**を使って、そのうちのいくつかを調整することができます。リストの各項目をチェックし、フォントが定義されている場合は、それを変更して大きくします。ユーザー設定は自動的に保存されますので、この作業は一度だけ行う必要があります。
+&#x20;エディターフォントの中には、この設定に依存しないものもあるので、これですべてが解決するわけではありません。しかし、メニューの**Tools/Options/Theme**を使って、そのうちのいくつかを調整することができます。リストの各項目をチェックし、フォントが定義されている場合は、それを変更して大きくします。ユーザー設定は自動的に保存されますので、この作業は一度だけ行う必要があります。
 
 ## コマンドライン引数でJJazzLabを起動できますか？
 
 コマンドラインで1つまたは複数の.sngファイル名を渡せば、JJazzLabの起動時にそれらのファイルを開くことができます。
 
-```text
+```
 # Example on Win10 (x64)
 "C:\Program Files\JJazzLab\bin\jjazzlab64.exe" "C:\my dir\MySong.sng" "D:\AnotherSong.sng"
 ```
@@ -144,14 +138,15 @@ JJazzLabを起動するたびに、新しい**ログファイル** が作成さ�
 
 何らかの理由で上記が上手くいかない場合は：
 
-1. メニューの **Help→About**に進み、 **Netbeans user dir**を見つけます。 Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` Linuxの例 `/home/MyName/.jjazzlab/2.2`
+1. メニューの **Help→About**に進み、 **Netbeans user dir**を見つけます。\
+   Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2`\
+   Linuxの例 `/home/MyName/.jjazzlab/2.2`
 2. エクスプローラーを開き、そのディレクトリに進んで、そのサブディレクトリの **var/log** に進みます。
 3. 最後のログファイルは、**messages.log**で、１つ前は**messages.log.1**、さらにもう１つ前は、 **messages.log.2**などとなっています。
 4. 該当するログファイルを見つけて、バグレポートと一緒に送信してください。
 
 {% hint style="danger" %}
-**Netbeans user dir**が見当たらない場合、エクスプローラが隠しファイルを表示するようになっているか確認してください\(例. AppData ディレクトリはWindowsでは通常、隠されています\)。
+**Netbeans user dir**が見当たらない場合、エクスプローラが隠しファイルを表示するようになっているか確認してください(例. AppData ディレクトリはWindowsでは通常、隠されています)。
 {% endhint %}
 
- 
-
+&#x20;

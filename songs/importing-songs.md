@@ -18,15 +18,13 @@ JJazzLabでは、.SG_または.MG_のソングファイルを読み込むこと�
 
 ## musicXMLファイル
 
-JJazzLabは、musicXML \(.xml\)または圧縮されたmusicXML \(.mxl\)をインポートできます。 
+JJazzLabは、musicXML (.xml)または圧縮されたmusicXML (.mxl)をインポートできます。&#x20;
 
 インポートできるのは、拍子記号とコード記号のみです。
 
 ## Impro-Visorリードシートファイル
 
-JJazzLabは、Impro-Visor \(.ls\)リードシートファイルを読み込めます。 
+JJazzLabは、Impro-Visor (.ls)リードシートファイルを読み込めます。&#x20;
 
 インポートできるのは、拍子記号とコード記号のみです。
-
-
 

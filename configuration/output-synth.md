@@ -3,14 +3,14 @@
 
 
 {% hint style="info" %}
-JJazzLab サウンドフォントをお使いの方は、このページを飛ばして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。 
+JJazzLab サウンドフォントをお使いの方は、このページを飛ばして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。&#x20;
 {% endhint %}
 
-## シンセ出力の概念 <a id="output-synth-concept"></a>
+## シンセ出力の概念 <a href="output-synth-concept" id="output-synth-concept"></a>
 
 シンセ出力とは、JJazzLabの出力に接続されているMIDIシンセを表しています：
 
-![](../.gitbook/assets/outputsynth-concept%20%281%29.png)
+![](<../.gitbook/assets/OutputSynth-concept (1).png>)
 
 シンセ出力の情報によって、JJazzLabはシンセを直接コントロールすることが可能となります。[ミックスコンソール](../songs/song-editors/mix-console.md)から直接楽器を選択したり、曲をロードしたときにソングミックスを自動的に復元したりできるのはこのためです。
 
@@ -25,9 +25,9 @@ JJazzLabでのシンセ出力のコンフィギュレーションが実際のシ
 
 ## シンセ出力エディター
 
-**シンセ出力**機能は**シンセ出力エディター**で編集できます。 
+**シンセ出力**機能は**シンセ出力エディター**で編集できます。&#x20;
 
-![](../.gitbook/assets/outputsyntheditor.png)
+![](../.gitbook/assets/OutputSynthEditor.png)
 
 シンセ出力の設定は、ファイルの読み込み／ファイルに保存ができます。デフォルトでは、JJazzLabは **Default.cfg**を使用します。
 
@@ -80,25 +80,25 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 そのためには、**ミックスコンソール**の**MIDIパラメータ**を無効にする必要があります。そうするとJJazzLabはMIDIノートのみを送信し、プログラム/コントローラ変更のMIDIメッセージを送信しません。
 
-この設定は**MIDIメニュー**からすべてのチャンネルに対してグローバルに行うことができます。 
+この設定は**MIDIメニュー**からすべてのチャンネルに対してグローバルに行うことができます。&#x20;
 
-![](../.gitbook/assets/2021-01-06-22_02_58-jjazzlab.png)
+![](<../.gitbook/assets/2021-01-06 22\_02\_58-JJazzLab.png>)
 
 あるいは、**チャンネル設定**でチャンネルごとに、またパラメータごとに行うこともできます。
 
-![](../.gitbook/assets/channelsettings.png)
+![](../.gitbook/assets/ChannelSettings.png)
 
 なお、すべてのMIDIパラメータを無効にすると、JJazzLabは楽器を変更するためのMIDIメッセージ（バンクセレクト/プログラムMIDIメッセージ）を送信しないため、シンセ出力の設定は無意味になります。
 
-## MIDIシンセ定義ファイル\(.ins\) <a id="midi-synth-definition-files-cakewalk-ins-format"></a>
+## MIDIシンセ定義ファイル(.ins) <a href="midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
-JJazzLabはCakewalkのインストゥルメント定義ファイル\(.ins\)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメント（楽器）リストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
+JJazzLabはCakewalkのインストゥルメント定義ファイル(.ins)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメント（楽器）リストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
 
 JJazzLabには、いくつかの既存のハードウェアシンセサイザー（ヤマハ Motif、Korg X-50など）用の.insファイルが同梱されています。お使いのサウンドデバイス用の .ins ファイルが見つからない場合は、ウェブで検索するか、自分で作成することができます（"Cakewalk Instrument Definition File"で検索してください）。
 
-**Add** \(Synths\) ボタンを使って、現在の出力シンセの設定に１つまたは複数の .ins ファイルを追加します。
+**Add **(Synths) ボタンを使って、現在の出力シンセの設定に１つまたは複数の .ins ファイルを追加します。
 
-![](../.gitbook/assets/outputsynth-addsynth.png)
+![](../.gitbook/assets/OutputSynth-AddSynth.png)
 
 {% hint style="info" %}
 **MIDIシンセ**を追加すると、その楽器は**ミックスコンソール**のインストゥルメント選択ダイアログで利用できるようになります。
@@ -106,13 +106,13 @@ JJazzLabには、いくつかの既存のハードウェアシンセサイザー
 
 JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins 拡張フォーマット](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
 
-## デフォルト楽器（Default instruments） <a id="default-instruments"></a>
+## デフォルト楽器（Default instruments） <a href="default-instruments" id="default-instruments"></a>
 
 **シンセ出力エディター**では、標準GM楽器をお好みの**デフォルト楽器**にマッピングできます。また、すべてのオルガンのように、**楽器系統（familiy）**に**デフォルト楽器**を設定することもできます。
 
-![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
+![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/OutputSynth-DefaultInstruments.png)
 
-## JJazzLab .ins拡張フォーマット <a id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .ins拡張フォーマット <a href="jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
 これらの.ins 拡張フォーマットは、JJazzLabを動作させるために必須というわけではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。
@@ -122,12 +122,13 @@ JJazzLab用に最適化された.insを作成したい場合は、以下の[JJaz
 
 JJazzLabを最適に使用するためには以下が必要です。
 
-1. メロディ楽器：その**GM代替**楽器  例：XG楽器「12 String Guitar」用の**GM代替**楽器はGM楽器「Steel Guitar」です。
+1. メロディ楽器：その**GM代替**楽器\
+   &#x20;例：XG楽器「12 String Guitar」用の**GM代替**楽器はGM楽器「Steel Guitar」です。
 2. 打楽器/ドラムキットの場合： その**タイプ**と**ドラムキーマップ**
 
 そのため、以下の例のように、いくつかの（オプション）拡張機能が導入されています。
 
-```text
+```
 ;
 ; {{ SubGM1= }}
 ;
@@ -142,7 +143,7 @@ JJazzLabを最適に使用するためには以下が必要です。
 ...
 ```
 
-```text
+```
 ;
 ; {{ DrumKit=,  }}
 ;          : STANDARD, POWER, ROOM, ELECTRONIC, ANALOG, JAZZ, BRUSH, ORCHESTRA, SFX
@@ -156,7 +157,7 @@ JJazzLabを最適に使用するためには以下が必要です。
 ...
 ```
 
-```text
+```
 ;
 ; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
 ; {{ UseGsDrumsInstruments }}  => For drums instrument selection a GS Sysex message will be sent to make sure channel is in percussion mode
@@ -170,4 +171,3 @@ Patch[256]=Bank 2 {{ UseGsInstruments }}       ; This bank stores GS melodic ins
 Patch[*]=Drums    {{ UseGsDrumsInstruments }}  ; This bank stores GS drums instruments
 ...
 ```
-

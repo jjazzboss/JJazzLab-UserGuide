@@ -1,11 +1,3 @@
----
-title: Song and Mix files
-date: '2017-10-17T15:26:15.000Z'
-draft: false
-weight: 400
-helpTitle: true
----
-
 # ソングとミックスファイル
 
 **mySong**という曲を保存したとすると、JJazzLabは実際には2つの異なるファイルを保存します：
@@ -19,23 +11,24 @@ helpTitle: true
 
 **mySong.sng**を開くと、JJazzLabは同じディレクトリにある**mySong.mix**も開きます。**mySong.mix**が存在しない場合、JJazzLabは[デフォルトリズムミックス](song-and-mix-files.md#default-rhythm-mix)を使ってミックスを作成します。
 
-## デフォルトリズムミックス\(Default rhythm mix\)
+## デフォルトリズムミックス(Default rhythm mix)
 
 JJazzLabの各リズムには組み込みデフォルリズムミックスがあります。この組み込みデフォルトミックスでは、移植性を高めるために**GM音源**しか使用できません。
 
 **デフォルトリズムミックス**ファイルを保存すれば組み込みリズムミックスに優先させることができます。組み込みミックスとは異なり、**このリズムミックスは、任意の楽器を使用できます。**
 
-![](../.gitbook/assets/saverhythmmix.png)
+![](../.gitbook/assets/SaveRhythmMix.png)
 
-デフォルトでは、このファイルは**Options/Rhythms**で設定した**user rhythm directory**に保存されます。しかし、このディレクトリは**オプション/全般\(Options/General\)**で変更することができます。
+デフォルトでは、このファイルは**Options/Rhythms**で設定した**user rhythm directory**に保存されます。しかし、このディレクトリは**オプション/全般(Options/General)**で変更することができます。
 
 ## ミックスファイルの検索順序
 
 **myDir/mySong.sng**をロードして、この曲が**16BeatRock**のリズムを使っている場合、JJazzLabは、上の2つの段落で述べたことを組み合わせて、以下のようにミックス情報を検索します：
 
-1. **myDir/mySong.mix**があれば、それを使用する 
-2. **defaultRhythmMixDir/16BeatRock.mix**があれば、それを使用する 
+1. **myDir/mySong.mix**があれば、それを使用する\
+
+2. **defaultRhythmMixDir/16BeatRock.mix**があれば、それを使用する\
+
 3. **16BeatRock**組み込みデフォルトミックスを使用（GM音源のみ）する。
 
 ステップ２と３は、曲の中に新しいリズムを追加するときにも使われます。
-

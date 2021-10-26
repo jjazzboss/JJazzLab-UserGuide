@@ -4,7 +4,5 @@ JJazzLab はリズム生成エンジン**YamJJazz** を内蔵しています。�
 
 下のリズム選択ダイアログでは、使用可能な２つのYamJJazz**リズムプロバイダ**が表示されています。
 
-![](../../.gitbook/assets/yamjjazzrhythmproviders.png)
-
-
+![](../../.gitbook/assets/YamJJazzRhythmProviders.png)
 
