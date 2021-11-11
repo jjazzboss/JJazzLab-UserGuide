@@ -8,6 +8,8 @@ description: / JJazzLab-X
 Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
+![JJazzLab 3.0 user interface](.gitbook/assets/JJazzLab3.0Full.png)
+
 ## Where to start?
 
 Try this very short [video tutorial](video-tutorials.md#for-starters).
