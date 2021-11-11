@@ -5,8 +5,10 @@
 * **Chinese**: Yafei
 * **German**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch
 * **French**: Daniel Patin, Hans Hahn
+* **Japanese**: H. Sakuda (GItBook online help)
+* **Portuguese/Brazilian**: Danilson Ramos De Oliveira
 
-(top contributors are listed only for complete language packs)
+And thank you also to all the other contributors, every little bit helps!
 
 ## It's easy
 
