@@ -86,7 +86,7 @@ Each Midi channel can be changed manually, just click on the channel number.
 
 ## User tracks
 
-Add one or more user tracks using the Add user track button on the toolbar (see above).
+Add one or more user tracks using the Add user track button on the mix console toolbar (see above).
 
 ![](../../.gitbook/assets/UserTrack.png)
 
