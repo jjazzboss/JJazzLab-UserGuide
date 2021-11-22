@@ -5,8 +5,9 @@ Use the **mix console** to:
 * Change the instruments
 * Adjust channel settings: volume, reverb, chorus, panoramic, transposition, velocity offset
 * Mute or solo channels
+* Add user tracks
 * Load/save .mix file
-* And more: change Midi channel, use special Midi commands, etc.
+* And more: change Midi channel, use special Midi commands, export to Midi file, etc.
 
 JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](../../configuration/output-synth.md). This is done each time you make a change in the mix console, or when you start the playback.
 
