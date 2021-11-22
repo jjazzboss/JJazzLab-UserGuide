@@ -14,9 +14,19 @@ JJazzLab uses the **mix console** information to send the relevant Midi messages
 Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
 {% endhint %}
 
-![](../../.gitbook/assets/MixConsole.png)
+![](../../.gitbook/assets/MixConsole3.png)
 
-## MIx console menu bar
+## Mix console toolbar
+
+![](../../.gitbook/assets/MixConsoleToolbar.png)
+
+* **Master volume**: this increase or lower the Midi volume messages
+* **M**: Mute or Unmute all tracks
+* **S**: Switch off all Solo tracks
+* **Panic**: Send a Midi Panic message, switching all notes OFF
+* **User track**: Add a user track. See User tracks below.
+
+## Mix console menu bar
 
 ### Menu File
 
@@ -29,12 +39,6 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 
 ### Menu Edit
 
-*   **Add/Remove user channel**  &#x20;
-
-    The user channel is used to automatically set the instrument that you want to play for a given song or rhythm. &#x20;
-
-    _Example: you're a keyboardist and JJazzLab is connected to your synthesizer. You made Stevie Wonder's "Isn't she lovely" song and you play a clavinet sound on it. Add the User Channel with a Clavinet sound, increase the chorus effect, then save the song. This way, the next time you load the song you'll automatically get your clavinet sound recalled on your synthesizer._\
-    __
 *   **Reset channels** &#x20;
 
     Restore the original settings from the related rhythm.
@@ -75,9 +79,25 @@ Use the channel settings to:
 
 ## Midi channel
 
-Each Midi channel can be changed manually.
+Each Midi channel can be changed manually, just click on the channel number.
 
 ![](<../../.gitbook/assets/MixConsole-ChangeChannel (1).png>)
+
+## User tracks
+
+Add one or more user tracks using the Add user track on the toolbar (see above).
+
+![](../../.gitbook/assets/UserTrack.png)
+
+To add Midi notes to a user track, you can either **drag & drop** a Midi file in the rectangle area, or use the **Edit via external Midi editor** button in the lower left corner.&#x20;
+
+When using **Edit via external Midi editor **JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can add notes for your user track.
+
+{% hint style="warning" %}
+JJazzLab will only import notes which match the user track Midi channel, whatever the Midi track. For example, in the image above the user track channel is 1, so only notes with channel 1 will be imported.
+{% endhint %}
+
+**Edit via external Midi editor** requires that you have set an external Midi editor in the **General **panel of the **Options/Preferences**. If you don't have one, I recommend **MidiEditor **for Windows, it's free, open-source and lightweight. &#x20;
 
 ## Multi-rhythm songs
 
