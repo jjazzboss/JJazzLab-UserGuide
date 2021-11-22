@@ -8,7 +8,7 @@ description: / JJazzLab-X
 Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
-![](<.gitbook/assets/JJazzLab3.0Full (1).png>)
+![JJazzlab 3](<.gitbook/assets/JJazzLab3.0Full (1).png>)
 
 ## Where to start?
 
@@ -27,13 +27,15 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 ### Backing tracks
 
 * Instant generation of a Midi backing track with drums, percussion, bass, piano, guitar, pad, horn section, …
-* Fine tuning of the backing track per song part: rhythm variation, intensity, muted instruments, drum fills, tempo factor, …
-* Play from start, from selected bar, or loop selected bars
+* Fine tuning of the backing track per song part: rhythm variation, intensity, muted instruments, drum fills, tempo factor, custom phrases, drums transform…
+* Play from anywhere, loop selected bars
 * Play transposed (e.g. for sax or trumpet players)
 * Any song structure: intro, chorus, 1st coda, etc.
 * Adjust tempo, transposition, choose and solo/mute instruments
+* Import user tracks
 * Support for multi-rhythm backing tracks, possibly with different time signatures
-* Export to Midi file, enabling easy Midi-to-MP3 conversion
+* Export to Midi file, the full backing track or a single instrument track
+* Easy Midi-to-MP3 conversion via export to Midi file
 * Customizable click and pre-count
 
 ### Editors
@@ -44,8 +46,9 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 * Free placement of the chord symbols (quantified or not), off-beat chord symbols anticipation
 * Support all pop-rock and jazz chord symbols, plus user-defined chord symbols
 * Edit chord symbol musical rendering: underlying harmony, accent type, harmony variation during solos, chord symbol substitution, …
+* Drag & drop support to import/export Midi files
 * Customizable song template
-* Customizable UI colors and fonts with themes
+* Customizable UI colors and fonts
 * Print chord lead sheet and song structure
 
 ### Rhythms
@@ -54,6 +57,22 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 * Hundreds of embedded rhythms in the installer
 * Support for “YamJJazz Extended Yamaha" style files for even more variations per style
 * Open architecture: new rhythm generation engines can be easily added via plugins
+
+### Notes viewer
+
+* Show backing track notes in real time
+* Show selected chord symbol notes and scales
+* Piano keyboard
+* Guitar diagrams with most common chords, open/close voiced chords, inversions
+
+### (pseudo) Arranger keyboard mode
+
+* Recognize chords played on Midi IN and update the backing track&#x20;
+
+### Improvisation help
+
+* Automatic generate improvisation guides on your chord leadsheet&#x20;
+* Based on Hal Crook's reference book "How to improvise"
 
 ### Midi
 
@@ -74,5 +93,5 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 ### Miscellaneous
 
-* Auto-update notifications
+* Song memo with hyperlinks opened upon song loading
 * Based on the open-source Netbeans application framework
