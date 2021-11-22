@@ -1,6 +1,6 @@
 # Song editors
 
-![](../../.gitbook/assets/JJazzLab-legende.png)
+![](../../.gitbook/assets/FullEditorsText.png)
 
 &#x20; Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
 
