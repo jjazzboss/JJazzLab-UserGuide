@@ -31,6 +31,16 @@ Use ctrl-click or shift-click for multiple selection.
 In order to input a lead sheet from scratch, the easier way is to select the first bar, directly type in the chord symbols, press ENTER (it will automatically select the next bar), type in the chord symbols for the second bar, etc.
 {% endhint %}
 
+### Popup menus
+
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
+
+![Bar popup menu](../../.gitbook/assets/BarPopupMenu.png)
+
+![Chord symbol popup menu](../../.gitbook/assets/ChordSymbolPopupMeny.png)
+
+![Section/Time signature popup menu](../../.gitbook/assets/TimeSignaturePopupMenu.png)
+
 ### Aliases
 
 JJazzLab recognizes many aliases for each chord symbol. For example C7M can be written Cmaj7, Cma7, CM7, CMAJ7 etc.
@@ -116,7 +126,7 @@ To add a section select a bar which is not after the end then:
 
 * press ENTER, or
 * double-click, or
-* right-click menu, Edit
+* right-click menu, Insert Section... or Edit...
 
 The new section name must be different than the existing one.
 
