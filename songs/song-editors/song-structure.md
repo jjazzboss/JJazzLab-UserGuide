@@ -6,7 +6,7 @@ Use the **song structure editor** to:
 * Select the **rhythm**(s) to be used&#x20;
 * Adjust the **rhythm parameters** to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
 
-![](../../.gitbook/assets/SongStructureEditor.png)
+![](../../.gitbook/assets/FullSongStructureEditorText.png)
 
 ## Song parts
 
