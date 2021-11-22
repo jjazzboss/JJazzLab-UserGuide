@@ -67,7 +67,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 ### (pseudo) Arranger keyboard mode
 
-* Recognize chords played on Midi IN and update the backing track&#x20;
+* Recognize chords played on Midi IN and update the backing track in (pseudo) real-time
 
 ### Improvisation help
 
@@ -94,4 +94,5 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 ### Miscellaneous
 
 * Song memo with hyperlinks opened upon song loading
-* Based on the open-source Netbeans application framework
+* Easily add new features thanks to the open-source pluggable architecture
+* Based on the Netbeans application framework
