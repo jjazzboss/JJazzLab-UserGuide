@@ -85,7 +85,7 @@ Each Midi channel can be changed manually, just click on the channel number.
 
 ## User tracks
 
-Add one or more user tracks using the Add user track on the toolbar (see above).
+Add one or more user tracks using the Add user track button on the toolbar (see above).
 
 ![](../../.gitbook/assets/UserTrack.png)
 
@@ -97,7 +97,15 @@ When using **Edit via external Midi editor **JJazzLab will first export the full
 JJazzLab will only import notes which match the user track Midi channel, whatever the Midi track. For example, in the image above the user track channel is 1, so only notes with channel 1 will be imported.
 {% endhint %}
 
-**Edit via external Midi editor** requires that you have set an external Midi editor in the **General **panel of the **Options/Preferences**. If you don't have one, I recommend **MidiEditor **for Windows, it's free, open-source and lightweight. &#x20;
+**Edit via external Midi editor** requires that you have set an external Midi editor in the **General **panel of the **Options/Preferences**. If you don't have one, we recommend **MidiEditor **for Windows, it's free, open-source and lightweight. &#x20;
+
+## Export to Midi file with mouse drag & drop
+
+You can export the full backing track to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
+
+To export a single track, start the mouse-drag from a track icon.
+
+![Export a single track with mouse drag & drop](../../.gitbook/assets/MixConsoleDragTrack.png)
 
 ## Multi-rhythm songs
 
