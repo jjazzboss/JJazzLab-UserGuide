@@ -144,14 +144,14 @@ Select a bar with a section defined or select the section itself, right-click me
 
 ## Mouse shortcuts
 
-| Selection                  | Mouse            | Action                         |
-| -------------------------- | ---------------- | ------------------------------ |
-| bar, chord symbol, section | click            | select                         |
-| chord symbol               | double click     | edit using chord symbol editor |
-| bar, section               | double click     | edit using bar editor          |
-| bar, chord symbol, section | right-click      | popup menu                     |
-| chord symbol               | mouse-wheel      | transpose                      |
-| editor                     | ctrl mouse-wheel | change X zoom factor           |
+| <mark style="background-color:blue;">**Selection**</mark> | <mark style="background-color:blue;">**Mouse**</mark> | <mark style="background-color:blue;">**Action**</mark> |
+| --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| bar, chord symbol, section                                | click                                                 | select                                                 |
+| chord symbol                                              | double click                                          | edit using chord symbol editor                         |
+| bar, section                                              | double click                                          | edit using bar editor                                  |
+| bar, chord symbol, section                                | right-click                                           | popup menu                                             |
+| chord symbol                                              | mouse-wheel                                           | transpose                                              |
+| editor                                                    | ctrl mouse-wheel                                      | change X zoom factor                                   |
 
 ## Keyboard shortcuts
 

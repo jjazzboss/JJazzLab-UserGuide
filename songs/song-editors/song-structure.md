@@ -34,11 +34,15 @@ You can modify the song part **name**, **rhythm**, and **rhythm parameter** valu
 
 Edition is done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** (see the image at the top of this page). Edits apply on the selected song parts or rhythm parameters.
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection.
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection, as shown in the 2 images below.
 
 ![Song part popup menu](../../.gitbook/assets/SongPartPopupMeny.png)
 
 ![Rhythm parameter popup menu](../../.gitbook/assets/RhythmParameterPopupMenu.png)
+
+When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu, as shown below.
+
+![Adjusting several rhythm parameter values](../../.gitbook/assets/AdjustRpValues.png)
 
 ## Change rhythm
 

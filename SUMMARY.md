@@ -14,6 +14,10 @@
   * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [Output synth](configuration/output-synth.md)
 
+## Playback control
+
+* [Commands](playback-control/commands.md)
+
 ## Songs
 
 * [Song editors](songs/song-editors/README.md)
