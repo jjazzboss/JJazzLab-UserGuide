@@ -26,29 +26,59 @@ If some contiguous song parts share the same name, then the name is displayed on
 
 ![](../../.gitbook/assets/SongParts-SameName.png)
 
-Song parts can be reordered by dragging them using the mouse.
-
 ## Editing
+
+Song parts can be reordered by dragging them using the mouse.
 
 You can modify the song part **name**, **rhythm**, and **rhythm parameter** values.
 
-Edition is done directly from in the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** (see snapshot at the top of this page). Edited values will impact all the selected song parts or rhythm parameters.
+Edition is done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** (see the image at the top of this page). Edits apply on the selected song parts or rhythm parameters.
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter).
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection.
 
 ![Song part popup menu](../../.gitbook/assets/SongPartPopupMeny.png)
 
 ![Rhythm parameter popup menu](../../.gitbook/assets/RhythmParameterPopupMenu.png)
 
-Press** R** or click the rhythm name to open the **rhythm selection dialog**.
+## Change rhythm
 
-![](<../../.gitbook/assets/Rhythm selection dialog.png>)
-
-When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+Each song part can have its own rhythm.&#x20;
 
 {% hint style="warning" %}
 Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
 {% endhint %}
+
+To change the rhythm, select a song part and press** R,** or click the rhythm name to open the **rhythm selection dialog**.
+
+![](../../.gitbook/assets/RhythmSelectionDialog3.png)
+
+When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+
+If you want to remove a rhythm change in the middle of a song, select the song part and use **Remove Rhythm Change** from the song part popup menu.
+
+![](../../.gitbook/assets/RemoveRhythmChange.png)
+
+
+
+## Rhythm parameters
+
+In theory a rhythm (or style) can define its own set of parameters. However in JJazzLab most rhythms use the same parameters:
+
+* **Variation**: a rhythm variation. YamJJazz engine rhythms usually have 4 _Main _variations, plus some _Intros_, _Endings_, and some _Fills_.
+* **Intensity:  **most rhythms use this parameter to increase/decrease the Midi velocity of the backing track notes
+* **Drums fill**: JJazzLab will add a drums fill on the last bar of the song part.
+* **Mute**: mute one of more instruments during this song part. This parameter is better edited using the **song part editor **(see snapshot at the top of this page)**.**
+* **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
+* **Tempo factor**: slow down or accelerate the tempo for the current song part
+*
+
+You can adjust the value of these parameters for each song part.&#x20;
+
+For the enumerable parameters, the easiest way to edit the value is to select it and use the mouse-wheel. But you can also use rhythm parameter popup-menu to reset the parameter value, or copy/paste values, or use the **song part editor** (see snapshot at the top of this page).
+
+You can show/hide some parameters using the button on the right side on the song structure editor, as show in the image below.
+
+![](../../.gitbook/assets/ShowHideRps.png)
 
 ## Mouse shortcuts
 

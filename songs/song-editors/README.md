@@ -17,5 +17,6 @@ Use the [**Song Structure Editor**](song-structure.md) to:
 Use the [**Mix Console**](mix-console.md) to adjust the mix of each rhythm instrument:
 
 * Select the instrument to be used on your sound device
-* Adjust volume, panoramic, reverb, chorus&#x20;
+* Adjust volume, panoramic, reverb, chorus, velocity offset
 * Mute, solo, transpose
+* Add one ormore user tracks
