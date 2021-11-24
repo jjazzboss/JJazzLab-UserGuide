@@ -17,6 +17,7 @@
 ## Playback control
 
 * [Commands](playback-control/commands.md)
+* [Midi remote commands](playback-control/midi-remote-commands.md)
 
 ## Songs
 
