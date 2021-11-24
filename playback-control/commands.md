@@ -7,7 +7,7 @@ You can control the playback of the backing track using the toolbar below.
 ### Keyboard shortcuts
 
 {% hint style="warning" %}
-The shortcuts are given for Windows and Linux. They might be adapted for Mac.
+The shortcuts are given for Windows and Linux. Some of them might need to be adapted for Mac.
 {% endhint %}
 
 |                                                 |                                                     |
