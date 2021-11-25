@@ -33,6 +33,10 @@
 * [Rhythm files](rhythms/rhythm-files.md)
 * [Adapted rhythms](rhythms/adapted-rhythms.md)
 
+## Tools
+
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
+
 ## Rhythm engines
 
 * [Rhythm engines overview](rhythm-engines/overview.md)
