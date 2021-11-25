@@ -6,7 +6,7 @@ Use the **chord leadsheet editor** to:
 * Add sections, eg **A, B, verse, chorus,** ...
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
 
-![](../../.gitbook/assets/ChordLeadsheetEditor.png)
+![](../../.gitbook/assets/ChordLeadSheetText.png)
 
 ## Chord symbols
 
@@ -177,5 +177,4 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | chord symbol, section      | ctrl-A          | select all in section, then in lead sheet |
 | bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
 | editor                     | ctrl-Z/Y        | undo/redo                                 |
-| editor                     | ctrl-O          | set song active (On/Off)                  |
 | editor                     | ctrl-W          | close song                                |
