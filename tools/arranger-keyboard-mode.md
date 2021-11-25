@@ -1,6 +1,6 @@
 # Arranger keyboard mode
 
-If you have a Midi keyboard connected via Midi IN, you can use it as a (pseudo) arranger keyboard using JJazzLab: JJazzLab will recognize the chord symbol played and update the backing track accordingly.
+If you have a Midi keyboard connected via Midi IN, you can use it as a (pseudo) arranger keyboard: JJazzLab will recognize the chord symbols played and update the backing track accordingly.
 
 {% hint style="danger" %}
 **This mode if for educational purpose only.**&#x20;
