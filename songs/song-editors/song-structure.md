@@ -40,9 +40,9 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Rhythm parameter popup menu](../../.gitbook/assets/RhythmParameterPopupMenu.png)
 
-When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu, as shown below.
+When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu to interpolate values between the first and the last selected values.  In the example below, we used it to gradually increase the tempo from 100% to 108%.
 
-![Adjusting several rhythm parameter values](../../.gitbook/assets/AdjustRpValues.png)
+![](../../.gitbook/assets/AdjustRpValues.png)
 
 ## Change rhythm
 
