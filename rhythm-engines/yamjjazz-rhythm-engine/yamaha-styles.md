@@ -1,6 +1,6 @@
 # Yamaha styles
 
-The [YamJJazz ](./)engine is able to read all Yamaha style files (.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format). You can find thousands of style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
+The [YamJJazz ](./)engine is able to read all Yamaha style files (.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format). You can find some style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
 
 Yamaha styles usually have 4 variations _Main A, Main B, Main C, Main D_, plus some _Intros_ and _Endings_. Each variation can use tracks of the following types:
 
