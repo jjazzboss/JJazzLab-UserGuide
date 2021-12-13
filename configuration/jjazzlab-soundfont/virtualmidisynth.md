@@ -1,6 +1,6 @@
 # VirtualMIDISynth (Win)
 
-**VirtualMIDISynth **is a free, lightweight and efficient SoundFont player for Windows.&#x20;
+**VirtualMIDISynth** is a free, lightweight and efficient SoundFont player for Windows.&#x20;
 
 It is implemented as a Windows multimedia user driver, so it is directly accessible as a standard MIDI out device (no need for a virtual Midi port).
 
@@ -23,7 +23,7 @@ VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily ge
    &#x20;![](../../.gitbook/assets/VMS-SetMidiDevice.png) \
 
 5. Go to the [output synth](../output-synth.md) editor and apply the preset **VirtualMIDISynth**\
-   ****![](../../.gitbook/assets/OutputSynth-PresetVMS.png)** **
+   ****![](../../.gitbook/assets/OutputSynth-PresetVMS.png) ****&#x20;
 
 {% hint style="info" %}
 On Windows the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform steps 4 (if VirtualMIDISynth is installed) and 5 if you choose to use the JJazzLab SoundFont.

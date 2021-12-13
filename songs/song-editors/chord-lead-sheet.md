@@ -23,7 +23,7 @@ You can also select an existing chord symbol and move it while pressing the cont
 
 To move a chord symbol just select it and move it with the mouse.
 
-To change the size of the lead sheet, select a bar then right-click menu and select** Set end bar**.
+To change the size of the lead sheet, select a bar then right-click menu and select **Set end bar**.
 
 Use ctrl-click or shift-click for multiple selection.
 
@@ -49,11 +49,11 @@ You can add more aliases in menu **Options/Chord Symbols**.
 
 ### Interpretation
 
-Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation **tab.
+Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
 ![](../../.gitbook/assets/ChordSymbolInterpretationDialog.png)
 
-The **Interpretation **tab lets you decide how this chord symbol should be played:
+The **Interpretation** tab lets you decide how this chord symbol should be played:
 
 * **Normal**
 * **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
@@ -84,11 +84,11 @@ See below the keyboard shortcuts to change the interpretation of selected chords
 
 ### Harmony
 
-Select a chord symbol, edit it and select the **Harmony **tab.
+Select a chord symbol, edit it and select the **Harmony** tab.
 
 ![](../../.gitbook/assets/ChordSymbolHarmonyDialog.png)
 
-The **Harmony **tab lets you select the scale to be used when rendering the music for this chord symbol.
+The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
 
 **Example** Suppose that the reference bass line for Eb7M contains a Ab (4th degree of the Eb major scale). If you select the Lydian mode (which has a sharp 11th degree) then the reference bass note Ab will be rendered as A for this chord symbol.
 
@@ -96,25 +96,25 @@ By default no scale is selected: each rhythm generation engine will decide the "
 
 ### Substitute chord symbol
 
-Select a chord symbol, edit it and select the **substitute **chord symbol tab.
+Select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
 ![Snapshot to be updated! Alternate > Substitute](../../.gitbook/assets/ChordSymbolAlternateDialog.png)
 
-This tab lets you define a **substitute **chord symbol which will be used when some conditions are met.&#x20;
+This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.&#x20;
 
-**Substitute **chord symbols are useful when you need to introduce a slight variation in a part of a song.
+**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
 
-The **substitute **chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (void chord). Chord symbols which have an **substitute **chord symbol defined are displayed with a different color (see image below).
+The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (void chord). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color (see image below).
 
 _Example:_
 
-In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute **chord symbol can provide a simpler solution.
+In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute** chord symbol can provide a simpler solution.
 
-You can see below (and in the dialog snapshot above) that a C7M **substitute **chord has been created for Cm7. C7M will be used for all song parts (see the [song structure editor](song-structure.md)) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
+You can see below (and in the dialog snapshot above) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts (see the [song structure editor](song-structure.md)) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
 
 ![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../../.gitbook/assets/AlternateChordLeadsheet.png)
 
-There is another **substitute **chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute **chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
+There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
 
 ## Sections input
 

@@ -10,9 +10,9 @@ Use the **song structure editor** to:
 
 ## Song parts
 
-A **song part** is linked to a parent **section **of the [chord lead sheet](chord-lead-sheet.md).
+A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
 
-A song part has a name, a **rhythm **and a value for each of the **rhythm parameters**.
+A song part has a name, a **rhythm** and a value for each of the **rhythm parameters**.
 
 To add a new song part:
 
@@ -52,7 +52,7 @@ Each song part can have its own rhythm.&#x20;
 Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
 {% endhint %}
 
-To change the rhythm, select a song part and press** R,** or click the rhythm name to open the **rhythm selection dialog**.
+To change the rhythm, select a song part and press **R,** or click the rhythm name to open the **rhythm selection dialog**.
 
 ![](../../.gitbook/assets/RhythmSelectionDialog3.png)
 
@@ -68,10 +68,10 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 In theory a rhythm (or style) can define its own set of parameters. However in JJazzLab most rhythms use the same parameters:
 
-* **Variation**: a rhythm variation. [YamJJazz engine](../../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main _variations, plus some _Intros_, _Endings_, and some _Fills_.
-* **Intensity:  **most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
+* **Variation**: a rhythm variation. [YamJJazz engine](../../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
+* **Intensity:**  most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
 * **Drums fill**: JJazzLab will add a drums fill on the last bar of the song part.
-* **Mute**: mute one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor **(see snapshot at the top of this page)**.**
+* **Mute**: mute one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
 * **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
 * **Tempo factor**: slow down or accelerate the tempo of the song part.
 * **Drums transform**: change some drums notes of the song part. For example you can make the hi-hat louder, or change the closed hi-hat notes into ride cymbal notes.
@@ -80,9 +80,9 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
 *   **Custom phrase**: replace one or more instrument phrases of the song part.&#x20;
 
-    To import your custom phrase, you can drag & drop a Midi file in the Custom phrase editor shown below, or use your external Midi editor via the **Customize **button.
+    To import your custom phrase, you can drag & drop a Midi file in the Custom phrase editor shown below, or use your external Midi editor via the **Customize** button.
 
-    When using **Edit via external Midi editor **JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can change notes of one or more tracks.
+    When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can change notes of one or more tracks.
 
 ![](../../.gitbook/assets/CustomPhraseEditor.png)
 

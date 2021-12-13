@@ -2,9 +2,9 @@
 
 Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**.&#x20;
 
-For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty **or **TripHop.S510.prs**.
+For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
 
-## Rhythm files location <a href="rhythm-files-location" id="rhythm-files-location"></a>
+## Rhythm files location <a href="#rhythm-files-location" id="rhythm-files-location"></a>
 
 JJazzLab expects rhythm files to be in the **User directory for rhythm Files**. The location of this directory can be changed in the **Options/Rhythms**.&#x20;
 
@@ -14,17 +14,17 @@ You can use up to 2 levels of sub-directories to organize the rhythms. Sub-direc
 
 ![](../.gitbook/assets/UserDirForRhythmFiles.png)
 
-## Rhythm files scanning <a href="rhythm-files-scanning" id="rhythm-files-scanning"></a>
+## Rhythm files scanning <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
 
 Your **rhythm files** are scanned at startup only upon a fresh install, and the rhythm list is saved into a **cache file**.
 
-This cache file is then used to get the** rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files.&#x20;
+This cache file is then used to get the **rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files.&#x20;
 
 {% hint style="info" %}
 If you add or remove **rhythm files** in the **user directory for rhythm files** (or a subdirectory) you need to manually force a re-scan in order to update the cache file. This can be done in **Option/Rhythms** (see image above).
 {% endhint %}
 
-## Adding new rhythm files <a href="adding-new-rhythm-files" id="adding-new-rhythm-files"></a>
+## Adding new rhythm files <a href="#adding-new-rhythm-files" id="adding-new-rhythm-files"></a>
 
 In order to avoid having too many files cluttering the **User directory for rhythm files**, the recommended way is:
 

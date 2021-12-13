@@ -4,7 +4,7 @@ description: Frequently Asked Questions
 
 # FAQ
 
-## I like JJazzLab and want to keep it free, how can I help? <a href="how-to-help" id="how-to-help"></a>
+## I like JJazzLab and want to keep it free, how can I help? <a href="#how-to-help" id="how-to-help"></a>
 
 * [Donate ](https://www.jjazzlab.com/en/donate/)to keep JJazzLab free for all
 * Help [translate ](contribute/translate-jjazzlab/)JJazzLab
@@ -18,12 +18,12 @@ description: Frequently Asked Questions
 
 On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**.
 
-## How do I transpose a song? <a href="how-to-transpose-song" id="how-to-transpose-song"></a>
+## How do I transpose a song? <a href="#how-to-transpose-song" id="how-to-transpose-song"></a>
 
 1. Select all the chord symbols (right-click menu **Select all the chord symbols**)
 2. Use the mouse-wheel, or right-click menu **Transpose**
 
-## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="generate-mp3" id="generate-mp3"></a>
+## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="#generate-mp3" id="generate-mp3"></a>
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -50,7 +50,7 @@ You need to reset all JJazzLab user settings (uninstall/re-install is not enough
 
 The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
 
-The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, **\*\*exit JJazzLab, then delete the **Netbeans user dir\*\*.
+The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, **\*\*exit JJazzLab, then delete the** Netbeans user dir\*\*.
 
 ## I don't have administration privileges on my Windows computer, can I install JJazzLab?
 
@@ -97,7 +97,7 @@ For additional information visit the [Midi configuration](configuration/midi-con
 
 JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md#output-synth-editor) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
 
-## How to make fonts bigger? <a href="font-bigger" id="font-bigger"></a>
+## How to make fonts bigger? <a href="#font-bigger" id="font-bigger"></a>
 
 In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add **--fontsize 16** (16 or any other value, default is 11) in the **default\_options** variable, you should end up with something like this:
 

@@ -4,22 +4,22 @@ The [YamJJazz ](./)engine is able to read all Yamaha style files (.sty, .prs, .b
 
 Yamaha styles usually have 4 variations _Main A, Main B, Main C, Main D_, plus some _Intros_ and _Endings_. Each variation can use tracks of the following types:
 
-* **Rhythm **(e.g. drums)
+* **Rhythm** (e.g. drums)
 * **Sub-rhythm** (e.g. percussion)
 * **Bass**
-* **Chord1 **(e.g. guitar)
-* **Chord2 **(e.g. keyboard)
-* **Pad **(e.g. strings)
-* **Phrase1 **(e.g. Brass)
+* **Chord1** (e.g. guitar)
+* **Chord2** (e.g. keyboard)
+* **Pad** (e.g. strings)
+* **Phrase1** (e.g. Brass)
 * **Phrase2**
 
-## Yamaha "Mega Voices”, “Super Articulation Voices”, ... <a href="yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
+## Yamaha "Mega Voices”, “Super Articulation Voices”, ... <a href="#yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
 
 Yamaha style files are optimized for Yamaha arranger keyboards. The latest models (Tyros, Genos…) has many voices with special features (e.g "Mega Voices"), especially for guitars which are optimized for style rendering.
 
 Other keyboards or SoundFonts (including the JJazzLab SoundFont) can’t reproduce these special voices correctly. That’s why some recent Yamaha style files (SFF2 format) may not sound right with JJazzLab. If this happens locate the faulty channels using the Solo button in the MixConsole, and lower their volume or mute them.
 
-## Limitations <a href="limitations" id="limitations"></a>
+## Limitations <a href="#limitations" id="limitations"></a>
 
 JJazzLab is designed to host any kind of rhythm generation engines, and they must work with any kind of output synth, not only the Yamaha keyboards. Therefore some specific Yamaha style file features are not supported:
 

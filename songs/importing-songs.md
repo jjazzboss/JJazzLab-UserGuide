@@ -13,7 +13,7 @@ Only the following Band-In-A-Box data are used to generate the corresponding JJa
 The song import feature is not 100% reliable, but most of the files should be OK.
 
 {% hint style="danger" %}
-**By default imported songs will be in 4/4**. If you know that the imported song is in 3/4, then when import is done just select the initial time signature and use righ-click menu **Set time signature **to fix the time signature.
+**By default imported songs will be in 4/4**. If you know that the imported song is in 3/4, then when import is done just select the initial time signature and use righ-click menu **Set time signature** to fix the time signature.
 {% endhint %}
 
 ## musicXML files

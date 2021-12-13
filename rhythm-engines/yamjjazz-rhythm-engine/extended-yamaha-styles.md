@@ -1,6 +1,6 @@
 # Extended Yamaha styles
 
-The [YamJJazz rhythm engine](./)** **can read** **a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+The [YamJJazz rhythm engine](./) **** can read **** a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
 
 An **extended style** (.yjz) supports :
 
@@ -8,7 +8,7 @@ An **extended style** (.yjz) supports :
   Instead of Main A/B/C/D, you can have Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, …\
 
 * **Unlimited number of source phrases for each variation**\
-  With a standard Yamaha style the same source phrase is always used for a given variation.  **Alternate source phrases **lets the rhythm designer define different-but-similar phrases for e.g Main A-1, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
+  With a standard Yamaha style the same source phrase is always used for a given variation.  **Alternate source phrases** lets the rhythm designer define different-but-similar phrases for e.g Main A-1, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
 
 {% hint style="warning" %}
 A .yjz file is just the extension part of a standard Yamaha style file, the **base style**. So when you read **MyRhythm.yjz**, YamJJazz needs to find **MyRhythm.sty** (or **MyRhythm.prs)** in the same directory.
@@ -16,7 +16,7 @@ A .yjz file is just the extension part of a standard Yamaha style file, the **ba
 
 ## Extended style creation wizard
 
-This wizard, available in the **Tools **menu, is used to create a ready-to-be-customized **extended style file** (.yjz) from a standard Yamaha style file (.sty, .prs, ...). See the  video below for how to use it.
+This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** (.yjz) from a standard Yamaha style file (.sty, .prs, ...). See the  video below for how to use it.
 
 {% hint style="warning" %}
 Once created you'll need to manually alter the musical phrases of the .yjz Midi file using a Midi editor or a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.
@@ -26,7 +26,7 @@ Once created you'll need to manually alter the musical phrases of the .yjz Midi 
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
-## .yjz file format <a href="yjz-extension-file-format" id="yjz-extension-file-format"></a>
+## .yjz file format <a href="#yjz-extension-file-format" id="yjz-extension-file-format"></a>
 
 {% hint style="info" %}
 If you don’t plan to create your own .yjz file you can skip this paragraph.
@@ -36,7 +36,7 @@ We recommend to use the **Extended style creation wizard** to prepare a .yjz fil
 
 The extension file (.yjz) must be associated to a base Yamaha style file (.sty, .prs, .sst, etc.) with the same name in the same directory.
 
-### Overview <a href="overview" id="overview"></a>
+### Overview <a href="#overview" id="overview"></a>
 
 YamJJazz first reads the **base style** file to get the following Yamaha style information:
 
@@ -51,10 +51,10 @@ If the base style uses variation Main A (example), then it’s possible to defin
 If the base file defines variation Main D (example) but the extension file does not define Main D-x, then the original Main D will be used with the name Main D-1.
 
 {% hint style="danger" %}
-If the base style does not have variation Intro B (example), then it’s **not **possible to define Intro B-x in the extension file.
+If the base style does not have variation Intro B (example), then it’s **not** possible to define Intro B-x in the extension file.
 {% endhint %}
 
-### Midi format <a href="midi-format" id="midi-format"></a>
+### Midi format <a href="#midi-format" id="midi-format"></a>
 
 **.yjz files use Midi format 1**, they contain several tracks. Note that .sty or .prs files use Midi format 0, they contain a single track.
 
@@ -85,7 +85,7 @@ Depending on the CASM data, there might be more than one source phrase for a giv
 
 A track should only contain Midi note on/off messages for its **source chord** and **source Midi channel,** as defined in the CASM data of the base style. If you used the **Extended style creation wizard**, you have the **source chord** and **Midi channel** indicated in the `<id string>`, as explained above.
 
-### Alternate source phrases <a href="alternate-takes" id="alternate-takes"></a>
+### Alternate source phrases <a href="#alternate-takes" id="alternate-takes"></a>
 
 To add **alternate source phrases** for a given variation, just append source phrases on each track of this variation. Each appended source phrase must have the same length than the original phrase.
 

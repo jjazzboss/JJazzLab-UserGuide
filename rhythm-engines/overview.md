@@ -1,6 +1,6 @@
 # Rhythm engines overview
 
-The **rhythms **are made available by **rhythm engines**.
+The **rhythms** are made available by **rhythm engines**.
 
 Thanks to its open-source and pluggable architecture, JJazzLab can host many different rhythm engines. If you’re a developer you can build your own quite easily!
 
@@ -10,9 +10,9 @@ A rhythm engine has one or more **rhythm providers** which propose a list of sup
 
 ![](../.gitbook/assets/RhythmGenerationEngine.png)
 
-JJazzLab currently includes one rhythm engine, [YamJJazz](yamjjazz-rhythm-engine/), which is based on Yamaha styles. Its** rhythm parameters** are Variation, Intensity and Fill (other parameters such as Mute or Tempo Factor are generic and work with any rhythm).
+JJazzLab currently includes one rhythm engine, [YamJJazz](yamjjazz-rhythm-engine/), which is based on Yamaha styles. Its **rhythm parameters** are Variation, Intensity and Fill (other parameters such as Mute or Tempo Factor are generic and work with any rhythm).
 
-## Future rhythm engines <a href="future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
+## Future rhythm engines <a href="#future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
 
 Here some examples of what could be developed using the JJazzLab-X infrastructure.
 

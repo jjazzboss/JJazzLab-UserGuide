@@ -19,16 +19,16 @@ You can override the rhythm's builtin mix by saving a **default rhythm mix** fil
 
 ![](../.gitbook/assets/SaveRhythmMix.png)
 
-By default this file is stored in the **user rhythm directory** set in **Options/Rhythms. **But the directory can be changed in **Options/General**.
+By default this file is stored in the **user rhythm directory** set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
 
 ## Mix file lookup order
 
-Combining the 2 paragraphs above, below is how JJazzLab looks for mix information when you load **myDir/mySong.sng **and this songs uses rhythm **16BeatRock **:
+Combining the 2 paragraphs above, below is how JJazzLab looks for mix information when you load **myDir/mySong.sng** and this songs uses rhythm **16BeatRock** :
 
 1. use **myDir/mySong.mix** if present\
 
 2. use **defaultRhythmMixDir/16BeatRock.mix** if present\
 
-3. use **16BeatRock **builtin default mix (GM instruments only)
+3. use **16BeatRock** builtin default mix (GM instruments only)
 
 Steps 2. and 3. are also used when you add a new rhythm in a song.

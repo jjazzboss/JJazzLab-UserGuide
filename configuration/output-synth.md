@@ -4,7 +4,7 @@
 If you use the JJazzLab SoundFont you may skip this page and directly go to the [JJazzLab SoundFont](jjazzlab-soundfont/) page.&#x20;
 {% endhint %}
 
-## Output synth concept <a href="output-synth-concept" id="output-synth-concept"></a>
+## Output synth concept <a href="#output-synth-concept" id="output-synth-concept"></a>
 
 The output synth represents the Midi synth you have connected to the output of JJazzLab:
 
@@ -62,7 +62,7 @@ If your output synth corresponds to one of the configurations below, just apply 
 
 ### GM2/GS/XG compatible synths
 
-**Reset **the configuration and select the corresponding checkbox. You can uncheck GM as these 3 standards encompass GM.
+**Reset** the configuration and select the corresponding checkbox. You can uncheck GM as these 3 standards encompass GM.
 
 For Yamaha styles best is XG, but GM2 or GS are better than GM.
 
@@ -88,13 +88,13 @@ Or do it channel by channel, and parameter by parameter, via the **channel setti
 
 Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments (Bank Select/Program Midi messages).
 
-## Midi synth definition files (.ins) <a href="midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
+## Midi synth definition files (.ins) <a href="#midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
 JJazzLab can read Cakewalk instrument definition files (.ins). An instrument definition file defines a **Midi synth** with its list of instruments and how to select them via Midi (Bank Select/Program Change values).
 
 JJazzLab ships with .ins files for a few existing hardware synthesizers (e.g. Yamaha Motif, Korg X-50, …). If you don’t find an .ins file for your sound device, you can search the web or create your own (google “Cakewalk Instrument Definition File” for help).
 
-Use the **Add **(Synths) button to add one or more .ins files to the current output synth configuration:&#x20;
+Use the **Add** (Synths) button to add one or more .ins files to the current output synth configuration:&#x20;
 
 ![](../.gitbook/assets/OutputSynth-AddSynth.png)
 
@@ -104,13 +104,13 @@ Once a **Midi synth** has been added, its instruments become available in the in
 
 See the [JJazzLab .ins format extensions](output-synth.md#jjazzlab-ins-format-extensions) paragraph below if you want your .ins to be optimized for JJazzLab.
 
-## Default instruments <a href="default-instruments" id="default-instruments"></a>
+## Default instruments <a href="#default-instruments" id="default-instruments"></a>
 
 The **output synth editor** lets you map standard GM Instruments to **default instruments** of your choice. You can also set a **default instrument** for an instrument **family**, e.g. all the organs.
 
 ![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/OutputSynth-DefaultInstruments.png)
 
-## JJazzLab .ins format extensions <a href="jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .ins format extensions <a href="#jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
 These .ins format extensions are not mandatory to use for JJazzLab to work. But they are required if you have a custom .ins file and want to fully benefit from the JJazzLab features in order to get better sounding backing tracks.
@@ -121,8 +121,8 @@ The standard .ins file format lacks some information for JJazzLab to fully optim
 For an optimum use JJazzLab needs:
 
 1. For melodic instruments: its **GM substitute** instrument\
-   &#x20;Example: the **GM substitute **for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
-2. For percussion instruments/drum kits: its **type **and its **drum key map**
+   &#x20;Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
+2. For percussion instruments/drum kits: its **type** and its **drum key map**
 
 Therefore some (optional) extensions have been introduced, as show in the examples below.
 

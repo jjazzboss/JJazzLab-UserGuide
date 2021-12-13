@@ -5,13 +5,13 @@
 Download and run the setup program.&#x20;
 
 {% hint style="info" %}
-If you don't have admin. rights on your computer, choose **Install for me only **during setup
+If you don't have admin. rights on your computer, choose **Install for me only** during setup
 {% endhint %}
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
 
 {% hint style="warning" %}
-If you get a **Windows Smart Screen **alert
+If you get a **Windows Smart Screen** alert
 
 ![](.gitbook/assets/Win10SmartScreen.png)&#x20;
 
