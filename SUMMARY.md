@@ -33,6 +33,12 @@
 * [リズムファイル](rhythms/rhythm-files.md)
 * [リズムの適応](rhythms/adapted-rhythms.md)
 
+## Tools
+
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
+* [Improvisation help](tools/improvisation-help.md)
+* [Notes viewer](tools/notes-viewer.md)
+
 ## リズムエンジン <a href="#rhythm-engines" id="rhythm-engines"></a>
 
 * [リズムエンジンの概要](rhythm-engines/overview.md)
