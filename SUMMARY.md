@@ -5,16 +5,21 @@
 * [ビデオチュートリアル](video-tutorials.md)
 * [FAQ](faq.md)
 
-## 設定\(コンフィギュレーション\) <a id="configuration"></a>
+## 設定(コンフィギュレーション) <a href="#configuration" id="configuration"></a>
 
 * [MIDI設定](configuration/midi-configuration.md)
 * [JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/README.md)
-  * [VirtualMIDISynth \(Win\)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
-  * [FluidSynth \(Linux/Mac\)](configuration/jjazzlab-soundfont/fluidsynth.md)
+  * [VirtualMIDISynth (Win)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
+  * [FluidSynth (Linux/Mac)](configuration/jjazzlab-soundfont/fluidsynth.md)
   * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [シンセ出力](configuration/output-synth.md)
 
-## ソング <a id="songs"></a>
+## Playback control
+
+* [Commands](playback-control/commands.md)
+* [Midi remote commands](playback-control/midi-remote-commands.md)
+
+## ソング <a href="#songs" id="songs"></a>
 
 * [ソングエディター](songs/song-editors/README.md)
   * [コードリードシート](songs/song-editors/chord-lead-sheet.md)
@@ -23,21 +28,20 @@
 * [ソングとミックスファイル](songs/song-and-mix-files.md)
 * [ソングのインポート](songs/importing-songs.md)
 
-## リズム <a id="rhythms"></a>
+## リズム <a href="#rhythms" id="rhythms"></a>
 
 * [リズムファイル](rhythms/rhythm-files.md)
 * [リズムの適応](rhythms/adapted-rhythms.md)
 
-## リズムエンジン <a id="rhythm-engines"></a>
+## リズムエンジン <a href="#rhythm-engines" id="rhythm-engines"></a>
 
 * [リズムエンジンの概要](rhythm-engines/overview.md)
 * [YamJJazzリズムエンジン](rhythm-engines/yamjjazz-rhythm-engine/README.md)
   * [ヤマハスタイル](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
   * [拡張ヤマハスタイル](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
 
-## ご協力 <a id="contribute"></a>
+## ご協力 <a href="#contribute" id="contribute"></a>
 
 * [ドキュメント校正](contribute/improve-doc.md)
 * [JJazzLabの翻訳](contribute/translate-jjazzlab/README.md)
   * [テスト中の翻訳](contribute/translate-jjazzlab/testing-translations.md)
-
