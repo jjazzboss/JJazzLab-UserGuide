@@ -14,10 +14,10 @@
   * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [シンセ出力](configuration/output-synth.md)
 
-## Playback control
+## 再生コントロール <a href="#playback-control" id="playback-control"></a>
 
-* [Commands](playback-control/commands.md)
-* [Midi remote commands](playback-control/midi-remote-commands.md)
+* [コマンド](playback-control/commands.md)
+* [MIDIリモートコマンド](playback-control/midiremotecommands.md)
 
 ## ソング <a href="#songs" id="songs"></a>
 
@@ -33,11 +33,11 @@
 * [リズムファイル](rhythms/rhythm-files.md)
 * [リズムの適応](rhythms/adapted-rhythms.md)
 
-## Tools
+## ツール <a href="#tools" id="tools"></a>
 
-* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
-* [Improvisation help](tools/improvisation-help.md)
-* [Notes viewer](tools/notes-viewer.md)
+* [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md)
+* [アドリブのヒント](tools/improvisation-help.md)
+* [ノートビュワー](tools/notes-viewer.md)
 
 ## リズムエンジン <a href="#rhythm-engines" id="rhythm-engines"></a>
 

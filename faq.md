@@ -4,7 +4,7 @@ description: よく聞かれる質問
 
 # FAQ
 
-## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a href="how-to-help" id="how-to-help"></a>
+## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a href="#how-to-help" id="how-to-help"></a>
 
 * [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
 * JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
@@ -18,25 +18,25 @@ description: よく聞かれる質問
 
 MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**からアクセスします。
 
-## 曲の移調はどうするのですか？ <a href="how-to-transpose-song" id="how-to-transpose-song"></a>
+## 曲の移調はどうするのですか？ <a href="#how-to-transpose-song" id="how-to-transpose-song"></a>
 
 1. コード記号をすべて選択(右クリックメニューの **Select all the chord symbols**)
-2. マウスホイールを使うか、右クリックメニューで移調( **Transpose **)
+2. マウスホイールを使うか、右クリックメニューで移調( **Transpose** )
 
-## JJazzLabで伴奏オーディオファイル(.mp3, .wav, etc.)はどうやって作るのですか？ <a href="generate-mp3" id="generate-mp3"></a>
+## JJazzLabで伴奏オーディオファイル(.mp3, .wav, etc.)はどうやって作るのですか？ <a href="#generate-mp3" id="generate-mp3"></a>
 
 {% tabs %}
 {% tab title="Windows" %}
-もし、**VirtualMidiSynth **で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
+もし、**VirtualMidiSynth** で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
 
 1. JJazzLabで、伴奏トラックを **File→Export to Midi file**を使って.midファイルで保存します。
-2. 次に**VirtualMIDISynth **を起動(Windowsのシステムトレイにあるアイコンを右クリック)し、MIDIファイルを変換( **MIDI converter**)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
+2. 次に**VirtualMIDISynth** を起動(Windowsのシステムトレイにあるアイコンを右クリック)し、MIDIファイルを変換( **MIDI converter**)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
 
 また、スクリーンレコーダーソフトウェアを使用することもできます。コンピュータのサウンドカードの出力を直接キャプチャして、.mp3ファイルに保存するものもあります。
 {% endtab %}
 
 {% tab title="Linux" %}
-Use the** FluidSynth -F** option to generate a .wav file.
+Use the **FluidSynth -F** option to generate a .wav file.
 {% endtab %}
 
 {% tab title="VST Instruments" %}
@@ -50,13 +50,13 @@ JJazzLabのユーザー設定を全てリセットする必要があります(�
 
 簡単な方法： メニュー **Tools→Options→Advanced** の **Reset all user settings**のボタンです。
 
-難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir **の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
+難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
 
 ## Windowsの管理者権限がありませんが、JJazzLabをインストールできますか？
 
 はい。JJazzLab インストーラの最初のプロンプトで、「Install only for me」を選択し、書き込み権限のあるインストールディレクトリを選択してください（例：マイドキュメント）。
 
-## より良いサウンドはどうしたらよいでしょうか？
+## サウンドをより良くするにはどうしたらよいでしょうか？
 
 {% hint style="warning" %}
 2021年5月更新: スタインバーグ社の新製品「Halion Sonic SE」（無料）をJJazzLabで使うと、とても**良い音**のバッキングトラックができます。詳しくは[JJazzLab フォーラム](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab)で。
@@ -64,7 +64,7 @@ JJazzLabのユーザー設定を全てリセットする必要があります(�
 
 JJazzLabの出力には、_良いシンセサイザー_が必要です。では、バッキングトラックの生成に必要な良いシンセサイザーとは何か？考慮すべき要素は大きく分けて3つあります：&#x20;
 
-1. **個別の音源品質 **(ドラム、ベース、ピアノなどの音源)
+1. **個別の音源品質** (ドラム、ベース、ピアノなどの音源)
 2. **サウンド全体のミックス**  (全く違う楽器でも一緒に合わせる)
 3. **効果** (全体と楽器ごとの効果)
 
@@ -97,11 +97,11 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 JJazzLabはあなたのキーボードをドライブして、その最適化されたサウンドを利用することができます。キーボードをMidiで接続し、 [**シンセ出力エディター**](configuration/output-synth.md) で **ヤマハ Tyros** プリセットを適用します。このプリセットはTyros5をベースにしており、以前のTyrosモデルやほとんどのPSRキーボードとの下位互換性があります。
 
-## フォントを大きくするにはどうしたらよいですか？ <a href="font-bigger" id="font-bigger"></a>
+## フォントを大きくするにはどうしたらよいですか？ <a href="#font-bigger" id="font-bigger"></a>
 
 JJazzLab をインストールしたディレクトリで、 **etc/jjazzlab.conf**  ファイルを編集し、**default\_option**変数に**--fontsize 16** (16 またはその他の値、デフォルトは 11)を追加すると、以下のようになるはずです：
 
-`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16" `
+`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"`&#x20;
 
 JJazzLab再起動すると、全メニューが大きく見えるはずです。
 

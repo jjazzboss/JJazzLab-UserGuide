@@ -1,6 +1,6 @@
 # ソングエディター
 
-![](../../.gitbook/assets/JJazzLab-legende.png)
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2Fe6fKs8ElffCob6Lv3LeQ%2FFullEditorsText.png?alt=media\&token=48c3aa29-4cd4-4344-a35e-a81e47405fb2)
 
 &#x20; [**コードリードシートエディター**](chord-lead-sheet.md) (Chord lead sheet editor)を使用する場面は、：
 

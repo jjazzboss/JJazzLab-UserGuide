@@ -5,13 +5,13 @@
 セットアッププログラムをダウンロードして起動してください。&#x20;
 
 {% hint style="info" %}
-管理者権限がない場合は、 **Install for me only **をセットアップ中に選んでください。
+管理者権限がない場合は、 **Install for me only** をセットアップ中に選んでください。
 {% endhint %}
 
 JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
 
 {% hint style="warning" %}
-もし、 **Windows Smart Screen **警告が出たら
+もし、 **Windows Smart Screen** 警告が出たら
 
 ![](.gitbook/assets/Win10SmartScreen.png)&#x20;
 

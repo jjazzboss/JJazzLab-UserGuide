@@ -5,16 +5,16 @@ description: / JJazzLab-X
 # JJazzLab
 
 {% hint style="info" %}
-文章の追加や修正をしたいですか？ できますよ！:grinning: どうぞ [文章校正](contribute/improve-doc.md) ページへ。
+文章の追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
 {% endhint %}
+
+![JJazzLab 3](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2Fn2aJVW6yzE43sx6gf4Yb%2FJJazzLab3.0Full.png?alt=media\&token=ee42aa7b-c548-4213-be6b-604c5c2faed2)
 
 ## 手始めに
 
 この[ビデオチュートリアル](video-tutorials.md#for-starters)が短いのでまずは御覧ください。
 
 ## JJazzLabって、何?&#x20;
-
-![](.gitbook/assets/JJazzLabScreenShot.png)
 
 🎵 JJazzLabは、複雑なものでも、好きな曲の伴奏(バッキングトラック)を自動的に生成するデスクトップアプリケーションです。自宅で即興で楽しんだり、新しいことを学んだり、楽器を練習したりするジャムの相棒です。また、先生にとっても素晴らしいツールです。&#x20;
 
@@ -55,6 +55,21 @@ description: / JJazzLab-X
 * スタイルごとにさらに多くのバリエーション用「YamJJazz拡張ヤマハ」スタイルファイルのサポート
 * オープンアーキテクチャ:新しいリズム生成エンジンは、プラグインを介して簡単に追加することができます。
 
+### ノートビュワー
+
+* リアルタイムで伴奏音表示
+* 選択したコード記号やスケールの鍵盤表示
+* コード記号の最も一般的なポジション、オープンボイシング、クローズボイシング、転回形のギターポジション表示
+
+### (疑似的)アレンジャーキーボードモード
+
+* MIDI INで演奏されたコードを認識し、伴奏を（擬似的に）リアルタイムで更新する
+
+### アドリブのヒント
+
+* リードシートのコードにアドリブのガイドを自動生成
+* ハル・クルーク(Hal Crook)著『How to improvise』準拠
+
 ### MIDI
 
 * MIDI経由で好きなオーディオエンジンに接続:サウンドフォントプレーヤー(JJazzLabサウンドフォント推奨)、Java内部シンセ、外部シンセ、'LoopBe1'などの仮想MIDIポートを通したVSTホスト。
@@ -74,6 +89,7 @@ description: / JJazzLab-X
 
 ### その他
 
-* 自動更新通知
-* オープンソースの NetBeans アプリケーションフレームワーク準拠
+* ソングの読み込み時に開くハイパーリンク付きソングメモ
+* オープンソースのプラガブルアーキテクチャにより、新機能を容易に追加可能
+* NetBeans アプリケーションフレームワーク準拠
 

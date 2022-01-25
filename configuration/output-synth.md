@@ -6,7 +6,7 @@
 JJazzLab サウンドフォントをお使いの方は、このページを飛ばして [JJazzLab サウンドフォント](jjazzlab-soundfont/) のページに直接に進んでください。&#x20;
 {% endhint %}
 
-## シンセ出力の概念 <a href="output-synth-concept" id="output-synth-concept"></a>
+## シンセ出力の概念 <a href="#output-synth-concept" id="output-synth-concept"></a>
 
 シンセ出力とは、JJazzLabの出力に接続されているMIDIシンセを表しています：
 
@@ -90,13 +90,13 @@ GM互換の古いローランドのシンセサイザーをJJazzLabに接続し�
 
 なお、すべてのMIDIパラメータを無効にすると、JJazzLabは楽器を変更するためのMIDIメッセージ（バンクセレクト/プログラムMIDIメッセージ）を送信しないため、シンセ出力の設定は無意味になります。
 
-## MIDIシンセ定義ファイル(.ins) <a href="midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
+## MIDIシンセ定義ファイル(.ins) <a href="#midi-synth-definition-files-cakewalk-ins-format" id="midi-synth-definition-files-cakewalk-ins-format"></a>
 
 JJazzLabはCakewalkのインストゥルメント定義ファイル(.ins)を読み込むことができます。インストゥルメント定義ファイルとは、**MIDIシンセ**のインストゥルメント（楽器）リストと MIDIでの選択方法（バンクセレクト/プログラムチェンジの値）を定義したものです。
 
 JJazzLabには、いくつかの既存のハードウェアシンセサイザー（ヤマハ Motif、Korg X-50など）用の.insファイルが同梱されています。お使いのサウンドデバイス用の .ins ファイルが見つからない場合は、ウェブで検索するか、自分で作成することができます（"Cakewalk Instrument Definition File"で検索してください）。
 
-**Add **(Synths) ボタンを使って、現在の出力シンセの設定に１つまたは複数の .ins ファイルを追加します。
+**Add** (Synths) ボタンを使って、現在の出力シンセの設定に１つまたは複数の .ins ファイルを追加します。
 
 ![](../.gitbook/assets/OutputSynth-AddSynth.png)
 
@@ -106,13 +106,13 @@ JJazzLabには、いくつかの既存のハードウェアシンセサイザー
 
 JJazzLab用に最適化された.insを作成したい場合は、以下の[JJazzLab .ins 拡張フォーマット](output-synth.md#jjazzlab-ins-format-extensions)の項を参照してください。
 
-## デフォルト楽器（Default instruments） <a href="default-instruments" id="default-instruments"></a>
+## デフォルト楽器（Default instruments） <a href="#default-instruments" id="default-instruments"></a>
 
 **シンセ出力エディター**では、標準GM楽器をお好みの**デフォルト楽器**にマッピングできます。また、すべてのオルガンのように、**楽器系統（familiy）**に**デフォルト楽器**を設定することもできます。
 
 ![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/OutputSynth-DefaultInstruments.png)
 
-## JJazzLab .ins拡張フォーマット <a href="jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
+## JJazzLab .ins拡張フォーマット <a href="#jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
 これらの.ins 拡張フォーマットは、JJazzLabを動作させるために必須というわけではありません。しかし、カスタムの.ins ファイルがあって、バッキングトラックのサウンドを向上させるためにJJazzLabの機能を十分に活用したい場合には必要となります。

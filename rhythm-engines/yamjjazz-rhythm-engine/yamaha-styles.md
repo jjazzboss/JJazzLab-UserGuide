@@ -4,22 +4,22 @@
 
 ヤマハスタイルには通常4つのバリエーションがあります。_Main A、Main B、Main C、Main D_、そしていくつかの_Intros_と_Endings_があります。各バリエーションには、以下の種類のトラックを使用できます：
 
-* **Rhythm **(例：ドラム)
+* **Rhythm** (例：ドラム)
 * **Sub-rhythm** (例：パーカッション)
 * **Bass**
-* **Chord1 **(例：ギター)
-* **Chord2 **(例：キーボード)
-* **Pad **(例：ストリングス)
-* **Phrase1 **(例：ブラス)
+* **Chord1** (例：ギター)
+* **Chord2** (例：キーボード)
+* **Pad** (例：ストリングス)
+* **Phrase1** (例：ブラス)
 * **Phrase2**
 
-## ヤマハ"メガボイス”、“スーパーアーティキュレーションボイス”、... <a href="yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
+## ヤマハ"メガボイス”、“スーパーアーティキュレーションボイス”、... <a href="#yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
 
 ヤマハスタイルファイルは、ヤマハアレンジャーキーボードに最適化されています。最新モデル（Tyros、Genos...）には特別な機能（「メガボイス」など）を持つ音色が多く、特にギター用はスタイルレンダリングに最適化されています。
 
 他のキーボードやサウンドフォント（JJazzLabサウンドフォントを含む）では、これらの特殊な音色を正しく再現できません。最近のヤマハスタイルファイル（SFF2フォーマット）がJJazzLabで正しく鳴らないのはこのためです。このような場合は、ミックスコンソールのSoloボタンを使って問題のあるチャンネルを特定し、音量を下げるかミュートにしてください。
 
-## 制限 <a href="limitations" id="limitations"></a>
+## 制限 <a href="#limitations" id="limitations"></a>
 
 JJazzLabは、あらゆる種類のリズム生成エンジンをホストするように設計されており、またリズム生成エンジンは、ヤマハのキーボードに限らずあらゆる種類のシンセ出力で動作しなければなりません。そのため、いくつかのヤマハスタイルファイルの機能はサポートされていません：
 

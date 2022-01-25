@@ -86,7 +86,7 @@ JJazzLabでは、各コード記号に対して多くの別名を認識してい
 
 ### コードの代替
 
-代替のコードを設定するには、コード記号を選択して編集にある**substitute **タブを選びます。
+代替のコードを設定するには、コード記号を選択して編集にある**substitute** タブを選びます。
 
 ![これは古い画像です。SubstituteとなるべきところがAlternateになっています。](../../.gitbook/assets/ChordSymbolAlternateDialog.png)
 
