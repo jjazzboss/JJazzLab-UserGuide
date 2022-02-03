@@ -127,7 +127,7 @@ You can pass one or more .sng file names on the command line, JJazzLab will open
 
 ## How to submit a bug? How to find the "log" file?
 
-Send an [email ](https://www.jjazzlab.com/en/contact/)or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
+Create a new thread in the [JJazzLab forum](https://jjazzlab.freeforums.net) or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
 
 We need the following information in order to help you:
 
