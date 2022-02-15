@@ -14,7 +14,7 @@
 
 ## JJazzLab, Reaper and VST plugins
 
-This video is done with Reaper, but the concept will be the same with any DAW.
+This video is done with Reaper, but the approach remains the same with any DAW.
 
 Thanks to MINDoSOFT for this video.
 
