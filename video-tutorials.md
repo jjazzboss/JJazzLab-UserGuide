@@ -18,3 +18,8 @@
 
 
 
+## Using JJazzLab with Reaper and VST plugins
+
+This is user-contributed video.
+
+{% embed url="https://www.youtube.com/watch?t=69s&v=qa16PQn4ltg" %}
