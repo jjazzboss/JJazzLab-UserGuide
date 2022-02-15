@@ -95,7 +95,9 @@ To add Midi notes to a user track, you can either **drag & drop** a Midi file in
 When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can add notes for your user track.
 
 {% hint style="warning" %}
-JJazzLab will only import notes which match the user track Midi channel. For example, in the image above the user track channel is 1, so only notes with channel 1 will be imported.
+JJazzLab will only import notes which match the user track Midi channel. Notes from other Midi channels are ignored.
+
+For example, in the image above, the user track channel is 1, so when you use your Midi editor/DAW to add user track notes, make sure they have the channel 1.
 {% endhint %}
 
 **Edit via external Midi editor** requires that you have set an external Midi editor in the **General** panel of the **Options/Preferences**. If you don't have one, we recommend **MidiEditor** for Windows, it's free, open-source and lightweight. &#x20;
