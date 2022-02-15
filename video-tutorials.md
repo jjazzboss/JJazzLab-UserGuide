@@ -28,7 +28,7 @@ Thanks to MINDoSOFT for this video.
 
 This video shows how to optimize the Output Synth configuration for the Yamaha MX synth, but the approach is valid for other synths as well.
 
-When Output Synth configuration is correct, JJazzLab is easier to use (you can select your sounds directly from the Mix Console) and many Yamaha styles will sound better:
+When Output Synth configuration is correct, JJazzLab is easier to use (you can select your sounds directly from the Mix Console) and many Yamaha styles will sound better because:
 
 * JJazzLab can automatically pick the "best" sounds for each rhythm
 * JJazzLab can manage the XG specific drums sounds used by many Yamaha styles (e.g. brush or percussion sounds)
