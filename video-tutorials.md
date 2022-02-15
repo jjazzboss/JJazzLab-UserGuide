@@ -22,3 +22,15 @@ Thanks to MINDoSOFT for this video.
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
+## Fine tune the Output synth configuration
+
+This video shows how to optimize the Output Synth configuration for the Yamaha MX synth, but the approach is valid for other synths as well.
+
+When Output Synth configuration is correct, JJazzLab is easier to use (you can select your sounds directly from the Mix Console) and many Yamaha styles will sound better:
+
+* JJazzLab can automatically pick the "best" sounds for each rhythm
+* JJazzLab can manage the XG specific drums sounds used by many Yamaha styles (e.g. brush or percussion sounds)
+
+Thanks to MINDoSOFT for this video.
+
+{% embed url="https://www.youtube.com/watch?v=_hmlyHT1Kug" %}
