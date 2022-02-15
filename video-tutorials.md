@@ -12,7 +12,7 @@
 
 
 
-## JJazzLab with Reaper and VST plugins
+## JJazzLab, Reaper and VST plugins
 
 Thanks to MINDoSOFT for this video.
 
@@ -22,7 +22,7 @@ Thanks to MINDoSOFT for this video.
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
-## Fine tune the Output synth configuration
+## Output Synth configuration example
 
 This video shows how to optimize the Output Synth configuration for the Yamaha MX synth, but the approach is valid for other synths as well.
 
