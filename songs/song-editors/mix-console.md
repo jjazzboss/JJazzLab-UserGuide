@@ -25,7 +25,7 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 * **M**: Mute or Unmute all tracks
 * **S**: Switch off all Solo tracks
 * **Panic**: Send a Midi Panic message, switching all notes OFF
-* **User track**: Add a user track. See User tracks below.
+* **User track**: Add a user track. See [User tracks](mix-console.md#user-tracks) below.
 
 ## Mix console menu bar
 
