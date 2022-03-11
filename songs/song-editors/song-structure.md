@@ -98,7 +98,7 @@ But you can also use rhythm parameter popup-menu to reset the parameter value, o
 
 ### Compact / full view
 
-By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below to switch between compact and full view.
+By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below or press 'V' to switch between compact and full view.
 
 ![](../../.gitbook/assets/CompactView.png)
 
