@@ -88,7 +88,7 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
 ![](../../.gitbook/assets/CustomPhraseEditor.png)
 
-### Editing rhythm parameter values
+### Edit values
 
 You can adjust the value of the parameters of each song part.&#x20;
 
