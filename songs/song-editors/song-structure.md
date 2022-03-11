@@ -66,6 +66,8 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 ## Rhythm parameters
 
+### Types
+
 In theory a rhythm (or style) can define its own set of parameters. However in JJazzLab most rhythms use the same parameters:
 
 * **Variation**: a rhythm variation. [YamJJazz engine](../../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
@@ -86,15 +88,17 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
 ![](../../.gitbook/assets/CustomPhraseEditor.png)
 
-
+### Editing rhythm parameter values
 
 You can adjust the value of these parameters for each song part.&#x20;
 
 For the enumerable parameters, the easiest way to edit the value is to select it and use the mouse-wheel. But you can also use rhythm parameter popup-menu to reset the parameter value, or copy/paste values, or use the **song part editor** (see snapshot at the top of this page).
 
-You can show/hide some parameters using the button on the right side on the song structure editor, as show in the image below.
+### Compact / full view
 
-![](../../.gitbook/assets/ShowHideRps.png)
+By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below to switch between compact and full view.
+
+![](../../.gitbook/assets/CompactView.png)
 
 ## Mouse shortcuts
 
