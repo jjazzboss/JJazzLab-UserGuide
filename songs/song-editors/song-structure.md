@@ -90,15 +90,19 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
 ### Editing rhythm parameter values
 
-You can adjust the value of these parameters for each song part.&#x20;
+You can adjust the value of the parameters of each song part.&#x20;
 
-For the enumerable parameters, the easiest way to edit the value is to select it and use the mouse-wheel. But you can also use rhythm parameter popup-menu to reset the parameter value, or copy/paste values, or use the **song part editor** (see snapshot at the top of this page).
+For the enumerable parameters, the easiest way to edit the value is to select it and use the mouse-wheel.&#x20;
+
+But you can also use rhythm parameter popup-menu to reset the parameter value, or copy/paste values, or use the **song part editor** (see snapshot at the top of this page).
 
 ### Compact / full view
 
 By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below to switch between compact and full view.
 
 ![](../../.gitbook/assets/CompactView.png)
+
+The **compact view settings** button, just above the compact view, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
 
 ## Mouse shortcuts
 
