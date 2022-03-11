@@ -102,7 +102,7 @@ By default only a subset of the rhythm parameters are shown, this is the **compa
 
 ![](../../.gitbook/assets/CompactView.png)
 
-The **compact view settings** button, just above the compact view, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
+The **compact view settings** button, just above the compact view button, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
 
 ## Mouse shortcuts
 
