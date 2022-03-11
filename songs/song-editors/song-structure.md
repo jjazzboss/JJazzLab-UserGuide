@@ -129,3 +129,4 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | song part                | ctrl-C/X/V   | copy/cut/paste         |
 | editor                   | ctrl-Z/Y     | undo/redo              |
 | editor                   | ctrl-F       | zoom to fit width      |
+| editor                   | V            | compact or full view   |
