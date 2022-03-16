@@ -10,7 +10,13 @@
 
 {% embed url="https://www.youtube.com/watch?v=qEP02JZexEU&t=3s" %}
 
+## 10 keyboard shortcuts you need to know
 
+{% embed url="https://www.youtube.com/watch?v=XnTkcPL9SIE" %}
+
+## 4 quick tips
+
+{% embed url="https://www.youtube.com/watch?v=ZwAwsEUwcc0" %}
 
 ## JJazzLab, Reaper and VST plugins
 
