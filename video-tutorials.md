@@ -6,7 +6,7 @@ Step-by-step instructions, thanks to John from GuitarBasement.
 
 
 
-![](.gitbook/assets/InstallationVideoWinLarge.png)
+[![](.gitbook/assets/InstallationVideoWinLarge.png)](https://www.youtube.com/watch?v=l5qeYEDgATs&t=35s)
 
 ## For starters
 
