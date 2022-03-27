@@ -10,7 +10,7 @@ If you don't have admin. rights on your computer, choose **Install for me only**
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
 
-Check out the [installation video tutorial](video-tutorials.md#installation-windows-only).
+:arrow\_right: If you need step-by-step installation instructions, check out the [installation video tutorial](video-tutorials.md#installation-windows-only).
 
 {% hint style="warning" %}
 If you get a **Windows Smart Screen** alert
