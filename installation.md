@@ -22,6 +22,10 @@ Once enough users will have successfully downloaded and installed it, Windows Sm
 You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
 {% endhint %}
 
+Check out this step-by-step tutorial.
+
+
+
 ## Linux instructions
 
 Unzip the package.&#x20;

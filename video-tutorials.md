@@ -1,5 +1,13 @@
 # Video tutorials
 
+## Installation (Windows only)
+
+Step-by-step instructions, thanks to John from GuitarBasement.
+
+
+
+![](.gitbook/assets/InstallationVideoWinLarge.png)
+
 ## For starters
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
