@@ -10,6 +10,8 @@ If you don't have admin. rights on your computer, choose **Install for me only**
 
 We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
 
+Check out the [installation video tutorial](video-tutorials.md#installation-windows-only).
+
 {% hint style="warning" %}
 If you get a **Windows Smart Screen** alert
 
@@ -21,8 +23,6 @@ Once enough users will have successfully downloaded and installed it, Windows Sm
 
 You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
 {% endhint %}
-
-Check out this step-by-step tutorial.
 
 
 
