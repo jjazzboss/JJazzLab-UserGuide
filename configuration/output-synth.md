@@ -124,7 +124,7 @@ For an optimum use JJazzLab needs:
    &#x20;Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
 2. For percussion instruments/drum kits: its **type** and its **drum key map**
 
-Therefore some (optional) extensions have been introduced, as show in the examples below.
+Therefore some (optional) keyword extensions have been introduced, "\{{ xxxx \}}", as shown in the examples below.
 
 ```
 ;
@@ -155,7 +155,7 @@ Therefore some (optional) extensions have been introduced, as show in the exampl
 ...
 ```
 
-There are also 2 special keywords if your synth is GS compatible:
+There are also 2 special keyword extensions if your synth is GS compatible:
 
 ```
 ; For GS-compatible synths only
