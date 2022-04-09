@@ -8,7 +8,7 @@ If you use the JJazzLab SoundFont you may skip this page and directly go to the 
 
 The output synth represents the Midi synth you have connected to the output of JJazzLab:
 
-![](<../.gitbook/assets/OutputSynth-concept (1).png>)
+![](../.gitbook/assets/OutputSynth-concept.png)
 
 The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../songs/song-editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
 
@@ -25,7 +25,7 @@ If the output synth configuration in JJazzLab is not inline with the actual outp
 
 The **output synth** capabilities can be edited in the **output synth editor**.&#x20;
 
-![](../.gitbook/assets/OutputSynthEditor.png)
+![](../.gitbook/assets/outputsyntheditor.png)
 
 The output synth configurations can be loaded/saved from/to files. By default JJazzLab uses **Default.cfg**.
 
@@ -80,11 +80,11 @@ To achieve this you need to disable the **Midi parameters** in the **mix console
 
 You can do it globally for all channels via the **Midi menu**:&#x20;
 
-![](<../.gitbook/assets/2021-01-06 22\_02\_58-JJazzLab.png>)
+![](../.gitbook/assets/2021-01-06-22\_02\_58-jjazzlab.png)
 
 Or do it channel by channel, and parameter by parameter, via the **channel settings**:
 
-![](../.gitbook/assets/ChannelSettings.png)
+![](../.gitbook/assets/channelsettings.png)
 
 Note that once all Midi parameters are disabled, output synth configuration becomes useless since JJazzLab will not send any Midi message to change the instruments (Bank Select/Program Midi messages).
 
@@ -96,7 +96,7 @@ JJazzLab ships with .ins files for a few existing hardware synthesizers (e.g. Ya
 
 Use the **Add** (Synths) button to add one or more .ins files to the current output synth configuration:&#x20;
 
-![](../.gitbook/assets/OutputSynth-AddSynth.png)
+![](../.gitbook/assets/outputsynth-addsynth.png)
 
 {% hint style="info" %}
 Once a **Midi synth** has been added, its instruments become available in the instrument selection dialog in the **mix console**.
@@ -108,7 +108,7 @@ See the [JJazzLab .ins format extensions](output-synth.md#jjazzlab-ins-format-ex
 
 The **output synth editor** lets you map standard GM Instruments to **default instruments** of your choice. You can also set a **default instrument** for an instrument **family**, e.g. all the organs.
 
-![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/OutputSynth-DefaultInstruments.png)
+![If a rhythm needs GM Bright Piano, then Hard FM EP will be used instead](../.gitbook/assets/outputsynth-defaultinstruments.png)
 
 ## JJazzLab .ins format extensions <a href="#jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
@@ -143,9 +143,9 @@ Therefore some (optional) extensions have been introduced, as show in the exampl
 
 ```
 ;
-; {{ DrumKit=,  }}
-;          : STANDARD, POWER, ROOM, ELECTRONIC, ANALOG, JAZZ, BRUSH, ORCHESTRA, SFX
-;  : GM, GS_GM2, XG
+; {{ DrumKit= type, keymap }}
+;   type=STANDARD, POWER, ROOM, ELECTRONIC, ANALOG, JAZZ, BRUSH, ORCHESTRA, SFX
+;   keymap=GM, GS_GM2, XG
 ;
 [DR:PRE]
 0=Dr:Power Standard Kit 1   {{DrumKit=POWER, XG}} 
@@ -156,7 +156,7 @@ Therefore some (optional) extensions have been introduced, as show in the exampl
 ```
 
 ```
-;
+; For GS-compatible synths only
 ; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
 ; {{ UseGsDrumsInstruments }}  => For drums instrument selection a GS Sysex message will be sent to make sure channel is in percussion mode
 ;
