@@ -155,6 +155,8 @@ Therefore some (optional) extensions have been introduced, as show in the exampl
 ...
 ```
 
+There are also 2 special keywords if your synth is GS compatible:
+
 ```
 ; For GS-compatible synths only
 ; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
