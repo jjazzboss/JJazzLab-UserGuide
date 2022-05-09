@@ -14,6 +14,10 @@
   * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [シンセ出力](configuration/output-synth.md)
 
+***
+
+* [Page 1](page-1.md)
+
 ## 再生コントロール <a href="#playback-control" id="playback-control"></a>
 
 * [コマンド](playback-control/commands.md)
