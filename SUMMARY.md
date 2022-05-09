@@ -37,6 +37,11 @@
 * [リズムファイル](rhythms/rhythm-files.md)
 * [リズムの適応](rhythms/adapted-rhythms.md)
 
+***
+
+* [Page 1](page-1-1/README.md)
+  * [Page 1](page-1-1/page-1.md)
+
 ## ツール <a href="#tools" id="tools"></a>
 
 * [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md)
