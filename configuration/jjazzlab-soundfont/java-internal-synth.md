@@ -8,7 +8,7 @@ JJazzLabが使用しているJavaランタイムエンジンには、MIDI内蔵�
 内蔵GMサウンドは良質なものではありませんが、JJazzLabをテストするには十分でしょう。良い点は、セットアップが不要で、すぐに使えることです。
 {% endhint %}
 
-## JJazzLab サウンドフォントと初期設定 <a href="setup-instructions" id="setup-instructions"></a>
+## JJazzLab サウンドフォントと初期設定 <a href="#setup-instructions" id="setup-instructions"></a>
 
 {% hint style="warning" %}
 Java内蔵シンセは高性能ではありません。JJazzLab サウンドフォントのような大きなサウンドフォントと一緒に使用すると、あまりにも多くの音が再生されたときに、音が落ちることがあります。&#x20;
@@ -18,11 +18,11 @@ Java内蔵シンセは高性能ではありません。JJazzLab サウンドフ�
 
 2. JJazzLab **Midi options**で、**Java Internal Synth**を選択し、**JJazzLab-SoundFont.sf2**をロードします。\
    ****\
-   ****![](../../.gitbook/assets/LoadSoundFont-JavaSynth.png)   \
+   ****<img src="../../.gitbook/assets/LoadSoundFont-JavaSynth.png" alt="" data-size="original">   \
 
 3. **Output Synth Editor** エディターに進み\[訳注：鍵盤アイコンをクリック]、プリセットの **Java Internal Synth**を適用します。\
    ****\
-   ****![](../../.gitbook/assets/OutputSynth-PresetJavaSynth.png)
+   ****<img src="../../.gitbook/assets/OutputSynth-PresetJavaSynth.png" alt="" data-size="original">
 
 {% hint style="info" %}
 Mac OSXで、JJazzLab サウンドフォントの使用を選択した場合、[MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)は自動的に同じ手順を実行します。

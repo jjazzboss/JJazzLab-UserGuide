@@ -41,15 +41,15 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
     qsynth &
     ```
 
-    ![](../../.gitbook/assets/FluidSynth-QSynth.png) \
+    <img src="../../.gitbook/assets/FluidSynth-QSynth.png" alt="" data-size="original"> \
 
 5. **JJazzLab サウンドフォント**をロードし、**FluidSynth** 設定を調整します。\
    \
-   ![](../../.gitbook/assets/QSynth-LoadSoundFont.png)\
+   <img src="../../.gitbook/assets/QSynth-LoadSoundFont.png" alt="" data-size="original">\
    \
-   ![](../../.gitbook/assets/QSynth-MidiSettings.png) \
+   <img src="../../.gitbook/assets/QSynth-MidiSettings.png" alt="" data-size="original"> \
    \
-   ![](../../.gitbook/assets/QSynth-AudioSettings.png)\
+   <img src="../../.gitbook/assets/QSynth-AudioSettings.png" alt="" data-size="original">\
 
 6.  仮想ポートを**FluidSynth**に接続します。\
     ****\
@@ -75,11 +75,11 @@ FluidSynth は、リダイレクトして .wav ファイルとして出力する
 
 7. In JJazzLabの**Options/Midi**に進み、最初の**virMIDI**出力デバイスを選択します。\
    \
-   ![](../../.gitbook/assets/FluidSynth-SetMidiDevice.png)\
+   <img src="../../.gitbook/assets/FluidSynth-SetMidiDevice.png" alt="" data-size="original">\
 
 8. [シンセ出力](../output-synth.md)エディターに進み\[訳注：鍵盤アイコンをクリック]、プリセットの **FluidSynth**を適用します。\
    ****\
-   ****![](../../.gitbook/assets/OutputSynth-PresetFluidSynth.png)
+   ****<img src="../../.gitbook/assets/OutputSynth-PresetFluidSynth.png" alt="" data-size="original">
 
 {% hint style="info" %}
 仮想MIDIポートを使うFluidSynthの起動は、シェルスクリプトで自動化できます。

@@ -5,7 +5,7 @@ description: / JJazzLab-X
 # JJazzLab
 
 {% hint style="info" %}
-文章の追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
+文章に追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
 {% endhint %}
 
 ![JJazzLab 3](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2Fn2aJVW6yzE43sx6gf4Yb%2FJJazzLab3.0Full.png?alt=media\&token=ee42aa7b-c548-4213-be6b-604c5c2faed2)
@@ -58,7 +58,10 @@ description: / JJazzLab-X
 ### ノートビュワー
 
 * リアルタイムで伴奏音表示
-* 選択したコード記号やスケールの鍵盤表示
+* 選択したコード記号やスケールの表示
+*   鍵盤あり
+
+
 * コード記号の最も一般的なポジション、オープンボイシング、クローズボイシング、転回形のギターポジション表示
 
 ### (疑似的)アレンジャーキーボードモード

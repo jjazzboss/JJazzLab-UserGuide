@@ -36,8 +36,8 @@
 ## ツール <a href="#tools" id="tools"></a>
 
 * [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md)
-* [アドリブのヒント](tools/improvisation-help.md)
 * [ノートビュワー](tools/notes-viewer.md)
+* [アドリブのヒント](tools/improvisation-help.md)
 
 ## リズムエンジン <a href="#rhythm-engines" id="rhythm-engines"></a>
 

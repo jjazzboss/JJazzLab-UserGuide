@@ -171,3 +171,20 @@ Patch[256]=Bank 2 {{ UseGsInstruments }}       ; This bank stores GS melodic ins
 Patch[*]=Drums    {{ UseGsDrumsInstruments }}  ; This bank stores GS drums instruments
 ...
 ```
+
+また、GS対応のシンセであれば、特別なキーワード拡張が2つあります。
+
+```
+; For GS-compatible synths only
+; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
+; {{ UseGsDrumsInstruments }}  => For drums instrument selection a GS Sysex message will be sent to make sure channel is in percussion mode
+;
+[JJazzLab SoundFont (GS)]
+BankSelMethod=1                                ; Use Bank Select MSB only
+Patch[0]=GM Bank  {{ UseGsInstruments }}       ; This bank stores GS melodic instruments
+Patch[128]=Bank 1 {{ UseGsInstruments }}       ; This bank stores GS melodic instruments 
+Patch[256]=Bank 2 {{ UseGsInstruments }}       ; This bank stores GS melodic instruments
+...
+Patch[*]=Drums    {{ UseGsDrumsInstruments }}  ; This bank stores GS drums instruments
+...
+```

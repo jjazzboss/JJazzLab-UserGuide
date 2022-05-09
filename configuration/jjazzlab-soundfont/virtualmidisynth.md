@@ -16,14 +16,14 @@ VirtualMIDISynthは、Midiファイルを.mp3に変換することもできま�
    インストーラーのデフォルト設定をすべて受け入れます。\
 
 3. **VirtualMIDISynth**にサウンドフォントをロードします。\
-   ****![](../../.gitbook/assets/VMS-LoadSoundFont.png) \
+   ****<img src="../../.gitbook/assets/VMS-LoadSoundFont.png" alt="" data-size="original"> \
    ****サウンドフォントのデフォルトボリューム（0～500％）を調整する必要がある場合は、ペンのアイコンをクリックしてください。\
 
 4. JJazzLabを起動して、**Tools→Options→Midi**と進み、**VirtualMIDISynth**を**Midi OUT device** として設定します。\
-   &#x20;![](../../.gitbook/assets/VMS-SetMidiDevice.png) \
+   &#x20;<img src="../../.gitbook/assets/VMS-SetMidiDevice.png" alt="" data-size="original"> \
 
 5. [シンセ出力](../output-synth.md) エディターに進み\[訳注：鍵盤アイコンをクリック]、プリセットの**VirtualMIDISynth**を適用します。\
-   ****![](../../.gitbook/assets/OutputSynth-PresetVMS.png) ****&#x20;
+   ****<img src="../../.gitbook/assets/OutputSynth-PresetVMS.png" alt="" data-size="original"> ****&#x20;
 
 {% hint style="info" %}
 Windowsの場合、JazzLab サウンドフォントを使用することを選択すると、 [MIDI設定ウィザード](../midi-configuration.md#midi-configuration-wizard)がステップ4（VirtualMIDISynthがインストールされている場合）と5を自動的に実行します。

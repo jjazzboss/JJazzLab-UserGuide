@@ -23,6 +23,15 @@ MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**か
 1. コード記号をすべて選択(右クリックメニューの **Select all the chord symbols**)
 2. マウスホイールを使うか、右クリックメニューで移調( **Transpose** )
 
+## JJazzLabでVST/AUプラグインは使えますか？？
+
+ただし、JJazzLabはVSTプラグインをホストできないため、直接は使用できません。
+
+1. バーチャルMIDIデバイスとVSTホストソフトウェアをコンピュータにインストールしてください。Windows、Linux、Mac用の無料のアプリケーションがウェブ上にあります。例えば、Windowsでは**loopMID**I（高度な設定でフィードバック検出無効にすることをお勧めします）、**SoundBridge**を使用します。
+2. JJazzLabの**MIDIオプション**で、**MIDI出力デバイス**を**loopMIDI**に設定します。
+3. VSTホストソフトウェアで、**MIDIインデバイス**を**loopMIDI**に設定し、VSTホストとVSTプラグインがすべてのMIDIチャンネル（1〜16）を受信するように設定されていることを確認します。
+4. JJazzLabで曲を再生すると、VSTインストゥルメントが聞こえるはずです。
+
 ## JJazzLabで伴奏オーディオファイル(.mp3, .wav, etc.)はどうやって作るのですか？ <a href="#generate-mp3" id="generate-mp3"></a>
 
 {% tabs %}

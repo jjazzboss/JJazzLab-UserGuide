@@ -6,7 +6,7 @@
 * セクションの追加: 例 **"A"、"B"、"ヴァース"、"コーラス**"...など
 * コードの拍の移動や、アクセント、解釈、モードスケールの編集による調整
 
-![](../../.gitbook/assets/ChordLeadsheetEditor.png)
+![](../../.gitbook/assets/ChordLeadSheetText.png)
 
 ## コード記号
 
@@ -30,6 +30,16 @@
 {% hint style="info" %}
 最初からリードシートを入力するには、最初の小節を選択し、コード記号を直接入力してENTERを押し（自動的に次の小節が選択されます）、2番目の小節のコード記号を入力する、などの方法が簡単です。
 {% endhint %}
+
+## ポップアップメニュー
+
+ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキー+クリック**）を使って、現在の選択範囲（小節、コード記号、セクション）で利用できるコマンドを確認できます
+
+![小節のポップアップメニュー](../../.gitbook/assets/BarPopupMenu.png)
+
+![コード記号のポップアップメニュー](../../.gitbook/assets/ChordSymbolPopupMeny.png)
+
+![セクションでの拍子記号のポップアップメニュー](../../.gitbook/assets/TimeSignaturePopupMenu.png)
 
 ### 様々なコード表記
 
