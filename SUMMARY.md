@@ -17,7 +17,7 @@
 ## 再生コントロール <a href="#playback-control" id="playback-control"></a>
 
 * [コマンド](playback-control/commands.md)
-* [MIDIリモートコマンド](playback-control/midiremotecommands.md)
+* [MIDIリモートコマンド](playback-control/midi-remote-commands.md)
 
 ## ソング <a href="#songs" id="songs"></a>
 
