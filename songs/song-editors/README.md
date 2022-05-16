@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/FullSongStructureEditorText.png)
 
-&#x20; [**コードリードシートエディター**](chord-lead-sheet.md) (Chord lead sheet editor)を使用する場面は、：
+&#x20; [**コード譜エディター**](chord-lead-sheet.md) (Chord lead sheet editor)を使用する場面は、：
 
 * コード記号（例：Cm6、Ab7）の追加
 * セクションの追加（"A"、"B"、"バース"、"コーラス"...など）

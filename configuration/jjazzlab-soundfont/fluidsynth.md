@@ -1,6 +1,6 @@
 # FluidSynth (Linux/Mac)
 
-[FluidSynth](https://www.fluidsynth.org)は、多くのプラットフォームに対応した、無料で効率的なサウンドフォントプレーヤーです。LinuxとMacOS用に推奨します。
+[FluidSynth](https://www.fluidsynth.org/)は、多くのプラットフォームに対応した、無料で効率的なサウンドフォントプレーヤーです。LinuxとMacOS用に推奨します。
 
 {% hint style="success" %}
 FluidSynth は、リダイレクトして .wav ファイルとして出力することができます。これによりJJazzLabバッキングトラックをオーディオファイルとして取得するのに使うことができます。詳しい情報は、[FAQ](../../faq.md#generate-mp3)を参照してください。

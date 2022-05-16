@@ -14,10 +14,6 @@
   * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
 * [シンセ出力](configuration/output-synth.md)
 
-***
-
-* [Page 1](page-1.md)
-
 ## 再生コントロール <a href="#playback-control" id="playback-control"></a>
 
 * [コマンド](playback-control/commands.md)
@@ -26,7 +22,7 @@
 ## ソング <a href="#songs" id="songs"></a>
 
 * [ソングエディター](songs/song-editors/README.md)
-  * [コードリードシート](songs/song-editors/chord-lead-sheet.md)
+  * [コード譜](songs/song-editors/chord-lead-sheet.md)
   * [ソング構成](songs/song-editors/song-structure.md)
   * [ミックスコンソール](songs/song-editors/mix-console.md)
 * [ソングとミックスファイル](songs/song-and-mix-files.md)
@@ -36,11 +32,6 @@
 
 * [リズムファイル](rhythms/rhythm-files.md)
 * [リズムの適応](rhythms/adapted-rhythms.md)
-
-***
-
-* [Page 1](page-1-1/README.md)
-  * [Page 1](page-1-1/page-1.md)
 
 ## ツール <a href="#tools" id="tools"></a>
 
