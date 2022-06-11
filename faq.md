@@ -116,6 +116,10 @@ Restart JJazzLab. All menus should look bigger now.
 
 This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
 
+{% hint style="info" %}
+If you use 4K or 5K monitors, JJazzLab may look too small, with unreadable fonts. In this case add **-J-Dsun.java2d.uiScale=2** in the **default\_options** variable, like in the example above. JJazzLab will look twice as bigger.
+{% endhint %}
+
 ## Can I start JJazzLab with command line arguments?
 
 You can pass one or more .sng file names on the command line, JJazzLab will open them upon start.
@@ -127,7 +131,7 @@ You can pass one or more .sng file names on the command line, JJazzLab will open
 
 ## How to submit a bug? How to find the "log" file?
 
-Create a new thread in the [JJazzLab forum](https://jjazzlab.freeforums.net) or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
+Create a new thread in the [JJazzLab forum](https://jjazzlab.freeforums.net/) or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
 
 We need the following information in order to help you:
 
