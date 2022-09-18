@@ -57,7 +57,7 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 
 Click on the instrument name in the channel. Note that this is also where instrument transposition can be adjusted.
 
-![](../../.gitbook/assets/MixConsole-InstrumentSelection.png)
+![](../../.gitbook/assets/mixconsole-instrumentselection.png)
 
 ## Channel settings
 
@@ -71,18 +71,19 @@ Use the channel settings to:
 
     Probably because you control the parameter yourself directly on the [output synth](../../configuration/output-synth.md).\
 
-*   **Use drums-rerouting for channels drums** &#x20;
+*   **Enable a drums channel with a Midi channel different than 10**
 
     If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](../../configuration/output-synth.md) information, potential issues. \
+    \
 
 
-![](../../.gitbook/assets/MixConsole-ChannelSettings.png)
+![](../../.gitbook/assets/mixconsole-channelsettings.png)
 
 ## Midi channel
 
 Each Midi channel can be changed manually, just click on the channel number.
 
-![](<../../.gitbook/assets/MixConsole-ChangeChannel (1).png>)
+![](../../.gitbook/assets/MixConsole-ChangeChannel.png)
 
 ## User tracks
 
@@ -114,7 +115,7 @@ To export a single track, start the mouse-drag from a track icon.
 
 When a song uses 2 or more rhythms, a popup is displayed in the upper left corner of the mix console to select the rhythm you want to display.
 
-![](../../.gitbook/assets/MixConsole-RhythmSelectionPopup.png)
+![](../../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
 Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm(s).
 
