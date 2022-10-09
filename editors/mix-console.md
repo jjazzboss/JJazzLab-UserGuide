@@ -101,7 +101,7 @@ A User track has a specific graphic extension as shown below, which is used to r
 
 When track is created you can select an instrument to be played like for any track.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 If you select a drums or percussion instrument _and_ your [Output synth](../configuration/output-synth.md) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
@@ -111,8 +111,8 @@ To add Midi notes to a user track, you can either **drag & drop** a Midi file in
 
 When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can add notes for your user track.
 
-{% hint style="warning" %}
-JJazzLab only import the notes which match the user track Midi channel. Notes from other Midi channels are ignored.
+{% hint style="danger" %}
+JJazzLab only import the notes which match the user track Midi channel. **Notes from other Midi channels are ignored.**
 
 For example, in the image above, the user track channel is 1, so when you use your Midi editor/DAW to add user track notes, make sure they have the channel 1.
 {% endhint %}
