@@ -95,7 +95,7 @@ Add one or more user tracks using the Add user track button.
 
 <figure><img src="../.gitbook/assets/AddUserTrackButton.png" alt=""><figcaption></figcaption></figure>
 
-A User track has a specific extension as shown below, which is used to rename or remove the user track, but most importantly is used to add or change its Midi content.
+A User track has a specific graphic extension as shown below, which is used to rename or remove the user track, but most importantly is used to update its Midi content.
 
 ![](../.gitbook/assets/UserTrack.png)
 
@@ -105,7 +105,7 @@ When track is created you can select an instrument to be played like for any tra
 If you select a drums or percussion instrument _and_ your [Output synth](../configuration/output-synth.md) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
-#### Add or change Midi content
+#### Edit Midi content
 
 To add Midi notes to a user track, you can either **drag & drop** a Midi file in the rectangle area, or use the **Edit via external Midi editor** button in the lower left corner.&#x20;
 
