@@ -9,23 +9,23 @@ Use the **mix console** to:
 * Load/save .mix file
 * And more: change Midi channel, use special Midi commands, export to Midi file, etc.
 
-JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](../../configuration/output-synth.md). This is done each time you make a change in the mix console, or when you start the playback.
+JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](../configuration/output-synth.md). This is done each time you make a change in the mix console, or when you start the playback.
 
 {% hint style="danger" %}
 Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
 {% endhint %}
 
-![](../../.gitbook/assets/MixConsole3.png)
+![](../.gitbook/assets/MixConsole3.png)
 
 ## Mix console toolbar
 
-![](../../.gitbook/assets/MixConsoleToolbar.png)
+![](../.gitbook/assets/MixConsoleToolbar.png)
 
 * **Master volume**: this increase or lower the Midi volume messages
 * **M**: Mute or Unmute all tracks
 * **S**: Switch off all Solo tracks
 * **Panic**: Send a Midi Panic message, switching all notes OFF
-* **User track**: Add a user track. See [User tracks](mix-console.md#user-tracks) below.
+* **Add a User track**: see [User tracks](mix-console.md#user-tracks) below.
 
 ## Mix console menu bar
 
@@ -33,7 +33,7 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
-    Change the current mix from a file. Consult [this page](../song-and-mix-files.md) for more information about .mix files.
+    Change the current mix from a file. Consult [this page](../songs/song-and-mix-files.md) for more information about .mix files.
 *   **Import Mix...** &#x20;
 
     Note that this will import settings only for the instruments which are common between the current mix and the imported mix.
@@ -57,7 +57,7 @@ Midi has only 16 Midi channels**.** That's why usually a song can't have more th
 
 Click on the instrument name in the channel. Note that this is also where instrument transposition can be adjusted.
 
-![](../../.gitbook/assets/mixconsole-instrumentselection.png)
+![](../.gitbook/assets/mixconsole-instrumentselection.png)
 
 ## Channel settings
 
@@ -69,27 +69,43 @@ Use the channel settings to:
 
 *   **Disable sending specific Midi messages** &#x20;
 
-    Probably because you control the parameter yourself directly on the [output synth](../../configuration/output-synth.md).\
+    Probably because you control the parameter yourself directly on the [output synth](../configuration/output-synth.md).\
 
 *   **Enable a drums channel with a Midi channel different than 10**
 
-    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](../../configuration/output-synth.md) information, potential issues. \
+    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](../configuration/output-synth.md) information, potential issues. \
     \
 
 
-![](../../.gitbook/assets/mixconsole-channelsettings.png)
+![](../.gitbook/assets/mixconsole-channelsettings.png)
 
 ## Midi channel
 
 Each Midi channel can be changed manually, just click on the channel number.
 
-![](../../.gitbook/assets/MixConsole-ChangeChannel.png)
+![](../.gitbook/assets/MixConsole-ChangeChannel.png)
 
 ## User tracks
 
-Add one or more user tracks using the Add user track button on the mix console toolbar (see above).
+A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
 
-![](../../.gitbook/assets/UserTrack.png)
+#### Add a User track
+
+Add one or more user tracks using the Add user track button.
+
+<figure><img src="../.gitbook/assets/AddUserTrackButton.png" alt=""><figcaption></figcaption></figure>
+
+A User track has a specific extension as shown below, which is used to rename or remove the user track, but most importantly is used to add or change its Midi content.
+
+![](../.gitbook/assets/UserTrack.png)
+
+When track is created you can select an instrument to be played like for any track.
+
+{% hint style="danger" %}
+If you select a drums or percussion instrument _and_ your [Output synth](../configuration/output-synth.md) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
+{% endhint %}
+
+#### Add or change Midi content
 
 To add Midi notes to a user track, you can either **drag & drop** a Midi file in the rectangle area, or use the **Edit via external Midi editor** button in the lower left corner.&#x20;
 
@@ -109,13 +125,13 @@ You can export the full backing track to a Midi file by mouse-dragging from the 
 
 To export a single track, start the mouse-drag from a track icon.
 
-![Export a single track with mouse drag & drop](../../.gitbook/assets/MixConsoleDragTrack.png)
+![Export a single track with mouse drag & drop](../.gitbook/assets/MixConsoleDragTrack.png)
 
 ## Multi-rhythm songs
 
 When a song uses 2 or more rhythms, a popup is displayed in the upper left corner of the mix console to select the rhythm you want to display.
 
-![](../../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
+![](../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
 Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm(s).
 

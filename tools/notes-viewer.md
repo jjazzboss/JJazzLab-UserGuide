@@ -10,7 +10,7 @@ The notes of the selected chord symbol can be viewed on a piano keyboard or usin
 
 ![](<../.gitbook/assets/2021-12-13 20\_34\_45-JJazzLab.png>)
 
-If there is a scale set for the selected chord symbol (see the [chord symbol editor](../songs/song-editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown.
+If there is a scale set for the selected chord symbol (see the [chord symbol editor](../editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown.
 
 ![](<../.gitbook/assets/2021-12-13 20\_36\_34-JJazzLab.png>)
 

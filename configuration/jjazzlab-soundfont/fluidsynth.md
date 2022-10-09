@@ -1,6 +1,6 @@
 # FluidSynth (Linux/Mac)
 
-[FluidSynth ](https://www.fluidsynth.org)is a free and efficient SoundFont player for many platforms. We recommend it for Linux and MacOS.
+[FluidSynth ](https://www.fluidsynth.org/)is a free and efficient SoundFont player for many platforms. We recommend it for Linux and MacOS.
 
 {% hint style="success" %}
 FluidSynth can redirect its output as a .wav file. This can be used to get a JJazzLab backing track as an audio file. See the [FAQ](../../faq.md#generate-mp3) for more info.
@@ -42,15 +42,15 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
     qsynth &
     ```
 
-    ![](../../.gitbook/assets/FluidSynth-QSynth.png) \
+    <img src="../../.gitbook/assets/fluidsynth-qsynth.png" alt="" data-size="original"> \
 
 5. Load the **JJazzLab SoundFont** and adjust **FluidSynth** settings\
    \
-   ![](../../.gitbook/assets/QSynth-LoadSoundFont.png)\
+   <img src="../../.gitbook/assets/qsynth-loadsoundfont.png" alt="" data-size="original">\
    \
-   ![](../../.gitbook/assets/QSynth-MidiSettings.png) \
+   <img src="../../.gitbook/assets/qsynth-midisettings.png" alt="" data-size="original"> \
    \
-   ![](../../.gitbook/assets/QSynth-AudioSettings.png)\
+   <img src="../../.gitbook/assets/qsynth-audiosettings.png" alt="" data-size="original">\
 
 6.  Connect the virtual port to **FluidSynth**\
     ****\
@@ -76,11 +76,11 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
 
 7. In JJazzLab go to **Options/Midi** and select the first **virMIDI** out device\
    \
-   ![](../../.gitbook/assets/FluidSynth-SetMidiDevice.png)\
+   <img src="../../.gitbook/assets/fluidsynth-setmididevice.png" alt="" data-size="original">\
 
 8. Go to the [output synth](../output-synth.md) editor and apply the preset **FluidSynth**\
    ****\
-   ****![](../../.gitbook/assets/OutputSynth-PresetFluidSynth.png)
+   ****<img src="../../.gitbook/assets/outputsynth-presetfluidsynth.png" alt="" data-size="original">
 
 {% hint style="info" %}
 The start of FluidSynth with the virtual Midi port can be automated via a shell script.

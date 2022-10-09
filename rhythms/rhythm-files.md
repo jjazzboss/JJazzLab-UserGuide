@@ -12,7 +12,7 @@ JJazzLab expects rhythm files to be in the **User directory for rhythm Files**. 
 You can use up to 2 levels of sub-directories to organize the rhythms. Sub-directories whose name starts with an underscore '\_' are not scanned.
 {% endhint %}
 
-![](../.gitbook/assets/UserDirForRhythmFiles.png)
+![](../.gitbook/assets/userdirforrhythmfiles.png)
 
 ## Rhythm files scanning <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
 
@@ -31,7 +31,7 @@ In order to avoid having too many files cluttering the **User directory for rhyt
 1.  **Test the rhythm files**\
     ****In the **rhythm selection dialog**, use the **Add Rhythms** button to load additional rhythm files for the current session only. These files can be anywhere on your hard drive.\
     \
-    &#x20;![](../.gitbook/assets/AddRhythmsButton.png)&#x20;
+    &#x20;<img src="../.gitbook/assets/addrhythmsbutton.png" alt="" data-size="original">&#x20;
 
     \
     Standard [Yamaha styles ](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)(.sty, .prs, .sst or .bcs) should appear in the **YamJJazz standard styles**, and [extended Yamaha styles](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) (.yjz) should appear in the **YamJJazz extended styles**. \

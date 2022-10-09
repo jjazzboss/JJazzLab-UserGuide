@@ -15,7 +15,7 @@ We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzla
 {% hint style="warning" %}
 If you get a **Windows Smart Screen** alert
 
-![](.gitbook/assets/Win10SmartScreen.png)&#x20;
+<img src=".gitbook/assets/win10smartscreen.png" alt="" data-size="original">&#x20;
 
 Windows Smart Screen blocks the program NOT because it is a malware (it is NOT!), but just because JJazzLab is new, so Windows security servers don't have enough statistics to evaluate its "security reputation".
 

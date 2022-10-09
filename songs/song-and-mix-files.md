@@ -17,7 +17,7 @@ Each JJazzLab rhythm has a builtin default mix. This builtin default mix can onl
 
 You can override the rhythm's builtin mix by saving a **default rhythm mix** file.  Unlike the builtin mix, **this rhythm mix can use any instruments**.
 
-![](../.gitbook/assets/SaveRhythmMix.png)
+![](../.gitbook/assets/saverhythmmix.png)
 
 By default this file is stored in the **user rhythm directory** set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
 

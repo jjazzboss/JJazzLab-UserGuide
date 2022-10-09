@@ -6,7 +6,7 @@ Use the **chord leadsheet editor** to:
 * Add sections, eg **A, B, verse, chorus,** ...
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
 
-![](../../.gitbook/assets/ChordLeadSheetText.png)
+![](../.gitbook/assets/ChordLeadSheetText.png)
 
 ## Chord symbols
 
@@ -35,11 +35,11 @@ In order to input a lead sheet from scratch, the easier way is to select the fir
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
 
-![Bar popup menu](../../.gitbook/assets/BarPopupMenu.png)
+![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
 
-![Chord symbol popup menu](../../.gitbook/assets/ChordSymbolPopupMeny.png)
+![Chord symbol popup menu](../.gitbook/assets/ChordSymbolPopupMeny.png)
 
-![Section/Time signature popup menu](../../.gitbook/assets/TimeSignaturePopupMenu.png)
+![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
 
 ### Aliases
 
@@ -51,7 +51,7 @@ You can add more aliases in menu **Options/Chord Symbols**.
 
 Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
-![](../../.gitbook/assets/ChordSymbolInterpretationDialog.png)
+![](../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
 The **Interpretation** tab lets you decide how this chord symbol should be played:
 
@@ -68,15 +68,15 @@ Each rhythm generation engine may render these Interpretation parameters differe
 \
 &#x20;The shape of the marker below the chord symbol depends on the interpretation mode:
 
-![](../../.gitbook/assets/InterpretationMarkers.png)
+![](../.gitbook/assets/interpretationmarkers.png)
 
 &#x20;For example, in order to render:&#x20;
 
-![](../../.gitbook/assets/RhythmicAccents.png)
+![](../.gitbook/assets/rhythmicaccents.png)
 
 you could use the following interpretation parameters:&#x20;
 
-![](../../.gitbook/assets/ExampleRhythmicAccents.png)
+![](../.gitbook/assets/examplerhythmicaccents.png)
 
 {% hint style="info" %}
 See below the keyboard shortcuts to change the interpretation of selected chords.
@@ -86,7 +86,7 @@ See below the keyboard shortcuts to change the interpretation of selected chords
 
 Select a chord symbol, edit it and select the **Harmony** tab.
 
-![](../../.gitbook/assets/ChordSymbolHarmonyDialog.png)
+![](../.gitbook/assets/chordsymbolharmonydialog.png)
 
 The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
 
@@ -98,7 +98,7 @@ By default no scale is selected: each rhythm generation engine will decide the "
 
 Select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
-![Snapshot to be updated! Alternate > Substitute](../../.gitbook/assets/ChordSymbolAlternateDialog.png)
+![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/chordsymbolalternatedialog.png)
 
 This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.&#x20;
 
@@ -112,7 +112,7 @@ In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but
 
 You can see below (and in the dialog snapshot above) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts (see the [song structure editor](song-structure.md)) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
 
-![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../../.gitbook/assets/AlternateChordLeadsheet.png)
+![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../.gitbook/assets/alternatechordleadsheet.png)
 
 There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
 
@@ -136,11 +136,11 @@ You can force a section which is not on the first bar of a row to start on the n
 
 Select a bar with a section defined or select the section itself, right-click menu "Force Section at New Line".
 
-![](../../.gitbook/assets/ForceSectionNewLine1.png)
+![](../.gitbook/assets/forcesectionnewline1.png)
 
 &#x20; This will result in the display below.&#x20;
 
-![](../../.gitbook/assets/ForceSectionNewLine2.png)
+![](../.gitbook/assets/forcesectionnewline2.png)
 
 ## Mouse shortcuts
 

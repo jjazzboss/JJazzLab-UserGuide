@@ -10,7 +10,7 @@ The output synth represents the Midi synth you have connected to the output of J
 
 ![](../.gitbook/assets/OutputSynth-concept.png)
 
-The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../songs/song-editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
+The output synth information enables JJazzLab to directly control your synth. This is why you can select instruments directly from the [mix console](../editors/mix-console.md), and why the song mix can be automatically restored when you load a song.
 
 The output synth information is also used by JJazzLab for 2 important tasks:
 

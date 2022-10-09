@@ -4,5 +4,5 @@ JJazzLab embeds the **YamJJazz** rhythm generation engine. This engine reads [Ya
 
 You can see below the 2 YamJJazz **rhythm providers** available in the rhythm selection dialog.
 
-![](../../.gitbook/assets/YamJJazzRhythmProviders.png)
+![](../../.gitbook/assets/yamjjazzrhythmproviders.png)
 

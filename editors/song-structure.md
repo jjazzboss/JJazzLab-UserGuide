@@ -6,7 +6,7 @@ Use the **song structure editor** to:
 * Select the **rhythm**(s) to be used&#x20;
 * Adjust the **rhythm parameters** to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
 
-![](../../.gitbook/assets/FullSongStructureEditorText.png)
+![](../.gitbook/assets/FullSongStructureEditorText.png)
 
 ## Song parts
 
@@ -24,7 +24,7 @@ By default the name of the song part is the name of the parent section. If the s
 
 If some contiguous song parts share the same name, then the name is displayed only on the first song part and a line is shown on the contiguous song parts. Clicking this line will select all the related song parts.
 
-![](../../.gitbook/assets/SongParts-SameName.png)
+![](../.gitbook/assets/songparts-samename.png)
 
 ## Editing
 
@@ -36,13 +36,13 @@ Edition is done directly from the song structure editor using the [mouse](song-s
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection, as shown in the 2 images below.
 
-![Song part popup menu](../../.gitbook/assets/SongPartPopupMeny.png)
+![Song part popup menu](../.gitbook/assets/SongPartPopupMeny.png)
 
-![Rhythm parameter popup menu](../../.gitbook/assets/RhythmParameterPopupMenu.png)
+![Rhythm parameter popup menu](../.gitbook/assets/RhythmParameterPopupMenu.png)
 
 When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu to interpolate values between the first and the last selected values.  In the example below, we used it to gradually increase the tempo from 100% to 108%.
 
-![](../../.gitbook/assets/AdjustRpValues.png)
+![](../.gitbook/assets/AdjustRpValues.png)
 
 ## Change rhythm
 
@@ -54,13 +54,13 @@ Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. 
 
 To change the rhythm, select a song part and press **R,** or click the rhythm name to open the **rhythm selection dialog**.
 
-![](../../.gitbook/assets/RhythmSelectionDialog3.png)
+![](../.gitbook/assets/RhythmSelectionDialog3.png)
 
 When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
 
 If you want to remove a rhythm change in the middle of a song, select the song part and use **Remove Rhythm Change** from the song part popup menu.
 
-![](../../.gitbook/assets/RemoveRhythmChange.png)
+![](../.gitbook/assets/RemoveRhythmChange.png)
 
 
 
@@ -70,7 +70,7 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 In theory a rhythm (or style) can define its own set of parameters. However in JJazzLab most rhythms use the same parameters:
 
-* **Variation**: a rhythm variation. [YamJJazz engine](../../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
+* **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
 * **Intensity:**  most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
 * **Drums fill**: JJazzLab will add a drums fill on the last bar of the song part.
 * **Mute**: mute one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
@@ -78,7 +78,7 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 * **Tempo factor**: slow down or accelerate the tempo of the song part.
 * **Drums transform**: change some drums notes of the song part. For example you can make the hi-hat louder, or change the closed hi-hat notes into ride cymbal notes.
 
-![](../../.gitbook/assets/DrumsTransform.png)
+![](../.gitbook/assets/DrumsTransform.png)
 
 *   **Custom phrase**: replace one or more instrument phrases of the song part.&#x20;
 
@@ -86,7 +86,7 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
     When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can change notes of one or more tracks.
 
-![](../../.gitbook/assets/CustomPhraseEditor.png)
+![](../.gitbook/assets/CustomPhraseEditor.png)
 
 ### Edit values
 
@@ -100,7 +100,7 @@ But you can also use rhythm parameter popup-menu to reset the parameter value, o
 
 By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below or press 'V' to switch between compact and full view.
 
-![](../../.gitbook/assets/CompactView.png)
+![](../.gitbook/assets/CompactView.png)
 
 The **compact view settings** button, just above the compact view button, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
 

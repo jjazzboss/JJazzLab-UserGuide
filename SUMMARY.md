@@ -19,12 +19,15 @@
 * [Commands](playback-control/commands.md)
 * [Midi remote commands](playback-control/midi-remote-commands.md)
 
+## Editors
+
+* [Overview](editors/overview.md)
+* [Chord lead sheet](editors/chord-lead-sheet.md)
+* [Song structure](editors/song-structure.md)
+* [Mix console](editors/mix-console.md)
+
 ## Songs
 
-* [Song editors](songs/song-editors/README.md)
-  * [Chord lead sheet](songs/song-editors/chord-lead-sheet.md)
-  * [Song structure](songs/song-editors/song-structure.md)
-  * [Mix console](songs/song-editors/mix-console.md)
 * [Song and mix files](songs/song-and-mix-files.md)
 * [Importing songs](songs/importing-songs.md)
 
