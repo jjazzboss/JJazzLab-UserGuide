@@ -2,6 +2,8 @@
 
 The [YamJJazz rhythm engine](./) **** can read **** a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
 
+.yjz file can also be used to simply modify the music of an existing Yamaha style, as show in the example below.
+
 An **extended style** (.yjz) supports :
 
 * **Unlimited number of variations**\
@@ -21,6 +23,34 @@ This wizard, available in the **Tools** menu, is used to create a ready-to-be-cu
 {% hint style="warning" %}
 Once created you'll need to manually alter the musical phrases of the .yjz Midi file using a Midi editor or a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.
 {% endhint %}
+
+### Simple example : modify Main A of an existing Yamaha style
+
+Say you want to change the music of the **Main A** variation of Yamaha style **MediumJazzS737.sst**.
+
+Start the **Extended style creation wizard**, select the rhythm **MediumJazzS737.sst**, then adjust the settings as shown on the image below.
+
+<figure><img src="../../.gitbook/assets/2023-01-03 16_45_42-Extended style creation wizard.png" alt=""><figcaption><p>Wizard settings to alter only the Main-A section, with no alternate source phrases.</p></figcaption></figure>
+
+Once **MediumJazzS737-ext.yjz** is generated, open it in your Midi editor. If you use Cubase for example, you should see something like this:
+
+<figure><img src="../../.gitbook/assets/2023-01-03 16_59_55-Cubase AI 7 - [Cubase AI 7 Project - Untitled1].png" alt=""><figcaption></figcaption></figure>
+
+Now you can modify the Midi source phrases as you want, based on the source chord provided in the track name (e.g. C7M for the bass tracks). _You must not change the track names or change the duration of the section_ (8 bars/32 beats here).
+
+{% hint style="info" %}
+You may see several source phrases for one instrument. In our example there are 2 tracks for the Bass. You should make consistent changes to each of them.&#x20;
+
+The reason why this happens in Yamaha styles is beyond the scope of this tutorial. The general idea is to allow specialized phrases for specific cases, e.g. a phrase for minor chords and another one for major chords. Search for the Yamaha style CASM section if you want more information about this.
+{% endhint %}
+
+When the Midi editing is complete, save your file.&#x20;
+
+In JJazzLab start a **Rescan** in Options/Rhythms.
+
+Now you can use the new modified style in your song, just select **MediumJazzS737-ext.yjz** from the **YamJJazz extended styles** as seen below.&#x20;
+
+<figure><img src="../../.gitbook/assets/2023-01-03 17_49_15-JJazzLab  3.2.1.png" alt=""><figcaption></figcaption></figure>
 
 ## Video tutorial
 
