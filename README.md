@@ -20,7 +20,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 🎷 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
 
-💻 Thanks to the underlying JJazzLab-X open-source platform developers can easily add new features and new music generation capabilities.
+💻 Thanks to the open-source license developers can easily add new features and new music generation capabilities.
 
 ## Features
 
