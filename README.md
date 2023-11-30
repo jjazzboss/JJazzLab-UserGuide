@@ -1,5 +1,5 @@
 ---
-description: / JJazzLab-X
+description: A complete and open application for backing tracks generation.
 ---
 
 # JJazzLab
@@ -20,7 +20,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 🎷 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
 
-💻 Thanks to the open-source license developers can easily add new features and new music generation capabilities.
+💻 JJazzLab is open-source:  developers can easily add new features and new music generation capabilities.
 
 ## Features
 
@@ -71,7 +71,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 ### Improvisation help
 
-* Automatic generate improvisation guides on your chord leadsheet&#x20;
+* Automatic generate improvisation guides on your chord leadsheet
 * Based on Hal Crook's reference book "How to improvise"
 
 ### Midi

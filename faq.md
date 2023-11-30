@@ -27,7 +27,7 @@ On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**
 
 Yes, but not directly because JJazzLab can not host VST plugins.&#x20;
 
-1. Install a virtual midi device and a VST Host software on your computer. You'll find on the web free applications for Windows, Linux and Mac. For example use **loopMIDI** (we recommend to disable its _feedback detection_ in the _Advanced_ settings) **** and **SoundBridge** on Windows.
+1. Install a virtual midi device and a VST Host software on your computer. You'll find on the web free applications for Windows, Linux and Mac. For example use **loopMIDI** (we recommend to disable its _feedback detection_ in the _Advanced_ settings) and **SoundBridge** on Windows.
 2. In JJazzLab, go to **Midi options** and set the **Midi out device** to **loopMIDI**
 3. In your VST Host software, set the **Midi in device** to **loopMidi** and make sure the VST Host and the VST plugins are configured so that all Midi channels (1-16) are received.
 4. Play a song in JJazzLab: you should hear the VST instruments
