@@ -6,13 +6,13 @@ Yamaha styles usually have 4 variations _Main A, Main B, Main C, Main D_, plus s
 
 Most of the time the variations have the following organisation:
 
-* _Intro A_: 1 bar drums-only intro
-* _Intro B_: 2 bar intro with a fixed chord sequence (i.e. your intro should contain only one initial chord)
-* _Intro C_: same than B but 4 bar
-* _Main A-D_: the main style variations, from lighter to heavier
-* _Ending A_: 1 bar ending with a final chord on 1st beat
-* _Ending B_: 2 bar ending with a fixed chord sequence (i.e. your ending should contain only one initial chord)
-* _Ending C_: same than B but 4 bar
+* _Intro A_: 1-bar drums-only intro
+* _Intro B_: 2-bar intro with a fixed chord sequence (i.e. your intro should contain only one initial chord)
+* _Intro C_: same than B but with 4 bars
+* _Main A-D_: the 4 main style variations, from lighter to heavier
+* _Ending A_: 1-bar ending with a final chord on 1st beat
+* _Ending B_: 2-bar ending with a fixed chord sequence (i.e. your ending should contain only one initial chord)
+* _Ending C_: same than B but with 4 bars
 
 You will also find _Fill In AA_, _Fill In BB, Fill In CC, Fill In DD, Fill In BA_ variations, which corresponds to 1-bar transitions, usually with a drums fill or break. You normally don't have to use them directly because JJazzLab does it automatically at the end of each section, depending on the value of the drums **Fill** rhythm parameter.
 
