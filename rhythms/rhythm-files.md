@@ -29,7 +29,7 @@ If you add or remove **rhythm files** in the **user directory for rhythm files**
 In order to avoid having too many files cluttering the **User directory for rhythm files**, the recommended way is:
 
 1.  **Test the rhythm files**\
-    ****In the **rhythm selection dialog**, use the **Add Rhythms** button to load additional rhythm files for the current session only. These files can be anywhere on your hard drive.\
+    In the **rhythm selection dialog**, use the **Add Rhythms** button to load additional rhythm files for the current session only. These files can be anywhere on your hard drive.\
     \
     &#x20;<img src="../.gitbook/assets/addrhythmsbutton.png" alt="" data-size="original">&#x20;
 
@@ -37,7 +37,7 @@ In order to avoid having too many files cluttering the **User directory for rhyt
     Standard [Yamaha styles ](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)(.sty, .prs, .sst or .bcs) should appear in the **YamJJazz standard styles**, and [extended Yamaha styles](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) (.yjz) should appear in the **YamJJazz extended styles**. \
 
 2. **Copy the validated rhythm files**\
-   ****Once you have selected the “best” rhythm files, copy them somewhere in the **User Directory for Rhythm Files** (see above).\
+   Once you have selected the “best” rhythm files, copy them somewhere in the **User Directory for Rhythm Files** (see above).\
 
 3. **Force a Rescan from Options/Rhythms**
 

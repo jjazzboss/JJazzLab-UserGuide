@@ -72,15 +72,15 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 
 * **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
 * **Intensity:**  most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
-* **Drums fill**: JJazzLab will add a drums fill on the last bar of the song part.
-* **Mute**: mute one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
+* **Drums Fill**: defines when a drums fill (or break) should be played on the last bar of the song part.
+* **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
 * **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
-* **Tempo factor**: slow down or accelerate the tempo of the song part.
-* **Drums transform**: change some drums notes of the song part. For example you can make the hi-hat louder, or change the closed hi-hat notes into ride cymbal notes.
+* **Tempo factor**: slows down or accelerates the tempo of the song part.
+* **Drums transform**: changes some drums notes of the song part. For example you can make the hi-hat louder, or change the closed hi-hat notes into ride cymbal notes.
 
 ![](../.gitbook/assets/DrumsTransform.png)
 
-*   **Custom phrase**: replace one or more instrument phrases of the song part.&#x20;
+*   **Custom phrase**: replaces one or more instrument phrases of the song part.&#x20;
 
     To import your custom phrase, you can drag & drop a Midi file in the Custom phrase editor shown below, or use your external Midi editor via the **Customize** button.
 
