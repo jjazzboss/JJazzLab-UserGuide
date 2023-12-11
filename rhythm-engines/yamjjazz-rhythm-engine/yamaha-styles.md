@@ -14,7 +14,7 @@ Most of the time the variations have the following organisation:
 * _Ending B_: 2-bar ending with a fixed chord sequence (i.e. your ending should contain only one initial chord)
 * _Ending C_: same than B but with 4 bars
 
-You will also find _Fill In AA_, _Fill In BB, Fill In CC, Fill In DD, Fill In BA_ variations, which corresponds to 1-bar transitions, usually with a drums fill or break. You normally don't have to use them directly because JJazzLab does it automatically at the end of each section, depending on the value of the drums **Fill** rhythm parameter.
+You will also find _Fill In AA_, _Fill In BB, Fill In CC, Fill In DD, Fill In BA_ variations, which correspond to 1-bar transitions, usually with a drums fill or break. You normally don't have to use them directly because JJazzLab does it automatically at the end of each section, depending on the value of the drums **Fill** rhythm parameter.
 
 Each variation can use tracks of the following types:
 
