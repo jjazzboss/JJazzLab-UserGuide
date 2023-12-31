@@ -5,8 +5,11 @@ Use the **chord leadsheet editor** to:
 * Add chord symbols, eg **Cm6, Ab7**
 * Add sections, eg **A, B, verse, chorus,** ...
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
+* Add bar annotations (for lyrics etc.)
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption><p>Bar annotations</p></figcaption></figure>
 
 ## Chord symbols
 
