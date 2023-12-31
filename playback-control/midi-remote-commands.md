@@ -4,9 +4,9 @@ If you have a Midi controller connected to your computer, you can use it to cont
 
 For example you can start/pause the playback, or skip to the next song part, just by pressing a note on your piano keyboard.
 
-![](../.gitbook/assets/OptionsMidiIn.png)
+![](<../.gitbook/assets/2023-12-31 21\_29\_45-Options.png>)
 
-Remote control via Midi IN is configured from the **Midi** panel of the **Options/Preferences**, as shown abobe.
+Remote control via Midi IN is configured from the **Midi IN** panel of the **Options/Preferences**, as shown above.
 
 By default each command is configured to be triggered by a specific incoming note. For example receiving a C1 note (Midi pitch=24) will trigger the play/pause command.&#x20;
 
