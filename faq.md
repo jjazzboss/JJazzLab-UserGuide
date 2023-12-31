@@ -31,27 +31,11 @@ Yes, but not directly because JJazzLab can not host VST plugins.&#x20;
 2. In JJazzLab, go to **Midi options** and set the **Midi out device** to **loopMIDI**
 3. In your VST Host software, set the **Midi in device** to **loopMidi** and make sure the VST Host and the VST plugins are configured so that all Midi channels (1-16) are received.
 4. Play a song in JJazzLab: you should hear the VST instruments
+5. If you don't want to select the VST sounds directly from JJazzLab, you might want to _Disable all Midi parameters_ from the Midi menu in the Mix Console.
 
 ## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="#generate-mp3" id="generate-mp3"></a>
 
-{% tabs %}
-{% tab title="Windows" %}
-It's easy if you use **VirtualMidiSynth** with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/):
-
-1. in JJazzLab, save the backing tracks as a .mid file using menu **File/Export to Midi file**
-2. open **VirtualMIDISynth** (right-click from the icon in the Windows system tray) and select the **MIDI converter**. Select the .mid file and generate the audio file.
-
-You can also use a screen recorder software: some of them directly capture the output of the computer sound card and save it to a .mp3 file.
-{% endtab %}
-
-{% tab title="Linux" %}
-Use the **FluidSynth -F** option to generate a .wav file.
-{% endtab %}
-
-{% tab title="VST Instruments" %}
-Use the VST host (Cubase, Reaper, etc.) capabilities to record the output of the VST instruments.
-{% endtab %}
-{% endtabs %}
+From JJazzLab 4, just use menu File/Export to audio.
 
 ## How to force a clean re-installation?
 
@@ -67,44 +51,22 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 ## How to get better sounds?
 
+From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab.
+
+To get the best sounds, you'll need to use VST/AU plugins, see question above.
+
 {% hint style="warning" %}
-May 2021 update: the new free version of Halion Sonic SE from Steinberg can be used with JJazzLab to get **really good** sounding backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
+There is a free version of Halion Sonic SE from Steinberg which can be used with JJazzLab to get **really good** **sounding** backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
 {% endhint %}
-
-You need a _good synthesizer_ connected to the output of JJazzLab. But what means _good synthesizer_ when we talk about backing track generation? There are 3 main factors to take into account:
-
-1. **Individual sound quality** (sounds for drums, bass, piano, ...)
-2. **Overall sound mix**  (how the different instruments fit together)
-3. **Effects** (overall and per-instrument effects)
-
-{% hint style="info" %}
-Experience shows that factors 2. and 3. can be as much important as factor 1.
-{% endhint %}
-
-2 other factors can also impact the backing track rendering :
-
-* **Drums XG compatibility**: many Yamaha styles use specific XG drum/percussion sounds, e.g. jazz brushes, etc.
-* **Correct Output Synth configuration in JJazzLab**: Yamaha styles define a preferred instrument (e.g. synth bass) for each channel. If the Output Synth configuration is wrong, JJazzLab can't select the optimal instrument for each channel (e.g. use a piano sound instead of a synth bass).
-
-Below are some typical configurations.
-
-| Output Synth                          | Sound Quality | Comments                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Java Internal Synth with default bank | Low           | Works out of the box. Considering the super small size of the default sound bank, the overall sound balance is quite good actually.                                                                                                                                                                                                                                                                                                    |
-| GM SoundFonts                         | Low-Medium    | Difficult to find a well-balanced SoundFont, e.g. you get a nice piano but the bass sucks, etc. No individual effect per instrument. No XG compatibility.                                                                                                                                                                                                                                                                              |
-| JJazzLab SoundFont                    | Medium        | Tested on many Yamaha styles. XG compatible, plus a few additional sounds and drum kits. There is an Output Synth configuration preset for a quick setup. No individual effect per instrument.                                                                                                                                                                                                                                         |
-| Hardware synthesizer                  | Very good     | In GM mode the mix between individual sounds is usually very good out of the box. Each individual sound can have its own effects (e.g. distortion for guitar, etc.), this has a big impact on the overall rendering. If you find a Cakewalk instrument definition file (.ins) on the web for your synth, you can control it directly from JJazzLab.                                                                                    |
-| Software synthesizers                 | Best          | Usually no GM compatibility. Need some effort for the initial set up : virtual Midi device + VST host, select each instrument sound, adjust mix from VST host, ... Each individual sound can have its own effects (e.g. distortion for guitar, etc.), this has a big impact on the overall rendering. Unless you created your own Cakewalk instrument definition file (.ins), you'll need to adjust your setup when you change rhythm. |
-
-Also, when a rhythm does not sound good, you'd be surprised how you can improve things just by trying different instruments and adjusting the mix (volume, effect, panoramic, velocity shift).
-
-If you want to fully customize a backing track, you may simply export to a Midi file, then import the Midi file into your preferred DAW for advanced customization.
-
-For additional information visit the [Midi configuration](configuration/midi-configuration.md) pages.
 
 ## I have a Yamaha arranger keyboard (Tyros, PSR, ...), how can I use it with JJazzLab?
 
-JJazzLab can drive your keyboard to benefit from its optimized sounds. Connect your keyboard via Midi and go to the [**Output synth editor**](configuration/output-synth.md#output-synth-editor) and apply the **Yamaha Tyros** preset. This preset is based on Tyros5 which is backwards compatible with previous Tyros models and most of the PSR keyboards.
+JJazzLab can drive your keyboard to benefit from its optimized sounds.&#x20;
+
+* Connect your keyboard via Midi
+* Go to the Midi Out tab of Options/Preferences
+* Select the Midi output connected to your synth
+* In the Output Synth part, select **Add synth from file.**.., and choose **YamahaRefSynth.ins**.
 
 ## How to make fonts bigger? <a href="#font-bigger" id="font-bigger"></a>
 

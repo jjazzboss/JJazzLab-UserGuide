@@ -7,7 +7,7 @@ When you save a song called **mySong**, JJazzLab actually saves 2 different file
 
 Why using 2 different files ?
 
-Because the mix information is specific to your [output synth](../configuration/output-synth.md). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
+Because the mix information is specific to your [output synth](../sounds/output-synth.md). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
 
 When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
 

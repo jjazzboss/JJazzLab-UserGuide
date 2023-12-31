@@ -10,7 +10,7 @@ Most Yamaha styles use the [XG drum map](https://www.jjazzlab.com/images/doc/XG-
 
 ## Download <a href="#high-quality-sounds" id="high-quality-sounds"></a>
 
-****:open\_file\_folder: Download [JJazzLab-SoundFont.sf2](https://musical-artifacts.com/artifacts/1036) (from Musical Artefacts web site).
+:open\_file\_folder: Download [JJazzLab-SoundFont.sf2](https://musical-artifacts.com/artifacts/1036) (from Musical Artefacts web site).
 
 ## Setup
 

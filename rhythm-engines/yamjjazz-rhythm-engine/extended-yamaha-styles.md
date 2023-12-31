@@ -1,6 +1,6 @@
 # Extended Yamaha styles
 
-The [YamJJazz rhythm engine](./) **** can read **** a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+The [YamJJazz rhythm engine](./) can read a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
 
 .yjz file can also be used to simply modify the music of an existing Yamaha style, as show in the example below.
 

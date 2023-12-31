@@ -1,16 +1,14 @@
 # Installation
 
+Download files are available at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download).
+
 ## Windows instructions
 
-Download and run the setup program.&#x20;
+Download and run the setup program, which embeds everything you need.
 
 {% hint style="info" %}
 If you don't have admin. rights on your computer, choose **Install for me only** during setup
 {% endhint %}
-
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
-
-:arrow\_right: If you need step-by-step installation instructions, check out the [installation video tutorial](video-tutorials.md#installation-windows-only).
 
 {% hint style="warning" %}
 If you get a **Windows Smart Screen** alert
@@ -24,23 +22,11 @@ Once enough users will have successfully downloaded and installed it, Windows Sm
 You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
 {% endhint %}
 
-
-
-## Linux instructions
-
-Unzip the package.&#x20;
-
-Start JJazzLab using **bin/jjazzlab** in the installation directory.&#x20;
-
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
-
-{% hint style="success" %}
-If you use Arch or Manjaro Linux, there is JJazzLab installation package available : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    (thanks to jypma!)&#x20;
-{% endhint %}
-
 ## MacOS instructions
 
-Unzip the package and open it to start JJazzLab.&#x20;
+You must first install FluidSynth (I recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
+
+Then download and open the appropriate package.
 
 {% hint style="warning" %}
 If you get a **security alert**
@@ -48,8 +34,18 @@ If you get a **security alert**
 Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**, this will give you the choice to open the application in spite of the security alert.
 {% endhint %}
 
-We recommend to use JJazzLab with the [JJazzLab SoundFont](configuration/jjazzlab-soundfont/).
-
 {% hint style="warning" %}
 There is a known bug on MacOS: sometimes, after the computer wakes up from sleep mode, the audio can lag 2 or 3 seconds behind. This is due to a JDK problem, JJazzLab can't do anything.
+{% endhint %}
+
+
+
+## Linux instructions
+
+Download and open the package for your Linux distro.&#x20;
+
+All JJazzLab packages embed the JJazzLabSoundFont.sf2 and depend on FluidSynth (>=2.1). If you use the .zip package (which can not declare dependencies), you must first install yourselft FluidSynth: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).
+
+{% hint style="warning" %}
+If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
 {% endhint %}

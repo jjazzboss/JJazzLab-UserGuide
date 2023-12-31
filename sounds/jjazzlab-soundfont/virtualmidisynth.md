@@ -16,14 +16,14 @@ VirtualMIDISynth can also convert Midi files to .mp3. This way you can easily ge
    Accept all installer default settings.\
 
 3. Load the Soundfont in **VirtualMIDISynth**\
-   ****<img src="../../.gitbook/assets/vms-loadsoundfont.png" alt="" data-size="original"> \
-   ****Click on the pen icon if you need to adjust the default volume (0-500%) of the SoundFont. \
+   <img src="../../.gitbook/assets/vms-loadsoundfont.png" alt="" data-size="original"> \
+   Click on the pen icon if you need to adjust the default volume (0-500%) of the SoundFont. \
 
 4. Start JJazzLab and go to **Options/Midi**, set **VirtualMIDISynth** as the **Midi OUT device**    \
    &#x20;<img src="../../.gitbook/assets/vms-setmididevice.png" alt="" data-size="original"> \
 
 5. Go to the [output synth](../output-synth.md) editor and apply the preset **VirtualMIDISynth**\
-   ****<img src="../../.gitbook/assets/outputsynth-presetvms.png" alt="" data-size="original"> ****&#x20;
+   <img src="../../.gitbook/assets/outputsynth-presetvms.png" alt="" data-size="original">&#x20;
 
 {% hint style="info" %}
 On Windows the [Midi configuration wizard](../midi-configuration.md#midi-configuration-wizard) will automatically perform steps 4 (if VirtualMIDISynth is installed) and 5 if you choose to use the JJazzLab SoundFont.

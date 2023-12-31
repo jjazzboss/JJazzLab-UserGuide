@@ -53,8 +53,8 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
    <img src="../../.gitbook/assets/qsynth-audiosettings.png" alt="" data-size="original">\
 
 6.  Connect the virtual port to **FluidSynth**\
-    ****\
-    ****You should see a new port, like in the example below:
+    \
+    You should see a new port, like in the example below:
 
     ```
     $ aconnect -lo
@@ -79,8 +79,8 @@ FluidSynth can redirect its output as a .wav file. This can be used to get a JJa
    <img src="../../.gitbook/assets/fluidsynth-setmididevice.png" alt="" data-size="original">\
 
 8. Go to the [output synth](../output-synth.md) editor and apply the preset **FluidSynth**\
-   ****\
-   ****<img src="../../.gitbook/assets/outputsynth-presetfluidsynth.png" alt="" data-size="original">
+   \
+   <img src="../../.gitbook/assets/outputsynth-presetfluidsynth.png" alt="" data-size="original">
 
 {% hint style="info" %}
 The start of FluidSynth with the virtual Midi port can be automated via a shell script.

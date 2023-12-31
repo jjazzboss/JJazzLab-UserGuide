@@ -1,0 +1,15 @@
+---
+description: The JJazzLab built-in synth.
+---
+
+# Using FluidSynth
+
+It's a **ready-to-use** synth **optimally configured** for JJazzLab, which is enabled by default.
+
+<figure><img src="../.gitbook/assets/2023-12-31 18_22_57-Options.png" alt=""><figcaption></figcaption></figure>
+
+You can adjust FlulidSynth settings and its default instruments.
+
+<figure><img src="../.gitbook/assets/2023-12-31 18_23_29-FluidSynth settings.png" alt=""><figcaption></figcaption></figure>
+
+FluidSynth is an open-source project: [https://www.fluidsynth.org](https://www.fluidsynth.org/).

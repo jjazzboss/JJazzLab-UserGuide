@@ -5,14 +5,15 @@
 * [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
 
-## Configuration
+## Sounds
 
-* [Midi configuration](configuration/midi-configuration.md)
-* [JJazzLab SoundFont](configuration/jjazzlab-soundfont/README.md)
-  * [VirtualMIDISynth (Win)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
-  * [FluidSynth (Linux/Mac)](configuration/jjazzlab-soundfont/fluidsynth.md)
-  * [Java internal synth](configuration/jjazzlab-soundfont/java-internal-synth.md)
-* [Output synth](configuration/output-synth.md)
+* [Using FluidSynth](sounds/using-fluidsynth.md)
+* [Midi configuration](sounds/midi-configuration.md)
+* [JJazzLab SoundFont](sounds/jjazzlab-soundfont/README.md)
+  * [VirtualMIDISynth (Win)](sounds/jjazzlab-soundfont/virtualmidisynth.md)
+  * [FluidSynth (Linux/Mac)](sounds/jjazzlab-soundfont/fluidsynth.md)
+  * [Java internal synth](sounds/jjazzlab-soundfont/java-internal-synth.md)
+* [Output synth](sounds/output-synth.md)
 
 ## Playback control
 
