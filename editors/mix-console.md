@@ -9,7 +9,7 @@ Use the **mix console** to:
 * Load/save .mix file
 * And more: change Midi channel, use special Midi commands, export to Midi file, etc.
 
-JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](../sounds/output-synth.md). This is done each time you make a change in the mix console, or when you start the playback.
+JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](broken-reference). This is done each time you make a change in the mix console, or when you start the playback.
 
 {% hint style="danger" %}
 Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
@@ -69,11 +69,11 @@ Use the channel settings to:
 
 *   **Disable sending specific Midi messages** &#x20;
 
-    Probably because you control the parameter yourself directly on the [output synth](../sounds/output-synth.md).\
+    Probably because you control the parameter yourself directly on the [output synth](broken-reference).\
 
 *   **Enable a drums channel with a Midi channel different than 10**
 
-    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](../sounds/output-synth.md) information, potential issues. \
+    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](broken-reference) information, potential issues. \
     \
 
 
@@ -102,7 +102,7 @@ A User track has a specific graphic extension as shown below, which is used to r
 When track is created you can select an instrument to be played like for any track.
 
 {% hint style="warning" %}
-If you select a drums or percussion instrument _and_ your [Output synth](../sounds/output-synth.md) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
+If you select a drums or percussion instrument _and_ your [Output synth](broken-reference) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
 #### Edit Midi content

@@ -8,12 +8,7 @@
 ## Sounds
 
 * [Using FluidSynth](sounds/using-fluidsynth.md)
-* [Midi configuration](sounds/midi-configuration.md)
-* [JJazzLab SoundFont](sounds/jjazzlab-soundfont/README.md)
-  * [VirtualMIDISynth (Win)](sounds/jjazzlab-soundfont/virtualmidisynth.md)
-  * [FluidSynth (Linux/Mac)](sounds/jjazzlab-soundfont/fluidsynth.md)
-  * [Java internal synth](sounds/jjazzlab-soundfont/java-internal-synth.md)
-* [Output synth](sounds/output-synth.md)
+* [Other synths](sounds/other-synths.md)
 
 ## Playback control
 

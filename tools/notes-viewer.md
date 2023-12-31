@@ -31,5 +31,5 @@ This will display the notes of a selected instrument of the backing track in rea
 ![](<../.gitbook/assets/2021-12-13 21\_25\_23-JJazzLab.png>)
 
 {% hint style="warning" %}
-If notes are visually out of sync with the sounds, adjust the **audio latency** in the Advanced tab of the [Output Synth Editor](../sounds/output-synth.md#output-synth-editor).
+If notes are visually out of sync with the sounds, adjust the **audio latency** in the Advanced tab of the [Output Synth Editor](broken-reference).
 {% endhint %}
