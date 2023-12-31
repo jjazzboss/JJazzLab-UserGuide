@@ -24,7 +24,7 @@ The import is limited to the time signatures and chord symbols.
 
 ## .CSV files
 
-JJazzLab can read chords from .csv files.&#x20;
+JJazzLab can read chords from .csv (text) files.&#x20;
 
 There are 2 possible formats to specify a chord symbol, TIME-BASED or BEAT-BASED.
 
@@ -53,8 +53,8 @@ Example:\
 OTHER FORMAT INFORMATION
 
 * Use // to add comments
-* "title=My song name" : if specified the created song will use this title as name
-* "useBase1" : if specified the bar/beat positions start at 1
+* "`title=My song name`" : if specified the created song will use this title as name
+* "`useBase1`" : if specified the bar/beat positions start at 1 instead of 0
 * Accepted delimiter characters are , ; or space or tab
 
 ## Impro-Visor leadsheet files
