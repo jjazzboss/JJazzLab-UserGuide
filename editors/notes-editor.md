@@ -2,7 +2,9 @@
 
 JJazzLab embeds a Midi notes editor, which can be used to edit user tracks or song part custom phrases (see the Custom phrase rhythm parameter).
 
-<figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums tra</p></figcaption></figure>
 
 ## Zooming
 
@@ -18,11 +20,13 @@ Use the **Snap to grid** button to snap notes to the grid. The size of the grid 
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_20_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
 When you move or resize notes with the **Select tool**, you can temporarily reverse the "snap to grid" setting by pressing **alt**.
+{% endhint %}
 
 ## Edit tools
 
-You can use 3 tools to change notes: **select notes**, **draw notes**, **erase notes**.&#x20;
+You can use 3 tools to modify notes: **select tool**, **draw tool**, **erase tool**.&#x20;
 
 Tools can be selected using buttons from the notes editor top toolbar, or by right-clicking in the editor:
 
@@ -36,28 +40,9 @@ Use the select tool to select, move, resize, copy, delete notes. Drag to select 
 
 #### Changing notes velocity
 
-First select the notes to change.
-
-Then either use the velocity spinner in the toolbar, or use **alt + mouse-wheel** or **alt + page up/down**.
+First select the notes to change. Then either use the velocity spinner in the toolbar, or use **alt + mouse-wheel** or **alt + page up/down**.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
-
-
-
-| Key          | Action                 |
-| ------------ | ---------------------- |
-| enter        | edit song part name    |
-| R            | select rhythm          |
-| I            | insert song part       |
-| ctrl-I       | append song part       |
-| D            | duplicate song part(s) |
-| delete       | delete song part(s)    |
-| ctrl-up/down | next/previous value    |
-| Z            | reset param. value     |
-| ctrl-C/X/V   | copy/cut/paste         |
-| ctrl-Z/Y     | undo/redo              |
-| ctrl-F       | zoom to fit width      |
-| V            | compact or full view   |
 
 #### Importing notes
 
