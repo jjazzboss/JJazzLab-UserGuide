@@ -6,6 +6,10 @@ description: Connecting JJazzLab to other synths via Midi.
 
 If you don't want to use the built-in FluidSynth, you will need to do some Midi Configuration.
 
+{% hint style="warning" %}
+In general we recommend to use FluidSynth: no setup and decent sounds. But you might prefer to connect JJazzLab to a hardware or VST synth (the latter via a virtual Midi cable such as LoopMidi for Windows).
+{% endhint %}
+
 ![Connecting a Midi synth to JJazzLab](<../.gitbook/assets/MidiWizard-image1 (1).png>)
 
 In the **Midi** tab of the **Options/Preferences :**

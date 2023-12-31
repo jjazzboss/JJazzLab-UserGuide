@@ -4,7 +4,9 @@ description: The JJazzLab built-in synth.
 
 # Using FluidSynth
 
-It's a **ready-to-use** synth **optimally configured** for JJazzLab, which is enabled by default.
+It's a **ready-to-use** synth **optimally configured** for JJazzLab.&#x20;
+
+FluidSynth should be enabled by default when you first launch JJazzLab.
 
 <figure><img src="../.gitbook/assets/2023-12-31 18_22_57-Options.png" alt=""><figcaption></figcaption></figure>
 
