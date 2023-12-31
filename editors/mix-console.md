@@ -9,13 +9,13 @@ Use the **mix console** to:
 * Load/save .mix file
 * And more: change Midi channel, use special Midi commands, export to Midi file, etc.
 
-JJazzLab uses the **mix console** information to send the relevant Midi messages to the [output synth](broken-reference). This is done each time you make a change in the mix console, or when you start the playback.
+JJazzLab uses the **mix console** information to send the relevant Midi messages to the output synth. This is done each time you make a change in the mix console, or when you start the playback.
 
 {% hint style="danger" %}
 Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
 {% endhint %}
 
-![](../.gitbook/assets/MixConsole3.png)
+![](<../.gitbook/assets/2023-12-31 21\_37\_13-JJazzLab  4.0.2.png>)
 
 ## Mix console toolbar
 
@@ -89,41 +89,31 @@ Each Midi channel can be changed manually, just click on the channel number.
 
 A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
 
-#### Add a User track
+#### Adding user tracks
 
-Add one or more user tracks using the Add user track button.
+Add one or more user tracks using the Add user track button:
 
-<figure><img src="../.gitbook/assets/AddUserTrackButton.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Add user track button</p></figcaption></figure>
 
-A User track has a specific graphic extension as shown below, which is used to rename or remove the user track, but most importantly is used to update its Midi content.
+You can also clone a rhythm track as a new user track, using the + sign in the track overview, as shown below. The original rhythm track will be automatically muted.
 
-![](../.gitbook/assets/UserTrack.png)
-
-When track is created you can select an instrument to be played like for any track.
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you select a drums or percussion instrument _and_ your [Output synth](broken-reference) is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
+If you select a drums or percussion instrument for the user track, _and_ your output synth is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
-#### Edit Midi content
+#### Edit user track
 
-To add Midi notes to a user track, you can either **drag & drop** a Midi file in the rectangle area, or use the **Edit via external Midi editor** button in the lower left corner.&#x20;
+Edit the user track by clicking on the upper left icon in the user track overview component, as shown below:
 
-When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can add notes for your user track.
-
-{% hint style="danger" %}
-JJazzLab only import the notes which match the user track Midi channel. **Notes from other Midi channels are ignored.**
-
-For example, in the image above, the user track channel is 1, so when you use your Midi editor/DAW to add user track notes, make sure they have the channel 1.
-{% endhint %}
-
-**Edit via external Midi editor** requires that you have set an external Midi editor in the **General** panel of the **Options/Preferences**. If you don't have one, we recommend **MidiEditor** for Windows, it's free, open-source and lightweight. &#x20;
+<figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
 ## Export to Midi file with mouse drag & drop
 
-You can export the full backing track to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
+You can export the **full backing track** to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
 
-To export a single track, start the mouse-drag from a track icon.
+To export a **single track**, start the mouse-drag from the track icon or track overview component.
 
 ![Export a single track with mouse drag & drop](../.gitbook/assets/MixConsoleDragTrack.png)
 
