@@ -12,7 +12,7 @@ description: Frequently Asked Questions
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel
 * Spread the word ! Talk and add links to **www.jjazzlab.com** on social networks, blogs, websites, etc.
-* If you're a developer, [contribute code](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
+* If you're a developer, contribute code on [GitHub](https://github.com/jjazzboss/JJazzLab).
 
 ## I use MacOS, I can't find menu **Tools/Options?**
 
