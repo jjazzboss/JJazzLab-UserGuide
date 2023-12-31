@@ -51,9 +51,9 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 ## How to get better sounds?
 
-From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab.
+From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with quite decent sounds.
 
-To get the best sounds, you'll need to use VST/AU plugins, see question above.
+To get even better sounds, you'll need to use a hardware synth or VST/AU plugins, see question above.
 
 {% hint style="warning" %}
 There is a free version of Halion Sonic SE from Steinberg which can be used with JJazzLab to get **really good** **sounding** backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
