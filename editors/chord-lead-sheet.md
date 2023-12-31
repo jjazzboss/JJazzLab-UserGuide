@@ -9,8 +9,6 @@ Use the **chord leadsheet editor** to:
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-<figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption><p>Bar annotations</p></figcaption></figure>
-
 ## Chord symbols
 
 ### Input
@@ -144,6 +142,18 @@ Select a bar with a section defined or select the section itself, right-click me
 &#x20; This will result in the display below.&#x20;
 
 ![](../.gitbook/assets/forcesectionnewline2.png)
+
+## Bar annotations / lyrics
+
+You can add annotations to any bar.&#x20;
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
+
+When annotations are hidden, bar with annotations are marked with a post-it (tooltip shows the annotation text).
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+If an annotation should vary&#x20;
 
 ## Mouse shortcuts
 

@@ -37,6 +37,7 @@
 
 * [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
 * [Notes viewer](tools/notes-viewer.md)
+* [Easy Reader](tools/easy-reader.md)
 * [Improvisation help](tools/improvisation-help.md)
 
 ## Rhythm engines
