@@ -1,6 +1,6 @@
-# Notes viewer
+# Chord inspector
 
-Use the Notes viewer to see notes of the selected chord symbol or real-time notes from the backing track.
+Use the Chord inspector to see notes (and possibly associated scales) of the selected chord symbol .
 
 ## View notes from a chord symbol
 
@@ -23,13 +23,3 @@ The red dot represents tonic notes (for ex. G for Gm69).
 By clicking on the button you can switch between different types of positions : _most common, open voiced, close voiced, inversions_.
 
 ![Open voiced diagrams for the Gm69 chord](<../.gitbook/assets/2021-12-13 20\_35\_59-JJazzLab.png>)
-
-## View backing track notes in real-time
-
-This will display the notes of a selected instrument of the backing track in real-time.
-
-![](<../.gitbook/assets/2021-12-13 21\_25\_23-JJazzLab.png>)
-
-{% hint style="warning" %}
-If notes are visually out of sync with the sounds, adjust the **audio latency** in the Advanced tab of the [Output Synth Editor](broken-reference).
-{% endhint %}
