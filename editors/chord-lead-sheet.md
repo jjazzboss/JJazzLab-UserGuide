@@ -153,7 +153,13 @@ When annotations are hidden, bar with annotations are marked with a post-it (too
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-If an annotation should vary&#x20;
+#### Special # syntax
+
+Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [easy-reader.md](../tools/easy-reader.md "mention")displays only the relevant line.
+
+<figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+In the example above, the Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
 
 ## Mouse shortcuts
 
