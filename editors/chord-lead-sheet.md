@@ -153,7 +153,7 @@ When annotations are hidden, bar with annotations are marked with a post-it (too
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-#### Special # syntax
+#### Special # syntax for Easy Reader
 
 Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [easy-reader.md](../tools/easy-reader.md "mention")displays only the relevant line.
 
