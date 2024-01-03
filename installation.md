@@ -1,5 +1,9 @@
 # インストール
 
+{% hint style="danger" %}
+!!! **THIS PAGE IS OUT OF DATE, IT SHOULD BE UPDATED FOR JJAZLAB 4 !!!**
+{% endhint %}
+
 ## Windowsでの説明
 
 セットアッププログラムをダウンロードして起動してください。&#x20;
