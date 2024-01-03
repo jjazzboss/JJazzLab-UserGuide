@@ -196,4 +196,5 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | chord symbol, section      | ctrl-A          | select all in section, then in lead sheet |
 | bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
 | editor                     | ctrl-Z/Y        | undo/redo                                 |
+| editor                     | ctrl-L          | Show/hide bar annotations                 |
 | editor                     | ctrl-W          | close song                                |
