@@ -1,5 +1,9 @@
 # JJazzLab
 
+{% hint style="danger" %}
+**!! The japanese documentation might not be updated with the latest version JJazzLab 4 !!**
+{% endhint %}
+
 {% hint style="info" %}
 文章に追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
 {% endhint %}
