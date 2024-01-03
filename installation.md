@@ -62,5 +62,5 @@ If FluidSynth is not available when you run JJazzLab, it means that JJazzLab was
 {% endhint %}
 
 {% hint style="danger" %}
-JJazzLab embeds its own Java Runtime. You don't have to deal with Java at all. Trying to use a different Java runtime will certainly generate problems.
+JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
 {% endhint %}
