@@ -8,7 +8,7 @@
 管理者権限がない場合は、 **Install for me only** をセットアップ中に選んでください。
 {% endhint %}
 
-JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
+JJazzLabは、[JJazzLab サウンドフォント](broken-reference)の使用を推奨します。
 
 :arrow\_right:インストールの段階的な手順が必要なら、[ビデオチュートリアル](video-tutorials.md)をご覧ください。
 
@@ -30,7 +30,7 @@ Windows Smart Screenがプログラムをブロックするのは、JJazzLabが�
 
 インストールディレクトリにある **bin/jjazzlab** を使ってJJazzLabを起動します。
 
-JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
+JJazzLabは、[JJazzLab サウンドフォント](broken-reference)の使用を推奨します。
 
 {% hint style="success" %}
 ArchまたはManjaro Linuxをお使いの場合は、JJazzLabのインストールパッケージが用意されています : [https://aur.archlinux.org/packages/jjazzlab-x-bin/](https://aur.archlinux.org/packages/jjazzlab-x-bin/)    （ありがとう、jypma！）&#x20;
@@ -46,7 +46,7 @@ ArchまたはManjaro Linuxをお使いの場合は、JJazzLabのインストー�
 その場合、**Finder** を使ってJJazzLabパッケージを選択し、**ctrl+** **メニュークリック**, **開く**で、セキュリティアラートが出ていてもアプリケーションを開くことができるようになります。
 {% endhint %}
 
-JJazzLabは、[JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/)の使用を推奨します。
+JJazzLabは、[JJazzLab サウンドフォント](broken-reference)の使用を推奨します。
 
 {% hint style="warning" %}
 MacOSには既知のバグがあります。コンピュータがスリープモードから起動した後に、オーディオが2～3秒遅れて再生されることがあります。これはJDKの問題によるもので、JJazzLabでは何もできません。

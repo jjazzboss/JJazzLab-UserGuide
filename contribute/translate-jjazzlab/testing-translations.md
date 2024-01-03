@@ -7,7 +7,7 @@
 ### JJazzLab-XコードのソースプロジェクトをGitHubから取得する
 
 1. メニューで**Team→Git→Clone**と進みます。
-2. リポジトリアドレスを**https://github.com/jjazzboss/JJazzLab-X.git**と入力します。 ****&#x20;
+2. リポジトリアドレスを**https://github.com/jjazzboss/JJazzLab-X.git**と入力します。&#x20;
 3. ユーザーとパスワードは空白のままにしておいてください。
 4. **Next**を押して**l10n\_master** (l10n とは "localization"の意味)ブランチ「だけ」を選択してください。
 5. Netbeans が**JJazzLab-X**プロジェクトをクローンファイルから開きます。

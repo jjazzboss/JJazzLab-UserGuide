@@ -36,7 +36,7 @@ MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**か
 
 {% tabs %}
 {% tab title="Windows" %}
-もし、**VirtualMidiSynth** で[JJazzLabサウンドフォント](configuration/jjazzlab-soundfont/)を鳴らしているなら簡単です：
+もし、**VirtualMidiSynth** で[JJazzLabサウンドフォント](broken-reference)を鳴らしているなら簡単です：
 
 1. JJazzLabで、伴奏トラックを **File→Export to Midi file**を使って.midファイルで保存します。
 2. 次に**VirtualMIDISynth** を起動(Windowsのシステムトレイにあるアイコンを右クリック)し、MIDIファイルを変換( **MIDI converter**)を選択します。.midファイルを選ぶとオーディオファイルが生成されます。
@@ -104,7 +104,7 @@ JJazzLabの出力には、_良いシンセサイザー_が必要です。では�
 
 ## ヤマハのアレンジャー・キーボード(Tyros, PSR, ...)を持っていますが、どうやればJJazzLabと一緒に使うことができますか？
 
-JJazzLabはあなたのキーボードをドライブして、その最適化されたサウンドを利用することができます。キーボードをMidiで接続し、 [**シンセ出力エディター**](configuration/output-synth.md) で **ヤマハ Tyros** プリセットを適用します。このプリセットはTyros5をベースにしており、以前のTyrosモデルやほとんどのPSRキーボードとの下位互換性があります。
+JJazzLabはあなたのキーボードをドライブして、その最適化されたサウンドを利用することができます。キーボードをMidiで接続し、 [**シンセ出力エディター**](broken-reference) で **ヤマハ Tyros** プリセットを適用します。このプリセットはTyros5をベースにしており、以前のTyrosモデルやほとんどのPSRキーボードとの下位互換性があります。
 
 ## フォントを大きくするにはどうしたらよいですか？ <a href="#font-bigger" id="font-bigger"></a>
 

@@ -29,7 +29,7 @@ JJazzLab  はリズムファイルを **リズムファイル用のユーザー�
 あまりに多数のファイルが**リズムファイル用のユーザーディレクトリ**に増えすぎないようにするには、以下の方法を推奨します：
 
 1.  **リズムファイルのテスト**\
-    **** まず、**リズム選択ダイアログ(rhythm selection dialog)**で**リズム追加(Add Rhythms)**を使って、現在のセッションのためだけに追加のリズムファイルをロードします。これらのファイルは、ハードディスクのどこにあってもかまいません。\
+    &#x20;まず、**リズム選択ダイアログ(rhythm selection dialog)**で**リズム追加(Add Rhythms)**を使って、現在のセッションのためだけに追加のリズムファイルをロードします。これらのファイルは、ハードディスクのどこにあってもかまいません。\
     \
     &#x20;<img src="../.gitbook/assets/AddRhythmsButton.png" alt="" data-size="original">&#x20;
 
@@ -37,7 +37,7 @@ JJazzLab  はリズムファイルを **リズムファイル用のユーザー�
     標準的な[ヤマハスタイル](../rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)(.sty、.prs、.sst、.bcs) は、**YamJJazz standard styles**に、[拡張ヤマハスタイル](../rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md) (.yjz) は、**YamJJazz extended styles**に表示されます。\
 
 2. **検証されたリズムファイルをコピーする**\
-   **** 最適なリズムファイルを選んだら、それを**リズムファイル用ユーザーディレクトリ**のどこかにコピーします（上記参照）。\
+   &#x20;最適なリズムファイルを選んだら、それを**リズムファイル用ユーザーディレクトリ**のどこかにコピーします（上記参照）。\
 
 3. **Options/Rhythmsから強制的に再スキャンする**
 

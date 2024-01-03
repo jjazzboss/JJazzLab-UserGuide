@@ -1,14 +1,18 @@
 # MIDI設定
 
+{% hint style="danger" %}
+!!! **THIS PAGE IS OUT OF DATE, IT SHOULD BE UPDATED FOR JJAZLAB 4 !!!**
+{% endhint %}
+
 {% hint style="success" %}
-MIDIでわずらわしいことをしたくない場合は、[JJazzLab サウンドフォント](jjazzlab-soundfont/)を使ってください。
+MIDIでわずらわしいことをしたくない場合は、[JJazzLab サウンドフォント](broken-reference)を使ってください。
 {% endhint %}
 
 ## 概要
 
 ![](<../.gitbook/assets/MidiWizard-image1 (2).png>)
 
-JJazzLabはMIDIアプリケーションです。JJazzLabはオーディオ出力を直接生成するのではなく、MIDIメッセージ（例：「ベースでDを弾いて」）を生成し、 **MIDI出力デバイス** 通して [**シンセ出力**](output-synth.md)に送信します。&#x20;
+JJazzLabはMIDIアプリケーションです。JJazzLabはオーディオ出力を直接生成するのではなく、MIDIメッセージ（例：「ベースでDを弾いて」）を生成し、 **MIDI出力デバイス** 通して [**シンセ出力**](broken-reference)に送信します。&#x20;
 
 **MIDI出力デバイス**は、メニューの **Tools→Options→Midi**で選択できます。
 

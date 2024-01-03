@@ -8,11 +8,6 @@
 ## 設定(コンフィギュレーション) <a href="#configuration" id="configuration"></a>
 
 * [MIDI設定](configuration/midi-configuration.md)
-* [JJazzLab サウンドフォント](configuration/jjazzlab-soundfont/README.md)
-  * [VirtualMIDISynth (Win)](configuration/jjazzlab-soundfont/virtualmidisynth.md)
-  * [FluidSynth (Linux/Mac)](configuration/jjazzlab-soundfont/fluidsynth.md)
-  * [Java内蔵シンセ](configuration/jjazzlab-soundfont/java-internal-synth.md)
-* [シンセ出力](configuration/output-synth.md)
 
 ## 再生コントロール <a href="#playback-control" id="playback-control"></a>
 
