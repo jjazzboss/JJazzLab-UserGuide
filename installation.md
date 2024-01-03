@@ -57,6 +57,10 @@ The .zip package should work on any Linux distro.
 3. Make sure that all extracted files have `read` file permissions for all users, and that `bin/jjazzlab` has execution permission for all users, as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
 4. Run`bin/jjazzlab`
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 JJazzLab embeds its own Java Runtime. You don't have to deal with Java at all. Trying to use a different Java runtime will certainly generate problems.
+{% endhint %}
+
+{% hint style="danger" %}
+If FluidSynth is not available when you run JJazzLab, it means that JJazzLab was not able to locate the FluidSynth shared library on your system. Please report the problem.
 {% endhint %}
