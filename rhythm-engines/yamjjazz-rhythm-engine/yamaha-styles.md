@@ -31,7 +31,7 @@ Each variation can use tracks of the following types:
 
 Yamaha style files are optimized for Yamaha arranger keyboards. The latest models (Tyros, Genos…) has many voices with special features (e.g "Mega Voices"), especially for guitars which are optimized for style rendering.
 
-Other keyboards or SoundFonts (including the JJazzLab SoundFont) can’t reproduce these special voices correctly. That’s why some recent Yamaha style files (SFF2 format) may not sound right with JJazzLab. If this happens locate the faulty channels using the Solo button in the MixConsole, and lower their volume or mute them.
+Other keyboards or synths can’t reproduce these special voices correctly. That’s why some recent Yamaha style files (SFF2 format) may not sound right with JJazzLab. If this happens locate the faulty channels using the Solo button in the MixConsole, and lower their volume or mute them.
 
 ## Limitations <a href="#limitations" id="limitations"></a>
 
