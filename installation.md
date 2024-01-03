@@ -1,13 +1,11 @@
-# Installation
+# Installation instructions
 
-Download files are available at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download).
+## Windows
 
-## Windows instructions
-
-Download and run the setup program, which embeds everything you need.
+Download and run the setup program at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), which embeds everything you need.
 
 {% hint style="info" %}
-If you don't have admin. rights on your computer, choose **Install for me only** during setup
+If you don't have admin rights on your computer, choose **Install for me only** during setup
 {% endhint %}
 
 {% hint style="warning" %}
@@ -22,11 +20,11 @@ Once enough users will have successfully downloaded and installed it, Windows Sm
 You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
 {% endhint %}
 
-## MacOS instructions
+## MacOS
 
-You must first install FluidSynth (I recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
+You must first install FluidSynth manually (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
 
-Then download and open the appropriate package.
+Then download the appropriate package at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download) and open it.
 
 {% hint style="warning" %}
 If you get a **security alert**
@@ -34,18 +32,31 @@ If you get a **security alert**
 Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**, this will give you the choice to open the application in spite of the security alert.
 {% endhint %}
 
-{% hint style="warning" %}
-There is a known bug on MacOS: sometimes, after the computer wakes up from sleep mode, the audio can lag 2 or 3 seconds behind. This is due to a JDK problem, JJazzLab can't do anything.
+## Linux
+
+{% hint style="danger" %}
+If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
 {% endhint %}
 
+#### Using packages
 
+JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 
-## Linux instructions
+Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with your package manager (`apt`, `zypper`, ...).
 
-Download and open the package for your Linux distro.&#x20;
+{% hint style="info" %}
+JJazzLab packages declare a dependency on the FluidSynth (>=2.1) package. So the package manager should automatically install it if it's not already present on your system.
+{% endhint %}
 
-All JJazzLab packages embed the JJazzLabSoundFont.sf2 and depend on FluidSynth (>=2.1). If you use the .zip package (which can not declare dependencies), you must first install yourselft FluidSynth: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).
+#### Using zip package&#x20;
 
-{% hint style="warning" %}
-If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
+The .zip package should work on any Linux distro.
+
+1. &#x20;Install FluidSynth (>=2.1) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
+2. Download and extract the JJazzLab .zip file
+3. Make sure that all extracted files have `read` file permissions for all users, and that `bin/jjazzlab` has execution permission for all users, as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
+4. Run`bin/jjazzlab`
+
+{% hint style="danger" %}
+JJazzLab embeds its own Java Runtime. You don't have to deal with Java at all. Trying to use a different Java runtime will certainly generate problems.
 {% endhint %}
