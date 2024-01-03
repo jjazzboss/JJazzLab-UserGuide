@@ -159,7 +159,7 @@ Suppose the same bar is used in different song parts. The lyrics for this bar mi
 
 <figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-In the example above, the Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
+**Example**:  for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
 
 ## Mouse shortcuts
 
