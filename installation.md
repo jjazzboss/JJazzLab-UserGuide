@@ -58,9 +58,9 @@ The .zip package should work on any Linux distro.
 4. Run`bin/jjazzlab`
 
 {% hint style="warning" %}
-JJazzLab embeds its own Java Runtime. You don't have to deal with Java at all. Trying to use a different Java runtime will certainly generate problems.
+If FluidSynth is not available when you run JJazzLab, it means that JJazzLab was not able to locate the FluidSynth shared library on your system. Please report the problem.
 {% endhint %}
 
 {% hint style="danger" %}
-If FluidSynth is not available when you run JJazzLab, it means that JJazzLab was not able to locate the FluidSynth shared library on your system. Please report the problem.
+JJazzLab embeds its own Java Runtime. You don't have to deal with Java at all. Trying to use a different Java runtime will certainly generate problems.
 {% endhint %}
