@@ -7,7 +7,7 @@ description: Connecting JJazzLab to other synths via Midi.
 If you don't want to use the built-in FluidSynth, you will need to do some Midi Configuration.
 
 {% hint style="warning" %}
-In general we recommend to use FluidSynth: no setup and decent sounds. But you might prefer to connect JJazzLab to a hardware or VST synth (the latter via a virtual Midi cable such as LoopMidi for Windows).
+In general we recommend to use FluidSynth: no setup and decent sounds. But you might prefer to connect JJazzLab to use a hardware or VST synth (the latter via a virtual Midi cable such as LoopMidi for Windows).
 {% endhint %}
 
 ![Connecting a Midi synth to JJazzLab](<../.gitbook/assets/MidiWizard-image1 (1).png>)
@@ -17,7 +17,7 @@ In the **Midi** tab of the **Options/Preferences :**
 * Select a Midi OUT device
 * Select an Output Synth which describes the capabilities of the connected synth.&#x20;
 
-The **Output Synth** information enables JJazzLab to directly control your synth from the mix console. It is also used to automatically select the appropriate sounds when using a new rhythm, or to remap drums notes when needed (Yamaha styles use XG drum maps, but you synth may not).
+The **Output Synth** information enables JJazzLab to directly control your synth from the mix console. It is also used to automatically select the appropriate sounds when using a new rhythm, or to remap drums notes when needed (Yamaha styles use XG drum maps, but your synth may not).
 
 There is a predefined list of Output Synths as shown below. If you synth has more capabilities, you can use "**Add a synth from file...**" to load a Midi synth definition file (.ins).
 
