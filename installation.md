@@ -53,7 +53,8 @@ JJazzLab packages declare a dependency on the FluidSynth (>=2.1) package. So the
 The .zip package should work on any Linux distro.
 
 1. &#x20;Install FluidSynth (>=2.1) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
-2. Download and extract the JJazzLab .zip file
+2. Download and extract the JJazzLab .zip file\
+   `unzip -X -d JJazzLab JJazzLab-4.0.2-linux-x64.zip`
 3. Make sure that all extracted files have `read` file permissions for all users, and that `bin/jjazzlab` has execution permission for all users, as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
 4. Run`bin/jjazzlab`
 
