@@ -89,6 +89,10 @@ Each Midi channel can be changed manually, just click on the channel number.
 
 A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
 
+{% hint style="info" %}
+If you want to customize a rhythm phrase only for a song part (e.g. the 2nd verse of your song), you might better use the [Custom phrase rhythm parameter](song-structure.md#rhythm-parameters).
+{% endhint %}
+
 #### Adding user tracks
 
 Add one or more user tracks using the Add user track button:
@@ -103,11 +107,19 @@ You can also clone a rhythm track as a new user track, using the + sign in the t
 If you select a drums or percussion instrument for the user track, _and_ your output synth is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
-#### Edit user track
+#### Edit a user track
 
-Edit the user track by clicking on the upper left icon in the user track overview component, as shown below. This will open the [notes editor](notes-editor.md).
+Edit the user track by clicking on the upper left icon in the user track overview component, as shown below.&#x20;
+
+This will open the [notes editor](notes-editor.md).
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+A user track has always the same length than your song.
+
+{% hint style="danger" %}
+If you edit a user track, then make the song shorter (e.g. by removing a song part), the user track will be trimmed to the new song size.
+{% endhint %}
 
 ## Export to Midi file with mouse drag & drop
 
