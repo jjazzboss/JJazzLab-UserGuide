@@ -46,7 +46,7 @@ For most of the parameters, **the easiest way** to edit the value is to **select
 
 Some rhythm parameters have a custom edit dialog, which can be called as shown below.
 
-<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>Parameters with a custom editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>A rhythm parameter with a custom editor</p></figcaption></figure>
 
 {% hint style="success" %}
 Copy & paste can be used to duplicate rhythm parameter values.&#x20;
