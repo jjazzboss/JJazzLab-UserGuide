@@ -35,7 +35,7 @@ Yes, but not directly because JJazzLab can not host VST plugins.&#x20;
 
 ## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="#generate-mp3" id="generate-mp3"></a>
 
-From JJazzLab 4, just use menu File/Export to audio.
+From JJazzLab 4, just use **menu File/Export to audio**.  If you select the option "Separate tracks", one audio file will be generated per track.
 
 ## How to force a clean re-installation?
 
@@ -53,9 +53,9 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with quite decent sounds.
 
-To get even better sounds, you'll need to use a hardware synth or VST/AU plugins, see question above.
+To get even better sounds, you'll need to use a hardware synth or [VST/AU plugins](faq.md#can-i-use-vst-au-plugins-with-jjazzlab).
 
-{% hint style="warning" %}
+{% hint style="success" %}
 There is a free version of Halion Sonic SE from Steinberg which can be used with JJazzLab to get **really good** **sounding** backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
 {% endhint %}
 
@@ -107,7 +107,7 @@ A new **log file** is created upon each start of JJazzLab. It's important to get
 
 To get the log file content:
 
-1. Right after the problem has occured, go to menu **Tools/Options/Advanced**
+1. After the problem has occured, go to menu **Tools/Options/Advanced**
 2. Click on **Show Log Window**
 3. Copy & paste **the full content** of this window in your bug report
 
