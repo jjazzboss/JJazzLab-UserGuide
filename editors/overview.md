@@ -16,10 +16,8 @@ Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
 Use the [**Song Structure Editor**](song-structure.md) to:
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
-* Select [rhythm(s)](song-structure.md#change-rhythm) to be used
-* Adjust the [rhythm parameters](song-structure.md#rhythm-parameters) to introduce dynamics, eg variation, intensity, fill, muted instrument
-
-Use the [**Song part editor**](song-structure.md#song-part-editor) to edit a song part
+* Edit the song part [rhythm](song-structure.md#change-rhythm) and [rhythm parameters](song-structure.md#rhythm-parameters) to introduce dynamics and variations
+* Song parts can also be edited via the [Song part editor](song-structure.md#song-part-editor)
 
 Use the [**Mix Console**](mix-console.md) to:
 
