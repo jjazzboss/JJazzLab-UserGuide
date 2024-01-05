@@ -4,9 +4,9 @@ description: Frequently Asked Questions
 
 # FAQ
 
-## I like JJazzLab and want to keep it free, how can I help? <a href="#how-to-help" id="how-to-help"></a>
+## I like JJazzLab, how can I help? <a href="#how-to-help" id="how-to-help"></a>
 
-* [Donate ](https://www.jjazzlab.com/en/donate/)to keep JJazzLab free and without any ad
+* [**Donate**](https://www.jjazzlab.com/en/donate/) to keep JJazzLab 100% free, without any ad
 * Help [translate ](contribute/translate-jjazzlab/)JJazzLab (especially if you speak japanese and korean)
 * [Contribute ](contribute/improve-doc.md)to improve this documentation
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
