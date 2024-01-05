@@ -1,6 +1,8 @@
 # Overview
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>chord leadsheet editor, song structure editor, mix console</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/2024-01-05 23_12_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Song part editor</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Notes editor</p></figcaption></figure>
 
@@ -9,20 +11,22 @@ Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
 * Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
 * Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B", "verse", "chorus", ...
 * Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) / lyrics
-* Move and edit chords to adjust rhythm accents, interpretation or harmony
+* Move and edit chords to adjust rhythm accents, [interpretation](chord-lead-sheet.md#interpretation) or [harmony](chord-lead-sheet.md#harmony)
 
 Use the [**Song Structure Editor**](song-structure.md) to:
 
-* Define the order of song parts, eg "AABA", "verse verse chorus verse", ...
-* Select rhythm(s) to be used
-* Adjust the rhythm parameters to introduce dynamics, eg variation, intensity, fill, muted instrument
+* Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
+* Select [rhythm(s)](song-structure.md#change-rhythm) to be used
+* Adjust the [rhythm parameters](song-structure.md#rhythm-parameters) to introduce dynamics, eg variation, intensity, fill, muted instrument
+
+Use the [**Song part editor**](song-structure.md#song-part-editor) to edit a song part
 
 Use the [**Mix Console**](mix-console.md) to:
 
 * Adjust the instrument of each track
 * Adjust track settings, volume, panoramic, reverb, chorus, mute, transpose, etc.
-* Add user tracks
-* Exportthe whole song or individual tracks as Midi files
+* Add [user tracks](mix-console.md#user-tracks)
+* Export the whole song or individual tracks as Midi files
 
 Use the [**Notes editor**](notes-editor.md) to:
 
