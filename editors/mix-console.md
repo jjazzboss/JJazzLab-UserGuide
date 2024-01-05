@@ -95,7 +95,7 @@ If you want to customize a rhythm phrase only for a song part (e.g. the 2nd vers
 
 #### Adding user tracks
 
-Add one or more user tracks using the Add user track button:
+Add one or more user tracks using the Add user track button, as show below. This will also open the [notes editor](notes-editor.md).
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Add user track button</p></figcaption></figure>
 

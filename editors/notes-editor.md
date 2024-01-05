@@ -10,7 +10,7 @@ JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](note
 
 ### Edit a user track
 
-Click the edit button in the track overview component of a [user track](mix-console.md#user-tracks) to open the notes editor :
+The notes editor is automatically opened when you [add a user track](mix-console.md#adding-user-tracks). For existing user tracks, click the edit button in the track overview component, as shown below.&#x20;
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
