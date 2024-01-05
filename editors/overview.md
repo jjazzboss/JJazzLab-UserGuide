@@ -6,20 +6,25 @@
 
 Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
 
-* Add chord symbols, eg "Cm6", "Ab7"
-* Add sections, eg "A", "B", "verse", "chorus", ...
+* Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
+* Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B", "verse", "chorus", ...
+* Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) / lyrics
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
 
 Use the [**Song Structure Editor**](song-structure.md) to:
 
-* Define the order of sections, eg "AABA", "verse verse chorus verse", ...
+* Define the order of song parts, eg "AABA", "verse verse chorus verse", ...
 * Select rhythm(s) to be used
-* Adjust the rhythm parameters to introduce dynamics, eg variation, intensity, fill, muted instrument,
+* Adjust the rhythm parameters to introduce dynamics, eg variation, intensity, fill, muted instrument
 
-Use the [**Mix Console**](mix-console.md) to add user tracks or adjust the mix of each rhythm instrument :
+Use the [**Mix Console**](mix-console.md) to:
 
-* Select the instrument to be used on your sound device
-* Adjust volume, panoramic, reverb, chorus
-* Mute, solo, transpose
+* Adjust the instrument of each track
+* Adjust track settings, volume, panoramic, reverb, chorus, mute, transpose, etc.
+* Add user tracks
+* Exportthe whole song or individual tracks as Midi files
 
-Use the [**Notes editor**](notes-editor.md) to edit notes from a user track or a song part custom phrase.
+Use the [**Notes editor**](notes-editor.md) to:
+
+* Edit notes of a [user track](mix-console.md#user-tracks)
+* Edit notes of a [song part custom phrase](song-structure.md#rhythm-parameters).
