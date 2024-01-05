@@ -1,6 +1,6 @@
 # Notes editor
 
-JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](mix-console.md#user-tracks) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
+[#quantize-notes](notes-editor.md#quantize-notes "mention")JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](mix-console.md#user-tracks) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
@@ -76,11 +76,11 @@ First select the notes to change. Then either use the velocity spinner in the to
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Quantize
+## Quantize notes
 
-Use the **Quantize** button or press **Q** to move the selected notes start position on the current grid. If note selected, all notes are quantized.
+Use the **Quantize** button or press **Q** to move the selected notes start position on the current grid. If no note selected, all notes are quantized.
 
-Check the **Iterative** box to perform iterative quantification : notes are gradually moved towards the grid. This is usually recommended to avoid a too mechanical sound.
+Check the **Iterative** box to perform iterative quantize : notes are gradually moved towards the grid. This is usually recommended to avoid a too mechanical sound.
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_28_31-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
