@@ -60,7 +60,7 @@ Tools can be selected using buttons from the notes editor top toolbar, or by rig
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_14_25-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (press delete). Drag to select several notes.
+Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (press delete). Drag to select several notes. Use ctrl-drag notes to duplicate notes.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_25_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 
 ## Mouse shortcuts
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr></tbody></table>
 
 ## Keyboard shortcuts
 
