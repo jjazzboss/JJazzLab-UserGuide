@@ -1,16 +1,22 @@
 # Notes editor
 
-JJazzLab embeds a Midi notes editor, which can be used to edit user tracks or song part custom phrases (see the Custom phrase rhythm parameter).
+JJazzLab embeds a Midi notes editor which is used to **edit user tracks** or **song part custom phrases** (see the Custom phrase [#rhythm-parameters](song-structure.md#rhythm-parameters "mention")).
+
+
+
+### Edit a user track
+
+
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
 
+## Moving and zooming
+
 You can move the editor by dragging the position line as show below:
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_12_51-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
-
-## Zooming
 
 You can use the main application zoom sliders in the lower right corner, or use **ctrl+mouse-wheel** for horizontal zoom, **ctrl+shift+mouse-wheel** for vertical zoom.&#x20;
 
