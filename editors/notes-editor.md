@@ -1,6 +1,6 @@
 # Notes editor
 
-JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
+JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
