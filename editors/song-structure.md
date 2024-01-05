@@ -2,7 +2,7 @@
 
 Use the **song structure editor** to:
 
-* Define the order of sections as **song parts**, eg "AABA", "verse verse chorus verse", ...
+* Define the order of sections as **song parts**, eg "AABA" or "verse verse chorus verse"
 * Select which **rhythm(s)** to use and when
 * Adjust the **rhythm parameters** of song parts to introduce dynamics, eg variation, intensity, drums fill, muted instrument, ...
 
@@ -34,7 +34,7 @@ Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse
 
 Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
 
-Edits apply on the selected song parts or rhythm parameters.
+Edits apply on the selected song part(s) or rhythm parameter(s).
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter), as shown in the 2 images below.
 
@@ -42,7 +42,7 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Rhythm parameter popup menu](../.gitbook/assets/RhythmParameterPopupMenu.png)
 
-For most of the parameters, **the easiest way** to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
+For most of the rhythm parameters, **the easiest way** to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
 
 Some rhythm parameters have a custom edit dialog, which can be called as shown below.
 
@@ -65,7 +65,7 @@ When selecting several contiguous rhythm parameters, you can use the **Adjust va
 
 Song part editor provides an additional way to edit the selected song part(s).&#x20;
 
-Use the song part editor to edit rhythm parameters which need user to select one or more values from a list, such as the Mute parameter.
+Use the song part editor to edit rhythm parameters which need user to select (ctrl-click) one or more values from a list, such as the Mute parameter.
 
 <figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
