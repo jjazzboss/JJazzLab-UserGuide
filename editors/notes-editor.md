@@ -64,7 +64,9 @@ Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (pr
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_25_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Pasted notes are positionned from the first visible position in the editor, or from the first selected note if any.
+{% hint style="info" %}
+If one or more notes are selected, pasted notes are aligned with the first selected note. If no notes selected, pasted notes are aligned to the left side of the notes editor.
+{% endhint %}
 
 Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
 
@@ -72,7 +74,7 @@ Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
 
 ## Changing notes velocity
 
-Note color vary with its velocity.
+Notes color vary with their velocity.
 
 First select the notes to change. Then either use the velocity spinner in the toolbar, or use **alt + mouse-wheel** or **alt + page up/down**.
 
