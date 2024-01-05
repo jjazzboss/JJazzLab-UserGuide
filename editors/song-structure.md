@@ -30,7 +30,7 @@ If some contiguous song parts share the same name, then the name is displayed on
 
 ## Editing
 
-Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicate**)**. Copy/cut/paste commands work as well.
+Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicate**)**. Copy/cut/paste commands work as well both on song parts and rhythm parameters.
 
 Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
 
@@ -42,11 +42,20 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Rhythm parameter popup menu](../.gitbook/assets/RhythmParameterPopupMenu.png)
 
-For most of the parameters, the easiest way to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
+For most of the parameters, **the easiest way** to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
 
 Some rhythm parameters have a custom edit dialog, which can be called as shown below.
 
-<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>Parameters with a custom editor</p></figcaption></figure>
+
+{% hint style="success" %}
+Copy & paste can be used to duplicate rhythm parameter values.&#x20;
+
+Suppose you want to apply the drums transform value from one song part (e.g. ">Open hi-hat" in image above) to other song parts:&#x20;
+
+* Select the original rhythm parameter and Copy (ctrl-C)
+* Select the other song parts and Paste (ctrl-V)
+{% endhint %}
 
 When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu to interpolate values between the first and the last selected values.  In the example below, we used it to gradually increase the tempo from 100% to 108%.
 
