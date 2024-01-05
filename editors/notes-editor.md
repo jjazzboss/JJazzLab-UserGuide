@@ -93,3 +93,21 @@ If the imported Midi file contains notes from several Midi channels, then JazzLa
 
 If the imported Midi file only contains notes from a single channel, then JJazzLab imports the notes with the channel updated to the editor Midi channel.
 {% endhint %}
+
+## Mouse shortcuts
+
+<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr></tbody></table>
+
+## Keyboard shortcuts
+
+| Selection | Key            | Action                      |
+| --------- | -------------- | --------------------------- |
+| Notes     | alt-up/down    | change velocity             |
+| Notes     | ctrl-C/X/V     | copy/cut/paste notes        |
+| Editor    | ctrl-F         | zoom to fit notes           |
+| Editor    | Q              | quantize                    |
+| Editor    | G              | snap-to-grid                |
+| Editor    | A              | auto-scroll during playback |
+| Editor    | S              | solo the edited phrase      |
+| Editor    | H              | hear the selected notes     |
+| Editor    | ctrl-alt-space | play the edited phrase      |
