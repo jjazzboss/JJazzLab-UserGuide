@@ -104,6 +104,7 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 | --------- | -------------- | --------------------------- |
 | Notes     | alt-up/down    | change velocity             |
 | Notes     | ctrl-C/X/V     | copy/cut/paste notes        |
+| Notes     | delete         | delete notes                |
 | Editor    | ctrl-F         | zoom to fit notes           |
 | Editor    | Q              | quantize                    |
 | Editor    | G              | snap-to-grid                |
