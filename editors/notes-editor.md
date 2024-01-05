@@ -1,6 +1,6 @@
 # Notes editor
 
-[#quantize-notes](notes-editor.md#quantize-notes "mention")JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](mix-console.md#user-tracks) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
+JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](mix-console.md#user-tracks) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
@@ -50,7 +50,7 @@ Use the **Snap to grid** button (or press **G**) to snap notes to the grid when 
 When you move or resize notes with the **Select tool**, you can temporarily reverse the "snap to grid" setting by pressing **alt**.
 {% endhint %}
 
-To change the position of existing notes, use Quantize.
+To change the position of existing notes, use [Quantize](notes-editor.md#quantize-notes).
 
 ## Edit tools
 
