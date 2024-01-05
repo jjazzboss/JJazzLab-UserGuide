@@ -24,7 +24,7 @@ Use the [**Mix Console**](mix-console.md) to:
 * Adjust the instrument of each track
 * Adjust track settings, volume, panoramic, reverb, chorus, mute, transpose, etc.
 * Add [user tracks](mix-console.md#user-tracks)
-* Export the whole song or individual tracks as Midi files
+* [Export](mix-console.md#export-to-midi-file-with-mouse-drag-and-drop) the whole song or individual tracks as Midi files
 
 Use the [**Notes editor**](notes-editor.md) to:
 
