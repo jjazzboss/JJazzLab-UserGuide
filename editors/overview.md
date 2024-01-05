@@ -17,7 +17,7 @@ Use the [**Song Structure Editor**](song-structure.md) to:
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
 * Edit the song part [rhythm](song-structure.md#change-rhythm) and [rhythm parameters](song-structure.md#rhythm-parameters) to introduce dynamics and variations
-* Song parts can also be edited via the [Song part editor](song-structure.md#song-part-editor)
+* Song parts can also be edited via the [**Song part editor**](song-structure.md#song-part-editor)
 
 Use the [**Mix Console**](mix-console.md) to:
 
