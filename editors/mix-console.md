@@ -105,7 +105,7 @@ If you select a drums or percussion instrument for the user track, _and_ your ou
 
 #### Edit user track
 
-Edit the user track by clicking on the upper left icon in the user track overview component, as shown below:
+Edit the user track by clicking on the upper left icon in the user track overview component, as shown below. This will open the [notes editor](notes-editor.md).
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 

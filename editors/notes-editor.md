@@ -1,6 +1,6 @@
 # Notes editor
 
-JJazzLab embeds a Midi notes editor which is used to **edit user tracks** or **song part custom phrases** (see the Custom phrase [#rhythm-parameters](song-structure.md#rhythm-parameters "mention")).
+JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](mix-console.md#edit-user-track) or **song part custom phrases** (see the Custom phrase [rhythm parameter](song-structure.md#rhythm-parameters)).
 
 
 

@@ -2,17 +2,19 @@
 
 Use the **song structure editor** to:
 
-* Define the order of sections, eg "AABA", "verse verse chorus verse", ...
-* Select the **rhythm**(s) to be used&#x20;
-* Adjust the **rhythm parameters** to introduce dynamics, eg variation, intensity, fill, muted instrument, ...
+* Define the order of sections as **song parts**, eg "AABA", "verse verse chorus verse", ...
+* Select which **rhythm(s)** to use and when
+* Adjust the **rhythm parameters** of song parts to introduce dynamics, eg variation, intensity, drums fill, muted instrument, ...
 
 ![](../.gitbook/assets/FullSongStructureEditorText.png)
 
 ## Song parts
 
-A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
+A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).&#x20;
 
-A song part has a name, a **rhythm** and a value for each of the **rhythm parameters**.
+**Song parts let you define in which order sections are played, and how**. For example you can have a chord lead sheet with only 2 sections _verse_ and _chorus_, but the song will play _verse verse chorus verse chorus_.
+
+A song part has a name, a **rhythm** and a value for each of the [**rhythm parameters**](song-structure.md#rhythm-parameters). Rhythm parameters let you change how the rhythm is played for this song part.
 
 To add a new song part:
 
@@ -28,21 +30,35 @@ If some contiguous song parts share the same name, then the name is displayed on
 
 ## Editing
 
-Song parts can be reordered by dragging them using the mouse.
+Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicate**)**. Copy/cut/paste commands work as well.
 
-You can modify the song part **name**, **rhythm**, and **rhythm parameter** values.
+Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
 
-Edition is done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts), or from the **song part editor** (see the image at the top of this page). Edits apply on the selected song parts or rhythm parameters.
+Edits apply on the selected song parts or rhythm parameters.
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection, as shown in the 2 images below.
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter), as shown in the 2 images below.
 
 ![Song part popup menu](../.gitbook/assets/SongPartPopupMeny.png)
 
 ![Rhythm parameter popup menu](../.gitbook/assets/RhythmParameterPopupMenu.png)
 
+For most of the parameters, the easiest way to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
+
+Some rhythm parameters have a custom edit dialog, which can be called as shown below.
+
+<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
 When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu to interpolate values between the first and the last selected values.  In the example below, we used it to gradually increase the tempo from 100% to 108%.
 
 ![](../.gitbook/assets/AdjustRpValues.png)
+
+## Song part editor
+
+Song part editor provides an additional way to edit the selected song part(s).&#x20;
+
+Use the song part editor to edit rhythm parameters which need user to select one or more values from a list, such as the Mute parameter.
+
+<figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
 ## Change rhythm
 
@@ -66,9 +82,9 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 ## Rhythm parameters
 
-### Types
+Rhythm parameters let you adjust how a rhythm is played for a given song part. Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
 
-In theory a rhythm (or style) can define its own set of parameters. However in JJazzLab most rhythms use the same parameters:
+JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters :
 
 * **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
 * **Intensity:**  most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
@@ -76,25 +92,13 @@ In theory a rhythm (or style) can define its own set of parameters. However in J
 * **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
 * **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
 * **Tempo factor**: slows down or accelerates the tempo of the song part.
-* **Drums transform**: changes some drums notes of the song part. For example you can make the hi-hat louder, or change the closed hi-hat notes into ride cymbal notes.
+* **Drums transform**: changes some drums notes of the song part. This is an **easy way to alter the drums track**. For example you can make the hi-hat louder, transform the closed hi-hat into ride cymbal, or just add percussions!
 
 ![](../.gitbook/assets/DrumsTransform.png)
 
-*   **Custom phrase**: replaces one or more instrument phrases of the song part.&#x20;
+* **Custom phrase**: lets you customize one or more instrument phrases of the song part. The phrase will be made editable in the [notes editor](notes-editor.md).
 
-    To import your custom phrase, you can drag & drop a Midi file in the Custom phrase editor shown below, or use your external Midi editor via the **Customize** button.
-
-    When using **Edit via external Midi editor** JJazzLab will first export the full backing track as a temporary Midi file, and then open it with your external Midi editor, so that you can change notes of one or more tracks.
-
-![](../.gitbook/assets/CustomPhraseEditor.png)
-
-### Edit values
-
-You can adjust the value of the parameters of each song part.&#x20;
-
-For the enumerable parameters, the easiest way to edit the value is to select it and use the mouse-wheel.&#x20;
-
-But you can also use rhythm parameter popup-menu to reset the parameter value, or copy/paste values, or use the **song part editor** (see snapshot at the top of this page).
+![](<../.gitbook/assets/2024-01-05 11\_52\_05-Customize phrases for song part \_A\_ - bars 1..8 (1).png>)
 
 ### Compact / full view
 
