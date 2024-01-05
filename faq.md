@@ -6,8 +6,8 @@ description: Frequently Asked Questions
 
 ## I like JJazzLab and want to keep it free, how can I help? <a href="#how-to-help" id="how-to-help"></a>
 
-* [Donate ](https://www.jjazzlab.com/en/donate/)to keep JJazzLab free for all
-* Help [translate ](contribute/translate-jjazzlab/)JJazzLab
+* [Donate ](https://www.jjazzlab.com/en/donate/)to keep JJazzLab free and without any ad
+* Help [translate ](contribute/translate-jjazzlab/)JJazzLab (especially if you speak japanese and korean)
 * [Contribute ](contribute/improve-doc.md)to improve this documentation
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel
@@ -51,7 +51,7 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 ## How to get better sounds?
 
-From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with quite decent sounds.
+From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with decent sounds.
 
 To get even better sounds, you'll need to use a hardware synth or [VST/AU plugins](faq.md#can-i-use-vst-au-plugins-with-jjazzlab).
 
