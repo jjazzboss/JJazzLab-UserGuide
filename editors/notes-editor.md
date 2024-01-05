@@ -14,7 +14,7 @@ Click the edit button in the track overview component of a [user track](mix-cons
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Rhythm tracks can also be edited by cloning them first as a user track :
+Rhythm tracks can also be edited with the notes editor by cloning them first as a user track :
 
 <figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
