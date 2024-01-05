@@ -42,13 +42,15 @@ Use **ctrl-F** to zoom to fit width.
 
 ## Snap to grid
 
-Use the **Snap to grid** button (or press **G**) to snap notes to the grid. The size of the grid can be set using the drop-down list:
+Use the **Snap to grid** button (or press **G**) to snap notes to the grid when you draw/move/resize them. The size of the grid can be set using the drop-down list (1/4=quarter note, 1/8=quaver, ...):
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_20_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When you move or resize notes with the **Select tool**, you can temporarily reverse the "snap to grid" setting by pressing **alt**.
 {% endhint %}
+
+To change the position of existing notes, use Quantize.
 
 ## Edit tools
 
@@ -74,11 +76,11 @@ First select the notes to change. Then either use the velocity spinner in the to
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Quantifier
+## Quantize
 
-Use the **Quantify** button or press **Q** to quantify the selected notes (or all the notes if no note selected) on the current grid.
+Use the **Quantize** button or press **Q** to move the selected notes start position on the current grid. If note selected, all notes are quantized.
 
-Check the **Iterative** box to perform iterative quantification (notes move gradually towards the grid).
+Check the **Iterative** box to perform iterative quantification : notes are gradually moved towards the grid. This is usually recommended to avoid a too mechanical sound.
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_28_31-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
