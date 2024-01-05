@@ -22,4 +22,4 @@ Use the [**Mix Console**](mix-console.md) to add user tracks or adjust the mix o
 * Adjust volume, panoramic, reverb, chorus
 * Mute, solo, transpose
 
-Use the [notes-editor.md](notes-editor.md "mention") to edit notes from a user track or a song part custom phrase.
+Use the [**Notes editor**](notes-editor.md) to edit notes from a user track or a song part custom phrase.
