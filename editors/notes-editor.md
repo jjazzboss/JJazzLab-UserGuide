@@ -112,3 +112,4 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 | Editor    | S              | solo the edited phrase      |
 | Editor    | H              | hear the selected notes     |
 | Editor    | ctrl-alt-space | play the edited phrase      |
+| Editor    | ctrl-Z/Y       | undo/redo                   |
