@@ -1,16 +1,32 @@
 # Notes editor
 
-JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](mix-console.md#edit-user-track) or **song part custom phrases** (see the Custom phrase [rhythm parameter](song-structure.md#rhythm-parameters)).
-
-
-
-### Edit a user track
-
-
+JJazzLab embeds a Midi notes editor which is used to edit [**user tracks**](mix-console.md#user-tracks) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
+
+## Opening the notes editor
+
+### Edit a user track
+
+Click the edit button in the track overview component of a [user track](mix-console.md#user-tracks) to open the notes editor :
+
+<figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+Rhythm tracks can also be edited by cloning them first as a user track :
+
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+### Edit a Custom phrase for a song part
+
+In the song structure editor, click the top-left button of a Custom phrase rhythm parameter:
+
+<figure><img src="../.gitbook/assets/2024-01-05 12_40_44-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+Then select the phrases you wish to customize and press Edit to open the notes editor.
+
+<figure><img src="../.gitbook/assets/2024-01-05 11_52_05-Customize phrases for song part _A_ - bars 1..8 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Moving and zooming
 
