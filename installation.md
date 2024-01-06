@@ -61,7 +61,7 @@ The .zip package should work on any Linux distro.
 4. Run`bin/jjazzlab`
 
 {% hint style="warning" %}
-If FluidSynth is not available when you run JJazzLab, it means that JJazzLab was not able to locate the FluidSynth shared library on your system. Please report the problem.
+If your Linux distro only has the (very) old FluidSynth 2.1.x version available, you might try the hack described in [this post](https://jjazzlab.freeforums.net/thread/567/ubuntu-20-04-installation-errors).&#x20;
 {% endhint %}
 
 {% hint style="danger" %}
