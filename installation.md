@@ -26,6 +26,8 @@ You must first install FluidSynth (**>=2.2.0**) manually (I strongly recommend v
 
 Then download the appropriate package at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download) and open it.
 
+Note that JJazzLab .pkg files require **MacOS 10.13** or later.
+
 {% hint style="warning" %}
 If you get a **security alert**
 
