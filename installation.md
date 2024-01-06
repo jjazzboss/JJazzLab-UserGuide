@@ -22,7 +22,7 @@ You can find more explanations in this [good article](https://www.digitalcitizen
 
 ## MacOS
 
-You must first install FluidSynth manually (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
+You must first install FluidSynth (**>=2.2.0**) manually (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
 
 Then download the appropriate package at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download) and open it.
 
@@ -45,14 +45,14 @@ JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with your package manager (`apt`, `zypper`, ...).
 
 {% hint style="info" %}
-JJazzLab packages declare a dependency on the FluidSynth (**>=2.2**) package. So the package manager should automatically install it if it's not already present on your system.
+JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
 {% endhint %}
 
 #### Using zip package&#x20;
 
 The .zip package should work on any Linux distro.
 
-1. &#x20;Install FluidSynth (**>=2.2**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
+1. &#x20;Install FluidSynth (**>=2.2.0**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
 2. Download and extract the JJazzLab .zip file\
    `unzip -X -d JJazzLab JJazzLab-4.0.2-linux-x64.zip`
 3. Make sure that all extracted files have `read` file permissions for all users ('`r`'), and that `bin/jjazzlab` has execution permission for all users ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
