@@ -62,6 +62,11 @@ The .zip package should work on any Linux distro.
 
 #### Special case: `libfluidsynth.so.3` in non-standard directory
 
+With Linux, JJazzLab uses FluidSynth via its shared library `libfluidsynth.so.3` (or `libfluidsynth.so`). The file is expected to be in one of the standard directories:\
+`/usr/lib/x86_64-linux-gnu, /usr/lib, /usr/lib64, /usr/local/lib, /lib`
+
+
+
 {% hint style="danger" %}
 JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
 {% endhint %}
