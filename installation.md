@@ -60,6 +60,8 @@ The .zip package should work on any Linux distro.
 3. Make sure that all extracted files have `read` file permissions for all users ('`r`'), and that `bin/jjazzlab` has execution permission for all users ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
 4. Run`bin/jjazzlab`
 
+#### Special case: `libfluidsynth.so.3` in non-standard directory
+
 {% hint style="danger" %}
 JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
 {% endhint %}
