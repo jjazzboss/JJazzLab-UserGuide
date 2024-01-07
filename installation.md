@@ -65,6 +65,12 @@ The .zip package should work on any Linux distro.
 With Linux, JJazzLab uses FluidSynth via its shared library `libfluidsynth.so.3` (or `libfluidsynth.so`). The file is expected to be in one of the standard directories:\
 `/usr/lib/x86_64-linux-gnu, /usr/lib, /usr/lib64, /usr/local/lib, /lib`
 
+If you successfully installed FluidSynth (**>=2.0.0**) but JJazzLab can't load FluidSynth, it's possible that `libfluidsynth.so.3` was installed in a non-standard directory. Once you found the file location (for example in `/tmp/lib/libfluidsynth.so.3`), you can tell JJazzLab how to find it:
+
+* In the JJazzLab installation directory, edit file `etc/jjazzlab.con`f
+* Add `-J-Dfluidsynthlib.path=/tmp/lib/libfluidsynth.so.3` at the end of the `default_options` variable
+* Start JJazzLab
+
 
 
 {% hint style="danger" %}
