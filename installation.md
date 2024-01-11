@@ -51,7 +51,7 @@ If FluidSynth makes some "crackling" noise, make sure your Linux is optimized fo
 
 JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 
-Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with your package manager, as shown in the examples :
+Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with the relevant package manager (examples below) :
 
 ```bash
 sudo apt-get install ./jjazzlab_4.0.2-1_amd64.deb
