@@ -24,9 +24,15 @@ You can find more explanations in this [good article](https://www.digitalcitizen
 
 You must first install FluidSynth (**>=2.2.0**) manually (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
 
-Then download the appropriate package at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download) and open it.
+#### Mac computers with Apple M1 processor
 
-Note that JJazzLab .pkg files require **MacOS 10.13** or later (x64 architecture).
+Download the .pkg file at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download) and open it.
+
+#### Mac computers with Intel x64 processor
+
+.pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
+
+Download the .zip file and extract (open file with Finder). Execute file `bin/jjazzlab` to start JJazzLab.
 
 {% hint style="warning" %}
 If you get a **security alert**
@@ -49,6 +55,20 @@ Download the relevant package for your distro  at [https://www.jjazzlab.com/en/d
 {% hint style="info" %}
 JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
 {% endhint %}
+
+Examples:
+
+```bash
+sudo apt-get install ./jjazzlab_4.0.2-1_amd64.deb
+```
+
+```sh
+sudo gdebi install ./jjazzlab-4.0.2-0.x86_64.deb
+```
+
+```bash
+sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
+```
 
 #### Using the tar.xz package&#x20;
 
