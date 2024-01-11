@@ -32,7 +32,8 @@ Download the .pkg file at [https://www.jjazzlab.com/en/download](https://www.jja
 
 .pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
 
-Download the .zip file and extract (open file with Finder). Execute file `bin/jjazzlab` to start JJazzLab.
+* Download the .zip file and extract (open file with Finder)
+* Execute file `bin/jjazzlab` to start JJazzLab.
 
 {% hint style="warning" %}
 If you get a **security alert**
@@ -50,13 +51,7 @@ If FluidSynth makes some "crackling" noise, make sure your Linux is optimized fo
 
 JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 
-Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with your package manager (`apt`, `zypper`, ...).
-
-{% hint style="info" %}
-JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
-{% endhint %}
-
-Examples:
+Download the relevant package for your distro  at [https://www.jjazzlab.com/en/download](https://www.jjazzlab.com/en/download), then open it with your package manager, as shown in the examples :
 
 ```bash
 sudo apt-get install ./jjazzlab_4.0.2-1_amd64.deb
@@ -69,6 +64,10 @@ sudo gdebi install ./jjazzlab-4.0.2-0.x86_64.deb
 ```bash
 sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
 ```
+
+{% hint style="info" %}
+JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
+{% endhint %}
 
 #### Using the tar.xz package&#x20;
 
