@@ -23,7 +23,7 @@ There is a predefined list of Output Synths as shown below. If your synth has mo
 <figure><img src="../.gitbook/assets/2023-12-31 18_23_58-Options.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-When using a software synth (e.g. VST plugin), you might prefer to control sound selection and mix settings (volume, effects, etc.) directly from the VST plugin interface. In this case you should [Disable all Midi parameters](../editors/mix-console.md#menu-midi) from the JJazzLab mix console, so that JJazzLab only send Midi notes.
+When using a software synth (e.g. VST plugin), you might prefer to control sound selection and mix settings (volume, effects, etc.) directly from the VST plugin interface. In this case you should [Disable all Midi parameters](../editors/mix-console.md#menu-midi) from the JJazzLab mix console, so that JJazzLab only sends Midi notes.
 {% endhint %}
 
 ## Midi synth definition files (.ins)
