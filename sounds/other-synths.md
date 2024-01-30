@@ -16,11 +16,15 @@ In the **Midi** tab of the **Options/Preferences :**
 * Select a Midi OUT device
 * Select an Output Synth which describes the capabilities of the connected synth.&#x20;
 
-The **Output Synth** information enables JJazzLab to directly control your synth from the mix console. It is also used to automatically select the appropriate sounds when using a new rhythm, or to remap drums notes when needed (Yamaha styles use XG drum maps, but your synth may not).
+The **Output Synth** information allows JJazzLab to directly display and select synth sounds/instruments from the mix console. The information is also used to remap drums notes when needed (Yamaha styles use XG drum maps, but your synth may not).
 
-There is a predefined list of Output Synths as shown below. If you synth has more capabilities, you can use "**Add a synth from file...**" to load a Midi synth definition file (.ins).
+There is a predefined list of Output Synths as shown below. If your synth has more capabilities, you can use "**Add a synth from file...**" to load a Midi synth definition file (.ins). See below for more information on the .ins file format.
 
 <figure><img src="../.gitbook/assets/2023-12-31 18_23_58-Options.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+When using a software synth (e.g. VST plugin), you might prefer to control sound selection and mix settings (volume, effects, etc.) directly from the VST plugin interface. In this case you should [Disable all Midi parameters](../editors/mix-console.md#menu-midi) from the JJazzLab mix console, so that JJazzLab only send Midi notes.
+{% endhint %}
 
 ## Midi synth definition files (.ins)
 
