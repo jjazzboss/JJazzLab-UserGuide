@@ -6,12 +6,12 @@ description: Frequently Asked Questions
 
 ## I like JJazzLab, how can I help? <a href="#how-to-help" id="how-to-help"></a>
 
-* [**Donate**](https://www.jjazzlab.com/en/donate/) to keep JJazzLab 100% free, without any ad
+* [**Donate**](https://www.jjazzlab.org/en/donate/) to keep JJazzLab 100% free, without any ad
 * Help [translate ](contribute/translate-jjazzlab/)JJazzLab (especially if you speak japanese and korean)
 * [Contribute ](contribute/improve-doc.md)to improve this documentation
 * Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel
-* Spread the word ! Talk and add links to **www.jjazzlab.com** on social networks, blogs, websites, etc.
+* Spread the word ! Talk and add links to **www.jjazzlab.org** on social networks, blogs, websites, etc.
 * If you're a developer, contribute code on [GitHub](https://github.com/jjazzboss/JJazzLab).
 
 ## I use MacOS, I can't find menu **Tools/Options?**
