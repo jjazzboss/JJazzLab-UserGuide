@@ -20,10 +20,6 @@ Select a bar or a chord symbol then:
 * double-click, or
 * right-click menu, Edit
 
-JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent. You can add customized _chord aliases_ in the **Chord Symbols** tab of the Options window, as shown below:
-
-![](<../.gitbook/assets/2024-03-06 19\_22\_02-Options.png>)
-
 You can also select an existing chord symbol and move it while pressing the control button, it will create a new copy that can be edited.
 
 To move a chord symbol just select it and move it with the mouse.
@@ -35,6 +31,14 @@ Use ctrl-click or shift-click for multiple selection.
 {% hint style="info" %}
 In order to input a lead sheet from scratch, the easier way is to select the first bar, directly type in the chord symbols, press ENTER (it will automatically select the next bar), type in the chord symbols for the second bar, etc.
 {% endhint %}
+
+### Aliases
+
+JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent.&#x20;
+
+You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options window, as shown below:
+
+<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
 
 ### Popup menus
 
