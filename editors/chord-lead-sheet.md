@@ -20,6 +20,10 @@ Select a bar or a chord symbol then:
 * double-click, or
 * right-click menu, Edit
 
+JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent. You can add customized _chord aliases_ in the **Chord Symbols** tab of the Options window, as shown below:
+
+![](<../.gitbook/assets/2024-03-06 19\_22\_02-Options.png>)
+
 You can also select an existing chord symbol and move it while pressing the control button, it will create a new copy that can be edited.
 
 To move a chord symbol just select it and move it with the mouse.
