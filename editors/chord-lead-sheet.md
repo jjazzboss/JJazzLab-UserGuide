@@ -50,10 +50,6 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
 
-### Aliases
-
-JJazzLab recognizes many aliases for each chord symbol. For example C7M can be written Cmaj7, Cma7, CM7, CMAJ7 etc.
-
 You can add more aliases in menu **Options/Chord Symbols**.
 
 ### Interpretation
