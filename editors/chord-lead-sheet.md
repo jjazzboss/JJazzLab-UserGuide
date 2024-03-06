@@ -2,7 +2,7 @@
 
 Use the **chord leadsheet editor** to:
 
-* Add chord symbols, eg **Cm6, Ab7**
+* Add chord symbols, eg **Cm6, Ab7, F#9M#11, NC (no chord), ...**
 * Add sections, eg **A, B, verse, chorus,** ...
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
 * Add bar annotations (for lyrics etc.)
