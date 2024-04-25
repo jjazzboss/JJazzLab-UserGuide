@@ -2,7 +2,7 @@
 description: A complete and open application for backing tracks generation.
 ---
 
-# JJazzLab
+# JJazzLab 4
 
 {% hint style="info" %}
 Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
@@ -34,8 +34,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 * Any song structure: intro, chorus, 1st coda, etc.
 * Adjust tempo, transposition, choose and solo/mute instruments
 * Support for multi-rhythm backing tracks, possibly with different time signatures
-* Export to Midi file, the full backing track or a single instrument track
-* Easy Midi-to-MP3 conversion via export to Midi file
+* Export to Midi or MP3/Wav file, the full backing track or a single instrument track
 * Customizable click and pre-count
 
 ### Editors
@@ -49,7 +48,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 * Add annotations or lyrics to measures
 * Drag & drop support to import/export Midi files
 * Customizable song template
-* Customizable UI colors and fonts
+* Customizable colors and fonts
 * Print chord lead sheet and song structure
 
 ### Rhythms (styles)
@@ -65,7 +64,6 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 
 ### Notes viewer
 
-* Show backing track notes in real time
 * Show selected chord symbol notes and scales with piano keyboard, guitar diagrams or score&#x20;
 
 ### (pseudo) Arranger keyboard mode
@@ -88,7 +86,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters).
 ### Import
 
 * Band-In-A-Box / MusicXML / Impro-Visor lead sheet files
-* Chords symbols from  .csv/.txt files
+* Import .txt files or copy/paste text like "|A7 D7 | Gm7 C7|"
 
 ### Miscellaneous
 
