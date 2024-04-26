@@ -29,7 +29,7 @@ Select a bar or a chord symbol, then type the first letter of the chord symbol (
 
 When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
 
-To add a new chord symbol you can also select an existing chord symbol and drag it while pressing the **control** key: it will create a new copy of that chord symbol.
+To **copy** a chord symbol just **drag it** while pressing the **control** key.
 
 {% hint style="info" %}
 In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
@@ -158,7 +158,7 @@ When annotations are hidden, bar with annotations are marked with a post-it (too
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-#### Special # syntax for Easy Reader
+### Special # syntax for Easy Reader
 
 Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [Easy Reader](../tools/easy-reader.md) displays only the relevant line.
 
