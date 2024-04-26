@@ -9,7 +9,7 @@ Use the **chord leadsheet editor** to:
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-### Selecting and moving chord symbols
+## Selecting and moving chord symbols
 
 Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
 
@@ -21,11 +21,11 @@ By default chord symbols position are quantized to a sixteenth note (4 positions
 
 <figure><img src="../.gitbook/assets/2024-04-26 22_57_35-Quantization.png" alt=""><figcaption></figcaption></figure>
 
-### Chord symbols input
+## Chord symbols input
 
 Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
 
-<figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
 
 When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
 
@@ -39,11 +39,11 @@ JJazzLab can recognize different forms of a given chord symbol. For example C-7,
 
 <figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
 
-### Changing the size of the leadsheet
+## Changing the size of the leadsheet
 
 Select a bar then select **Set end bar** in the right-click menu (see below).
 
-### Popup menus
+## Popup menus
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
 
@@ -53,7 +53,7 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
 
-### Interpretation
+## Interpretation
 
 Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
