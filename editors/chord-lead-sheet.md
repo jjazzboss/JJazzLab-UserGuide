@@ -9,36 +9,39 @@ Use the **chord leadsheet editor** to:
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-## Chord symbols
+### Selecting and moving chord symbols
 
-### Input
+Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
 
-Select a bar or a chord symbol then:
+Use **shift-click** to extend the current selection.
 
-* type the first letter of the chord symbol ('A' to 'G'), or
-* press ENTER, or
-* double-click, or
-* right-click menu, Edit
+**Drag** a chord symbol with the mouse to move it to a new location.&#x20;
 
-You can also select an existing chord symbol and move it while pressing the control button, it will create a new copy that can be edited.
+By default chord symbols position are quantized to a sixteenth note (4 positions per beat). This can be adjusted via the right-click menu Quantization.
 
-To move a chord symbol just select it and move it with the mouse.
+<figure><img src="../.gitbook/assets/2024-04-26 22_57_35-Quantization.png" alt=""><figcaption></figcaption></figure>
 
-To change the size of the lead sheet, select a bar then right-click menu and select **Set end bar**.
+### Chord symbols input
 
-Use ctrl-click or shift-click for multiple selection.
+Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
+
+<figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption></figcaption></figure>
+
+When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
+
+To add a new chord symbol you can also select an existing chord symbol and drag it while pressing the **control** key: it will create a new copy of that chord symbol.
 
 {% hint style="info" %}
-In order to input a lead sheet from scratch, the easier way is to select the first bar, directly type in the chord symbols, press ENTER (it will automatically select the next bar), type in the chord symbols for the second bar, etc.
+In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
 {% endhint %}
 
-### Aliases
-
-JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent.&#x20;
-
-You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options window, as shown below:
+JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
 
 <figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
+
+### Changing the size of the leadsheet
+
+Select a bar then select **Set end bar** in the right-click menu (see below).
 
 ### Popup menus
 
@@ -49,8 +52,6 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 ![Chord symbol popup menu](../.gitbook/assets/ChordSymbolPopupMeny.png)
 
 ![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
-
-You can add more aliases in menu **Options/Chord Symbols**.
 
 ### Interpretation
 
