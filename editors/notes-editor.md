@@ -30,7 +30,7 @@ Then select the phrases you wish to customize and press Edit to open the notes e
 
 ## Moving and zooming
 
-You can move the editor by dragging the position line as show below:
+You can move the editor by pressing **ctrl + dragging** in the top ruler as shown below:
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_12_51-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,6 +39,18 @@ You can use the main application zoom sliders in the lower right corner, or use 
 Use **ctrl-F** to zoom to fit width.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_37_35-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+## Playback of the edited phrase
+
+Use the toolbar button, or press **ctrl-shift-SPACE,** to start the playback in loop mode of the edited phrase, or of the **playback loop zone** if it is set.
+
+<figure><img src="../.gitbook/assets/2024-05-16 22_49_35-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption><p>Start playback button</p></figcaption></figure>
+
+### Playback loop zone
+
+A playback loop zone can be set by **mouse dragging** in the top **ruler**. Use **shift+click** in the ruler to extend the loop zone. **Click** in the ruler to remove the loop zone.
+
+<figure><img src="../.gitbook/assets/2024-05-16 22_47_02-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
 ## Snap to grid
 
@@ -54,13 +66,13 @@ To change the position of existing notes, use [Quantize](notes-editor.md#quantiz
 
 ## Edit tools
 
-You can use 3 tools to modify notes: **select tool**, **draw tool**, **erase tool**.&#x20;
+You can use 3 tools to modify notes: **select tool**, **draw tool**, **erase tool**. The 2 first edit tools are sensitive to the [snap to grid](notes-editor.md#snap-to-grid) settings.
 
 Tools can be selected using buttons from the notes editor top toolbar, or by right-clicking in the editor:
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_14_25-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (press delete). Drag to select several notes. Use ctrl-drag notes to duplicate notes.
+Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (press delete). **Drag** to select several notes. Use **ctrl-drag** notes to duplicate notes. **ctrl-shift-I** invert the notes selection.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_25_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
@@ -80,13 +92,19 @@ First select the notes to change. Then either use the velocity spinner in the to
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Quantize notes
+## Quantize & humanize notes
 
 Use the **Quantize** button or press **Q** to move the selected notes start position on the current grid. If no note selected, all notes are quantized.
 
 Check the **Iterative** box to perform iterative quantize : notes are gradually moved towards the grid. This is usually recommended to avoid a too mechanical sound.
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_28_31-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+You can also **humanize** all or selected notes. Humanization introduces slight random variations in the notes start position and velocity.&#x20;
+
+<figure><img src="../.gitbook/assets/2024-05-16 23_10_38-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
+
+Once you clicked the Humanize button, you can adjust the humanization parameters and see the different results.
 
 ## Importing notes
 
@@ -102,7 +120,7 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 
 ## Mouse shortcuts
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr><tr><td>Ruler</td><td>drag</td><td>set playback loop zone</td></tr><tr><td>Ruler</td><td>shift-click</td><td>extend playback loop zone</td></tr><tr><td>Ruler</td><td>click</td><td>remove playback loop zone</td></tr><tr><td>Ruler</td><td>ctrl-drag</td><td>move editor</td></tr></tbody></table>
 
 ## Keyboard shortcuts
 
@@ -111,6 +129,7 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 | Notes     | alt-up/down    | change velocity             |
 | Notes     | ctrl-C/X/V     | copy/cut/paste notes        |
 | Notes     | delete         | delete notes                |
+| Notes     | ctrl-shift-I   | invert notes selection      |
 | Editor    | ctrl-F         | zoom to fit notes           |
 | Editor    | Q              | quantize                    |
 | Editor    | G              | snap-to-grid                |
