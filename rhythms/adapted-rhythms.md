@@ -1,6 +1,6 @@
 # Adapted rhythms
 
-If you change the time signature of a [section](../editors/chord-lead-sheet.md#sections-input), JJazzLab will use an **adapted rhythm** for the impacted [song parts](../editors/song-structure.md#song-parts). This is simply the same rhythm but shortened or repeated to fit the new measure size.
+If you change the time signature of a[ section](../editors/chord-lead-sheet.md#sections-input), JJazzLab will use an **adapted rhythm** for the impacted [song parts](../editors/song-structure.md#song-parts). This is simply the same rhythm but shortened or repeated to fit the new measure size.
 
 ![](../.gitbook/assets/adaptedrhythmexample.png)
 
