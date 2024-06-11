@@ -33,7 +33,7 @@ Visit the [mix console](mix-console.md) page for more information.
 
 
 
-#### Notes Editor
+#### Note Editor
 
 The [note editor ](overview.md#note-editor)is only used when you want to edit the notes of a [user track](mix-console.md#user-tracks) or of a [song part custom phrase](song-structure.md#rhythm-parameters).
 
