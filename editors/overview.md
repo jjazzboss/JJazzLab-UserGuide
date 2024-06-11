@@ -1,29 +1,37 @@
 ---
-description: Most edit operations in JJazzLab are done in the 3 editors below.
+description: To create a JJazzLab backing track you'll mainly use the 3 editors below.
 ---
 
 # Overview
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song (e.g. AABA and play last A louder)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
 
-### Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
+### Use the **Chord LeadSheet Editor** to:
 
 * Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
 * Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B" in 3/4, "verse"
-* Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) or lyrics
 * Move and edit chord symbols to adjust rhythm accents, [interpretation](chord-lead-sheet.md#interpretation) or [harmony](chord-lead-sheet.md#harmony)
+* Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) or lyrics (optional)
 
-### Use the [**Song Structure Editor**](song-structure.md) to:
+Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
+
+### Use the **Song Structure Editor** to:
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
-* Edit the song part [rhythm](song-structure.md#change-rhythm) and [rhythm parameters](song-structure.md#rhythm-parameters) to introduce dynamics and variations
+* Select the [rhythm](song-structure.md#change-rhythm)(s) to be used in the song
+* Introduce dynamics and variations using [rhythm parameters](song-structure.md#rhythm-parameters) on each song part
 
-### Use the [**Mix Console**](mix-console.md) to:
+Visit the [song structure](song-structure.md) page for more information.
+
+### Use the **Mix Console** to:
 
 * Set the instrument of each track
 * Adjust track volume, panoramic, reverb, chorus, mute, transpose, etc.
 * Add [user tracks](mix-console.md#user-tracks)
-* [Export](mix-console.md#export-to-midi-file-with-mouse-drag-and-drop) the whole song or individual tracks as Midi files
+
+Visit the [mix console](mix-console.md) page for more information.
+
+
 
 #### Notes Editor
 
