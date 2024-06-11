@@ -12,7 +12,7 @@ Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentat
 
 ## Where to start?
 
-Try this very short [video tutorial](video-tutorials.md#for-starters).
+Try this very short [video tutorial](video-tutorials.md#for-starters) or the Editors [overview](editors/overview.md) page.
 
 ## What is JJazzLab?
 
