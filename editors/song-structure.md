@@ -96,7 +96,7 @@ Rhythm parameters let you adjust how a rhythm is played for a given song part. R
 JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters :
 
 * **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
-* **Intensity:**  most rhythm engines use this parameter to increase/decrease the Midi velocity of the backing track notes
+* **Intensity:**  a rhythm engine might simply increase/decrease the Midi velocity of the backing track notes depending on this parameter, but it could also generate more/less notes, etc.
 * **Drums Fill**: defines when a drums fill (or break) should be played on the last bar of the song part.
 * **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
 * **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).

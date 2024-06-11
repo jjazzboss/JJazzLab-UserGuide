@@ -6,7 +6,7 @@ description: To create a JJazzLab backing track you'll mainly use the 3 editors 
 
 <figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
 
-### Use the **Chord LeadSheet Editor** to:
+### Use the **Chord LeadSheet Editor** to
 
 * Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
 * Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B" in 3/4, "verse"
@@ -15,7 +15,7 @@ description: To create a JJazzLab backing track you'll mainly use the 3 editors 
 
 Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
 
-### Use the **Song Structure Editor** to:
+### Use the **Song Structure Editor** to
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
 * Select the [rhythm](song-structure.md#change-rhythm)(s) to be used in the song
@@ -23,7 +23,7 @@ Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
 
 Visit the [song structure](song-structure.md) page for more information.
 
-### Use the **Mix Console** to:
+### Use the **Mix Console** to
 
 * Set the instrument of each track
 * Adjust track volume, panoramic, reverb, chorus, mute, transpose, etc.
