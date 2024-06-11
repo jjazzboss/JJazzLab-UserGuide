@@ -4,7 +4,7 @@ description: Most edit operations in JJazzLab are done in the 3 editors below.
 
 # Overview
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song (e.g. AABA and play last A softly)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song (e.g. AABA and play last A louder)</p></figcaption></figure>
 
 ### Use the [**Chord LeadSheet Editor**](chord-lead-sheet.md) to:
 
