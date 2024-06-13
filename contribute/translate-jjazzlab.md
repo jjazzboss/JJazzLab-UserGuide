@@ -17,7 +17,7 @@ And thank you also to all the other contributors, every little bit helps!
 
 JJazzLab uses the [crowdin.com](https://app.gitbook.com/s/-MQE7B7yjVY3xzlsorS4-887967055/contribute/crowdin.com) platform, which makes it super easy to translate phrases, directly from your browser.
 
-![](../../.gitbook/assets/2021-01-31-21\_16\_39-jjazzlab-translations-in-crowdin-mozilla-firefox.png)
+![](../.gitbook/assets/2021-01-31-21\_16\_39-jjazzlab-translations-in-crowdin-mozilla-firefox.png)
 
 ## Who can do it?
 
@@ -34,7 +34,7 @@ Use **ctrl-O** (or **upper-left menu Open**) to open a different file. Done!
 
 Crowdin provides many other translation facilities, like automatic translation proposals, possibility to request more info, a validation process, etc.
 
-![](../../.gitbook/assets/crowdineditor.png)
+![](../.gitbook/assets/crowdineditor.png)
 
 
 
@@ -51,4 +51,4 @@ Crowdin provides many other translation facilities, like automatic translation p
 * **Language missing?**\
   If you want to add a language not listed in Crowdin, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
 * **Want to try JJazzLab with the latest translation files?**\
-  See [this page](testing-translations.md).
+  See [this page](broken-reference).
