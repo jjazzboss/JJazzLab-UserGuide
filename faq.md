@@ -35,7 +35,7 @@ Yes, but not directly because JJazzLab can not host VST plugins.&#x20;
 
 ## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="#generate-mp3" id="generate-mp3"></a>
 
-From JJazzLab 4, just use **menu File/Export to audio**.  If you select the option "Separate tracks", one audio file will be generated per track.
+From JJazzLab 4, just use **menu File/Export to audio** -this requires FluidSynth to be the output synth.  If you select the option "Separate tracks", one audio file will be generated per track.&#x20;
 
 ## How to force a clean re-installation?
 
@@ -43,7 +43,7 @@ You need to reset all JJazzLab user settings (uninstall/re-install is not enough
 
 The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
 
-The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, **\*\*exit JJazzLab, then delete the** Netbeans user dir\*\*.
+The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, exit JJazzLab then delete the **Netbeans user dir**.
 
 ## I don't have administration privileges on my Windows computer, can I install JJazzLab?
 
@@ -53,7 +53,7 @@ Yes. When first prompted by the JJazzLab installer, select "Install only for me"
 
 From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with decent sounds.
 
-To get even better sounds, you'll need to use a hardware synth or [VST/AU plugins](faq.md#can-i-use-vst-au-plugins-with-jjazzlab).
+To get even better sounds, you'll need to connect JJazzLab to a hardware synth or to [VST/AU plugins](faq.md#can-i-use-vst-au-plugins-with-jjazzlab) via Midi.
 
 {% hint style="success" %}
 There is a free version of Halion Sonic SE from Steinberg which can be used with JJazzLab to get **really good** **sounding** backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
