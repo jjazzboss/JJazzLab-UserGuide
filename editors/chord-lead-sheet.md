@@ -210,4 +210,5 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
 | editor                     | ctrl-Z/Y        | undo/redo                                 |
 | editor                     | ctrl-L          | Show/hide bar annotations                 |
+| editor                     | alt-L           | Insert bar annotation                     |
 | editor                     | ctrl-W          | close song                                |
