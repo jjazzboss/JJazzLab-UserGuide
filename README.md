@@ -22,13 +22,19 @@ Try this very short [video tutorial](video-tutorials.md#for-starters) or the Edi
 
 💻 JJazzLab is open-source:  developers can easily add new features and new music generation capabilities.
 
+
+
+{% hint style="warning" %}
+JJazzLab often uses the word "_rhythm_" as an equivalent for "_music style_".
+{% endhint %}
+
 ## Features
 
 ### Backing tracks
 
 * Instant generation of a Midi backing track with drums, percussion, bass, piano, guitar, pad, horn section, …
 * Fine tuning of the backing track per song part: rhythm variation, intensity, muted instruments, drum fills, tempo factor, custom phrases, drums transform, …
-* Add user tracks, which can also be used to change predefined rhythm tracks
+* Add user tracks (which can also be used to change one or more rhythm tracks)
 * Play from anywhere, loop selected bars
 * Play transposed (e.g. for sax or trumpet players)
 * Any song structure: intro, chorus, 1st coda, etc.
@@ -51,7 +57,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters) or the Edi
 * Customizable colors and fonts
 * Print chord lead sheet and song structure
 
-### Rhythms (styles)
+### Rhythms (music styles)
 
 * Support for Yamaha style files (SFF1 & SFF2 format), access to thousands of free styles on the web
 * Hundreds of embedded rhythms in the installer
@@ -60,11 +66,11 @@ Try this very short [video tutorial](video-tutorials.md#for-starters) or the Edi
 
 ### Easy reader window
 
-* Show the currently playing chords and annotations/lyrics
+* Show the currently playing chords and annotations/lyrics with a large font
 
-### Notes viewer
+### Chord inspector
 
-* Show selected chord symbol notes and scales with piano keyboard, guitar diagrams or score&#x20;
+* Show selected chord symbol notes (and scales) with piano keyboard, guitar diagrams or score&#x20;
 
 ### (pseudo) Arranger keyboard mode
 
@@ -81,7 +87,7 @@ Try this very short [video tutorial](video-tutorials.md#for-starters) or the Edi
 
 ### Midi
 
-* If not using FluidSynth, you still can connect JJazzLab to a Midi synth (hardware or software) with advanced configuration possibilities
+* If not using FluidSynth, you still can connect JJazzLab to a Midi synth (hardware or software like a VST host+plugins) with advanced configuration possibilities
 
 ### Import
 
