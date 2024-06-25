@@ -140,7 +140,9 @@ To add a section select a bar which is not after the end then:
 * double-click, or
 * right-click menu, Insert Section... or Edit...
 
-The new section name must be different than the existing one.
+{% hint style="warning" %}
+A section name must be unique.
+{% endhint %}
 
 ### Force a section at new line
 
