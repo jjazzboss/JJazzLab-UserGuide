@@ -43,6 +43,12 @@ JJazzLab can recognize different forms of a given chord symbol. For example C-7,
 
 Select a bar then select **Set end bar** in the right-click menu (see below).
 
+{% hint style="info" %}
+The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
+
+For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
+{% endhint %}
+
 ## Popup menus
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
