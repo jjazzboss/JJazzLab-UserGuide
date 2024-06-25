@@ -3,7 +3,7 @@
 Use the **song structure editor** to:
 
 * Define the order of sections as **song parts**, eg "AABA" or "verse verse chorus verse"
-* Select which **rhythm(s)** to use and when
+* Select which **rhythms** (music styles) to use and when
 * Adjust the **rhythm parameters** of song parts to introduce dynamics, eg variation, intensity, drums fill, muted instrument, ...
 
 ![](../.gitbook/assets/FullSongStructureEditorText.png)
@@ -24,17 +24,28 @@ To add a new song part:
 
 By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name.
 
-If some contiguous song parts share the same name, then the name is displayed only on the first song part and a line is shown on the contiguous song parts. Clicking this line will select all the related song parts.
+{% hint style="info" %}
+If some contiguous song parts share the same name, then the name is displayed _only on the first song part and a line is shown_ on the contiguous song parts (see image below).
+
+Clicking this line will select all the related song parts.
+{% endhint %}
 
 ![](../.gitbook/assets/songparts-samename.png)
 
 ## Editing
 
-Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicate**)**. Copy/cut/paste commands work as well both on song parts and rhythm parameters.
+Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicatea song part). Copy/cut/paste commands work as well both on song parts and rhythm parameters.
 
 Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
 
-Edits apply on the selected song part(s) or rhythm parameter(s).
+{% hint style="success" %}
+To edit several song parts or rhythm parameters in one shot:&#x20;
+
+* select multiple items with **ctrl+click** or **shift-click**&#x20;
+* Do the edit (for example change the rhythm, or increase intensity)
+
+Change is applied to all selected items.
+{% endhint %}
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter), as shown in the 2 images below.
 
@@ -69,7 +80,7 @@ Use the song part editor to edit rhythm parameters which need user to select (ct
 
 <figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Change rhythm
+## Change rhythm (music style)
 
 Each song part can have its own rhythm.&#x20;
 
@@ -91,7 +102,7 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 ## Rhythm parameters
 
-Rhythm parameters let you adjust how a rhythm is played for a given song part. Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
+Rhythm parameters let you adjust how a rhythm (music style) is played for a given song part. Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
 
 JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters :
 
@@ -101,17 +112,28 @@ JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom
 * **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
 * **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
 * **Tempo factor**: slows down or accelerates the tempo of the song part.
-* **Drums transform**: changes some drums notes of the song part. This is an **easy way to alter the drums track**. For example you can make the hi-hat louder, transform the closed hi-hat into ride cymbal, or just add percussions!
+* **Drums transform**: changes some drums notes of the song part. \
+  This is an **easy way to alter the drums track** to introduce some variation in your song. \
+  \
+  For example you can make the hi-hat louder, transform the closed hi-hat into ride cymbal, or just add percussions!
 
 ![](../.gitbook/assets/DrumsTransform.png)
 
-* **Custom phrase**: lets you customize one or more instrument phrases of the song part. The phrase will be made editable in the [notes editor](notes-editor.md).
+* **Custom phrase**: lets you customize one or more instrument phrases of the song part.\
+  &#x20;\
+  _Example: you want to change the bass phrase at the end of the second verse_\
+  &#x20;\
+  Edit the Custom phrase rhythm parameter of the corresponding song part, then edit the Bass track. The default bass phrase will appear in the [notes editor](notes-editor.md) and you'll be able to change it. \
+  \
+  If you want this customized bass phrase to also be used in the last verse of the song, just [copy the rhythm parameter value](song-structure.md#editing) and paste it in the last song part.
 
 ![](<../.gitbook/assets/2024-01-05 11\_52\_05-Customize phrases for song part \_A\_ - bars 1..8 (1).png>)
 
 ### Compact / full view
 
-By default only a subset of the rhythm parameters are shown, this is the **compact view**. Click on the button below or press 'V' to switch between compact and full view.
+By default only a subset of the rhythm parameters are shown, this is the **compact view**.&#x20;
+
+Click on the button below or press 'V' to switch between compact and full view.
 
 ![](../.gitbook/assets/CompactView.png)
 

@@ -18,7 +18,7 @@ Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
 ### Use the **Song Structure Editor** to
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
-* Select the [rhythm](song-structure.md#change-rhythm)(s) to be used in the song
+* Select the [rhythms](song-structure.md#change-rhythm) (music styles) to be used in the song
 * Introduce dynamics and variations using [rhythm parameters](song-structure.md#rhythm-parameters) on each song part
 
 Visit the [song structure](song-structure.md) page for more information.
