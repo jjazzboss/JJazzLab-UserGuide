@@ -33,6 +33,7 @@ Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jja
 .pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
 
 * Download the .zip file and extract (open file with Finder)
+* Make sure that all extracted files have `read` file permissions for all users ('`r`'), and that `bin/jjazzlab` has execution permission for all users ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
 * Execute file `bin/jjazzlab` to start JJazzLab.
 
 {% hint style="warning" %}
