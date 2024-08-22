@@ -52,11 +52,15 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 * Print chord leadsheet and song structure
 * [Import](editors/notes-editor.md#importing-notes)/[export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)Midi files
 * [Import files](./#import) from Band-In-A-Box / Text ("|A7 D7 | Gm7 C7|") / MusicXML / Impro-Visor files
-* **Side-tools** :
-  * [Easy Reader window](tools/easy-reader.md): shows only the playing chords (and annotations/lyrics) with a large font
-  * [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
-  * [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi keyboard
-  * [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
+
+### **Side tools**
+
+* [Easy Reader window](tools/easy-reader.md): shows only the playing chords (and annotations/lyrics) with a large font
+* [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi keyboard
+* [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
+
+
 
 
 
