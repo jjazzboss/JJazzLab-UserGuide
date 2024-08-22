@@ -46,6 +46,7 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
   * add anticipated chords
 * Export backing track to Midi or [audio](faq.md#generate-mp3)
 * Play transposed (for sax, etc.)
+* Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
 * Add [annotations](editors/chord-lead-sheet.md#bar-annotations-lyrics)/lyrics to bars
 * Edit multiple songs, copy & paste between them
 * Print chord leadsheet and song structure
