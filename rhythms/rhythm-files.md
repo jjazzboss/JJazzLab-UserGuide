@@ -20,8 +20,12 @@ JJazzLab expects rhythm files to be in the **User directory for rhythm files**. 
 
 Your **rhythm files** are scanned at startup only upon a fresh install or an upgrade, and the rhythm list is saved into a **cache file**.
 
+You can force a **rescan** in the **Options/Rhythms** panel as shown below.
+
+<figure><img src="../.gitbook/assets/2024-08-22 23_28_07-JJazzLab  4.1.0a.png" alt=""><figcaption><p>Rescan button in the Options/Rhythms panel</p></figcaption></figure>
+
 {% hint style="info" %}
-You can use up to 2 levels of sub-directories to organize the rhythms. Sub-directories whose name starts with an underscore '\_' are not scanned.
+You can use up to **2 levels of sub-directorie**s to organize the rhythms in the **User directory for rhythm files**. Sub-directories whose name starts with an underscore '**\_**' are **not** scanned.
 {% endhint %}
 
 This cache file is then used to get the **rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files.&#x20;
@@ -40,7 +44,7 @@ Use the **Add Rhythms...** button from the **Options/Rhythms** panel (or from th
 
 Added rhythm files will be copied to the root of the **User directory for rhythm files**, and a **rescan** will be planned on next start.
 
-In the **Add Rhythms... dialog** shown below, you can choose to add the rhythms **for the current session only**, i.e. rhythm files will NOT be copied in the User directory for rhythm files.
+In the **Add Rhythms...** dialog shown below, you can choose to add the rhythms **for the current session only**, i.e. rhythm files will NOT be copied in the **User directory for rhythm files**.
 
 <figure><img src="../.gitbook/assets/2024-08-22 22_19_41-JJazzLab  4.1.0a.png" alt=""><figcaption><p>You may add rhythm files only for the current session</p></figcaption></figure>
 
