@@ -1,5 +1,9 @@
 # Rhythm files
 
+{% hint style="info" %}
+In JJazzLab "**rhythm**" usually means a **music style**.
+{% endhint %}
+
 Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**.&#x20;
 
 For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
