@@ -2,7 +2,7 @@
 
 When you save a song called **mySong**, JJazzLab actually saves 2 different files:
 
-* **mySong.sng**: contains everything except the mix information, i.e. the chord leadsheet, the song structure, the reference to the rhythm(s) used.
+* **mySong.sng**: contains everything except the mix information, i.e. the chord leadsheet, the song structure, the reference to the rhythm used (e.g. "16beat.s456.sty").
 * **mySong.mix**: contains only the mix information, i.e. the instrument used by each track with its configuration (volume, reverb, pan, ...).
 
 Why using 2 different files ?

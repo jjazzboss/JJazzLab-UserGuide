@@ -1,7 +1,5 @@
 ---
-description: >-
-  Create (or load) a song, then edit it to your backing track. Then you'll
-  mainly use the 3 editors below to edit the song.
+description: Create (or load) a song, then edit it with the editors 3 editors below.
 ---
 
 # Overview
