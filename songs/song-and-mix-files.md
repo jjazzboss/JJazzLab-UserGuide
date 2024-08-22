@@ -11,8 +11,8 @@ Because the mix information is specific to your [output synth](broken-reference)
 
 When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
 
-{% hint style="info" %}
-When loading a song file (.sng),  if the rhythm reference used by this song is not available, JJazzLab substitutes another rhythm which is available on the system.
+{% hint style="warning" %}
+When loading a song file (.sng),  if the rhythm reference (e.g. "16beat.s456.sty") used by this song is not available, JJazzLab substitutes another rhythm which is available on the system.
 {% endhint %}
 
 ## Default rhythm mix
