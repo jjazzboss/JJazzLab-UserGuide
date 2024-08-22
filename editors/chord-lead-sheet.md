@@ -166,7 +166,7 @@ When annotations are hidden, bar with annotations are marked with a post-it (too
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-### Special # syntax for Easy Reader
+#### Special # syntax for Easy Reader
 
 Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [Easy Reader](../tools/easy-reader.md) displays only the relevant line.
 
@@ -176,12 +176,12 @@ Suppose the same bar is used in different song parts. The lyrics for this bar mi
 
 ## Exporting/importing chord leadsheet as text
 
-Select some bars or chord symbols and copy them (via menu Copy action or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
+Select some bars or chord symbols and copy them (via menu Copy or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
 
 `|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |` \
 `| Gm7/Bb     | C9/Bb  |  F7M    |          |`
 
-Text import works the other way around. Copy a similar text from a text editor then paste it in the chord leadsheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
+Text import works the other way around. Copy a similar text in the clipboard then paste it in the chord leadsheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
 
 ## Mouse shortcuts
 
