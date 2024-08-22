@@ -50,7 +50,7 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 * Add [annotations](editors/chord-lead-sheet.md#bar-annotations-lyrics)/lyrics to bars
 * Edit multiple songs, copy & paste between them
 * Print chord leadsheet and song structure
-* [Import](editors/notes-editor.md#importing-notes)/[export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)Midi files
+* [Import](editors/notes-editor.md#importing-notes) or [export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)Midi files via drag & drop
 * [Import files](./#import) from Band-In-A-Box / Text ("|A7 D7 | Gm7 C7|") / MusicXML / Impro-Visor files
 
 ### **Side tools**
