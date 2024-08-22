@@ -2,14 +2,18 @@
 
 When you save a song called **mySong**, JJazzLab actually saves 2 different files:
 
-* **mySong.sng**: contains everything except the mix information
-* **mySong.mix**: contains only the mix information, i.e. the configuration of the instruments used.
+* **mySong.sng**: contains everything except the mix information, i.e. the chord leadsheet, the song structure, the reference to the rhythm(s) used.
+* **mySong.mix**: contains only the mix information, i.e. the instrument used by each track with its configuration (volume, reverb, pan, ...).
 
 Why using 2 different files ?
 
 Because the mix information is specific to your [output synth](broken-reference). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
 
 When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
+
+{% hint style="info" %}
+When loading a song file (.sng),  if the rhythm reference used by this song is not available, JJazzLab substitutes another rhythm which is available on the system.
+{% endhint %}
 
 ## Default rhythm mix
 

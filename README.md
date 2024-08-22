@@ -10,25 +10,31 @@ Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentat
 
 ![JJazzlab 4](.gitbook/assets/JJazzLab4-full1.png)
 
-## Where to start?
-
-Try this very short [video tutorial](video-tutorials.md#for-starters) or the Editors [overview](editors/overview.md) page.
+{% hint style="warning" %}
+In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
+{% endhint %}
 
 ## What is JJazzLab?
 
-🎵 JJazzLab is a desktop application which automatically generates backing tracks for any song, even complex ones. It’s a jam buddy to have fun improvising at home, learn new stuff or just practice your instrument. It’s also a great tool for teachers.
+🎵 With JJazzLab you quickly create backing tracks for any song, even complex ones. It’s a jam buddy to have fun improvising at home, learn new stuff or just practice your instrument. It’s also a great tool for teachers.
 
 🎷 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
 
-💻 JJazzLab is open-source:  developers can easily add new features and new music generation capabilities.
+💻 JJazzLab is open-source with an open architecture:  developers can easily add new features and new music generation capabilities.
 
+## Getting started
 
+[Install ](installation.md)and run JJazzLab, then :
 
-{% hint style="warning" %}
-JJazzLab often uses the word "_rhythm_" as an equivalent for "_music style_".
-{% endhint %}
+1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
+2. Press the **Play** button : you should hear the backing track (if not, check the Midi Out device in **menu Tools/Options**)
+3. Start editing the song using the [editors ](broken-reference)and see how it impacts the generated backing track.
 
-## Features
+See this very short [video tutorial](video-tutorials.md#for-starters) for an example.
+
+## Unique features
+
+We list here a few features
 
 ### Backing tracks
 

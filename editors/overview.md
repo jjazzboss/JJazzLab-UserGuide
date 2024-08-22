@@ -1,5 +1,7 @@
 ---
-description: To create a JJazzLab backing track you'll mainly use the 3 editors below.
+description: >-
+  Create (or load) a song, then edit it to your backing track. Then you'll
+  mainly use the 3 editors below to edit the song.
 ---
 
 # Overview

@@ -1,12 +1,14 @@
 # Rhythm files
 
 {% hint style="info" %}
-In JJazzLab "**rhythm**" usually means a **music style**.
+In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
 {% endhint %}
 
-Rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**.&#x20;
+Rhythms are used by [songs](broken-reference). Many songs use only one rhythm (e.g. rock), but some may use 2 or more.&#x20;
 
-For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
+JJazzLab keeps a list of the available rhythms on the computer (see [Rhythm files scanning](rhythm-files.md#rhythm-files-scanning) below). Song files (.sng) just keep a reference to the used rhythm(s).&#x20;
+
+In JJazzLab core, rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
 
 ## Rhythm files location <a href="#rhythm-files-location" id="rhythm-files-location"></a>
 
