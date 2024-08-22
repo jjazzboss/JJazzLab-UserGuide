@@ -16,7 +16,7 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 
 ## What is JJazzLab?
 
-🎵 With JJazzLab you quickly create backing tracks for any song, even complex ones. It’s a jam buddy to have fun improvising at home, learn new stuff or just practice your instrument. It’s also a great tool for teachers.
+🎵 With JJazzLab you quickly create backing tracks for any song, even complex ones. It’s a jam buddy to have fun practicing at home or learn new stuff. It’s also a great tool for teaching or early-stage composing.
 
 🎷 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
 
@@ -27,83 +27,35 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 [Install ](installation.md)and run JJazzLab, then :
 
 1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
-2. Press the **Play** button : you should hear the backing track (if not, check the Midi Out device in **menu Tools/Options**)
-3. Start editing the song using the [**editors** ](broken-reference)and see how it impacts the generated backing track.
+2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options**
+3. Start editing the song using the [**editors** ](broken-reference)and hear how it impacts the generated backing track.
 
 {% hint style="success" %}
 **Watch this 60 seconds** [**video tutorial**](video-tutorials.md#for-starters) **for a quick start.**
 {% endhint %}
 
-## Unique features
+## Key features
 
-We list here a few features
+* **Introduce dynamics!** for example:&#x20;
+  * mute the guitar in the intro
+  * simplify the piano on the first verse
+  * add a break at the end of the 2nd verse
+  * add congas from the 3nd verse
+  * add an synth ostinato in the last chorus
+  * boost intensity at the end
+  * add anticipated chords
+* Export backing track to Midi or [audio](faq.md#generate-mp3)
+* Play transposed (for sax, etc.)
+* Add [annotations](editors/chord-lead-sheet.md#bar-annotations-lyrics)/lyrics to bars
+* Edit multiple songs, copy & paste between them
+* Print chord leadsheet and song structure
+* [Import](editors/notes-editor.md#importing-notes)/[export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)Midi files
+* [Import files](./#import) from Band-In-A-Box / Text ("|A7 D7 | Gm7 C7|") / MusicXML / Impro-Visor files
+* **Side-tools** :
+  * [Easy Reader window](./#easy-reader-window): shows only the playing chords (and annotations/lyrics) with a large font
+  * [Chord inspector](./#chord-inspector): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
+  * [Arranger keyboard mode](./#pseudo-arranger-keyboard-mode): control backing track in (pseudo) real-time via a Midi keyboard
+  * [Improvisation help](./#improvisation-help): generate improvisation guides on your chord leadsheet
 
-### Backing tracks
 
-* Instant generation of a Midi backing track with drums, percussion, bass, piano, guitar, pad, horn section, …
-* Fine tuning of the backing track per song part: rhythm variation, intensity, muted instruments, drum fills, tempo factor, custom phrases, drums transform, …
-* Add user tracks (which can also be used to change one or more rhythm tracks)
-* Play from anywhere, loop selected bars
-* Play transposed (e.g. for sax or trumpet players)
-* Any song structure: intro, chorus, 1st coda, etc.
-* Adjust tempo, transposition, choose and solo/mute instruments
-* Support for multi-rhythm backing tracks, possibly with different time signatures
-* Export to Midi or MP3/Wav file, the full backing track or a single instrument track
-* Customizable click and pre-count
 
-### Editors
-
-* Chord lead sheet editor, song structure editor, chord symbol editor, mix console, notes editor, song memo editor
-* Multi-file editor with dockable windows
-* Intuitive user interface with unlimited undo/redo, copy/paste between songs
-* Free placement of the chord symbols (quantified or not), off-beat chord symbols anticipation
-* Support all pop-rock and jazz chord symbols, plus user-defined chord symbols
-* Edit chord symbol musical rendering: underlying harmony, accent type, harmony variation during solos, chord symbol substitution, …
-* Add annotations or lyrics to measures
-* Drag & drop support to import/export Midi files
-* Customizable song template
-* Customizable colors and fonts
-* Print chord lead sheet and song structure
-
-### Rhythms (music styles)
-
-* Support for Yamaha style files (SFF1 & SFF2 format), access to thousands of free styles on the web
-* Hundreds of embedded rhythms in the installer
-* Support for “YamJJazz Extended Yamaha" style files for even more variations per style
-* Open architecture: new rhythm generation engines can be easily added via plugins
-
-### Easy reader window
-
-* Show the currently playing chords and annotations/lyrics with a large font
-
-### Chord inspector
-
-* Show selected chord symbol notes (and scales) with piano keyboard, guitar diagrams or score&#x20;
-
-### (pseudo) Arranger keyboard mode
-
-* Recognize chords played on Midi IN and update the backing track in (pseudo) real-time
-
-### Improvisation help
-
-* Automatic generate improvisation guides on your chord leadsheet
-* Based on Hal Crook's reference book "How to improvise"
-
-### FluidSynth, the JJazzLab builtin synth
-
-* JJazzLab embeds a ready-to-use synth based on FluidSynth, with good sounds optimized for JJazzLab
-
-### Midi
-
-* If not using FluidSynth, you still can connect JJazzLab to a Midi synth (hardware or software like a VST host+plugins) with advanced configuration possibilities
-
-### Import
-
-* Band-In-A-Box / MusicXML / Impro-Visor lead sheet files
-* Import .txt files or copy/paste text like "|A7 D7 | Gm7 C7|"
-
-### Miscellaneous
-
-* Song memo with hyperlinks opened upon song loading
-* Easily add new features thanks to the open-source pluggable architecture
-* Based on the Netbeans application framework
