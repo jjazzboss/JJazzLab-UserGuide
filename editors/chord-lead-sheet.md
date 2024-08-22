@@ -174,6 +174,15 @@ Suppose the same bar is used in different song parts. The lyrics for this bar mi
 
 **Example**:  for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
 
+## Exporting chord leadsheet as text
+
+Select some bars or chord symbols, then copy them (via menu Copy action or ctrl-C/command-C).&#x20;
+
+Switch to any text editor and paste. You get a chord leadsheet in text format such as:
+
+`|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |` \
+`| Gm7/Bb     | C9/Bb  |  F7M    |          |`
+
 ## Mouse shortcuts
 
 | <mark style="background-color:blue;">**Selection**</mark> | <mark style="background-color:blue;">**Mouse**</mark> | <mark style="background-color:blue;">**Action**</mark> |
