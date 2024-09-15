@@ -22,9 +22,9 @@ If you don't have admin rights on your computer, choose **Install for me only** 
 
 ## MacOS
 
-You must first install FluidSynth (**>=2.2.0**) manually (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
+First **you must install FluidSynth** (**>=2.2.0**) **manually** (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
 
-#### Mac computers with Apple M1 processor
+#### Mac computers with Apple Mx processor
 
 Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and open it.
 
@@ -67,7 +67,7 @@ sudo gdebi install ./jjazzlab-4.0.2-0.x86_64.deb
 sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
 ```
 
-{% hint style="info" %}
+{% hint style="success" %}
 JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
 {% endhint %}
 
@@ -92,8 +92,6 @@ If you successfully installed FluidSynth (**>=2.2.0**) but JJazzLab can't load F
 * In the JJazzLab installation directory, edit file `etc/jjazzlab.con`f
 * Add `-J-Dfluidsynthlib.path=/tmp/lib/libfluidsynth.so.3` at the end of the `default_options` variable
 * Start JJazzLab
-
-
 
 {% hint style="danger" %}
 JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
