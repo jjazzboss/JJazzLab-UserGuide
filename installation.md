@@ -4,10 +4,6 @@
 
 Download and run the setup program at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download), which embeds everything you need.
 
-{% hint style="info" %}
-If you don't have admin rights on your computer, choose **Install for me only** during setup
-{% endhint %}
-
 {% hint style="warning" %}
 If you get a **Windows Smart Screen** alert
 
@@ -18,6 +14,10 @@ Windows Smart Screen blocks the program NOT because it is a malware (it is NOT!)
 Once enough users will have successfully downloaded and installed it, Windows Smart Screen will not block the program anymore.
 
 You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
+{% endhint %}
+
+{% hint style="info" %}
+If you don't have admin rights on your computer, choose **Install for me only** during setup
 {% endhint %}
 
 ## MacOS
@@ -33,7 +33,8 @@ Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jja
 .pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
 
 * Download the .zip file and extract (open file with Finder)
-* Make sure that all extracted files have `read` file permissions for all users ('`r`'), and that `bin/jjazzlab` has execution permission for all users ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
+* **Make sure** **that all extracted files** have **read** permission ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution** permission ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
+  To add read+execution permission: `chmod a+rx bin/jjazzlab jdk/bin/java`
 * Execute file `bin/jjazzlab` to start JJazzLab.
 
 {% hint style="warning" %}
@@ -77,7 +78,8 @@ The `.tar.xz` package should work on any Linux distro (x64).
 1. &#x20;Install FluidSynth (**>=2.2.0**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
 2. Download and extract the JJazzLab .tar.xz file, e.g\
    `tar -xf JJazzLab-4.0.2-linux-x64.tar.xz`
-3. Make sure that all extracted files have `read` file permissions for all users ('`r`'), and that `bin/jjazzlab` has execution permission for all users ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)
+3. **Make sure** **that all extracted files** have **read permission** ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution permission** ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
+   To add read+execution permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 4. Run`bin/jjazzlab`
 
 #### Special case: `libfluidsynth.so.3` in a non-standard directory
