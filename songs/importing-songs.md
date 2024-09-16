@@ -24,13 +24,11 @@ The song import feature is not 100% reliable, but most of the files should be OK
 
 ## musicXML files (.xml, .mxl, musicxml)
 
-JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro.
-
-What is imported:
+JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro. What is imported:
 
 * Chord symbols
 * Time signatures
-* Section letters "A", "B" found in **direction/direction-type/rehearsal** elements.
+* Section titles such "INTRO", "A", "B" found in **direction/direction-type/rehearsal** elements.
 * Repeats, endings (1. 2. 3...), tocoda, coda, segno, DC al coda, DC al fine, DS al coda, DS al fine, as found in **sound** and **barline** elements.
 * Music style information found in the **groove** type of a **play/other-play element.**
 
@@ -44,7 +42,7 @@ JJazzLab can read chords from text files. 3 formats are supported, GRID-BASED, T
 
 `!` can be used instead of `|`.  `%` repeats the previous bar. Any bar can start with a time signature.
 
-JJazzLab can directly import text files exported from ChordPulse (it ignores the . and / chars).
+JJazzLab can directly import text files exported from ChordPulse (it ignores the `.` and `/` chars between chords).
 
 Example:
 
