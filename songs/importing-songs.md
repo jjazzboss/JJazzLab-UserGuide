@@ -22,11 +22,17 @@ The song import feature is not 100% reliable, but most of the files should be OK
 **By default imported songs will be in 4/4**. If you know that the imported song is in 3/4, then when import is done just select the initial time signature and use righ-click menu **Set time signature** to fix the time signature.
 {% endhint %}
 
-## musicXML files (.xml, .mxl)
+## musicXML files (.xml, .mxl, musicxml)
 
-JJazzLab can import musicXML (.xml) or compressed musicXML (.mxl).&#x20;
+JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro.
 
-The import is limited to the time signatures and chord symbols.
+What is imported:
+
+* Chord symbols
+* Time signatures
+* Section letters "A", "B" found in **direction/direction-type/rehearsal** elements.
+* Repeats, endings (1. 2. 3...), tocoda, coda, segno, DC al coda, DC al fine, DS al coda, DS al fine, as found in **sound** and **barline** elements.
+* Music style information found in the **groove** type of a **play/other-play element.**
 
 
 
@@ -37,6 +43,8 @@ JJazzLab can read chords from text files. 3 formats are supported, GRID-BASED, T
 #### **GRID-BASED: e.g. "| 3/4 Bb7M | D7#5  | Eb7M | Db7#11 |"**
 
 `!` can be used instead of `|`.  `%` repeats the previous bar. Any bar can start with a time signature.
+
+JJazzLab can directly import text files exported from ChordPulse (it ignores the . and / chars).
 
 Example:
 
