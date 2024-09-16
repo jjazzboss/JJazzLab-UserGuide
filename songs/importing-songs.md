@@ -51,7 +51,7 @@ Example:
 `|4/4 Fm7  | Gm7 C7 | %     |  F7M  |`
 
 {% hint style="success" %}
-JJazzLab can directly import text files exported from ChordPulse (it ignores the `.` and `/` chars between chords).
+JJazzLab can directly import text files exported from **ChordPulse**.
 {% endhint %}
 
 #### **TIME-BASED: "pos\_in\_seconds, chord\_symbol"**
