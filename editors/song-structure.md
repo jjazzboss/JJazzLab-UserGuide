@@ -108,9 +108,9 @@ JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom
 
 * **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
 * **Intensity:**  a rhythm engine might simply increase/decrease the Midi velocity of the backing track notes depending on this parameter, but it could also generate more/less notes, etc.
-* **Drums Fill**: defines when a drums fill (or break) should be played on the last bar of the song part.
-* **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the **song part editor** (see snapshot at the top of this page)**.**
-* **Marker**: this parameter is useful only if you use substitute chord symbols in the chord leadsheet, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
+* **Drums Fill**: defines when a drums fill (or break) should be played at the end of the song part.
+* **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
+* **Marker**: this parameter is useful only if you use substitute chord symbols, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
 * **Tempo factor**: slows down or accelerates the tempo of the song part.
 * **Drums transform**: changes some drums notes of the song part. \
   This is an **easy way to alter the drums track** to introduce some variation in your song. \
