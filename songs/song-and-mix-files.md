@@ -19,7 +19,7 @@ When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637
 
 #### Principle
 
-When you create a song and select a rhythm (e.g. `MediumJazz.s637.sst`), JJazzLab looks for a **default rhythm mix** file (`MediumJazz.s637.mix`) to initialize the song mix for this rhythm.&#x20;
+When you create a song and select a new rhythm (e.g. `MediumJazz.s637.sst`), JJazzLab looks for a **default rhythm mix** file (`MediumJazz.s637.mix`) to initialize the song mix for this rhythm.&#x20;
 
 The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): e.g. for `MediumJazz.s637.sst` make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that trumpet you don't like.
 
