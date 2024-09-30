@@ -3,27 +3,43 @@
 When you save a song called **mySong**, JJazzLab actually saves 2 different files:
 
 * **mySong.sng**: contains everything except the mix information, i.e. the chord leadsheet, the song structure, the reference to the rhythm used (e.g. "16beat.s456.sty").
-* **mySong.mix**: contains only the mix information, i.e. the instrument used by each track with its configuration (volume, reverb, pan, ...).
+* **mySong.mix**: contains only the mix information, i.e. which instrument is used by each track, and with which configuration (volume, reverb, pan, ...).
 
 Why using 2 different files ?
 
-Because the mix information is specific to your [output synth](broken-reference). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
+Because the mix information is specific to your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
 
 When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
 
 {% hint style="warning" %}
-When loading a song file (.sng),  if the rhythm reference (e.g. "16beat.s456.sty") used by this song is not available, JJazzLab substitutes another rhythm which is available on the system.
+When loading a song file (.sng),  if the rhythm name (e.g. "MediumJazz.s637.sst") used by this song is not available, JJazzLab substitutes another rhythm available on the system. JJazzLab tries its best to find a "similar" rhythm based on the name (another "jazz" rhythm in the example above). If it can't find a suitable rhythm, it just uses the default rhythm for the time signature.
 {% endhint %}
 
 ## Default rhythm mix
 
-Each JJazzLab rhythm has a builtin default mix. This builtin default mix can only use **GM instruments** for maximum portability.
+#### Principle
 
-You can override the rhythm's builtin mix by saving a **default rhythm mix** file.  Unlike the builtin mix, **this rhythm mix can use any instruments**.
+When you create a song and select a rhythm, JJazzLab looks for a **default rhythm mix** to initialize the song mix for this rhythm.&#x20;
+
+This lets you define an optimized rhythm mix adapted to your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)), e.g. lower the electric guitar sound, change the default GM bass instrument for a better one available on your synth, and mute that trumpet track you don't like.
+
+{% hint style="info" %}
+**If this file is not present**, JJazzLab uses the builtin information inside the rhythm file and the capabilities of your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)) in order to **infer the most appropriate mix**. With FluidSynth it will work OK most of the time. With a custom synth, it might be less optimized.
+{% endhint %}
+
+#### Defining your default rhythm mix
+
+Just adjust the mix i
+
+You can override the rhythm's builtin mix by saving a **default rhythm mix** file, as shown in the image below. This way, each time you will choose this rhythm in a song, it will reuse this rhythm default mix.
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-By default this file is stored in the **user rhythm directory** set in **Options/Rhythms.** But the directory can be changed in **Options/General**.
+&#x20;Unlike the builtin mix, **this rhythm mix can use any instruments**. The .mix file has the same name than the rhythm file (eg "MediumJazz.s637.mix")&#x20;
+
+For example if you select `MediumJazz.s637.sst` (located in `user_rhythm_directory/jazz`), JJazzLab tries to load the default rhythm mix file `jazz/MediumJazz.s637.mix`.
+
+
 
 ## Mix file lookup order
 
