@@ -17,7 +17,7 @@ When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637
 
 ## Default rhythm mix
 
-{% hint style="success" %}
+{% hint style="info" %}
 If you often use a certain rhythm, adjust its mix and save it as a **default rhythm mix file**, so that each time you'll use that rhythm in a song, it will sound optimally for your output synth.
 {% endhint %}
 
@@ -27,7 +27,7 @@ When you create a song and select a new rhythm (e.g. `MediumJazz.s637.sst`), JJa
 
 The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): for example with`MediumJazz.s637.sst` you can make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that flute you don't like.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **If the default rhythm mix file is not present**, JJazzLab uses the **rhythm's** **builtin mix**. The rhythm's builtin mix is infered from the rhythm data and from your output synth capabilities. With FluidSynth the resulting mix should be OK  with a few manual adjusments. With a custom synth, it might need more fixes.
 {% endhint %}
 
