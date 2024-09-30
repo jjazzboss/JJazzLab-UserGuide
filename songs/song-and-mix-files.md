@@ -12,7 +12,7 @@ Because the mix information is specific to your output synth ([FluidSynth ](../s
 When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
 
 {% hint style="warning" %}
-When loading a song file (.sng),  if the rhythm name (e.g. "MediumJazz.s637.sst") used by this song is not available, JJazzLab substitutes another rhythm available on the system. JJazzLab tries its best to find a "similar" rhythm based on the name (another "jazz" rhythm in the example above). If it can't find a suitable rhythm, it just uses the default rhythm for the time signature.
+When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637.sst") used by this song is not available, JJazzLab substitutes another rhythm available on the system. JJazzLab tries its best to find a "similar" rhythm based on the name (another "jazz" rhythm in the example above). If it can't find a suitable rhythm, it just uses the default rhythm for the time signature.
 {% endhint %}
 
 ## Default rhythm mix
@@ -21,23 +21,21 @@ When loading a song file (.sng),  if the rhythm name (e.g. "MediumJazz.s637.sst"
 
 When you create a song and select a rhythm (e.g. `MediumJazz.s637.sst`), JJazzLab looks for a **default rhythm mix** file (`MediumJazz.s637.mix`) to initialize the song mix for this rhythm.&#x20;
 
-This lets you define an optimized rhythm mix adapted to your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)), e.g. lower the electric guitar sound, change the default GM bass instrument for a better one available on your synth, and mute that trumpet track you don't like.
+The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): e.g. for `MediumJazz.s637.sst` make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that trumpet you don't like.
 
 {% hint style="info" %}
-**If the default rhythm mix file is not present**, JJazzLab uses the builtin information inside the rhythm file and the capabilities of your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)) in order to **infer the most appropriate mix**. With FluidSynth it will work OK most of the time. With a custom synth, it might be less optimized.
+**If the default rhythm mix file is not present**, JJazzLab uses the builtin information inside the rhythm file and the capabilities of your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)) in order to **infer an appropriate mix**. With FluidSynth it will work OK most of the time. With a custom synth, it might be less optimized.
 {% endhint %}
 
 #### Save a default rhythm mix
 
-In the mix console, adjust the mix for you rhythm, then when you're satisfied use **Save as default rhythm mix** as shown below.
+In the mix console, adjust the mix for your rhythm until you're satisfied, then use **Save as default rhythm mix** from the Mix console menu, as shown below.
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-The default rhythm mix file is saved **in the same directory than the rhythm file**. JJazzLab will use it automatically each time you select the corresponding rhythm.
+The default rhythm mix file is saved **in the same directory than the rhythm file**. JJazzLab will now use it automatically each time you select the corresponding rhythm in a song.
 
-The **Load default rhythm mix** can be used if you need&#x20;
-
-
+If you made changes to the song mix but you're not satisfied with those changes, you can re-initialize the song mix with the default rhythm mix using **Load default rhythm mix** in the Mix console menu.
 
 ## Mix file lookup order
 
