@@ -17,25 +17,41 @@ When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637
 
 ## Default rhythm mix
 
-#### Principle
+{% hint style="success" %}
+If you often use a certain rhythm, adjust its mix and save it as a **default rhythm mix file**, so that each time you'll use that rhythm in a song, it will sound optimally for your output synth.
+{% endhint %}
+
+#### How it works
 
 When you create a song and select a new rhythm (e.g. `MediumJazz.s637.sst`), JJazzLab looks for a **default rhythm mix** file (`MediumJazz.s637.mix`) to initialize the song mix for this rhythm.&#x20;
 
-The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): e.g. for `MediumJazz.s637.sst` make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that trumpet you don't like.
+The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): for example for `MediumJazz.s637.sst` you can make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that flute you don't like.
 
 {% hint style="info" %}
-**If the default rhythm mix file is not present**, JJazzLab uses the builtin information inside the rhythm file and the capabilities of your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)) in order to **infer an appropriate mix**. With FluidSynth it will work OK most of the time. With a custom synth, it might be less optimized.
+**If the default rhythm mix file is not present**, JJazzLab uses the **rhythm's** **builtin mix**. The rhythm's builtin mix is infered from the rhythm data and from your output synth capabilities ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)). With FluidSynth the resulting mix should be OK  with a few manual adjusments. With a custom synth, it might need more fixes.
 {% endhint %}
 
-#### Save a default rhythm mix
+#### Adjusting and saving a default rhythm mix
 
-In the mix console, adjust the mix for your rhythm until you're satisfied, then use **Save as default rhythm mix** from the Mix console menu, as shown below.
+* In the Midi options select your preferred output synth, e.g. [FluidSynth](../sounds/using-fluidsynth.md).&#x20;
+* Load a song which uses your favorite rhythm and play it\
+  (song mix is initialized with the **rhythm's builtin mix** if no default rhythm mix is defined)
+* Adjust the mix until you're satisfied with the song rendering
+* Use **Save as default rhythm mix** from the **Mix Console File menu**, as shown below.
 
 ![](../.gitbook/assets/saverhythmmix.png)
 
-The default rhythm mix file is saved **in the same directory than the rhythm file**. JJazzLab will now use it automatically each time you select the corresponding rhythm in a song.
+The default rhythm mix file is saved **in the same directory than the rhythm file**.&#x20;
 
-If you made changes to the song mix but you're not satisfied with those changes, you can re-initialize the song mix with the default rhythm mix using **Load default rhythm mix** in the Mix console menu.
+{% hint style="success" %}
+JJazzLab will now automatically use this **default rhythm mix** each time you select the corresponding rhythm in a song.
+{% endhint %}
+
+If it's defined, you can always reapply a default rhythm mix using **Load default rhythm mix** from the **Mix console menu File**.&#x20;
+
+If you want to reset all the mix to the **rhythm's builtin mix** (see above), use **Reset channels** from the **Mix Console Edit menu**, as shown below.&#x20;
+
+<figure><img src="../.gitbook/assets/2024-09-30 22_26_48-JJazzLab  4.1.2-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
 ## Mix file lookup order
 
