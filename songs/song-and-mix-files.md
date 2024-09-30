@@ -38,9 +38,8 @@ The default rhythm mix lets you define **an optimized rhythm mix adapted to your
   (song mix is initialized with the **rhythm's builtin mix** if no default rhythm mix is defined)
 * Adjust the mix until you're satisfied with the song rendering
 * Use **Save as default rhythm mix** from the **Mix Console File menu**, as shown below.
-*
 
-    <figure><img src="../.gitbook/assets/2024-09-30 22_55_58-JJazzLab  4.1.2-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-09-30 22_55_58-JJazzLab  4.1.2-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
 The default rhythm mix file is saved **in the same directory than the rhythm file**.&#x20;
 
