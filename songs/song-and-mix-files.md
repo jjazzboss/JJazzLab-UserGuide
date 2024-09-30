@@ -9,7 +9,7 @@ Why using 2 different files ?&#x20;
 
 Because the mix information is specific to your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
 
-When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix).
+When you open **mySong.sng**, JJazzLab also opens **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix) if present, otherwise it infers the rhythm's builtin mix.
 
 {% hint style="warning" %}
 When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637.sst") used by this song is not available, JJazzLab substitutes another rhythm available on the system. JJazzLab tries its best to find a "similar" rhythm based on the name (another "jazz" rhythm in the example above). If it can't find a suitable rhythm, it just uses the default rhythm for the time signature.
