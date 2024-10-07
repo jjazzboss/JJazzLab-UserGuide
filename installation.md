@@ -40,7 +40,7 @@ _Mac computers with Intel x64 processor:_
 
 .pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
 
-* Download the .zip file and extract (open file with Finder)
+* Download the .zip file at  [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract it (open file with Finder)
 * **Make sure** **that all extracted files** have **read** permission ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution** permission ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
   To add read+execution permission: `chmod a+rx bin/jjazzlab jdk/bin/java`
 * Execute file `bin/jjazzlab` to start JJazzLab.
