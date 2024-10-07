@@ -22,13 +22,19 @@ If you don't have admin rights on your computer, choose **Install for me only** 
 
 ## MacOS
 
-First **you must install FluidSynth** (**>=2.2.0**) **manually** (I strongly recommend via Homebrew): [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download).&#x20;
+#### 1/ install [FluidSynth](https://github.com/FluidSynth/fluidsynth/wiki/Download) (>=2.2.0)
 
-#### Mac computers with Apple Mx processor
+I **strongly** recommend via [Homebrew](https://brew.sh/): `brew install fluidsynth`
+
+#### 2/ Download a JJazzLab package and install it
+
+_Mac computers with Apple Mx processor_
 
 Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and open it.
 
-#### Mac computers with Intel x64 processor
+
+
+_Mac computers with Intel x64 processor_
 
 .pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
 
