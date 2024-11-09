@@ -89,7 +89,7 @@ JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. 
 The `.tar.xz` package should work on any Linux distro (x64).
 
 1. &#x20;Install FluidSynth (**>=2.2.0**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
-2. Download and extract the JJazzLab .tar.xz file, e.g\
+2. Download at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract the JJazzLab .tar.xz file, e.g\
    `tar -xf JJazzLab-4.0.2-linux-x64.tar.xz`
 3. **Make sure** **that all extracted files** have **read permission** ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution permission** ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
    To add read+execution permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
@@ -116,4 +116,4 @@ JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at
 The Flatpak package is **NOT** a JJazzLab official package, it is kindly provided by a JJazzLab user. Therefore **we do not provide support for it**. If you encounter problems, please try the other packages proposed on this page.
 {% endhint %}
 
-[**https://flathub.org/apps/org.jjazzlab.JJazzLab**](https://flathub.org/apps/org.jjazzlab.JJazzLab)
+[https://flathub.org/apps/org.jjazzlab.JJazzLab](https://flathub.org/apps/org.jjazzlab.JJazzLab)
