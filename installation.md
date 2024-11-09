@@ -62,7 +62,7 @@ To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
 {% endhint %}
 
-### Using Linux packages
+### Using deb/rpm packages
 
 JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 
