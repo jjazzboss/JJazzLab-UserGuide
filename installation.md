@@ -62,7 +62,7 @@ To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
 {% endhint %}
 
-#### Using packages
+### Using Linux packages
 
 JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
 
@@ -84,7 +84,7 @@ sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
 JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
 {% endhint %}
 
-#### Using the tar.xz package&#x20;
+### Using the tar.xz package&#x20;
 
 The `.tar.xz` package should work on any Linux distro (x64).
 
@@ -110,7 +110,7 @@ If you successfully installed FluidSynth (**>=2.2.0**) but JJazzLab can't load F
 JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
 {% endhint %}
 
-#### Using flatpak
+### Using flatpak
 
 {% hint style="danger" %}
 The Flatpak package is **NOT** a JJazzLab official package, it is kindly provided by a JJazzLab user. Therefore **we do not provide support for it**. If you encounter problems, please try the other packages proposed on this page.
