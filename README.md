@@ -36,12 +36,11 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 
 ## Key features
 
-* **Introduce dynamics!** for example:&#x20;
+* **Introduce dynamics in just a few clicks:**&#x20;
   * mute the guitar in the intro
   * simplify the piano on the first verse
   * add a break at the end of the 2nd verse
   * add congas from the 3rd verse
-  * add a synth ostinato in the last chorus
   * boost intensity and slightly increase tempo at the end&#x20;
   * add anticipated chords
 * Export backing track to Midi or [audio](faq.md#generate-mp3)
