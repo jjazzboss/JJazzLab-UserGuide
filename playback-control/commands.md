@@ -4,6 +4,8 @@ You can control the playback of the backing track using the toolbar below.
 
 ![](../.gitbook/assets/MusicControlToolbarText.png)
 
+The **Metronome** and **Precount mode** depend on the **Click** settings in the **Options menu**.
+
 ### Keyboard shortcuts
 
 {% hint style="warning" %}
