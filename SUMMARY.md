@@ -28,6 +28,7 @@
 
 * [Song and mix files](songs/song-and-mix-files.md)
 * [Importing songs](songs/importing-songs.md)
+* [Exporting songs](songs/exporting-songs.md)
 
 ## Rhythms
 
