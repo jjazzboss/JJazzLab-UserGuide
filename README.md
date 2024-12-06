@@ -27,12 +27,10 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 [Install ](installation.md)and run JJazzLab, then :
 
 1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
-2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options**
+2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options (Preferences on Mac)**
 3. Start editing the song using the [**editors** ](broken-reference)and hear how it impacts the generated backing track.
 
-{% hint style="success" %}
-**Watch this 60 seconds** [**video tutorial**](video-tutorials.md#for-starters) **for a quick start.**
-{% endhint %}
+{% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
 ## Key features
 
@@ -43,13 +41,13 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
   * boost intensity and slightly increase tempo at the end&#x20;
   * add anticipated chords
   * simplify the piano on the first verse
-* Export backing track to Midi or [audio](faq.md#generate-mp3)
-* Play transposed (for sax, etc.)
+* [Export ](songs/exporting-songs.md)backing track to Midi or audio
+* Play [transposed ](playback-control/playback-key-transposition.md)(for sax, etc.)
 * Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
 * Add [annotations](editors/chord-lead-sheet.md#bar-annotations-lyrics)/lyrics to bars
 * Edit multiple songs, copy & paste between them
 * Print chord leadsheet and song structure
-* [Import](editors/notes-editor.md#importing-notes) or [export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)Midi files via drag & drop
+* [Import](editors/notes-editor.md#importing-notes) or [export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)individual Midi tracks via drag & drop
 * [Import files](./#import) from Band-In-A-Box / Text ("|A7 D7 | Gm7 C7|") / MusicXML / Impro-Visor files
 
 ### **Side tools**
