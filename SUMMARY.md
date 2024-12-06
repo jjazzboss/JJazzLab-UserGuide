@@ -13,6 +13,7 @@
 ## Playback control
 
 * [Commands](playback-control/commands.md)
+* [Playback key transposition](playback-control/playback-key-transposition.md)
 * [Midi remote commands](playback-control/midi-remote-commands.md)
 
 ## Editors

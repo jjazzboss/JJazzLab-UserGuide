@@ -121,13 +121,13 @@ JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom
 
 * **Custom phrase**: lets you customize one or more instrument phrases of the song part.\
   &#x20;\
-  _Example: you want to change the bass phrase at the end of the second verse_\
+  &#xNAN;_&#x45;xample: you want to change the bass phrase at the end of the second verse_\
   &#x20;\
   Edit the Custom phrase rhythm parameter of the corresponding song part, then edit the Bass track. The default bass phrase will appear in the [notes editor](notes-editor.md) and you'll be able to change it. \
   \
   If you want this customized bass phrase to also be used in the last verse of the song, just [copy the rhythm parameter value](song-structure.md#editing) and paste it in the last song part.
 
-![](<../.gitbook/assets/2024-01-05 11\_52\_05-Customize phrases for song part \_A\_ - bars 1..8 (1).png>)
+![](<../.gitbook/assets/2024-01-05 11_52_05-Customize phrases for song part _A_ - bars 1..8 (1).png>)
 
 ### Compact / full view
 

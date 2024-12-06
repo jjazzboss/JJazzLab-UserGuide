@@ -12,10 +12,10 @@ Use the **mix console** to:
 JJazzLab uses the **mix console** information to send the relevant Midi messages to the output synth. This is done each time you make a change in the mix console, or when you start the playback.
 
 {% hint style="danger" %}
-Midi has only 16 Midi channels**.** That's why usually a song can't have more than 2 rhythms.
+Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have more than 2 rhythms.
 {% endhint %}
 
-![](<../.gitbook/assets/2023-12-31 21\_37\_13-JJazzLab  4.0.2.png>)
+![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
 
 ## Mix console toolbar
 
