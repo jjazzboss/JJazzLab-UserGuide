@@ -39,12 +39,11 @@ If you prefer to quickly create a new backing track from scratch, check out this
 * Hundreds of ready-to-use music styles ([rhythms](broken-reference)) available
 * **Introduce dynamics and variety in just a few clicks, for example:**&#x20;
   * mute the guitar in the intro
-  * add a break at the end of the 2nd verse
-  * add congas from the 3rd verse
+  * add a break at the end of the 2nd verse and congas in the 3rd verse
   * boost intensity and slightly increase tempo at the end&#x20;
   * add anticipated chords
   * simplify the piano on the first verse
-* Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track and [edit ](editors/notes-editor.md)them
+* Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
 * Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
 * Play [transposed ](playback-control/playback-key-transposition.md)(for sax, etc.)
 * Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
