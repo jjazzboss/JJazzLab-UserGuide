@@ -49,7 +49,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 * Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
 * [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
 
-### **Side tools**
+## **Side tools**
 
 * [Easy Reader window](tools/easy-reader.md): shows the playing chords (and annotations/lyrics) with a large font
 * [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
