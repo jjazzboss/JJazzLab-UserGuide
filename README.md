@@ -30,31 +30,31 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options (Preferences on Mac)**
 3. Start editing the song using the [**editors** ](broken-reference)and hear how it impacts the generated backing track.
 
+If you prefer to quickly create a new backing track from scratch, check out this video:
+
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
 ## Key features
 
-* **Introduce dynamics in just a few clicks, for example:**&#x20;
+* Hundreds of ready-to-use music styles ([rhythms](broken-reference)) available
+* **Introduce dynamics and variety in just a few clicks, for example:**&#x20;
   * mute the guitar in the intro
   * add a break at the end of the 2nd verse
   * add congas from the 3rd verse
   * boost intensity and slightly increase tempo at the end&#x20;
   * add anticipated chords
   * simplify the piano on the first verse
-* Edit multiple songs, copy & paste between them
-* Add [annotations](editors/chord-lead-sheet.md#bar-annotations-lyrics)/lyrics to bars
+* Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track and [edit ](editors/notes-editor.md)them
+* Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
 * Play [transposed ](playback-control/playback-key-transposition.md)(for sax, etc.)
 * Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
-* Print chord leadsheet and song structure
-* [Export ](songs/exporting-songs.md)backing track to Midi or audio
-* [Import](editors/notes-editor.md#importing-notes) or [export ](editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop)individual Midi tracks via drag & drop
-* [Import files](./#import) from Band-In-A-Box / Text ("|A7 D7 | Gm7 C7|") / MusicXML / Impro-Visor files
+* [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
 
 ### **Side tools**
 
-* [Easy Reader window](tools/easy-reader.md): shows only the playing chords (and annotations/lyrics) with a large font
+* [Easy Reader window](tools/easy-reader.md): shows the playing chords (and annotations/lyrics) with a large font
 * [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
-* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi keyboard
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi input device
 * [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
 
 
