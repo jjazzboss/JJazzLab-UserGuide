@@ -21,6 +21,7 @@ The shortcuts are given for Windows and Linux. Some of them might need to be ada
 | ctrl-shift-space                                | Play only selected bars or song parts               |
 | F1                                              | Jump playback to previous song part                 |
 | F2                                              | Jump playback to next song part                     |
+| F3                                              | Jump playback to song start (restart)               |
 | J or -                                          | Decrease tempo                                      |
 | K or +                                          | Increase tempo                                      |
 | L                                               | Toggle loop mode                                    |
