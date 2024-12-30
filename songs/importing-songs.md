@@ -1,10 +1,18 @@
 ---
 description: >-
   JJazzLab can import songs from different file types using the menu File/Import
-  songs.
+  songs...
 ---
 
 # Importing songs
+
+## Batch convert mode
+
+If you have many files to import, you should use the **batch convert mode**. This modes directly imports and converts to .sng files, without opening the imported files in JJazzLab. Created .sng files will be located in the same directory than the imported files.
+
+To activate the **batch convert mode**, select corresponding checkbox in the **Import Songs...** dialog, as shown below:
+
+<figure><img src="../.gitbook/assets/2024-12-30 11_57_22-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
 ## Band In A Box song files (.SGU etc.)
 
