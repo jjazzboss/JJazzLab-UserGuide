@@ -2,9 +2,13 @@
 
 JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
-<figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
+
+{% hint style="warning" %}
+The score panel shows a **simplified musical notation:** it is not editable and notes are just placed at the right position without any other adjustment (no beams, etc.).&#x20;
+{% endhint %}
 
 ## Opening the notes editor
 
@@ -86,11 +90,21 @@ Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
 
 ## Changing notes velocity
 
-Notes color vary with their velocity.
+Notes color vary with their velocity.&#x20;
+
+There are several way to change notes velocity, as shown below.
+
+#### Using the main editor panel
 
 First select the notes to change. Then either use the velocity spinner in the toolbar, or use **alt + mouse-wheel** or **alt + page up/down**.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+#### Using the velocity panel
+
+**Click** or **mouse-drag** on notes to adjust the velocity.
+
+<figure><img src="../.gitbook/assets/2024-12-30 11_04_48-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
 ## Quantize & humanize notes
 
@@ -106,6 +120,16 @@ You can also **humanize** all or selected notes. Humanization introduces slight 
 
 Once you clicked the Humanize button, you can adjust the humanization parameters and see the different results.
 
+#### Example
+
+This bass line is very uniform: all notes have the same velocity and are quantized. This sounds too "robotic".
+
+<figure><img src="../.gitbook/assets/2024-12-30 11_40_40-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
+
+We can use the Humanize dialog to improve this, as shown below.
+
+<figure><img src="../.gitbook/assets/2024-12-30 11_41_33-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
+
 ## Importing notes
 
 You can import notes by dragging an external Midi file into the editor. You can also drag from an individual track in the mix console.
@@ -120,7 +144,7 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 
 ## Mouse shortcuts
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>right-click</td><td>select edit tool</td></tr><tr><td>Ruler</td><td>drag</td><td>set playback loop zone</td></tr><tr><td>Ruler</td><td>shift-click</td><td>extend playback loop zone</td></tr><tr><td>Ruler</td><td>click</td><td>remove playback loop zone</td></tr><tr><td>Ruler</td><td>ctrl-drag</td><td>move editor</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl-wheel</td><td>zoom horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift-wheel</td><td>zoom vertically</td></tr><tr><td>Editor</td><td>ctrl-drag</td><td>Move editor</td></tr><tr><td>Ruler</td><td>drag</td><td>set playback loop zone</td></tr><tr><td>Ruler</td><td>shift-click</td><td>extend playback loop zone</td></tr><tr><td>Ruler</td><td>click</td><td>remove playback loop zone</td></tr></tbody></table>
 
 ## Keyboard shortcuts
 
@@ -136,5 +160,6 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 | Editor    | A              | auto-scroll during playback |
 | Editor    | S              | solo the edited phrase      |
 | Editor    | H              | hear the selected notes     |
+| Editor    | Home/End       | Move editor to start/end    |
 | Editor    | ctrl-alt-space | play the edited phrase      |
 | Editor    | ctrl-Z/Y       | undo/redo                   |
