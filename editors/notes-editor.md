@@ -90,9 +90,7 @@ Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
 
 ## Changing notes velocity
 
-Notes color vary with their velocity.&#x20;
-
-There are several way to change notes velocity, as shown below.
+Notes color vary with their velocity. There are several way to change notes velocity, as shown below.
 
 #### Using the main editor panel
 
@@ -102,7 +100,7 @@ First select the notes to change. Then either use the velocity spinner in the to
 
 #### Using the velocity panel
 
-**Click** or **mouse-drag** on notes to adjust the velocity.
+**Click** or **mouse-drag** on notes to adjust their velocity.
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_04_48-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
