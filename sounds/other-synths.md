@@ -18,6 +18,10 @@ In the **Midi** tab of the **Options/Preferences :**
 
 The **Output Synth** information allows JJazzLab to directly display and select synth sounds/instruments from the mix console. The information is also used to remap drums notes when needed (Yamaha styles use XG drum maps, but your synth may not).
 
+{% hint style="danger" %}
+If you hear wrong instruments (for example piano notes instead of bass notes, etc.), or if you can't select instruments from the [mix console](../editors/mix-console.md), it usually means that your **Output Synth** information does not match your connected synth. For example you connected a non-GM synth but the **Output Synth** is set to GM Synth.
+{% endhint %}
+
 There is a predefined list of Output Synths as shown below. If your synth has more capabilities, you can use "**Add a synth from file...**" to load a Midi synth definition file (.ins). See below for more information on the .ins file format.
 
 <figure><img src="../.gitbook/assets/2023-12-31 18_23_58-Options.png" alt=""><figcaption></figcaption></figure>
