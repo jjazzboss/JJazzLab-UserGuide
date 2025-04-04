@@ -24,7 +24,7 @@ If you don't have admin rights on your computer, choose **Install for me only** 
 
 You need to manually install FluidSynth first.
 
-#### 1/ install [FluidSynth](https://github.com/FluidSynth/fluidsynth/wiki/Download) (>=2.2.0)
+#### 1/ install [FluidSynth](https://github.com/FluidSynth/fluidsynth/wiki/Download) (>=2.2.&#x30;**, but avoid 2.4.4 which has a bug**)
 
 I strongly recommend via [Homebrew](https://brew.sh/): `brew install fluidsynth`
 
@@ -50,7 +50,7 @@ Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**
 {% endhint %}
 
 {% hint style="danger" %}
-If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
+If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
 
 
 To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
@@ -59,7 +59,7 @@ To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 ## Linux
 
 {% hint style="danger" %}
-If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux\_rt\_config.html)
+If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux_rt_config.html)
 {% endhint %}
 
 ### Using deb/rpm packages
@@ -81,17 +81,17 @@ sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
 ```
 
 {% hint style="success" %}
-JJazzLab packages declare a dependency on the FluidSynth (**>=2.2.0**) package. So the package manager should automatically install it if it's not already present on your system.
+JJazzLab packages declare a dependency on an appropriate FluidSynth package. So the package manager should automatically install it if it's not already present on your system.
 {% endhint %}
 
 ### Using the tar.xz package&#x20;
 
 The `.tar.xz` package should work on any Linux distro (x64).
 
-1. &#x20;Install FluidSynth (**>=2.2.0**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
+1. &#x20;Install FluidSynth (**>=2.2.0, but avoid 2.4.4 which has a bug**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
 2. Download at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract the JJazzLab .tar.xz file, e.g\
    `tar -xf JJazzLab-4.0.2-linux-x64.tar.xz`
-3. **Make sure** **that all extracted files** have **read permission** ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution permission** ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11\_38\_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
+3. **Make sure** **that all extracted files** have **read permission** ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution permission** ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
    To add read+execution permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 4. Run`bin/jjazzlab`
 
@@ -100,7 +100,7 @@ The `.tar.xz` package should work on any Linux distro (x64).
 On Linux, JJazzLab uses FluidSynth via its shared library `libfluidsynth.so.3` (or `libfluidsynth.so`). The file is expected to be in one of the standard directories:\
 `/usr/lib/x86_64-linux-gnu, /usr/lib, /usr/lib64, /usr/local/lib, /lib`
 
-If you successfully installed FluidSynth (**>=2.2.0**) but JJazzLab can't load FluidSynth, it's possible that `libfluidsynth.so.3` was installed in a non-standard directory. Once you found the file location (for example in `/tmp/lib/libfluidsynth.so.3`), you can tell JJazzLab where to find it:
+If you successfully installed FluidSynth (**>=2.2.0, but avoid 2.4.4 which has a bug**) but JJazzLab can't load FluidSynth, it's possible that `libfluidsynth.so.3` was installed in a non-standard directory. Once you found the file location (for example in `/tmp/lib/libfluidsynth.so.3`), you can tell JJazzLab where to find it:
 
 * In the JJazzLab installation directory, edit file `etc/jjazzlab.conf`
 * Add `-J-Dfluidsynthlib.path=/tmp/lib/libfluidsynth.so.3` at the end of the `default_options` variable
