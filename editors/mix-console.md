@@ -49,7 +49,8 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 *   **Enable/Disable all Midi parameters** &#x20;
 
-    Use Disable all Midi parameters if you control the mix yourself directly on the output synth.
+    By default all Midi parameters are enabled. \
+    Use Disable all Midi parameters if you want to control the mix yourself directly on the output synth: in this mode JJazzLab only sends _Midi note messages_, it does not send Midi messages related to bank/program changes, volume or effect.
 *   **Send GM/GM2/XG/GM mode ON message** &#x20;
 
     This lets you send special Midi initialization messages to turn your output synth in the desired mode.
