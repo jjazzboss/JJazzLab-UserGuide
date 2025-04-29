@@ -33,7 +33,8 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
-    Change the current mix from a file. Consult [this page](../songs/song-and-mix-files.md) for more information about .mix files.
+    Update the current song mix by loading the default rhythm mix file. \
+    Or save the current song mix as the default rhythm mix file: it will be reused by default each time you create a song which uses the same rhythm. Learn more about [default rhythm mix files](../songs/song-and-mix-files.md#default-rhythm-mix).
 *   **Import Mix...** &#x20;
 
     Note that this will import settings only for the instruments which are common between the current mix and the imported mix.
