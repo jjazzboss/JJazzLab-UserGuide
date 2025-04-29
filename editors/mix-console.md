@@ -43,14 +43,14 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 *   **Reset channels** &#x20;
 
-    Restore the original settings from the related rhythm.
+    Restore each mix console channel (instrument, volume, panoramic, effect) to its default rhythm setting .
 
 ### Menu Midi
 
 *   **Enable/Disable all Midi parameters** &#x20;
 
     By default all Midi parameters are enabled. \
-    Use Disable all Midi parameters if you want to control the mix yourself directly on the output synth: in this mode JJazzLab only sends _Midi note messages_, it does not send Midi messages related to bank/program changes, volume or effect.
+    Use Disable all Midi parameters if you want to control the mix yourself directly on the output synth: in this mode JJazzLab only sends _Midi note messages_, it does not send Midi messages related to bank/program changes, volume, panoramic or effects.
 *   **Send GM/GM2/XG/GM mode ON message** &#x20;
 
     This lets you send special Midi initialization messages to turn your output synth in the desired mode.
