@@ -35,9 +35,13 @@ To **copy** a chord symbol just **drag it** while pressing the **control** key.
 In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
 {% endhint %}
 
-JJazzLab can recognize different forms of a given chord symbol. For example C-7, Cm7, Cmi7, Cmin7 are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
+JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
 
 <figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
+
+{% hint style="info" %}
+The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
+{% endhint %}
 
 ## Changing the size of the leadsheet
 
