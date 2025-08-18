@@ -41,7 +41,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
   * mute the guitar in the intro
   * add a break at the end of the 2nd verse and congas in the 3rd verse
   * boost intensity and slightly increase tempo at the end&#x20;
-  * add anticipated chords
+  * add anticipated (pushed) chords
   * simplify the piano on the first verse
 * Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
 * Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
