@@ -17,6 +17,8 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 ![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
 
+Each mix console track has a bottom **overview component** that represent the track notes.
+
 ## Mix console toolbar
 
 ![](../.gitbook/assets/MixConsoleToolbar.png)
@@ -92,18 +94,18 @@ Each Midi channel can be changed manually, just click on the channel number.
 A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
 
 {% hint style="info" %}
-If you want to customize a rhythm phrase only for a song part (e.g. the 2nd verse of your song), you might better use the [Custom phrase rhythm parameter](song-structure.md#rhythm-parameters).
+If you want to customize a rhythm track only for a song part (e.g. simplify the style's bass phrase for the 2nd verse of your song), you need to use the [Custom phrase rhythm parameter](song-structure.md#rhythm-parameters).
 {% endhint %}
 
 #### Adding user tracks
 
-Add one or more user tracks using the Add user track button, as show below. This will also open the [notes editor](notes-editor.md).
+Click the + button in the mix console toolbar to add a new user track. This will also open the [notes editor](notes-editor.md) to edit this user track.
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Add user track button</p></figcaption></figure>
 
-You can also clone a rhythm track as a new user track, using the + sign in the track overview, as shown below. The original rhythm track will be automatically muted.
+You can also clone a rhythm track as a new user track using the + sign in upper right corner of a track overview, as shown below. The original rhythm track will be automatically muted.
 
-<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>Clone a rhythm track as a new user track</p></figcaption></figure>
 
 {% hint style="warning" %}
 If you select a drums or percussion instrument for the user track, _and_ your output synth is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
