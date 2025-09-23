@@ -201,7 +201,7 @@ Text import works the other way around. Copy a similar text in the clipboard the
 ## Keyboard shortcuts
 
 {% hint style="info" %}
-Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard is displayed.
+Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard shortcut is displayed.
 {% endhint %}
 
 | Selection                  | Key             | Action                                    |
