@@ -34,11 +34,11 @@ Visit the [mix console](mix-console.md) page for more information.
 ### Use the Note Editor to
 
 * Edit a [user track](mix-console.md#user-tracks)
-* Customize an instrument phrase of a song part
+* [Customize ](song-structure.md#custom-phrase)an instrument phrase of a song part
 
 Visit the [note editor ](overview.md#note-editor)page for more information.
 
-<figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Notes editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Note editor</p></figcaption></figure>
 
 ### Undocking / redocking editors
 
