@@ -47,7 +47,7 @@ The image below shows the tab popup menu of the [Song part editor](song-structur
 
 <figure><img src="../.gitbook/assets/WindowUndockPopupMenu.png" alt=""><figcaption><p>On Windows or Linux, the editor tab popup menu appears when you right-click on it</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WindowUndocked.png" alt="" width="563"><figcaption><p>The floating editor can be moved and resized independently of the main window</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/WindowUndocked2.png" alt=""><figcaption><p>The floating editor can be moved and resized independently of the main window</p></figcaption></figure>
 
 To redock the floating editor, select **Dock** from the same tab popup menu.
 
