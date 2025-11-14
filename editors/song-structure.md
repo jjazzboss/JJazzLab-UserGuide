@@ -104,7 +104,9 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 Rhythm parameters let you adjust how a rhythm (music style) is played for a given song part.&#x20;
 
+{% hint style="success" %}
 Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
+{% endhint %}
 
 JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters as described below.
 
