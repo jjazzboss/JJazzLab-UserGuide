@@ -38,3 +38,15 @@ Visit the [mix console](mix-console.md) page for more information.
 The [note editor ](overview.md#note-editor)is only used when you want to edit the notes of a [user track](mix-console.md#user-tracks) or of a [song part custom phrase](song-structure.md#rhythm-parameters).
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Notes editor</p></figcaption></figure>
+
+### Undocking / redocking panels
+
+Most of the panels can be undocked from the main JJazzLab window.
+
+To undock a panel, select **Float** from the popup menu of the panel tab, as shown in the image below.
+
+<figure><img src="../.gitbook/assets/WindowUndockPopupMenu.png" alt=""><figcaption><p>On Windows or Linux, the panel tab popup menu appears when you right-click on it</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/WindowUndocked.png" alt="" width="563"><figcaption><p>The floating panel can be moved and resized independently of the main window</p></figcaption></figure>
+
+To redock the floating panel in the main window, select **Dock** from the same tab popup menu.
