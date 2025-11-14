@@ -39,7 +39,7 @@ The [note editor ](overview.md#note-editor)is only used when you want to edit th
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Notes editor</p></figcaption></figure>
 
-### Undocking / redocking editors
+#### Undocking / redocking editors
 
 To undock an editor, select **Float** from the popup menu of its tab.&#x20;
 
