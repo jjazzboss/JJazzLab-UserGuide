@@ -53,4 +53,4 @@ The image below show the tab popup menu of the [Song part editor](song-structure
 
 To redock the floating editor in the main window, select **Dock** from the same tab popup menu.
 
-Use **Reset Windows** from the main Windows menu to redock all editors.
+Use **Reset Windows** from the Window main menu to redock all editors.
