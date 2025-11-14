@@ -1,5 +1,5 @@
 ---
-description: Create (or load) a song, then edit it with the editors 3 editors below.
+description: Create (or load) a song, then use the editors below to adapt it to your needs.
 ---
 
 # Overview
@@ -31,15 +31,16 @@ Visit the [song structure](song-structure.md) page for more information.
 
 Visit the [mix console](mix-console.md) page for more information.
 
+### Use the Note Editor to
 
+* Edit a [user track](mix-console.md#user-tracks)
+* Customize an instrument phrase of a [song part](song-structure.md#rhythm-parameters)
 
-#### Note Editor
-
-The [note editor ](overview.md#note-editor)is only used when you want to edit the notes of a [user track](mix-console.md#user-tracks) or of a [song part custom phrase](song-structure.md#rhythm-parameters).
+Visit the [note editor ](overview.md#note-editor)page for more information.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Notes editor</p></figcaption></figure>
 
-#### Undocking / redocking editors
+### Undocking / redocking editors
 
 To undock an editor, select **Float** from the popup menu of its tab.&#x20;
 
