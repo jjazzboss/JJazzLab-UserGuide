@@ -34,7 +34,7 @@ Visit the [mix console](mix-console.md) page for more information.
 ### Use the Note Editor to
 
 * Edit a [user track](mix-console.md#user-tracks)
-* Customize an instrument phrase of a [song part](song-structure.md#rhythm-parameters)
+* Customize an instrument phrase of a song part
 
 Visit the [note editor ](overview.md#note-editor)page for more information.
 

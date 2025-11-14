@@ -102,36 +102,65 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 ## Rhythm parameters
 
-Rhythm parameters let you adjust how a rhythm (music style) is played for a given song part. Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
+Rhythm parameters let you adjust how a rhythm (music style) is played for a given song part.&#x20;
 
-JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters :
+Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
 
-* **Variation**: a rhythm variation. [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and some _Fills_.
-* **Intensity:**  a rhythm engine might simply increase/decrease the Midi velocity of the backing track notes depending on this parameter, but it could also generate more/less notes, etc.
-* **Drums Fill**: defines when a drums fill (or break) should be played at the end of the song part (_never_, _always_, _randomly_, ...). The special _fade\_out_ value does not produce a drums fill, instead it gradually decreases the notes velocity until the end of the song part.
-* **Mute**: mutes one of more instruments during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
-* **Marker**: this parameter is useful only if you use substitute chord symbols, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
-* **Tempo factor**: slows down or accelerates the tempo of the song part.
-* **Drums transform**: changes some drums notes of the song part. \
-  This is an **easy way to alter the drums track** to introduce some variation in your song. \
-  \
-  For example you can make the hi-hat louder, transform the closed hi-hat into ride cymbal, or just add percussions!
+JJazzLab lets the developer of a [rhythm engine](broken-reference) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters as described below.
+
+### Variation
+
+A rhythm parameter to indicate which rhythm (style) variation must be used. The [YamJJazz engine](../rhythm-engines/yamjjazz-rhythm-engine/) rhythms usually have 4 _Main_ variations, plus some _Intros_, _Endings_, and _Fills_.
+
+### Intensity
+
+This parameter defines the intensity of the generated backing track.&#x20;
+
+A rhythm engine might simply increase/decrease the Midi velocity of the backing track notes depending on this parameter, but it could also generate more/less notes, etc.
+
+### Drums Fill
+
+This parameter defines when a drums fill (or break) should be played at the end of the song part (_never_, _always_, _randomly_, ...).&#x20;
+
+The special _fade\_out_ value does not produce a drums fill, instead it gradually decreases the notes velocity until the end of the song part.
+
+### Mute
+
+This parameter is used to mute one of more instruments during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
+
+### **Marker**
+
+This parameter is useful only if you use substitute chord symbols, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
+
+### Tempo factor
+
+Use this parameter to slow down or accelerate the tempo of the song part.
+
+### **Drums transform**
+
+This parameter lets you change some drums notes for the song part.&#x20;
+
+This is an **easy way to alter the drums track** to introduce some variations in your song.&#x20;
+
+For example you can make the hi-hat louder, transform the closed hi-hat into ride cymbal, or just add percussions!
 
 ![](../.gitbook/assets/DrumsTransform.png)
 
-* **Custom phrase**: lets you customize one or more instrument phrases of the song part.\
-  &#x20;\
-  &#xNAN;_&#x45;xample: you want to change the bass phrase at the end of the second verse_\
-  &#x20;\
-  Edit the Custom phrase rhythm parameter of the corresponding song part, then edit the Bass track. The default bass phrase will appear in the [notes editor](notes-editor.md) and you'll be able to change it. \
-  \
-  If you want this customized bass phrase to also be used in the last verse of the song, just [copy the rhythm parameter value](song-structure.md#editing) and paste it in the last song part.
+### **Custom phrase**
+
+This parameter lets you customize one or more instrument phrases of the song part.\
+&#x20;\
+&#xNAN;_&#x45;xample: you want to change the bass phrase at the end of the second verse_\
+&#x20;\
+Edit the Custom phrase rhythm parameter of the corresponding song part, then edit the Bass track. The default bass phrase will appear in the [notes editor](notes-editor.md) and you'll be able to change it. \
+\
+If you want this customized bass phrase to also be used in the last verse of the song, just [copy the rhythm parameter value](song-structure.md#editing) and paste it in the last song part.
 
 ![](<../.gitbook/assets/2024-01-05 11_52_05-Customize phrases for song part _A_ - bars 1..8 (1).png>)
 
 ### Compact / full view
 
-By default only a subset of the rhythm parameters are shown, this is the **compact view**.&#x20;
+By default only a subset of the rhythm parameters are visible, this is the **compact view**.&#x20;
 
 Click on the button below or press 'V' to switch between compact and full view.
 
