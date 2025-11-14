@@ -41,16 +41,18 @@ The [note editor ](overview.md#note-editor)is only used when you want to edit th
 
 ### Undocking / redocking editors
 
-Some editors can be undocked from the main JJazzLab window.
+To undock an editor, select **Float** from the popup menu of its tab.&#x20;
 
-To undock an editor, select **Float** from the popup menu of the editor's tab.&#x20;
-
-The image below show the tab popup menu of the [Song part editor](song-structure.md#song-part-editor).
+The image below shows the tab popup menu of the [Song part editor](song-structure.md#song-part-editor).
 
 <figure><img src="../.gitbook/assets/WindowUndockPopupMenu.png" alt=""><figcaption><p>On Windows or Linux, the editor tab popup menu appears when you right-click on it</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/WindowUndocked.png" alt="" width="563"><figcaption><p>The floating editor can be moved and resized independently of the main window</p></figcaption></figure>
 
-To redock the floating editor in the main window, select **Dock** from the same tab popup menu.
+To redock the floating editor, select **Dock** from the same tab popup menu.
 
 Use **Reset Windows** from the Window main menu to redock all editors.
+
+{% hint style="warning" %}
+The chord leadsheet and song structure editors can not be undocked/docked
+{% endhint %}
