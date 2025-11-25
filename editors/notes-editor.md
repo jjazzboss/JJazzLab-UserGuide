@@ -78,13 +78,22 @@ Tools can be selected using buttons from the notes editor top toolbar, or by rig
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_14_25-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Use the **select tool** to select, move, resize, copy (ctrl-C), delete notes (press delete). **Drag** to select several notes. Use **ctrl-drag** notes to duplicate notes. **ctrl-shift-I** invert the notes selection.
+Use the **select tool** to select, move, resize, copy/cut (**ctrl-C/X**), delete notes (press **Delete**).&#x20;
+
+Use **ctrl-V** to paste notes.
+
+{% hint style="danger" %}
+How to control at which position notes are pasted ?
+
+* If a note is selected, the first pasted note is aligned with that selected note
+* If no notes selected, the first pasted note is aligned to the left side of the notes editor
+
+The new pasted notes are automatically selected, so you can move them to the appropriate position if required.
+{% endhint %}
+
+**Drag** to select several notes. Use **ctrl-drag** notes to duplicate notes. **ctrl-shift-I** invert the notes selection.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_25_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-If one or more notes are selected, pasted notes are aligned with the first selected note. If no notes selected, pasted notes are aligned to the left side of the notes editor.
-{% endhint %}
 
 Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
 
