@@ -9,7 +9,7 @@ description: The ultimate style for practicing jazz standards
 * A realistic walking bass with melodic lines, which adjust to the tempo
 * 11 drums variations (brushes, hi-hat, ride, shuffle)
 * Double-time capability (play twice as fast with chord changes at original tempo)
-* The possibility to adjust bass and drums variation independently
+* The possibility to adjust bass and drums independently
 
 {% hint style="danger" %}
 jjSwing is optimized to work with the internal [FluidSynth ](../sounds/using-fluidsynth.md)as output synth. If you use a different output synth, you might hear weird sounds.
@@ -19,7 +19,7 @@ Note that current jjSwing version only supports 4/4 time signature. Jazz waltz s
 
 ## Rhythm parameters
 
-jjSwing has 2 specific rhythm parameters.
+jjSwing has 2 specific rhythm parameters, bass style and drums style.
 
 ### Bass style
 
