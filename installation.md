@@ -50,8 +50,7 @@ Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**
 {% endhint %}
 
 {% hint style="danger" %}
-If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
-
+If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)<br>
 
 To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
 {% endhint %}

@@ -69,17 +69,14 @@ Use the channel settings to:
 
 *   **Add a Midi velocity offset to all notes played on this channel** &#x20;
 
-    Note that this is slightly different from adjusting the volume.\
-
+    Note that this is slightly different from adjusting the volume.<br>
 *   **Disable sending specific Midi messages** &#x20;
 
-    Probably because you control the parameter yourself directly on the [output synth](broken-reference).\
-
+    Probably because you control the parameter yourself directly on the [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey).<br>
 *   **Enable a drums channel with a Midi channel different than 10**
 
-    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](broken-reference) information, potential issues. \
-    \
-
+    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) information, potential issues. \
+    <br>
 
 ![](../.gitbook/assets/mixconsole-channelsettings.png)
 

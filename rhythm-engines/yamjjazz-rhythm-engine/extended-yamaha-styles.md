@@ -7,8 +7,7 @@ The [YamJJazz rhythm engine](./) can read a new file format (.yjz) which extends
 An **extended style** (.yjz) supports :
 
 * **Unlimited number of variations**\
-  Instead of Main A/B/C/D, you can have Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, …\
-
+  Instead of Main A/B/C/D, you can have Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, …<br>
 * **Unlimited number of source phrases for each variation**\
   With a standard Yamaha style the same source phrase is always used for a given variation.  **Alternate source phrases** lets the rhythm designer define different-but-similar phrases for e.g Main A-1, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
 

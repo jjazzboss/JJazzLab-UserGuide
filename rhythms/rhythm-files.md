@@ -4,7 +4,7 @@
 In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
 {% endhint %}
 
-Rhythms are used by [songs](broken-reference). Many songs use only one rhythm (e.g. rock), but some may use 2 or more. A song file (.sng) does not contain all the rhythm data, it just keeps a reference to the rhythm's name.&#x20;
+Rhythms are used by [songs](/broken/pages/-MQSAgDkeWdxuJiOjnJj). Many songs use only one rhythm (e.g. rock), but some may use 2 or more. A song file (.sng) does not contain all the rhythm data, it just keeps a reference to the rhythm's name.&#x20;
 
 Upon first start, JJazzLab [scans ](rhythm-files.md#rhythm-files-scanning)the computer to get a list of the available rhythms.&#x20;
 

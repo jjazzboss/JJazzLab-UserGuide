@@ -57,10 +57,8 @@ If you want to reset the song mix to the **rhythm's builtin mix** (see above), u
 
 Combining the 2 paragraphs above, below is how JJazzLab looks for mix information when you load **myDir/mySong.sng** and this songs uses rhythm **16BeatRock** :
 
-1. use **myDir/mySong.mix** if present\
-
-2. use **defaultRhythmMixDir/16BeatRock.mix** if present\
-
+1. use **myDir/mySong.mix** if present<br>
+2. use **defaultRhythmMixDir/16BeatRock.mix** if present<br>
 3. use **16BeatRock** builtin default mix
 
 Steps 2. and 3. are also used when you add a new rhythm in a song.
