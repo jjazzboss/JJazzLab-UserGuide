@@ -35,7 +35,7 @@ Possible values are shown in the image below.
 
 <figure><img src="../.gitbook/assets/jjSwing-drumsStyle.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="135">Drums style</th><th>Description</th></tr></thead><tbody><tr><td>auto</td><td>Actual drums style will depend on the rhythm variation (e.g. Main A-1)</td></tr><tr><td>brushes 1/2</td><td>Brushes-based drums</td></tr><tr><td>hi-hat 1/2</td><td>hi hat-based drums</td></tr><tr><td>ride 1/2/3/4</td><td>ride based drums</td></tr><tr><td>shuffle 1/2</td><td>12/8 feel</td></tr><tr><td>double 1</td><td>Drums played twice as fast while preserving chord changes at original tempo. This should be used when Bass style is also set to double-time.</td></tr><tr><td>intro</td><td>To be used with rhythm variation Intro A</td></tr><tr><td>ending</td><td>To be used with rhythm variation Ending A</td></tr></tbody></table>
+<table><thead><tr><th width="135">Drums style</th><th>Description</th></tr></thead><tbody><tr><td>auto</td><td>Actual drums style will depend on the rhythm variation (e.g. Main A-1)</td></tr><tr><td>brushes 1/2</td><td>2 different brushes-based drums</td></tr><tr><td>hi-hat 1/2</td><td>2 different hi hat-based drums</td></tr><tr><td>ride 1/2/3/4</td><td>4 different ride-based drums</td></tr><tr><td>shuffle 1/2</td><td>2 different 12/8-based drums</td></tr><tr><td>double</td><td>Drums played twice as fast while preserving chord changes at original tempo. This should be used when Bass style is also set to double-time.</td></tr><tr><td>intro</td><td>To be used with rhythm variation Intro A</td></tr><tr><td>ending</td><td>To be used with rhythm variation Ending A</td></tr></tbody></table>
 
 ## Settings
 
