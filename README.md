@@ -8,7 +8,7 @@ description: A complete and open application for backing tracks generation.
 Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
-![JJazzlab 4](.gitbook/assets/JJazzLab4-full1.png)
+![JJazzlab 5](.gitbook/assets/JJazzLab5.0.1.png)
 
 {% hint style="warning" %}
 In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
