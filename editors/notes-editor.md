@@ -46,17 +46,29 @@ Use **ctrl-F** to zoom to fit width.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_37_35-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Playback of the edited phrase
+## Playback controls
 
-Use the toolbar button, or press **ctrl-shift-SPACE,** to start the playback in loop mode of the edited phrase, or of the **playback loop zone** if it is set.
+Use the toolbar button shown in the image below, or press **ctrl-shift-SPACE,** to play **in loop mode** the edited phrase, or the [playback loop zone](notes-editor.md#playback-loop-zone) if it is set.
 
 <figure><img src="../.gitbook/assets/2024-05-16 22_49_35-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption><p>Start playback button</p></figcaption></figure>
+
+Press **ctrl-SPACE** to start playback :
+
+* from the [playback loop zone](notes-editor.md#playback-loop-zone) if it is set
+* from the bar of the first selected note
+* if no note selected, from the first visible bar
+
+Other controls:
+
+<div><figure><img src="../.gitbook/assets/NoteEditor-soloButton.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/NoteEditor-autoscroll.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/NoteEditor-Hear.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Playback loop zone
 
 A playback loop zone can be set by **mouse dragging** in the top **ruler**. Use **shift+click** in the ruler to extend the loop zone. **Click** in the ruler to remove the loop zone.
 
 <figure><img src="../.gitbook/assets/2024-05-16 22_47_02-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
+
+Use the toolbar button (see above) of press **ctrl-shift-spac**e to start playing the loop zone.
 
 ## Snap to grid
 
@@ -157,18 +169,20 @@ If the imported Midi file only contains notes from a single channel, then JJazzL
 
 ## Keyboard shortcuts
 
-| Selection | Key            | Action                      |
-| --------- | -------------- | --------------------------- |
-| Notes     | alt-up/down    | change velocity             |
-| Notes     | ctrl-C/X/V     | copy/cut/paste notes        |
-| Notes     | delete         | delete notes                |
-| Notes     | ctrl-shift-I   | invert notes selection      |
-| Editor    | ctrl-F         | zoom to fit notes           |
-| Editor    | Q              | quantize                    |
-| Editor    | G              | snap-to-grid                |
-| Editor    | A              | auto-scroll during playback |
-| Editor    | S              | solo the edited phrase      |
-| Editor    | H              | hear the selected notes     |
-| Editor    | Home/End       | Move editor to start/end    |
-| Editor    | ctrl-alt-space | play the edited phrase      |
-| Editor    | ctrl-Z/Y       | undo/redo                   |
+| Selection | Key              | Action                                                   |
+| --------- | ---------------- | -------------------------------------------------------- |
+| Notes     | alt-up/down      | change velocity                                          |
+| Notes     | ctrl-C/X/V       | copy/cut/paste notes                                     |
+| Notes     | delete           | delete notes                                             |
+| Notes     | ctrl-shift-I     | invert notes selection                                   |
+| Notes     | ctrl-H           | open humanize dialog                                     |
+| Notes     | Q                | quantize selected notes (or all no selection)            |
+| Editor    | ctrl-F           | zoom to fit notes                                        |
+| Editor    | G                | snap-to-grid                                             |
+| Editor    | A                | auto-scroll during playback                              |
+| Editor    | S                | solo the edited phrase                                   |
+| Editor    | H                | hear the selected notes                                  |
+| Editor    | Home/End         | Move editor to start/end                                 |
+| Editor    | ctrl-shift-space | play the loop zone (if set) or whole phrase              |
+| Editor    | ctrl-space       | play from loop zone (if set) or from first selected note |
+| Editor    | ctrl-Z/Y         | undo/redo                                                |
