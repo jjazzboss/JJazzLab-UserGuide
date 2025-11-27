@@ -13,7 +13,6 @@
 ## Playback control
 
 * [Commands](playback-control/commands.md)
-* [Chord symbol key transposition](playback-control/chord-symbol-key-transposition.md)
 * [Midi remote commands](playback-control/midi-remote-commands.md)
 
 ## Editors
@@ -41,6 +40,7 @@
 * [Chord inspector](tools/notes-viewer.md)
 * [Easy Reader](tools/easy-reader.md)
 * [Improvisation help](tools/improvisation-help.md)
+* [Chord symbols transposition](tools/chord-symbols-transposition.md)
 
 ## Rhythm engines
 

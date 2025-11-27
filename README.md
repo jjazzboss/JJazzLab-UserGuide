@@ -46,7 +46,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
   * simplify the piano on the first verse
 * Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
 * Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
-* Play [transposed ](playback-control/chord-symbol-key-transposition.md)(for sax, etc.)
+* Play [transposed ](tools/chord-symbols-transposition.md)(for sax, etc.)
 * Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
 * [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
 
