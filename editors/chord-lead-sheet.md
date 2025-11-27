@@ -43,6 +43,18 @@ JJazzLab can recognize different forms of a given chord symbol. For example **C-
 The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
 {% endhint %}
 
+## Customizable chord progressions
+
+Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
+
+<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
+
+The chord progression is inserted at the selected bar, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the mouse-wheel on a chord, or press ctrl-UP/DOWN).
+
+Chord progressions are defined in a simple text file `ChordProgression.txt` located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
+
+Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu.
+
 ## Changing the size of the leadsheet
 
 Select a bar then select **Set end bar** in the right-click menu (see below).
