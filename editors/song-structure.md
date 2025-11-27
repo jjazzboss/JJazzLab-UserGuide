@@ -160,6 +160,19 @@ If you want this customized bass phrase to also be used in the last verse of the
 
 ![](<../.gitbook/assets/2024-01-05 11_52_05-Customize phrases for song part _A_ - bars 1..8 (1).png>)
 
+### Track overrides
+
+This parameter lets you use one or more tracks from other rhythms.
+
+_Example: your song uses a 8-beat pop rhythm. You want to spice up the chorus song part and use **Track overrides** to replace the 8-beat original bass line by the bass line from a bossa-nova rhythm._
+
+<figure><img src="../.gitbook/assets/TrackOverride.png" alt=""><figcaption></figcaption></figure>
+
+Other usage examples:
+
+* You like a jazz Yamaha style except the bass line which does not sound good. Use the Track overrides parameter to replace the bass line by [jjSwing](../rhythm-engines/jjswing-rhythm-engine.md)'s realistic walking bass.&#x20;
+* The override rhythm can be the same than the original rhythm. For example this lets you override the piano part by the bass part from the same rhythm, so that the bass line is doubled piano+bass on a given song part.&#x20;
+
 ### Compact / full view
 
 By default only a subset of the rhythm parameters are visible, this is the **compact view**.&#x20;

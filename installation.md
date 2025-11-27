@@ -34,7 +34,11 @@ _Mac computers with Apple Mx processor:_
 
 Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and open it.
 
+{% hint style="danger" %}
+If you get a **security alert**
 
+To open the .pkg file anyway, go to your computer **Systems settings/Privacy & Security**, scroll-down to the **Open anyway** button corresponding to the JJazzLab package, as explained in this [**Apple online doc**](https://support.apple.com/en-us/102445).
+{% endhint %}
 
 _Mac computers with Intel x64 processor:_
 
@@ -42,12 +46,6 @@ _Mac computers with Intel x64 processor:_
 
 * Download the .zip file at  [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract it (open file with Finder)
 * Execute file `bin/jjazzlab` to start JJazzLab.
-
-{% hint style="danger" %}
-If you get a **security alert**
-
-Using the **Finder**, select the JJazzLab package, **ctrl-click menu**, **Open**, this will give you the choice to open the application in spite of the security alert.
-{% endhint %}
 
 {% hint style="danger" %}
 If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)<br>

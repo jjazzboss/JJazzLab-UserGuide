@@ -1,6 +1,6 @@
 # Table of contents
 
-* [JJazzLab 4](README.md)
+* [JJazzLab 5](README.md)
 * [Installation instructions](installation.md)
 * [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
