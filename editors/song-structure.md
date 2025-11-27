@@ -90,7 +90,7 @@ Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. 
 
 To change the rhythm, select a song part and press **R,** or click the rhythm name to open the **rhythm selection dialog**.
 
-![](../.gitbook/assets/RhythmSelectionDialog3.png)
+![](../.gitbook/assets/RhythmSelectionDialog.png)
 
 When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
 
