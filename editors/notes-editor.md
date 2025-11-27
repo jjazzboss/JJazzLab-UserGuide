@@ -135,7 +135,7 @@ Check the **Iterative** box to perform iterative quantize : notes are gradually 
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_28_31-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-You can also **humanize** all or selected notes. Humanization introduces slight random variations in the notes start position and velocity.&#x20;
+You can also **humanize** all or selected notes. Humanization introduces slight random variations in the notes start position and velocity. Use the **Humanize** button on the left, or press **ctrl-H** to show the Humanize dialog.
 
 <figure><img src="../.gitbook/assets/2024-05-16 23_10_38-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
