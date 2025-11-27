@@ -15,9 +15,9 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
 
-![Chord symbol popup menu](../.gitbook/assets/ChordSymbolPopupMeny.png)
+![Chord symbol popup menu](../.gitbook/assets/chordPopupMenu.png)
 
-![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
+![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
 ## Selecting and moving chord symbols
 
@@ -25,11 +25,21 @@ Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select mul
 
 Use **shift-click** to extend the current selection.
 
-**Drag** a chord symbol with the mouse to move it to a new location.&#x20;
+**Drag** a chord symbol with the mouse to move it to a new location. If you press **ctrl** while dragging, a **+** sign appears (see image below) indicating that the chord symbol will be copied, not moved.
 
-By default chord symbols position are quantized to a sixteenth note (4 positions per beat). This can be adjusted via the right-click menu Quantization.
+<figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-04-26 22_57_35-Quantization.png" alt=""><figcaption></figcaption></figure>
+#### Chord symbol quantization
+
+By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).&#x20;
+
+This can be adjusted per section via the bar or section popup menu Quantization, as shown below.
+
+<figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
+
+The "auto" value adjusts the quantization depending on the rhythm (binary/ternary) used by the first song part linked to this section.
 
 ## Chord symbols input
 
