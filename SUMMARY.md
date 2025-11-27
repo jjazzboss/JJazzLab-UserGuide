@@ -41,6 +41,7 @@
 * [Easy Reader](tools/easy-reader.md)
 * [Improvisation help](tools/improvisation-help.md)
 * [Chord symbols transposition](tools/chord-symbols-transposition.md)
+* [Practice loop with tempo increase](tools/practice-loop-with-tempo-increase.md)
 
 ## Rhythm engines
 
