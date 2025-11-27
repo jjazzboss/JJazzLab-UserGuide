@@ -199,17 +199,19 @@ As a shortcut, you can directly hide a rhythm parameter (i.e. make it non visibl
 Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated shortcut is displayed.
 {% endhint %}
 
-| Selection                | Key          | Action                 |
-| ------------------------ | ------------ | ---------------------- |
-| song part, rhythm param. | enter        | edit song part name    |
-| song part, rhythm param. | R            | select rhythm          |
-| song part, rhythm param. | I            | insert song part       |
-| song part, rhythm param. | ctrl-I       | append song part       |
-| song part, rhythm param. | D            | duplicate song part(s) |
-| song part                | delete       | delete song part(s)    |
-| rhythm parameter         | ctrl-up/down | next/previous value    |
-| rhythm parameter         | Z            | reset param. value     |
-| song part                | ctrl-C/X/V   | copy/cut/paste         |
-| editor                   | ctrl-Z/Y     | undo/redo              |
-| editor                   | ctrl-F       | zoom to fit width      |
-| editor                   | V            | compact or full view   |
+| Selection                | Key                    | Action                   |
+| ------------------------ | ---------------------- | ------------------------ |
+| song part, rhythm param. | enter                  | edit song part name      |
+| song part, rhythm param. | R                      | select rhythm            |
+| song part, rhythm param. | I                      | insert song part         |
+| song part, rhythm param. | ctrl-I                 | append song part         |
+| song part, rhythm param. | D                      | duplicate song part(s)   |
+| song part                | delete                 | delete song part(s)      |
+| rhythm parameter         | ctrl-up/down           | next/previous value      |
+| rhythm parameter         | Z                      | reset param. value       |
+| song part                | ctrl-C/X/V             | copy/cut/paste           |
+| editor                   | ctrl-Z/Y               | undo/redo                |
+| editor                   | ctrl-F                 | zoom to fit width        |
+| editor                   | V                      | compact or full view     |
+| editor                   | ctrl mouse-wheel       | zoom in/out horizontally |
+| editort                  | ctrl+shift mouse-wheel | zoom in/out vertically   |

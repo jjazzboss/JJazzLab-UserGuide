@@ -219,7 +219,8 @@ Text import works the other way around. Copy a similar text in the clipboard the
 | bar, section                                              | double click                                          | edit using bar editor                                  |
 | bar, chord symbol, section                                | right-click                                           | popup menu                                             |
 | chord symbol                                              | mouse-wheel                                           | transpose                                              |
-| editor                                                    | ctrl mouse-wheel                                      | change X zoom factor                                   |
+| editor                                                    | ctrl mouse-wheel                                      | zoom in/out horizontally                               |
+| editor                                                    | ctrl-shift mouse-wheel                                | zoom in/out vertically                                 |
 
 ## Keyboard shortcuts
 
