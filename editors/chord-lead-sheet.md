@@ -9,6 +9,16 @@ Use the **chord leadsheet editor** to:
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
+## Popup menus
+
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
+
+![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
+
+![Chord symbol popup menu](../.gitbook/assets/ChordSymbolPopupMeny.png)
+
+![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
+
 ## Selecting and moving chord symbols
 
 Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
@@ -64,16 +74,6 @@ The size of the song depends on both the leadsheet _and_ the song structure.&#x2
 
 For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
 {% endhint %}
-
-## Popup menus
-
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
-
-![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
-
-![Chord symbol popup menu](../.gitbook/assets/ChordSymbolPopupMeny.png)
-
-![Section/Time signature popup menu](../.gitbook/assets/TimeSignaturePopupMenu.png)
 
 ## Interpretation
 
@@ -205,6 +205,7 @@ Text import works the other way around. Copy a similar text in the clipboard the
 | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
 | bar, chord symbol, section                                | click                                                 | select                                                 |
 | chord symbol                                              | double click                                          | edit using chord symbol editor                         |
+| chord symbol                                              | ctrl-shift click                                      | hear the chord                                         |
 | bar, section                                              | double click                                          | edit using bar editor                                  |
 | bar, chord symbol, section                                | right-click                                           | popup menu                                             |
 | chord symbol                                              | mouse-wheel                                           | transpose                                              |
@@ -231,6 +232,7 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | chord symbol               | S               | stronger accent                           |
 | chord symbol               | H               | crash cymbal/no crash                     |
 | chord symbol               | X               | hold/shot more instruments                |
+| chord symbol               | M               | hear the chord                            |
 | chord symbol, section      | ctrl-A          | select all in section, then in lead sheet |
 | bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
 | editor                     | ctrl-Z/Y        | undo/redo                                 |
