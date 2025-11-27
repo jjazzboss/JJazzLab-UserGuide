@@ -56,6 +56,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 * [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
 * [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi input device
 * [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
+* [Chord symbols transposition](tools/chord-symbols-transposition.md): if you play a transposing instrument such as the saxophone
 
 
 
