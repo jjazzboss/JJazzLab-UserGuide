@@ -33,13 +33,13 @@ Use **shift-click** to extend the current selection.
 
 By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).&#x20;
 
-This can be adjusted per section via the bar or section popup menu Quantization, as shown below.
+This can be adjusted per section via the bar or section popup menu **Quantization...**, as shown below.
 
 <figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
 
-The "auto" value adjusts the quantization depending on the rhythm (binary/ternary) used by the first song part linked to this section.
+The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
 
 ## Chord symbols input
 

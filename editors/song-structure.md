@@ -183,7 +183,11 @@ Click on the button below or press 'V' to switch between compact and full view.
 
 The **compact view settings** button, just above the compact view button, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
 
-<figure><img src="../.gitbook/assets/2024-01-05 22_43_31-Compact view settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-05 22_43_31-Compact view settings.png" alt=""><figcaption><p>Compact view settings</p></figcaption></figure>
+
+As a shortcut, you can directly hide a rhythm parameter (i.e. make it non visible in the compact view) by clicking on the X button in the upper left corner, as shown below.
+
+<figure><img src="../.gitbook/assets/QuickHideRp.png" alt=""><figcaption></figcaption></figure>
 
 ## Mouse shortcuts
 

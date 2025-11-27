@@ -5,7 +5,7 @@ The exported file takes into account the current playback configuration:
 * [Output synth](../sounds/other-synths.md) configuration
 * [Mix console](../editors/mix-console.md) settings such as track's instrument, volume, mute state, etc.
 * [Precount, click and tempo ](../playback-control/commands.md)settings
-* The [playback key transposition](../playback-control/playback-key-transposition.md) settings
+* The [playback key transposition](../playback-control/chord-symbol-key-transposition.md) settings
 
 ## Export to Midi
 
