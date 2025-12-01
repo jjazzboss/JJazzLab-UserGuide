@@ -17,6 +17,8 @@ jjSwing is optimized to work with the internal [FluidSynth ](../sounds/using-flu
 
 Note that current jjSwing version only supports 4/4 time signature. Jazz waltz support will be added later.
 
+{% embed url="https://www.youtube.com/watch?v=NZ3VC5GcdiA" %}
+
 ## Rhythm parameters
 
 jjSwing has 2 specific rhythm parameters, bass style and drums style.
