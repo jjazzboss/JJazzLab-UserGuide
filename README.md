@@ -37,7 +37,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 ## Key features
 
 * Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
-* New jjSwing style (rhythm) with realistic walking bass and drums
+* New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm) with realistic walking bass and drums
 * **Introduce dynamics and variety in just a few clicks, for example:**&#x20;
   * mute the guitar in the intro
   * add a break at the end of the 2nd verse and congas in the 3rd verse
