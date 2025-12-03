@@ -2,7 +2,7 @@
 
 ## Windows
 
-セットアッププログラムをダウンロード [https://www.jjazzlab.org/en/download]して起動してください。必要なものは全て含まれています。
+セットアッププログラムを[https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download)でダウンロードして起動してください。必要なものは全て含まれています。
 
 
 {% hint style="warning" %}
