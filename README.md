@@ -1,65 +1,56 @@
 ---
-description: A complete and open application for backing tracks generation.
+説明:伴奏を生成する、完全かつオープンなアプリケーション。
 ---
 
 # JJazzLab 5
 
 {% hint style="info" %}
-Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
+文章に追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
 {% endhint %}
 
 ![JJazzlab 5](.gitbook/assets/JJazzLab5.0.1.png)
 
-{% hint style="warning" %}
-In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
-{% endhint %}
+{% hint style="warning" %} JJazzLabでは、 「rhythm」は通常、ポップスとかボサノバのような音楽スタイルのことを意味しています。{% endhint %}
 
-## What is JJazzLab?
+## JJazzLabって、何?&#x20;
 
-🎵 With JJazzLab you quickly create backing tracks for any song, even complex ones. It’s a jam buddy to have fun practicing at home or learn new stuff. It’s also a great tool for teaching or early-stage composing.
+🎵 JJazzLabは、複雑なものでも、好きな曲の伴奏(バッキングトラック)を自動的に生成するデスクトップアプリケーションです。自宅での練習や新しいことを学んだりするジャムの相棒です。また、先生や作曲初心者にとっても素晴らしいツールです。&#x20;
 
-🎷 JJazzLab is designed to make non-boring backing tracks, backing tracks with variety, rhythmic accents and dynamics. You can start a solo slowly and gradually build up the atmosphere!
+:saxophone: JJazzLabは、飽きの来ない伴奏、様々なリズミカルなアクセントとダイナミクスを持つ伴奏を作るようにデザインされています。ゆったりとソロを始め、徐々に雰囲気を作り上げることもできます！
 
-💻 JJazzLab is open-source with an open architecture:  developers can easily add new features and new music generation capabilities.
+:computer: 基盤となるJJazzLabオープンソースプラットフォームの開発者のおかげで、新しい機能と新しい音楽生成機能を簡単に追加できます。 &#x20;
 
-## Getting started
+## 最初に
 
-[Install ](installation.md)and run JJazzLab, then :
+[インストール ](installation.md)して、JJazzLabを起動し、それから、:
 
-1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
-2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options (Preferences on Mac)**
-3. Start editing the song using the [**editors** ](/broken/pages/YEW9jmd1iUG7OEU4PzlR)and hear how it impacts the generated backing track.
-
-If you prefer to quickly create a new backing track from scratch, check out this video:
+1. ソングファイル例をロードするには : **メニュー ファイル/ソングを開く...** それから **ExampleFiles/BluesMinor.sng**を選択して開きます。
+2. **プレイ**ボタンを押します。 : 伴奏トラックが聴こえるはずですが、そうでない場合は、**メニュー ツール/設定 (MacではPreferences)**で、MIDI出力デバイスを調べてください。
+3. [**編集** ](/broken/pages/YEW9jmd1iUG7OEU4PzlR)を使用してソングの編集を開始し、生成された伴奏トラックにどのような影響を与えるかを確認してください。
+手短に新しい伴奏トラックを一から創りたいなら、このビデオを見てください。
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
-## Key features
+## 特徴
+* すぐに使える音楽スタイル ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) が何百もあります。
+* 新しい [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) はリアルなウォーキングベースとドラムです。
+* **たった数回クリックするだけでダイナミクスとバラエティさを導入できます。例としては、:**&#x20;
+  * イントロではギターをミュートする
+  * 2番の終わりでブレイクして、3番ではコンガを入れる。
+  * 強弱を強調し、終わりではわずかにテンポを上げる&#x20;
+  * コードをアンティシペイトして(喰って)入れる
+  * 1番ではシンプルなピアノにする
+* [ユーザートラック](editors/mix-console.md#user-tracks)を加えて、伴奏トラックをカスタマイズする
+* 小節に[注釈/歌詞](editors/chord-lead-sheet.md#bar-annotations-lyrics)を入れる
+* [移調](tools/chord-symbols-transposition.md)して演奏する(サックス等のため)
+* MIDI[リモートコマンド](playback-control/midi-remote-commands.md)を使って再生をコントロールする
+* ソングや個々の楽器トラックを、[インポート](songs/importing-songs.md) や [エクスポート](songs/exporting-songs.md) する
 
-* Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
-* New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm) with realistic walking bass and drums
-* **Introduce dynamics and variety in just a few clicks, for example:**&#x20;
-  * mute the guitar in the intro
-  * add a break at the end of the 2nd verse and congas in the 3rd verse
-  * boost intensity and slightly increase tempo at the end&#x20;
-  * add anticipated (pushed) chords
-  * simplify the piano on the first verse
-* Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
-* Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
-* Play [transposed ](tools/chord-symbols-transposition.md)(for sax, etc.)
-* Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
-* [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
+## **サイドツール**
 
-## **Side tools**
-
-* [Easy Reader window](tools/easy-reader.md): shows the playing chords (and annotations/lyrics) with a large font
-* [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
-* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi input device
-* [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
-* [Chord symbols transposition](tools/chord-symbols-transposition.md): if you play a transposing instrument such as the saxophone
-* [Practice loop with tempo increase](tools/practice-loop-with-tempo-increase.md): perfect for practicing difficult passages
-
-
-
-
-
+* [イージーリーダー ウインドウ](tools/easy-reader.md): 現在演奏している箇所のコード(と注釈/歌詞)を大きなフォントで表示します
+* [コードインスペクター](tools/notes-viewer.md): 選択したコード記号の音とスケールを表示します(ピアノ、ギタータブ、楽譜)
+* [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md): MIDI入力デバイスを通じて、伴奏トラックを(pseudoの)リアルタイムでコントロールします
+* [アドリブのヒント](tools/improvisation-help.md): コード譜にアドリブのガイドを生成します
+* [コード記号の移調](tools/chord-symbols-transposition.md): サックスのような移調楽器の演奏に便利です
+* [テンポを上げていくループ練習](tools/practice-loop-with-tempo-increase.md): 難しいパッセージの練習に完璧！
