@@ -1,56 +1,54 @@
 ---
-description: Connecting JJazzLab to other synths via Midi.
+説明: JJazzLabを他のシンセサイザーにMIDIを通して接続する方法
 ---
 
-# Other synths
+# 他のシンセサイザー
 
-In general we recommend to use [FluidSynth](using-fluidsynth.md): no setup and decent sounds.&#x20;
+一般的には、[FluidSynth](using-fluidsynth.md)の使用をお勧めします：セットアップ不要で適切なサウンドです。&#x20;
 
-But if you have a high-quality hardware or software synth (VST, AU, AAX, ...), you can use it with JJazzLab via a Midi cable or a a virtual Midi cable/device (such as LoopMIDI for Windows).
+ただし、高品質なハードウェアまたはソフトウェアシンセ（VST、AU、AAXなど）をお持ちの場合は、MIDIケーブルまたは仮想MIDIケーブル/デバイス（Windows用のLoopMIDIなど）を介してJJazzLabで使用できます。
 
 ![Connecting a Midi synth to JJazzLab](<../.gitbook/assets/MidiWizard-image1 (1).png>)
 
-In the **Midi** tab of the **Options/Preferences :**
+**ツール/設定**タブの**Midi**タブにおいて
 
-* Unselect "use FluidSynth"
-* Select a Midi OUT device
-* Select an Output Synth which describes the capabilities of the connected synth.&#x20;
+* 「use FluidSynth」の選択を外す
+* Midi OUT deviceを選択する
+* 接続したシンセサイザーの機能が書いてあるOutput Synthを選択してください。&#x20;
 
-The **Output Synth** information allows JJazzLab to directly display and select synth sounds/instruments from the mix console. The information is also used to remap drums notes when needed (Yamaha styles use XG drum maps, but your synth may not).
+The **Output Synth**情報は、JJazzLabがミックスコンソールから直接シンセサウンド/楽器を表示・選択できるようにします。この情報は必要に応じてドラムサウンドの再マッピングにも使用されます（ヤマハスタイルはXGドラムマップを使用しますが、お使いのシンセは異なる場合があります）。 
 
 {% hint style="danger" %}
-If you hear wrong instruments (for example piano notes instead of bass notes, etc.), or if you can't select instruments from the [mix console](../editors/mix-console.md), it usually means that your **Output Synth** information does not match your connected synth. For example you connected a non-GM synth but the **Output Synth** is set to GM Synth.
-{% endhint %}
+間違った楽器の音（例：ベース音の代わりにピアノ音など）が聞こえる場合、または[ミックスコンソール](../editors/mix-console.md)から楽器を選択できない場合は、通常、接続したシンセサイザーと**Output Synth**の情報が一致していないことを意味します。例えば、非GMシンセを接続しているのに、**Output Synth**がGMシンセに設定されている場合などが該当します。{% endhint %}
 
-There is a predefined list of Output Synths as shown below. If your synth has more capabilities, you can use "**Add a synth from file...**" to load a Midi synth definition file (.ins). See below for more information on the .ins file format.
-
+出力シンセの事前定義済みリストは下記の通りです。お使いのシンセに追加機能がある場合、「**Add a synth from file...**」を使用して、MIDIシンセ定義ファイル（.ins）を読み込むことができます。.insファイル形式の詳細については、以下を参照してください。
 <figure><img src="../.gitbook/assets/2023-12-31 18_23_58-Options.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-When using a software synth (e.g. VST plugin), you might prefer to control sound selection and mix settings (volume, effects, etc.) directly from the VST plugin interface. In this case you should [Disable all Midi parameters](../editors/mix-console.md#menu-midi) from the JJazzLab mix console, so that JJazzLab only sends Midi notes.
+ソフトウェアシンセ（例：VSTプラグイン）を使用する場合、サウンド選択やミックス設定（音量、エフェクトなど）をVSTプラグインのインターフェースから直接制御したい場合があります。この場合、JJazzLabがMIDIノートのみ送信するように、JJazzLabのミックスコンソールから[Disable all Midi parameters(すべてのMIDIパラメーターを無効化)](../editors/mix-console.md#menu-midi)する必要があります。
 {% endhint %}
 
 ## Midi synth definition files (.ins)
 
-JJazzLab can read **Cakewalk instrument definition files** (.ins). Those files are used by many DAWs, search the web for more information about the .ins format.
+JJazzLabは、**Cakewalk instrument definition files** (.ins)が読み込むことができます。これらのファイルは多くのDAWで使用されています。.ins形式に関する詳細情報はウェブで検索してください。
 
-An **.ins** file defines a **Midi synth** with its list of instruments and how to select them via Midi (Bank Select/Program Change values).
+**.ins**ファイルは、楽器のリストとMIDI経由での選択方法（バンクセレクト/プログラムチェンジ値）を定義する**Midi synth**を記述します。
 
-### JJazzLab .ins format extensions <a href="#jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
+### JJazzLab .ins 拡張子 <a href="#jjazzlab-ins-format-extensions" id="jjazzlab-ins-format-extensions"></a>
 
 {% hint style="info" %}
-These .ins format extensions are not mandatory to use for JJazzLab to work. But they are required if you have a custom .ins file and want to fully benefit from the JJazzLab features in order to get better sounding backing tracks.
+これらの.ins形式の拡張子は、JJazzLabを動作させるために必須ではありません。ただし、カスタムの.insファイルを使用し、より良い音質のバッキングトラックを得るためにJJazzLabの機能を最大限に活用したい場合には必要です。
 {% endhint %}
 
-The standard .ins file format lacks some information for JJazzLab to fully optimize instrument selection and **drum map** conversion.
+標準の.insファイル形式では、JJazzLabが楽器選択と**drum map**変換を完全に最適化するための必要な情報が不足しています。
 
-For an optimum use JJazzLab needs:
+最適にJJazzLabを使用するには必要なもの:
 
-1. For melodic instruments: its **GM substitute** instrument\
-   &#x20;Example: the **GM substitute** for the XG instrument ‘12 String Guitar’ is the GM instrument ‘Steel Guitar’
-2. For percussion instruments/drum kits: its **type** and its **drum key map**
+1. メロディ楽器用: その**GM substitute(代替)**楽器\
+   &#x20;例：XG楽器「12 String Guitar」の**GM substitute**は、GM楽器「Steel Guitar」です。
+2. 打楽器／ドラムキット用: その**type**および、その**drum key map**
 
-Therefore some (optional) keyword extensions have been introduced, "\{{ xxxx \}}", as shown in the examples below.
+そうすると、以下の例に示すように、「\{{ xxxx \}}」という（オプションの）キーワード拡張が導入されます。
 
 ```
 ;
@@ -81,12 +79,12 @@ Therefore some (optional) keyword extensions have been introduced, "\{{ xxxx \}}
 ...
 ```
 
-There are also 2 special keyword extensions if your synth is GS compatible:
+シンセがGS互換の場合、2つの特別なキーワード拡張機能も利用できます:
 
 ```
 ; For GS-compatible synths only
-; {{ UseGsInstruments }}       => For melodic instrument selection a GS Sysex message will be sent to make sure channel is in melodic mode
-; {{ UseGsDrumsInstruments }}  => For drums instrument selection a GS Sysex message will be sent to make sure channel is in percussion mode
+; {{ UseGsInstruments }}       => メロディ楽器の選択時には、チャンネルがメロディモードであることを確認するためGS Sysexメッセージが送信されます
+; {{ UseGsDrumsInstruments }}  => ドラム楽器の選択時には、チャンネルがパーカッションモードであることを確認するためGS Sysexメッセージが送信されます
 ;
 [JJazzLab SoundFont (GS)]
 BankSelMethod=1                                ; Use Bank Select MSB only
