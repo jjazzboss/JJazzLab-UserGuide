@@ -1,6 +1,6 @@
 # Practice loop with tempo increase
 
-This tool lets you loop selected measures with gradually increasing tempo. Perfect for practicing difficult passages - start slow and build up speed progressively with each repetition.
+Loop selected measures with gradually increasing tempo! This is perfect for practicing exercises or difficult passages - start slow and build up speed progressively with each repetition.
 
 Select the bars to be looped, then choose **Practice selected bars...** in the bar popup menu:
 

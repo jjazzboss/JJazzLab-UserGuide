@@ -36,12 +36,12 @@
 
 ## Tools
 
-* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
 * [Chord inspector](tools/notes-viewer.md)
-* [Easy Reader](tools/easy-reader.md)
-* [Improvisation help](tools/improvisation-help.md)
-* [Chord symbols transposition](tools/chord-symbols-transposition.md)
 * [Practice loop with tempo increase](tools/practice-loop-with-tempo-increase.md)
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
+* [Chord symbols transposition](tools/chord-symbols-transposition.md)
+* [Improvisation help](tools/improvisation-help.md)
+* [Easy Reader](tools/easy-reader.md)
 
 ## Rhythm engines
 

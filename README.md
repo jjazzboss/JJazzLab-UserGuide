@@ -36,28 +36,27 @@ If you prefer to quickly create a new backing track from scratch, check out this
 
 ## Key features
 
-* Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
 * New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm) with realistic walking bass and drums
-* **Introduce dynamics and variety in just a few clicks, for example:**&#x20;
+* Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
+* Introduce **dynamics** and **variety** in just a few clicks, for example:&#x20;
   * mute the guitar in the intro
   * add a break at the end of the 2nd verse and congas in the 3rd verse
   * boost intensity and slightly increase tempo at the end&#x20;
   * add anticipated (pushed) chords
   * simplify the piano on the first verse
 * Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
-* Attach [annotations/lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
-* Play [transposed ](tools/chord-symbols-transposition.md)(for sax, etc.)
-* Use Midi [remote commands](playback-control/midi-remote-commands.md) to control playback
+* Attach [annotations or lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
+* Control [playback via Midi](playback-control/midi-remote-commands.md)
 * [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
 
 ## **Side tools**
 
-* [Easy Reader window](tools/easy-reader.md): shows the playing chords (and annotations/lyrics) with a large font
-* [Chord inspector](tools/notes-viewer.md): shows selected chord symbol notes and scales (piano, guitar diagrams, score)
-* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track in (pseudo) real-time via a Midi input device
-* [Improvisation help](tools/improvisation-help.md): generate improvisation guides on your chord leadsheet
-* [Chord symbols transposition](tools/chord-symbols-transposition.md): if you play a transposing instrument such as the saxophone
-* [Practice loop with tempo increase](tools/practice-loop-with-tempo-increase.md): perfect for practicing difficult passages
+* [Chord inspector](tools/notes-viewer.md): understand chord symbol notes and scales (piano, guitar diagrams, score)
+* [Practice loop with tempo auto-increase](tools/practice-loop-with-tempo-increase.md): efficiently practice exercices or difficult passages
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track chords via a midi keyboard
+* [Improvisation help](tools/improvisation-help.md): get improvisation guides for your chord leadsheet
+* [Chord symbols transposition](tools/chord-symbols-transposition.md): for transposing instruments (e.g. sax players)
+* [Easy Reader window](tools/easy-reader.md): focus on the current and next chord
 
 
 
