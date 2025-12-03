@@ -36,7 +36,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 
 ## Key features
 
-* New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm) with realistic walking bass and drums
+* New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm), practice jazz standards with the best walking bass and drums
 * Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
 * Introduce **dynamics** and **variety** in just a few clicks, for example:&#x20;
   * mute the guitar in the intro
