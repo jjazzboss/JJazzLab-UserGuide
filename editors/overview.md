@@ -1,21 +1,21 @@
 ---
-description: Create (or load) a song, then use the editors below to adapt it to your needs.
+説明: ソングを作成(または読み込み)し、下のエディターを使って自分のニーズに合わせて調整してください
 ---
 
-# Overview
+# 概要
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>ソングストラクチャーエディターで、最終的に曲を構成する各セクション（イントロ、メロ、サビ等）を決定します。</p></figcaption></figure>
 
-### Use the **Chord LeadSheet Editor** to
+### **コード譜エディター(Chord LeadSheet Editor)**の使用方法
 
-* Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
-* Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B" in 3/4, "verse"
-* Move and edit chord symbols to adjust rhythm accents, [interpretation](chord-lead-sheet.md#interpretation) or [harmony](chord-lead-sheet.md#harmony)
-* Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) or lyrics (optional)
+* [コード記号](chord-lead-sheet.md#chord-symbols)を書く、例 "Cm6", "Ab7"
+* [セクション](chord-lead-sheet.md#sections-input)を書く、例 "A", "B" in 3/4, "verse"
+* コード記号をずらしたり編集して、リズムのアクセントや、[解釈(interpretation)](chord-lead-sheet.md#interpretation)や、[ハーモニー](chord-lead-sheet.md#harmony)に合わせる
+* [小節の注意書き](chord-lead-sheet.md#bar-annotations-lyrics)や歌詞 (optional)を書く
 
-Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
+詳細は[コード譜](chord-lead-sheet.md)のページを参照してください。
 
-### Use the **Song Structure Editor** to
+### **ソングストラクチャーエディター(Song Structure Editor)**の使用方法
 
 * Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
 * Select the [rhythms](song-structure.md#change-rhythm) (music styles) to be used in the song
