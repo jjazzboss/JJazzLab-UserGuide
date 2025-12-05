@@ -60,7 +60,7 @@ JJazzLabは、コード記号をいろいろな表記形式で認識できます
 <figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>独自のコード記号(aliases)を定義する</p></figcaption></figure>
 
 {% hint style="info" %}
-**NC**コード記号は特別で、これを使用すると次のコード記号まで無音にできます。完全な無音が長すぎる場合は、**shot**付きのコード記号を試してみてください。[解釈](chord-lead-sheet.md#interpretation).
+**NC**コード記号は特別で、これを使用すると次のコード記号まで無音にできます。完全な無音が長すぎる場合は、**shot**付きのコード記号を試してみてください。[表現解釈](chord-lead-sheet.md#interpretation).
 {% endhint %}
 
 ## カスタマイズ可能なコード進行
