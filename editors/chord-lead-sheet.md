@@ -75,17 +75,17 @@ JJazzLabは、コード記号をいろいろな表記形式で認識できます
 
 **Chord progression...** からポップアップメニュー（上記画像参照）した **Open configuration file...** を選択すると編集できます。これにより、ポップアップメニューに表示されるコード進行を定義・整理できます。
 
-## Changing the size of the leadsheet
+## リードシートの長さ変更
 
-Select a bar then select **Set end bar** in the right-click menu (see below).
+小節を選択し、右クリックメニューで **終止線の設定** を選択します（下記参照）。
 
 {% hint style="info" %}
-The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
+ソングの長さは、コード譜リードシートと楽曲構成(ソングストラクチャー)の両方によって決まります。&#x20;
 
-For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
+例えば、コード譜リードシートにAという単一の12小節セクションだけがあって、楽曲構成がA-A-Aの場合、楽曲の長さは3×12=36小節となる。
 {% endhint %}
 
-## Interpretation
+## 表現解釈
 
 Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
