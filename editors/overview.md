@@ -10,7 +10,7 @@
 
 * [コード記号](chord-lead-sheet.md#chord-symbols)を書く、例 "Cm6", "Ab7"
 * [セクション記号](chord-lead-sheet.md#sections-input)を書く、例 "A", "B" in 3/4, "verse"
-* コード記号をずらしたり編集して、リズムのアクセントや、[解釈(interpretation)](chord-lead-sheet.md#interpretation)や、[ハーモニー](chord-lead-sheet.md#harmony)に合わせる
+* コード記号をずらしたり編集して、リズムのアクセントや、[表現解釈(interpretation)](chord-lead-sheet.md#interpretation)や、[ハーモニー](chord-lead-sheet.md#harmony)に合わせる
 * [小節の注意書き](chord-lead-sheet.md#bar-annotations-lyrics)や歌詞 (optional)を書く
 
 詳細は[コード譜](chord-lead-sheet.md)のページを参照してください。
