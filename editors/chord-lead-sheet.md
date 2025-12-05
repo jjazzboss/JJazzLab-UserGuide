@@ -39,41 +39,41 @@
 
 <figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
 
-The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
+**auto**値は、このセクションにリンクしている最初のソングパートで使用するリズム（二拍子または三拍子）に基づいてクオンタイズを調整します。
 
 ## コード記号の入力
 
-小節またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**Bar edit dialog**が自動的に表示されます：
+小節またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**小節編集ダイアログ**が自動的に表示されます：
 
 <figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
 
-When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
+小節を選択した状態で、**小節編集ダイアログ**は、Enterキーを押す、小節をダブルクリックする、または右クリックメニューを使用することで表示できます。
 
-To **copy** a chord symbol just **drag it** while pressing the **control** key.
-
-{% hint style="info" %}
-In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
-{% endhint %}
-
-JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
-
-<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
+コード記号を**コピー**するには、**ctrl**キーを押しながら**ドラッグ**してください。
 
 {% hint style="info" %}
-The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
+**リードシートを一から入力する**には、最初の小節を選択し、コード記号を直接入力するのが最も簡単な方法です（最初の文字を入力すると小節編集ダイアログが自動的に表示されます）。入力完了後、Enterキーを押すと（自動的に次の小節が選択されます）、2小節目のコード記号を入力し、同様に続けます。
 {% endhint %}
 
-## Customizable chord progressions
+JJazzLabは、コード記号をいろいろな表記形式で認識できます。例えば、**C-7**、**Cm7**、**Cmi7**、**Cmin7**はすべて同じです。ツール/設定の**chord symbol**タブで、以下に示すように独自の_コード記号の別名_を追加できます：
 
-Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
+<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>独自のコード記号(aliases)を定義する</p></figcaption></figure>
+
+{% hint style="info" %}
+**NC**コード記号は特別で、これを使用すると次のコード記号まで無音にできます。完全な無音が長すぎる場合は、**shot**付きのコード記号を試してみてください。[解釈](chord-lead-sheet.md#interpretation).
+{% endhint %}
+
+## カスタマイズ可能なコード進行
+
+小節を選択し、ポップアップメニューの **挿入/Chord progression** から挿入するコード進行を選択してください。
 
 <figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
 
-The chord progression is inserted at the selected bar, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the mouse-wheel on a chord, or press ctrl-UP/DOWN).
+コード進行は選択した小節に挿入され、既存のコードを置き換えます。必要に応じて追加の小節が生成されます。挿入されたコードは自動的に選択されるため、目的の調へ簡単に移調できます（コード上でマウスホイールを使用するか、Ctrlキー＋上/下矢印キーを押してください）。
 
-Chord progressions are defined in a simple text file `ChordProgression.txt` located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
+コード進行は、JJazzLabのユーザーディレクトリ内にあるシンプルなテキストファイル`ChordProgression.txt`で定義されます。このファイルは存在しない場合、JJazzLabによって自動的に作成されます。
 
-Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu.
+**Chord progression...** からポップアップメニュー（上記画像参照）した **Open configuration file...** を選択すると編集できます。これにより、ポップアップメニューに表示されるコード進行を定義・整理できます。
 
 ## Changing the size of the leadsheet
 
