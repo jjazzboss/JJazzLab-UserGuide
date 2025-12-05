@@ -43,7 +43,7 @@ The **auto** value adjusts the quantization based on the rhythm (binary or terna
 
 ## コード記号の入力
 
-小節線またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**Bar edit dialog**が自動的に表示されます：
+小節またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**Bar edit dialog**が自動的に表示されます：
 
 <figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
 
