@@ -2,10 +2,10 @@
 
 **コード譜エディター**の使い方：
 
-* **Cm6, Ab7, F#9M#11, NC (コード無し) ...**のようなコード記号を書く
-* **A, B, verse, chorus,**のようなセクション記号を書く
-* Move and edit chords to adjust rhythm accents, interpretation or harmony
-* Add bar annotations (for lyrics etc.)
+* コード記号を書く、例 **Cm6, Ab7, F#9M#11, NC (コード無し) ...**
+* セクション記号を書く、例 **A, B, verse, chorus,**
+* コード記号をずらしたり編集して、リズムのアクセントや、解釈(interpretation)や、ハーモニーに合わせる
+* 小節に注意書きを書く(歌詞等のため)
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
