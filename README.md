@@ -33,7 +33,7 @@
 
 ## 特徴
 * すぐに使える音楽スタイル ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) が何百もあります。
-* 新しい [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) はリアルなウォーキングベースとドラムです。
+* 新機能の [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) はリアルなウォーキングベースとドラムです。
 * **たった数回クリックするだけでダイナミクスとバラエティさを導入できます。例としては、:**&#x20;
   * イントロではギターをミュートする
   * 曲の2番の終わりでブレイクして、3番ではコンガを入れる。
