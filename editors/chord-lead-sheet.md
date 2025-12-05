@@ -1,9 +1,9 @@
-# Chord lead sheet
+# コード譜
 
-Use the **chord leadsheet editor** to:
+**コード譜エディター**の使い方：
 
-* Add chord symbols, eg **Cm6, Ab7, F#9M#11, NC (no chord), ...**
-* Add sections, eg **A, B, verse, chorus,** ...
+* **Cm6, Ab7, F#9M#11, NC (コード無し) ...**のようなコード記号を書く
+* **A, B, verse, chorus,**のようなセクション記号を書く
 * Move and edit chords to adjust rhythm accents, interpretation or harmony
 * Add bar annotations (for lyrics etc.)
 
