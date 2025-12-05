@@ -9,9 +9,9 @@
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-## Popup menus
+## ポップアップメニュー
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
+現在の選択範囲（小節線、和音記号、またはセクション）に対して利用可能なコマンドを表示するには、ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキーを押しながらクリック**）を使用してください。
 
 ![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
 
@@ -19,21 +19,21 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-## Selecting and moving chord symbols
+## コード記号の選択と移動
 
-Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
+小節またはコード記号をクリックして選択します。**Ctrlキーを押しながらクリック**すると、複数の小節またはコード記号を選択できます。&#x20;
 
-Use **shift-click** to extend the current selection.
+**Shiftキーを押しながらクリック**すると、現在の選択範囲を拡張します。
 
-**Drag** a chord symbol with the mouse to move it to a new location. If you press **ctrl** while dragging, a **+** sign appears (see image below) indicating that the chord symbol will be copied, not moved.
+コード記号をマウスで**ドラッグ**すると、新しい位置に移動できます。ドラッグ中に**Ctrl**キーを押すと、**+**記号が表示され（下図参照）、コード記号が移動ではなくコピーされることを示します。
 
 <figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
 
-#### Chord symbol quantization
+#### コード記号のクオンタイズ
 
-By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).&#x20;
+デフォルトでは、コード記号の位置は16分音符単位（1拍あたり4つ）でクォンタイズされます。&#x20;
 
-This can be adjusted per section via the bar or section popup menu **Quantization...**, as shown below.
+これは、以下の図に示すように、小節またはセクションのポップアップメニュー **Quantization...** からセクションごとに調整できます。
 
 <figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,9 +41,9 @@ This can be adjusted per section via the bar or section popup menu **Quantizatio
 
 The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
 
-## Chord symbols input
+## コード記号の入力
 
-Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
+小節線またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**Bar edit dialog**が自動的に表示されます：
 
 <figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
 
