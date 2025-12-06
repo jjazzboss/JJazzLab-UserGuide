@@ -32,8 +32,8 @@
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
 ## 特徴
-* すぐに使える音楽スタイル ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) が何百もあります。
-* 新機能の [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) はリアルなウォーキングベースとドラムです。
+* 新機能の [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) はリアルなウォーキングベースとドラムでスタンダードジャズの練習ができます。
+* すぐに使える音楽スタイル ([リズム](/broken/pages/-MQSAmkHM-L--DNHfX7M)) が何百もあります。
 * **たった数回クリックするだけでダイナミクスとバラエティさを導入できます。例としては、:**&#x20;
   * イントロではギターをミュートする
   * 曲の2番の終わりでブレイクして、3番ではコンガを入れる。
@@ -41,16 +41,14 @@
   * コードをアンティシペイトして(喰って)入れる
   * 1番ではシンプルなピアノにする
 * [ユーザートラック](editors/mix-console.md#user-tracks)を加えて、伴奏トラックをカスタマイズする
-* 小節に[注釈/歌詞](editors/chord-lead-sheet.md#bar-annotations-lyrics)を入れる
-* [移調](tools/chord-symbols-transposition.md)して演奏する(サックス等のため)
-* MIDI[リモートコマンド](playback-control/midi-remote-commands.md)を使って再生をコントロールする
+* 小節に[注釈や歌詞](editors/chord-lead-sheet.md#bar-annotations-lyrics)を入れる
+* [MIDI経由の再生](playback-control/midi-remote-commands.md)でコントロールする
 * ソングや個々の楽器トラックを、[インポート](songs/importing-songs.md) や [エクスポート](songs/exporting-songs.md) する
 
 ## **サイドツール**
-
-* [イージーリーダー ウインドウ](tools/easy-reader.md): 現在演奏している箇所のコード(と注釈/歌詞)を大きなフォントで表示します
-* [コードインスペクター](tools/notes-viewer.md): 選択したコード記号の音とスケールを表示します(ピアノ、ギタータブ、楽譜)
-* [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md): MIDI入力デバイスを通じて、伴奏トラックを(pseudoの)リアルタイムでコントロールします
-* [アドリブのヒント](tools/improvisation-help.md): コード譜にアドリブのガイドを生成します
-* [コード記号の移調](tools/chord-symbols-transposition.md): サックスのような移調楽器の演奏に便利です
-* [テンポを上げていくループ練習](tools/practice-loop-with-tempo-increase.md): 難しいパッセージの練習に完璧！
+* [コードインスペクター](tools/notes-viewer.md):コード記号の音とスケールがわかります(ピアノ、ギタータブ、楽譜)
+* [自動的にテンポを上げていくループ練習](tools/practice-loop-with-tempo-increase.md): エクササイズや難しいパッセージの練習に効果的！
+* [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md): MIDI入力デバイスを通じて、伴奏トラックをコントロールします
+* [アドリブのヒント](tools/improvisation-help.md): コード譜にアドリブのガイドが出ます
+* [コード記号の移調](tools/chord-symbols-transposition.md): 移調楽器（サックスなど）用です
+* [イージーリーダー ウインドウ](tools/easy-reader.md): 現在演奏している箇所と次の箇所のコードをフォーカスして表示します
