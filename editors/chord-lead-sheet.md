@@ -211,16 +211,16 @@ _例：_
 
 ## マウスショートカット
 
-| <mark style="background-color:blue;">**選択箇所**</mark> | <mark style="background-color:blue;">**マウス**</mark> | <mark style="background-color:blue;">**動作**</mark> |
+| <mark style="background-color:blue;">**選択箇所**</mark>   | <mark style="background-color:blue;">**マウス**</mark> | <mark style="background-color:blue;">**動作**</mark>   |
 | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
-| 小節、コード記号、セクション                                | click                                                 | 選択                                                 |
-| コード記号                                              | double click                                          | コード記号エディターを使用して編集する                         |
-| コード記号                                              | ctrl-shift click                                      | コードを聴く                                         |
-| 小節、セクション                                              | double click                                          | 小節エディターを使用して編集する                                  |
-| 小節、コード記号、セクション                                | right-click                                           | ポップアップメニュー                                             |
-| コード記号                                              | mouse-wheel                                           | 移調                                              |
-| エディター                                                    | ctrl mouse-wheel                                      | 水平方向に拡大/縮小する                               |
-| エディター                                                    | ctrl-shift mouse-wheel                                | 縦方向に拡大/縮小する                                 |
+| 小節、コード記号、セクション                                 | click                                                 | 選択                                                   |
+| コード記号                                                 | double click                                          | コード記号エディターを使用して編集する                     |
+| コード記号                                                 | ctrl-shift click                                      | コードを聴く                                             |
+| 小節、セクション                                            | double click                                          | 小節エディターを使用して編集する                          |
+| 小節、コード記号、セクション                                 | right-click                                           | ポップアップメニュー                                     |
+| コード記号                                                 | mouse-wheel                                           | 移調                                                    |
+| エディター                                                 | ctrl mouse-wheel                                      | 水平方向に拡大/縮小する                                   |
+| エディター                                                 | ctrl-shift mouse-wheel                                | 縦方向に拡大/縮小する                                     |
 
 ## Keyboard shortcuts
 
@@ -228,25 +228,25 @@ _例：_
 Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard shortcut is displayed.
 {% endhint %}
 
-| Selection                  | Key             | Action                                    |
+| 選択箇所                    | キー             | 動作                                     |
 | -------------------------- | --------------- | ----------------------------------------- |
-| コード記号               | enter           | コード記号エディターを使用して編集する             |
-| 小節、セクション               | enter           | 小節エディターを使用して編集する               |
-| 小節                        | ctrl-E          | 終止線を書く                               |
-| 小節                        | I               | 小節を挿入する                               |
-| 小節                        | delete          | 小節内を消去する                        |
-| コード記号、セクション      | delete          | 除去する                                    |
-| コード記号、セクション      | ctrl-left/right | アイテムを1小節左/右に移動              |
-| 小節                        | shift-delete    | 除去する                                     |
-| コード記号               | ctrl-up/down    | 移調                                  |
-| コード記号               | P               | 表現解釈を変更する                    |
-| コード記号               | S               | アクセントを強化する                           |
-| コード記号               | H               | クラッシュシンバル/クラッシュなし                     |
-| コード記号               | X               | より多くの楽器で持続/短め演奏する                |
-| コード記号               | M               | hear the chord                            |
-| コード記号、セクション      | ctrl-A          | select all in section, then in lead sheet |
-| 小節、コード記号、セクション | ctrl-C/X/V      | copy/cut/paste items                      |
-| エディター                     | ctrl-Z/Y        | undo/redo                                 |
-| エディター                     | ctrl-L          | Show/hide bar annotations                 |
-| エディター                     | alt-L           | Insert bar annotation                     |
-| エディター                     | ctrl-W          | close song                                |
+| コード記号                  | enter           | コード記号エディターを使用して編集する       |
+| 小節、セクション             | enter           | 小節エディターを使用して編集する            |
+| 小節                        | ctrl-E          | 終止線を書く                              |
+| 小節                        | I               | 小節を挿入する                            |
+| 小節                        | delete          | 小節内を消去する                           |
+| コード記号、セクション       | delete          | 除去する                                   |
+| コード記号、セクション       | ctrl-left/right | アイテムを1小節左/右に移動                  |
+| 小節                        | shift-delete    | 除去する                                  |
+| コード記号                  | ctrl-up/down    | 移調                                      |
+| コード記号                  | P               | 表現解釈を変更する                         |
+| コード記号                  | S               | アクセントを強化する                       |
+| コード記号                  | H               | クラッシュシンバル/クラッシュなし           |
+| コード記号                  | X               | より多くの楽器で持続/短め演奏する           |
+| コード記号                  | M               | コードを聴く                              |
+| コード記号、セクション       | ctrl-A          | セクション内のすべてを選択し、次にリードシート内のすべてを選択 |
+| 小節、コード記号、セクション | ctrl-C/X/V      | コピー/切り取り/貼り付け                    |
+| エディター                  | ctrl-Z/Y        | 元に戻す/やり直し                          |
+| エディター                  | ctrl-L          | 小節注釈の表示/非表示                      |
+| エディター                  | alt-L           | 小節注釈の挿入                             |
+| エディター                  | ctrl-W          | ソングを閉じる                             |
