@@ -222,10 +222,10 @@ _例：_
 | エディター                                                 | ctrl mouse-wheel                                      | 水平方向に拡大/縮小する                                   |
 | エディター                                                 | ctrl-shift mouse-wheel                                | 縦方向に拡大/縮小する                                     |
 
-## Keyboard shortcuts
+## キーボードショートカット
 
 {% hint style="info" %}
-Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard shortcut is displayed.
+多くの操作はコンテキストメニュー（Windows/Linuxでは右クリック、MacではCtrlキーを押しながらクリック）からも利用可能です。利用可能な場合、関連するキーボードショートカットが表示されます。
 {% endhint %}
 
 | 選択箇所                    | キー             | 動作                                     |
