@@ -1,13 +1,13 @@
-# Mix console
+# ミックスコンソール
 
-Use the **mix console** to:
+**ミックスコンソール** の使い方
 
-* Change the instruments
-* Adjust channel settings: volume, reverb, chorus, panoramic, transposition, velocity offset
-* Mute or solo channels
-* Add user tracks
-* Load/save .mix file
-* And more: change Midi channel, use special Midi commands, export to Midi file, etc.
+* 楽器の変更
+* チャンネル設定の調整：音量、リバーブ、コーラス、パン、移調、ベロシティオフセット
+* チャンネルをミュートまたはソロにする
+* ユーザートラックを追加する
+* .mixファイルの読み込み/保存
+* さらに：MIDIチャンネルの変更、特殊なMIDIコマンドの使用、MIDIファイルへのエクスポートなど。
 
 JJazzLab uses the **mix console** information to send the relevant Midi messages to the output synth. This is done each time you make a change in the mix console, or when you start the playback.
 
