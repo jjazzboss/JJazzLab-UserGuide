@@ -82,21 +82,21 @@ JJazzLabは、コード記号をいろいろな表記形式で認識できます
 {% hint style="info" %}
 ソングの長さは、コード譜リードシートと楽曲構成(ソングストラクチャー)の両方によって決まります。&#x20;
 
-例えば、コード譜リードシートにAという単一の12小節セクションだけがあって、楽曲構成がA-A-Aの場合、楽曲の長さは3×12=36小節となる。
+例えば、コード譜リードシートにAという単一の12小節セクションだけがあって、楽曲構成がA-A-Aの場合、楽曲の長さは3×12=36小節となります。
 {% endhint %}
 
 ## 表現解釈
 
-Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
+コード記号を選択し、編集します（ダブルクリック、Enterキーを押す、または右クリックメニュー）。次に、**Interpretation**タブを選択します。
 
 ![](../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
-The **Interpretation** tab lets you decide how this chord symbol should be played:
+**Interpretation**タブは、このコード記号をどのように演奏すべきかを決めるためのものです：
 
 * **Normal**
-* **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
-* **Hold**: add a rhythmic accent and hold notes until next chord symbol. If extended more instruments are hold.
-* **Shot**: add a rhythmic accent with chord notes played briefly. If extended more instruments are shot.
+* **Accent**: リズムのアクセントを加え、ランダムにクラッシュシンバルを鳴らします。アクセントを強くしたり、クラッシュシンバルを確実に鳴らすか鳴らさないかを指定できます。
+* **Hold**: リズムのアクセントを加え、次のコード記号まで音を保持します。適用すると、より多くの楽器を保持します。
+* **Shot**: リズムのアクセントを加え、コードの音を短く演奏します。適用すると、より多くの楽器が加わります。
 * **Pedal bass**: bass line will only play the bass note (for ex. F for Fm7 or C for Fm7/C). This setting is on by default when you enter a slash chord.
 
 {% hint style="info" %}
