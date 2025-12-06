@@ -1,5 +1,5 @@
 ---
-説明: JJazzLab組み込みシンセサイザー
+内容： JJazzLab組み込みシンセサイザー
 ---
 
 # FluidSynthの使用
