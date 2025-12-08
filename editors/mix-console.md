@@ -9,7 +9,7 @@
 * .mixファイルの読み込み/保存
 * さらに：MIDIチャンネルの変更、特殊なMIDIコマンドの使用、MIDIファイルへのエクスポートなど。
 
-JJazzLab uses the **mix console** information to send the relevant Midi messages to the output synth. This is done each time you make a change in the mix console, or when you start the playback.
+JJazzLabは、**ミックスコンソール**の情報を使用して、関連するMIDIメッセージをシンセ出力に送信します。これは、ミックスコンソールで変更を加えるたびに、または再生を開始するたびに実行されます。
 
 {% hint style="danger" %}
 Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have more than 2 rhythms.
