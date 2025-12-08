@@ -17,21 +17,21 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 ![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
 
-Each mix console track has a bottom **overview component** that represent the track notes.
+各ミックスコンソールのトラックには、トラックの音を表す下部の **overview component**があります。
 
-## Mix console toolbar
+## ミックスコンソールツールバー
 
 ![](../.gitbook/assets/MixConsoleToolbar.png)
 
-* **Master volume**: this increase or lower the Midi volume messages
-* **M**: Mute or Unmute all tracks
-* **S**: Switch off all Solo tracks
-* **Panic**: Send a Midi Panic message, switching all notes OFF
-* **Add a User track**: see [User tracks](mix-console.md#user-tracks) below.
+* **Master volume**: MIDI音量を増減します。
+* **M**: すべてのトラックでミュートまたはミュート解除します。
+* **S**: ソロトラック以外すべてをオフにします。
+* **Panic**: MIDIパニックメッセージを送信し、すべてのノートをOFFに切り替えます。
+* **Add a User track**: 下の[ユーザートラック](mix-console.md#user-tracks)を参照してください。
 
-## Mix console menu bar
+## ミックスコンソールメニューバー
 
-### Menu File
+### メニューファイル
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
