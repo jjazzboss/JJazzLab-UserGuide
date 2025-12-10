@@ -12,7 +12,7 @@
 JJazzLabは、**ミックスコンソール**の情報を使用して、関連するMIDIメッセージをシンセ出力に送信します。これは、ミックスコンソールで変更を加えるたびに、または再生を開始するたびに実行されます。
 
 {% hint style="danger" %}
-Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have more than 2 rhythms.
+MIDIには16のMIDIチャンネルしかありません。そのため、通常1曲に2つ以上のリズムトラックを配置することはできません。
 {% endhint %}
 
 ![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
@@ -31,7 +31,7 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 ## ミックスコンソールメニューバー
 
-### メニューファイル
+### File
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
@@ -41,21 +41,21 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
     現在のミックスとインポートされたミックスで共通する楽器の設定のみがインポートされることに注意してください。
 
-### Menu Edit
+### 編集
 
 *   **Reset channels** &#x20;
 
-    Restore each mix console channel (instrument, volume, panoramic, effect) to its default rhythm setting .
+    各ミックスコンソールのチャンネル（楽器、音量、パン、エフェクト）をデフォルトのリズム設定に復元します。
 
-### Menu Midi
+### Midi
 
-*   **Enable/Disable all Midi parameters** &#x20;
+*   **すべてのMIDIパラメーターを有効化** &#x20;
 
-    By default all Midi parameters are enabled. \
-    Use Disable all Midi parameters if you want to control the mix yourself directly on the output synth: in this mode JJazzLab only sends _Midi note messages_, it does not send Midi messages related to bank/program changes, volume, panoramic or effects.
+    デフォルトでは、すべてのMIDIパラメータが有効になっています。
+    シンセ出力上で直接ミックスを制御したい場合は「すべてのMIDIパラメーターを無効にする」を使用してください：このモードではJJazzLabは_MIDIノートメッセージ_のみを送信し、バンク/プログラムチェンジ、音量、パン、エフェクト関連のMIDIメッセージは送信しません.
 *   **Send GM/GM2/XG/GM mode ON message** &#x20;
 
-    This lets you send special Midi initialization messages to turn your output synth in the desired mode.
+    これにより、シンセ出力を目的のモードに切り替える特別なMIDI初期化メッセージを送信できます。
 
 ## Change instrument
 
