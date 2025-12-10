@@ -35,11 +35,11 @@ Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have mo
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
-    Update the current song mix by loading the default rhythm mix file. \
-    Or save the current song mix as the default rhythm mix file: it will be reused by default each time you create a song which uses the same rhythm. Learn more about [default rhythm mix files](../songs/song-and-mix-files.md#default-rhythm-mix).
+    現在のソングミックスを、デフォルトのリズムミックスファイルを読み込むことで更新します。
+    現在のソングミックスをデフォルトのリズムミックスファイルとして保存することもできます。これにより、同じリズムを使用する曲を作成するたびに、デフォルトでこのファイルが再利用されます。 詳しいことはこちら[default rhythm mix files](../songs/song-and-mix-files.md#default-rhythm-mix)で。
 *   **Import Mix...** &#x20;
 
-    Note that this will import settings only for the instruments which are common between the current mix and the imported mix.
+    現在のミックスとインポートされたミックスで共通する楽器の設定のみがインポートされることに注意してください。
 
 ### Menu Edit
 
