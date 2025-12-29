@@ -57,41 +57,41 @@ MIDIには16のMIDIチャンネルしかありません。そのため、通常1
 
     これにより、シンセ出力を目的のモードに切り替える特別なMIDI初期化メッセージを送信できます。
 
-## Change instrument
+## 楽器の変更
 
-Click on the instrument name in the channel. Note that this is also where instrument transposition can be adjusted.
+チャンネル内の楽器名をクリックしてください。なお、ここで楽器の移調も調整できます。
 
 ![](../.gitbook/assets/mixconsole-instrumentselection.png)
 
-## Channel settings
+## チャンネル設定
 
-Use the channel settings to:
+チャンネル設定を使うと:
 
-*   **Add a Midi velocity offset to all notes played on this channel** &#x20;
+*   **このチャンネルで再生されるすべての音符にMIDIベロシティオフセットを追加します** &#x20;
 
-    Note that this is slightly different from adjusting the volume.<br>
-*   **Disable sending specific Midi messages** &#x20;
+    これは音量調整とは少し異なることに注意してください。<br>
+*   **特定のMIDIメッセージの送信を無効にします** &#x20;
 
-    Probably because you control the parameter yourself directly on the [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey).<br>
-*   **Enable a drums channel with a Midi channel different than 10**
+    おそらく、そのパラメータを自分で[出力シンセ](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey)を直接操作しているからです 。<br>
+*   **10以外のMIDIチャンネルでドラム・チャンネルを有効にします**
 
-    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) information, potential issues. \
+    基本的なGM出力シンセを使用する場合、ドラムは**チャンネル10でのみ**再生可能です。ミックス内で他のチャンネルにドラム/パーカッションを使用する場合は、それらのチャンネルでドラム再ルーティングを有効にする必要があります。なお、JJazzLabは [出力シンセ](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) における現在の情報や潜在的な問題に基づいてこれを検知した場合、自動的にこのオプションを有効にする場合があります。 \
     <br>
 
 ![](../.gitbook/assets/mixconsole-channelsettings.png)
 
-## Midi channel
+## MIDIチャンネル
 
-Each Midi channel can be changed manually, just click on the channel number.
+各MIDIチャンネルは手動で変更できます。チャンネル番号をクリックするだけです。
 
 ![](../.gitbook/assets/MixConsole-ChangeChannel.png)
 
-## User tracks
+## ユーザートラック
 
-A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
+ユーザートラックを使用すると、楽曲に独自のMIDIコンテンツ（メロディ、ホーンリフ、パーカッションなど）を追加できます。
 
 {% hint style="info" %}
-If you want to customize a rhythm track only for a song part (e.g. simplify the style's bass phrase for the 2nd verse of your song), you need to use the [Custom phrase rhythm parameter](song-structure.md#rhythm-parameters).
+曲の一部だけリズムトラックをカスタマイズしたい場合（例：曲の2番のサビでスタイルのベースフレーズを簡略化したい場合）、 [カスタムフレーズリズムパラメータ](song-structure.md#rhythm-parameters)を使わなくてはなりません。
 {% endhint %}
 
 #### Adding user tracks
