@@ -32,7 +32,7 @@
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
 ## 特徴
-* 新機能の [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) は最高のウォーキングベースとドラムでスタンダードジャズの練習ができます。
+* 新機能の [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (リズム) は、ベストなウォーキングベースとドラムでスタンダードジャズの練習ができます。
 * すぐに使える音楽スタイル ([リズム](/broken/pages/-MQSAmkHM-L--DNHfX7M)) が何百もあります。
 * **たった数回クリックするだけでダイナミクスとバラエティさを導入できます。例としては、:**&#x20;
   * イントロではギターをミュートする
