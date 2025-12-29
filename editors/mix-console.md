@@ -124,23 +124,23 @@ MIDIには16のMIDIチャンネルしかありません。そのため、通常1
 
 ## マウスドラッグ＆ドロップでMIDIファイルにエクスポート
 
-You can export the **full backing track** to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
+**フルバッキングトラック**をMIDIファイルにエクスポートするには、ミックスコンソールの空いている領域からマウスでドラッグしてください。これはメニューの「ファイル/MIDIファイルにエクスポート」と同じ操作ですが、DAWなどの別のソフトウェアで作業する際にはより便利です。
 
-To export a **single track**, start the mouse-drag from the track icon or track overview component.
+**単一トラック**をエクスポートするには、トラックアイコンまたはトラック概要コンポーネントからマウスドラッグを開始してください。
 
-![Export a single track with mouse drag & drop](../.gitbook/assets/MixConsoleDragTrack.png)
+![マウスでドラッグ＆ドロップして単一トラックをエクスポート](../.gitbook/assets/MixConsoleDragTrack.png)
 
-## Multi-rhythm songs
+## リズムが複数あるソング
 
-When a song uses 2 or more rhythms, a popup is displayed in the upper left corner of the mix console to select the rhythm you want to display.
+ソングで2つ以上のリズムを使用する場合、ミックスコンソールの左上隅にポップアップが表示され、表示したいリズムを選択できます。
 
 ![](../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
-Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm(s).
+メニューの**Edit/Reset channels**などの一部のコマンドは、非表示のリズムには適用されません。
 
-## Mouse shortcuts
+## マウスショートカット
 
-| Selection                    | Mouse              | Action                        |
-| ---------------------------- | ------------------ | ----------------------------- |
-| channel volume slider, knobs | double-click       | Input value with keyboard     |
-| channel volume slider        | shift + mouse-drag | change volume of all channels |
+| 選択                          | マウス                              | 動作                       |
+| ----------------------------- | ---------------------------------- | -------------------------- |
+| チャンネル音量スライダー、ツマミ | ダブルクリック                      | キーボードで値を入力する     |
+| チャンネル音量スライダー        | Shiftキーを押しながらマウスでドラッグ | 全チャンネルの音量を変更する  |
