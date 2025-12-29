@@ -108,21 +108,21 @@ MIDIには16のMIDIチャンネルしかありません。そのため、通常1
 ユーザートラックにドラムまたはパーカッション楽器を選択し、かつシンセ出力が基本的なGM互換シンセの場合： [ユーザートラックチャンネルを設定](mix-console.md#midi-channel) を10にしますが、, チャンネル10が他のトラックで使用されている場合、ユーザートラック内でドラムトラックをチャンネル10へ再ルーティング (参照 [チャンネル設定](mix-console.md#channel-settings))します。
 {% endhint %}
 
-#### Edit a user track
+#### ユーザートラックの編集
 
-Edit the user track by clicking on the upper left icon in the user track overview component, as shown below.&#x20;
+ユーザートラックの概要コンポーネントの左上にあるアイコンをクリックして、下図のようにユーザートラックを編集します。&#x20;
 
-This will open the [notes editor](notes-editor.md).
+これで [ノートエディター](notes-editor.md)が開きます。
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-A user track has always the same length than your song.
+ユーザートラックは常にソングと同じ長さです。
 
 {% hint style="danger" %}
-If you edit a user track, then make the song shorter (e.g. by removing a song part), the user track will be trimmed to the new song size.
+ユーザートラックを編集し、曲の長さを短縮した場合（例：曲の一部を削除）、ユーザートラックは新しい曲の長さにトリミングされます。
 {% endhint %}
 
-## Export to Midi file with mouse drag & drop
+## マウスドラッグ＆ドロップでMIDIファイルにエクスポート
 
 You can export the **full backing track** to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
 
