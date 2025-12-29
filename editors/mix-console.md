@@ -94,18 +94,18 @@ MIDIには16のMIDIチャンネルしかありません。そのため、通常1
 曲の一部だけリズムトラックをカスタマイズしたい場合（例：曲の2番のサビでスタイルのベースフレーズを簡略化したい場合）、 [カスタムフレーズリズムパラメータ](song-structure.md#rhythm-parameters)を使わなくてはなりません。
 {% endhint %}
 
-#### Adding user tracks
+#### ユーザートラックの追加
 
-Click the + button in the mix console toolbar to add a new user track. This will also open the [notes editor](notes-editor.md) to edit this user track.
+ミキシングコンソールのツールバーにある「+」ボタンをクリックして、新しいユーザートラックを追加します。 これにより[ノートエディター](notes-editor.md) が開いて、ユーザートラックを編集します。
 
-<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Add user track button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>ユーザートラックボタンを追加</p></figcaption></figure>
 
-You can also clone a rhythm track as a new user track using the + sign in upper right corner of a track overview, as shown below. The original rhythm track will be automatically muted.
+また、下図のようにトラック概要画面の右上隅にある「+」記号を使用して、リズムトラックを新しいユーザートラックとして複製することもできます。元のリズムトラックは自動的にミュートされます。
 
-<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>Clone a rhythm track as a new user track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>リズムトラックを新しいユーザートラックとして複製する</p></figcaption></figure>
 
 {% hint style="warning" %}
-If you select a drums or percussion instrument for the user track, _and_ your output synth is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
+ユーザートラックにドラムまたはパーカッション楽器を選択し、かつ出力シンセが基本的なGM互換シンセの場合： [ユーザートラックチャンネルを設定](mix-console.md#midi-channel) を10にしますが、, チャンネル10が他のトラックで使用されている場合、ユーザートラック内でドラムトラックをチャンネル10へ再ルーティング (参照 [チャンネル設定](mix-console.md#channel-settings))します。
 {% endhint %}
 
 #### Edit a user track
