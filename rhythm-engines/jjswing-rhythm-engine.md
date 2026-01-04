@@ -1,12 +1,13 @@
 ---
-description: The ultimate style for practicing jazz standards
+description: The ultimate style for practicing jazz standards with a natural feel
 ---
 
 # jjSwing rhythm engine
 
 **jjSwing**'s unique features are:
 
-* A **realistic walking bass with melodic lines**, which automatically adjust to the tempo
+* A **realistic walking bass with melodic lines**
+* Swing feel automatically adjusts to the tempo
 * 11 drums variations (brushes, hi-hat, ride, shuffle)
 * Double-time capability (play twice as fast with chord changes at original tempo)
 * The possibility to adjust bass and drums independently

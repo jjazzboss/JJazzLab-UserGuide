@@ -73,7 +73,7 @@ The chord progression is inserted at the selected bar, replacing existing chords
 
 Chord progressions are defined in a simple text file `ChordProgression.txt` located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
 
-Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu.
+Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
 
 ## Changing the size of the leadsheet
 
