@@ -41,7 +41,7 @@
   * コードをアンティシペイトして(喰って)入れる
   * 1番ではシンプルなピアノにする
 * [ユーザートラック](editors/mix-console.md#user-tracks)を加えて、伴奏トラックをカスタマイズする
-* 小節に[注釈や歌詞](editors/chord-lead-sheet.md#bar-annotations-lyrics)を入れる
+* 小節に[注釈もしくは歌詞](editors/chord-lead-sheet.md#bar-annotations-lyrics)を入れる
 * [MIDI経由の再生](playback-control/midi-remote-commands.md)でコントロールする
 * ソングや個々の楽器トラックを、[インポート](songs/importing-songs.md) や [エクスポート](songs/exporting-songs.md) する
 
