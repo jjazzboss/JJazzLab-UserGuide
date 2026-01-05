@@ -1,6 +1,6 @@
-# Notes editor
+# ノートエディター
 
-JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
+JJazzLabにはMIDIノートエディタが組み込まれており、[**ユーザートラック編集**](notes-editor.md#edit-a-user-track) や [**ソングパートのカスタムフレーズ編集**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)で使用します。
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
 
@@ -9,22 +9,22 @@ JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](note
 <figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Simplified score</p></figcaption></figure>
 
 {% hint style="warning" %}
-For now the score panel (above) uses a **simplified musical notation:** notes positions are just aligned with the editor notes, without any embellishment. The score panel is not editable.&#x20;
+現時点では、スコアパネル（上記）は**簡略化された楽譜表記**を使用しています：音符の位置はエディタの音符と一致するように揃えられており、装飾は一切ありません。スコアパネルは編集できません。&#x20;
 {% endhint %}
 
-## Opening the notes editor
+## ノートエディタを開く
 
-### Edit a user track
+### ユーザートラック編集
 
-The notes editor is automatically opened when you [add a user track](mix-console.md#adding-user-tracks). For existing user tracks, click the edit button in the track overview component, as shown below.&#x20;
+ノートエディターは、[ユーザートラックを追加](mix-console.md#adding-user-tracks)すると、自動的に開きます。 既存のユーザートラックについては、下記に示すようにトラック概要コンポーネント内の編集ボタンをクリックしてください。&#x20;
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Rhythm tracks can also be edited with the notes editor by cloning them first as a user track :
+リズムトラックは、最初にユーザートラックとして複製した後で、ノートエディタで編集することもできます：
 
 <figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-### Edit a Custom phrase for a song part
+### ソングパートのカスタムフレーズ編集
 
 In the song structure editor, click the top-left button of a Custom phrase rhythm parameter:
 
