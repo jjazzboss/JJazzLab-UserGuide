@@ -2,11 +2,11 @@
 
 JJazzLabにはMIDIノートエディタが組み込まれており、[**ユーザートラック編集**](notes-editor.md#edit-a-user-track) や [**ソングパートのカスタムフレーズ編集**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)で使用します。
 
-<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>メロディトラック</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>ドラムトラック</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Simplified score</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>簡略化されたスコア</p></figcaption></figure>
 
 {% hint style="warning" %}
 現時点では、スコアパネル（上記）は**簡略化された楽譜表記**を使用しています：音符の位置はエディタの音符と一致するように揃えられており、装飾は一切ありません。スコアパネルは編集できません。&#x20;
