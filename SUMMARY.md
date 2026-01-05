@@ -42,6 +42,7 @@
 * [Chord symbols transposition](tools/chord-symbols-transposition.md)
 * [Improvisation help](tools/improvisation-help.md)
 * [Easy Reader](tools/easy-reader.md)
+* [Song memo](tools/song-memo.md)
 
 ## Rhythm engines
 
