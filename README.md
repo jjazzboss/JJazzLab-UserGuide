@@ -57,7 +57,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 * [Improvisation help](tools/improvisation-help.md): get improvisation guides for your chord leadsheet
 * [Chord symbols transposition](tools/chord-symbols-transposition.md): for transposing instruments (e.g. sax players)
 * [Easy Reader window](tools/easy-reader.md): focus on the current and next chord
-* [Song memo](tools/song-memo.md): text reminders about your song which can include clickable links
+* [Song memo](tools/song-memo.md): text reminders about your song which can include links to files or web pages
 
 
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   The song memo lets you write text reminders about your song that can include
-  clickable links to local files or websites for quick reference.
+  links to local files or websites for quick reference.
 ---
 
 # Song memo
@@ -10,7 +10,9 @@ description: >-
 
 <figure><img src="../.gitbook/assets/SongMemo.png" alt=""><figcaption></figcaption></figure>
 
-The links are automatically opened when you open the song file.
+Use the **Insert link...** button to insert a link to a computer file or a web page.
+
+The **Open links** button opens all the links of the memo. The links are automatically opened when you open the song file.
 
 {% hint style="danger" %}
 For security reasons, you can insert up to 4 links only with the following extensions:&#x20;
