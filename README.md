@@ -52,3 +52,4 @@
 * [アドリブのヒント](tools/improvisation-help.md): コード譜にアドリブのガイドが出ます
 * [コード記号の移調](tools/chord-symbols-transposition.md): 移調楽器（サックスなど）用です
 * [イージーリーダー ウインドウ](tools/easy-reader.md): 現在演奏している箇所と次の箇所のコードをフォーカスして表示します
+* [ソングメモ](tools/song-memo.md): 楽曲に関するリマインダー（クリック可能なリンクを含めることができます）
