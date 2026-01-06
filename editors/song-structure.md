@@ -1,18 +1,18 @@
-# Song structure
+# ソングストラクチャー
 
-Use the **song structure editor** to:
+**ソングストラクチャーエディター**を使用するのは:
 
-* Define the order of sections as **song parts**, eg "AABA" or "verse verse chorus verse"
-* Select which **rhythms** (music styles) to use and when
-* Adjust the **rhythm parameters** of song parts to introduce dynamics, eg variation, intensity, drums fill, muted instrument, ...
+* セクションの順序を**ソング構成**として定義する。例：「AABA」または「ヴァース　ヴァース コーラス ヴァース」
+* 使用する**リズム**（音楽スタイル）とそのタイミングを選択する
+* 楽曲のパートごとに**リズムパラメータ**を調整し、ダイナミクス（例：変化、強弱、ドラムフィル、ミュート楽器など）を取り入れる。
 
 ![](../.gitbook/assets/FullSongStructureEditorText.png)
 
-## Song parts
+## ソングパート
 
-A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).&#x20;
+**ソングパート**は、[コードリードシート](chord-lead-sheet.md)の親**セクション**としてリンクされています。&#x20;
 
-**Song parts let you define in which order sections are played, and how**. For example you can have a chord lead sheet with only 2 sections _verse_ and _chorus_, but the song will play _verse verse chorus verse chorus_.
+**ソングパートでは、セクションの演奏順序と方法を定義できます。例えば、_ヴァース_と_コーラス_の2セクションのみのコードリードシートでも、曲は_ヴァース ヴァース コーラス ヴァース コーラス_の順で再生されます。
 
 A song part has a name, a **rhythm** and a value for each of the [**rhythm parameters**](song-structure.md#rhythm-parameters). Rhythm parameters let you change how the rhythm is played for this song part.
 
