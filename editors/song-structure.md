@@ -30,11 +30,11 @@
 
 新しいソングパートを追加するには：
 
-* **drag a section** from the chord lead sheet into the song structure editor, or
-* right-click menu **Insert**, or&#x20;
-* copy an existing song part: drag it while pressing the ctrl key, use copy & paste, or right-click menu **Duplicate**
+* コードリードシートから**セクションをドラッグ**してソングストラクチャーエディタに配置するか、
+* 右クリックメニューの**挿入**、または&#x20;
+* 既にあるソングパートをコピーする：Ctrlキーを押しながらドラッグ、コピー＆ペースト、または右クリックメニューの**Duplicate**を使用
 
-Song parts can be reordered by **dragging them using the mouse** (use ctrl+mouse drag to duplicatea song part). Copy/cut/paste commands work as well both on song parts and rhythm parameters.
+**マウスでドラッグ**することでソングパートの順序を変更できます（Ctrlキーを押しながらドラッグするとソングパートを複製できます）。コピー/切り取り/貼り付けコマンドも、ソングパートとリズムパラメータの両方で機能します。
 
 Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
 
