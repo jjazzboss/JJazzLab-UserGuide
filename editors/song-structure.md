@@ -12,23 +12,23 @@
 
 **ソングパート**は、[コードリードシート](chord-lead-sheet.md)の親**セクション**としてリンクされています。&#x20;
 
-**ソングパートでは、セクションの演奏順序と方法を定義できます。例えば、_ヴァース_と_コーラス_の2セクションのみのコードリードシートでも、曲は_ヴァース ヴァース コーラス ヴァース コーラス_の順で再生されます。
+**ソングパートでは、セクションの演奏順序と方法を定義できます。例えば、_ヴァース_と_コーラス_ の2セクションのみのコードリードシートでも、曲は _ヴァース ヴァース コーラス ヴァース コーラス_ の順で再生します。
 
-A song part has a name, a **rhythm** and a value for each of the [**rhythm parameters**](song-structure.md#rhythm-parameters). Rhythm parameters let you change how the rhythm is played for this song part.
+ソングパートには、**リズム**の名前、および各[**リズムパラメータ**](song-structure.md#rhythm-parameters)の値が設定されます。リズムパラメータを使用すると、ソングパートでリズムをどのように演奏するかを変更できます。
 
-By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name.
+デフォルトでは、ソングパートの名前は親セクションの名前となります。ソングパートの名前を変更した場合、親セクションの名前がその名前の下に表示されます。
 
 {% hint style="info" %}
-If some contiguous song parts share the same name, then the name is displayed _only on the first song part and a line is shown_ on the contiguous song parts (see image below).
+連続する複数のソングパートが同じ名前を共有する場合、その名前は _最初のソングパートにのみ表示_ され、連続するソングパートには _線が表示_ されます（下図参照）。
 
-Clicking this line will select all the related song parts.
+この行をクリックすると、関連するすべてのソングパートを選択します。
 {% endhint %}
 
 ![](../.gitbook/assets/songparts-samename.png)
 
-## Editing
+## 編集
 
-To add a new song part:
+新しいソングパートを追加するには：
 
 * **drag a section** from the chord lead sheet into the song structure editor, or
 * right-click menu **Insert**, or&#x20;
