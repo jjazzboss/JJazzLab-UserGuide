@@ -39,12 +39,12 @@
 ソングパートの**名前**、**リズム**、**パラメータ**の編集は、[マウス](song-structure.md#mouse-shortcuts)または[キーボードショートカット](song-structure.md#keyboard-shortcuts)を使用してソングストラクチャーエディターから直接行うか、[ソングパートエディタ](song-structure.md#song-part-editor)を介して行うことができます.
 
 {% hint style="success" %}
-To edit several song parts or rhythm parameters in one shot:&#x20;
+複数のソングパートやリズムパラメータを一括で編集するには：&#x20;
 
-* select multiple items with **ctrl+click** or **shift-click**&#x20;
-* Do the edit (for example change the rhythm, or increase intensity)
+* **Ctrlキー＋クリック** または **Shiftキー＋クリック** で複数の項目を選択&#x20;
+* 編集を行う（例：リズムを変更する、強度を上げるなど）
 
-Change is applied to all selected items.
+変更は選択したすべての項目に適用されます。
 {% endhint %}
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter), as shown in the 2 images below.
