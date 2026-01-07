@@ -47,7 +47,7 @@
 変更は選択したすべての項目に適用されます。
 {% endhint %}
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection (song part or rhythm parameter), as shown in the 2 images below.
+現在の選択範囲（楽曲パートまたはリズムパラメータ）に対して利用可能なコマンドを表示するには、ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキー＋クリック**）を使用してください。以下の2つの画像のように表示されます。
 
 ![Song part popup menu](../.gitbook/assets/SongPartPopupMeny.png)
 
