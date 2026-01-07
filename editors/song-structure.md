@@ -36,7 +36,7 @@
 
 **マウスでドラッグ**することでソングパートの順序を変更できます（Ctrlキーを押しながらドラッグするとソングパートを複製できます）。コピー/切り取り/貼り付けコマンドも、ソングパートとリズムパラメータの両方で機能します。
 
-Edition of song part **name**, **rhythm** and **parameters** can be done directly from the song structure editor using the [mouse](song-structure.md#mouse-shortcuts) or [keyboard shortcuts](song-structure.md#keyboard-shortcuts), or via the [song part editor](song-structure.md#song-part-editor).
+ソングパートの**名前**、**リズム**、**パラメータ**の編集は、[マウス](song-structure.md#mouse-shortcuts)または[キーボードショートカット](song-structure.md#keyboard-shortcuts)を使用してソングストラクチャーエディターから直接行うか、[ソングパートエディタ](song-structure.md#song-part-editor)を介して行うことができます.
 
 {% hint style="success" %}
 To edit several song parts or rhythm parameters in one shot:&#x20;
