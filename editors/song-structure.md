@@ -47,17 +47,17 @@
 変更は選択したすべての項目に適用されます。
 {% endhint %}
 
-現在の選択範囲（楽曲パートまたはリズムパラメータ）に対して利用可能なコマンドを表示するには、ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキー＋クリック**）を使用してください。以下の2つの画像のように表示されます。
+現在の選択範囲（ソングパートまたはリズムパラメータ）に対して利用可能なコマンドを表示するには、ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキー＋クリック**）を使用してください。以下の2つの画像のように表示されます。
 
 ![Song part popup menu](../.gitbook/assets/SongPartPopupMeny.png)
 
 ![Rhythm parameter popup menu](../.gitbook/assets/RhythmParameterPopupMenu.png)
 
-For most of the rhythm parameters, **the easiest way** to edit the value is to **select it** and use the **mouse-wheel**.&#x20;
+ほとんどのリズムパラメータでは、値を編集する**最も簡単な方法**は、**それを選択**し、**マウスホイール**を使用することです。&#x20;
 
-Some rhythm parameters have a custom edit dialog, which can be called as shown below.
+一部のリズムパラメータにはカスタム編集ダイアログが用意されており、以下に示すように呼び出すことができます。
 
-<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>A rhythm parameter with a custom editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>カスタムエディターでのリズムパラメータ</p></figcaption></figure>
 
 {% hint style="success" %}
 Copy & paste can be used to easily **duplicate rhythm parameter values**.&#x20;
