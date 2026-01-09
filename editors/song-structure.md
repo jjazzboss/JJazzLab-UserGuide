@@ -84,16 +84,16 @@
 各ソングパートごとに独自のリズムを設定できます。&#x20;
 
 {% hint style="warning" %}
-Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
+MIDIは16チャンネルまでしか対応できず、多くのリズムには7～8種類の楽器が使われています。そのため、2つ以上のリズムを含む楽曲を実際に作成するのは困難です。
 {% endhint %}
 
-To change the rhythm, select a song part and press **R,** or click the rhythm name to open the **rhythm selection dialog**.
+リズムを変更するには、ソングパートを選択して**R**を押すか、リズム名をクリックして**rhythm selection dialog**を開きます。
 
 ![](../.gitbook/assets/RhythmSelectionDialog.png)
 
-When changing the rhythm, JJazzLab tries to adapt the values of the previous rhythm parameters to the new rhythm parameters.
+リズムを変更する際、JJazzLabは前のリズムパラメータの値を新しいリズムパラメータに適合させようと試みます。
 
-If you want to remove a rhythm change in the middle of a song, select the song part and use **Remove Rhythm Change** from the song part popup menu.
+曲の途中でリズムチェンジを削除したい場合は、そのソングパートを選択し、ソングパートのポップアップメニューから**Remove Rhythm Change**を選択してください。
 
 ![](../.gitbook/assets/RemoveRhythmChange.png)
 
