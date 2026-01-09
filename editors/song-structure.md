@@ -60,21 +60,21 @@
 <figure><img src="../.gitbook/assets/2024-01-05 11_27_00-JJazzLab  4.0.2.png" alt=""><figcaption><p>カスタムエディターでのリズムパラメータ</p></figcaption></figure>
 
 {% hint style="success" %}
-Copy & paste can be used to easily **duplicate rhythm parameter values**.&#x20;
+コピー＆ペーストを使用すると、**リズムパラメータの値を簡単にコピー**できます。&#x20;
 
-Suppose you want to apply the drums transform value from one song part (e.g. ">Open hi-hat" in image above) to other song parts:&#x20;
+あるソングパート（例：上記画像の「>オープンハイハット」）のドラム変換値を他のソングパートに適用したい場合：&#x20;
 
-* In the song structure editor, select the original rhythm parameter and Copy (ctrl-C)
-* Select the same rhythm parameter in other song parts (use ctrl-click or shift-click for multiple selection) then Paste (ctrl-V)
+* ソングストラクチャーエディタで、元のリズムパラメータを選択し、コピー（Ctrl+C）
+* 他のソングパートで同じリズムパラメーターを選択（複数選択にはCtrl+クリックまたはShift+クリックを使用）し、貼り付け（Ctrl+V）
 {% endhint %}
 
-When selecting several contiguous rhythm parameters, you can use the **Adjust values** submenu in the rhythm parameter popup menu to interpolate values between the first and the last selected values.  In the example below, we used it to gradually increase the tempo from 100% to 108%.
+複数の連続したリズムパラメータを選択した際、リズムパラメータのポップアップメニューにある、値を調整する***Adjust values**サブメニューを使用すると、最初に選択した値と最後に選択した値の間で値を補間できます。以下の例では、テンポを100%から108%まで徐々に増加させるためにこの機能を使用しました。
 
 ![](../.gitbook/assets/AdjustRpValues.png)
 
-## Song part editor
+## ソングパートエディター
 
-Song part editor provides an additional way to edit the selected song part(s).&#x20;
+ソングパートエディターは、選択したソングパートを編集する追加の方法を提供します。&#x20;
 
 Use the song part editor to edit rhythm parameters which need user to select (ctrl-click) one or more values from a list, such as the Mute parameter.
 
