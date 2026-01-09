@@ -76,13 +76,12 @@
 
 ソングパートエディターは、選択したソングパートを編集する追加の方法を提供します。&#x20;
 
-Use the song part editor to edit rhythm parameters which need user to select (ctrl-click) one or more values from a list, such as the Mute parameter.
-
+ソングパートエディターを使用してリズムパラメーター（例：ミュートパラメータ）を編集しますが、そのパラメーターはユーザーがリストから1つ以上の値を選択（Ctrlキー＋クリック）する必要があります。
 <figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Change rhythm (music style)
+## リズムの変更 (音楽スタイル)
 
-Each song part can have its own rhythm.&#x20;
+各ソングパートごとに独自のリズムを設定できます。&#x20;
 
 {% hint style="warning" %}
 Midi can only accommodate 16 channels, and many rhythms use 7 or 8 instruments. That's why it's difficult in practical to have a song with more than 2 rhythms.
