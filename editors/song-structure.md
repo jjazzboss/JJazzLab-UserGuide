@@ -190,7 +190,7 @@ _例：楽曲で8ビートポップリズムを使用しています。コーラ
 
 ## マウスショートカット
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Selection</td><td>Mouse</td><td>Action</td></tr><tr><td>song part, rhythm param.</td><td>click</td><td>select</td></tr><tr><td>song part</td><td>double click</td><td>edit song part name</td></tr><tr><td>song part name</td><td>click</td><td>edit </td></tr><tr><td>rhythm</td><td>click</td><td>select a rhythm</td></tr><tr><td>editor, song part, rhythm param.</td><td>right-click</td><td>open popup menu</td></tr><tr><td>rhythm parameter</td><td>double-click</td><td>edit value</td></tr><tr><td>rhythm parameter</td><td>mouse wheel</td><td>change value</td></tr><tr><td>rhythm parameters</td><td>shift+mouse wheel</td><td>make values identical then change value</td></tr><tr><td>editor</td><td>ctrl mouse wheel</td><td>change X zoom factor</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">選択箇所</th><th>マウス</th><th>動作</th></tr></thead><tbody><tr><td>選択箇所</td><td>マウス</td><td>動作</td></tr><tr><td>ソングパート、リズムパラメーター</td><td>クリック</td><td>選択</td></tr><tr><td>ソングパート</td><td>ダブルクリック</td><td>ソングパート名編集</td></tr><tr><td>ソングパート名</td><td>クリック</td><td>編集</td></tr><tr><td>リズム</td><td>クリック</td><td>リズム選択</td></tr><tr><td>エディター、ソングパート、リズムパラメーター</td><td>右クリック</td><td>ポップアップメニューを開く</td></tr><tr><td>リズムパラメーター</td><td>ダブルクリック</td><td>値を編集</td></tr><tr><td>リズムパラメーター</td><td>マウスホイール</td><td>値を変更</td></tr><tr><td>リズムパラメーター</td><td>shift+マウスホイール</td><td>値を同一にした後、値を変更</td></tr><tr><td>エディター</td><td>ctrl+マウスホイール</td><td>Xのズーム倍率を変更</td></tr></tbody></table>
 
 ## キーボードショートカット
 
