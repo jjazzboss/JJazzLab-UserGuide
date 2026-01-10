@@ -174,25 +174,25 @@ _例：楽曲で8ビートポップリズムを使用しています。コーラ
 
 ### コンパクト表示 / 全画面表示
 
-By default only a subset of the rhythm parameters are visible, this is the **compact view**.&#x20;
+デフォルトではリズムパラメータの一部のみが表示されます。これが**コンパクト表示**です。&#x20;
 
-Click on the button below or press 'V' to switch between compact and full view.
+下のボタンをクリックするか、'V'キーを押してコンパクト表示とフル表示を切り替えてください。
 
 ![](../.gitbook/assets/CompactView.png)
 
-The **compact view settings** button, just above the compact view button, lets you choose which rhythm parameters are visible in the compact view. These settings are saved with the song.
+**コンパクト表示設定**ボタン（コンパクト表示ボタンのすぐ上）では、コンパクト表示に表示するリズムパラメータを選択できます。これらの設定は楽曲と共に保存されます。
 
-<figure><img src="../.gitbook/assets/2024-01-05 22_43_31-Compact view settings.png" alt=""><figcaption><p>Compact view settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-05 22_43_31-Compact view settings.png" alt=""><figcaption><p>コンパクト表示設定</p></figcaption></figure>
 
-As a shortcut, you can directly hide a rhythm parameter (i.e. make it non visible in the compact view) by clicking on the X button in the upper left corner, as shown below.
+ショートカットとして、下図のように左上隅のXボタンをクリックすることで、リズムパラメーターを直接非表示にできます（コンパクトビューで表示されなくなります）。
 
 <figure><img src="../.gitbook/assets/QuickHideRp.png" alt=""><figcaption></figcaption></figure>
 
-## Mouse shortcuts
+## マウスショートカット
 
 <table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Selection</td><td>Mouse</td><td>Action</td></tr><tr><td>song part, rhythm param.</td><td>click</td><td>select</td></tr><tr><td>song part</td><td>double click</td><td>edit song part name</td></tr><tr><td>song part name</td><td>click</td><td>edit </td></tr><tr><td>rhythm</td><td>click</td><td>select a rhythm</td></tr><tr><td>editor, song part, rhythm param.</td><td>right-click</td><td>open popup menu</td></tr><tr><td>rhythm parameter</td><td>double-click</td><td>edit value</td></tr><tr><td>rhythm parameter</td><td>mouse wheel</td><td>change value</td></tr><tr><td>rhythm parameters</td><td>shift+mouse wheel</td><td>make values identical then change value</td></tr><tr><td>editor</td><td>ctrl mouse wheel</td><td>change X zoom factor</td></tr></tbody></table>
 
-## Keyboard shortcuts
+## キーボードショートカット
 
 {% hint style="info" %}
 Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated shortcut is displayed.
