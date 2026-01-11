@@ -5,14 +5,14 @@
 * **mySong.sng**: ミックス情報以外のすべてを含みます。具体的には、コードリードシート、ソングストラクチャー、使用したリズムの参照（例: "16beat.s456.sty"）などです。
 * **mySong.mix**: ミックス情報のみを含みます。つまり、各トラックがどの楽器を使用しているか、およびどの設定（音量、リバーブ、パンなど）で設定しているかを示します。
 
-Why using 2 different files ?&#x20;
+なぜ2つの異なるファイルを使うのですか？&#x20;
 
-Because the mix information is specific to your output synth ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)). Integrating the mix data in the .sng file would make .sng files not portable between users, since users have different output synths.
+ミックス情報はシンセ出力固有のものだからです（[FluidSynth](../sounds/using-fluidsynth.md)または[カスタムシンセ](../sounds/other-synths.md)）。ミックスデータを.sngファイルに統合すると、ユーザーごとに異なるシンセ出力を使用しているため、.sngファイルの互換性が失われます。
 
-When you open **mySong.sng**, JJazzLab tries to open **mySong.mix** in the same directory. If **mySong.mix** does not exist then JJazzLab creates the mix using the [default rhythm mix](song-and-mix-files.md#default-rhythm-mix) file if it's present, otherwise it uses the **rhythm's builtin mix** (see [below](song-and-mix-files.md#default-rhythm-mix)).
+**mySong.sng**を開くと、JJazzLabは同じディレクトリ内の**mySong.mix**を開こうとします。**mySong.mix**が存在しない場合、JJazzLabは[デフォルトのリズムミックス](song-and-mix-files.md#default-rhythm-mix)ファイルが存在すればそれを使用してミックスを作成します。存在しない場合は、**リズムの組込みミックス**を使用します（詳細は[下記](song-and-mix-files.md#default-rhythm-mix)を参照）。
 
 {% hint style="warning" %}
-When loading a song file (.sng),  if the rhythm reference (e.g. "MediumJazz.s637.sst") used by this song is not available, JJazzLab substitutes another rhythm available on the system. JJazzLab tries its best to find a "similar" rhythm based on the name (another "jazz" rhythm in the example above). If it can't find a suitable rhythm, it just uses the default rhythm for the time signature.
+楽曲ファイル（.sng）を読み込む際、その楽曲で使用されているリズム参照（例：「MediumJazz.s637.sst」）が利用できない場合、JJazzLabはシステム上で利用可能な別のリズムで代用します。JJazzLabは名前に基づいて「類似した」リズム（上記の例では別の「jazz」リズム）を可能な限り探します。適切なリズムが見つからない場合、その拍子記号のデフォルトリズムを使用します。
 {% endhint %}
 
 ## Default rhythm mix
