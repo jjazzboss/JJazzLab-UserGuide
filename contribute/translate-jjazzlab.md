@@ -15,7 +15,7 @@ JJazzLabは7言語に対応し、今や35億人が利用可能になりました
 
 ## 簡単です
 
-JJazzLabは[crowdin.com](https://app.gitbook.com/s/-MQE7B7yjVY3xzlsorS4-887967055/contribute/crowdin.com)プラットフォームを利用しており、ブラウザから直接フレーズを翻訳するのが非常に簡単です。
+JJazzLabは[crowdin.com](https://app.gitbook.com/s/-MQE7B7yjVY3xzlsorS4-887967055/contribute/crowdin.com)プラットフォームを利用しており、ブラウザから直接、語句を翻訳するのが非常に簡単です。
 
 ![](../.gitbook/assets/2021-01-31-21_16_39-jjazzlab-translations-in-crowdin-mozilla-firefox.png)
 
