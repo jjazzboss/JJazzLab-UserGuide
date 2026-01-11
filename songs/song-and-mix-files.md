@@ -15,23 +15,23 @@
 楽曲ファイル（.sng）を読み込む際、その楽曲で使用されているリズム参照（例：「MediumJazz.s637.sst」）が利用できない場合、JJazzLabはシステム上で利用可能な別のリズムで代用します。JJazzLabは名前に基づいて「類似した」リズム（上記の例では別の「jazz」リズム）を可能な限り探します。適切なリズムが見つからない場合、その拍子記号のデフォルトリズムを使用します。
 {% endhint %}
 
-## Default rhythm mix
+## デフォルトのリズムミックス
 
 {% hint style="info" %}
-If you often use a certain rhythm, adjust its mix and save it as a **default rhythm mix file**, so that each time you'll use that rhythm in a song, it will sound optimally for your output synth.
+特定のリズムを頻繁に使用する場合は、そのミックスを調整し、**デフォルトリズムミックスファイル**として保存してください。そうすれば、ソングでそのリズムを使用するたびに、シンセ出力に最適化された音で再生します。
 {% endhint %}
 
-#### How it works
+#### 仕組み
 
-When you create a song and select a new rhythm (e.g. `MediumJazz.s637.sst`), JJazzLab looks for a **default rhythm mix** file (`MediumJazz.s637.mix`) to initialize the song mix for this rhythm.&#x20;
+ソングを作成し新しいリズム（例：`MediumJazz.s637.sst`）を選択すると、JJazzLabはこのリズム用のソングミックスを初期化するために**デフォルトのリズムミックス**ファイル（`MediumJazz.s637.mix`）を検索します。&#x20;
 
-The default rhythm mix lets you define **an optimized rhythm mix adapted to your output synth** ([FluidSynth ](../sounds/using-fluidsynth.md)or a [custom synth](../sounds/other-synths.md)): for example with`MediumJazz.s637.sst` you can make the electric guitar quieter, replace the default GM bass instrument by a better one available on your synth, and mute that flute you don't like.
+デフォルトのリズムミックスでは、**出力シンセに最適化したリズムミックス**を定義できます（[FluidSynth](../sounds/using-fluidsynth.md)または[カスタムシンセ](../sounds/other-synths.md)を使用する場合）： 例えば`MediumJazz.s637.sst`を使用すると、エレキギターの音量を下げたり、デフォルトのGMベース音源をシンセで利用可能なより良い音源に置き換えたり、好まないフルートの音をミュートしたりできます。
 
 {% hint style="warning" %}
-**If the default rhythm mix file is not present**, JJazzLab uses the **rhythm's** **builtin mix**. The rhythm's builtin mix is infered from the rhythm data and from your output synth capabilities. With FluidSynth the resulting mix should be OK  with a few manual adjusments. With a custom synth, it might need more fixes.
+**デフォルトのリズムミックスファイルが存在しない場合**、JJazzLabはリズムの**組込みミックス**を使用します。リズムの組込みミックスは、リズムデータとシンセ出力の能力から推測されます。FluidSynthを使用する場合、結果のミックスは手動調整を数点加えれば問題ないはずです。カスタムシンセを使用する場合は、より多くの修正が必要になる可能性があります。
 {% endhint %}
 
-#### Adjusting and saving a default rhythm mix
+#### デフォルトのリズムミックスの調整と保存
 
 * In the Midi options select your preferred output synth, e.g. [FluidSynth](../sounds/using-fluidsynth.md).&#x20;
 * Load a song which uses your favorite rhythm and play it\
