@@ -1,9 +1,9 @@
-# Song and mix files
+# 楽曲とミックスファイル
 
-When you save a song called **mySong**, JJazzLab actually saves 2 different files:
+**mySong** という名前の曲を保存すると、JJazzLab は実際には２つの異なるファイルを保存します：
 
-* **mySong.sng**: contains everything except the mix information, i.e. the chord leadsheet, the song structure, the reference to the rhythm used (e.g. "16beat.s456.sty").
-* **mySong.mix**: contains only the mix information, i.e. which instrument is used by each track, and with which configuration (volume, reverb, pan, ...).
+* **mySong.sng**: ミックス情報以外のすべてを含みます。具体的には、コードリードシート、ソングストラクチャー、使用したリズムの参照（例: "16beat.s456.sty"）などです。
+* **mySong.mix**: ミックス情報のみを含みます。つまり、各トラックがどの楽器を使用しているか、およびどの設定（音量、リバーブ、パンなど）で設定しているかを示します。
 
 Why using 2 different files ?&#x20;
 
