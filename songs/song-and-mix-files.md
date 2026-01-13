@@ -33,11 +33,11 @@
 
 #### デフォルトのリズムミックスの調整と保存
 
-* In the Midi options select your preferred output synth, e.g. [FluidSynth](../sounds/using-fluidsynth.md).&#x20;
-* Load a song which uses your favorite rhythm and play it\
-  (song mix is initialized with the **rhythm's builtin mix** if no default rhythm mix is defined)
-* Adjust the mix until you're satisfied with the song rendering
-* Use **Save as default rhythm mix** from the **Mix Console File menu**, as shown below.
+* MIDIオプションで、お好みのシンセ出力を選択します。例：[FluidSynth](../sounds/using-fluidsynth.md)。&#x20;
+* お気に入りのリズムを使った曲をロードして再生します。\
+  (デフォルトのリズムミックスが定義されていない場合、**リズムの組込みミックス**でソングミックスを初期化します)
+* 曲のレンダリングに満足するまでミックスを調整してください
+* **ミックスコンソール ファイルメニュー**から、下図のように**Save as default rhythm mix**を選択してください。
 
 <figure><img src="../.gitbook/assets/2024-09-30 22_55_58-JJazzLab  4.1.2-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
