@@ -1,46 +1,45 @@
 ---
 内容：>-
-  JJazzLab can import songs from different file types using the menu File/Import
-  songs...
+  JJazzLabは、メニューの「ファイル/ソングをインポート...」を使用すると、異なるファイル形式の曲をインポートできます。
 ---
 
-# Importing songs
+# ソングのインポート
 
-## Batch convert mode
+## バッチ変換モード
 
-If you have many files to import, you should use the **batch convert mode**. This modes directly imports and converts to .sng files, without opening the imported files in JJazzLab. Created .sng files will be located in the same directory than the imported files.
+インポートするファイルが多数ある場合は、**バッチ変換モード(Batch convert mode)** を使用してください。このモードでは、インポートしたファイルをJJazzLabで開かずに、直接インポートして.sngファイルに変換します。作成された.sngファイルは、インポートしたファイルと同じディレクトリに保存されます。
 
-To activate the **batch convert mode**, select corresponding checkbox in the **Import Songs...** dialog, as shown below:
+**バッチ変換モード**を有効にするには、以下の図のように**「ファイルからソングをインポートする」**ダイアログで対応するチェックボックスを選択してください：
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_57_22-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
-## Band In A Box song files (.SGU etc.)
+## Band In A Box楽曲ファイル(.SGU 等)
 
-JJazzLab can import .SG\* or .MG\* song files.
+JJazzLabは.SG\*または.MG\*形式の楽曲ファイルをインポートできます。
 
-Only the following Band-In-A-Box data are used to generate the corresponding JJazzLab song :
+以下のBand-In-A-Boxデータのみを使用して、対応するJJazzLab楽曲を生成します：
 
-* **song structure**: chorus start, chorus end, number of chorus, tag after, tag start, tag end, 2 bar ending
-* **chord symbols**: name, position (including optional push settings), rest/hold/shot settings
-* **song settings**: allow push/rest in first/middle/last chorus.
+* **song structure**: コーラス開始、コーラス終了、コーラス回数、タグ後、タグ開始、タグ終了、2小節エンディング
+* **chord symbols**: 名前、位置（オプションの強調設定を含む）、休符/持続/ショット設定
+* **song settings**: 最初のコーラス/中間のコーラス/最後のコーラスで強調/休符を許可する。
 
-The song import feature is not 100% reliable, but most of the files should be OK.
+楽曲のインポート機能は100%確実ではありませんが、ほとんどのファイルは問題ないはずです。
 
 {% hint style="danger" %}
-**By default imported songs will be in 4/4**. If you know that the imported song is in 3/4, then when import is done just select the initial time signature and use righ-click menu **Set time signature** to fix the time signature.
+**デフォルトでは、インポートされた楽曲は4/4拍子になります**。インポートした楽曲が3/4拍子と分かっている場合は、インポート完了後、最初の拍子記号を選択し、右クリックメニューの**拍子記号を設定**を使用して拍子記号を修正してください。
 {% endhint %}
 
-## musicXML files (.xml, .mxl, musicxml)
+## musicXMLファイル (.xml, .mxl, musicxml)
 
-JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro.&#x20;
+JJazzLabはMusicXML（.xml、.musicxml）または圧縮MusicXML（.mxl）をインポートできます。iRealProからエクスポートしたMusicXMLファイルでの動作確認が成功しています。&#x20;
 
-What is imported: &#x20;
+インポートされるもの： &#x20;
 
-* Chord symbols
-* Time signatures
-* Section titles such "INTRO", "A", "B" found in **direction/direction-type/rehearsal** elements.
-* Repeats, endings (1. 2. 3...), tocoda, coda, segno, DC al coda, DC al fine, DS al coda, DS al fine, as found in **sound** and **barline** elements.
-* Music style information found in the **groove** type of a **play/other-play element.**
+* コード記号
+* 拍子記号
+* **direction/direction-type/rehearsal**要素内に存在する「INTRO」、「A」、「B」などのセクションタイトル。
+* 繰り返し記号（1. 2. 3...）、終止記号、to coda、coda、segno、DC al coda、DC al fine、DS al coda、DS al fine、**sound**および**barline**要素に存在するもの。
+* **play/other-play element** の **groove** タイプに含まれる音楽スタイル情報。
 
 
 
