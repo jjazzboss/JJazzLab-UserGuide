@@ -43,29 +43,29 @@ JJazzLabはMusicXML（.xml、.musicxml）または圧縮MusicXML（.mxl）をイ
 
 
 
-## Text files (.txt)
+## テキストファイル (.txt)
 
-JJazzLab can read chords from text files. 3 formats are supported, GRID-BASED, TIME-BASED, BEAT-BASED.
+JJazzLabはテキストファイルからコードを読み取ることができます。GRID-BASED、TIME-BASED、BEAT-BASEDの、3つの形式がサポートされています。
 
-#### **GRID-BASED: e.g. "| 3/4 Bb7M | D7#5  | Eb7M | Db7#11 |"**
+#### **GRID-BASED: 例 "| 3/4 Bb7M | D7#5  | Eb7M | Db7#11 |"**
 
-`!` can be used instead of `|`.  `%` repeats the previous bar. Any bar can start with a time signature.
+`!` は `|` の代わりに使用できます。`%` は前の小節を繰り返し表示します。どの小節も拍子記号で始めることができます。
 
-Example:
+例：
 
 `|3/4 Bb7M | D7#5  | Eb7M  | Db7#11 |`\
 `| Cm7     | G7     | C7M   |       |`\
 `|4/4 Fm7  | Gm7 C7 | %     |  F7M  |`
 
 {% hint style="success" %}
-This format is compatible with text files exported from **ChordPulse**.
+この形式は、**ChordPulse**からエクスポートされたテキストファイルと互換性があります。
 {% endhint %}
 
 #### **TIME-BASED: "pos\_in\_seconds, chord\_symbol"**
 
-The time signature and tempo must be set first so that pos\_in\_seconds can be converted into bar/beat. If not set, the default values are 4/4 and 120bpm.
+拍子記号とテンポを最初に設定する必要があります。これにより、pos\_in\_seconds を小節/拍数に変換できます。設定されていない場合、デフォルト値は 4/4 と 120bpm です。
 
-Example:\
+例：
 `timeSignature=3/4`\
 `tempoBPM=60`\
 `0, C`\
@@ -75,25 +75,25 @@ Example:\
 
 #### **BEAT-BASED : "bar, beat, chord-symbol"**
 
-Note that by default bar and beat are expected to be 0-based (first bar of the song is bar 0). You can change that by adding "`useBase1`" at the beginning of the file, then bar and beat are expected to be 1-based.
+デフォルトでは小節と拍は0ベース（楽曲の最初の小節が小節0）と想定しています。ファイルの先頭に「`useBase1`」を追加することでこれを変更でき、小節と拍は1ベースと想定されます。
 
-Example:\
+例：
 `0, 0, C`\
 `1, 0, F7`\
 `1, 1.5, Eb7`\
 `2, 0, D7`
 
-#### **Other text format information**
+#### **その他のテキスト形式情報**
 
-* Lines starting with `//` are ignored (comments)
-* "`title=My song name`" : if specified the created song will use this title as name
-* Accepted delimiter characters are `,` `;` or space or tab (time or beat-based format)
+* `//`で始まる行は無視されます（コメント）
+* `title=My song name` : 指定した場合、作成される楽曲はこのタイトルを名前として使用します
+* 許可される区切り文字は `,` `;` またはスペースもしくはタブ（時間または拍ベースの形式）です
 
 
 
-## Impro-Visor leadsheet files (.ls)
+## Impro-Visorリードシートファイル (.ls)
 
-JJazzLab can import Impro-Visor (.ls) leadsheet files.&#x20;
+JJazzLabはImpro-Visor (.ls) リードシートファイルをインポートできます。&#x20;
 
-The import is limited to the time signatures and chord symbols.
+インポートするのは拍子記号とコード記号に限定されます。
 
