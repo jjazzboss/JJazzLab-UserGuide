@@ -19,7 +19,17 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-## Selecting and moving chord symbols
+## Changing the size of the leadsheet
+
+Select a bar then select **Set end bar** in the right-click menu (see below).
+
+{% hint style="info" %}
+The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
+
+For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
+{% endhint %}
+
+## Selecting and moving items (chord symbols, etc.)
 
 Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
 
@@ -28,6 +38,10 @@ Use **shift-click** to extend the current selection.
 **Drag** a chord symbol with the mouse to move it to a new location. If you press **ctrl** while dragging, a **+** sign appears (see image below) indicating that the chord symbol will be copied, not moved.
 
 <figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+**Sections** and **bar annotations** can be selected, moved or copied the same way.
+{% endhint %}
 
 #### Chord symbol quantization
 
@@ -41,7 +55,7 @@ This can be adjusted per section via the bar or section popup menu **Quantizatio
 
 The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
 
-## Chord symbols input
+## Chord symbols
 
 Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
 
@@ -63,29 +77,7 @@ JJazzLab can recognize different forms of a given chord symbol. For example **C-
 The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
 {% endhint %}
 
-## Customizable chord progressions
-
-Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
-
-<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
-
-The chord progression is inserted at the selected bar, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the mouse-wheel on a chord, or press ctrl-UP/DOWN).
-
-Chord progressions are defined in a simple text file `ChordProgression.txt` located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
-
-Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
-
-## Changing the size of the leadsheet
-
-Select a bar then select **Set end bar** in the right-click menu (see below).
-
-{% hint style="info" %}
-The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
-
-For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
-{% endhint %}
-
-## Interpretation
+### Chord symbol interpretation
 
 Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
@@ -103,7 +95,6 @@ The **Interpretation** tab lets you decide how this chord symbol should be playe
 Each rhythm generation engine may render these Interpretation parameters differently.
 {% endhint %}
 
-\
 &#x20;The shape of the marker below the chord symbol depends on the interpretation mode:
 
 ![](../.gitbook/assets/interpretationmarkers.png)
@@ -120,7 +111,7 @@ you could use the following interpretation parameters:&#x20;
 See below the keyboard shortcuts to change the interpretation of selected chords.
 {% endhint %}
 
-### Harmony
+#### Harmony
 
 Select a chord symbol, edit it and select the **Harmony** tab.
 
@@ -132,7 +123,7 @@ The **Harmony** tab lets you select the scale to be used when rendering the musi
 
 By default no scale is selected: each rhythm generation engine will decide the "best" scale to use.
 
-### Substitute chord symbol
+#### Substitute chord symbol
 
 Select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
@@ -154,16 +145,28 @@ You can see below (and in the dialog snapshot above) that a C7M **substitute** c
 
 There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
 
+### Customizable chord progressions
+
+Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
+
+<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
+
+The chord progression is inserted **at the selected bar**, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the **mouse-wheel** on a chord, or press **ctrl-UP/DOWN**).
+
+Chord progressions are defined in a simple text file **`ChordProgression.txt`** located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
+
+Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
+
 ## Sections input
 
-A section has a name and a time signature. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
+A section has a **name** and a **time signature**. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
 
 <figure><img src="../.gitbook/assets/Section.png" alt=""><figcaption></figcaption></figure>
 
-To add a section, select a bar then:
+To add a section, **select a bar** then:
 
-* Double-click to edit the bar (or press Enter, or use popup menu Edit...) and change the section name
-* Use the popupmenu Insert > Section...&#x20;
+* Double-click to edit the bar (or press Enter, or use popup menu Edit...) and **change the section name**
+* or use bar popupmenu **Insert > Section...**&#x20;
 
 {% hint style="danger" %}
 Section names must be unique. It's not possible to remove the initial section in the first bar.
@@ -173,9 +176,11 @@ Like chord symbols, sections can be moved or copied (hold ctrl key) with the mou
 
 ### Force a section at new line
 
-You can force a section which is not on the first bar of a row to start on the next line. This can be useful when some sections have an odd number of bars.
+You can force a section which is not on the first bar of a row to start on the next line.&#x20;
 
-Select a bar with a section defined or select the section itself, right-click menu "Force Section at New Line".
+This can be useful when some sections have an odd number of bars.
+
+Select a bar with a section defined or select the section itself, then use popup menu **Section at New Line**.
 
 ![](../.gitbook/assets/forcesectionnewline1.png)
 
@@ -185,7 +190,7 @@ Select a bar with a section defined or select the section itself, right-click me
 
 ## Bar annotations / lyrics
 
-You can add annotations to any bar.&#x20;
+You can add **annotations** to any bar.&#x20;
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
 
