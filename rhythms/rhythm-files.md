@@ -1,24 +1,24 @@
-# Rhythm files
+# リズムファイル
 
 {% hint style="info" %}
-In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
+JJazzLabでは「**リズム**」は通常、ポップやボサノバのような**音楽スタイル**を指します。
 {% endhint %}
 
-Rhythms are used by [songs](/broken/pages/-MQSAgDkeWdxuJiOjnJj). Many songs use only one rhythm (e.g. rock), but some may use 2 or more. A song file (.sng) does not contain all the rhythm data, it just keeps a reference to the rhythm's name.&#x20;
+リズムは[ソング](/broken/pages/-MQSAgDkeWdxuJiOjnJj)で使用します。多くの楽曲は1つのリズムのみを使用しますが（例：ロック）、2つ以上を使用する場合もあります。楽曲ファイル（.sng）にはリズムデータ全体は含まれず、リズム名への参照のみを保持します。&#x20;
 
-Upon first start, JJazzLab [scans ](rhythm-files.md#rhythm-files-scanning)the computer to get a list of the available rhythms.&#x20;
+初回起動時、JJazzLabはコンピュータをスキャンし、利用可能なリズムの一覧を取得します。&#x20;
 
-In JJazzLab core, rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
+JJazzLabコアでは、リズムは[リズムエンジン](../rhythm-engines/overview.md)が提供します。一部のリズムは**リズムファイル**に基づいています。例えば、[YamJJazzリズムエンジン](../rhythm-engines/yamjjazz-rhythm-engine/)は、**poprock.sty**や**TripHop.S510.prs**といったヤマハスタイルファイルから構築されたリズムを提供します。
 
-## Rhythm files location <a href="#rhythm-files-location" id="rhythm-files-location"></a>
+## リズムファイルの場所 <a href="#rhythm-files-location" id="rhythm-files-location"></a>
 
-JJazzLab expects rhythm files to be in the **User directory for rhythm files**. The location of this directory can be changed in the **Options/Rhythms**, as shown below.&#x20;
+JJazzLabはリズムファイルを**User directory for rhythm files**に配置することを想定しています。このディレクトリの場所は、以下に示すように**設定/Rhythms**で変更できます。&#x20;
 
 ![](../.gitbook/assets/userdirforrhythmfiles.png)
 
-## Rhythm files scanning <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
+## リズムファイルのスキャン <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
 
-Your **rhythm files** are scanned at startup only upon a fresh install or an upgrade, and the rhythm list is saved into a **cache file**.
+**リズムファイル**は、新規インストール時またはアップグレード時のみ起動時にスキャンを行い、リズムリストは**キャッシュファイル**に保存します。
 
 You can force a **rescan** in the **Options/Rhythms** panel as shown below.
 
