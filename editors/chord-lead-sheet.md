@@ -156,19 +156,18 @@ There is another **substitute** chord symbol example in the 3rd bar: A7. If you 
 
 ## Sections input
 
-Typical sections are 'intro', 'verse', 'chorus', etc.
+Typical sections are 'intro', 'verse', 'chorus', etc. There is always a section defined on the first bar.
 
-A Song section is the basic unit used by JJazzLab to define the song structure. There is always a section defined on the first bar.
+To add a section, select a bar then:
 
-To add a section select a bar which is not after the end then:
-
-* press ENTER, or
-* double-click, or
-* right-click menu, Insert Section... or Edit...
+* Double-click to edit the bar (or press Enter, or use popup menu Edit...) and change the section name
+* Use the popupmenu Insert > Section...&#x20;
 
 {% hint style="warning" %}
 Section names must be unique.
 {% endhint %}
+
+Like chord symbols, sections can be moved or copied (hold ctrl key) with the mouse, or via copy & paste.
 
 ### Force a section at new line
 
