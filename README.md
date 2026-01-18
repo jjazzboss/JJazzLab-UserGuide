@@ -28,7 +28,7 @@ In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova
 
 1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
 2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options (Preferences on Mac)**
-3. Start editing the song using the [**editors** ](/broken/pages/YEW9jmd1iUG7OEU4PzlR)and hear how it impacts the generated backing track.
+3. Start editing the song using the [**editors** ](editors/overview.md) and hear how it impacts the generated backing track.
 
 If you prefer to quickly create a new backing track from scratch, check out this video:
 
@@ -37,7 +37,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 ## Key features
 
 * New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm), practice jazz standards with the best walking bass and drums
-* Hundreds of ready-to-use music styles ([rhythms](/broken/pages/-MQSAmkHM-L--DNHfX7M)) available
+* Hundreds of ready-to-use music styles ([rhythms](rhythms/rhythm-files.md)) available
 * Introduce **dynamics** and **variety** in just a few clicks, for example:&#x20;
   * mute the guitar in the intro
   * add a break at the end of the 2nd verse and congas in the 3rd verse
