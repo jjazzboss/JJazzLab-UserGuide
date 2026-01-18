@@ -19,7 +19,7 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-## Changing the size of the leadsheet
+## Size of the leadsheet
 
 Select a bar then select **Set end bar** in the right-click menu (see below).
 
@@ -29,7 +29,7 @@ The size of the song depends on both the leadsheet _and_ the song structure.&#x2
 For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
 {% endhint %}
 
-## Selecting and moving items (chord symbols, etc.)
+## Selecting and moving items (chord symbols ...)
 
 Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
 
@@ -157,7 +157,7 @@ Chord progressions are defined in a simple text file **`ChordProgression.txt`** 
 
 Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
 
-## Sections input
+## Sections
 
 A section has a **name** and a **time signature**. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
 
