@@ -156,15 +156,17 @@ There is another **substitute** chord symbol example in the 3rd bar: A7. If you 
 
 ## Sections input
 
-Typical sections are 'intro', 'verse', 'chorus', etc. There is always a section defined on the first bar.
+A section has a name and a time signature. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
+
+<figure><img src="../.gitbook/assets/Section.png" alt=""><figcaption></figcaption></figure>
 
 To add a section, select a bar then:
 
 * Double-click to edit the bar (or press Enter, or use popup menu Edit...) and change the section name
 * Use the popupmenu Insert > Section...&#x20;
 
-{% hint style="warning" %}
-Section names must be unique.
+{% hint style="danger" %}
+Section names must be unique. It's not possible to remove the initial section in the first bar.
 {% endhint %}
 
 Like chord symbols, sections can be moved or copied (hold ctrl key) with the mouse, or via copy & paste.
