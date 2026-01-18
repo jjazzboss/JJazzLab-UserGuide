@@ -7,7 +7,7 @@ This site is hosted on the GitBook platform, **which lets users update the docum
 If you want to make some changes just send me an email ([here](https://www.jjazzlab.com/en/contact/)) I'll reply with a link to grant you write access rights to the JJazzLab GitBook.&#x20;
 
 {% hint style="info" %}
-If you're a GitHub user you can also use the **Edit on GitHub** button in the upper right of each page, or make a pull-request directly on the [JJazzLab-X-UserGuide repository](https://github.com/jjazzboss/JJazzLab-X-UserGuide).
+If you're a GitHub user you can also use the **Edit on GitHub** button in the upper right of each page, or make a pull-request directly on the [JJazzLab-UserGuide repository](https://github.com/jjazzboss/JJazzLab-UserGuide).
 {% endhint %}
 
 ## Translate the online doc
