@@ -165,7 +165,7 @@ A section has a **name** and a **time signature**. Typical sections are 'intro',
 
 To add a section, **select a bar** then:
 
-* Double-click to edit the bar (or press Enter, or use popup menu Edit...) and **change the section name**
+* **Double-click** to edit the bar (or press ENTER, or use popup menu Edit...) and **change the section name**
 * or use bar popupmenu **Insert > Section...**&#x20;
 
 {% hint style="danger" %}
