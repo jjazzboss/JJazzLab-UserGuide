@@ -2,11 +2,11 @@
 
 JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
 
-<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track. Below is the velocity panel.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Simplified score</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Below is the simplified score panel.</p></figcaption></figure>
 
 {% hint style="warning" %}
 For now the score panel (above) uses a **simplified musical notation:** notes positions are just aligned with the editor notes, without any embellishment. The score panel is not editable.&#x20;
@@ -150,6 +150,16 @@ This bass line is very uniform: all notes have the same velocity and are quantiz
 We can use the Humanize dialog to improve this, as shown below.
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_41_33-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
+
+## Simplified score panel
+
+This panel shows a **simplified musical notation:** notes positions are just aligned with the editor notes, without any embellishment.&#x20;
+
+The score panel is **NOT** editable.&#x20;
+
+<figure><img src="../.gitbook/assets/ScorePanel.png" alt=""><figcaption><p>Simplified score panel below the piano roll</p></figcaption></figure>
+
+Use the **Octave** display transposition if notes are too low or too high to be seen in the score panel. This only impacts the display in the panel, notes are not actually transposed.&#x20;
 
 ## Importing notes
 
