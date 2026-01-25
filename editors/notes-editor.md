@@ -6,11 +6,7 @@ JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](note
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Below is the simplified score panel.</p></figcaption></figure>
-
-{% hint style="warning" %}
-For now the score panel (above) uses a **simplified musical notation:** notes positions are just aligned with the editor notes, without any embellishment. The score panel is not editable.&#x20;
-{% endhint %}
+<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Below is the simplified score panel (non-editable)</p></figcaption></figure>
 
 ## Opening the notes editor
 
