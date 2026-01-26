@@ -1,26 +1,26 @@
-# Chord inspector
+# コードインスペクター
 
-Use the Chord inspector to see notes (and possibly associated scales) of the selected chord symbol, using various vizualizations.
+コードインスペクターを使用すると、選択したコード記号の音符（および関連する音階）を、視覚的に様々な方法で確認できます。
 
-## Piano keyboard
+## ピアノ鍵盤
 
 ![](<../.gitbook/assets/2021-12-13 20\_34\_45-JJazzLab.png>)
 
-If there is a scale set for the selected chord symbol (see the [chord symbol editor](../editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown.
+選択したコード記号にスケールが設定されている場合（[コード記号エディタ](../editors/chord-lead-sheet.md#harmony)を参照）、そのスケールの音が表示されます。
 
 ![](<../.gitbook/assets/2021-12-13 20\_36\_34-JJazzLab.png>)
 
-## Guitar diagrams
+## ギタータブ譜
 
-The red dot represents tonic notes (for ex. G for Gm69).
+赤い点はルート音（例：Gm69のG）を表します。
 
-![Most common diagrams for the G69 chord](<../.gitbook/assets/2021-12-13 20\_35\_23-JJazzLab.png>)
+![G69コードの最も一般的な図](<../.gitbook/assets/2021-12-13 20\_35\_23-JJazzLab.png>)
 
-By clicking on the button you can switch between different types of positions : _most common, open voiced, close voiced, inversions_.
+ボタンをクリックすると、異なる種類のポジションに切り替えることができます：_最も一般的なポジション、オープン・ボイスのポジション、クローズ・ボイスのポジション、転回形_。
 
-![Open voiced diagrams for the Gm69 chord](<../.gitbook/assets/2021-12-13 20\_35\_59-JJazzLab.png>)
+![Gm69コードのオープンボイシング図](<../.gitbook/assets/2021-12-13 20\_35\_59-JJazzLab.png>)
 
-## Score
+## 楽譜
 
 
 
