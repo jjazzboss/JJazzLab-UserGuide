@@ -1,14 +1,14 @@
-# Easy Reader
+# イージーリーダー
 
-The Easy Reader (**menu Tools/Easy Reader**) always shows the 2 currently playing bars.&#x20;
+イージーリーダー（**メニュー ツール/Easy Reader**）は常に現在再生中の2小節を表示します。&#x20;
 
-It's make it easy to follow the playing chords and lyrics, even for of a complex song with many song parts.
+複雑な曲で多くのソングパートがあっても、演奏中のコード進行や歌詞を簡単に追えるようにします。
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_44_19-.png" alt=""><figcaption></figcaption></figure>
 
-When a bar annotation uses the [special **#** syntax](../editors/chord-lead-sheet.md#special-syntax-for-easy-reader), only the relevant part of the annotation is shown.
+小節注釈が[特殊な **#** 構文](../editors/chord-lead-sheet.md#special-syntax-for-easy-reader)を使用している場合、注釈の関連部分のみを表示します。
 
-Like most of the JJazzLab windows, you can undock the Easy Reader window to place it wherever you want (use the right-click menu of the window title):
+ほとんどのJJazzLabウィンドウと同様に、イージーリーダーウィンドウもドッキングを解除して任意の位置に配置できます（ウィンドウタイトルの右クリックメニューを使用してください）。
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_47_17-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
