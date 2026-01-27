@@ -1,11 +1,11 @@
-# Arranger keyboard mode
+# アレンジャーキーボードモード
 
-If you have a Midi keyboard connected via Midi IN, you can use it as a (pseudo) arranger keyboard: JJazzLab will recognize the chord symbols played and update the backing track accordingly.
+MIDI IN経由でMIDIキーボードを接続している場合、MIDIキーボードを（疑似）アレンジャーキーボードとして使用できます：JJazzLabは演奏されたコード記号を認識し、それに応じて伴奏トラックを更新します。
 
 {% hint style="danger" %}
-**This mode if for educational purpose only.**&#x20;
+**このモードは教育目的のみに使用されます。**&#x20;
 
-There will be a delay between your chord change and the music change. This is normal because JJazzLab is not designed to work as a realtime arranger keyboard.
+コードチェンジと音楽の変化の間には遅延が生じます。これはJJazzLabがリアルタイムのアレンジャーキーボードとして動作するよう設計されていないため、正常な動作です。
 {% endhint %}
 
 ![](../.gitbook/assets/Arranger.png)
