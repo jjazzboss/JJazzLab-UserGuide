@@ -1,45 +1,45 @@
-# Yamaha styles
+# ヤマハスタイル
 
-The [YamJJazz ](./)engine is able to read all Yamaha style files (.sty, .prs, .bcs, .sst, at SFF1 or SFF2 format). You can find some style files on the web, most of them for free. Visit the [resources](https://www.jjazzlab.com/en/resources) page for useful links.
+[YamJJazz](./)エンジンは、ヤマハ形式のスタイルファイル（.sty、.prs、.bcs、.sst、SFF1またはSFF2形式）をすべて読み取ることができます。ウェブ上にはいくつかのスタイルファイルがあり、そのほとんどは無料で入手可能です。有用なリンクについては[リソース](https://www.jjazzlab.com/en/resources)ページをご覧ください。
 
-Yamaha styles usually have 4 variations _Main A, Main B, Main C, Main D_, plus some _Intros_ and _Endings_.&#x20;
+ヤマハのスタイルには通常、4つのバリエーション（メインA、メインB、メインC、メインD）に加え、いくつかのイントロとエンディングが含まれます。&#x20;
 
-Most of the time the variations have the following organisation:
+ほとんどの場合、バリエーションは以下の構成です：
 
-* _Intro A_: 1-bar drums-only intro
-* _Intro B_: 2-bar intro with a fixed chord sequence (i.e. your intro should contain only one initial chord to set the key)
-* _Intro C_: same than B but with 4 bars
-* _Main A-D_: the 4 main style variations, from lighter to heavier
-* _Ending A_: 1-bar ending with a final chord on 1st beat
-* _Ending B_: 2-bar ending with a fixed chord sequence (i.e. your ending should contain only one initial chord to set the key)
-* _Ending C_: same than B but with 4 bars
+* _Intro A_: 1小節ドラムのみのイントロ
+* _Intro B_: 固定されたコード進行（つまり、イントロにはキーを設定した最初のコードのみにすること）の2小節のイントロ
+* _Intro C_: Bと同じだが4小節
+* _Main A-D_: 4つの主なスタイルバリエーション（軽いものから重いものへ）
+* _Ending A_: 1拍めに最終コードがある1小節のエンディング
+* _Ending B_: 固定されたコード進行（つまり、エンディングにはキーを設定した最初のコードのみにすること）の2小節のエンディング
+* _Ending C_: Bと同じだが4小節
 
-You will also find _Fill In AA_, _Fill In BB, Fill In CC, Fill In DD, Fill In BA_ variations, which correspond to 1-bar transitions, usually with a drums fill or break. You normally don't have to use them directly because JJazzLab does it automatically at the end of each section, depending on the value of the drums **Fill** rhythm parameter.
+また、_Fill In AA_、_Fill In BB_、_Fill In CC_、_Fill In DD_、_Fill In BA_といったバリエーションも見つかります。これらは通常1小節の進行に対応し、ドラムのフィルやブレイクを伴います。通常、これらを直接使用する必要はありません。JJazzLabは各セクションの終わりに、ドラムの**Fill**リズムパラメータの値に応じて自動的に処理するためです。
 
-Each variation can use tracks of the following types:
+各バリエーションでは、以下のタイプのトラックを使用できます:
 
-* **Rhythm** (e.g. drums)
-* **Sub-rhythm** (e.g. percussion)
+* **Rhythm** （例：ドラム）
+* **Sub-rhythm** （例：打楽器）
 * **Bass**
-* **Chord1** (e.g. guitar)
-* **Chord2** (e.g. keyboard)
-* **Pad** (e.g. strings)
-* **Phrase1** (e.g. Brass)
+* **Chord1** （例：ギター）
+* **Chord2** （例：キーボード）
+* **Pad** （例：ストリングス）
+* **Phrase1** （例：ブラス）
 * **Phrase2**
 
-## Yamaha "Mega Voices”, “Super Articulation Voices”, ... <a href="#yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
+## ヤマハ「メガ・ボイセス」、「スーパーアーティキュレーション・ボイセス」、... <a href="#yamaha-specific-voices-mega-voices-super-articulation-voices" id="yamaha-specific-voices-mega-voices-super-articulation-voices"></a>
 
-Yamaha style files are optimized for Yamaha arranger keyboards. The latest models (Tyros, Genos…) has many voices with special features (e.g "Mega Voices"), especially for guitars which are optimized for style rendering.
+ヤマハスタイルファイルはヤマハ製アレンジャーキーボード向けに最適化されています。最新モデル（Tyros、Genosなど）には、スタイル再生に最適化されたギター音色を中心に、特殊機能を備えた多くの音色（例：「メガボイス」）が搭載されています。
 
-Other keyboards or synths can’t reproduce these special voices correctly. That’s why some recent Yamaha style files (SFF2 format) may not sound right with JJazzLab. If this happens locate the faulty channels using the Solo button in the MixConsole, and lower their volume or mute them.
+他のキーボードやシンセサイザーでは、これらの特殊な音色を正しく再現できません。そのため、最近のヤマハ製スタイルファイル（SFF2形式）の一部は、JJazzLabでは正しく再生されない場合があります。この現象が発生した場合は、MixConsoleのソロボタンを使用して不具合のあるチャンネルを特定し、その音量を下げたりミュートしたりしてください。
 
-## Limitations <a href="#limitations" id="limitations"></a>
+## 制限事項 <a href="#limitations" id="limitations"></a>
 
-JJazzLab is designed to host any kind of rhythm generation engines, and they must work with any kind of output synth, not only the Yamaha keyboards. Therefore some specific Yamaha style file features are not supported:
+JJazzLabはあらゆる種類のリズム生成エンジンをホストするよう設計されており、それらはヤマハのキーボードだけでなく、あらゆる種類の出力シンセと連動する必要があります。そのため、特定のヤマハスタイルファイルの機能はサポートされていません。:
 
-* SysEx Midi messages: ignored.
-* Controller messages: ignored.
-* Per-variation sounds: ignored, YamJJazz uses the style’s default sounds for all variations.
-* Yamaha Mega Voices : non musical notes or sound effects (notes above C6) are ignored.
-* Pitch bend Midi messages : ignored.
-* OTS and MDB sections: ignored.
+* SysEx MIDIメッセージ：無視されます。
+* コントローラーメッセージ: 無視されます。
+* バリエーションごとの音色：無視されます。YamJJazzは全バリエーションでスタイルのデフォルト音色を使用します。
+* ヤマハ メガボイス：非音楽音または効果音（C6より高いの音符）は無視されます。
+* ピッチベンドMIDIメッセージ：無視されます。
+* OTSおよびMDBセクション：無視されます。
