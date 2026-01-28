@@ -1,26 +1,26 @@
-# Extended Yamaha styles
+# 拡張ヤマハスタイル
 
-The [YamJJazz rhythm engine](./) can read a new file format (.yjz) which extends the capabilities of a standard [Yamaha style](yamaha-styles.md) file (.sty, .prs, .sst, etc.). Objective is to enable the design of rhythms with a wider dynamic range, rhythms which sound less repetitive.
+[YamJJazzリズムエンジン](./)は、標準的な[ヤマハスタイル](yamaha-styles.md)ファイル（.sty、.prs、.sstなど）の機能を拡張する新しいファイル形式（.yjz）を読み取ることができます。目的は、より広いダイナミックレンジを持ち、繰り返しが少なく聞こえるリズムの設計を可能にすることです。
 
-.yjz file can also be used to simply modify the music of an existing Yamaha style, as show in the example below.
+.yjzファイルは、以下の例に示すように、既存のヤマハスタイルの音楽を簡単に変更するためにも使用できます。
 
-An **extended style** (.yjz) supports :
+**extended style**（.yjz）は以下をサポートします :
 
-* **Unlimited number of variations**\
-  Instead of Main A/B/C/D, you can have Main A-1, Main A-2, Main B-1, Main B-2, Main B-3, Main C-1, Main C-2, …<br>
-* **Unlimited number of source phrases for each variation**\
-  With a standard Yamaha style the same source phrase is always used for a given variation.  **Alternate source phrases** lets the rhythm designer define different-but-similar phrases for e.g Main A-1, which will be used randomly by the YamJJazz engine in order to sound less repetitive.
+* **無制限のバリエーション**\
+  MainA/B/C/Dの代わりに、MainA-1、MainA-2、MainB-1、MainB-2、MainB-3、MainC-1、MainC-2、…と設定できます。<br>
+* **各バリエーションにつきソースフレーズの数が無制限**\
+  標準のヤマハスタイルでは、特定のバリエーションに対して常に同じソースフレーズが使用されます。**代替ソースフレーズ**機能により、リズムデザイナーは例えばMainA-1用に異なるが類似したフレーズを定義でき、YamJJazzエンジンがランダムに使用することで反復感を軽減します。
 
 {% hint style="warning" %}
-A .yjz file is just the extension part of a standard Yamaha style file, the **base style**. So when you read **MyRhythm.yjz**, YamJJazz needs to find **MyRhythm.sty** (or **MyRhythm.prs)** in the same directory.
+.yjzファイルは、標準的なヤマハスタイルファイル（**基本スタイル**）の拡張部分に過ぎません。したがって、**MyRhythm.yjz**を読み込む際、YamJJazzは同じディレクトリ内に**MyRhythm.sty**（または**MyRhythm.prs）**がある必要があります。
 {% endhint %}
 
-## Extended style creation wizard
+## 拡張スタイル作成ウィザード
 
-This wizard, available in the **Tools** menu, is used to create a ready-to-be-customized **extended style file** (.yjz) from a standard Yamaha style file (.sty, .prs, ...). See the  video below for how to use it.
+このウィザードは、**ツール**メニューから利用でき、標準のヤマハスタイルファイル（.sty、.prsなど）からカスタマイズ可能な**extended style file**（.yjz）を作成するために使用します。使用方法については、以下の動画をご覧ください。
 
 {% hint style="warning" %}
-Once created you'll need to manually alter the musical phrases of the .yjz Midi file using a Midi editor or a DAW like Cubase, Ableton Live, etc. Otherwise the new extended style will sound exactly like the base style.
+作成後は、MIDIエディターやCubase、Ableton LiveなどのDAWを使用して、.yjz MIDIファイルの音楽フレーズを手動で変更する必要があります。そうしないと、新しい拡張スタイルはベーススタイルと全く同じ音になります。
 {% endhint %}
 
 ### Simple example : modify Main A of an existing Yamaha style
