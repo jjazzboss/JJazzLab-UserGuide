@@ -40,12 +40,12 @@
 {% hint style="info" %}
 1つの楽器に対して複数のソースフレーズが表示される場合があります。この例ではベースに2つのトラックがあります。それぞれのトラックに対して一貫した変更を加える必要があります。&#x20;
 
-The reason why this happens in Yamaha styles is beyond the scope of this tutorial. The general idea is to allow specialized phrases for specific cases, e.g. a phrase for minor chords and another one for major chords. Search for the Yamaha style CASM section if you want more information about this.
+ヤマハスタイルにおけるこの発生理由は、チュートリアルの範囲を超えています。基本的な考え方は、特定のケース向けの専用フレーズを許可することです。例えば、マイナーコード用フレーズとメジャーコード用フレーズを別々に用意するといった具合です。詳細については、ヤマハスタイルのCASMセクションを参照してください。
 {% endhint %}
 
-When the Midi editing is complete, save your file.&#x20;
+MIDI編集が完了したら、ファイルを保存してください。&#x20;
 
-In JJazzLab start a **Rescan** in Options/Rhythms.
+JJazzLabで、設定/Rhythmsから**Rescan**を開始してください。
 
 Now you can use the new modified style in your song, just select **MediumJazzS737-ext.yjz** from the **YamJJazz extended styles** as seen below.&#x20;
 
