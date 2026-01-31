@@ -23,22 +23,22 @@
 作成後は、MIDIエディターやCubase、Ableton LiveなどのDAWを使用して、.yjz MIDIファイルの音楽フレーズを手動で変更する必要があります。そうしないと、新しい拡張スタイルはベーススタイルと全く同じ音になります。
 {% endhint %}
 
-### Simple example : modify Main A of an existing Yamaha style
+### 簡単な例：既存のヤマハスタイルのMain Aを変更
 
-Say you want to change the music of the **Main A** variation of Yamaha style **MediumJazzS737.sst**.
+例えば、ヤマハスタイルの**MediumJazzS737.sst**の**Main A**バリエーションの音楽を変更したいとしましょう。
 
-Start the **Extended style creation wizard**, select the rhythm **MediumJazzS737.sst**, then adjust the settings as shown on the image below.
+**拡張スタイル作成ウィザード(Extended style creation wizard)**を起動し、リズム**MediumJazzS737.sst**を選択した後、下図のように設定を調整してください。
 
-<figure><img src="../../.gitbook/assets/2023-01-03 16_45_42-Extended style creation wizard.png" alt=""><figcaption><p>Wizard settings to alter only the Main-A section, with no alternate source phrases.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2023-01-03 16_45_42-Extended style creation wizard.png" alt=""><figcaption><p>代替ソースフレーズなしで、Main Aセクションのみを変更するウィザード設定</p></figcaption></figure>
 
-Once **MediumJazzS737-ext.yjz** is generated, open it in your Midi editor. If you use Cubase for example, you should see something like this:
+**MediumJazzS737-ext.yjz**が生成されたら、MIDIエディタで開いてください。例えばCubaseを使用している場合、以下のような表示になるはずです：
 
 <figure><img src="../../.gitbook/assets/2023-01-03 16_59_55-Cubase AI 7 - [Cubase AI 7 Project - Untitled1].png" alt=""><figcaption></figcaption></figure>
 
-Now you can modify the Midi source phrases as you want, based on the source chord provided in the track name (e.g. C7M for the bass tracks). _You must not change the track names or change the duration of the section_ (8 bars/32 beats here).
+トラック名に指定されたコード（例：ベーストラックのC7M）に基づき、MIDIソースフレーズを自由に編集できます。_トラック名やセクションの長さ（ここでは8小節/32拍）を変更してはなりません_。
 
 {% hint style="info" %}
-You may see several source phrases for one instrument. In our example there are 2 tracks for the Bass. You should make consistent changes to each of them.&#x20;
+1つの楽器に対して複数のソースフレーズが表示される場合があります。この例ではベースに2つのトラックがあります。それぞれのトラックに対して一貫した変更を加える必要があります。&#x20;
 
 The reason why this happens in Yamaha styles is beyond the scope of this tutorial. The general idea is to allow specialized phrases for specific cases, e.g. a phrase for minor chords and another one for major chords. Search for the Yamaha style CASM section if you want more information about this.
 {% endhint %}
