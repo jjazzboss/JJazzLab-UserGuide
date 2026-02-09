@@ -47,51 +47,51 @@ MIDI編集が完了したら、ファイルを保存してください。&#x20;
 
 JJazzLabで、設定/Rhythmsから**Rescan**を開始してください。
 
-Now you can use the new modified style in your song, just select **MediumJazzS737-ext.yjz** from the **YamJJazz extended styles** as seen below.&#x20;
+新しい修正済みスタイルを楽曲で使用できるようになるので、下記の通り、**YamJJazz extended styles**から**MediumJazzS737-ext.yjz**を選択してください。&#x20;
 
 <figure><img src="../../.gitbook/assets/2023-01-03 17_49_15-JJazzLab  3.2.1.png" alt=""><figcaption></figcaption></figure>
 
-## Video tutorial
+## 動画チュートリアル
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
 
-## .yjz file format <a href="#yjz-extension-file-format" id="yjz-extension-file-format"></a>
+## .yjzファイル形式 <a href="#yjz-extension-file-format" id="yjz-extension-file-format"></a>
 
 {% hint style="info" %}
-If you don’t plan to create your own .yjz file you can skip this paragraph.
+独自の.yjzファイルを作成する予定がない場合は、この段落をスキップしてかまいません。
 {% endhint %}
 
-We recommend to use the **Extended style creation wizard** to prepare a .yjz file ready to be customized (see above).
+カスタマイズ可能な.yjzファイルを準備するには、**拡張スタイル作成ウィザード**の使用をお勧めします（上記参照）。
 
-The extension file (.yjz) must be associated to a base Yamaha style file (.sty, .prs, .sst, etc.) with the same name in the same directory.
+拡張子 (.yjz) のファイルは、同じディレクトリ内に存在する同じ名前のベースとなるヤマハスタイルファイル (.sty, .prs, .sst など) と関連付けられている必要があります。
 
-### Overview <a href="#overview" id="overview"></a>
+### 概要 <a href="#overview" id="overview"></a>
 
-YamJJazz first reads the **base style** file to get the following Yamaha style information:
+YamJJazzはまず**基本スタイル**ファイルを読み込み、以下のヤマハスタイル情報を取得します：
 
-* CASM data: channels parameters for each available variation (used Midi channels, source chords, lower/upper note limits, chord/melody channels, etc.)
-* SINT data: instruments parameters (bank select/program change, volume, …)
-* Musical data: the Midi source phrases for each channel of each available variation
+* CASMデータ：利用可能な各バリエーションのチャンネルパラメータ（使用MIDIチャンネル、ソースコード、下限／上限音域、コード／メロディチャンネルなど）
+* SINTデータ：楽器パラメータ（バンク選択／プログラムチェンジ、音量、…）
+* 音楽データ：利用可能な各バリエーションの各チャンネルに対するMIDIソースフレーズ
 
-Then YamJJazz reads the .yjz extension file to get Midi source phrases used to refine the available base variations and to add alternate source phrases.
+次にYamJJazzは.yjz拡張子ファイルを読み込み、利用可能な基本バリエーションを洗練させるために使用されるMIDIソースフレーズを取得し、代替ソースフレーズを追加します。
 
-If the base style uses variation Main A (example), then it’s possible to define variations Main A-1, Main A-2, Main A-3, etc. in the extension file. The number is called the complexity level. As soon as you define a Main A-x variation in the extension file, it replaces the original Main A variation from the base file.
+基本スタイルがバリエーションMain A（例）を使用している場合、拡張ファイルでMain A-1、Main A-2、Main A-3などのバリエーションを定義できます。この番号は複雑度レベルと呼ばれます。拡張ファイルでMain A-xバリエーションを定義すると、基本ファイルの元のMain Aバリエーションが置き換えられます。
 
-If the base file defines variation Main D (example) but the extension file does not define Main D-x, then the original Main D will be used with the name Main D-1.
+基本ファイルがバリエーションMain D（例）を定義していても、拡張ファイルがMain D-xを定義していない場合、元のMain DはMain D-1という名前で使用されます。
 
 {% hint style="danger" %}
-If the base style does not have variation Intro B (example), then it’s **not** possible to define Intro B-x in the extension file.
+基本スタイルにバリエーションIntro B（例）が存在しない場合には、拡張ファイルでIntro B-xを定義することは**できません**。
 {% endhint %}
 
-### Midi format <a href="#midi-format" id="midi-format"></a>
+### MIDIフォーマット<a href="#midi-format" id="midi-format"></a>
 
-**.yjz files use Midi format 1**, they contain several tracks. Note that .sty or .prs files use Midi format 0, they contain a single track.
+**.yjzファイルはMIDIフォーマット1を使用します**。これらは複数のトラックを含みます。なお、.styまたは.prsファイルはMIDIフォーマット0を使用し、単一のトラックのみを含みます。
 
-Each track of the extension file must start with a Midi trackname meta event with the following syntax:
+拡張ファイルの各トラックは、以下の構文を持つMIDIトラック名メタイベントで開始する必要があります：
 
-**`trackname=<base variation>-<complexity level>-<id string>-<phrase length in beats>`**
+**`トラック名=<基本バリエーション>-<複雑度レベル>-<識別文字列>-<フレーズ長（拍単位）>`**
 
-Trackname examples:
+トラック名の例：
 
 * Main A-1-drums-8
 * Main A-1-bass-8
@@ -104,25 +104,25 @@ Trackname examples:
 * Ending B-1-piano-4
 * Ending B-1-bass-4
 
-For `<id string>` you can use whatever string you like, but it's a good practice to mention at least the target instrument. If you use the **Extended style creation wizard**, `id string` is generated for you and will be something like `[Bass, C7M, ch11]` : the instrument name, the **source chord** and **source Midi channel**.
+`<識別文字列>`には任意の文字列を使用できますが、少なくとも対象楽器を明記することが推奨されます。**拡張スタイル作成ウィザード**を使用すると、`識別文字列`が自動生成され、`[Bass, C7M, ch11]`のような形式になります：楽器名、**ソースコード**、**ソースMIDIチャンネル**です。
 
-All tracks for a given variation must have the same length in beats. But different variations can have different lengths.
+特定のバリエーションにおける全トラックは、拍数を同一の長さにする必要があります。ただし、異なるバリエーションでは長さが異なっていても構いません。
 
 {% hint style="warning" %}
-Depending on the CASM data, there might be more than one source phrase for a given instrument (the guitar and guitar\_root phrases in the example above). For example one channel can be used for major chords, the other one for minor chords.
+CASMデータによっては、特定の楽器に対して複数のソースフレーズが存在する場合があります（上記の例ではギターとギター\_ルートフレーズ）。例えば、一方のチャンネルをメジャーコード用、もう一方をマイナーコード用に使用できます。
 {% endhint %}
 
-A track should only contain Midi note on/off messages for its **source chord** and **source Midi channel,** as defined in the CASM data of the base style. If you used the **Extended style creation wizard**, you have the **source chord** and **Midi channel** indicated in the `<id string>`, as explained above.
+トラックには、基本スタイルのCASMデータで定義された**ソースコード**および**ソースMIDIチャンネル**に対するMIDIノートオン/オフメッセージのみにするべきです。**拡張スタイル作成ウィザード**を使用した場合、前述の通り`<識別文字列>`内に**ソースコード**と**MIDIチャンネル**が示されています。
 
-### Alternate source phrases <a href="#alternate-takes" id="alternate-takes"></a>
+### 代替ソースフレーズ <a href="#alternate-takes" id="alternate-takes"></a>
 
-To add **alternate source phrases** for a given variation, just append source phrases on each track of this variation. Each appended source phrase must have the same length than the original phrase.
+特定のバリエーションに**代替ソースフレーズ**を追加するには、そのバリエーションの各トラックにソースフレーズを追加するだけです。追加する各ソースフレーズは、元のフレーズと同じ長さでなければなりません。
 
-**Example**\
-The source phrase length of track Main A-1-bass-8 is 8 beats (2 bars in 4/4). You can append 2 similar 8-beat source phrases on that track, so the track length becomes 24 beats. YamJJazz will consider the 2 appended phrases as **alternate source phrases** of the first source phrase, to be used randomly when rendering the Main A-1 bass part.&#x20;
+**例**\
+トラック「Main A-1-bass-8」のソースフレーズ長は8拍（4/4拍子で2小節）です。このトラックには同様の8拍ソースフレーズを2つ追加できるため、トラック長は24拍になります。YamJJazzは追加された2つのフレーズを最初のソースフレーズの**代替ソースフレーズ**と見なし、Main A-1基本パートのレンダリング時にランダムに使用します。&#x20;
 
-Note that 2 alternate source phrases must be also added for all the other Main A-1 tracks: Main A-1-drums-8, Main A-1-guitar-8 and Main A-1-guitar\_root-8.
+なお、他のすべてのMain A-1トラック（Main A-1-drums-8、Main A-1-guitar-8、Main A-1-guitar\_root-8）に対しても、代替ソースフレーズを2つ追加する必要があります。
 
 {% hint style="info" %}
-If you have for example 3 source phrases for Main A-1, JJazzLab will randomly pick a source phrase every 2 bars. The selection is actually not 100% random: the first source phrase has more chances to be selected than the second one, and the second one has more chances to be selected than the third one, etc. In other words the last source phrase has the least chances to get selected.
+例えばMain A-1に3つのソースフレーズがある場合、JJazzLabは2小節ごとにランダムにソースフレーズを選択しますが、実際の選択は完全なランダムではありません：最初のソースフレーズが選ばれる確率は2番目より高く、2番目は3番目より高い、というように続きます。つまり最後のソースフレーズが選ばれる確率は最も低くなります。
 {% endhint %}
