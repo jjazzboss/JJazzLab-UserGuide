@@ -30,6 +30,6 @@
 
 {% embed url="https://www.youtube.com/watch?t=69s&v=qa16PQn4ltg" %}
 
-## 独自の拡張ヤマハスタイル作成方法チュートリアル
+## 拡張ヤマハスタイルを自分で作る方法のチュートリアル(上級者向け)
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
