@@ -29,7 +29,7 @@ jjSwingには2つの特定のリズムパラメータとして、ベーススタ
 
 <figure><img src="../.gitbook/assets/jjSwing-bassStyle.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="135">ベーススタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のベーススタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>2-feel</td><td>2拍のウォーキングベース</td></tr><tr><td>walking</td><td>ウォーキングベース</td></tr><tr><td>double-note</td><td>多くのダブルノート（繰り返される音）を含むウォーキングベース</td></tr><tr><td>double-time</td><td>ウォーキングベースを2倍速で演奏しつつ、コード進行は元のテンポで維持。ドラムスタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140">ベーススタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のベーススタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>2-feel</td><td>2拍のウォーキングベース</td></tr><tr><td>walking</td><td>ウォーキングベース</td></tr><tr><td>double-note</td><td>多くのダブルノート（繰り返される音）を含むウォーキングベース</td></tr><tr><td>double-time</td><td>ウォーキングベースを2倍速で演奏しつつ、コード進行は元のテンポで維持。ドラムスタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ### ドラムスタイル
 
@@ -37,7 +37,7 @@ jjSwingには2つの特定のリズムパラメータとして、ベーススタ
 
 <figure><img src="../.gitbook/assets/jjSwing-drumsStyle.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="135">ドラムスタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のドラムスタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>brushes 1/2</td><td>2種類のブラシベースのドラム</td></tr><tr><td>hi-hat 1/2</td><td>2種類のハイハットベースのドラム</td></tr><tr><td>ride 1/2/3/4</td><td>4種類のライドシンバルベースのドラム</td></tr><tr><td>shuffle 1/2</td><td>2種類の異なる12/8拍子ベースのドラム</td></tr><tr><td>double</td><td>ドラムを倍速で演奏されつつ、コード進行は元のテンポで維持。ベーススタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr></tbody></table>
+<table><thead><tr><th width="140">ドラムスタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のドラムスタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>brushes 1/2</td><td>2種類のブラシベースのドラム</td></tr><tr><td>hi-hat 1/2</td><td>2種類のハイハットベースのドラム</td></tr><tr><td>ride 1/2/3/4</td><td>4種類のライドシンバルベースのドラム</td></tr><tr><td>shuffle 1/2</td><td>2種類の異なる12/8拍子ベースのドラム</td></tr><tr><td>double</td><td>ドラムを倍速で演奏されつつ、コード進行は元のテンポで維持。ベーススタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr></tbody></table>
 
 ## 設定
 
