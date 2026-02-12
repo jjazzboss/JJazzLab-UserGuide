@@ -8,7 +8,7 @@
 {% hint style="warning" %}
 もし、 **Windows Smart Screen** 警告が出たら
 
-<img src=".gitbook/assets/Win10SmartScreen.png" alt="" data-size="original">&#x20;
+<img src=".gitbook/assets/win10smartscreen.png" alt="" data-size="original">&#x20;
 
 Windows Smart Screenがプログラムをブロックするのは、JJazzLabがマルウェアだからではなく（マルウェアではありません！）、JJazzLabが新しいプログラムであるために、Windowsのセキュリティサーバーがその「セキュリティの評判」を評価するのに十分な統計情報を持っていないからです。
 
