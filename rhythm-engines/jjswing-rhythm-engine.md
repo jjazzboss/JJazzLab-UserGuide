@@ -1,21 +1,21 @@
 ---
-内容：The ultimate style for practicing jazz standards
+内容：ジャズスタンダードを練習するための究極のスタイル
 ---
 
-# jjSwing rhythm engine
+# jjSwingリズムエンジン
 
-**jjSwing**'s unique features are:
+**jjSwing**の特徴は以下の通りです：
 
-* A **realistic walking bass with melodic lines**, which automatically adjust to the tempo
-* 11 drums variations (brushes, hi-hat, ride, shuffle)
-* Double-time capability (play twice as fast with chord changes at original tempo)
-* The possibility to adjust bass and drums independently
+* テンポにより自動調整する**リアルなウォーキングベースとメロディックライン**
+* 11種類のドラムバリエーション（ブラシ、ハイハット、ライド、シャッフル）
+* ダブルタイム機能（元のテンポでコード進行を維持しながら2倍速で演奏）
+* ベースとドラムを個別に調整する機能
 
 {% hint style="danger" %}
-jjSwing is optimized to work with the internal [FluidSynth ](../sounds/using-fluidsynth.md)as output synth. If you use a different output synth, you might hear weird sounds.
+jjSwingは内部の[FluidSynth](../sounds/using-fluidsynth.md)をシンセ出力として動作するよう最適化しています。別のシンセ出力を使用すると、奇妙な音が聞こえる可能性があります。
 {% endhint %}
 
-Note that current jjSwing version only supports 4/4 time signature. Jazz waltz support will be added later.
+現在のjjSwingバージョンは4/4拍子のみをサポートしていることに注意してください。ジャズワルツのサポートは後日追加されます。
 
 {% embed url="https://www.youtube.com/watch?v=NZ3VC5GcdiA" %}
 
