@@ -4,7 +4,7 @@
 
 # FAQ
 
-## JJazzLabが気に入ってので、何かお手伝いできますか？ <a href="#how-to-help" id="how-to-help"></a>
+## JJazzLabが気に入っているので、何かお手伝いできますか？ <a href="#how-to-help" id="how-to-help"></a>
 
 * [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
 * JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
