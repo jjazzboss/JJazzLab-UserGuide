@@ -1,17 +1,17 @@
-# Chord lead sheet
+# コード譜
 
-Use the **chord leadsheet editor** to:
+**コード譜エディター**の使い方：
 
-* Add chord symbols, eg **Cm6, Ab7, F#9M#11, NC (no chord), ...**
-* Add sections, eg **A, B, verse, chorus,** ...
-* Move and edit chords to adjust rhythm accents, interpretation or harmony
-* Add bar annotations (for lyrics etc.)
+* コード記号を書く、例 **Cm6, Ab7, F#9M#11, NC (コード無し) ...**
+* セクション記号を書く、例 **A, B, verse, chorus,**
+* コード記号をずらしたり編集して、リズムのアクセントや、解釈(interpretation)や、ハーモニーに合わせる
+* 小節に注意書きを書く(歌詞等のため)
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-## Popup menus
+## ポップアップメニュー
 
-Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
+現在の選択範囲（小節線、和音記号、またはセクション）に対して利用可能なコマンドを表示するには、ポップアップメニュー（Windows/Linuxでは**右クリック**、Macでは**Ctrlキーを押しながらクリック**）を使用してください。
 
 ![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
 
@@ -19,240 +19,234 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-## Size of the leadsheet
+## コード記号の選択と移動
 
-Select a bar then select **Set end bar** in the right-click menu (see below).
+小節またはコード記号をクリックして選択します。**Ctrlキーを押しながらクリック**すると、複数の小節またはコード記号を選択できます。&#x20;
 
-{% hint style="info" %}
-The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
+**Shiftキーを押しながらクリック**すると、現在の選択範囲を拡張します。
 
-For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
-{% endhint %}
-
-## Selecting and moving items (chord symbols ...)
-
-Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
-
-Use **shift-click** to extend the current selection.
-
-**Drag** a chord symbol with the mouse to move it to a new location. If you press **ctrl** while dragging, a **+** sign appears (see image below) indicating that the chord symbol will be copied, not moved.
+コード記号をマウスで**ドラッグ**すると、新しい位置に移動できます。ドラッグ中に**Ctrl**キーを押すと、 **＋** 記号が表示され（下図参照）、コード記号が移動ではなくコピーされることを示します。
 
 <figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-**Sections** and **bar annotations** can be selected, moved or copied the same way.
-{% endhint %}
+#### コード記号のクオンタイズ
 
-#### Chord symbol quantization
+デフォルトでは、コード記号の位置は16分音符単位（1拍あたり4つ）でクォンタイズされます。&#x20;
 
-By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).&#x20;
-
-This can be adjusted per section via the bar or section popup menu **Quantization...**, as shown below.
+これは、以下の図に示すように、小節またはセクションのポップアップメニュー **Quantization...** からセクションごとに調整できます。
 
 <figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
 
-The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
+**auto**値は、このセクションにリンクしている最初のソングパートで使用するリズム（二拍子または三拍子）に基づいてクオンタイズを調整します。
 
-## Chord symbols
+## コード記号の入力
 
-Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
+小節またはコード記号を選択し、コード記号の最初の文字（例：'C'）を入力すると、**小節編集ダイアログ**が自動的に表示されます：
 
 <figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
 
-When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
+小節を選択した状態で、**小節編集ダイアログ**は、Enterキーを押す、小節をダブルクリックする、または右クリックメニューを使用することで表示できます。
 
-To **copy** a chord symbol just **drag it** while pressing the **control** key.
-
-{% hint style="info" %}
-In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
-{% endhint %}
-
-JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
-
-<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
+コード記号を**コピー**するには、**ctrl**キーを押しながら**ドラッグ**してください。
 
 {% hint style="info" %}
-The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
+**リードシートを一から入力する**には、最初の小節を選択し、コード記号を直接入力するのが最も簡単な方法です（最初の文字を入力すると小節編集ダイアログが自動的に表示されます）。入力完了後、Enterキーを押すと（自動的に次の小節が選択されます）、2小節目のコード記号を入力し、同様に続けます。
 {% endhint %}
 
-### Chord symbol interpretation
+JJazzLabは、コード記号をいろいろな表記形式で認識できます。例えば、**C-7**、**Cm7**、**Cmi7**、**Cmin7**はすべて同じです。ツール/設定の**chord symbol**タブで、以下に示すように独自の_コード記号の別名_を追加できます：
 
-Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
+<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>独自のコード記号(aliases)を定義する</p></figcaption></figure>
+
+{% hint style="info" %}
+**NC**コード記号は特別で、これを使用すると次のコード記号まで無音にできます。完全な無音が長すぎる場合は、**shot**付きのコード記号を試してみてください。[表現解釈](chord-lead-sheet.md#interpretation).
+{% endhint %}
+
+## カスタマイズ可能なコード進行
+
+小節を選択し、ポップアップメニューの **挿入/Chord progression** から挿入するコード進行を選択してください。
+
+<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
+
+コード進行は選択した小節に挿入され、既存のコードを置き換えます。必要に応じて追加の小節が生成されます。挿入されたコードは自動的に選択されるため、目的の調へ簡単に移調できます（コード上でマウスホイールを使用するか、Ctrlキー＋上/下矢印キーを押してください）。
+
+コード進行は、JJazzLabのユーザーディレクトリ内にあるシンプルなテキストファイル`ChordProgression.txt`で定義されます。このファイルは存在しない場合、JJazzLabによって自動的に作成されます。
+
+**Chord progression...** からポップアップメニュー（上記画像参照）した **Open configuration file...** を選択すると編集できます。これにより、ポップアップメニューに表示されるコード進行を定義・整理できます。カテゴリとサブカテゴリはいくつでも自由に定義できます。詳細はファイル先頭のコメントを参照してください。
+
+## リードシートの長さ変更
+
+小節を選択し、右クリックメニューで **終止線の設定** を選択します（下記参照）。
+
+{% hint style="info" %}
+ソングの長さは、コード譜リードシートと楽曲構成(ソングストラクチャー)の両方によって決まります。&#x20;
+
+例えば、コード譜リードシートにAという単一の12小節セクションだけがあって、楽曲構成がA-A-Aの場合、楽曲の長さは3×12=36小節となります。
+{% endhint %}
+
+## 表現解釈
+
+コード記号を選択し、編集します（ダブルクリック、Enterキーを押す、または右クリックメニュー）。次に、**Interpretation**タブを選択します。
 
 ![](../.gitbook/assets/chordsymbolinterpretationdialog.png)
 
-The **Interpretation** tab lets you decide how this chord symbol should be played:
+**Interpretation**タブは、このコード記号をどのように演奏すべきかを決めるためのものです：
 
 * **Normal**
-* **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
-* **Hold**: add a rhythmic accent and hold notes until next chord symbol. If extended more instruments are hold.
-* **Shot**: add a rhythmic accent with chord notes played briefly. If extended more instruments are shot.
-* **Pedal bass**: bass line will only play the bass note (for ex. F for Fm7 or C for Fm7/C). This setting is on by default when you enter a slash chord.
+* **Accent**: リズムのアクセントを加え、ランダムにクラッシュシンバルを鳴らします。アクセントを強くしたり、クラッシュシンバルを確実に鳴らすか鳴らさないかを指定できます。
+* **Hold**: リズムのアクセントを加え、次のコード記号まで音を持続します。拡張(extended)すると、より多くの楽器が持続します。
+* **Shot**: リズムのアクセントを加え、コード音を短く演奏します。拡張(extended)すると、より多くの楽器が短い演奏に加わります。
+* **Pedal bass**: ベースラインはベース音のみを演奏します（例：Fm7の場合はF、Fm7/Cの場合はC）。分数コードでは、この設定はデフォルトで有効になります。
 
 {% hint style="info" %}
-Each rhythm generation engine may render these Interpretation parameters differently.
+各リズム生成エンジンは、これらの表現解釈パラメータを異なる方法で演奏することがあります。
 {% endhint %}
 
-&#x20;The shape of the marker below the chord symbol depends on the interpretation mode:
+\
+&#x20;コード記号の下にあるマーカーの形状は、表現解釈モードによって異なります：
 
 ![](../.gitbook/assets/interpretationmarkers.png)
 
-&#x20;For example, in order to render:&#x20;
+&#x20;例えば、これを演奏しようとする場合：&#x20;
 
 ![](../.gitbook/assets/rhythmicaccents.png)
 
-you could use the following interpretation parameters:&#x20;
+以下の表現解釈パラメータを使用できます：&#x20;
 
 ![](../.gitbook/assets/examplerhythmicaccents.png)
 
 {% hint style="info" %}
-See below the keyboard shortcuts to change the interpretation of selected chords.
+選択したコードの表現解釈を変更するキーボードショートカットは以下の通りです。
 {% endhint %}
 
-#### Harmony
+### ハーモニー(Harmony)
 
-Select a chord symbol, edit it and select the **Harmony** tab.
+コード記号を選択し、編集して**Harmony**タブを選択します。
 
 ![](../.gitbook/assets/chordsymbolharmonydialog.png)
 
-The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
+**Harmony**タブでは、このコード記号の音楽を演奏する際に使用するスケールを選択できます。
 
-**Example** Suppose that the reference bass line for Eb7M contains a Ab (4th degree of the Eb major scale). If you select the Lydian mode (which has a sharp 11th degree) then the reference bass note Ab will be rendered as A for this chord symbol.
+**例** 基準となるEb7MのベースラインにAb（Ebメジャースケールの4度）が含まれているとします。リディアンモード（11度がシャープ）を選択した場合、このコード記号では基準ではベース音Abですが、Aにして演奏します。
 
-By default no scale is selected: each rhythm generation engine will decide the "best" scale to use.
+デフォルトではスケールは選択されていません：各リズム生成エンジンが使用する「最適な」スケールを決定します。
 
-#### Substitute chord symbol
+### 代替コード記号(Substitute chord symbol)
 
-Select a chord symbol, edit it and select the **substitute** chord symbol tab.
+コード記号を選択し、編集して、**代替**コード記号タブを選択します。
 
-![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/chordsymbolalternatedialog.png)
+![画像ではAlternateですがSubstituteになっています](../.gitbook/assets/chordsymbolalternatedialog.png)
 
-This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.&#x20;
+このタブでは、特定の条件を満たす際に使用される**代替**コード記号を定義できます。&#x20;
 
-**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
+**代替**コード記号は、楽曲の一部でわずかな変化を加えたい場合に有用です。
 
-The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (void chord). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color (see image below).
+**代替**コード記号は任意のコード記号、任意の解釈やハーモニー、あるいはコード記号なし（空コード）でも構いません。**代替**コード記号が定義されているコード記号は、異なる色で表示されます（下図参照）。
 
-_Example:_
+_例：_
 
-In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute** chord symbol can provide a simpler solution.
+カルロス・サンタナの「ヨーロッパ」は、テーマの最初のエンディングはCm7ですが、2番目はCメジャーです。これをJJazzLabで実行する一つの方法としては、セクションA1を複製して異なるエンディングを持つセクションA2を作成し、それに応じて楽曲構成を更新することです。これで全く問題ありませんが、変更が軽微な場合には、**代替**コード記号を使用することでより簡便な解決策となります。
 
-You can see below (and in the dialog snapshot above) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts (see the [song structure editor](song-structure.md)) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
+下記（および上記のダイアログスナップショット）で確認できるように、Cm7の代わりにC7Mという**代替**を生成します。マーカーがTheme2に設定されているすべてのソングパート（[ソングストラクチャーエディター](song-structure.md)参照）ではC7Mを使用します。下図では、C7Mを2番目のソングパートでのみ使用することを意味します。
 
-![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../.gitbook/assets/alternatechordleadsheet.png)
+![画像ではAlternateですがSubstituteになっています](../.gitbook/assets/alternatechordleadsheet.png)
 
-There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
+3小節目には別の**代替**コード記号の例があります：A7です。原曲を聴くと、ソロ中のみ3小節目の最終拍でA7が演奏されていることに気づくでしょう。したがってA7のコード記号は、マーカーが「ソロ」でない場合には、その**代替**コード記号を「void chord symbol」（コード記号なしと同等）と定義します。
 
-### Customizable chord progressions
+## セクション入力
 
-Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
+典型的なセクションは「イントロ」、「バース」、「コーラス」などです。
 
-<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
+ソングセクションとは、JJazzLabが楽曲構成を定義する基本単位です。最初の小節には常にセクションが定義されています。
 
-The chord progression is inserted **at the selected bar**, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the **mouse-wheel** on a chord, or press **ctrl-UP/DOWN**).
+セクションを追加するには、終了位置の直後ではない小節を選択し、次に：
 
-Chord progressions are defined in a simple text file **`ChordProgression.txt`** located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
+* Enterキーを押すか、
+* ダブルクリック、または
+* 右クリックメニュー、 Insert Section... または 編集...。
 
-Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
-
-## Sections
-
-A section has a **name** and a **time signature**. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
-
-<figure><img src="../.gitbook/assets/Section.png" alt=""><figcaption></figcaption></figure>
-
-To add a section, **select a bar** then:
-
-* **Double-click** to edit the bar (or press ENTER, or use popup menu Edit...) and **change the section name**
-* or use bar popupmenu **Insert > Section...**&#x20;
-
-{% hint style="danger" %}
-Section names must be unique. It's not possible to remove the initial section in the first bar.
+{% hint style="warning" %}
+セクション名は重複してはいけません。
 {% endhint %}
 
-Like chord symbols, sections can be moved or copied (hold ctrl key) with the mouse, or via copy & paste.
+### 新しい行でセクションを強制する
 
-### Force a section at new line
+行の最初の小節にないセクションを、次の行から開始させるように強制できます。これは、セクションの小節数が奇数の場合に有用です。
 
-You can force a section which is not on the first bar of a row to start on the next line.&#x20;
-
-This can be useful when some sections have an odd number of bars.
-
-Select a bar with a section defined or select the section itself, then use popup menu **Section at New Line**.
+定義したセクションがある小節を選択するか、セクション自体を選択し、右クリックメニューで"新しい行でセクションを強制する"。
 
 ![](../.gitbook/assets/forcesectionnewline1.png)
 
-&#x20; This will result in the display below.&#x20;
+&#x20; これにより、以下の表示になります。&#x20;
 
 ![](../.gitbook/assets/forcesectionnewline2.png)
 
-## Bar annotations / lyrics
+## 小節での注釈 / 歌詞
 
-You can add **annotations** to any bar.&#x20;
+どの小節でも注釈を追加できます。&#x20;
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
 
-When annotations are hidden, bar with annotations are marked with a post-it (tooltip shows the annotation text).
+注釈が表示されない場合、注釈付きの小節には付箋マークが表示されます（ツールチップに注釈テキストが表示されます）。
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-#### Special # syntax for Easy Reader
+#### イージーリーダー専用 # 構文
 
-Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [Easy Reader](../tools/easy-reader.md) displays only the relevant line.
+同じ小節が異なるソング部分で使用される場合を考えます。この小節の歌詞はソング部分によって変わる可能性があります。**#**を注釈行の先頭に付けることで、[イージーリーダー](../tools/easy-reader.md)が関連する行のみを表示するようにできます。
 
 <figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-**Example**:  for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
+**例**:  上記の注釈について、イージーリーダーは最初の出現時に「with... you」、2回目の出現時に「and...you」、そして現在のソングパート名が「chorus」の時は常に「take...you」と表示します。
 
-## Exporting/importing chord leadsheet as text
+## テキストでのコードリードシートのエクスポート/インポート
 
-Select some bars or chord symbols and copy them (via menu Copy or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
+いくつかの小節またはコード記号を選択し、コピーします（メニューの「Copy」またはCtrl+C/Command+Cを使用）。その後、任意のテキストエディタに切り替えて貼り付けます：小節/コードは以下のようにテキストとしてエクスポートされます：
 
 `|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |` \
 `| Gm7/Bb     | C9/Bb  |  F7M    |          |`
 
-Text import works the other way around. Copy a similar text in the clipboard then paste it in the chord leadsheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
+テキストのインポートは逆方向にも機能します。クリップボードに類似したテキストをコピーし、コードリードシートエディタに貼り付けると、対応する小節/コード記号がJJazzLabのソングにインポートされます。
 
-## Mouse shortcuts
+## マウスショートカット
 
-| <mark style="background-color:blue;">**Selection**</mark> | <mark style="background-color:blue;">**Mouse**</mark> | <mark style="background-color:blue;">**Action**</mark> |
+| <mark style="background-color:blue;">**選択箇所**</mark>   | <mark style="background-color:blue;">**マウス**</mark> | <mark style="background-color:blue;">**動作**</mark>   |
 | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
-| bar, chord symbol, section                                | click                                                 | select                                                 |
-| chord symbol                                              | double click                                          | edit using chord symbol editor                         |
-| chord symbol                                              | ctrl-shift click                                      | hear the chord                                         |
-| bar, section                                              | double click                                          | edit using bar editor                                  |
-| bar, chord symbol, section                                | right-click                                           | popup menu                                             |
-| chord symbol                                              | mouse-wheel                                           | transpose                                              |
-| editor                                                    | ctrl mouse-wheel                                      | zoom in/out horizontally                               |
-| editor                                                    | ctrl-shift mouse-wheel                                | zoom in/out vertically                                 |
+| 小節、コード記号、セクション                                 | click                                                 | 選択                                                   |
+| コード記号                                                 | double click                                          | コード記号エディターを使用して編集する                     |
+| コード記号                                                 | ctrl-shift click                                      | コードを聴く                                             |
+| 小節、セクション                                            | double click                                          | 小節エディターを使用して編集する                          |
+| 小節、コード記号、セクション                                 | right-click                                           | ポップアップメニュー                                     |
+| コード記号                                                 | mouse-wheel                                           | 移調                                                    |
+| エディター                                                 | ctrl mouse-wheel                                      | 水平方向に拡大/縮小する                                   |
+| エディター                                                 | ctrl-shift mouse-wheel                                | 縦方向に拡大/縮小する                                     |
 
-## Keyboard shortcuts
+## キーボードショートカット
 
 {% hint style="info" %}
-Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard shortcut is displayed.
+多くの操作はコンテキストメニュー（Windows/Linuxでは右クリック、MacではCtrlキーを押しながらクリック）からも利用可能です。利用可能な場合、関連するキーボードショートカットが表示されます。
 {% endhint %}
 
-| Selection                  | Key             | Action                                    |
+| 選択箇所                    | キー             | 動作                                     |
 | -------------------------- | --------------- | ----------------------------------------- |
-| chord Symbol               | enter           | edit with chord symbol editor             |
-| bar, section               | enter           | edit with bar editor dialog               |
-| bar                        | ctrl-E          | set end bar                               |
-| bar                        | I               | insert bars                               |
-| bar                        | delete          | clear bar contents                        |
-| chord symbol, section      | delete          | remove                                    |
-| chord symbol, section      | ctrl-left/right | move item one bar left/right              |
-| bar                        | shift-delete    | remove                                    |
-| chord symbol               | ctrl-up/down    | transpose                                 |
-| chord symbol               | P               | change interpretation                     |
-| chord symbol               | S               | stronger accent                           |
-| chord symbol               | H               | crash cymbal/no crash                     |
-| chord symbol               | X               | hold/shot more instruments                |
-| chord symbol               | M               | hear the chord                            |
-| chord symbol, section      | ctrl-A          | select all in section, then in lead sheet |
-| bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
-| editor                     | ctrl-Z/Y        | undo/redo                                 |
-| editor                     | ctrl-L          | Show/hide bar annotations                 |
-| editor                     | alt-L           | Insert bar annotation                     |
-| editor                     | ctrl-W          | close song                                |
+| コード記号                  | enter           | コード記号エディターを使用して編集する       |
+| 小節、セクション             | enter           | 小節エディターを使用して編集する            |
+| 小節                        | ctrl-E          | 終止線を書く                              |
+| 小節                        | I               | 小節を挿入する                            |
+| 小節                        | delete          | 小節内を消去する                           |
+| コード記号、セクション       | delete          | 除去する                                   |
+| コード記号、セクション       | ctrl-left/right | アイテムを1小節左/右に移動                  |
+| 小節                        | shift-delete    | 除去する                                  |
+| コード記号                  | ctrl-up/down    | 移調                                      |
+| コード記号                  | P               | 表現解釈を変更する                         |
+| コード記号                  | S               | アクセントを強化する                       |
+| コード記号                  | H               | クラッシュシンバル/クラッシュなし           |
+| コード記号                  | X               | より多くの楽器で持続/短め演奏する           |
+| コード記号                  | M               | コードを聴く                              |
+| コード記号、セクション       | ctrl-A          | セクション内のすべてを選択し、次にリードシート内のすべてを選択 |
+| 小節、コード記号、セクション | ctrl-C/X/V      | コピー/切り取り/貼り付け                    |
+| エディター                  | ctrl-Z/Y        | 元に戻す/やり直し                          |
+| エディター                  | ctrl-L          | 小節注釈の表示/非表示                      |
+| エディター                  | alt-L           | 小節注釈の挿入                             |
+| エディター                  | ctrl-W          | ソングを閉じる                             |

@@ -1,53 +1,53 @@
-# Rhythm files
+# リズムファイル
 
 {% hint style="info" %}
-In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
+JJazzLabでは「**リズム**」は通常、ポップやボサノバのような**音楽スタイル**を指します。
 {% endhint %}
 
-Rhythms are used by [songs](/broken/pages/-MQSAgDkeWdxuJiOjnJj). Many songs use only one rhythm (e.g. rock), but some may use 2 or more. A song file (.sng) does not contain all the rhythm data, it just keeps a reference to the rhythm's name.&#x20;
+リズムは[ソング](/broken/pages/-MQSAgDkeWdxuJiOjnJj)で使用します。多くの楽曲は1つのリズムのみを使用しますが（例：ロック）、2つ以上を使用する場合もあります。楽曲ファイル（.sng）にはリズムデータ全体は含まれず、リズム名への参照のみを保持します。&#x20;
 
-Upon first start, JJazzLab [scans ](rhythm-files.md#rhythm-files-scanning)the computer to get a list of the available rhythms.&#x20;
+初回起動時、JJazzLabはコンピュータをスキャンし、利用可能なリズムの一覧を取得します。&#x20;
 
-In JJazzLab core, rhythms are made available by [rhythm engines](../rhythm-engines/overview.md). Some rhythms can be based on **rhythm files**. For example the [YamJJazz rhythm engine](../rhythm-engines/yamjjazz-rhythm-engine/) provides rhythms built from Yamaha style files such as **poprock.sty** or **TripHop.S510.prs**.
+JJazzLabコアでは、リズムは[リズムエンジン](../rhythm-engines/overview.md)が提供します。一部のリズムは**リズムファイル**に基づいています。例えば、[YamJJazzリズムエンジン](../rhythm-engines/yamjjazz-rhythm-engine/)は、**poprock.sty**や**TripHop.S510.prs**といったヤマハスタイルファイルから構築されたリズムを提供します。
 
-## Rhythm files location <a href="#rhythm-files-location" id="rhythm-files-location"></a>
+## リズムファイルの場所 <a href="#rhythm-files-location" id="rhythm-files-location"></a>
 
-JJazzLab expects rhythm files to be in the **User directory for rhythm files**. The location of this directory can be changed in the **Options/Rhythms**, as shown below.&#x20;
+JJazzLabはリズムファイルを**User directory for rhythm files**に配置することを想定しています。このディレクトリの場所は、以下に示すように**設定/Rhythms**で変更できます。&#x20;
 
 ![](../.gitbook/assets/userdirforrhythmfiles.png)
 
-## Rhythm files scanning <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
+## リズムファイルのスキャン <a href="#rhythm-files-scanning" id="rhythm-files-scanning"></a>
 
-Your **rhythm files** are scanned at startup only upon a fresh install or an upgrade, and the rhythm list is saved into a **cache file**.
+**リズムファイル**は、新規インストール時またはアップグレード時のみ起動時にスキャンを行い、リズムリストは**キャッシュファイル**に保存します。
 
-You can force a **rescan** in the **Options/Rhythms** panel as shown below.
+以下の通り、**設定/Rhythms**パネルで**Rescan**を強制実行できます。
 
-<figure><img src="../.gitbook/assets/2024-08-22 23_28_07-JJazzLab  4.1.0a.png" alt=""><figcaption><p>Rescan button in the Options/Rhythms panel</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-08-22 23_28_07-JJazzLab  4.1.0a.png" alt=""><figcaption><p>設定/RhythmsパネルのRescanボタン</p></figcaption></figure>
 
 {% hint style="info" %}
-You can use up to **2 levels of sub-directorie**s to organize the rhythms in the **User directory for rhythm files**. Sub-directories whose name starts with an underscore '**\_**' are **not** scanned.
+**ユーザー用リズムファイルディレクトリ**内のリズムを整理するために、最大**2階層のサブディレクトリ**を使用できます。アンダースコア「**\_**」で始まるサブディレクトリはスキャンされません。
 {% endhint %}
 
-This cache file is then used to get the **rhythm list** upon next startups, which is much faster than the initial scanning -especially if you have many rhythm files.&#x20;
+このキャッシュファイルは、次回の起動時に**リズムリスト**を取得するために使用します。これは最初のスキャンよりもはるかに高速です。特にリズムファイルが多い場合に効果的です。&#x20;
 
 {% hint style="danger" %}
-Quality of Yamaha style files found on the web vary a lot. Furthermore some styles are&#x20;
+ウェブ上で見つかるヤマハスタイルファイルの品質は大きく異なります。さらに一部のスタイルは
 
-sometimes “broken” (invalid file format), i.e. can't be loaded by JJazzLab.
+時折「破損」（無効なファイル形式）しており、JJazzLabで読み込めない場合があります。
 {% endhint %}
 
-## Adding new rhythm files <a href="#adding-new-rhythm-files" id="adding-new-rhythm-files"></a>
+## 新しいリズムファイルの追加 <a href="#adding-new-rhythm-files" id="adding-new-rhythm-files"></a>
 
-Use the **Add Rhythms...** button from the **Options/Rhythms** panel (or from the [Rhythm selection dialog](../editors/song-structure.md#change-rhythm-music-style)).
+**設定/Rhythms**パネル（または[リズム選択ダイアログ](../editors/song-structure.md#change-rhythm-music-style)）から **Add Rhythms...** ボタンを使用します。
 
-<figure><img src="../.gitbook/assets/2024-08-22 22_16_57-JJazzLab  4.1.0a.png" alt=""><figcaption><p>Add Rhythms... button in the Options/Rhythms panel</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-08-22 22_16_57-JJazzLab  4.1.0a.png" alt=""><figcaption><p>設定/RhythmsパネルのAdd Rhythms...ボタン</p></figcaption></figure>
 
-Added rhythm files will be copied to the root of the **User directory for rhythm files**, and a **rescan** will be planned on next start.
+追加されたリズムファイルは、**リズムファイル用ユーザーディレクトリ**のルートにコピーされて、次回の起動時に**再スキャン**を予定します。
 
-In the **Add Rhythms...** dialog shown below, you can choose to add the rhythms **for the current session only**, i.e. rhythm files will NOT be copied in the **User directory for rhythm files**.
+以下の **Add Rhythms...** ダイアログでは、リズムを **現在のセッションのみに追加する** ことを選択できます。つまり、リズムファイルは**リズムファイル用ユーザーディレクトリ**にはコピーされません。
 
-<figure><img src="../.gitbook/assets/2024-08-22 22_19_41-JJazzLab  4.1.0a.png" alt=""><figcaption><p>You may add rhythm files only for the current session</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-08-22 22_19_41-JJazzLab  4.1.0a.png" alt=""><figcaption><p>現在のセッションに対してのみリズムファイルを追加できます</p></figcaption></figure>
 
 {% hint style="danger" %}
-If, **outside of JJazzLab**, you add or remove rhythm files in the rhythm directory structure, **you MUST manually force a rescan**, otherwise the added/removed files will not be taken into account.
+**JJazzLab以外** でリズムディレクトリ構造内のリズムファイルを追加または削除した場合、**必ず手動で再スキャンを強制実行してください**。そうしないと、追加/削除されたファイルが反映されません。
 {% endhint %}

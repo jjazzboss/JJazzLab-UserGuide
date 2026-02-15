@@ -1,17 +1,17 @@
-# Midi remote commands
+# MIDIリモートコマンド
 
-If you have a Midi controller connected to your computer, you can use it to control JJazzLab playback.
+コンピューターにMIDIコントローラーを接続すれば、それを使ってJJazzLabの再生をコントロールすることができます。
 
-For example you can start/pause the playback, or skip to the next song part, just by pressing a note on your piano keyboard.
+例えば、ピアノの鍵盤を押すだけで、再生を開始／一時停止したり、次のソングパートにスキップしたりすることができます。
 
 ![](<../.gitbook/assets/2023-12-31 21\_29\_45-Options.png>)
 
-Remote control via Midi IN is configured from the **Midi IN** panel of the **Options/Preferences**, as shown above.
+MIDI INによるリモートコントロールは、上記のように**ツール/設定**の**MIDI**パネルで設定します。
 
-By default each command is configured to be triggered by a specific incoming note. For example receiving a C1 note (Midi pitch=24) will trigger the play/pause command.&#x20;
+デフォルトでは、各コマンドは特定の入力音がきっかけになるように設定されています。例えば、C1ノート（MIDIピッチ=24）を受信すると、play/pauseコマンドがきっかけとなります。.&#x20;
 
-To configure a command with another note or with different incoming Midi messages, select the command and use **Midi Learn**.
+コマンドを別の音にしたり、または別のMIDIメッセージに設定するには、コマンドを選択し、**MIDI Learn**を使用します。
 
-Press the **Midi learn** button to put JJazzLab in a listening mode during a few seconds. Use this time to send the Midi messages which should trigger the command. For example, if you have a Midi keyboard and want to change the note, just press the note. If you have a Midi controller with pads, just activate the pad you want to use.
+**MIDI learn**ボタンを押すと、JJazzLabは数秒間リスニングモードになります。この時間を利用して、コマンドのきっかけとするMIDIメッセージを送信してください。例えば、MIDIキーボードがあって、ノートを変更したい場合は、ノートを押すだけでよいでしょう。パッド付きのMIDIコントローラーがある場合は、使いたいパッドをアクティベートするだけです。
 
-JJazzLab will display the Midi messages received which are now associated to the selected command. If Midi messages correspond to a single note, the note is displayed.
+JJazzLabは、選択したコマンドに関連する、受信したMIDIメッセージを表示します。MIDIメッセージが単音に対応している場合、その音が表示されます.

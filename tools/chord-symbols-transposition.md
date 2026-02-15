@@ -1,8 +1,8 @@
-# Chord symbols transposition
+# コード記号の移調
 
-If you play a transposing instrument (sax alto, sax tenor, flute alto, etc.), use this feature so that chord symbols are displayed transposed. The actual generated music is not changed.
+移調楽器（アルトサックス、テナーサックス、アルトフルートなど）を演奏する場合は、この機能を使用してコード記号を移調表示します。実際に生成する音楽は変更されません。
 
-Such transposed chord symbols appear in _italics_.
+移調されたコード記号は_斜体_で表示します。
 
 <figure><img src="../.gitbook/assets/ChordDisplayTranspose (2).png" alt=""><figcaption></figcaption></figure>
 

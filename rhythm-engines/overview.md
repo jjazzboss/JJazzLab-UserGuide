@@ -1,24 +1,24 @@
-# Rhythm engines overview
+# リズムエンジンの概要
 
-The **rhythms** are made available by **rhythm engines**.
+**リズム**は**リズムエンジン**によって生成されます。
 
-Thanks to its open-source and pluggable architecture, JJazzLab can host many different rhythm engines. If you’re a developer you can build your own quite easily!
+オープンソースかつプラグイン可能なアーキテクチャのおかげで、JJazzLabは様々なリズムエンジンをホストできます。開発者であれば、独自のエンジンを簡単に構築できます！
 
 ![](../.gitbook/assets/rhythmpluginsarchitecture.png)
 
-A rhythm engine has one or more **rhythm providers** which propose a list of supported rhythms and the supported **rhythm parameters**. You can see the list of all available **rhythm providers** in the **rhythm selection dialog**.
+リズムエンジンは、サポートするリズムのリストとサポートする**リズムパラメータ**を提案する1つ以上の**リズムプロバイダ**を備えています。利用可能なすべての**リズムプロバイダ**のリストは、**リズム選択ダイアログ**で確認できます。
 
 ![](../.gitbook/assets/rhythmgenerationengine.png)
 
-JJazzLab currently includes one rhythm engine, [YamJJazz](yamjjazz-rhythm-engine/), which is based on Yamaha styles. Its **rhythm parameters** are Variation, Intensity and Fill (other parameters such as Mute or Tempo Factor are generic and work with any rhythm).
+JJazzLabには現在、ヤマハスタイルを基にしたリズムエンジン[YamJJazz](yamjjazz-rhythm-engine/)が1つ含まれています。その**リズムパラメータ**はバリエーション、強度、フィルインです（ミュートやテンポなどの他のパラメータは汎用であり、どのリズムでも機能します）。
 
-## Future rhythm engines <a href="#future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
+## これからのリズムエンジン <a href="#future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
 
-Here some examples of what could be developed using the JJazzLab-X infrastructure.
+以下に、JJazzLab-Xインフラストラクチャを用いて開発可能なものの例を示します。
 
-* An AI-based jazz oriented engine with only one versatile rhythm which adapts to different contexts, like a real band (slow or fast tempo, walking bass or not, etc.).
-* A drum engine similar to the Logic Pro X virtual drummer
-* An engine able to adapt the backing track to a given melody
-* A “meta-engine” which lets you combine individual tracks from various rhythms (e.g. combine a hip-hop bass line with latin drums)
-* An engine able to read style files from Band-In-A-Box or other arranger keyboards such as Korg or Ketron
-* etc.
+* AIベースのジャズ指向エンジンで、たった1つの汎用リズムだけで様々な状況に適応。まるで本物のバンドのように（遅いテンポや速いテンポ、ウォーキングベースの有無など）。
+* Logic Pro Xのバーチャルドラマーに似たドラムエンジン
+* 与えられたメロディに合わせて伴奏トラックを適応させることができるエンジン
+* 様々なリズムの個別トラックを組み合わせられる「メタエンジン」（例：ヒップホップのベースラインとラテンドラムを組み合わせる）
+* Band-In-A-BoxやKorg、Ketronなどのアレンジャーキーボードからスタイルファイルを読み込めるエンジン
+* など

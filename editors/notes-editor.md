@@ -1,194 +1,197 @@
-# Notes editor
+# ノートエディター
 
-JJazzLab embeds a Midi notes editor which is used to [**edit user tracks**](notes-editor.md#edit-a-user-track) or [**song part custom phrases**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)**.**
+JJazzLabにはMIDIノートエディタが組み込まれており、[**ユーザートラック編集**](notes-editor.md#edit-a-user-track) や [**ソングパートのカスタムフレーズ編集**](notes-editor.md#edit-a-custom-phrase-for-a-song-part)で使用します。
 
-<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>Melodic track. Below is the velocity panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 11_01_51-JJazzLab  4.1.2.png" alt=""><figcaption><p>メロディトラック。下はベロシティパネル。</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>Drums track</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-01 00_06_53-JJazzLab  4.0.2.png" alt=""><figcaption><p>ドラムトラック</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>Below is the simplified score panel (non-editable)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-12-30 13_30_36-JJazzLab  4.1.2.png" alt=""><figcaption><p>下は簡略化されたスコア(編集不可)。</p></figcaption></figure>
 
-## Opening the notes editor
+{% hint style="warning" %}
+このスコアパネルは**簡略化された楽譜表記**を示しています：音符の位置はエディタ上の音符と一致させており、装飾は一切施されていません。
 
-### Edit a user track
+スコアパネルは**編集不可**です。&#x20;
+{% endhint %}
 
-The notes editor is automatically opened when you [add a user track](mix-console.md#adding-user-tracks). For existing user tracks, click the edit button in the track overview component, as shown below.&#x20;
+## ノートエディタを開く
+
+### ユーザートラック編集
+
+ノートエディターは、[ユーザートラックを追加](mix-console.md#adding-user-tracks)すると、自動的に開きます。 既存のユーザートラックについては、下記に示すようにトラック概要コンポーネント内の編集ボタンをクリックしてください。&#x20;
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Rhythm tracks can also be edited with the notes editor by cloning them first as a user track :
+リズムトラックは、最初にユーザートラックとして複製した後で、ノートエディタで編集することもできます：
 
 <figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-### Edit a Custom phrase for a song part
+### ソングパートのカスタムフレーズ編集
 
-In the song structure editor, click the top-left button of a Custom phrase rhythm parameter:
+ソングストラクチャーエディターで、カスタムフレーズリズムパラメータの左上ボタンをクリックしてください:
 
 <figure><img src="../.gitbook/assets/2024-01-05 12_40_44-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Then select the phrases you wish to customize and press Edit to open the notes editor.
+次に、カスタマイズしたいフレーズを選択し、「編集」を押してノートエディターを開きます。
 
 <figure><img src="../.gitbook/assets/2024-01-05 11_52_05-Customize phrases for song part _A_ - bars 1..8 (1).png" alt=""><figcaption></figcaption></figure>
 
-## Moving and zooming
+## 移動とズーム
 
-You can move the editor by pressing **ctrl + dragging** in the top ruler as shown below:
+下図のように、上部のルーラー上で**Ctrlキー＋ドラッグ**するとエディタを移動できます:
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_12_51-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-You can use the main application zoom sliders in the lower right corner, or use **ctrl+mouse-wheel** for horizontal zoom, **ctrl+shift+mouse-wheel** for vertical zoom.&#x20;
+メインアプリケーションの右下隅にあるズームスライダーを使用するか、水平方向のズームには**Ctrlキー＋マウスホイール**、垂直方向のズームには**Ctrlキー＋Shiftキー＋マウスホイール**を使用できます。&#x20;
 
-Use **ctrl-F** to zoom to fit width.
+**Ctrl+F** キーで幅に合わせて拡大表示します。
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_37_35-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Playback controls
+## 再生コントロール
 
-Use the toolbar button shown in the image below, or press **ctrl-shift-SPACE,** to play **in loop mode** the edited phrase, or the [playback loop zone](notes-editor.md#playback-loop-zone) if it is set.
+以下の画像に示すツールバーボタンを使用するか、**Ctrl+Shift+スペース**を押して、編集したフレーズ、または設定されている場合は[再生ループゾーン](notes-editor.md#playback-loop-zone)を**ループ再生モード**で再生します。
 
-<figure><img src="../.gitbook/assets/2024-05-16 22_49_35-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption><p>Start playback button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-05-16 22_49_35-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption><p>再生開始ボタン</p></figcaption></figure>
 
-Press **ctrl-SPACE** to start playback :
+**Ctrl+スペース**を押して再生を開始 :
 
-* from the [playback loop zone](notes-editor.md#playback-loop-zone) if it is set
-* from the bar of the first selected note
-* if no note selected, from the first visible bar
+* 設定されている場合、[再生ループゾーン](notes-editor.md#playback-loop-zone) から
+* 最初の選択された音符の小節から
+* 音符が選択されていない場合、最初に見える小節から
 
-Other controls:
+その他のコントロール:
 
-<div><figure><img src="../.gitbook/assets/NoteEditor-soloButton.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/NoteEditor-autoscroll.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/NoteEditor-Hear.png" alt=""><figcaption></figcaption></figure></div>
+<div>
+  <figure><img src="../.gitbook/assets/NoteEditor-soloButton.png" alt=""><figcaption><p>編集したフレーズのみを聴く</p></figcaption></figure>
+  <figure><img src="../.gitbook/assets/NoteEditor-autoscroll.png" alt=""><figcaption><p>再生中に自動スクロールする</p></figcaption></figure> 
+  <figure><img src="../.gitbook/assets/NoteEditor-Hear.png" alt=""><figcaption><p>選択した音符を聴く</p></figcaption></figure>
+</div>
 
-### Playback loop zone
+### 再生ループゾーン
 
-A playback loop zone can be set by **mouse dragging** in the top **ruler**. Use **shift+click** in the ruler to extend the loop zone. **Click** in the ruler to remove the loop zone.
+再生ループゾーンは、上部の**ルーラー**上で**マウスドラッグ**により設定できます。ルーラー上で**Shiftキー＋クリック**するとループゾーンを拡張できます。ルーラー上で**クリック**するとループゾーンを解除できます。
 
 <figure><img src="../.gitbook/assets/2024-05-16 22_47_02-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
-Use the toolbar button (see above) of press **ctrl-shift-spac**e to start playing the loop zone.
+ツールバーのボタン（上記参照）または **Ctrl+Shift+スペース** キーを押して、ループゾーンの再生を開始します。
 
-## Snap to grid
+## グリッドにスナップ
 
-Use the **Snap to grid** button (or press **G**) to snap notes to the grid when you draw/move/resize them. The size of the grid can be set using the drop-down list (1/4=quarter note, 1/8=quaver, ...):
+**Snap to grid**ボタン（または**G**キーを押す）を使用すると、音符の描画/移動/サイズ変更時にグリッドにスナップできます。グリッドのサイズはドロップダウンリスト(1/4=四分音符, 1/8=八分音符, ...)で設定可能です。 :
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_20_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-When you move or resize notes with the **Select tool**, you can temporarily reverse the "snap to grid" setting by pressing **alt**.
+**Select tool**で音符の移動やサイズ変更を行う際、**alt**キーを押すと一時的に「グリッドにスナップ」設定を無効にできます.
 {% endhint %}
 
-To change the position of existing notes, use [Quantize](notes-editor.md#quantize-notes).
+既存の音符の位置を変更するには、[Quantize](notes-editor.md#quantize-notes)を使います。
 
-## Edit tools
+## 編集ツール
 
-You can use 3 tools to modify notes: **select tool**, **draw tool**, **erase tool**. The 2 first edit tools are sensitive to the [snap to grid](notes-editor.md#snap-to-grid) settings.
+ノートを編集するには3つのツールが使用できます：**選択（select)ツール**、**描画(draw)ツール**、**消去(erase)ツール**。最初の2つの編集ツールは[グリッドにスナップ](notes-editor.md#snap-to-grid)設定の影響を受けます。.
 
-Tools can be selected using buttons from the notes editor top toolbar, or by right-clicking in the editor:
+ツールは、ノートエディターのトップツールバーにあるボタンから選択するか、エディター内で右クリックすることで選択できます。:
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_14_25-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Use the **select tool** to select, move, resize, copy/cut (**ctrl-C/X**), delete notes (press **Delete**).&#x20;
+**選択ツール**を使用して、音符の選択、移動、サイズ変更、コピー/切り取り（**Ctrl+C/X**）、削除（**Delete**キーを押す）を行います。&#x20;
 
-Use **ctrl-V** to paste notes.
+**Ctrl+V** キーで音符を貼り付けますs.
 
 {% hint style="danger" %}
-How to control at which position notes are pasted ?
+音符を貼り付ける位置をコントロールする方法とは？
 
-* If a note is selected, the first pasted note is aligned with that selected note
-* If no notes selected, the first pasted note is aligned to the left side of the notes editor
+* 音符を選択している場合、最初に貼り付けた音符はその選択している音符に揃います
+* 音符を選択していない場合、最初に貼り付けた音符はノートエディタの左側に揃えられます
 
-The new pasted notes are automatically selected, so you can move them to the appropriate position if required.
+新しく貼り付けたメモは自動的に選択されるため、必要に応じて適切な位置に移動できます。
 {% endhint %}
 
-**Drag** to select several notes. Use **ctrl-drag** notes to duplicate notes. **ctrl-shift-I** invert the notes selection.
+**ドラッグ**で複数の音符を選択します。**Ctrlキーを押しながらドラッグ**すると音符を複製できます。**Ctrl+Shift+I**で音符の選択範囲を反転します。
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_25_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-Use the **draw tool** to draw notes, and the **erase tool** to erase notes.
+**描画ツール**で音符を描き、**消去ツール**で音符を消去します。
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_16_08-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-## Changing notes velocity
+## ノートベロシティの変更
 
-Notes color vary with their velocity. There are several way to change notes velocity, as shown below.
+音符の色はベロシティによって変化します。音符のベロシティを変更する方法はいくつかあり、以下に示します。
 
-#### Using the main editor panel
+#### メインエディタパネルの使用
 
-First select the notes to change. Then either use the velocity spinner in the toolbar, or use **alt + mouse-wheel** or **alt + page up/down**.
+まず変更する音符を選択します。次に、ツールバーのベロシティスピナーを使用するか、**Altキー + マウスホイール** または **Altキー + Page Up/Down** を使用します。
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_29_11-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-#### Using the velocity panel
+#### ベロシティパネルの使用
 
-**Click** or **mouse-drag** on notes to adjust their velocity.
+音符を**クリック**または**マウスドラッグ**してベロシティを調整します。
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_04_48-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
-## Quantize & humanize notes
+## 音符のクォンタイズとヒューマナイズ
 
-Use the **Quantize** button or press **Q** to move the selected notes start position on the current grid. If no note selected, all notes are quantized.
+**Quantize**ボタンを使用するか、**Q**キーを押して、選択した音符の開始位置を現在のグリッドに移動します。音符が選択されていない場合、すべての音符がクオンタイズされます。
 
-Check the **Iterative** box to perform iterative quantize : notes are gradually moved towards the grid. This is usually recommended to avoid a too mechanical sound.
+クォンタイズの反復を実行するには、**反復(Iterative)**チェックボックスを選択してください：音符が徐々にグリッド方向へ移動します。機械的なサウンドを避けるため、通常はこの方法が推奨されます。
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_28_31-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-You can also **humanize** all or selected notes. Humanization introduces slight random variations in the notes start position and velocity. Use the **Humanize** button on the left, or press **ctrl-H** to show the Humanize dialog.
+すべての音符または選択した音符を**ヒューマナイズ(humanize)**することもできます。ヒューマナイズは、音符の開始位置とベロシティにわずかなランダムな変化を加えます。左側の**humanize**ボタンを使用するか、**Ctrl+H**を押してヒューマナイズダイアログを表示してください。
 
 <figure><img src="../.gitbook/assets/2024-05-16 23_10_38-JJazzLab  4.0.3-SNAPSHOT.png" alt=""><figcaption></figcaption></figure>
 
-Once you clicked the Humanize button, you can adjust the humanization parameters and see the different results.
+「Humanize」ボタンをクリックすると、ヒューマナイズパラメータを調整し、異なる結果を確認できます。
 
-#### Example
+#### 例
 
-This bass line is very uniform: all notes have the same velocity and are quantized. This sounds too "robotic".
+このベースラインは非常に均一です：すべての音符が同じベロシティで、クオンタイズされています。これはあまりにも「ロボット的」に聞こえます。
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_40_40-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
-We can use the Humanize dialog to improve this, as shown below.
+以下に示すように、ヒューマナイズダイアログを使用してこれを改善できます。
 
 <figure><img src="../.gitbook/assets/2024-12-30 11_41_33-JJazzLab  4.1.2.png" alt=""><figcaption></figcaption></figure>
 
-## Simplified score panel
+## 音符のインポート
 
-This panel shows a **simplified musical notation:** notes positions are just aligned with the editor notes, without any embellishment.&#x20;
+外部MIDIファイルをエディターにドラッグすることで音符をインポートできます。また、ミックスコンソールの個別トラックからもドラッグできます。
 
-The score panel is **NOT** editable.&#x20;
-
-<figure><img src="../.gitbook/assets/ScorePanel.png" alt=""><figcaption><p>Simplified score panel below the piano roll</p></figcaption></figure>
-
-Use the **Octave** display transposition if notes are too low or too high to be seen in the score panel. This only impacts the display in the panel, notes are not actually transposed.&#x20;
-
-## Importing notes
-
-You can import notes by dragging an external Midi file into the editor. You can also drag from an individual track in the mix console.
-
-<figure><img src="../.gitbook/assets/2023-12-31 22_54_43-JJazzLab  4.0.2.png" alt=""><figcaption><p>Importing a Midi file in the editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 22_54_43-JJazzLab  4.0.2.png" alt=""><figcaption><p>エディタでMIDIファイルをインポート</p></figcaption></figure>
 
 {% hint style="warning" %}
-If the imported Midi file contains notes from several Midi channels, then JazzLab **only imports the notes which match the editor Midi channel.**&#x20;
+インポートしたMIDIファイルに複数のMIDIチャンネルからの音符が含まれている場合、JazzLabは**エディタのMIDIチャンネルと一致する音符のみをインポートします。**&#x20;
 
-If the imported Midi file only contains notes from a single channel, then JJazzLab imports the notes with the channel updated to the editor Midi channel.
+インポートされたMIDIファイルが単一チャンネルの音符のみを含む場合、JJazzLabは音符をインポートし、チャンネルをエディタのMIDIチャンネルに更新します。
 {% endhint %}
 
-## Mouse shortcuts
+## マウスショートカット
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Notes</td><td>ctrl-click </td><td>select multiple notes</td></tr><tr><td>Editor</td><td>drag</td><td>select multiple notes</td></tr><tr><td>Notes</td><td>drag</td><td>move/resize</td></tr><tr><td>Notes</td><td>ctrl-drag</td><td>duplicate notes</td></tr><tr><td>Notes</td><td>alt-drag</td><td>move/resize with snap-to-grid setting reversed</td></tr><tr><td>Notes</td><td>alt-wheel</td><td>change velocity</td></tr><tr><td>Editor</td><td>wheel</td><td>move editor up down</td></tr><tr><td>Editor</td><td>shift mouse-wheel</td><td>movbe editor left right</td></tr><tr><td>Editor</td><td>ctrl mouse-wheel</td><td>zoom in/out horizontally</td></tr><tr><td>Editor</td><td>ctrl-shift mouse-wheel</td><td>zoom in/out vertically</td></tr><tr><td>Editor</td><td>ctrl-drag</td><td>Move editor</td></tr><tr><td>Ruler</td><td>drag</td><td>set playback loop zone</td></tr><tr><td>Ruler</td><td>shift-click</td><td>extend playback loop zone</td></tr><tr><td>Ruler</td><td>click</td><td>remove playback loop zone</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">選択箇所</th><th>マウス</th><th>動作</th></tr></thead><tbody><tr><td>音符</td><td>ctrl + クリック </td><td>複数音符を選択</td></tr><tr><td>エディター</td><td>ドラッグ</td><td>複数音符を選択</td></tr><tr><td>音符</td><td>ドラッグ</td><td>移動/サイズ変更</td></tr><tr><td>音符</td><td>ctrl + ドラッグ</td><td>音符をコピー</td></tr><tr><td>音符</td><td>alt + ドラッグ</td><td>移動/グリッドスナップ設定を反転した状態でのサイズ変更</td></tr><tr><td>音符</td><td>alt + マウスホイール</td><td>ベロシティ変更</td></tr><tr><td>エディター</td><td>マウスホイール</td><td>エディター上下移動</td></tr><tr><td>エディター</td><td>shift + マウスホイール</td><td>エディター左右移動</td></tr><tr><td>エディター</td><td>ctrl + マウスホイール</td><td>水平方向ズームイン/アウト</td></tr><tr><td>エディター</td><td>ctrl-shift + マウスホイール</td><td>垂直方向ズームイン/アウト</td></tr><tr><td>エディター</td><td>ctrl + ドラッグ</td><td>エディター移動</td></tr><tr><td>ルーラー</td><td>ドラッグ</td><td>再生ループゾーンを設定</td></tr><tr><td>ルーラー</td><td>shift + クリック</td><td>再生ループゾーンを拡張</td></tr><tr><td>ルーラー</td><td>click</td><td>再生ループゾーンを削除</td></tr></tbody></table>
 
-## Keyboard shortcuts
 
-| Selection | Key              | Action                                                   |
+
+
+## キーボードショートカット
+
+| 選択箇所 | キーボード              | 動作                                                   |
 | --------- | ---------------- | -------------------------------------------------------- |
-| Notes     | alt-up/down      | change velocity                                          |
-| Notes     | ctrl-C/X/V       | copy/cut/paste notes                                     |
-| Notes     | delete           | delete notes                                             |
-| Notes     | ctrl-shift-I     | invert notes selection                                   |
-| Notes     | ctrl-H           | open humanize dialog                                     |
-| Notes     | Q                | quantize selected notes (or all no selection)            |
-| Editor    | ctrl-F           | zoom to fit notes                                        |
-| Editor    | G                | snap-to-grid                                             |
-| Editor    | A                | auto-scroll during playback                              |
-| Editor    | S                | solo the edited phrase                                   |
-| Editor    | H                | hear the selected notes                                  |
-| Editor    | Home/End         | Move editor to start/end                                 |
-| Editor    | ctrl-shift-space | play the loop zone (if set) or whole phrase              |
-| Editor    | ctrl-space       | play from loop zone (if set) or from first selected note |
-| Editor    | ctrl-Z/Y         | undo/redo                                                |
+| 音符      | alt-up/down      | ベロシティ変更                                          |
+| 音符      | ctrl-C/X/V       | 音符のコピー/切り取り/貼り付け                                     |
+| 音符      | delete           | 音符を削除                                             |
+| 音符      | ctrl-shift-I     | 選択した音符を反転                                   |
+| 音符      | ctrl-H           | ヒューマナイズダイアログを開く                                     |
+| 音符      | Q                | 選択した音符 (もしくは選択なしで全音符) のクオンタイズ           |
+| エディター| ctrl-F           | 音符に適応するようにズーム                                        |
+| エディター| G                | グリッドにスナップ                                             |
+| エディター| A                | 再生中の自動スクロール                              |
+| エディター| S                | 編集中のフレーズのソロ                                   |
+| エディター| H                | 選択した音符を聴く                                  |
+| エディター| Home/End         | エディターを最初/終わりに移動                                 |
+| エディター| ctrl-shift-スペース | ループゾーン（設定されている場合）またはフレーズ全体を再生する              |
+| エディター| ctrl-スペース       | ループゾーン（設定されている場合）から再生、または最初に選択された音符から再生 |
+| エディター| ctrl-Z/Y         | 元に戻す/やり直し                                                |

@@ -1,48 +1,47 @@
 ---
-description: The ultimate style for practicing jazz standards with a natural feel
+内容：ジャズスタンダードを練習するための究極のスタイル
 ---
 
-# jjSwing rhythm engine
+# jjSwingリズムエンジン
 
-**jjSwing**'s unique features are:
+**jjSwing**の特徴は以下の通りです：
 
-* A **realistic walking bass with melodic lines**
-* Swing feel automatically adjusts to the tempo
-* 11 drums variations (brushes, hi-hat, ride, shuffle)
-* Double-time capability (play twice as fast with chord changes at original tempo)
-* The possibility to adjust bass and drums independently
+* テンポにより自動調整する**リアルなウォーキングベースとメロディックライン**
+* 11種類のドラムバリエーション（ブラシ、ハイハット、ライド、シャッフル）
+* ダブルタイム機能（元のテンポでコード進行を維持しながら2倍速で演奏）
+* ベースとドラムを個別に調整する機能
 
 {% hint style="danger" %}
-jjSwing is optimized to work with the internal [FluidSynth ](../sounds/using-fluidsynth.md)as output synth. If you use a different output synth, you might hear weird sounds.
+jjSwingは内部の[FluidSynth](../sounds/using-fluidsynth.md)をシンセ出力として動作するよう最適化しています。別のシンセ出力を使用すると、奇妙な音が聞こえる可能性があります。
 {% endhint %}
 
-Note that current jjSwing version only supports 4/4 time signature. Jazz waltz support will be added later.
+現在のjjSwingバージョンは4/4拍子のみをサポートしていることに注意してください。ジャズワルツのサポートは後日追加されます。
 
 {% embed url="https://www.youtube.com/watch?v=NZ3VC5GcdiA" %}
 
-## Rhythm parameters
+## リズムパラメータ
 
-jjSwing has 2 specific rhythm parameters, bass style and drums style.
+jjSwingには2つの特定のリズムパラメータとして、ベーススタイルとドラムスタイルがあります。
 
-### Bass style
+### ベーススタイル
 
-Possible values are shown in the image below.
+可能な値を下の画像で示します。
 
 <figure><img src="../.gitbook/assets/jjSwing-bassStyle.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="135">Bass style</th><th>Description</th></tr></thead><tbody><tr><td>auto</td><td>Actual bass style depends on the rhythm variation (e.g. Main A-1)</td></tr><tr><td>2-feel</td><td>Walking in two</td></tr><tr><td>walking</td><td>Walking bass</td></tr><tr><td>double-note</td><td>Walking bass with many double notes (repeated notes)</td></tr><tr><td>double-time</td><td>Walking bass played twice as fast while preserving chord changes at original tempo. This should be used when Drums style is also set to double-time.</td></tr><tr><td>intro</td><td>To be used with rhythm variation Intro A</td></tr><tr><td>ending</td><td>To be used with rhythm variation Ending A</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140">ベーススタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のベーススタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>2-feel</td><td>2拍のウォーキングベース</td></tr><tr><td>walking</td><td>ウォーキングベース</td></tr><tr><td>double-note</td><td>多くのダブルノート（繰り返される音）を含むウォーキングベース</td></tr><tr><td>double-time</td><td>ウォーキングベースを2倍速で演奏しつつ、コード進行は元のテンポで維持。ドラムスタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Drums style
+### ドラムスタイル
 
-Possible values are shown in the image below.
+可能な値を下の画像で示します。
 
 <figure><img src="../.gitbook/assets/jjSwing-drumsStyle.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="135">Drums style</th><th>Description</th></tr></thead><tbody><tr><td>auto</td><td>Actual drums style will depend on the rhythm variation (e.g. Main A-1)</td></tr><tr><td>brushes 1/2</td><td>2 different brushes-based drums</td></tr><tr><td>hi-hat 1/2</td><td>2 different hi hat-based drums</td></tr><tr><td>ride 1/2/3/4</td><td>4 different ride cymbal-based drums</td></tr><tr><td>shuffle 1/2</td><td>2 different 12/8-based drums</td></tr><tr><td>double</td><td>Drums played twice as fast while preserving chord changes at original tempo. This should be used when Bass style is also set to double-time.</td></tr><tr><td>intro</td><td>To be used with rhythm variation Intro A</td></tr><tr><td>ending</td><td>To be used with rhythm variation Ending A</td></tr></tbody></table>
+<table><thead><tr><th width="140">ドラムスタイル</th><th>説明</th></tr></thead><tbody><tr><td>auto</td><td>実際のドラムスタイルはリズムバリエーションによる（例：Main A-1）</td></tr><tr><td>brushes 1/2</td><td>2種類のブラシベースのドラム</td></tr><tr><td>hi-hat 1/2</td><td>2種類のハイハットベースのドラム</td></tr><tr><td>ride 1/2/3/4</td><td>4種類のライドシンバルベースのドラム</td></tr><tr><td>shuffle 1/2</td><td>2種類の異なる12/8拍子ベースのドラム</td></tr><tr><td>double</td><td>ドラムを倍速で演奏されつつ、コード進行は元のテンポで維持。ベーススタイルもダブルタイムに設定されている場合に使用</td></tr><tr><td>intro</td><td>リズムバリエーションIntro Aで使用</td></tr><tr><td>ending</td><td>リズムバリエーションEnding Aで使用</td></tr></tbody></table>
 
-## Settings
+## 設定
 
-jjSwing settings are available in the Options/Rhythms tab or in the Rhythm selection dialog, when you select the **jjSwing styles** rhythm provider, as shown below.
+jjSwingの設定は、設定/Rhythms、またはリズム選択ダイアログ(Rhythm selection dialog)で利用可能です。**jjSwing styles**リズムプロバイダーを選択すると、以下のように表示されます。
 
 <figure><img src="../.gitbook/assets/jjSwing-SettingsButton.png" alt=""><figcaption></figcaption></figure>
 

@@ -1,69 +1,70 @@
-# Installation instructions
+# インストール方法
 
 ## Windows
 
-Download and run the setup program at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download), which embeds everything you need.
+セットアッププログラムを[https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download)でダウンロードして起動してください。必要なものは全て含まれています。
+
 
 {% hint style="warning" %}
-If you get a **Windows Smart Screen** alert
+もし、 **Windows Smart Screen** 警告が出たら
 
 <img src=".gitbook/assets/win10smartscreen.png" alt="" data-size="original">&#x20;
 
-Windows Smart Screen blocks the program NOT because it is a malware (it is NOT!), but just because JJazzLab is new, so Windows security servers don't have enough statistics to evaluate its "security reputation".
+Windows Smart Screenがプログラムをブロックするのは、JJazzLabがマルウェアだからではなく（マルウェアではありません！）、JJazzLabが新しいプログラムであるために、Windowsのセキュリティサーバーがその「セキュリティの評判」を評価するのに十分な統計情報を持っていないからです。
 
-Once enough users will have successfully downloaded and installed it, Windows Smart Screen will not block the program anymore.
+十分な数のユーザーがJJazzLabのダウンロードとインストールに成功すれば、Windows Smart Screenはプログラムをブロックしなくなります。
 
-You can find more explanations in this [good article](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work).
+より詳しい説明はこちらの [優良記事](https://www.digitalcitizen.life/what-smartscreen-filter-how-does-it-work)をご覧ください。
 {% endhint %}
 
 {% hint style="info" %}
-If you don't have admin rights on your computer, choose **Install for me only** during setup
+管理者権限がない場合は、 **Install for me only** をセットアップ中に選んでください。
 {% endhint %}
 
 ## MacOS
+最初にFluidSynthを手動でインストールする必要があります。
 
-You need to manually install FluidSynth first.
+#### 1/ [FluidSynth](https://github.com/FluidSynth/fluidsynth/wiki/Download)のインストール (2.2.&#x30;以降**、 ただしバグがある2.4.4は避けるように**)
 
-#### 1/ install [FluidSynth](https://github.com/FluidSynth/fluidsynth/wiki/Download) (>=2.2.&#x30;**, but avoid 2.4.4 which has a bug**)
+とてもお勧めなのは、[Homebrew](https://brew.sh/): `brew install fluidsynth`でのインストールです。
 
-I strongly recommend via [Homebrew](https://brew.sh/): `brew install fluidsynth`
+#### 2/ JJazzLabパッケージのダウンロードとインストール
 
-#### 2/ Download a JJazzLab package and install it
+_Apple Mx プロセッサーのMacコンピューター:_
 
-_Mac computers with Apple Mx processor:_
-
-Download the .pkg file at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and open it.
+.pkgファイルを[https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) でダウンロードし、開いてください。
 
 {% hint style="danger" %}
-If you get a **security alert**
+もし、**security alert**が出たら
 
-To open the .pkg file anyway, go to your computer **Systems settings/Privacy & Security**, scroll-down to the **Open anyway** button corresponding to the JJazzLab package, as explained in this [**Apple online doc**](https://support.apple.com/en-us/102445).
+.pkgファイルを強制的に開くには、お使いのコンピュータの**システム設定/プライバシーとセキュリティ**に移動し、JJazzLabパッケージに対応する**Open anyway**ボタンまでスクロールダウンしてください。ここ [**Apple online doc**](https://support.apple.com/en-us/102445)に説明があります。
 {% endhint %}
 
-_Mac computers with Intel x64 processor:_
+_Intel x64 プロセッサーのMacコンピューター:_
 
-.pkg files are not always supported on old MacOS versions, so we propose a .zip file, a basic solution but compatible with many MacOS versions.
+.pkgファイルは古いMacOSバージョンでは必ずしもサポートされないため、.zipファイルをお勧めします。基本的な解決策ではありますが、多くのMacOSバージョンと互換性があります。
 
-* Download the .zip file at  [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract it (open file with Finder)
-* Execute file `bin/jjazzlab` to start JJazzLab.
+* .zipファイルを[https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download)でダウンロードし、解凍してください(Finderでファイルを開く)
+* `bin/jjazzlab`でファイル実行し、JJazzLabを起動してください。
 
 {% hint style="danger" %}
-If JJazzLab does not start,  **make sure that files** `bin/jjazzlab` and `jdk/bin/java` have **read** and **execution** permission ('`xr`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)<br>
+JJazzLabが起動しない場合、以下の通り ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)、`bin/jjazzlab`と`jdk/bin/java`の行い、**読み取り**と**実行権限** ('`xr`')が付与されていることを**ファイル確認**してください。<br>
 
-To fix file permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
+JJazzLabが起動しない場合、以下の通りbin/jjazzlabとjdk/bin/javaファイルに読み取りと実行権限('`xr`')が付与されていることを確認してください。
+ファイルの権限を修正するには: `chmod a+rx bin/jjazzlab jdk/bin/java`
 {% endhint %}
 
 ## Linux
 
 {% hint style="danger" %}
-If FluidSynth makes some "crackling" noise, make sure your Linux is optimized for audio applications: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux_rt_config.html)
+FluidSynthが"パチパチ"とノイズを発生する場合、Linuxがオーディオアプリケーション用に最適化されていることを確認してください: [https://jackaudio.org/faq/linux\_rt\_config.html](https://jackaudio.org/faq/linux_rt_config.html)
 {% endhint %}
 
-### Using deb/rpm packages
+### deb/rpm パッケージを使う
 
-JJazzLab packages are only proposed in selected formats (.deb, .rpm, ...).&#x20;
+JJazzLabパッケージは、特定のフォーマット(.deb, .rpm, ...)でのみ提供されます 。&#x20;
 
-Download the relevant package for your distro  at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download), then open it with the relevant package manager (examples below) :
+お使いのディストリビューションに対応するパッケージを[https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download)でダウンロードして、対応するパッケージマネージャーで開いてください。(下に例) :
 
 ```bash
 sudo apt-get install ./jjazzlab_4.0.2-1_amd64.deb
@@ -78,39 +79,39 @@ sudo zypper install ./jjazzlab-4.0.2-0.x86_64.rpm
 ```
 
 {% hint style="success" %}
-JJazzLab packages declare a dependency on an appropriate FluidSynth package. So the package manager should automatically install it if it's not already present on your system.
+JJazzLabパッケージは、適切なFluidSynthパッケージへの依存関係を宣言します。したがって、システムにまだインストールされていない場合、パッケージマネージャーが自動的にインストールするはずです。
 {% endhint %}
 
-### Using the tar.xz package&#x20;
+### tar.xz パッケージを使う&#x20;
 
-The `.tar.xz` package should work on any Linux distro (x64).
+`.tar.xz`パッケージは配布しているどんなLinux(x64)でも動作するはずです。
 
-1. &#x20;Install FluidSynth (**>=2.2.0, but avoid 2.4.4 which has a bug**) manually: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
-2. Download at [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download) and extract the JJazzLab .tar.xz file, e.g\
+1. &#x20;FluidSynth (**>=2.2.&#x30;以降、 ただしバグがある2.4.4は避けるように**)を手動でインストールする: [https://github.com/FluidSynth/fluidsynth/wiki/Download](https://github.com/FluidSynth/fluidsynth/wiki/Download)
+2. [https://www.jjazzlab.org/en/download](https://www.jjazzlab.org/en/download)でダウンロードし、JJazzLab .tar.xzファイルを解凍する。
    `tar -xf JJazzLab-4.0.2-linux-x64.tar.xz`
-3. **Make sure** **that all extracted files** have **read permission** ('`r`'), and that `bin/jjazzlab` and `jdk/bin/java` have **execution permission** ('`x`'), as shown below:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
-   To add read+execution permissions: `chmod a+rx bin/jjazzlab jdk/bin/java`
-4. Run`bin/jjazzlab`
+3. **要確認** **解凍した全てのファイル** に **読み取り権限** ('`r`')があり、`bin/jjazzlab`と`jdk/bin/java`に**実行権限** ('`x`')があること。以下の通り:  ![](<.gitbook/assets/2024-01-03 11_38_13-Ubuntu22LTS \[Running] - Oracle VM VirtualBox.png>)\
+   読み取り+実行権限を付与するには: `chmod a+rx bin/jjazzlab jdk/bin/java`
+4. `bin/jjazzlab`を実行する
 
-#### Special case: `libfluidsynth.so.3` in a non-standard directory
+#### 特別な事例: `libfluidsynth.so.3`が標準的でないディレクトリにある
 
-On Linux, JJazzLab uses FluidSynth via its shared library `libfluidsynth.so.3` (or `libfluidsynth.so`). The file is expected to be in one of the standard directories:\
+Linuxでは、JJazzLabは共有ライブラリ`libfluidsynth.so.3`（または`libfluidsynth.so`）を介してFluidSynthを使用します。このファイルは標準ディレクトリのいずれかに存在することが想定されています。
 `/usr/lib/x86_64-linux-gnu, /usr/lib, /usr/lib64, /usr/local/lib, /lib`
 
-If you successfully installed FluidSynth (**>=2.2.0, but avoid 2.4.4 which has a bug**) but JJazzLab can't load FluidSynth, it's possible that `libfluidsynth.so.3` was installed in a non-standard directory. Once you found the file location (for example in `/tmp/lib/libfluidsynth.so.3`), you can tell JJazzLab where to find it:
+FluidSynth (**>=2.2.&#x30;以降、ただしバグがある2.4.4は避けるように**) がうまくインストールに成功したにもかかわらず、JJazzLabがFluidSynthを読み込めない場合、`libfluidsynth.so.3`が標準以外のディレクトリにインストールされている可能性があります。ファイルの場所（例：`/tmp/lib/libfluidsynth.so.3`）を確認したら、JJazzLabにその場所を指定できます。
 
-* In the JJazzLab installation directory, edit file `etc/jjazzlab.conf`
-* Add `-J-Dfluidsynthlib.path=/tmp/lib/libfluidsynth.so.3` at the end of the `default_options` variable
-* Start JJazzLab
+* JJazzLabのインストールディレクトリで、ファイル`etc/jjazzlab.conf`を編集してください。
+* `default_options`変数の末尾に `-J-Dfluidsynthlib.path=/tmp/lib/libfluidsynth.so.3` を追加してください。
+* JJazzLabを起動します。
 
 {% hint style="danger" %}
-JJazzLab embeds its own Java Runtime Engine. You don't have to deal with Java at all. Trying to use a different JRE/JDK will certainly generate problems.
+JJazzLabは独自のJavaランタイムエンジンを組み込んでいます。Javaを一切扱う必要はありません。別のJRE/JDKを使用しようとすると、確実に問題が発生します。
 {% endhint %}
 
-### Using flatpak
+### flatpakを使う
 
 {% hint style="danger" %}
-The Flatpak package is **NOT** a JJazzLab official package, it is kindly provided by a JJazzLab user. Therefore **we do not provide support for it**. If you encounter problems, please try the other packages proposed on this page.
+このFlatpakパッケージはJJazzLab公式パッケージでは**ありません**。JJazzLabユーザーの方からご提供いただいているものです。そのため、**サポートは提供しておりません**。問題が発生した場合は、このページで提案されている他のパッケージをお試しください。
 {% endhint %}
 
 [https://flathub.org/apps/org.jjazzlab.JJazzLab](https://flathub.org/apps/org.jjazzlab.JJazzLab)

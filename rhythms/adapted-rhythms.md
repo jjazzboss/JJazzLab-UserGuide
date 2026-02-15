@@ -1,9 +1,9 @@
-# Adapted rhythms
+# 適応リズム
 
-If you change the time signature of a[ section](../editors/chord-lead-sheet.md#sections-input), JJazzLab will use an **adapted rhythm** for the impacted [song parts](../editors/song-structure.md#song-parts). This is simply the same rhythm but shortened or repeated to fit the new measure size.
+[セクション](../editors/chord-lead-sheet.md#sections-input)の拍子記号を変更すると、JJazzLabは影響を受ける[ソングパート](../editors/song-structure.md#song-parts)に対して**適応リズム**を使用します。これは単に同じリズムを短縮または繰り返し、新しい小節サイズに合わせるものです。
 
 ![](../.gitbook/assets/adaptedrhythmexample.png)
 
-You’ll notice that the **adapted rhythm** does not need additional channels in the mix console: it uses the Midi channels of its source rhythm (**fastbossa.s629.prs** in the example above).
+**適応リズム**は、ミキシングコンソールで追加のチャンネルが不要であることに気づくでしょう：これは元のリズム（上記の例では**fastbossa.s629.prs**）のMIDIチャンネルを使用します。
 
-If you don’t want the **adapted rhythm**, juste replace it using the [rhythm selection dialog](../editors/song-structure.md#change-rhythm).
+**適応リズム**が要らない場合は、[リズム選択ダイアログ](../editors/song-structure.md#change-rhythm)を使用して置き換えてください。
