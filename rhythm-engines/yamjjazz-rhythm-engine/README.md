@@ -1,8 +1,8 @@
-# YamJJazzリズムエンジン
+# YamJJazz rhythm engine
 
-JJazzLabは **YamJJazz** リズム生成エンジンを組み込んでいます。このエンジンは[ヤマハスタイル](yamaha-styles.md)を読み込み、既存のヤマハスタイルファイルにさらなるバリエーションを追加する新しい[拡張ヤマハスタイル](extended-yamaha-styles.md)フォーマットを導入します。
+JJazzLab embeds the **YamJJazz** rhythm generation engine. This engine reads [Yamaha styles](yamaha-styles.md) and introduces a new [extended Yamaha style](extended-yamaha-styles.md) format which adds more variations to existing Yamaha style files.
 
-リズム選択ダイアログで利用可能な2つのYamJJazz **rhythm providers** を以下に示します。
+You can see below the 2 YamJJazz **rhythm providers** available in the rhythm selection dialog.
 
 ![](../../.gitbook/assets/yamjjazzrhythmproviders.png)
 

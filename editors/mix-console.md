@@ -1,146 +1,146 @@
-# ミックスコンソール
+# Mix console
 
-**ミックスコンソール** の使い方
+Use the **mix console** to:
 
-* 楽器の変更
-* チャンネル設定の調整：音量、リバーブ、コーラス、パン、移調、ベロシティオフセット
-* チャンネルをミュートまたはソロにする
-* ユーザートラックを追加する
-* .mixファイルの読み込み/保存
-* さらに：MIDIチャンネルの変更、特殊なMIDIコマンドの使用、MIDIファイルへのエクスポートなど。
+* Change the instruments
+* Adjust channel settings: volume, reverb, chorus, panoramic, transposition, velocity offset
+* Mute or solo channels
+* Add user tracks
+* Load/save .mix file
+* And more: change Midi channel, use special Midi commands, export to Midi file, etc.
 
-JJazzLabは、**ミックスコンソール**の情報を使用して、関連するMIDIメッセージをシンセ出力に送信します。これは、ミックスコンソールで変更を加えるたびに、または再生を開始するたびに実行されます。
+JJazzLab uses the **mix console** information to send the relevant Midi messages to the output synth. This is done each time you make a change in the mix console, or when you start the playback.
 
 {% hint style="danger" %}
-MIDIには16のMIDIチャンネルしかありません。そのため、通常1曲に2つ以上のリズムトラックを配置することはできません。
+Midi has only 16 Midi channel&#x73;**.** That's why usually a song can't have more than 2 rhythms.
 {% endhint %}
 
 ![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
 
-各ミックスコンソールのトラックには、トラックの音を表す下部の **overview component**があります。
+Each mix console track has a bottom **overview component** that represent the track notes.
 
-## ミックスコンソールツールバー
+## Mix console toolbar
 
 ![](../.gitbook/assets/MixConsoleToolbar.png)
 
-* **Master volume**: MIDI音量を増減します。
-* **M**: すべてのトラックでミュートまたはミュート解除します。
-* **S**: ソロトラック以外すべてをオフにします。
-* **Panic**: MIDIパニックメッセージを送信し、すべてのノートをOFFに切り替えます。
-* **Add a User track**: 下の[ユーザートラック](mix-console.md#user-tracks)を参照してください。
+* **Master volume**: this increase or lower the Midi volume messages
+* **M**: Mute or Unmute all tracks
+* **S**: Switch off all Solo tracks
+* **Panic**: Send a Midi Panic message, switching all notes OFF
+* **Add a User track**: see [User tracks](mix-console.md#user-tracks) below.
 
-## ミックスコンソールメニューバー
+## Mix console menu bar
 
-### File
+### Menu File
 
 *   **Load/Save Default Rhythm Mix** &#x20;
 
-    現在のソングミックスを、デフォルトのリズムミックスファイルを読み込むことで更新します。
-    現在のソングミックスをデフォルトのリズムミックスファイルとして保存することもできます。これにより、同じリズムを使用する曲を作成するたびに、デフォルトでこのファイルが再利用されます。 詳しいことはこちら[default rhythm mix files](../songs/song-and-mix-files.md#default-rhythm-mix)で。
+    Update the current song mix by loading the default rhythm mix file. \
+    Or save the current song mix as the default rhythm mix file: it will be reused by default each time you create a song which uses the same rhythm. Learn more about [default rhythm mix files](../songs/song-and-mix-files.md#default-rhythm-mix).
 *   **Import Mix...** &#x20;
 
-    現在のミックスとインポートされたミックスで共通する楽器の設定のみがインポートされることに注意してください。
+    Note that this will import settings only for the instruments which are common between the current mix and the imported mix.
 
-### 編集
+### Menu Edit
 
 *   **Reset channels** &#x20;
 
-    各ミックスコンソールのチャンネル（楽器、音量、パン、エフェクト）をデフォルトのリズム設定に復元します。
+    Restore each mix console channel (instrument, volume, panoramic, effect) to its default rhythm setting .
 
-### Midi
+### Menu Midi
 
-*   **すべてのMIDIパラメーターを有効化** &#x20;
+*   **Enable/Disable all Midi parameters** &#x20;
 
-    デフォルトでは、すべてのMIDIパラメータが有効になっています。
-    シンセ出力上で直接ミックスを制御したい場合は「すべてのMIDIパラメーターを無効にする」を使用してください：このモードではJJazzLabは_MIDIノートメッセージ_のみを送信し、バンク/プログラムチェンジ、音量、パン、エフェクト関連のMIDIメッセージは送信しません.
+    By default all Midi parameters are enabled. \
+    Use Disable all Midi parameters if you want to control the mix yourself directly on the output synth: in this mode JJazzLab only sends _Midi note messages_, it does not send Midi messages related to bank/program changes, volume, panoramic or effects.
 *   **Send GM/GM2/XG/GM mode ON message** &#x20;
 
-    これにより、シンセ出力を目的のモードに切り替える特別なMIDI初期化メッセージを送信できます。
+    This lets you send special Midi initialization messages to turn your output synth in the desired mode.
 
-## 楽器の変更
+## Change instrument
 
-チャンネル内の楽器名をクリックしてください。なお、ここで楽器の移調も調整できます。
+Click on the instrument name in the channel. Note that this is also where instrument transposition can be adjusted.
 
 ![](../.gitbook/assets/mixconsole-instrumentselection.png)
 
-## チャンネル設定
+## Channel settings
 
-チャンネル設定を使うと:
+Use the channel settings to:
 
-*   **このチャンネルで再生されるすべての音符にMIDIベロシティオフセットを追加します** &#x20;
+*   **Add a Midi velocity offset to all notes played on this channel** &#x20;
 
-    これは音量調整とは少し異なることに注意してください。<br>
-*   **特定のMIDIメッセージの送信を無効にします** &#x20;
+    Note that this is slightly different from adjusting the volume.<br>
+*   **Disable sending specific Midi messages** &#x20;
 
-    おそらく、そのパラメータを自分で[シンセ出力](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey)を直接操作しているからです 。<br>
-*   **10以外のMIDIチャンネルでドラム・チャンネルを有効にします**
+    Probably because you control the parameter yourself directly on the [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey).<br>
+*   **Enable a drums channel with a Midi channel different than 10**
 
-    基本的なGMシンセ出力を使用する場合、ドラムは**チャンネル10でのみ**再生可能です。ミックス内で他のチャンネルにドラム/パーカッションを使用する場合は、それらのチャンネルでドラム再ルーティングを有効にする必要があります。なお、JJazzLabは [シンセ出力](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) における現在の情報や潜在的な問題に基づいてこれを検知した場合、自動的にこのオプションを有効にする場合があります。 \
+    If you use a basic GM output synth, it can play drums **only on channel 10**. If drums/percussion are used on other channels in your mix,  you need to activate drums rerouting on these channels. Note that JJazzLab may activate this option for you if it detects, based on the current [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) information, potential issues. \
     <br>
 
 ![](../.gitbook/assets/mixconsole-channelsettings.png)
 
-## MIDIチャンネル
+## Midi channel
 
-各MIDIチャンネルは手動で変更できます。チャンネル番号をクリックするだけです。
+Each Midi channel can be changed manually, just click on the channel number.
 
 ![](../.gitbook/assets/MixConsole-ChangeChannel.png)
 
-## ユーザートラック
+## User tracks
 
-ユーザートラックを使用すると、楽曲に独自のMIDIコンテンツ（メロディ、ホーンリフ、パーカッションなど）を追加できます。
+A user track lets you add your own Midi content to your song: a melody, horn riffs, percussion, etc.
 
 {% hint style="info" %}
-曲の一部だけリズムトラックをカスタマイズしたい場合（例：曲の2番のサビでスタイルのベースフレーズを簡略化したい場合）、 [カスタムフレーズリズムパラメータ](song-structure.md#rhythm-parameters)を使わなくてはなりません。
+If you want to customize a rhythm track only for a song part (e.g. simplify the style's bass phrase for the 2nd verse of your song), you need to use the [Custom phrase rhythm parameter](song-structure.md#rhythm-parameters).
 {% endhint %}
 
-#### ユーザートラックの追加
+#### Adding user tracks
 
-ミキシングコンソールのツールバーにある「+」ボタンをクリックして、新しいユーザートラックを追加します。 これにより[ノートエディター](notes-editor.md) が開いて、ユーザートラックを編集します。
+Click the + button in the mix console toolbar to add a new user track. This will also open the [notes editor](notes-editor.md) to edit this user track.
 
-<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>ユーザートラックボタンを追加</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Add user track button</p></figcaption></figure>
 
-また、下図のようにトラック概要画面の右上隅にある「+」記号を使用して、リズムトラックを新しいユーザートラックとして複製することもできます。元のリズムトラックは自動的にミュートされます。
+You can also clone a rhythm track as a new user track using the + sign in upper right corner of a track overview, as shown below. The original rhythm track will be automatically muted.
 
-<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>リズムトラックを新しいユーザートラックとして複製する</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>Clone a rhythm track as a new user track</p></figcaption></figure>
 
 {% hint style="warning" %}
-ユーザートラックにドラムまたはパーカッション楽器を選択し、かつシンセ出力が基本的なGM互換シンセの場合： [ユーザートラックチャンネルを設定](mix-console.md#midi-channel) を10にしますが、, チャンネル10が他のトラックで使用されている場合、ユーザートラック内でドラムトラックをチャンネル10へ再ルーティング (参照 [チャンネル設定](mix-console.md#channel-settings))します。
+If you select a drums or percussion instrument for the user track, _and_ your output synth is a basic GM-compatible synth: [set the user track channel](mix-console.md#midi-channel) to 10, and if channel 10 is already used by another track, activate the _Drums rerouting to channel 10_ (see [Channel settings](mix-console.md#channel-settings)) in your User track.
 {% endhint %}
 
-#### ユーザートラックの編集
+#### Edit a user track
 
-ユーザートラックの概要コンポーネントの左上にあるアイコンをクリックして、下図のようにユーザートラックを編集します。&#x20;
+Edit the user track by clicking on the upper left icon in the user track overview component, as shown below.&#x20;
 
-これで [ノートエディター](notes-editor.md)が開きます。
+This will open the [notes editor](notes-editor.md).
 
 <figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-ユーザートラックは常にソングと同じ長さです。
+A user track has always the same length than your song.
 
 {% hint style="danger" %}
-ユーザートラックを編集し、曲の長さを短縮した場合（例：曲の一部を削除）、ユーザートラックは新しい曲の長さにトリミングされます。
+If you edit a user track, then make the song shorter (e.g. by removing a song part), the user track will be trimmed to the new song size.
 {% endhint %}
 
-## マウスドラッグ＆ドロップでMIDIファイルにエクスポート
+## Export to Midi file with mouse drag & drop
 
-**フルバッキングトラック**をMIDIファイルにエクスポートするには、ミックスコンソールの空いている領域からマウスでドラッグしてください。これはメニューの「ファイル/MIDIファイルにエクスポート」と同じ操作ですが、DAWなどの別のソフトウェアで作業する際にはより便利です。
+You can export the **full backing track** to a Midi file by mouse-dragging from the empty area of the mix console. Note that this is the same as the menu File/Export to Midi file, except it's more convenient when you work with another software such as a DAW.
 
-**単一トラック**をエクスポートするには、トラックアイコンまたはトラック概要コンポーネントからマウスドラッグを開始してください。
+To export a **single track**, start the mouse-drag from the track icon or track overview component.
 
-![マウスでドラッグ＆ドロップして単一トラックをエクスポート](../.gitbook/assets/MixConsoleDragTrack.png)
+![Export a single track with mouse drag & drop](../.gitbook/assets/MixConsoleDragTrack.png)
 
-## リズムが複数あるソング
+## Multi-rhythm songs
 
-ソングで2つ以上のリズムを使用する場合、ミックスコンソールの左上隅にポップアップが表示され、表示したいリズムを選択できます。
+When a song uses 2 or more rhythms, a popup is displayed in the upper left corner of the mix console to select the rhythm you want to display.
 
 ![](../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
-メニューの**Edit/Reset channels**などの一部のコマンドは、非表示のリズムには適用されません。
+Note that some commands such as menu **Edit/Reset channels** will not be applied to the hidden rhythm(s).
 
-## マウスショートカット
+## Mouse shortcuts
 
-| 選択箇所                       | マウス                             | 動作                       |
-| ----------------------------- | ---------------------------------- | -------------------------- |
-| チャンネル音量スライダー、ツマミ | ダブルクリック                      | キーボードで値を入力する     |
-| チャンネル音量スライダー        | Shiftキーを押しながらマウスでドラッグ | 全チャンネルの音量を変更する  |
+| Selection                    | Mouse              | Action                        |
+| ---------------------------- | ------------------ | ----------------------------- |
+| channel volume slider, knobs | double-click       | Input value with keyboard     |
+| channel volume slider        | shift + mouse-drag | change volume of all channels |

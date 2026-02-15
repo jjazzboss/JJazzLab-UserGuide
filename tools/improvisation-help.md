@@ -1,6 +1,7 @@
-# アドリブのヒント
-即興演奏の練習のために、JJazzLabはハル・クルーク著『How to improvise』から役立つ練習法をいくつか提案します。
+# Improvisation help
 
-JJazzLabは、アクティブになっているソングで選択した練習を実行するための「ガイド」を生成します。
+If you study improvisation, JJazzLab proposes a few useful exercices from Hal Crook's book "How to improvise".
 
-![アクティブなソングで適用された演奏/休符練習](<../.gitbook/assets/2021-12-13 20\_37\_36-JJazzLab.png>)
+JJazzLab will generate a "guide" to help you perform the selected exercise on the active song.
+
+![The Play/Rest exercise applied on the active song](<../.gitbook/assets/2021-12-13 20\_37\_36-JJazzLab.png>)

@@ -1,17 +1,17 @@
-# テンポを上げていく繰り返し練習
+# Practice loop with tempo increase
 
-このツールは選択した小節を徐々にテンポを上げながら繰り返し再生します。難しいパッセージの練習に最適です。最初はゆっくり始め、繰り返すたびに徐々にテンポを上げていきます。
+Loop selected measures with gradually increasing tempo! This is perfect for practicing exercises or difficult passages - start slow and build up speed progressively with each repetition.
 
-繰り返す小節を選択し、小節ポップアップメニューから **Practice selected bars...** を選択してください：
+Select the bars to be looped, then choose **Practice selected bars...** in the bar popup menu:
 
 <figure><img src="../.gitbook/assets/PracticeBarsMenu.png" alt=""><figcaption></figcaption></figure>
 
-次にループパラメータを設定する必要があります：
+Then you need to setup the loop parameters:
 
 <figure><img src="../.gitbook/assets/PracticeLoopSettings.png" alt=""><figcaption></figcaption></figure>
 
-開始/最終テンポと繰り返し回数を調整し、**Create Song.**をクリックしてください。&#x20;
+Adjust the start/final tempo and the number of loops, then click on **Create Song.**&#x20;
 
-曲を再生して練習を始める準備が整いました！この練習用曲を保存しておけば、後で再利用できます。
+You're ready to play the song and start practicing! You can save this practice song if you want to reuse it.
 
 <figure><img src="../.gitbook/assets/PracticeSong.png" alt=""><figcaption></figcaption></figure>

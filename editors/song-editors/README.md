@@ -10,21 +10,21 @@ helpTitle: true
 
 ![](../../.gitbook/assets/jjazzlab-legende.png)
 
-  [**コードリードシートエディター**](../chord-leadsheet-editor) の使用:
+  Use the [**Chord LeadSheet Editor**](../chord-leadsheet-editor) to:
 
-* コード記号の追加、例： "Cm6", "Ab7"
-* セクションの追加、例： "A", "B", "verse", "chorus", ...
-* コードを移動・編集してリズムのアクセント、解釈、またはハーモニーを調整する
+* Add chord symbols, eg "Cm6", "Ab7"
+* Add sections, eg "A", "B", "verse", "chorus", ...
+* Move and edit chords to adjust rhythm accents, interpretation or harmony
 
-[**ソングストラクチャーエディタ**](../song-structure-editor)の使用:
+Use the [**Song Structure Editor**](../song-structure-editor) to:
 
-* セクションの順序を定義、例： "AABA", "ヴァース ヴァース コーラス ヴァース", ...
-* 使用するリズムを選択 
-* リズムパラメータを調整してダイナミクスを導入、例：バリエーション、強弱、フィル、楽器のミュート
+* Define the order of sections, eg "AABA", "verse verse chorus verse", ...
+* Select rhythm\(s\) to be used 
+* Adjust the rhythm parameters to introduce dynamics, eg variation, intensity, fill, muted instrument,
 
-各リズム楽器のミックスの調整は、[**Mix Console**](../mix-console) を使用：
+Use the [**Mix Console**](../mix-console) to adjust the mix of each rhythm instrument:
 
-* サウンドデバイスで使用する楽器を選択
-* 音量調整、パン、リバーブ、コーラス 
-* ミュート、ソロ、移調
+* Select the instrument to be used on your sound device
+* Adjust volume, panoramic, reverb, chorus 
+* Mute, solo, transpose
 

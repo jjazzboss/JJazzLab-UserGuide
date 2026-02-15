@@ -1,23 +1,23 @@
-# アレンジャーキーボードモード
+# Arranger keyboard mode
 
-MIDI IN経由でMIDIキーボードを接続している場合、MIDIキーボードを（疑似）アレンジャーキーボード[自動伴奏機能付きキーボード]として使用できます：JJazzLabは演奏されたコード記号を認識し、それに応じて伴奏トラックを更新します。
+If you have a Midi keyboard connected via Midi IN, you can use it as a (pseudo) arranger keyboard: JJazzLab will recognize the chord symbols played and update the backing track accordingly.
 
 {% hint style="danger" %}
-**このモードは教育目的のみに使用されます。**&#x20;
+**This mode if for educational purpose only.**&#x20;
 
-コードチェンジと音楽の変化の間には遅延が生じます。これはJJazzLabがリアルタイムのアレンジャーキーボードとして動作するよう設計されていないため、正常な動作です。
+There will be a delay between your chord change and the music change. This is normal because JJazzLab is not designed to work as a realtime arranger keyboard.
 {% endhint %}
 
 ![](../.gitbook/assets/Arranger.png)
 
-まず、MIDIキーボードをMIDI入力デバイスに接続してください（**ツール/設定**の**MIDI**パネルを参照）。
+First connect your Midi keyboard to a Midi IN device (see the **Midi** panel of **Options/Preferences**).
 
-新しいソングまたはソングを開くの後、ソングパートを選択してください。このソングパートは、JJazzLabがアレンジャーモードセッション中に使用するリズムとリズムパラメータを特定するために使用されます。
+Create or open a song, then select a song part. The song part will be used by JJazzLab to know which rhythm and which rhythm parameters should be used during the arranger mode session.
 
-**Arranger**ウィンドウ（メニューの「ウィンドウ」）を表示し、その**再生**ボタンを押してください：これでキーボードで演奏するコードに合わせて音楽が流れるはずです。
+Display the **Arranger** window (menu Window) and press its **Play** button: music should now follow the chords you play on your keyboard.
 
-スプリット鍵盤より下で受信した音符のみをコード記号を認識するために使用します。
+Only the notes received below the split note are used for chord symbol recognition.
 
 {% hint style="info" %}
-演奏中に、アクティブなソングパートのリズムパラメータを変更できます（例：バリエーションを変更する）。
+While you play you can change rhythm parameters of the active song part (e.g. change the variation).
 {% endhint %}
