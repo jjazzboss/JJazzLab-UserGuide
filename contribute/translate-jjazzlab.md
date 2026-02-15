@@ -1,8 +1,8 @@
-# JJazzLabの翻訳
+# Translate JJazzLab
 
-## 主要翻訳貢献者の皆様に感謝します！
+## THANKS to the top translation contributors!
 
-JJazzLabは7言語に対応し、今や35億人が利用可能になりました！ :smile:
+With 7 languages supported, JJazzLab can now be used by 3.5 billions people ! :smile:
 
 * **Chinese**: Yafei
 * **German**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch
@@ -11,44 +11,44 @@ JJazzLabは7言語に対応し、今や35億人が利用可能になりました
 * **Portuguese/Brazilian**: Danilson Ramos De Oliveira
 * **Spanish:** Lucho
 
-そして、他のすべての協力者の皆様にも感謝申し上げます。どんな小さなことでも、大変助かります！
+And thank you also to all the other contributors, every little bit helps!
 
-## 簡単です
+## It's easy
 
-JJazzLabは[crowdin.com](https://app.gitbook.com/s/-MQE7B7yjVY3xzlsorS4-887967055/contribute/crowdin.com)プラットフォームを利用しており、ブラウザから直接、語句を翻訳するのが非常に簡単です。
+JJazzLab uses the [crowdin.com](https://app.gitbook.com/s/-MQE7B7yjVY3xzlsorS4-887967055/contribute/crowdin.com) platform, which makes it super easy to translate phrases, directly from your browser.
 
 ![](../.gitbook/assets/2021-01-31-21_16_39-jjazzlab-translations-in-crowdin-mozilla-firefox.png)
 
-## 誰ができますか？
+## Who can do it?
 
-対象言語のネイティブスピーカーであり、かつ音楽ソフトウェアの用語に精通している方であれば、どなたでも。
+Everyone, provided that you're a native speaker of the target language and you're familiar with music software terms.
 
-## どうやって始めればいいですか？
+## How to start?
 
-* [**https://crwd.in/jjazzlab**](https://crwd.in/jjazzlab)  で登録を（無料です）
-* 対象言語を選択してください
-* 翻訳ファイルを選択してください（フレーズは機能またはUIコンポーネントごとにグループ化されています）
-* 英語の語句を選んで翻訳してください
+* [**https://crwd.in/jjazzlab**](https://crwd.in/jjazzlab)  and register (it's free)
+* Choose a target language
+* Select a translation file (phrases are grouped per feature or UI component)
+* Pick an English phrase and translate it
 
-別のファイルを開くには、**Ctrl+O**（または**左上のメニューの「開く」**）を使用してください。以上です！
+Use **ctrl-O** (or **upper-left menu Open**) to open a different file. Done!
 
-Crowdinは自動翻訳提案、追加情報の要求機能、検証プロセスなど、その他多くの翻訳機能を提供しています。
+Crowdin provides many other translation facilities, like automatic translation proposals, possibility to request more info, a validation process, etc.
 
 ![](../.gitbook/assets/crowdineditor.png)
 
 
 
-## おすすめとコツ
+## Recommendations & tips
 
-* **短いほど良し**\
-  語句がJJazzLabのユーザーインターフェースの一部となることをお忘れなく。 &#x20;
-* **翻訳全体での一貫性を保全**\
-  「リードシート」があなたの言語で「xyz」である場合、可能な限り「xyz」を再利用してください。用語が頻繁に再利用される場合は用語集を使用してください。
-* **用語集を最初に翻訳してください**\
-  最下部の最後の翻訳ファイルです。JJazzLabで最も頻繁に使用される用語が含まれており、翻訳間の一貫性を保つのに役立ちます。
-* **校正者の役割**\
-  校正者は翻訳文の一貫性を確認し、翻訳フレーズを検証します。この役割を担う準備が整っていると感じられた方は、お気軽に[ご連絡ください](https://www.jjazzlab.com/en/contact/)。
-* **言語がありませんか？**\
-  Crowdinに掲載されていない言語を追加したい場合は、お気軽に[私までご連絡ください](https://www.jjazzlab.com/en/contact/)。
-* **最新の翻訳ファイルでJJazzLabを試してみませんか？**\
-  [このページ](/broken/pages/-MQJTzoizf8YB6jpI3rT)をご覧ください。
+* **The shorter the better**\
+  Don't forget that your phrases will be part of the JJazzLab user interface. &#x20;
+* **Be consistent across translations**\
+  If "leadsheet" is "xyz" in your language, try to reuse "xyz" whenever possible. Use the Glossary if a term is often reused.
+* **Translate the Glossary first**\
+  It's the last translation file at the bottom. It contains the most used terms found in JJazzLab, and helps maintain consistency across translations.
+* **Proofreader role**\
+  A proofreader validates maintains consistency and validate translation phrases. If you feel ready for this role, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
+* **Language missing?**\
+  If you want to add a language not listed in Crowdin, feel free to [contact me](https://www.jjazzlab.com/en/contact/).
+* **Want to try JJazzLab with the latest translation files?**\
+  See [this page](/broken/pages/-MQJTzoizf8YB6jpI3rT).

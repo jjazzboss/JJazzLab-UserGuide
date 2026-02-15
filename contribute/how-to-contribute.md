@@ -1,10 +1,10 @@
-# ドキュメントの改訂
+# Improve documentation
 
-このサイトはGitBookプラットフォームでホストされており、Wikiのようにユーザーがドキュメントを更新できます。変更はシンプルなエディターでインターネットブラウザ上ですぐに行えるため、非常に簡単です。
+This site is hosted on the GitBook platform, which lets users update the documentation, like in a Wiki. Making changes is rather easy because it's done directly in the internet browser with a simple editor.
 
-変更を加えたい場合は、メール \([こちら](https://www.jjazzlab.com/en/contact/\)) を送って、簡単に変更内容を伝えてください。そうすれば、JJazzLab GitBookへの書き込み権限を付与します。 
+If you want to make some changes just send me an email \([here](https://www.jjazzlab.com/en/contact/)\) and tell me briefly what you want to do so I can grant you write access rights to the JJazzLab GitBook. 
 
-GitHubユーザーの方なら、各ページの右上にある**Edit on GitHub**ボタンを使用するか、[JJazzLabDocリポジトリ](https://github.com/jjazzboss/JJazzLabDoc)で直接プルリクエストを作成することもできます。
+If you're a GitHub user you can also use the **Edit on GitHub** button in the upper right of each page, or make a pull-request directly on the [JJazzLabDoc repository](https://github.com/jjazzboss/JJazzLabDoc).
 
 
 

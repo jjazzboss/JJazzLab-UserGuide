@@ -1,37 +1,37 @@
-# ソングのエクスポート
+# Exporting songs
 
-エクスポートするファイルは、現在の再生設定に対応しています：
+The exported file takes into account the current playback configuration:
 
-* [シンセ出力](../sounds/other-synths.md) 設定
-* [ミックスコンソール](../editors/mix-console.md) の設定（トラックの楽器、音量、ミュート状態など）
-* [プレカウント、クリック、テンポ](../playback-control/commands.md)設定
-* [再生キー移調](../tools/chord-symbols-transposition.md)の設定
+* [Output synth](../sounds/other-synths.md) configuration
+* [Mix console](../editors/mix-console.md) settings such as track's instrument, volume, mute state, etc.
+* [Precount, click and tempo ](../playback-control/commands.md)settings
+* The [playback key transposition](../tools/chord-symbols-transposition.md) settings
 
-## MIDIへのエクスポート
+## Export to Midi
 
-メニューの **ファイル/MIDIファイルにエクスポート...** から、曲全体をMIDI形式で書き出すことができます。**&#x20;
+You can export a whole song to Midi via the menu **File/Export to Midi file...**&#x20;
 
-また、[ミックスコンソールからマウスドラッグ](../editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop) によって個々のトラックをエクスポートすることもできます。
+You can also export individual tracks by [mouse-dragging from the Mix console](../editors/mix-console.md#export-to-midi-file-with-mouse-drag-and-drop).
 
-#### MIDIファイル形式
+#### Midi file format
 
-エクスポートするファイルはマルチトラックのタイプ1 MIDIファイルです。&#x20;
+Exported file is a multi-track type 1 Midi file.&#x20;
 
-各楽器トラック（トラック1から）は、対応するミックスコンソールトラック設定を使用して初期化します。トラック0には以下が含まれます：
+Each instrument track (from track 1) is initialized using the corresponding mix console track setting. Track 0 contains:
 
-* 必要に応じて、GM/GM2/GS/XG MIDI初期化メッセージ（シンセ出力の設定に依存）
-* テンポと拍子のイベント
-* コード記号のマーカー
+* If required, GM/GM2/GS/XG Midi initialization messages (depends on the output synth configuration)
+* Tempo and time signature events
+* Markers for chord symbols
 
-## オーディオへのエクスポート
+## Export to audio
 
-メニューの **ファイル/Export to Audio file......** から、曲全体を **.wav** または **.mp3** ファイルとしてエクスポートできます。
+You can export the whole song to a **.wav** or **.mp3** file via menu **File/Export to Audio file...**
 
 {% hint style="danger" %}
-オーディオエクスポートは、内部の[Fluidsynthシンセ出力](../sounds/using-fluidsynth.md)を使用する場合にのみ利用可能です。
+Audio export is only available if you use the internal [Fluidsynth output synth](../sounds/using-fluidsynth.md).
 {% endhint %}
 
-**Separate tracks**オプションをチェックすると、各トラックごとに1つのオーディオファイルとしてエクスポートします。下図のように設定してください。
+Check the **Separate tracks** option to export one audio file per track, as shown below.
 
 <figure><img src="../.gitbook/assets/2024-12-06 18_39_56-Export to audio file.png" alt=""><figcaption></figcaption></figure>
 

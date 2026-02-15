@@ -1,22 +1,22 @@
-# ドキュメントの改訂
+# Improve documentation
 
-## どのユーザーでもオンライン文書を変更できます
+## Any user can change the online doc
 
-このサイトはGitBookプラットフォームでホストされており、**ユーザーがWikiのようにドキュメントを更新できる**仕組みです。変更はインターネットブラウザ上で直接行えるため、インストール不要で非常に簡単です。
+This site is hosted on the GitBook platform, **which lets users update the documentation**, like in a Wiki. Making changes is super easy because it's done directly in the internet browser, nothing to install.
 
-変更をご希望の場合は、メール（[こちら](https://www.jjazzlab.com/en/contact/)）をお送りください。JJazzLab GitBookへの書き込み権限を付与するリンクを返信します。&#x20;
+If you want to make some changes just send me an email ([here](https://www.jjazzlab.com/en/contact/)) I'll reply with a link to grant you write access rights to the JJazzLab GitBook.&#x20;
 
 {% hint style="info" %}
-GitHubユーザーの方なら、各ページの右上にある**Edit on GitHub**ボタンを使用するか、[JJazzLab-X-UserGuide repository](https://github.com/jjazzboss/JJazzLab-X-UserGuide)で直接プルリクエストを作成することもできます。
+If you're a GitHub user you can also use the **Edit on GitHub** button in the upper right of each page, or make a pull-request directly on the [JJazzLab-UserGuide repository](https://github.com/jjazzboss/JJazzLab-UserGuide).
 {% endhint %}
 
-## オンライン文書の翻訳
+## Translate the online doc
 
-翻訳の修正や新規追加でもお手伝いいただけます。現在、対応言語は英語と日本語の2言語です。お使いの言語がまだない場合は、こちら（https://www.jjazzlab.com/en/contact/）までご連絡ください。その言語用の「GitBook variant」を追加します。
+You can also help by fixing or adding new translations. Currently there is 2 languages, English and Japanese. If you language does not exist yet, contact me ([here](https://www.jjazzlab.com/en/contact/)) so that I add a "GitBook variant" for that language.
 
-## 主な貢献者
+## Top contributors
 
-**H. Sakuda**. : 日本語ドキュメントページを作成(ver.5.10)
+**H. Sakuda**. : who created the Japanese doc pages
 
 
 

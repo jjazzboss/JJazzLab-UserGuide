@@ -1,10 +1,10 @@
 # Contribute to docs
 
-このサイトはGitBookでホストされており、Wikiのようにユーザーがドキュメントを更新できます。WYSIWYGエディタを介してインターネットブラウザで直接編集できるため、変更は非常に簡単です。
+This site is hosted by GitBook, which lets users update the documentation, like in a Wiki. Making changes is rather easy because it's done directly in the internet browser via a WYSIWIG editor.
 
-お手伝いいただける方は、メール \([こちら](https://www.jjazzlab.com/en/contact/)\) で簡単に何を行いたいかお知らせください。JJazzLab GitBookへの書き込み権限を付与いたします。
+If you want to contribute just send me an email \([here](https://www.jjazzlab.com/en/contact/)\) and tell me briefly what you want to do so I can grant you write access rights to the JJazzLab GitBook. 
 
-GitHubユーザーの方は、[JJazzLabDocリポジトリ](https://github.com/jjazzboss/JJazzLabDoc)に直接プルリクエストを送信することも可能です。
+If you're a GitHub user you can also make a pull-request directly on the [JJazzLabDoc repository](https://github.com/jjazzboss/JJazzLabDoc).
 
 
 

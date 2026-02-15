@@ -1,58 +1,59 @@
 ---
-ソングを作成(または読み込み)し、以下のエディターを使って自分のニーズに合わせて調整します
+description: Create (or load) a song, then use the editors below to adapt it to your needs.
 ---
 
-# 概要
+# Overview
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>ソングストラクチャーエディターで、最終的に曲を構成する各セクション（イントロ、メロ、サビ等）を決定します。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
 
-### **コード譜エディター(Chord LeadSheet Editor)**の使い方
+### Use the **Chord LeadSheet Editor** to
 
-* [コード記号](chord-lead-sheet.md#chord-symbols)を書く、例 "Cm6", "Ab7"
-* [セクション記号](chord-lead-sheet.md#sections-input)を書く、例 "A", "B" in 3/4, "verse"
-* コード記号をずらしたり編集して、リズムのアクセントや、[表現解釈(interpretation)](chord-lead-sheet.md#interpretation)や、[ハーモニー](chord-lead-sheet.md#harmony)に合わせる
-* [小節の注意書き](chord-lead-sheet.md#bar-annotations-lyrics)や歌詞 (optional)を書く
+* Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
+* Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B" in 3/4, "verse"
+* Move and edit chord symbols to adjust rhythm accents, [interpretation](chord-lead-sheet.md#interpretation) or [harmony](chord-lead-sheet.md#harmony)
+* Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) or lyrics (optional)
 
-詳細は[コード譜](chord-lead-sheet.md)のページを参照してください。
+Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
 
-### **ソングストラクチャーエディター(Song Structure Editor)**の使い方
+### Use the **Song Structure Editor** to
 
-* [ソングパート](song-structure.md#song-parts)を使ってセクションの順番を決める、例"AABA", "verse verse chorus verse", ...
-* 曲中に使う[リズム](song-structure.md#change-rhythm) (音楽スタイル)を選択する。
-* [リズムパラメーター](song-structure.md#rhythm-parameters)を使ってダイナミクスやバリエーションを各ソングパートに導入する。
-詳細は[ソングストラクチャー](song-structure.md)のページを参照してください。
+* Define the order of sections using [song parts](song-structure.md#song-parts) , eg "AABA", "verse verse chorus verse", ...
+* Select the [rhythms](song-structure.md#change-rhythm) (music styles) to be used in the song
+* Introduce dynamics and variations using [rhythm parameters](song-structure.md#rhythm-parameters) on each song part
 
-### **ミックスコンソール**の使い方
+Visit the [song structure](song-structure.md) page for more information.
 
-* 各トラックの楽器をセットする。
-* トラックの音量、リバーブ、パン、コーラス、ミュート、移調等を調整する。
-* [ユーザートラック](mix-console.md#user-tracks)を加える。
+### Use the **Mix Console** to
 
-詳細は [ミックスコンソール](mix-console.md)のページを参照してください。
+* Set the instrument of each track
+* Adjust track volume, panoramic, reverb, chorus, mute, transpose, etc.
+* Add [user tracks](mix-console.md#user-tracks)
 
-### ノートエディターの使い方
+Visit the [mix console](mix-console.md) page for more information.
 
-* [ユーザートラック](mix-console.md#user-tracks)を編集する。
-* ソングパートの楽器のフレーズを[カスタマイズ](song-structure.md#custom-phrase)する。
+### Use the Note Editor to
 
-詳細は [note editor ](overview.md#note-editor)のページを参照してください。
+* Edit a [user track](mix-console.md#user-tracks)
+* [Customize ](song-structure.md#custom-phrase)an instrument phrase of a song part
+
+Visit the [note editor ](overview.md#note-editor)page for more information.
 
 <figure><img src="../.gitbook/assets/2023-12-31 23_11_42-JJazzLab  4.0.2.png" alt=""><figcaption><p>Note editor</p></figcaption></figure>
 
-### エディターの分離/結合
+### Undocking / redocking editors
 
-エディターを分離するには、タブのポップアップメニューから**Float**を選択します。&#x20;
+To undock an editor, select **Float** from the popup menu of its tab.&#x20;
 
-下の画像は、[ソングパートエディタ](song-structure.md#song-part-editor)タブのポップアップメニューを示しています。
+The image below shows the tab popup menu of the [Song part editor](song-structure.md#song-part-editor).
 
-<figure><img src="../.gitbook/assets/WindowUndockPopupMenu.png" alt=""><figcaption><p>WindowsやLinuxでは、エディターの上で右クリックすると、タブのポップアップメニューが現れます。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/WindowUndockPopupMenu.png" alt=""><figcaption><p>On Windows or Linux, the editor tab popup menu appears when you right-click on it</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WindowUndocked2.png" alt=""><figcaption><p>分離したエディターはメインのウィンドウとは独自に移動させたりサイズ変更できます。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/WindowUndocked2.png" alt=""><figcaption><p>The floating editor can be moved and resized independently of the main window</p></figcaption></figure>
 
-分離したエディターを結合するには、同じタブのポップアップメニューから**Dock**を選択します。
+To redock the floating editor, select **Dock** from the same tab popup menu.
 
-ウィンドウのメインメニューから**Reset Windows**を使うと全てのエディタ－が結合します。
+Use **Reset Windows** from the Window main menu to redock all editors.
 
 {% hint style="warning" %}
-コード譜とソングストラクチャーエディターは分離/結合できません。
+The chord leadsheet and song structure editors can not be undocked/docked
 {% endhint %}

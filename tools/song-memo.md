@@ -1,20 +1,21 @@
 ---
-ソングメモでは、曲に関するテキストのリマインダーを書き込めます。
-ローカルファイルやウェブサイトのリンクを含めて、すぐに参照できるようにできます。
+description: >-
+  The song memo lets you write text reminders about your song that can include
+  links to local files or websites for quick reference.
 ---
 
-# ソングメモ
+# Song memo
 
 <figure><img src="../.gitbook/assets/SongMemoMenu.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/SongMemo.png" alt=""><figcaption></figcaption></figure>
 
-**Insert link...**ボタンを使用して、コンピュータファイルまたはウェブページへのリンクを挿入します。
+Use the **Insert link...** button to insert a link to a computer file or a web page.
 
-**Open links**ボタンは、メモ内のすべてのリンクを開きます。リンクは、ソングファイルを開いたときに自動的に開かれます。
+The **Open links** button opens all the links of the memo. The links are automatically opened when you open the song file.
 
 {% hint style="danger" %}
-セキュリティ上の理由により、以下の拡張子を持つリンクのみ最大4つまで挿入できます：&#x20;
+For security reasons, you can insert up to 4 links only with the following extensions:&#x20;
 
 * "pdf", "txt", "md", "rtf"
 * &#x20;"jpg", "jpeg", "png", "gif", "webp", "svg", "bmp"

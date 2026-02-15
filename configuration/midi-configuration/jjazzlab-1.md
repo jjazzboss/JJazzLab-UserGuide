@@ -1,5 +1,5 @@
 ---
-内容：Optimized for Yamaha styles rendering
+description: Optimized for Yamaha styles rendering
 ---
 
 # JJazzLab SoundFont
