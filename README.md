@@ -1,7 +1,7 @@
 # JJazzLab
 
 {% hint style="danger" %}
-**!! The japanese documentation might not be updated with the latest version JJazzLab 4 !!**
+**!!  The japanese documentation might not be updated with the latest version JJazzLab 5 !!**
 {% endhint %}
 
 {% hint style="info" %}
