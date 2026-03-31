@@ -2,7 +2,7 @@
 
 When you insert a new [section ](../editors/chord-lead-sheet.md#sections)with a new time signature, JJazzLab needs to select a rhythm for the new [song part](../editors/song-structure.md#song-parts).&#x20;
 
-If the new time signature was never used before in the song, JJazzLab will try to create an **adapted rhythm** from the current rhythm (if it supports this feature). This is simply the current rhythm but shortened or repeated to fit the new measure size.
+If the new time signature was never used before in the song, JJazzLab will try to create an **adapted rhythm** from the current rhythm (if current rhythm supports this feature). This is simply the current rhythm but shortened or repeated to fit the new measure size.
 
 ![](../.gitbook/assets/adaptedrhythmexample.png)
 

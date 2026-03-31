@@ -88,7 +88,7 @@ Each song part can have its own rhythm.
 Midi can only accommodate 16 channels (1 channel per instrument), and many rhythms use 7 or 8 instruments. So in order to have a song with more than 2 rhythms, you need to pick rhythms with few instruments.
 {% endhint %}
 
-When a song part is created, JJazzLab selects the last rhythm used in the song for this time signature, or it uses the **default rhythm** for this time signature.
+When a song part is created, JJazzLab selects the last rhythm used in the song for this time signature, or it selects the **default rhythm** for this time signature.
 
 {% hint style="info" %}
 You can define the **default rhythm** for each time signature in the **Rhythms** tab of the **Options/Preferences**.
