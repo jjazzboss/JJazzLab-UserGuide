@@ -6,7 +6,7 @@ Use the Chord inspector (menu **Tools/Chord inspector**) to see the notes of the
 
 ![](<../.gitbook/assets/2021-12-13 20_34_45-JJazzLab.png>)
 
-If there is an harmonic scale set for the selected chord symbol (see [chord symbol editor](../editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown (example below).
+If there is an **harmonic scale** set for the selected chord symbol (see [chord symbol editor](../editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown (example below).
 
 ![](<../.gitbook/assets/2021-12-13 20_36_34-JJazzLab.png>)
 
@@ -22,4 +22,4 @@ By clicking on the button you can switch between different types of positions : 
 
 ## Score
 
-<figure><img src="../.gitbook/assets/2024-01-03 12_27_52-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-01-03 12_27_52-JJazzLab  4.0.2.png" alt=""><figcaption><p>Chord and associated scale notes</p></figcaption></figure>
