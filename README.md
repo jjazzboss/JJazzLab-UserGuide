@@ -1,98 +1,60 @@
-# JJazzLab
+---
+description: A complete and open application for backing tracks generation.
+---
 
-{% hint style="danger" %}
-**!!  The japanese documentation might not be updated with the latest version JJazzLab 5 !!**
-{% endhint %}
+# JJazzLab 5
 
 {% hint style="info" %}
-文章に追加や修正をしたいですか？ できますよ！:grinning: どうぞ [ドキュメント校正](contribute/improve-doc.md) ページへ。
+Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
 {% endhint %}
 
-![JJazzLab 3](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2Fn2aJVW6yzE43sx6gf4Yb%2FJJazzLab3.0Full.png?alt=media\&token=ee42aa7b-c548-4213-be6b-604c5c2faed2)
+![JJazzlab 5](.gitbook/assets/JJazzLab5.0.1.png)
 
-## 手始めに
+{% hint style="warning" %}
+In JJazzLab "**rhythm**" usually means a **music style**, like pop or bossa-nova.
+{% endhint %}
 
-この[ビデオチュートリアル](video-tutorials.md#for-starters)が短いのでまずは御覧ください。
+## What is JJazzLab?
 
-## JJazzLabって、何?&#x20;
+🎵 JJazzLab lets you create backing tracks for any song, even complex ones, in just a few minutes. It’s a jam buddy to have fun practicing at home or learn new stuff. It’s also a great tool for teaching or early-stage composing.
 
-🎵 JJazzLabは、複雑なものでも、好きな曲の伴奏(バッキングトラック)を自動的に生成するデスクトップアプリケーションです。自宅で即興で楽しんだり、新しいことを学んだり、楽器を練習したりするジャムの相棒です。また、先生にとっても素晴らしいツールです。&#x20;
+🎷 Add variety, rhythmic accents and natural dynamics that keep your practice sessions inspiring. You can start a solo slowly and gradually build up the atmosphere!
 
-:saxophone: JJazzLabは、飽きの来ない伴奏、様々なリズミカルなアクセントとダイナミクスを持つ伴奏を作るようにデザインされています。ゆったりとソロを始め、徐々に雰囲気を作り上げることもできます！
+💻 JJazzLab is free and open-source, with an open architecture: anyone can easily add new features and new music generation capabilities.
 
-:computer: 基盤となるJJazzLabオープンソースプラットフォームの開発者のおかげで、新しい機能と新しい音楽生成機能を簡単に追加できます。 &#x20;
+## Getting started
 
-## 特徴
+[Install ](installation.md)and run JJazzLab, then :
 
-### バッキングトラック
+1. Load an example song file : **menu File/Open Songs...** and select **ExampleFiles/BluesMinor.sng**
+2. Press the **Play** button : you should hear the backing track -if not, check the Midi Out device in **menu Tools/Options (Preferences on Mac)**
+3. Start editing the song using the [**editors** ](editors/overview.md)and hear how it impacts the generated backing track.
 
-* ドラム、パーカッション、ベース、ピアノ、ギター、パッド、管楽器セクションなどがあるMIDIバッキングトラックを即座に生成します。
-* ソングパートごとのバッキングトラックの微調整:リズムの変化、強弱、楽器のミュート、ドラムフィル、テンポなど。
-* 最初からでも指定した小節からでも再生でき、また選択した小節をループすることもできます。
-* 移調再生できます。(例：サックスやトランペット奏者向け)
-* 自由なソング構成:イントロ、コーラス、第1コーダなど。
-* テンポや移調の調整、楽器選択してソロ/ミュート
-* 異なる拍子を持つマルチリズム・バッキング・トラックのサポート。
-* MIDIファイルへのエクスポートや、MIDIからMP3への変換も簡単です。
-* クリックと事前カウントがカスタマイズ可能。
+If you prefer to quickly create a new backing track from scratch, check out this video:
 
-### エディター
+{% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
-* コード譜エディター、ソング構成エディター、コード記号エディター、ミックスコンソール、ソングメモエディター
-* ドッキング可能ウィンドウを備えたマルチファイルエディター
-* 楽曲間で元に戻す/やり直し、コピー/ペーストが無制限という直感的なユーザーインターフェイス
-* コード記号の配置(定位置／非定位置)が自由で、裏拍でのコード記号のアンティシペーションができます。
-* ポップロックとジャズコード記号に加えて、ユーザー定義のコード記号をサポート
-* コードの音楽的な演出を編集：基本となるハーモニー、アクセントタイプがありつつ、ソロ中ではハーモニーのバリエーション、コードの置換など
-* カスタマイズ可能なソングテンプレート
-* カスタマイズ可能なユーザーインターフェースの色とフォントによるテーマ
-* コード譜とソング構成を印刷
+## Key features
 
-### リズム
+* New [**jjSwing style**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm), practice jazz standards with the best walking bass and drums
+* Hundreds of ready-to-use music styles ([rhythms](rhythms/rhythm-files.md)) available
+* Introduce **dynamics** and **variety** in just a few clicks, for example:
+  * mute the guitar in the intro
+  * add a break at the end of the 2nd verse and congas in the 3rd verse
+  * boost intensity and slightly increase tempo at the end
+  * add anticipated (pushed) chords
+  * simplify the piano on the first verse
+* Add [user tracks](editors/mix-console.md#user-tracks) to customize your backing track
+* Attach [annotations or lyrics](editors/chord-lead-sheet.md#bar-annotations-lyrics) to bars
+* Control [playback via Midi](playback-control/midi-remote-commands.md)
+* [Import](songs/importing-songs.md) and [export](songs/exporting-songs.md) song or individual instrument tracks
 
-* ヤマハスタイルファイル(SFF1\&SFF2形式)のサポートしており、ウェブ上の何千もの無料スタイルへアクセスできます
-* インストーラーに何百もの組み込みリズム
-* スタイルごとにさらに多くのバリエーション用「YamJJazz拡張ヤマハ」スタイルファイルのサポート
-* オープンアーキテクチャ:新しいリズム生成エンジンは、プラグインを介して簡単に追加することができます。
+## **Side tools**
 
-### ノートビュワー
-
-* リアルタイムで伴奏音表示
-* 選択したコード記号やスケールの表示
-*   鍵盤あり
-
-
-* コード記号の最も一般的なポジション、オープンボイシング、クローズボイシング、転回形のギターポジション表示
-
-### (疑似的)アレンジャーキーボードモード
-
-* MIDI INで演奏されたコードを認識し、伴奏を（擬似的に）リアルタイムで更新する
-
-### アドリブのヒント
-
-* コード譜にアドリブのガイドを自動生成
-* ハル・クルーク(Hal Crook)著『How to improvise』準拠
-
-### MIDI
-
-* MIDI経由で好きなオーディオエンジンに接続:サウンドフォントプレーヤー(JJazzLabサウンドフォント推奨)、Java内部シンセ、外部シンセ、'LoopBe1'などの仮想MIDIポートを通したVSTホスト。
-* GM/GM2/XG/GS機器との互換性
-* Cakewalkの楽器定義ファイル(.ins)経由のお好みのMIDI楽器との互換性
-* ヤマハXGキーマップからGM/GM2/GSキーマップへのドラム/パーカッションドラムマップの自動再マッピング
-* 高品質レンダリングと自動楽器選択に最適化されたJJazzLabサウンドフォント
-* VirtualMIDISynth (Windows)とFluidSynth (Linux)ですぐに使用できるプリセット
-* リズムごとにユーザー定義できるデフォルト・ミックス
-* ユーザー定義できるデフォルト楽器
-
-### インポート
-
-* Band-In-A-Box リードシートファイル
-* musicXML リードシートファイル
-* Impro-Visor リードシートファイル
-
-### その他
-
-* ソングの読み込み時に開くハイパーリンク付きソングメモ
-* オープンソースのプラガブルアーキテクチャにより、新機能を容易に追加可能
-* NetBeans アプリケーションフレームワーク準拠
-
+* [Chord inspector](tools/notes-viewer.md): understand chord symbol notes and scales (piano, guitar diagrams, score)
+* [Practice loop with tempo auto-increase](tools/practice-loop-with-tempo-increase.md): efficiently practice exercices or difficult passages
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track chords via a midi keyboard
+* [Improvisation help](tools/improvisation-help.md): get improvisation guides for your chord leadsheet
+* [Chord symbols transposition](tools/chord-symbols-transposition.md): for transposing instruments (e.g. sax players)
+* [Easy Reader window](tools/easy-reader.md): focus on the current and next chord
+* [Song memo](tools/song-memo.md): text reminders about your song which can include links to files or web pages

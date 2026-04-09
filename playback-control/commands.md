@@ -1,24 +1,27 @@
-# コマンド
+# Commands
 
-バッキングトラックの再生は、下のツールバーでコントロールできます。
+You can control the playback of the backing track using the toolbar below.
 
 ![](../.gitbook/assets/MusicControlToolbarText.png)
 
-### キーボードショートカット
+The **Metronome** and **Precount mode** depend on the **Click** settings in the **Options menu**.
+
+### Keyboard shortcuts
 
 {% hint style="warning" %}
-ショートカットは、WindowsとLinux用です。Macの場合は、一部変更が必要でしょう。
+The shortcuts are given for Windows and Linux. Some of them might need to be adapted for Mac.
 {% endhint %}
 
-| Text                                           |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| <mark style="background-color:blue;">キー</mark> | <mark style="background-color:blue;">コマンド</mark> |
-| space                                          | 再生 / 一時停止 / 再開                                   |
-| shift+space                                    | 停止                                               |
-| ctrl+space                                     | 選択した小節／ソングパートから再生                                |
-| ctrl+shift+space                               | 選択した小節／ソングパートのみ再生                                |
-| F1                                             | 前のソングパートに戻って再生                                   |
-| F2                                             | 次のソングパートに進んで再生                                   |
-| J or -                                         | テンポを遅くする                                         |
-| K or +                                         | テンポを速くする                                         |
-| L                                              | ループモードの切り替え                                      |
+|                                                 |                                                     |
+| ----------------------------------------------- | --------------------------------------------------- |
+| <mark style="background-color:blue;">Key</mark> | <mark style="background-color:blue;">Command</mark> |
+| space                                           | Start / Pause / Resume                              |
+| shift-space                                     | Stop                                                |
+| ctrl-space                                      | Start from the selected bar or song part            |
+| ctrl-shift-space                                | Play only selected bars or song parts               |
+| F1                                              | Jump playback to previous song part                 |
+| F2                                              | Jump playback to next song part                     |
+| F3                                              | Jump playback to song start (restart)               |
+| J or -                                          | Decrease tempo                                      |
+| K or +                                          | Increase tempo                                      |
+| L                                               | Toggle loop mode                                    |

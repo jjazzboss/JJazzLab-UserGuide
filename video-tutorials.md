@@ -1,35 +1,29 @@
-# ビデオチュートリアル
+# Video tutorials
 
-
-
-## 初めての方向け
+## For starters
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
 
-&#x20;
-
-## 15分チュートリアル
+## 15 min. tutorial
 
 {% embed url="https://www.youtube.com/watch?v=qEP02JZexEU&t=3s" %}
 
+## 10 keyboard shortcuts you need to know
 
+{% embed url="https://www.youtube.com/watch?v=XnTkcPL9SIE" %}
 
-## 知っておくべき10のキーボードショートカット
-
-{% embed url="https://youtu.be/XnTkcPL9SIE" %}
-
-## 4つのクイックヒント
+## 4 quick tips
 
 {% embed url="https://www.youtube.com/watch?v=ZwAwsEUwcc0" %}
 
-## JJazzLab、 Reaper、VSTプラグイン
+## JJazzLab, Reaper and VST plugins
 
-このビデオはReaperで行われていますが、どのDAWでもやり方は同じです。
+This video is done with Reaper, but the approach remains the same with any DAW.
 
-このビデオはMINDoSOFTのおかげです。
+Thanks to MINDoSOFT for this video.
 
-{% embed url="https://youtu.be/qa16PQn4ltg" %}
+{% embed url="https://www.youtube.com/watch?t=69s&v=qa16PQn4ltg" %}
 
-## 独自の拡張ヤマハスタイル作成方法チュートリアル
+## How to make you own Yamaha-extended styles (advanced)
 
 {% embed url="https://youtu.be/2iVB8t6uAVA" %}
