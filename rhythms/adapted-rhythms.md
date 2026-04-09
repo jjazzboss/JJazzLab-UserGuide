@@ -1,13 +1,16 @@
-# リズムの適応
+# Adapted rhythms
 
-異なる拍子の**セクション**を作成した場合、JJazzLabは**適応するリズム**の**ソングパート**を作成します。これは、単純に前のソングパートの**リズム**を新しい拍子に**適応**させたものです。
+When you insert a new [section ](../editors/chord-lead-sheet.md#sections)with a new time signature, JJazzLab needs to select a rhythm for the new [song part](../editors/song-structure.md#song-parts).&#x20;
 
-![](../.gitbook/assets/AdaptedRhythmExample.png)
+If the new time signature was never used before in the song, JJazzLab will try to create an **adapted rhythm** from the current rhythm (if current rhythm supports this feature). An **adapted rhythm** is simply the current rhythm but shortened or repeated to fit the new measure size.
 
-&#x20;ご覧のように、**適応したリズム**はミックスコンソールでチャンネルを追加しなくても構いません(上の例では、**fastbossa.s629.prs**)。
+![](../.gitbook/assets/adaptedrhythmexample.png)
 
-&#x20;もし、**適応させたリズム**が不要な場合は、**リズム選択ダイアログ**を使って置き換えることができます。
+You’ll notice that the **adapted rhythm** does not need additional channels in the mix console: it uses the Midi channels of its source rhythm (**fastbossa.s629.prs** in the example above).
 
-![](../.gitbook/assets/RemoveSourceRhythmError.png)
+Use the [rhythm selection dialog](../editors/song-structure.md#change-rhythm) to replace an adapted rhythm by a standard rhythm (or vice-versa).
 
-上記の場合、**fastbossa.s629.prs**を別のリズムに置き換えたい場合は、まず最初に、**適応したリズム**を使用している２つ目の曲のパートを削除する必要があります。
+{% hint style="info" %}
+If time signature was previously used in the song, JJazzLab will simply select the last rhythm used for that time signature.&#x20;
+{% endhint %}
+

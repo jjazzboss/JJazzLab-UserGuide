@@ -1,48 +1,58 @@
 # Table of contents
 
-* [JJazzLab](README.md)
-* [インストール](installation.md)
-* [ビデオチュートリアル](video-tutorials.md)
+* [JJazzLab 5](README.md)
+* [Installation instructions](installation.md)
+* [Video tutorials](video-tutorials.md)
 * [FAQ](faq.md)
 
-## 設定(コンフィギュレーション) <a href="#configuration" id="configuration"></a>
+## Sounds
 
-* [MIDI設定](configuration/midi-configuration.md)
+* [Using FluidSynth](sounds/using-fluidsynth.md)
+* [Other synths](sounds/other-synths.md)
 
-## 再生コントロール <a href="#playback-control" id="playback-control"></a>
+## Playback control
 
-* [コマンド](playback-control/commands.md)
-* [MIDIリモートコマンド](playback-control/midi-remote-commands.md)
+* [Commands](playback-control/commands.md)
+* [Midi remote commands](playback-control/midi-remote-commands.md)
 
-## ソング <a href="#songs" id="songs"></a>
+## Editors
 
-* [ソングエディター](songs/song-editors/README.md)
-  * [コード譜](songs/song-editors/chord-lead-sheet.md)
-  * [ソング構成](songs/song-editors/song-structure.md)
-  * [ミックスコンソール](songs/song-editors/mix-console.md)
-* [ソングとミックスファイル](songs/song-and-mix-files.md)
-* [ソングのインポート](songs/importing-songs.md)
+* [Overview](editors/overview.md)
+* [Chord lead sheet](editors/chord-lead-sheet.md)
+* [Song structure](editors/song-structure.md)
+* [Mix console](editors/mix-console.md)
+* [Notes editor](editors/notes-editor.md)
 
-## リズム <a href="#rhythms" id="rhythms"></a>
+## Songs
 
-* [リズムファイル](rhythms/rhythm-files.md)
-* [リズムの適応](rhythms/adapted-rhythms.md)
+* [Song and mix files](songs/song-and-mix-files.md)
+* [Importing songs](songs/importing-songs.md)
+* [Exporting songs](songs/exporting-songs.md)
 
-## ツール <a href="#tools" id="tools"></a>
+## Rhythms
 
-* [アレンジャーキーボードモード](tools/arranger-keyboard-mode.md)
-* [ノートビュワー](tools/notes-viewer.md)
-* [アドリブのヒント](tools/improvisation-help.md)
+* [Rhythm files](rhythms/rhythm-files.md)
+* [Adapted rhythms](rhythms/adapted-rhythms.md)
 
-## リズムエンジン <a href="#rhythm-engines" id="rhythm-engines"></a>
+## Tools
 
-* [リズムエンジンの概要](rhythm-engines/overview.md)
-* [YamJJazzリズムエンジン](rhythm-engines/yamjjazz-rhythm-engine/README.md)
-  * [ヤマハスタイル](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
-  * [拡張ヤマハスタイル](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
+* [Chord inspector](tools/notes-viewer.md)
+* [Practice loop with tempo increase](tools/practice-loop-with-tempo-increase.md)
+* [Arranger keyboard mode](tools/arranger-keyboard-mode.md)
+* [Chord symbols transposition](tools/chord-symbols-transposition.md)
+* [Improvisation help](tools/improvisation-help.md)
+* [Easy Reader](tools/easy-reader.md)
+* [Song memo](tools/song-memo.md)
 
-## ご協力 <a href="#contribute" id="contribute"></a>
+## Rhythm engines
 
-* [ドキュメント校正](contribute/improve-doc.md)
-* [JJazzLabの翻訳](contribute/translate-jjazzlab/README.md)
-  * [テスト中の翻訳](contribute/translate-jjazzlab/testing-translations.md)
+* [Rhythm engines overview](rhythm-engines/overview.md)
+* [YamJJazz rhythm engine](rhythm-engines/yamjjazz-rhythm-engine/README.md)
+  * [Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
+  * [Extended Yamaha styles](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
+* [jjSwing rhythm engine](rhythm-engines/jjswing-rhythm-engine.md)
+
+## Contribute
+
+* [Improve documentation](contribute/improve-doc.md)
+* [Translate JJazzLab](contribute/translate-jjazzlab.md)

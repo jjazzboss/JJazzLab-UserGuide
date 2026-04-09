@@ -1,99 +1,123 @@
 ---
-description: よく聞かれる質問
+description: Frequently Asked Questions
 ---
 
 # FAQ
 
-## JJazzLabが気に入ってて、無料でいてほしいのですが、何かお手伝いできますか？ <a href="#how-to-help" id="how-to-help"></a>
+## I like JJazzLab, how can I help? <a href="#how-to-help" id="how-to-help"></a>
 
-* [寄付 ](https://www.jjazzlab.com/en/donate/)してくださるとJJazzLabがみんなに無料のままでいられます。
-* JJazzLab [翻訳 ](contribute/translate-jjazzlab/)を手伝ってください。
-* [ご協力 ](contribute/improve-doc.md)は、この文章の改訂でもお願いしています。
-* ビデオにいいね！と、 [YouTube チャンネル](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)の登録を！
-* あなたがJJazzLabと一緒に演奏しているのを録画して！：そのビデオを、JJazzLabのYouTubeチャンネルに掲載します。
-* 口コミ拡散！トークと **www.jjazzlab.com** へのリンクをソーシャルネットワーク、ブログ、ウェブサイトなどで！
-* プログラマーなら、 [プログラムコードにご協力を](https://github.com/jjazzboss/JJazzLab-X/blob/master/CONTRIBUTING.md)
+* [**Donate**](https://www.jjazzlab.org/en/donate/) to keep JJazzLab 100% free, without any ad
+* Help [translate ](contribute/translate-jjazzlab.md)JJazzLab (especially if you speak japanese and korean)
+* [Contribute ](contribute/improve-doc.md)to improve this documentation
+* Like the videos and subscribe the [YouTube channel](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
+* Record a video of yourself playing along with JJazzLab: videos will be put on the JJazzLab YouTube channel
+* Spread the word ! Talk and add links to **www.jjazzlab.org** on social networks, blogs, websites, etc.
+* If you're a developer, contribute code on [GitHub](https://github.com/jjazzboss/JJazzLab).
 
-## MacOS使いなんですけど、**Tools→Optionsが見当たりませんが?**
+## I use MacOS, I can't find menu **Tools/Options?**
 
-MacOSでは、**Options** メインメニューの **JJazzLab→Preferences**からアクセスします。
+On MacOS the **Options** are accessed via the main menu **JJazzLab/Preferences**.
 
-## 曲の移調はどうするのですか？ <a href="#how-to-transpose-song" id="how-to-transpose-song"></a>
+## How do I transpose a song? <a href="#how-to-transpose-song" id="how-to-transpose-song"></a>
 
-1. コード記号をすべて選択(右クリックメニューの **Select all the chord symbols**)
-2. マウスホイールを使うか、右クリックメニューで移調( **Transpose** )
+1. Select all the chord symbols (right-click menu **Select all the chord symbols**)
+2. Use the mouse-wheel, or right-click menu **Transpose**
 
-## JJazzLabでVST/AUプラグインは使えますか？？
+## Can I use VST/AU plugins with JJazzLab?
 
-ただし、JJazzLabはVSTプラグインをホストできないため、直接は使用できません。
+Yes, but not directly because JJazzLab can not host VST plugins.&#x20;
 
-1. バーチャルMIDIデバイスとVSTホストソフトウェアをコンピュータにインストールしてください。Windows、Linux、Mac用の無料のアプリケーションがウェブ上にあります。例えば、Windowsでは**loopMID**I（高度な設定でフィードバック検出無効にすることをお勧めします）、**SoundBridge**を使用します。
-2. JJazzLabの**MIDIオプション**で、**MIDI出力デバイス**を**loopMIDI**に設定します。
-3. VSTホストソフトウェアで、**MIDIインデバイス**を**loopMIDI**に設定し、VSTホストとVSTプラグインがすべてのMIDIチャンネル（1〜16）を受信するように設定されていることを確認します。
-4. JJazzLabで曲を再生すると、VSTインストゥルメントが聞こえるはずです。
+1. Install a virtual midi device and a VST Host software on your computer. You'll find on the web free applications for Windows, Linux and Mac. For example use **loopMIDI** (we recommend to disable its _feedback detection_ in the _Advanced_ settings) and **SoundBridge** on Windows.
+2. In JJazzLab, go to **Midi options** and set the **Midi out device** to **loopMIDI**
+3. In your VST Host software, set the **Midi in device** to **loopMidi** and make sure the VST Host and the VST plugins are configured so that all Midi channels (1-16) are received.
+4. Play a song in JJazzLab: you should hear the VST instruments
+5. If you don't want to select the VST sounds directly from JJazzLab, you might want to _Disable all Midi parameters_ from the Midi menu in the Mix Console.
 
-## 真っ新な再インストールはどうするのですか？
+## How to generate an audio file (.mp3, .wav, etc.) from a JJazzLab backing track? <a href="#generate-mp3" id="generate-mp3"></a>
 
-JJazzLabのユーザー設定を全てリセットする必要があります(アンインストール／再インストールでは十分ではありません)。&#x20;
+From JJazzLab 4, just use **menu File/Export to audio** -this requires FluidSynth to be the output synth.  If you select the option "Separate tracks", one audio file will be generated per track.&#x20;
 
-簡単な方法： メニュー **Tools→Options→Advanced** の **Reset all user settings**のボタンです。
+## How to force a clean re-installation?
 
-難しい方法：メニューの **Help→About→System Information** で **Netbeans user dir** の場所を確認し、 JJazzLabを終了してから **Netbeans user dir**を削除します。
+You need to reset all JJazzLab user settings (uninstall/re-install is not enough).
 
-## Windowsの管理者権限がありませんが、JJazzLabをインストールできますか？
+The simple way: menu **Tools/Options/Advanced,** button **Reset all user settings**.
 
-はい。JJazzLab インストーラの最初のプロンプトで、「Install only for me」を選択し、書き込み権限のあるインストールディレクトリを選択してください（例：マイドキュメント）。
+The hard way: find the location of your **Netbeans user dir** in menu **Help/About/System Information**, exit JJazzLab then delete the **Netbeans user dir**.
 
-## フォントを大きくするにはどうしたらよいですか？ <a href="#font-bigger" id="font-bigger"></a>
+## I don't have administration privileges on my Windows computer, can I install JJazzLab?
 
-JJazzLab をインストールしたディレクトリで、 **etc/jjazzlab.conf**  ファイルを編集し、**default\_option**変数に**--fontsize 16** (16 またはその他の値、デフォルトは 11)を追加すると、以下のようになるはずです：
+Yes. When first prompted by the JJazzLab installer, select "Install only for me", then select an installation directory where you have write access (in My Documents for example).
 
-`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"`&#x20;
+## How to get better sounds?
 
-JJazzLab再起動すると、全メニューが大きく見えるはずです。
+From JJazzLab 4, the application embeds a ready-to-use software synth (FluidSynth) optimally configured for JJazzLab, with decent sounds.
 
-&#x20;エディターフォントの中には、この設定に依存しないものもあるので、これですべてが解決するわけではありません。しかし、メニューの**Tools/Options/Theme**を使って、そのうちのいくつかを調整することができます。リストの各項目をチェックし、フォントが定義されている場合は、それを変更して大きくします。ユーザー設定は自動的に保存されますので、この作業は一度だけ行う必要があります。
+To get even better sounds, you'll need to connect JJazzLab to a hardware synth or to [VST/AU plugins](faq.md#can-i-use-vst-au-plugins-with-jjazzlab) via Midi.
 
-## コマンドライン引数でJJazzLabを起動できますか？
+{% hint style="success" %}
+There is a free version of Halion Sonic SE from Steinberg which can be used with JJazzLab to get **really good** **sounding** backing tracks, more info on the [JJazzLab forum](https://jjazzlab.freeforums.net/thread/215/new-great-sounds-jjazzlab).
+{% endhint %}
 
-コマンドラインで1つまたは複数の.sngファイル名を渡せば、JJazzLabの起動時にそれらのファイルを開くことができます。
+## I have a Yamaha arranger keyboard (Tyros, PSR, ...), how can I use it with JJazzLab?
+
+JJazzLab can drive your keyboard to benefit from its optimized sounds.&#x20;
+
+* Connect your keyboard via Midi
+* Go to the Midi Out tab of Options/Preferences
+* Select the Midi output connected to your synth
+* In the Output Synth part, select **Add synth from file.**.., and choose **YamahaRefSynth.ins**.
+
+## How to make fonts bigger? <a href="#font-bigger" id="font-bigger"></a>
+
+In the JJazzLab installation directory, edit the file **etc/jjazzlab.conf** and add **--fontsize 16** (16 or any other value, default is 11) in the **default\_options** variable, you should end up with something like this:
+
+`default_options="--branding jjazzlab -J-Djjazzlab.version=2.2.0 -J-Dplugin.manager.check.new.plugins=true -J-Dplugin.manager.check.interval=EVERY_DAY --fontsize 16"`
+
+Restart JJazzLab. All menus should look bigger now.
+
+This won't solve everything though, as some editor fonts do not depend on this setting. But you can tweak some of them using menu **Tools/Options/Theme**. Check each item in the list and if there is a font defined, change it to make it bigger. The user settings are automatically saved, so you need to do this only once.
+
+{% hint style="info" %}
+If you use 4K or 5K monitors, JJazzLab may look too small, with unreadable fonts. In this case add **-J-Dsun.java2d.uiScale=2** in the **default\_options** variable, like in the example above. JJazzLab will look twice as bigger.
+{% endhint %}
+
+## Can I start JJazzLab with command line arguments?
+
+You can pass one or more .sng file names on the command line, JJazzLab will open them upon start.
 
 ```
 # Example on Win10 (x64)
 "C:\Program Files\JJazzLab\bin\jjazzlab64.exe" "C:\my dir\MySong.sng" "D:\AnotherSong.sng"
 ```
 
-## バグの提出方法は？ "log"ファイルはどうやって見つけるの？
+## How to submit a bug? How to find the "log" file?
 
-バグは[Eメール ](https://www.jjazzlab.com/en/contact/)を送っていただくか、GitHub ユーザーなら [issue](https://github.com/jjazzboss/JJazzLab-X/issues)を作ってください。
+Create a new thread in the [JJazzLab forum](https://jjazzlab.freeforums.net/) or, if you're a GitHub user, create an [issue](https://github.com/jjazzboss/JJazzLab-X/issues).
 
-サポートするためには、以下の情報が必要です：
+We need the following information in order to help you:
 
-* **ログファイル** の内容の提供
-* 何が期待通りに動作しないかの記述
-* 問題の原因となった一連の動作の記述
+* Provide the content of the **log file**&#x20;
+* Describe what does not work as expected
+* Describe the sequence of actions that caused the issue
 
 {% hint style="info" %}
-JJazzLabを起動するたびに、新しい**ログファイル** が作成されます。問題が発生したときに正しいログファイルを取得することが重要です。
+A new **log file** is created upon each start of JJazzLab. It's important to get the right log file when the problem occured.
 {% endhint %}
 
-ログファイルの内容を取得するには：
+To get the log file content:
 
-1. 問題が発生した直後に、メニューの **Tools→Options→Advanced**を開きます。
-2. **Show Log Window**をクリック
-3. バグリポート内にあるウィンドウの **内容全部** をコピー＆ペースト
+1. After the problem has occured, go to menu **Tools/Options/Advanced**
+2. Click on **Show Log Window**
+3. Copy & paste **the full content** of this window in your bug report
 
-何らかの理由で上記が上手くいかない場合は：
+If for some reason the above does not work:
 
-1. メニューの **Help→About**に進み、 **Netbeans user dir**を見つけます。\
-   Windowsの例 `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2`\
-   Linuxの例 `/home/MyName/.jjazzlab/2.2`
-2. エクスプローラーを開き、そのディレクトリに進んで、そのサブディレクトリの **var/log** に進みます。
-3. 最後のログファイルは、**messages.log**で、１つ前は**messages.log.1**、さらにもう１つ前は、 **messages.log.2**などとなっています。
-4. 該当するログファイルを見つけて、バグレポートと一緒に送信してください。
+1. Go to menu **Help/About** and find the location of your **Netbeans user dir**.  For ex. on Windows `C:\Users\MyName\AppData\Roaming\jjazzlab\2.2` For ex. on Linux `/home/MyName/.jjazzlab/2.2`
+2. Open an explorer, go to this directory then to the **var/log** subdirectory
+3. The last log file is **messages.log**, the previous one is **messages.log.1**, the before previous is **messages.log.2**, etc.
+4. Find the relevant log file and send it with your bug report
 
 {% hint style="danger" %}
-**Netbeans user dir**が見当たらない場合、エクスプローラが隠しファイルを表示するようになっているか確認してください(例. AppData ディレクトリはWindowsでは通常、隠されています)。
+If you can't find the **Netbeans user dir**., make sure your explorer shows the hidden files (e.g. the AppData directory is usually hidden on Windows)
 {% endhint %}
-
-&#x20;

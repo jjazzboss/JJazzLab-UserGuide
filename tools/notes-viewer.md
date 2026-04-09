@@ -1,35 +1,25 @@
-# ノートビュワー
+# Chord inspector
 
-ノートビュワーでは、選択したコード記号の音や、伴奏の音をリアルタイムで見ることができます。
+Use the Chord inspector (menu **Tools/Chord inspector**) to see the notes of the **selected chord symbol**, using different visualizations., as shown in the image below.
 
-## コード記号の音の表示
+## Piano keyboard
 
-選択したコード記号の音を鍵盤やギターポジションで表示できます。
+![](<../.gitbook/assets/2021-12-13 20_34_45-JJazzLab.png>)
 
-### 鍵盤
+If there is an **harmonic scale** set for the selected chord symbol (see [chord symbol editor](../editors/chord-lead-sheet.md#harmony)), the notes of the scale are shown (example below).
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2FMUP9cqejuNFzrSJ3MbOW%2F2021-12-13%2020\_34\_45-JJazzLab.png?alt=media\&token=0575b575-d171-422f-b9cf-afbaf01e7389)
+![](<../.gitbook/assets/2021-12-13 20_36_34-JJazzLab.png>)
 
-選択したコード記号にスケールが設定されている場合（[モードスケール参照](../songs/song-editors/chord-lead-sheet.md#mdosukruharmony)）、そのスケールの音が表示されます。
+## Guitar diagrams
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2F8L0zuBe8Vu0Djajsesil%2F2021-12-13%2020\_36\_34-JJazzLab.png?alt=media\&token=90701c40-6800-46d9-8f72-73e29319955f)
+The red dots represent tonic notes (for ex. G for Gm69).
 
-### ギターポジション
+![Most common diagrams for the G69 chord](<../.gitbook/assets/2021-12-13 20_35_23-JJazzLab.png>)
 
-赤い丸はルート音を表しています(例 Gm69の G)。
+By clicking on the button you can switch between different types of positions : _most common, open voiced, close voiced, inversions_.
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2FWqJAcCf7wZGslW422DJC%2F2021-12-13%2020\_35\_23-JJazzLab.png?alt=media\&token=600aad65-1a73-4b8c-9608-723a9be8b50d)
+![Open voiced diagrams for the Gm69 chord](<../.gitbook/assets/2021-12-13 20_35_59-JJazzLab.png>)
 
-ボタンをクリックすると、_最も一般的なポジション、オープンボイシング、クローズボイシング、転回形(inversions)_の各タイプに切り替えることができます。
+## Score
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2FZ8fsWIb05ZRM3X3W9Mjs%2F2021-12-13%2020\_35\_59-JJazzLab.png?alt=media\&token=3946b0c1-8873-4beb-a9c6-913ffe2960e2)
-
-## 伴奏の音のリアルタイム表示
-
-伴奏で選択した楽器の音をリアルタイムで表示します。
-
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQE7B7yjVY3xzlsorS4-887967055%2Fuploads%2FfOWZxnPy1w2yYGpqOFBz%2F2021-12-13%2021\_25\_23-JJazzLab.png?alt=media\&token=b72f0242-198a-47ef-9d71-7a7eb1928611)
-
-{% hint style="warning" %}
-鳴っている音と表示音が視覚的に同期していない場合は、シンセ出力エディターのAdvancedタブで**オーディオレイテンシー**を調整します。.
-{% endhint %}
+<figure><img src="../.gitbook/assets/2024-01-03 12_27_52-JJazzLab  4.0.2.png" alt=""><figcaption><p>Chord and associated scale notes</p></figcaption></figure>
