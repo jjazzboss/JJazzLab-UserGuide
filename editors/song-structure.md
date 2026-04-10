@@ -195,7 +195,7 @@ As a shortcut, you can directly hide a rhythm parameter (i.e. make it non visibl
 
 ## Mouse shortcuts
 
-<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Selection</td><td>Mouse</td><td>Action</td></tr><tr><td>song part, rhythm param.</td><td>click</td><td>select</td></tr><tr><td>song part</td><td>double click</td><td>edit song part name</td></tr><tr><td>song part name</td><td>click</td><td>edit</td></tr><tr><td>rhythm</td><td>click</td><td>select a rhythm</td></tr><tr><td>editor, song part, rhythm param.</td><td>right-click</td><td>open popup menu</td></tr><tr><td>rhythm parameter</td><td>double-click</td><td>edit value</td></tr><tr><td>rhythm parameter</td><td>mouse wheel</td><td>change value</td></tr><tr><td>rhythm parameters</td><td>shift+mouse wheel</td><td>make values identical then change value</td></tr><tr><td>editor</td><td>ctrl mouse wheel</td><td>change X zoom factor</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="253.33333333333331">Selection</th><th>Mouse</th><th>Action</th></tr></thead><tbody><tr><td>Selection</td><td>Mouse</td><td>Action</td></tr><tr><td>song part, rhythm param.</td><td>click</td><td>select</td></tr><tr><td>song part</td><td>double click</td><td>edit song part name</td></tr><tr><td>song part name</td><td>click</td><td>edit</td></tr><tr><td>rhythm</td><td>click</td><td>select a rhythm</td></tr><tr><td>editor, song part, rhythm param.</td><td>right-click</td><td>open popup menu</td></tr><tr><td>rhythm parameter</td><td>double-click</td><td>edit value</td></tr><tr><td>rhythm parameter</td><td>mouse wheel</td><td>change value</td></tr><tr><td>editor</td><td>shift mouse wheel</td><td>scroll horizontally</td></tr><tr><td>editor</td><td>alt mouse wheel</td><td>scroll vertically</td></tr><tr><td>editor</td><td>ctrl mouse wheel</td><td>zoom horizontally</td></tr><tr><td>editor</td><td>ctrl-shift mouse wheel</td><td>zoom vertically</td></tr></tbody></table>
 
 ## Keyboard shortcuts
 
@@ -203,19 +203,17 @@ As a shortcut, you can directly hide a rhythm parameter (i.e. make it non visibl
 Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated shortcut is displayed.
 {% endhint %}
 
-| Selection                | Key                    | Action                   |
-| ------------------------ | ---------------------- | ------------------------ |
-| song part, rhythm param. | enter                  | edit song part name      |
-| song part, rhythm param. | R                      | select rhythm            |
-| song part, rhythm param. | I                      | insert song part         |
-| song part, rhythm param. | ctrl-I                 | append song part         |
-| song part, rhythm param. | D                      | duplicate song part(s)   |
-| song part                | delete                 | delete song part(s)      |
-| rhythm parameter         | ctrl-up/down           | next/previous value      |
-| rhythm parameter         | Z                      | reset param. value       |
-| song part                | ctrl-C/X/V             | copy/cut/paste           |
-| editor                   | ctrl-Z/Y               | undo/redo                |
-| editor                   | ctrl-F                 | zoom to fit width        |
-| editor                   | V                      | compact or full view     |
-| editor                   | ctrl mouse-wheel       | zoom in/out horizontally |
-| editort                  | ctrl+shift mouse-wheel | zoom in/out vertically   |
+| Selection                | Key          | Action                 |
+| ------------------------ | ------------ | ---------------------- |
+| song part, rhythm param. | enter        | edit song part name    |
+| song part, rhythm param. | R            | select rhythm          |
+| song part, rhythm param. | I            | insert song part       |
+| song part, rhythm param. | ctrl-I       | append song part       |
+| song part, rhythm param. | D            | duplicate song part(s) |
+| song part                | delete       | delete song part(s)    |
+| rhythm parameter         | ctrl-up/down | next/previous value    |
+| rhythm parameter         | Z            | reset param. value     |
+| song part                | ctrl-C/X/V   | copy/cut/paste         |
+| editor                   | ctrl-Z/Y     | undo/redo              |
+| editor                   | ctrl-F       | zoom to fit width      |
+| editor                   | V            | compact or full view   |
