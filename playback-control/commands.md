@@ -42,11 +42,13 @@ When loop mode is activated, the playback restarts when playback reaches the end
 
 ### Loop restart bar
 
-You can define a **loop restart bar** which is different from the first bar:
+You can define a **loop restart bar** which is different from the first bar. It is represented by 2 bars on the left, as shown below.
 
 <figure><img src="../.gitbook/assets/loopRestartBar.png" alt=""><figcaption></figcaption></figure>
 
-Not that loop restart bar is ignored when using **Play selection**.
+{% hint style="info" %}
+Loop restart bar is ignored when using **Play selection**.
+{% endhint %}
 
 ## Click settings
 
