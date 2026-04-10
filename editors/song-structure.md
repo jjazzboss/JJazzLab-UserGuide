@@ -134,7 +134,7 @@ The special _fade\_out_ value does not produce a drums fill, instead it graduall
 
 This parameter is used to mute one of more instruments during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
 
-### **Marker**
+### Marker
 
 This parameter is useful only if you use substitute chord symbols, as explained [here](chord-lead-sheet.md#substitute-chord-symbol).
 
@@ -142,7 +142,7 @@ This parameter is useful only if you use substitute chord symbols, as explained 
 
 Use this parameter to slow down or accelerate the tempo of the song part.
 
-### **Drums transform**
+### Drums transform
 
 This parameter lets you change some drums notes for the song part.
 
@@ -152,7 +152,7 @@ For example you can make the hi-hat louder, transform the closed hi-hat into rid
 
 ![](../.gitbook/assets/DrumsTransform.png)
 
-### **Custom phrase**
+### Custom phrase
 
 This parameter lets you customize one or more instrument phrases of the song part.\
 \
