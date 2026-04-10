@@ -4,7 +4,7 @@ You can control the playback of the song using the toolbar buttons (image below)
 
 ![Playback-related buttons](../.gitbook/assets/MusicControlToolbarText.png)
 
-### Keyboard shortcuts
+## Keyboard shortcuts
 
 {% hint style="warning" %}
 The shortcuts are given for Windows and Linux. Some of them might need to be adapted for Mac.
@@ -24,7 +24,7 @@ The shortcuts are given for Windows and Linux. Some of them might need to be ada
 | K or +                                          | Increase tempo                                      |
 | L                                               | Toggle loop mode                                    |
 
-### Popup menu controls
+## Popup menu controls
 
 This lets you start playback **from the selected lead sheet bar or song part** (ctrl-space).
 
@@ -34,11 +34,13 @@ You can also play only the **current selected bars or/and song parts** (ctrl-shi
 
 <figure><img src="../.gitbook/assets/SongPartPlayFromHere.png" alt=""><figcaption><p>Play from selected song part</p></figcaption></figure>
 
-### Loop mode
+## Loop mode
 
 When loop mode is activated, the playback restarts when playback reaches the end (the end of the song, or the end of the selection if **Play selection** was used).
 
 <figure><img src="../.gitbook/assets/LoopButton.png" alt=""><figcaption></figcaption></figure>
+
+### Loop restart bar
 
 You can define a **loop restart bar** which is different from the first bar:
 
@@ -46,7 +48,7 @@ You can define a **loop restart bar** which is different from the first bar:
 
 Not that loop restart bar is ignored when using **Play selection**.
 
-### Click settings
+## Click settings
 
 The **metronome** and **precount mode** can be configured via the **Click** panel in the **Options menu**.
 
@@ -55,6 +57,4 @@ The **metronome** and **precount mode** can be configured via the **Click** pane
 **Precount mode** can also be directly changed from the toolbar button using **shift-click**.
 
 <figure><img src="../.gitbook/assets/PrecountModeTooltip (1).png" alt=""><figcaption></figcaption></figure>
-
-###
 
