@@ -2,7 +2,7 @@
 
 You can control the playback of the song using the toolbar buttons (image below), [keyboard shortcuts](midi-remote-commands.md), bar or song part's [popup menu](commands.md#popup-menu-controls), or [MIDI remote commands](midi-remote-commands.md).
 
-![](../.gitbook/assets/MusicControlToolbarText.png)
+![Playback-related buttons](../.gitbook/assets/MusicControlToolbarText.png)
 
 ### Keyboard shortcuts
 
@@ -26,9 +26,9 @@ The shortcuts are given for Windows and Linux. Some of them might need to be ada
 
 ### Popup menu controls
 
-This lets you start playback from the selected lead sheet bar or song part (or use ctrl-space).
+This lets you start playback **from the selected lead sheet bar or song part** (ctrl-space).
 
-You can also play only the current selected bars or/and song parts (use ctrl-shift-space), possibly looped if [loop mode](commands.md#loop-mode) is active.
+You can also play only the **current selected bars or/and song parts** (ctrl-shift-space), possibly looped if [loop mode](commands.md#loop-mode) is active.
 
 <figure><img src="../.gitbook/assets/BarPlayFromHere.png" alt=""><figcaption><p>Play from selected bar</p></figcaption></figure>
 
@@ -38,11 +38,13 @@ You can also play only the current selected bars or/and song parts (use ctrl-shi
 
 When loop mode is activated, the playback restarts when playback reaches the end (the end of the song, or the end of the selection if **Play selection** was used).
 
-You can define a **loop restart bar** which is different from the first song bar:
+<figure><img src="../.gitbook/assets/LoopButton.png" alt=""><figcaption></figcaption></figure>
+
+You can define a **loop restart bar** which is different from the first bar:
 
 <figure><img src="../.gitbook/assets/loopRestartBar.png" alt=""><figcaption></figcaption></figure>
 
-Not that the loop restart bar is ignored when using **Play selection**.
+Not that loop restart bar is ignored when using **Play selection**.
 
 ### Click settings
 
