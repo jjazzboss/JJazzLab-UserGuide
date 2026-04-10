@@ -13,7 +13,7 @@ Use the **chord leadsheet editor** to:
 
 Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
 
-![Bar popup menu](../.gitbook/assets/BarPopupMenu.png)
+![Bar popup menu](<../.gitbook/assets/BarPopupMenu (2).png>)
 
 ![Chord symbol popup menu](../.gitbook/assets/chordPopupMenu.png)
 
@@ -24,14 +24,14 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 Select a bar then select **Set end bar** in the right-click menu (see below).
 
 {% hint style="info" %}
-The size of the song depends on both the leadsheet _and_ the song structure.&#x20;
+The size of the song depends on both the leadsheet _and_ the song structure.
 
 For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
 {% endhint %}
 
 ## Selecting and moving items (chord symbols ...)
 
-Click on a bar or a chord symbol to select it.  Use **ctrl-click** to select multiple bars or chord symbols.&#x20;
+Click on a bar or a chord symbol to select it. Use **ctrl-click** to select multiple bars or chord symbols.
 
 Use **shift-click** to extend the current selection.
 
@@ -45,7 +45,7 @@ Use **shift-click** to extend the current selection.
 
 #### Chord symbol quantization
 
-By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).&#x20;
+By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).
 
 This can be adjusted per section via the bar or section popup menu **Quantization...**, as shown below.
 
@@ -69,7 +69,7 @@ To **copy** a chord symbol just **drag it** while pressing the **control** key.
 In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
 {% endhint %}
 
-JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent.  You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
+JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent. You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
 
 <figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
 
@@ -81,7 +81,7 @@ The special **NC** chord symbol can be used to get a silence until next chord sy
 
 Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
 
-![](../.gitbook/assets/chordsymbolinterpretationdialog.png)
+![](../.gitbook/assets/ChordSymbolEditDialog.png)
 
 The **Interpretation** tab lets you decide how this chord symbol should be played:
 
@@ -95,15 +95,15 @@ The **Interpretation** tab lets you decide how this chord symbol should be playe
 Each rhythm generation engine may render these Interpretation parameters differently.
 {% endhint %}
 
-&#x20;The shape of the marker below the chord symbol depends on the interpretation mode:
+The shape of the marker below the chord symbol depends on the interpretation mode:
 
 ![](../.gitbook/assets/interpretationmarkers.png)
 
-&#x20;For example, in order to render:&#x20;
+For example, in order to render:
 
 ![](../.gitbook/assets/rhythmicaccents.png)
 
-you could use the following interpretation parameters:&#x20;
+you could use the following interpretation parameters:
 
 ![](../.gitbook/assets/examplerhythmicaccents.png)
 
@@ -115,7 +115,7 @@ See below the keyboard shortcuts to change the interpretation of selected chords
 
 Select a chord symbol, edit it and select the **Harmony** tab.
 
-![](../.gitbook/assets/chordsymbolharmonydialog.png)
+![](../.gitbook/assets/ChordSymbolEditDialogHarmony.png)
 
 The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
 
@@ -127,9 +127,9 @@ By default no scale is selected: each rhythm generation engine will decide the "
 
 Select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
-![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/chordsymbolalternatedialog.png)
+![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/ChordSymbolEditDialogSubstitute.png)
 
-This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.&#x20;
+This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.
 
 **Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
 
@@ -166,7 +166,7 @@ A section has a **name** and a **time signature**. Typical sections are 'intro',
 To add a section, **select a bar** then:
 
 * **Double-click** to edit the bar (or press ENTER, or use popup menu Edit...) and **change the section name**
-* or use bar popupmenu **Insert > Section...**&#x20;
+* or use bar popupmenu **Insert > Section...**
 
 {% hint style="danger" %}
 Section names must be unique. It's not possible to remove the initial section in the first bar.
@@ -176,21 +176,21 @@ Like chord symbols, sections can be moved or copied (hold ctrl key) with the mou
 
 ### Force a section at new line
 
-You can force a section which is not on the first bar of a row to start on the next line.&#x20;
+You can force a section which is not on the first bar of a row to start on the next line.
 
 This can be useful when some sections have an odd number of bars.
 
 Select a bar with a section defined or select the section itself, then use popup menu **Section at New Line**.
 
-![](../.gitbook/assets/forcesectionnewline1.png)
+![](../.gitbook/assets/SectionNewLinePopupMenu.png)
 
-&#x20; This will result in the display below.&#x20;
+This will result in the display below:
 
-![](../.gitbook/assets/forcesectionnewline2.png)
+![](../.gitbook/assets/SectionNewLineResult.png)
 
 ## Bar annotations / lyrics
 
-You can add **annotations** to any bar.&#x20;
+You can add **annotations** to any bar.
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
 
@@ -204,14 +204,14 @@ Suppose the same bar is used in different song parts. The lyrics for this bar mi
 
 <figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
-**Example**:  for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
+**Example**: for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
 
 ## Exporting/importing chord leadsheet as text
 
 Select some bars or chord symbols and copy them (via menu Copy or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
 
-`|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |` \
-`| Gm7/Bb     | C9/Bb  |  F7M    |          |`
+`|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |`\
+`| Gm7/Bb | C9/Bb | F7M | |`
 
 Text import works the other way around. Copy a similar text in the clipboard then paste it in the chord leadsheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
 
@@ -222,7 +222,7 @@ Text import works the other way around. Copy a similar text in the clipboard the
 | bar, chord symbol, section                                | click                                                 | select                                                 |
 | chord symbol                                              | double click                                          | edit using chord symbol editor                         |
 | chord symbol                                              | ctrl-shift click                                      | hear the chord                                         |
-| bar, section                                              | double click                                          | edit using bar editor                                  |
+| bar, section, annotation                                  | double click                                          | edit using bar editor                                  |
 | bar, chord symbol, section                                | right-click                                           | popup menu                                             |
 | chord symbol                                              | mouse-wheel                                           | transpose                                              |
 | editor                                                    | ctrl mouse-wheel                                      | zoom in/out horizontally                               |
@@ -237,7 +237,7 @@ Many actions are also available via the context menu (right-click on Windows/Lin
 | Selection                  | Key             | Action                                    |
 | -------------------------- | --------------- | ----------------------------------------- |
 | chord Symbol               | enter           | edit with chord symbol editor             |
-| bar, section               | enter           | edit with bar editor dialog               |
+| bar, section               | enter           | edit with bar editor dialog               |
 | bar                        | ctrl-E          | set end bar                               |
 | bar                        | I               | insert bars                               |
 | bar                        | delete          | clear bar contents                        |
