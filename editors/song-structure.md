@@ -6,7 +6,7 @@ Use the **song structure editor** to:
 * Select which **rhythms** (music styles) to use and when
 * Adjust the **rhythm parameters** of song parts to introduce dynamics, eg variation, intensity, drums fill, muted instrument, ...
 
-![](../.gitbook/assets/FullSongStructureEditorText.png)
+![](../.gitbook/assets/SongPartEditor.png)
 
 ## Song parts
 
@@ -78,9 +78,13 @@ When selecting several contiguous rhythm parameters, you can use the **Adjust va
 
 ## Song part editor
 
-Song part editor provides an additional way to edit the selected song part(s).
+Song part editor provides **another way** to edit the selected song part(s).
 
-Use the song part editor to edit rhythm parameters which need user to select (ctrl-click) one or more values from a list, such as the Mute parameter.
+Usually the most effective way to edit a song part and its rhythm parameters is to use the mouse (and mouse-wheel) directly in the song structure editor, as explained in the previous chapter.&#x20;
+
+However the song part editor is more convenient to edit the **mute** rhythm parameter, where you need to select/unselect multiple values from a list (ctrl-click).
+
+Note that the changes made to the song part editor impacts all the selected song parts.
 
 <figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
