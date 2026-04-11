@@ -78,13 +78,13 @@ When selecting several contiguous rhythm parameters, you can use the **Adjust va
 
 ## Song part editor
 
-Song part editor provides **another way** to edit the selected song part(s).
+The **Song part editor**, next to the Mix Console tab, provides **another way** to edit the selected song part(s).
 
 Usually the most effective way to edit a song part and its rhythm parameters is to use the mouse (and mouse-wheel) directly in the song structure editor, as explained in the previous chapter.&#x20;
 
-However the song part editor is more convenient to edit the **mute** rhythm parameter, where you need to select/unselect multiple values from a list (ctrl-click).
+However the **song part editor** is more convenient to edit the **mute** rhythm parameter, where you need to select/unselect multiple values from a list (ctrl-click).
 
-Note that the changes made to the song part editor impacts all the selected song parts.
+Note that the changes made to the song part editor **impacts all the selected song parts**.
 
 <figure><img src="../.gitbook/assets/2024-01-05 11_37_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 
