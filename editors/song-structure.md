@@ -12,11 +12,15 @@ Use the **song structure editor** to:
 
 A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
 
-**Song parts let you define in which order sections are played, and how**. For example you can have a chord lead sheet with only 2 sections _verse_ and _chorus_, but the song will play _verse verse chorus verse chorus_.
+<figure><img src="../.gitbook/assets/SectionAndSongParts.png" alt=""><figcaption></figcaption></figure>
+
+**Song parts let you define in which order sections are played, and how**.&#x20;
 
 A song part has a name, a **rhythm** and a value for each of the [**rhythm parameters**](song-structure.md#rhythm-parameters). Rhythm parameters let you change how the rhythm is played for this song part.
 
-By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name.
+In the image above, song parts define the following section order: **Intro, A, A, B, A**. All song parts use the same rhythm(MediumJazz.S737.sst). Note that the 3rd and last song parts will use a different rhythm variation (Main B-1) with a drums break on the last bar.
+
+By default the name of the song part is the name of the parent section. If the song part is renamed, the parent section is shown below the name in brackets (see 2nd and 3rd song parts above).
 
 {% hint style="info" %}
 If some contiguous song parts share the same name, then the name is displayed _only on the first song part and a line is shown_ on the contiguous song parts (see image below).
@@ -106,13 +110,23 @@ If you want to remove a rhythm change in the middle of a song, select the song p
 
 ## Rhythm parameters
 
-Rhythm parameters let you adjust how a rhythm (music style) is played for a given song part.
+**Rhythm parameters** let you adjust how a rhythm (music style) is played for a given song part.
 
 {% hint style="success" %}
 Rhythm parameters are a simple & powerful tool to **introduce variations in a backing track**, which make it more fun to play with.
 {% endhint %}
 
-JJazzLab lets the developer of a [rhythm engine](/broken/pages/-MQSAs6SfPTmre5f3rhY) define custom rhythm parameters. However rhythm engines will often use a common set of standard parameters as described below.
+In the image below, you can see two **song parts** using the same [jjSwing ](../rhythm-engines/jjswing-rhythm-engine.md)rhythm but with very different **rhythm parameters** -as a result, they will sound quite different.&#x20;
+
+This example is a bit extreme; usually, adjusting just a few parameters is enough to avoid a boring backing track. Note that you can hide the rhythm parameters you don't use by adjusting the the [compact view](song-structure.md#compact-full-view) settings.
+
+<figure><img src="../.gitbook/assets/ManyRhythmParameters.png" alt=""><figcaption></figcaption></figure>
+
+The most common rhythm parameters are described below.&#x20;
+
+{% hint style="info" %}
+Note that a [rhythm engine](/broken/pages/-MQSAs6SfPTmre5f3rhY) can define its own custom rhythm parameters. For example [jjSwing ](../rhythm-engines/jjswing-rhythm-engine.md)defines [Bass style](../rhythm-engines/jjswing-rhythm-engine.md#bass-style) and [Drums style](../rhythm-engines/jjswing-rhythm-engine.md#drums-style).
+{% endhint %}
 
 ### Variation
 
@@ -126,13 +140,13 @@ A rhythm engine might simply increase/decrease the Midi velocity of the backing 
 
 ### Drums Fill
 
-This parameter defines when a drums fill (or break) should be played at the end of the song part (_never_, _always_, _randomly_, ...).
+This parameter defines when a **drums fill** (or **break**) should be played at the end of the song part (_**never**_, _**always**_, _**randomly**_, ...).
 
-The special _fade\_out_ value does not produce a drums fill, instead it gradually decreases the notes velocity until the end of the song part.
+The special _**fade\_out**_ value does not produce a drums fill, instead it gradually decreases the notes velocity until the end of the song part.
 
 ### Mute
 
-This parameter is used to mute one of more instruments during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
+This parameter is used to **mute one of more instruments** during this song part. To edit this parameter it's easier to use the [song part editor](song-structure.md#song-part-editor)**.**
 
 ### Marker
 
@@ -140,7 +154,9 @@ This parameter is useful only if you use substitute chord symbols, as explained 
 
 ### Tempo factor
 
-Use this parameter to slow down or accelerate the tempo of the song part.
+Use this parameter to slow down or accelerate the tempo of the song part as a percentage (50% to 200%) of the song's tempo. The number in brackets is the resulting tempo.
+
+<figure><img src="../.gitbook/assets/TempoFactor.png" alt=""><figcaption><p>Tempo factor example with song's tempo=142</p></figcaption></figure>
 
 ### Drums transform
 
@@ -154,9 +170,9 @@ For example you can make the hi-hat louder, transform the closed hi-hat into rid
 
 ### Custom phrase
 
-This parameter lets you customize one or more instrument phrases of the song part.\
+This parameter lets you customize one or more rhythm phrases for a song part.\
 \
-\&#xNAN;_Example: you want to change the bass phrase at the end of the second verse_\
+**Example**: you want to change the rhythm bass phrase at the end of the second verse\
 \
 Edit the Custom phrase rhythm parameter of the corresponding song part, then edit the Bass track. The default bass phrase will appear in the [notes editor](notes-editor.md) and you'll be able to change it.\
 \
