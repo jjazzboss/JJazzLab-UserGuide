@@ -7,52 +7,52 @@
 
 ## Sons
 
-* [Utiliser FluidSynth](sons/using-fluidsynth.md)
-* [Autres synthétiseurs](sons/other-synths.md)
+* [Utiliser FluidSynth](sounds/using-fluidsynth.md)
+* [Autres synthétiseurs](sounds/other-synths.md)
 
 ## Contrôle de lecture
 
-* [Commandes](controle-de-lecture/commands.md)
-* [Commandes à distance Midi](controle-de-lecture/midi-remote-commands.md)
+* [Commandes](playback-control/commands.md)
+* [Commandes à distance Midi](playback-control/midi-remote-commands.md)
 
 ## Éditeurs
 
-* [Aperçu](editeurs/apercu.md)
-* [Lead sheet](editeurs/chord-lead-sheet.md)
-* [Song structure](editeurs/song-structure.md)
-* [Mix console](editeurs/mix-console.md)
-* [Éditeur de notes](editeurs/notes-editor.md)
+* [Aperçu](editors/overview.md)
+* [Lead sheet](editors/chord-lead-sheet.md)
+* [Song structure](editors/song-structure.md)
+* [Mix console](editors/mix-console.md)
+* [Éditeur de notes](editors/notes-editor.md)
 
 ## Morceaux
 
-* [Fichiers song et mix](morceaux/song-and-mix-files.md)
-* [Importation de morceaux](morceaux/importing-songs.md)
-* [Exportation de morceaux](morceaux/exporting-songs.md)
+* [Fichiers song et mix](songs/song-and-mix-files.md)
+* [Importation de morceaux](songs/importing-songs.md)
+* [Exportation de morceaux](songs/exporting-songs.md)
 
 ## Rythmes
 
-* [Fichiers rythme](rythmes/rhythm-files.md)
-* [Rythmes adaptés](rythmes/adapted-rhythms.md)
+* [Fichiers rythme](rhythms/rhythm-files.md)
+* [Rythmes adaptés](rhythms/adapted-rhythms.md)
 
 ## Outils
 
-* [Inspecteur d'accords](outils/notes-viewer.md)
-* [Boucle de pratique avec augmentation du tempo](outils/practice-loop-with-tempo-increase.md)
-* [Mode clavier arrangeur](outils/arranger-keyboard-mode.md)
-* [Transposition des chord symbols](outils/chord-symbols-transposition.md)
-* [Aide à l'improvisation](outils/improvisation-help.md)
-* [Easy Reader](outils/easy-reader.md)
-* [Song memo](outils/song-memo.md)
+* [Inspecteur d'accords](tools/notes-viewer.md)
+* [Boucle de pratique avec augmentation du tempo](tools/practice-loop-with-tempo-increase.md)
+* [Mode clavier arrangeur](tools/arranger-keyboard-mode.md)
+* [Transposition des chord symbols](tools/chord-symbols-transposition.md)
+* [Aide à l'improvisation](tools/improvisation-help.md)
+* [Easy Reader](tools/easy-reader.md)
+* [Song memo](tools/song-memo.md)
 
 ## Moteurs rythmiques
 
-* [Vue d'ensemble des moteurs rythmiques](moteurs-rythmiques/overview.md)
-* [Moteur rythmique YamJJazz](moteurs-rythmiques/yamjjazz-rhythm-engine/README.md)
-  * [Styles Yamaha](moteurs-rythmiques/yamjjazz-rhythm-engine/yamaha-styles.md)
-  * [Styles Yamaha étendus](moteurs-rythmiques/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
-* [Moteur rythmique jjSwing](moteurs-rythmiques/jjswing-rhythm-engine.md)
+* [Vue d'ensemble des moteurs rythmiques](rhythm-engines/overview.md)
+* [Moteur rythmique YamJJazz](rhythm-engines/yamjjazz-rhythm-engine/README.md)
+  * [Styles Yamaha](rhythm-engines/yamjjazz-rhythm-engine/yamaha-styles.md)
+  * [Styles Yamaha étendus](rhythm-engines/yamjjazz-rhythm-engine/extended-yamaha-styles.md)
+* [Moteur rythmique jjSwing](rhythm-engines/jjswing-rhythm-engine.md)
 
 ## Contribuer
 
-* [Améliorer la documentation](contribuer/improve-doc.md)
-* [Traduire JJazzLab](contribuer/translate-jjazzlab.md)
+* [Améliorer la documentation](contribute/improve-doc.md)
+* [Traduire JJazzLab](contribute/translate-jjazzlab.md)

@@ -13,7 +13,7 @@ Les caractéristiques uniques de **jjSwing** sont :
 * La possibilité d'ajuster la basse et la batterie indépendamment
 
 {% hint style="danger" %}
-jjSwing est optimisé pour fonctionner avec le [FluidSynth](../sons/using-fluidsynth.md) interne comme output synth. Si vous utilisez un output synth différent, vous pourriez entendre des sons étranges.
+jjSwing est optimisé pour fonctionner avec le [FluidSynth](../sounds/using-fluidsynth.md) interne comme output synth. Si vous utilisez un output synth différent, vous pourriez entendre des sons étranges.
 {% endhint %}
 
 Notez que la version actuelle de jjSwing ne supporte que la signature rythmique 4/4. Le support de la valse jazz sera ajouté ultérieurement.

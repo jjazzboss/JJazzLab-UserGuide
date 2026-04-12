@@ -16,10 +16,10 @@ Dans l'onglet **Midi** des **Options/Preferences :**
 * Sélectionnez un périphérique Midi OUT
 * Sélectionnez un Output Synth qui décrit les capacités du synthétiseur connecté.&#x20;
 
-Les informations de l'**Output Synth** permettent à JJazzLab d'afficher et de sélectionner directement les sons/instruments du synthétiseur depuis le mix console. Ces informations sont également utilisées pour remapper les notes de batterie si nécessaire (les styles Yamaha utilisent des drum maps XG, mais votre synthétiseur ne le fait peut-être pas).
+Les informations de l'**Output Synth** permettent à JJazzLab d'afficher et de sélectionner directement les sounds/instruments du synthétiseur depuis le mix console. Ces informations sont également utilisées pour remapper les notes de batterie si nécessaire (les styles Yamaha utilisent des drum maps XG, mais votre synthétiseur ne le fait peut-être pas).
 
 {% hint style="danger" %}
-Si vous entendez de mauvais instruments (par exemple des notes de piano à la place de notes de basse, etc.), ou si vous ne pouvez pas sélectionner des instruments depuis le [mix console](../editeurs/mix-console.md), cela signifie généralement que les informations de votre **Output Synth** ne correspondent pas à votre synthétiseur connecté. Par exemple, vous avez connecté un synthétiseur non-GM mais l'**Output Synth** est réglé sur GM Synth.
+Si vous entendez de mauvais instruments (par exemple des notes de piano à la place de notes de basse, etc.), ou si vous ne pouvez pas sélectionner des instruments depuis le [mix console](../editors/mix-console.md), cela signifie généralement que les informations de votre **Output Synth** ne correspondent pas à votre synthétiseur connecté. Par exemple, vous avez connecté un synthétiseur non-GM mais l'**Output Synth** est réglé sur GM Synth.
 {% endhint %}
 
 Il existe une liste prédéfinie d'Output Synths comme indiqué ci-dessous. Si votre synthétiseur a des capacités supplémentaires, vous pouvez utiliser "**Add a synth from file...**" pour charger un fichier de définition de synthétiseur Midi (.ins). Voir ci-dessous pour plus d'informations sur le format .ins.
@@ -27,7 +27,7 @@ Il existe une liste prédéfinie d'Output Synths comme indiqué ci-dessous. Si v
 <figure><img src="../.gitbook/assets/2023-12-31 18_23_58-Options.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Lorsque vous utilisez un synthétiseur logiciel (par ex. un plugin VST), vous préférerez peut-être contrôler la sélection des sons et les réglages du mix (volume, effets, etc.) directement depuis l'interface du plugin VST. Dans ce cas, vous devriez [Désactiver tous les paramètres Midi](../editeurs/mix-console.md#menu-midi) depuis le mix console de JJazzLab, afin que JJazzLab n'envoie que des notes Midi.
+Lorsque vous utilisez un synthétiseur logiciel (par ex. un plugin VST), vous préférerez peut-être contrôler la sélection des sons et les réglages du mix (volume, effets, etc.) directement depuis l'interface du plugin VST. Dans ce cas, vous devriez [Désactiver tous les paramètres Midi](../editors/mix-console.md#menu-midi) depuis le mix console de JJazzLab, afin que JJazzLab n'envoie que des notes Midi.
 {% endhint %}
 
 ## Midi synth definition files (.ins)

@@ -8,7 +8,7 @@ Les rhythms sont utilisés par les songs. De nombreux songs n'utilisent qu'un se
 
 Lors du premier démarrage, JJazzLab [scanne](rhythm-files.md#rhythm-files-scanning) l'ordinateur pour obtenir la liste des rhythms disponibles.
 
-Dans JJazzLab, les rhythms sont mis à disposition par des [rhythm engines](../moteurs-rythmiques/overview.md). Certains rhythms peuvent être basés sur des **fichiers rythme**. Par exemple, le [rhythm engine YamJJazz](../moteurs-rythmiques/yamjjazz-rhythm-engine/) fournit des rhythms construits à partir de fichiers de style Yamaha tels que **poprock.sty** ou **TripHop.S510.prs**.
+Dans JJazzLab, les rhythms sont mis à disposition par des [rhythm engines](../rhythm-engines/overview.md). Certains rhythms peuvent être basés sur des **fichiers rythme**. Par exemple, le [rhythm engine YamJJazz](../rhythm-engines/yamjjazz-rhythm-engine/) fournit des rhythms construits à partir de fichiers de style Yamaha tels que **poprock.sty** ou **TripHop.S510.prs**.
 
 ## Emplacement des fichiers rythme <a href="#rhythm-files-location" id="rhythm-files-location"></a>
 
@@ -36,7 +36,7 @@ La qualité des fichiers de style Yamaha trouvés sur le web varie beaucoup. De 
 
 ## Ajout de nouveaux fichiers rythme <a href="#adding-new-rhythm-files" id="adding-new-rhythm-files"></a>
 
-Utilisez le bouton **Add Rhythms...** depuis le panneau **Options/Rhythms** (ou depuis la [boîte de dialogue de sélection du rhythm](../editeurs/song-structure.md#change-rhythm-music-style)).
+Utilisez le bouton **Add Rhythms...** depuis le panneau **Options/Rhythms** (ou depuis la [boîte de dialogue de sélection du rhythm](../editors/song-structure.md#change-rhythm-music-style)).
 
 <figure><img src="../.gitbook/assets/2024-08-22 22_16_57-JJazzLab  4.1.0a.png" alt=""><figcaption><p>Bouton Add Rhythms... dans le panneau Options/Rhythms</p></figcaption></figure>
 

@@ -6,7 +6,7 @@ Il permet de suivre facilement les accords et les paroles en cours de lecture, m
 
 <figure><img src="../.gitbook/assets/2024-01-01 00_44_19-.png" alt=""><figcaption></figcaption></figure>
 
-Lorsqu'une bar annotation utilise la [syntaxe spéciale **#**](../editeurs/chord-lead-sheet.md#special-syntax-for-easy-reader), seule la partie pertinente de l'annotation est affichée.
+Lorsqu'une bar annotation utilise la [syntaxe spéciale **#**](../editors/chord-lead-sheet.md#special-syntax-for-easy-reader), seule la partie pertinente de l'annotation est affichée.
 
 Comme la plupart des fenêtres JJazzLab, vous pouvez détacher la fenêtre Easy Reader pour la placer où vous le souhaitez (utilisez le menu contextuel du titre de la fenêtre) :
 

@@ -5,7 +5,7 @@ description: Une application complète et open source pour la génération de ba
 # JJazzLab 5
 
 {% hint style="info" %}
-Vous souhaitez ajouter ou améliorer la documentation ? C'est possible !😀 Visitez la page [Améliorer la documentation](contribuer/improve-doc.md).
+Vous souhaitez ajouter ou améliorer la documentation ? C'est possible !😀 Visitez la page [Améliorer la documentation](contribute/improve-doc.md).
 {% endhint %}
 
 ![JJazzlab 5](.gitbook/assets/JJazzLabFullScreen.png)
@@ -28,7 +28,7 @@ Dans JJazzLab, le terme "**rhythm**" désigne habituellement un **style musical*
 
 1. Chargez un exemple de fichier song : **menu File/Open Songs...** et sélectionnez **ExampleFiles/BluesMinor.sng**
 2. Appuyez sur le bouton **Play** : vous devriez entendre le backing track - si ce n'est pas le cas, vérifiez le périphérique Midi Out dans **menu Tools/Options (Preferences sur Mac)**
-3. Commencez à éditer le song avec les [**éditeurs**](editeurs/apercu.md) et écoutez comment cela affecte le backing track généré.
+3. Commencez à éditer le song avec les [**éditeurs**](editors/overview.md) et écoutez comment cela affecte le backing track généré.
 
 Si vous préférez créer rapidement un nouveau backing track de zéro, regardez cette vidéo :
 
@@ -36,25 +36,25 @@ Si vous préférez créer rapidement un nouveau backing track de zéro, regardez
 
 ## Fonctionnalités clés
 
-* Nouveau [**style jjSwing**](moteurs-rythmiques/jjswing-rhythm-engine.md) (rhythm), pratiquez les standards de jazz avec la meilleure walking bass et batterie
-* Des centaines de styles musicaux prêts à l'emploi ([rhythms](rythmes/rhythm-files.md)) disponibles
+* Nouveau [**style jjSwing**](rhythm-engines/jjswing-rhythm-engine.md) (rhythm), pratiquez les standards de jazz avec la meilleure walking bass et batterie
+* Des centaines de styles musicaux prêts à l'emploi ([rhythms](rhythms/rhythm-files.md)) disponibles
 * Introduisez **dynamique** et **variété** en quelques clics, par exemple :
   * couper la guitare dans l'intro
   * ajouter un break à la fin du 2ème couplet et des congas dans le 3ème
   * augmenter l'intensité et accélérer légèrement le tempo à la fin
   * ajouter des accords anticipés (poussés)
   * simplifier le piano sur le premier couplet
-* Ajoutez des [user tracks](editeurs/mix-console.md#user-tracks) pour personnaliser votre backing track
-* Attachez des [annotations ou paroles](editeurs/chord-lead-sheet.md#bar-annotations-lyrics) aux mesures
-* Contrôlez la [lecture via Midi](controle-de-lecture/midi-remote-commands.md)
-* [Importez](morceaux/importing-songs.md) et [exportez](morceaux/exporting-songs.md) des morceaux ou des pistes d'instruments individuels
+* Ajoutez des [user tracks](editors/mix-console.md#user-tracks) pour personnaliser votre backing track
+* Attachez des [annotations ou paroles](editors/chord-lead-sheet.md#bar-annotations-lyrics) aux mesures
+* Contrôlez la [lecture via Midi](playback-control/midi-remote-commands.md)
+* [Importez](songs/importing-songs.md) et [exportez](songs/exporting-songs.md) des morceaux ou des pistes d'instruments individuels
 
 ## **Outils complémentaires**
 
-* [Inspecteur d'accords](outils/notes-viewer.md) : comprendre les notes et gammes d'un chord symbol (piano, diagrammes guitare, partition)
-* [Boucle de pratique avec augmentation automatique du tempo](outils/practice-loop-with-tempo-increase.md) : s'entraîner efficacement sur des exercices ou des passages difficiles
-* [Mode clavier arrangeur](outils/arranger-keyboard-mode.md) : contrôler les accords du backing track via un clavier midi
-* [Aide à l'improvisation](outils/improvisation-help.md) : obtenir des guides d'improvisation pour votre lead sheet
-* [Transposition des chord symbols](outils/chord-symbols-transposition.md) : pour les instruments transpositeurs (ex. joueurs de saxophone)
-* [Fenêtre Easy Reader](outils/easy-reader.md) : se concentrer sur l'accord actuel et le suivant
-* [Song memo](outils/song-memo.md) : notes textuelles sur votre song pouvant inclure des liens vers des fichiers ou des pages web
+* [Inspecteur d'accords](tools/notes-viewer.md) : comprendre les notes et gammes d'un chord symbol (piano, diagrammes guitare, partition)
+* [Boucle de pratique avec augmentation automatique du tempo](tools/practice-loop-with-tempo-increase.md) : s'entraîner efficacement sur des exercices ou des passages difficiles
+* [Mode clavier arrangeur](tools/arranger-keyboard-mode.md) : contrôler les accords du backing track via un clavier midi
+* [Aide à l'improvisation](tools/improvisation-help.md) : obtenir des guides d'improvisation pour votre lead sheet
+* [Transposition des chord symbols](tools/chord-symbols-transposition.md) : pour les instruments transpositeurs (ex. joueurs de saxophone)
+* [Fenêtre Easy Reader](tools/easy-reader.md) : se concentrer sur l'accord actuel et le suivant
+* [Song memo](tools/song-memo.md) : notes textuelles sur votre song pouvant inclure des liens vers des fichiers ou des pages web

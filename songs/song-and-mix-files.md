@@ -7,7 +7,7 @@ Lorsque vous enregistrez un morceau appelé **mySong**, JJazzLab enregistre en f
 
 Pourquoi utiliser 2 fichiers différents ?
 
-Parce que les informations de mixage sont spécifiques à votre output synth ([FluidSynth](../sons/using-fluidsynth.md) ou un [synthé personnalisé](../sons/other-synths.md)). Intégrer les données de mixage dans le fichier .sng rendrait les fichiers .sng non portables entre utilisateurs, car les utilisateurs ont des output synths différents.
+Parce que les informations de mixage sont spécifiques à votre output synth ([FluidSynth](../sounds/using-fluidsynth.md) ou un [synthé personnalisé](../sounds/other-synths.md)). Intégrer les données de mixage dans le fichier .sng rendrait les fichiers .sng non portables entre utilisateurs, car les utilisateurs ont des output synths différents.
 
 Lorsque vous ouvrez **mySong.sng**, JJazzLab essaie d'ouvrir **mySong.mix** dans le même répertoire. Si **mySong.mix** n'existe pas, JJazzLab crée le mix en utilisant le fichier de [default rhythm mix](song-and-mix-files.md#default-rhythm-mix) s'il est présent, sinon il utilise le **mix intégré du rhythm** (voir [ci-dessous](song-and-mix-files.md#default-rhythm-mix)).
 
@@ -25,7 +25,7 @@ Si vous utilisez souvent un certain rhythm, ajustez son mix et enregistrez-le co
 
 Lorsque vous créez un song et sélectionnez un nouveau rhythm (ex. `MediumJazz.s637.sst`), JJazzLab recherche un fichier de **default rhythm mix** (`MediumJazz.s637.mix`) pour initialiser le song mix de ce rhythm.
 
-Le default rhythm mix vous permet de définir **un song mix optimisé adapté à votre output synth** ([FluidSynth](../sons/using-fluidsynth.md) ou un [synthé personnalisé](../sons/other-synths.md)) : par exemple avec `MediumJazz.s637.sst` vous pouvez rendre la guitare électrique moins forte, remplacer l'instrument de basse GM par défaut par un meilleur disponible sur votre synthé, et couper la flûte que vous n'aimez pas.
+Le default rhythm mix vous permet de définir **un song mix optimisé adapté à votre output synth** ([FluidSynth](../sounds/using-fluidsynth.md) ou un [synthé personnalisé](../sounds/other-synths.md)) : par exemple avec `MediumJazz.s637.sst` vous pouvez rendre la guitare électrique moins forte, remplacer l'instrument de basse GM par défaut par un meilleur disponible sur votre synthé, et couper la flûte que vous n'aimez pas.
 
 {% hint style="warning" %}
 **Si le fichier de default rhythm mix n'est pas présent**, JJazzLab utilise le **mix intégré du rhythm**. Le mix intégré du rhythm est déduit des données du rhythm et des capacités de votre output synth. Avec FluidSynth le mix résultant devrait convenir avec quelques ajustements manuels. Avec un synthé personnalisé, il peut nécessiter plus de corrections.
@@ -33,7 +33,7 @@ Le default rhythm mix vous permet de définir **un song mix optimisé adapté à
 
 #### Ajustement et sauvegarde d'un default rhythm mix
 
-* Dans les options Midi, sélectionnez votre output synth préféré, ex. [FluidSynth](../sons/using-fluidsynth.md).
+* Dans les options Midi, sélectionnez votre output synth préféré, ex. [FluidSynth](../sounds/using-fluidsynth.md).
 * Chargez un song utilisant votre rhythm favori et jouez-le\
   (le song mix est initialisé avec le **mix intégré du rhythm** si aucun default rhythm mix n'est défini)
 * Ajustez le mix jusqu'à être satisfait du rendu du song

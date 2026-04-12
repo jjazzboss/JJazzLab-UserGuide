@@ -36,7 +36,7 @@ Chaque piste de la mix console possède un **composant de vue d'ensemble** en ba
 *   **Load/Save Default Rhythm Mix** &#x20;
 
     Met à jour le song mix courant en chargeant le fichier de rhythm mix par défaut. \
-    Ou enregistre le song mix courant comme fichier de rhythm mix par défaut : il sera réutilisé par défaut chaque fois que vous créerez un song utilisant le même rhythm. En savoir plus sur les [fichiers de rhythm mix par défaut](../morceaux/song-and-mix-files.md#default-rhythm-mix).
+    Ou enregistre le song mix courant comme fichier de rhythm mix par défaut : il sera réutilisé par défaut chaque fois que vous créerez un song utilisant le même rhythm. En savoir plus sur les [fichiers de rhythm mix par défaut](../songs/song-and-mix-files.md#default-rhythm-mix).
 *   **Import Mix...** &#x20;
 
     Notez que cela importera les paramètres uniquement pour les instruments qui sont communs entre le mix courant et le mix importé.

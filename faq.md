@@ -7,8 +7,8 @@ description: Foire Aux Questions
 ## J'aime JJazzLab, comment puis-je aider ? <a href="#how-to-help" id="how-to-help"></a>
 
 * [**Faites un don**](https://www.jjazzlab.org/en/donate/) pour garder JJazzLab 100% gratuit, sans publicité
-* Aidez à [traduire](contribuer/translate-jjazzlab.md) JJazzLab (notamment si vous parlez japonais ou coréen)
-* [Contribuez](contribuer/improve-doc.md) à améliorer cette documentation
+* Aidez à [traduire](contribute/translate-jjazzlab.md) JJazzLab (notamment si vous parlez japonais ou coréen)
+* [Contribuez](contribute/improve-doc.md) à améliorer cette documentation
 * "Likez" les vidéos et abonnez-vous à la [chaîne YouTube](https://www.youtube.com/channel/UC0L3SwjY6bhTj6jsbOYzzAw)
 * Enregistrez une vidéo de vous-même en train de jouer avec JJazzLab : les vidéos seront mises sur la chaîne YouTube de JJazzLab
 * Faites passer le mot ! Parlez et ajoutez des liens vers **www.jjazzlab.org** sur les réseaux sociaux, les blogs, les sites web, etc.

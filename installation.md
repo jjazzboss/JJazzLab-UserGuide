@@ -34,4 +34,4 @@ Notez que JJazzLab nécessite la configuration d'un périphérique Midi. Sous Li
 4. Si vous n'entendez pas de musique, vérifiez :
    - **Tools/Options/Midi** : assurez-vous qu'un périphérique **Midi OUT** est sélectionné
    - Si vous utilisez FluidSynth : vérifiez l'onglet **FluidSynth** dans **Tools/Options/Midi** et assurez-vous qu'il est activé
-   - Sinon, consultez les pages [FluidSynth](sons/using-fluidsynth.md) ou [Autres synthétiseurs](sons/other-synths.md)
+   - Sinon, consultez les pages [FluidSynth](sounds/using-fluidsynth.md) ou [Autres synthétiseurs](sounds/other-synths.md)

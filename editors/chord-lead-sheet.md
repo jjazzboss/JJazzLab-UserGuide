@@ -200,7 +200,7 @@ Lorsque les annotations sont masquées, les mesures contenant des annotations so
 
 #### Syntaxe spéciale # pour Easy Reader
 
-Supposons que la même mesure soit utilisée dans différents song parts. Les paroles de cette mesure peuvent changer selon le song part. Vous pouvez faire précéder les lignes d'annotation d'un **#** pour que l'[Easy Reader](../outils/easy-reader.md) n'affiche que la ligne pertinente.
+Supposons que la même mesure soit utilisée dans différents song parts. Les paroles de cette mesure peuvent changer selon le song part. Vous pouvez faire précéder les lignes d'annotation d'un **#** pour que l'[Easy Reader](../tools/easy-reader.md) n'affiche que la ligne pertinente.
 
 <figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
 

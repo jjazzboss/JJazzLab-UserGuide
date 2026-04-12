@@ -6,7 +6,7 @@ Utilisez l'inspecteur d'accords (menu **Tools/Chord inspector**) pour voir les n
 
 ![](<../.gitbook/assets/2021-12-13 20_34_45-JJazzLab.png>)
 
-S'il existe une **gamme harmonique** définie pour le chord symbol sélectionné (voir l'[éditeur de chord symbol](../editeurs/chord-lead-sheet.md#harmony)), les notes de la gamme sont affichées (exemple ci-dessous).
+S'il existe une **gamme harmonique** définie pour le chord symbol sélectionné (voir l'[éditeur de chord symbol](../editors/chord-lead-sheet.md#harmony)), les notes de la gamme sont affichées (exemple ci-dessous).
 
 ![](<../.gitbook/assets/2021-12-13 20_36_34-JJazzLab.png>)
 

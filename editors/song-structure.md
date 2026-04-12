@@ -120,7 +120,7 @@ Les **rhythm parameters** permettent d'ajuster la façon dont un rhythm (style m
 Les rhythm parameters sont un outil simple et puissant pour **introduire des variations dans une piste d'accompagnement**, ce qui la rend plus agréable à utiliser.
 {% endhint %}
 
-Dans l'image ci-dessous, vous pouvez voir deux **song parts** utilisant le même rhythm [jjSwing](../moteurs-rythmiques/jjswing-rhythm-engine.md) mais avec des **rhythm parameters** très différents — en conséquence, ils sonneront très différemment.&#x20;
+Dans l'image ci-dessous, vous pouvez voir deux **song parts** utilisant le même rhythm [jjSwing](../rhythm-engines/jjswing-rhythm-engine.md) mais avec des **rhythm parameters** très différents — en conséquence, ils sonneront très différemment.&#x20;
 
 Cet exemple est un peu extrême ; en général, ajuster quelques paramètres suffit pour éviter une piste d'accompagnement ennuyeuse. Notez que vous pouvez masquer les rhythm parameters que vous n'utilisez pas en ajustant les paramètres de la [vue compacte](song-structure.md#compact-full-view).
 
@@ -129,12 +129,12 @@ Cet exemple est un peu extrême ; en général, ajuster quelques paramètres suf
 Les rhythm parameters les plus courants sont décrits ci-dessous.&#x20;
 
 {% hint style="info" %}
-Un [rhythm engine](/broken/pages/-MQSAs6SfPTmre5f3rhY) peut définir ses propres rhythm parameters personnalisés. Par exemple, [jjSwing](../moteurs-rythmiques/jjswing-rhythm-engine.md) définit [Bass style](../moteurs-rythmiques/jjswing-rhythm-engine.md#bass-style) et [Drums style](../moteurs-rythmiques/jjswing-rhythm-engine.md#drums-style).
+Un [rhythm engine](/broken/pages/-MQSAs6SfPTmre5f3rhY) peut définir ses propres rhythm parameters personnalisés. Par exemple, [jjSwing](../rhythm-engines/jjswing-rhythm-engine.md) définit [Bass style](../rhythm-engines/jjswing-rhythm-engine.md#bass-style) et [Drums style](../rhythm-engines/jjswing-rhythm-engine.md#drums-style).
 {% endhint %}
 
 ### Variation
 
-Un rhythm parameter indiquant quelle variation du rhythm (style) doit être utilisée. Les rhythms du [moteur YamJJazz](../moteurs-rythmiques/yamjjazz-rhythm-engine/) ont généralement 4 variations _Main_, plus quelques _Intros_, _Endings_ et _Fills_.
+Un rhythm parameter indiquant quelle variation du rhythm (style) doit être utilisée. Les rhythms du [moteur YamJJazz](../rhythm-engines/yamjjazz-rhythm-engine/) ont généralement 4 variations _Main_, plus quelques _Intros_, _Endings_ et _Fills_.
 
 ### Intensity
 
@@ -194,7 +194,7 @@ _Exemple : votre song utilise un rhythm pop à 8 temps. Vous souhaitez enrichir 
 
 Autres exemples d'utilisation :
 
-* Vous aimez un style Yamaha jazz sauf la ligne de basse qui ne sonne pas bien. Utilisez le paramètre Track overrides pour remplacer la ligne de basse par la walking bass réaliste de [jjSwing](../moteurs-rythmiques/jjswing-rhythm-engine.md).
+* Vous aimez un style Yamaha jazz sauf la ligne de basse qui ne sonne pas bien. Utilisez le paramètre Track overrides pour remplacer la ligne de basse par la walking bass réaliste de [jjSwing](../rhythm-engines/jjswing-rhythm-engine.md).
 * Le rhythm de remplacement peut être le même que le rhythm original. Par exemple, cela vous permet de remplacer la partie piano par la partie basse du même rhythm, de sorte que la ligne de basse est doublée piano+basse sur un song part donné.
 
 ### Vue compacte / vue complète
