@@ -23,4 +23,4 @@
 | output synth | Represents the capabilities of the MIDI synth connected to JJazzLab |
 | FluidSynth | A pre-configured FluidSynth instance used as output synth |
 | YamJJazz | Rhythm engine name. Uses Yamaha style files. |
-| jjSwing | Rhythm engine name. Also a rhythm name. Optimized for swing jazz music |
+| jjSwing | Rhythm engine name. Also a rhythm name. Optimized for swing jazz music | 
