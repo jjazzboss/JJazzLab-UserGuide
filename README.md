@@ -11,7 +11,7 @@ Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) pa
 {% endhint %}
 
 {% hint style="warning" %}
-**We only provide a documentation in English**
+**We only provide documentation in English**
 
 If you need another language, with today's internet browsers (Google Chrome, Apple Safari, Microsoft Edge, Firefox, etc.) it's easy to configure them to automatically translate web pages on the fly.&#x20;
 {% endhint %}
