@@ -61,16 +61,19 @@ jobs:
             } >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Checkout master
+      - name: Prepare repository
         if: steps.selected.outputs.selected == 'true'
-        uses: actions/checkout@v4
-        with:
-          ref: master
-          fetch-depth: 0
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
 
-      - name: Set up Node.js
-        if: steps.selected.outputs.selected == 'true'
-        uses: actions/setup-node@v4
+          git init .
+          git config --global --add safe.directory "$PWD"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --prune origin "+refs/heads/*:refs/remotes/origin/*"
+          git checkout -B master origin/master
 
       - name: Install Copilot CLI
         if: steps.selected.outputs.selected == 'true'
@@ -236,9 +239,14 @@ jobs:
 
       - name: Validate links
         if: steps.changes.outputs.has_changes == 'true'
-        uses: lycheeverse/lychee-action@v1.9.0
-        with:
-          args: --verbose --no-progress './**/*.md'
+        run: |
+          set -euo pipefail
+
+          LYCHHEE_VERSION="0.15.1"
+          curl -sSfL "https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHHEE_VERSION}/lychee-x86_64-unknown-linux-gnu.tar.gz" -o lychee.tar.gz
+          tar -xzf lychee.tar.gz lychee
+          chmod +x ./lychee
+          ./lychee --verbose --no-progress './**/*.md'
 
       - name: Commit translation updates
         if: steps.changes.outputs.has_changes == 'true'
