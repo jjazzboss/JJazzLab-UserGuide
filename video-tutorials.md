@@ -1,29 +1,29 @@
-# Tutoriels video
+---
+description: Tutoriels vidéo JJazzLab.
+---
+
+# Tutoriels vidéo
 
 ## Pour commencer
 
 {% embed url="https://www.youtube.com/watch?v=AkOm8l5Xb1g" %}
+Créer un backing track de zéro
+{% endembed %}
 
-## Tutoriel de 15 min.&#x20;
+{% embed url="https://www.youtube.com/watch?v=XWh49J0LXiw" %}
+Premiers pas : tirer le meilleur parti des réglages JJazzLab (partie 2)
+{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=qEP02JZexEU&t=3s" %}
+## Fonctionnalités clés
 
-## 10 raccourcis clavier que vous devez connaître
+{% embed url="https://www.youtube.com/watch?v=Pf1HBsH9AAQ" %}
+Personnaliser le backing track pour chaque song part
+{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=XnTkcPL9SIE" %}
+{% embed url="https://www.youtube.com/watch?v=19oHpuRcn4U" %}
+Travailler avec les user tracks
+{% endembed %}
 
-## 4 conseils rapides
-
-{% embed url="https://www.youtube.com/watch?v=ZwAwsEUwcc0" %}
-
-## Plugins JJazzLab, Reaper and VST&#x20;
-
-Cette vidéo est réalisée avec Reaper, mais l’approche reste la même avec n’importe quel DAW.
-
-&#x20;Merci à MINDoSOFT pour cette vidéo.
-
-{% embed url="https://www.youtube.com/watch?t=69s&v=qa16PQn4ltg" %}
-
-## Comment créer vos propres styles étendus Yamaha (advanced)
-
-{% embed url="https://youtu.be/2iVB8t6uAVA" %}
+{% embed url="https://www.youtube.com/watch?v=nFOVpFdFuak" %}
+Utiliser le mode clavier arrangeur
+{% endembed %}
