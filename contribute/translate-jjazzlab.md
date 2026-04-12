@@ -1,3 +1,7 @@
+---
+description: Add new languages for the JJazzLab user interface
+---
+
 # Translate JJazzLab
 
 ## THANKS to the top translation contributors!
@@ -7,7 +11,7 @@ With 9 languages supported, JJazzLab can now be used by 3.5 billions people ! :s
 * **Chinese**: Yafei
 * **German**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch
 * **French**: Daniel Patin, Hans Hahn
-* **Japanese**: H. Sakuda (GItBook online help)
+* **Japanese**: H. Sakuda&#x20;
 * **Portuguese/Brazilian**: Danilson Ramos De Oliveira
 * **Spanish:** Lucho
 

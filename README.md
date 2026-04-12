@@ -5,7 +5,15 @@ description: A complete and open application for backing tracks generation.
 # JJazzLab 5
 
 {% hint style="info" %}
-Want to add or fix documentation? Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
+**Want to add or fix documentation?**&#x20;
+
+Yes you can!😀 Visit the [Improve documentation](contribute/improve-doc.md) page.
+{% endhint %}
+
+{% hint style="warning" %}
+**We only provide a documentation in English**
+
+If you need another language, with today's internet browsers (Google Chrome, Apple Safari, Microsoft Edge, Firefox, etc.) it's easy to configure them to automatically translate web pages on the fly.&#x20;
 {% endhint %}
 
 ![JJazzlab 5](.gitbook/assets/JJazzLabFullScreen.png)
