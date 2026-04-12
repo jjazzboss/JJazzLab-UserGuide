@@ -1,7 +1,7 @@
 # Aide à l'improvisation
 
-Si vous étudiez l’improvisation, JJazzLab propose quelques exercices utiles tirés du livre de Hal Crook "Comment improviser".
+Si vous étudiez l'improvisation, JJazzLab propose quelques exercices utiles tirés du livre de Hal Crook "How to improvise".
 
-JJazzLab générera un "guide" pour vous aider à effectuer l’exercice sélectionné sur le morceau actif.
+JJazzLab générera un « guide » pour vous aider à réaliser l'exercice sélectionné sur le song actif.
 
-![L’exercice Play/Pause appliqué sur le morceau actif](<../.gitbook/assets/2021-12-13 20_37_36-JJazzLab.png>)
+![L'exercice Play/Rest appliqué sur le song actif](<../.gitbook/assets/2021-12-13 20_37_36-JJazzLab.png>)
