@@ -1,8 +1,8 @@
-# Moteur rythmique YamJJazz
+# YamJJazz rhythm engine
 
-JJazzLab embarque le moteur de génération rythmique **YamJJazz**  Ce moteur lit les [styles Yamaha](yamaha-styles.md) styles et introduit un nouveau format de style Yamaha étendu qui ajoute plus de variations aux fichiers de style Yamaha existants.
+JJazzLab intègre le moteur de génération de rhythm **YamJJazz**. Ce moteur lit les [styles Yamaha](yamaha-styles.md) et introduit un nouveau format de [style Yamaha étendu](extended-yamaha-styles.md) qui ajoute plus de variations aux fichiers de style Yamaha existants.
 
-Vous pouvez voir ci-dessous les 2 f**ournisseurs de rythme** YamJJazz disponibles dans la boîte de dialogue de sélection de rythme.
+Vous pouvez voir ci-dessous les 2 **fournisseurs de rhythm** YamJJazz disponibles dans la boîte de dialogue de sélection du rhythm.
 
-![](../../.gitbook/assets/YamJJazzRhythmProviders.png)
+![](../../.gitbook/assets/yamjjazzrhythmproviders.png)
 

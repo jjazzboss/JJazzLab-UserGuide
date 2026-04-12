@@ -1,24 +1,24 @@
-# Vue d’ensemble des moteurs de rythme
+# Vue d'ensemble des rhythm engines
 
-Les **rythmes** sont rendus disponibles par des **moteurs rythmiques**.
+Les **rhythms** sont rendus disponibles par des **rhythm engines**.
 
-Grâce à son architecture open-source et enfichable, JJazzLab peut héberger de nombreux moteurs rythmiques différents. Si vous êtes un développeur, vous pouvez construire le vôtre assez facilement!
+Grâce à son architecture open-source et enfichable, JJazzLab peut héberger de nombreux rhythm engines différents. Si vous êtes un développeur, vous pouvez construire le vôtre assez facilement !
 
-![](../.gitbook/assets/RhythmPluginsArchitecture.png)
+![](../.gitbook/assets/rhythmpluginsarchitecture.png)
 
-Un moteur rythmique a **un ou plusieurs fournisseurs de rythmes** qui proposent une liste des rythmes pris en charge et les **paramètres rythmiques supportés**. Vous pouvez voir la liste de tous les **fournisseurs de rythmes** disponibles dans la **boîte de dialogue de sélection du rythme**.
+Un rhythm engine a **un ou plusieurs fournisseurs de rhythms** qui proposent une liste des rhythms pris en charge et les **rhythm parameters** supportés. Vous pouvez voir la liste de tous les **fournisseurs de rhythms** disponibles dans la **boîte de dialogue de sélection du rhythm**.
 
-![](../.gitbook/assets/RhythmGenerationEngine.png)
+![](../.gitbook/assets/rhythmgenerationengine.png)
 
-JJazzLab comprend actuellement un moteur rythmique, [YamJJazz](yamjjazz-rhythm-engine/), basé sur les styles Yamaha. Ses **paramètres rythmiques** sont Variation, Intensité et Fill (d’autres paramètres tels que Muet ou Tempo sont génériques et fonctionnent avec n’importe quel rythme).
+JJazzLab comprend actuellement un rhythm engine, [YamJJazz](yamjjazz-rhythm-engine/), basé sur les styles Yamaha. Ses **rhythm parameters** sont Variation, Intensity et Fill (d'autres paramètres tels que Mute ou Tempo Factor sont génériques et fonctionnent avec n'importe quel rhythm).
 
-## Futurs moteurs rythmiques <a href="#future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
+## Futurs rhythm engines <a href="#future-rhythm-generation-engines" id="future-rhythm-generation-engines"></a>
 
-Voici quelques exemples de ce qui pourrait être développé en utilisant l’infrastructure JJazzLab-X.
+Voici quelques exemples de ce qui pourrait être développé en utilisant l'infrastructure JJazzLab-X.
 
-* Un moteur orienté jazz basé sur l’IA avec un seul rythme polyvalent qui s’adapte à différents contextes, comme un vrai groupe (tempo lent ou rapide, walking bass ou non, etc.).
+* Un moteur orienté jazz basé sur l'IA avec un seul rhythm polyvalent qui s'adapte à différents contextes, comme un vrai groupe (tempo lent ou rapide, walking bass ou non, etc.).
 * Un moteur de batterie similaire au batteur virtuel Logic Pro X
-* Un moteur capable d’adapter la piste d’accompagnement à une mélodie donnée
-* Un "méta-moteur" qui vous permet de combiner des pistes individuelles de différents rythmes (par exemple, combiner une ligne de basse hip-hop avec une batterie latine)
-* Un moteur capable de lire les fichiers de style à partir de Band-In-A-Box ou d’autres claviers arrangeurs tels que Korg ou Ketron
+* Un moteur capable d'adapter la piste d'accompagnement à une mélodie donnée
+* Un « méta-moteur » qui permet de combiner des pistes individuelles de différents rhythms (par exemple, combiner une ligne de basse hip-hop avec une batterie latine)
+* Un moteur capable de lire les fichiers de style de Band-In-A-Box ou d'autres claviers arrangeurs tels que Korg ou Ketron
 * etc.
