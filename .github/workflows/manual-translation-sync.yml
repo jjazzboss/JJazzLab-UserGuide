@@ -1,0 +1,255 @@
+name: Manual translation sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_ref:
+        description: 'English ref before the updates to translate (for example: HEAD~3 or a commit SHA)'
+        required: true
+        type: string
+      to_ref:
+        description: 'English ref containing the updates to translate'
+        required: false
+        default: 'origin/master'
+        type: string
+      languages:
+        description: 'Comma-separated language branches'
+        required: false
+        default: 'french,spanish,japanese,german'
+        type: string
+      dry_run:
+        description: 'Generate translation changes without pushing branches or opening PRs'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-language:
+    if: contains(format(',{0},', inputs.languages), format(',{0},', matrix.language))
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [french, spanish, japanese, german]
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Collect changed Markdown files
+        id: changes
+        env:
+          FROM_REF: ${{ inputs.from_ref }}
+          TO_REF: ${{ inputs.to_ref }}
+        run: |
+          set -euo pipefail
+
+          git fetch origin master "${{ matrix.language }}"
+
+          git rev-parse "${FROM_REF}^{commit}" >/dev/null
+          git rev-parse "${TO_REF}^{commit}" >/dev/null
+
+          git diff --name-status --find-renames "${FROM_REF}" "${TO_REF}" -- '*.md' ':(exclude).github/**' > changes.tsv
+
+          if [ ! -s changes.tsv ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ${{ matrix.language }}"
+              echo "No Markdown changes found in ${FROM_REF}..${TO_REF}."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          {
+            echo "files<<EOF"
+            cat changes.tsv
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create sync branch
+        if: steps.changes.outputs.has_changes == 'true'
+        id: branch
+        env:
+          TO_REF: ${{ inputs.to_ref }}
+        run: |
+          set -euo pipefail
+
+          SHORT_SHA="$(git rev-parse --short "${TO_REF}")"
+          SYNC_BRANCH="ai-sync/${{ matrix.language }}/${SHORT_SHA}"
+
+          git checkout -B "${SYNC_BRANCH}" "origin/${{ matrix.language }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "sync_branch=${SYNC_BRANCH}" >> "$GITHUB_OUTPUT"
+
+      - name: Translate changed files
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          FROM_REF: ${{ inputs.from_ref }}
+          TO_REF: ${{ inputs.to_ref }}
+          LANGUAGE_BRANCH: ${{ matrix.language }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_PAT }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${COPILOT_GITHUB_TOKEN:-}" ]; then
+            echo "::error::Missing repository secret COPILOT_PAT. Create a fine-grained PAT with Copilot Requests permission."
+            exit 1
+          fi
+
+          mkdir -p .copilot-tmp
+
+          while IFS=$'\t' read -r status path_a path_b; do
+            old_english_path=""
+            target_path=""
+            translation_seed_path=""
+            renamed_from=""
+
+            case "$status" in
+              A|M)
+                old_english_path="$path_a"
+                target_path="$path_a"
+                translation_seed_path="$path_a"
+                ;;
+              D)
+                rm -f -- "$path_a"
+                git add -A -- "$path_a"
+                continue
+                ;;
+              R*)
+                old_english_path="$path_a"
+                target_path="$path_b"
+                translation_seed_path="$path_b"
+                renamed_from="$path_a"
+                ;;
+              *)
+                echo "::warning::Skipping unsupported diff status '$status'"
+                continue
+                ;;
+            esac
+
+            mkdir -p "$(dirname "$target_path")"
+
+            if git cat-file -e "${FROM_REF}:${old_english_path}" 2>/dev/null; then
+              git show "${FROM_REF}:${old_english_path}" > .copilot-tmp/old-english.md
+            else
+              : > .copilot-tmp/old-english.md
+            fi
+
+            git show "${TO_REF}:${target_path}" > .copilot-tmp/new-english.md
+
+            if [ -f "$translation_seed_path" ]; then
+              cp "$translation_seed_path" .copilot-tmp/current-translation.md
+            elif [ -n "$renamed_from" ] && [ -f "$renamed_from" ]; then
+              cp "$renamed_from" .copilot-tmp/current-translation.md
+            else
+              : > .copilot-tmp/current-translation.md
+            fi
+
+            git show origin/master:.github/copilot/translate-docs-prompt.txt > .copilot-tmp/prompt.txt
+            git show origin/master:.github/copilot/translation-glossary.md > .copilot-tmp/translation-glossary.md
+            {
+              echo
+              echo "Target language branch: ${LANGUAGE_BRANCH}"
+              echo "Output file path: ${target_path}"
+              echo "Read these workspace files:"
+              echo "- .copilot-tmp/old-english.md"
+              echo "- .copilot-tmp/new-english.md"
+              echo "- .copilot-tmp/current-translation.md"
+              echo "- .copilot-tmp/translation-glossary.md"
+              echo
+              echo "Write the translated page to ${target_path}."
+            } >> .copilot-tmp/prompt.txt
+
+            copilot -p "$(cat .copilot-tmp/prompt.txt)" \
+              --allow-tool='shell(cat:*)' \
+              --allow-tool=write \
+              --no-ask-user
+
+            if [ -n "$renamed_from" ] && [ "$renamed_from" != "$target_path" ]; then
+              rm -f -- "$renamed_from"
+              git add -A -- "$renamed_from"
+            fi
+
+            git add -- "$target_path"
+          done < changes.tsv
+
+      - name: Validate links
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          args: --verbose --no-progress './**/*.md'
+
+      - name: Commit translation updates
+        if: steps.changes.outputs.has_changes == 'true'
+        id: commit
+        run: |
+          set -euo pipefail
+
+          if git diff --cached --quiet; then
+            echo "has_commit=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ${{ matrix.language }}"
+              echo "No translated file changes were produced."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git commit -m "Sync master changes into ${{ matrix.language }}"
+          echo "has_commit=true" >> "$GITHUB_OUTPUT"
+
+      - name: Push sync branch
+        if: steps.commit.outputs.has_commit == 'true' && inputs.dry_run != true
+        run: git push --force-with-lease origin "${{ steps.branch.outputs.sync_branch }}"
+
+      - name: Open or update pull request
+        if: steps.commit.outputs.has_commit == 'true' && inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ matrix.language }}
+          HEAD_BRANCH: ${{ steps.branch.outputs.sync_branch }}
+          FROM_REF: ${{ inputs.from_ref }}
+          TO_REF: ${{ inputs.to_ref }}
+          CHANGED_FILES: ${{ steps.changes.outputs.files }}
+        run: |
+          set -euo pipefail
+
+          cat > pr-body.md <<EOF
+          This PR was generated by the manual translation sync workflow.
+
+          English source range: \`${FROM_REF}..${TO_REF}\`
+
+          Changed Markdown files:
+          \`\`\`
+          ${CHANGED_FILES}
+          \`\`\`
+          EOF
+
+          PR_NUMBER="$(gh pr list --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --json number --jq '.[0].number')"
+          TITLE="Sync master changes into ${BASE_BRANCH}"
+
+          if [ -n "${PR_NUMBER}" ] && [ "${PR_NUMBER}" != "null" ]; then
+            gh pr edit "${PR_NUMBER}" --title "${TITLE}" --body-file pr-body.md
+          else
+            gh pr create --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --title "${TITLE}" --body-file pr-body.md
+          fi
+
+          {
+            echo "### ${BASE_BRANCH}"
+            echo "PR branch: \`${HEAD_BRANCH}\`"
+          } >> "$GITHUB_STEP_SUMMARY"
