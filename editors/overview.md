@@ -6,14 +6,14 @@ description: Create (or load) a song, then use the editors below to adapt it to 
 
 <figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
 
-### Use the **Chord LeadSheet Editor** to
+### Use the **Lead Sheet Editor** to
 
 * Add [chord symbols](chord-lead-sheet.md#chord-symbols), eg "Cm6", "Ab7"
 * Add [sections](chord-lead-sheet.md#sections-input), eg "A", "B" in 3/4, "verse"
 * Move and edit chord symbols to adjust rhythm accents, [interpretation](chord-lead-sheet.md#interpretation) or [harmony](chord-lead-sheet.md#harmony)
 * Add [bar annotations](chord-lead-sheet.md#bar-annotations-lyrics) or lyrics (optional)
 
-Visit the [chord lead sheet](chord-lead-sheet.md) page for more information.
+Visit the [lead sheet](chord-lead-sheet.md) page for more information.
 
 ### Use the **Song Structure Editor** to
 
@@ -42,7 +42,7 @@ Visit the [note editor ](overview.md#note-editor)page for more information.
 
 ### Undocking / redocking editors
 
-To undock an editor, select **Float** from the popup menu of its tab.&#x20;
+To undock an editor, select **Float** from the popup menu of its tab.
 
 The image below shows the tab popup menu of the [Song part editor](song-structure.md#song-part-editor).
 
@@ -55,5 +55,5 @@ To redock the floating editor, select **Dock** from the same tab popup menu.
 Use **Reset Windows** from the Window main menu to redock all editors.
 
 {% hint style="warning" %}
-The chord leadsheet and song structure editors can not be undocked/docked
+The lead sheet and song structure editors can not be undocked/docked
 {% endhint %}
