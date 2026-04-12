@@ -1,178 +1,258 @@
-# Feuille d'accords
+# Lead sheet
 
-Utilisez l’**éditeur de feuille d’accords** pour:
+Utilisez le **lead sheet editor** pour :
 
-* Ajouter des symboles d’accords, par exemple **Cm6, Ab7**
-* ![](file:///C:/Users/beran/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)Ajouter des sections, par exemple **A, B, couplet, refrain**, ...
-* Déplacer et modifier les accords pour ajuster les accents rythmiques, l’interprétation ou l’harmonie
+* Ajouter des chord symbols, par ex. **Cm6, Ab7, F#9M#11, NC (no chord), ...**
+* Ajouter des sections, par ex. **A, B, verse, chorus,** ...
+* Déplacer et modifier les accords pour ajuster les accents rythmiques, l'interprétation ou l'harmonie
+* Ajouter des bar annotations (pour les paroles, etc.)
 
 ![](../.gitbook/assets/ChordLeadSheetText.png)
 
-## Symboles d’accord
+## Menus contextuels
 
-### Entrée
+Utilisez le menu contextuel (**clic droit** sur Windows/Linux, **ctrl-clic** sur Mac) pour voir les commandes disponibles pour la sélection en cours : mesures, chord symbols ou sections.
 
-Sélectionnez une mesure ou un symbole d’accord puis:
+![Bar popup menu](<../.gitbook/assets/BarPopupMenu (2).png>)
 
-* tapez la première lettre du symbole de l’accord ('A' à 'G'), ou
-* appuyez sur ENTRÉE, ou
-* double-cliquez ou
-* Cli-droit menu contextuel, Modifier
+![Chord symbol popup menu](../.gitbook/assets/chordPopupMenu.png)
 
-Vous pouvez également sélectionner un symbole d’accord existant et le déplacer tout en appuyant sur le bouton de contrôle, il créera une nouvelle copie qui peut être modifiée.
+![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-Pour modifier la taille de la feuille d'accords, sélectionnez une mesure, puis cliquez avec le bouton droit de la souris sur le menu et sélectionnez **Définir la mesure de fin**. Utilisez la touche Ctrl enfoncée ou Maj enfoncée pour plusieurs sélections.
+## Taille du lead sheet
+
+Sélectionnez une mesure puis choisissez **Set end bar** dans le menu contextuel (clic droit).
 
 {% hint style="info" %}
-Pour saisir des accords à partir de zéro, le moyen le plus simple est de sélectionner la première mesure, de taper directement les symboles d’accord, d’appuyer sur ENTRÉE (ll sélectionnera automatiquement la mesure suivante), entrer les symboles d’accord pour la deuxième mesure, etc.
+La taille du song dépend à la fois du lead sheet _et_ du song structure.
+
+Par exemple, si le lead sheet ne contient qu'une seule section de 12 mesures appelée A, et que le song structure est A-A-A, alors la taille du song est 3\*12=36 mesures.
 {% endhint %}
 
-### Menus contextuels
+## Sélectionner et déplacer des éléments (chord symbols ...)
 
-Utilisez le menu contextuel (**clic droit** sur Windows/Linux, clic **ctrl-clic** sur Mac) pour voir les commandes disponibles pour la sélection en cours : mesures, symboles d’accords ou sections.
+Cliquez sur une mesure ou un chord symbol pour le sélectionner. Utilisez **ctrl-clic** pour sélectionner plusieurs mesures ou chord symbols.
 
-![Menu contextuel de la mesure](../.gitbook/assets/BarPopupMenu.png)
+Utilisez **shift-clic** pour étendre la sélection courante.
 
-![Menu contextuel Symbole d’accord](../.gitbook/assets/ChordSymbolPopupMeny.png)
+**Faites glisser** un chord symbol avec la souris pour le déplacer vers un nouvel emplacement. Si vous appuyez sur **ctrl** en faisant glisser, un signe **+** apparaît (voir image ci-dessous) indiquant que le chord symbol sera copié, et non déplacé.
 
-![Menu contextuel Section/Signature temporelle](../.gitbook/assets/TimeSignaturePopupMenu.png)
+<figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
 
-### Alias
+{% hint style="success" %}
+Les **sections** et les **bar annotations** peuvent être sélectionnées, déplacées ou copiées de la même manière.
+{% endhint %}
 
-JJazzLab reconnaît de nombreux alias pour chaque symbole d’accord. Par exemple C7M peut s’écrire Cmaj7, Cma7, CM7, CMAJ7 etc
+#### Quantification des chord symbols
 
-Vous pouvez ajouter d’autres alias dans le menu **Options/Symboles d'accord**.
+Par défaut, la position d'un chord symbol est quantifiée à la double croche (4 positions par temps).
 
-### Interpretation
+Cela peut être ajusté par section via le menu contextuel de la mesure ou de la section **Quantization...**, comme indiqué ci-dessous.
 
-Sélectionnez un symbole d’accord, modifiez-le (double-clic, appuyez sur Entrée ou menu clic-droit, puis sélectionnez l’onglet Interprétation.
+<figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/ChordSymbolInterpretationDialog.png)
+<figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
 
-L’**onglet Interprétation** vous permet de décider comment ce symbole d’accord doit être joué:
+La valeur **auto** ajuste la quantification en fonction du rhythm (binaire ou ternaire) utilisé par le premier song part lié à cette section.
+
+## Chord symbols
+
+Sélectionnez une mesure ou un chord symbol, puis tapez la première lettre du chord symbol (par ex. 'C'), la **boîte de dialogue Bar edit** apparaîtra automatiquement :
+
+<figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Boîte de dialogue Bar edit</p></figcaption></figure>
+
+Lorsqu'une mesure est sélectionnée, la **boîte de dialogue Bar edit** peut également s'afficher en appuyant sur ENTRÉE, en double-cliquant sur une mesure, ou via le menu contextuel Edit.
+
+Pour **copier** un chord symbol, il suffit de le **faire glisser** tout en maintenant la touche **ctrl**.
+
+{% hint style="info" %}
+Pour **saisir un lead sheet de zéro**, le moyen le plus simple est de sélectionner la première mesure puis de taper directement les chord symbols (la boîte de dialogue Bar edit apparaît automatiquement dès que la première lettre est tapée), d'appuyer sur ENTRÉE une fois terminé (cela sélectionne automatiquement la mesure suivante), de taper les chord symbols pour la deuxième mesure, etc.
+{% endhint %}
+
+JJazzLab peut reconnaître différentes formes d'un chord symbol donné. Par exemple **C-7**, **Cm7**, **Cmi7**, **Cmin7** sont tous équivalents. Vous pouvez ajouter vos propres _alias d'accords_ dans l'onglet **Chord Symbols** des Options/Preferences, comme indiqué ci-dessous :
+
+<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Définissez vos propres alias de chord symbols</p></figcaption></figure>
+
+{% hint style="info" %}
+Le chord symbol spécial **NC** peut être utilisé pour obtenir un silence jusqu'au prochain chord symbol. Si le silence complet est trop fort, vous pouvez essayer un chord symbol avec l'[interprétation](chord-lead-sheet.md#interpretation) **shot**.
+{% endhint %}
+
+### Interprétation des chord symbols
+
+Sélectionnez un chord symbol, modifiez-le (double-clic, appuyez sur Entrée ou menu contextuel clic-droit), puis sélectionnez l'onglet **Interpretation**.
+
+![](../.gitbook/assets/ChordSymbolEditDialog.png)
+
+L'onglet **Interpretation** vous permet de décider comment ce chord symbol doit être joué :
 
 * **Normal**
-* **Accent**:ajoutez un accent rythmique et aléatoirement une cymbale crash. Vous pouvez renforcer l’accent ou vous assurer qu’une cymbale crash est jouée ou non.
-* **Tenu** : ajoutez un accent rythmique et maintenez les notes jusqu’au prochain symbole d’accord. En cas d’extension, d’autres instruments sont tenus.
-* **Coup** : ajoutez un accent rythmique avec des notes d’accords jouées brièvement. Si étendu plus d’instruments sont joués.
-* **Pédale basse** : la ligne de basse ne jouera que la note de basse (par ex. Fa pour Fm7 ou C pour Fm7/C). Ce paramètre est activé par défaut lorsque vous entrez un accord oblique.
+* **Accent** : ajoute un accent rythmique et aléatoirement une cymbale crash. Vous pouvez renforcer l'accent, ou vous assurer qu'une cymbale crash est jouée ou non.
+* **Hold** : ajoute un accent rythmique et maintient les notes jusqu'au prochain chord symbol. Si étendu, davantage d'instruments sont tenus.
+* **Shot** : ajoute un accent rythmique avec les notes d'accord jouées brièvement. Si étendu, davantage d'instruments sont joués.
+* **Pedal bass** : la ligne de basse ne jouera que la note de basse (par ex. F pour Fm7 ou C pour Fm7/C). Ce paramètre est activé par défaut lorsque vous saisissez un accord oblique (slash chord).
 
 {% hint style="info" %}
-Chaque moteur de génération de rythme peut rendre ces paramètres d’interprétation différemment.
+Chaque rhythm engine peut rendre ces paramètres d'interprétation différemment.
 {% endhint %}
 
-\
-&#x20;La forme du marqueur sous le symbole de l’accord dépend du mode d’interprétation:
+La forme du marqueur sous le chord symbol dépend du mode d'interprétation :
 
-![](../.gitbook/assets/InterpretationMarkers.png)
+![](../.gitbook/assets/interpretationmarkers.png)
 
-&#x20;Par exemple, pour rendre:&#x20;
+Par exemple, pour obtenir :
 
-![](../.gitbook/assets/RhythmicAccents.png)
+![](../.gitbook/assets/rhythmicaccents.png)
 
-yVous pouvez utiliser les paramètres d’interprétation suivants:&#x20;
+vous pouvez utiliser les paramètres d'interprétation suivants :
 
-![](../.gitbook/assets/ExampleRhythmicAccents.png)
+![](../.gitbook/assets/examplerhythmicaccents.png)
 
 {% hint style="info" %}
-Voir ci-dessous les raccourcis clavier pour changer l’interprétation des accords sélectionnés.
+Voir ci-dessous les raccourcis clavier pour changer l'interprétation des chord symbols sélectionnés.
 {% endhint %}
 
-### Harmonie
+#### Harmonie
 
-Sélectionnez un symbole d’accord, modifiez-le et sélectionnez l’onglet **Harmonie**.
+Sélectionnez un chord symbol, modifiez-le et sélectionnez l'onglet **Harmony**.
 
-![Onglet Harmonie](../.gitbook/assets/ChordSymbolHarmonyDialog.png)
+![](../.gitbook/assets/ChordSymbolEditDialogHarmony.png)
 
-L’onglet **Harmonie** vous permet de sélectionner la gamme à utiliser lors du rendu de la musique pour ce symbole d’accord.
+L'onglet **Harmony** vous permet de sélectionner la gamme à utiliser lors du rendu de la musique pour ce chord symbol.
 
-**Exemple** Supposons que la ligne de basse de référence pour Eb7M contienne un Ab (4ème degré de la gamme majeure de Eb). Si vous sélectionnez le mode lydien (qui a un 11e degré aigu), la note de basse de référence Ab sera rendue en A pour ce symbole d’accord.
+**Exemple** : supposons que la ligne de basse de référence pour Eb7M contienne un Ab (4e degré de la gamme majeure de Eb). Si vous sélectionnez le mode lydien (qui a un 11e degré élevé), la note de basse de référence Ab sera rendue en A pour ce chord symbol.
 
-Par défaut, aucune gamme n’est sélectionnée : chaque moteur de génération de rythme décidera de la "meilleure" gamme à utiliser.
+Par défaut, aucune gamme n'est sélectionnée : chaque rhythm engine décidera de la « meilleure » gamme à utiliser.
 
-### Symbole d'accord de substitution
+#### Substitute chord symbol
 
-Sélectionnez un symbole d’accord, modifiez-le et sélectionnez l’onglet **Symbole d’accord de substitution**.
+Sélectionnez un chord symbol, modifiez-le et sélectionnez l'onglet **substitute** chord symbol.
 
-&#x20;.
+![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/ChordSymbolEditDialogSubstitute.png)
 
-![Onglet Accord de substitution](../.gitbook/assets/ChordSymbolAlternateDialog.png)
+Cet onglet vous permet de définir un chord symbol de **substitution** qui sera utilisé lorsque certaines conditions sont remplies.
 
-Cet onglet vous permet de définir un symbole d’accord de **substitution** qui sera utilisé lorsque certaines conditions sont remplies.&#x20;
+Les chord symbols de **substitution** sont utiles lorsque vous devez introduire une légère variation dans une partie d'un song.
 
-Les symboles d’accords de **substitution** sont utiles lorsque vous devez introduire une légère variation dans une partie d’un morceau.
+Le chord symbol de **substitution** peut être n'importe quel chord symbol, avec n'importe quelle interprétation ou harmonie, ou aucun chord symbol du tout (accord vide). Les chord symbols qui ont un chord symbol de **substitution** défini sont affichés avec une couleur différente (voir image ci-dessous).
 
-Le symbole d’accord de **substitution** peut être n’importe quel symbole d’accord, avec n’importe quelle interprétation ou harmonie, ou aucun symbole d’accord du tout (accord nul). Les symboles d’accords qui ont un symbole d’accord de substitution défini sont affichés avec une couleur différente (voir image ci-dessous).
+_Exemple :_
 
-_Exemple:_
+Dans le song "Europa" de Carlos Santana, la 1re fin du thème est un Cm7, mais la 2e est un do majeur. Pour implémenter cela dans JJazzLab, une solution pourrait être de dupliquer la section A1 pour créer la section A2 avec la fin différente, puis de mettre à jour le song structure en conséquence. C'est parfaitement valide, mais lorsque les modifications sont mineures, le chord symbol de **substitution** peut offrir une solution plus simple.
 
-Dans le morceau "Europa" de Carlos Santana, la 1ère fin du thème est un Cm7, mais la 2ème est un do majeur. Pour implémenter cela dans JJazzLab, une solution pourrait être de dupliquer la section A1 pour créer la section A2 avec la fin différente, puis de mettre à jour la structure du morceau en conséquence. C’est parfaitement bien, mais lorsque les changements sont mineurs, le symbole de l’accord de substitution peut fournir une solution plus simple.
+Vous pouvez voir ci-dessous (et dans la capture de la boîte de dialogue ci-dessus) qu'un accord de substitution C7M a été créé pour Cm7. C7M sera utilisé pour tous les song parts (voir le [song structure editor](song-structure.md)) où le marqueur est défini sur Theme2. Sur l'image ci-dessous, cela signifie que le C7M ne sera utilisé que pour le 2e song part.
 
-Vous pouvez voir ci-dessous (et dans l’instantané de la boîte de dialogue ci-dessus) qu’un accord de substitution C7M a été créé pour Cm7. C7M sera utilisé pour toutes les parties du morceau (voir l'[éditeur de structure du morceau](https://app.gitbook.com/o/-MPpDkwuYsgP-XBvRKRP/s/Ec5HKJ3MdnOjrFIODarT/~/changes/12/editeurs/song-structure)) où le marqueur est défini sur Theme2. Sur l’image ci-dessous, cela signifie que le C7M ne sera utilisé que pour la 2ème partie du morceau.
+![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../.gitbook/assets/alternatechordleadsheet.png)
 
-![Accord de substitution sur le morceau Europa](../.gitbook/assets/AlternateChordLeadsheet.png)
+Il existe un autre exemple de chord symbol de **substitution** dans la 3e mesure : A7. Si vous écoutez le song original, vous remarquerez qu'ils jouent un A7 sur le dernier temps de la 3e mesure uniquement pendant les solos. Ainsi, le chord symbol A7 définit son chord symbol de **substitution** comme le « chord symbol vide » (identique à aucun chord symbol) lorsque le marqueur n'est _pas_ "Solo".
 
-Il existe un autre exemple de symbole d’accord de substitution dans la 3ème mesure : A7. Si vous écoutez le morceau original, vous remarquerez qu’ils jouent un A7 sur le dernier temps de la 3ème mesure uniquement pendant les solos. Ainsi, le symbole d’accord A7 définit son symbole d’accord de **substitution** comme le " symbole d’accord vide " (identique à aucun symbole d’accord) lorsque le marqueur n’est _pas_ "Solo".
+### Progressions d'accords personnalisables
 
-## Entrée des sections
+Sélectionnez une mesure et utilisez le menu contextuel **Insert/Chord progression** pour sélectionner une progression d'accords à insérer.
 
-Les sections typiques sont 'intro', 'couplet', 'refrain', etc
+<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
 
-La section Morceau (song) est l’unité de base utilisée par JJazzLab pour définir la structure du morceau. Il y a toujours une section définie sur la première mesure.
+La progression d'accords est insérée **à la mesure sélectionnée**, en remplaçant les accords existants. Des mesures supplémentaires sont créées si nécessaire. Les accords insérés sont automatiquement sélectionnés, de sorte que vous pouvez facilement les transposer vers la tonalité souhaitée (utilisez la **molette de la souris** sur un accord, ou appuyez sur **ctrl-HAUT/BAS**).
 
-Pour ajouter une section, sélectionnez une mesure qui ne soit pas après la fin, puis:
+Les progressions d'accords sont définies dans un simple fichier texte **`ChordProgression.txt`** situé dans votre répertoire utilisateur JJazzLab. Il est automatiquement créé par JJazzLab s'il n'existe pas.
 
-* appuyez sur ENTRÉE ou
-* double-cliquez ou
-* Clic-droit menu contextuel, Insérer une section... ou Modifier...
+Utilisez **Open configuration file...** dans le menu contextuel **Chord progression...** (voir image ci-dessus) pour le modifier. Cela vous permet de définir et d'organiser les progressions d'accords qui apparaissent dans le menu contextuel. Vous pouvez définir autant de catégories et sous-catégories que vous le souhaitez. Pour plus d'informations, consultez les commentaires au début du fichier.
 
-Le nom de la nouvelle section doit être différent de celui existant.
+## Sections
+
+Une section possède un **nom** et une **signature rythmique**. Les sections typiques sont 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
+
+<figure><img src="../.gitbook/assets/Section.png" alt=""><figcaption></figcaption></figure>
+
+Pour ajouter une section, **sélectionnez une mesure** puis :
+
+* **Double-cliquez** pour modifier la mesure (ou appuyez sur ENTRÉE, ou utilisez le menu contextuel Edit...) et **changez le nom de la section**
+* ou utilisez le menu contextuel de la mesure **Insert > Section...**
+
+{% hint style="danger" %}
+Les noms de section doivent être uniques. Il n'est pas possible de supprimer la section initiale de la première mesure.
+{% endhint %}
+
+Comme les chord symbols, les sections peuvent être déplacées ou copiées (maintenez la touche ctrl) avec la souris, ou via copier & coller.
 
 ### Forcer une section sur une nouvelle ligne
 
-Vous pouvez forcer une section qui ne se trouve pas sur la première mesure d’une ligne à commencer sur la ligne suivante. Cela peut être utile lorsque certaines sections ont un nombre impair de mesures.
+Vous pouvez forcer une section qui ne se trouve pas sur la première mesure d'une ligne à commencer sur la ligne suivante.
 
-Sélectionnez une mesure avec une section définie ou sélectionnez la section elle-même, cliquez avec le bouton droit de la souris sur le menu "Forcer la section à la nouvelle ligne".
+Cela peut être utile lorsque certaines sections ont un nombre impair de mesures.
 
-![](../.gitbook/assets/ForceSectionNewLine1.png)
+Sélectionnez une mesure avec une section définie ou sélectionnez la section elle-même, puis utilisez le menu contextuel **Section at New Line**.
 
-&#x20; Cela se traduira par l’affichage ci-dessous.&#x20;
+![](../.gitbook/assets/SectionNewLinePopupMenu.png)
 
-![](../.gitbook/assets/ForceSectionNewLine2.png)
+Cela produira l'affichage ci-dessous :
 
-## Raccourcis de la souris
+![](../.gitbook/assets/SectionNewLineResult.png)
 
-| <mark style="background-color:blue;">**Selection**</mark> | <mark style="background-color:blue;">**Souris**</mark> | <mark style="background-color:blue;">**Action**</mark>   |
-| --------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
-| mesure, symbole d’accord, section                         | clic                                                   | choisir                                                  |
-| Symbole d’accord                                          | double clic                                            | Modification à l’aide de l’éditeur de symboles d’accords |
-| mesure, section                                           | double clic                                            | Modifier à l’aide de l’éditeur de mesures                |
-| mesure, symbole d’accord, section                         | clic-droit                                             | menu contextuel                                          |
-| symbole d’accord                                          | molette de la sourisl                                  | transposer                                               |
-| editeur                                                   | ctrl molette de la souris                              | changer le facteur X de zoom                             |
+## Bar annotations / lyrics
+
+Vous pouvez ajouter des **annotations** à n'importe quelle mesure.
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
+
+Lorsque les annotations sont masquées, les mesures contenant des annotations sont signalées par un post-it (l'info-bulle affiche le texte de l'annotation).
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+#### Syntaxe spéciale # pour Easy Reader
+
+Supposons que la même mesure soit utilisée dans différents song parts. Les paroles de cette mesure peuvent changer selon le song part. Vous pouvez faire précéder les lignes d'annotation d'un **#** pour que l'[Easy Reader](../outils/easy-reader.md) n'affiche que la ligne pertinente.
+
+<figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+**Exemple** : pour l'annotation ci-dessus, Easy Reader affichera "with... you" la première fois, "and...you" la deuxième fois, et "take...you" chaque fois que le nom du song part courant est "chorus".
+
+## Exporter/importer le lead sheet sous forme de texte
+
+Sélectionnez des mesures ou des chord symbols et copiez-les (via le menu Copy ou ctrl-C/command-C). Passez ensuite dans n'importe quel éditeur de texte et collez : les mesures/accords sont exportés en texte comme ci-dessous :
+
+`|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |`\
+`| Gm7/Bb | C9/Bb | F7M | |`
+
+L'import de texte fonctionne dans le sens inverse. Copiez un texte similaire dans le presse-papiers puis collez-le dans le lead sheet editor : les mesures/chord symbols correspondants sont importés dans le song JJazzLab.
+
+## Raccourcis souris
+
+| <mark style="background-color:blue;">**Sélection**</mark> | <mark style="background-color:blue;">**Souris**</mark> | <mark style="background-color:blue;">**Action**</mark> |
+| --------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| mesure, chord symbol, section                             | clic                                                   | sélectionner                                           |
+| chord symbol                                              | double-clic                                            | modifier avec l'éditeur de chord symbol                |
+| chord symbol                                              | ctrl-shift-clic                                        | écouter l'accord                                       |
+| mesure, section, annotation                               | double-clic                                            | modifier avec l'éditeur de mesure                      |
+| mesure, chord symbol, section                             | clic droit                                             | menu contextuel                                        |
+| chord symbol                                              | molette de la souris                                   | transposer                                             |
+| éditeur                                                   | ctrl + molette de la souris                            | zoom horizontal                                        |
+| éditeur                                                   | ctrl-shift + molette de la souris                      | zoom vertical                                          |
 
 ## Raccourcis clavier
 
 {% hint style="info" %}
-De nombreuses actions sont également disponibles via le menu contextuel (clic droit sur Windows/Linux, clic ctrl sur Mac), et lorsqu’il est disponible, le clavier associé s’affiche.
+De nombreuses actions sont également disponibles via le menu contextuel (clic droit sur Windows/Linux, ctrl-clic sur Mac), et lorsqu'il est disponible, le raccourci clavier associé s'affiche.
 {% endhint %}
 
-| Selection                         | Touche clavier    | Action                                                            |
-| --------------------------------- | ----------------- | ----------------------------------------------------------------- |
-| symbole d’accord                  | entrée            | Modifier avec l’éditeur de symbole d’accords                      |
-| mesure, section                   | entrée            | Boîte de dialogue Modifier avec l’éditeur de mesures              |
-| mesure                            | ctrl-E            | Définir la mesure de fin                                          |
-| mesure                            | I                 | Insérer des mesures                                               |
-| mesure                            | suppr             | Effacer le contenu de la mesure                                   |
-| symbole d’accord, section         | suppr             | retirer                                                           |
-| symbole d’accord, section         | ctrl-gauche/droit | Déplacer l’élément d’une mesure vers la gauche/droite             |
-| mesure                            | shift-suppr       | retirer                                                           |
-| symbole d’accord                  | ctrl-haut/bas     | transposer                                                        |
-| symbole d’accord                  | P                 | Interprétation des changements                                    |
-| symbole d’accord                  | S                 | accent plus fort                                                  |
-| symbole d’accord                  | H                 | crash cymbale/pas de crash                                        |
-| symbole d’accord                  | X                 | tenu/coup plus d'instruments                                      |
-| symbole d’accord, section         | ctrl-A            | Sélectionnez tout dans la section, puis dans la feuille d'accords |
-| mesure, symbole d’accord, section | ctrl-C/X/V        | copier/couper/coller des éléments                                 |
-| editeur                           | ctrl-Z/Y          | Annuler/Rétablir                                                  |
-| editeur                           | ctrl-W            | Fermer la morceau                                                 |
+| Sélection                         | Touche          | Action                                                       |
+| --------------------------------- | --------------- | ------------------------------------------------------------ |
+| chord symbol                      | entrée          | modifier avec l'éditeur de chord symbol                      |
+| mesure, section                   | entrée          | modifier avec la boîte de dialogue de l'éditeur de mesure    |
+| mesure                            | ctrl-E          | définir la mesure de fin                                     |
+| mesure                            | I               | insérer des mesures                                          |
+| mesure                            | suppr           | effacer le contenu de la mesure                              |
+| chord symbol, section             | suppr           | supprimer                                                    |
+| chord symbol, section             | ctrl-gauche/droit | déplacer l'élément d'une mesure vers la gauche/droite      |
+| mesure                            | shift-suppr     | supprimer                                                    |
+| chord symbol                      | ctrl-haut/bas   | transposer                                                   |
+| chord symbol                      | P               | changer l'interprétation                                     |
+| chord symbol                      | S               | accent plus fort                                             |
+| chord symbol                      | H               | cymbale crash / pas de crash                                 |
+| chord symbol                      | X               | hold/shot plus d'instruments                                 |
+| chord symbol                      | M               | écouter l'accord                                             |
+| chord symbol, section             | ctrl-A          | sélectionner tout dans la section, puis dans le lead sheet   |
+| mesure, chord symbol, section     | ctrl-C/X/V      | copier/couper/coller des éléments                            |
+| éditeur                           | ctrl-Z/Y        | annuler/rétablir                                             |
+| éditeur                           | ctrl-L          | afficher/masquer les bar annotations                         |
+| éditeur                           | alt-L           | insérer une bar annotation                                   |
+| éditeur                           | ctrl-W          | fermer le song                                               |

@@ -1,140 +1,146 @@
-# Console de Mixage
+# Mix console
 
-Utilisez la **console de mixage** pour:
+Utilisez la **mix console** pour :
 
 * Changer les instruments
-* Ajuster les paramètres des canaux : volume, réverbération, chorus, panoramique, transposition, vélocité
-* Canaux muets ou solo
-* Ajouter des pistes utilisateur
-* Charger/enregistrer le fichier. mix
-* Et plus encore : changer de canal Midi, utiliser des commandes Midi spéciales, exporter vers un fichier Midi, etc...
+* Ajuster les paramètres de canal : volume, réverbération, chorus, panoramique, transposition, décalage de vélocité
+* Couper ou mettre en solo des canaux
+* Ajouter des user tracks
+* Charger/enregistrer un fichier .mix
+* Et plus encore : changer de canal Midi, utiliser des commandes Midi spéciales, exporter vers un fichier Midi, etc.
 
-JJazzLab utilise les informations de la console de mixage pour envoyer les messages Midi pertinents au [synthétiseur de sortie](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey). Cela se fait chaque fois que vous apportez une modification à la console de mixage ou lorsque vous démarrez la lecture.
+JJazzLab utilise les informations de la **mix console** pour envoyer les messages Midi pertinents au output synth. Cela se produit chaque fois que vous apportez une modification dans la mix console, ou lorsque vous démarrez la lecture.
 
 {% hint style="danger" %}
-Le Midi n’a que 16 canaux Midi. C’est pourquoi généralement un morceau ne peut pas avoir plus de 2 rythmes.
+Le Midi ne dispose que de 16 canaux Midi&#x73;**.** C'est pourquoi un song ne peut généralement pas avoir plus de 2 rhythms.
 {% endhint %}
 
-![](../.gitbook/assets/MixConsole3.png)
+![](<../.gitbook/assets/2023-12-31 21_37_13-JJazzLab  4.0.2.png>)
 
-## Barre d’outils de la console de Mixage
+Chaque piste de la mix console possède un **composant de vue d'ensemble** en bas qui représente les notes de la piste.
+
+## Barre d'outils de la mix console
 
 ![](../.gitbook/assets/MixConsoleToolbar.png)
 
-* **Volume master** : cela augmente ou diminue les messages de volume Midi
-* **M**: Couper ou Activer le son de toutes les pistes
-* **S**: Désactiver toutes les pistes solo
-* **Panique**: Envoyer un message de panique Midi, en désactivant toutes les notes
-* **Ajouter une piste Utilisateur** : voir [Pistes Utilisateur](mix-console.md#user-tracks) ci-dessous.
+* **Master volume** : augmente ou diminue les messages de volume Midi
+* **M** : couper ou activer le son de toutes les pistes
+* **S** : désactiver toutes les pistes en solo
+* **Panic** : envoyer un message de panique Midi, désactivant toutes les notes
+* **Ajouter un user track** : voir [User tracks](mix-console.md#user-tracks) ci-dessous.
 
-## Barre de menus de la console de Mixage
+## Barre de menus de la mix console
 
-### Menu Fichier
+### Menu File
 
-*   **Charger/enregistrer le mixage rythmique par défaut** &#x20;
+*   **Load/Save Default Rhythm Mix** &#x20;
 
-    Modifiez la combinaison actuelle à partir d’un fichier. Consultez [cette page](../morceaux/song-and-mix-files.md) pour plus d’informations sur les fichiers .mix.
-*   **Importation de mixage...** &#x20;
+    Met à jour le song mix courant en chargeant le fichier de rhythm mix par défaut. \
+    Ou enregistre le song mix courant comme fichier de rhythm mix par défaut : il sera réutilisé par défaut chaque fois que vous créerez un song utilisant le même rhythm. En savoir plus sur les [fichiers de rhythm mix par défaut](../morceaux/song-and-mix-files.md#default-rhythm-mix).
+*   **Import Mix...** &#x20;
 
-    Notez que cela importera les paramètres uniquement pour les instruments qui sont communs entre le mixage actuel et le mixage importé.
+    Notez que cela importera les paramètres uniquement pour les instruments qui sont communs entre le mix courant et le mix importé.
 
-### Menu Edition
+### Menu Edit
 
-*   **Réinitialiser les canaux** &#x20;
+*   **Reset channels** &#x20;
 
-    Restaurez les paramètres d’origine à partir du rythme associé.
+    Restaure chaque canal de la mix console (instrument, volume, panoramique, effet) à son paramètre de rhythm par défaut.
 
 ### Menu Midi
 
-*   **Activer/Désactiver tous les paramètres Midi** &#x20;
+*   **Enable/Disable all Midi parameters** &#x20;
 
-    Utilisez Désactiver tous les paramètres Midi si vous contrôlez vous-même le mixage directement sur le synthé de sortie.
-*   **Envoyer un message GM/GM2/XG/GM en mode ON** &#x20;
+    Par défaut, tous les paramètres Midi sont activés. \
+    Utilisez Disable all Midi parameters si vous souhaitez contrôler le mix vous-même directement sur le output synth : dans ce mode, JJazzLab n'envoie que des _messages de notes Midi_, sans envoyer de messages Midi relatifs aux changements de banque/programme, au volume, au panoramique ou aux effets.
+*   **Send GM/GM2/XG/GM mode ON message** &#x20;
 
-    Cela vous permet d’envoyer des messages d’initialisation Midi spéciaux pour transformer votre synthé de sortie dans le mode souhaité.
+    Cela vous permet d'envoyer des messages d'initialisation Midi spéciaux pour mettre votre output synth dans le mode souhaité.
 
 ## Changer d'instrument
 
-Cliquez sur le nom de l’instrument dans le canal. Notez que c’est également là que la transposition de l’instrument peut être ajustée.
+Cliquez sur le nom de l'instrument dans le canal. Notez que c'est également là que la transposition de l'instrument peut être ajustée.
 
-![](../.gitbook/assets/MixConsole-InstrumentSelection.png)
+![](../.gitbook/assets/mixconsole-instrumentselection.png)
 
 ## Paramètres de canal
 
-Utilisez les paramètres de canal pour:
+Utilisez les paramètres de canal pour :
 
-*   **Ajouter un décalage de vélocité Midi à toutes les notes jouées sur ce canal**
+*   **Ajouter un décalage de vélocité Midi à toutes les notes jouées sur ce canal** &#x20;
 
-    Notez que cela est légèrement différent du réglage du volume.<br>
-*   **Désactiver l’envoi de messages Midi spécifiques** &#x20;
+    Notez que c'est légèrement différent du réglage du volume.<br>
+*   **Désactiver l'envoi de messages Midi spécifiques** &#x20;
 
-    Probablement parce que vous contrôlez vous-même le paramètre directement sur le [synthé de sortie](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey).<br>
+    Probablement parce que vous contrôlez vous-même le paramètre directement sur le [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey).<br>
 *   **Activer un canal de batterie avec un canal Midi différent de 10**
 
-    Si vous utilisez un synthétiseur de sortie GM de base, il ne peut jouer la batterie que sur le canal 10. Si la batterie/percussion est utilisée sur d’autres canaux de votre mixage, vous devez activer le réacheminement de la batterie sur ces canaux. Notez que JJazzLab peut activer cette option pour vous s’il détecte, en fonction des informations de [synthé de sortie](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) actuelles, des problèmes potentiels. \
+    Si vous utilisez un output synth GM de base, il ne peut jouer la batterie **que sur le canal 10**. Si la batterie/percussion est utilisée sur d'autres canaux dans votre mix, vous devez activer le réacheminement de la batterie sur ces canaux. Notez que JJazzLab peut activer cette option pour vous s'il détecte, en fonction des informations du [output synth](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) courant, des problèmes potentiels. \
     <br>
 
-![](../.gitbook/assets/MixConsole-ChannelSettings.png)
+![](../.gitbook/assets/mixconsole-channelsettings.png)
 
 ## Canal Midi
 
 Chaque canal Midi peut être modifié manuellement, il suffit de cliquer sur le numéro du canal.
 
-![](<../.gitbook/assets/MixConsole-ChangeChannel (1).png>)
+![](../.gitbook/assets/MixConsole-ChangeChannel.png)
 
-## Pistes utilisateur
+## User tracks
 
-Une piste utilisateur vous permet d’ajouter votre propre contenu Midi à votre morceau : une mélodie, des riffs de cuivres, des percussions, etc.
+Un user track vous permet d'ajouter votre propre contenu Midi à votre song : une mélodie, des riffs de cuivres, des percussions, etc.
 
-#### Ajouter une piste Utilisateur
+{% hint style="info" %}
+Si vous souhaitez personnaliser une piste de rhythm uniquement pour un song part (par ex. simplifier la phrase de basse du style pour le 2e verse de votre song), vous devez utiliser le [rhythm parameter Custom phrase](song-structure.md#rhythm-parameters).
+{% endhint %}
 
-Ajoutez une ou plusieurs pistes utilisateur à l’aide du bouton Ajouter une piste utilisateur.
+#### Ajouter des user tracks
 
-<figure><img src="../.gitbook/assets/AddUserTrackButton.png" alt=""><figcaption></figcaption></figure>
+Cliquez sur le bouton + dans la barre d'outils de la mix console pour ajouter un nouveau user track. Cela ouvrira également le [notes editor](notes-editor.md) pour éditer ce user track.
 
-Une piste utilisateur a une extension graphique spécifique comme indiqué ci-dessous, qui est utilisée pour renommer ou supprimer la piste utilisateur, mais surtout est utilisée pour mettre à jour son contenu Midi.
+<figure><img src="../.gitbook/assets/2023-12-31 22_01_24-JJazzLab  4.0.2.png" alt=""><figcaption><p>Bouton Ajouter un user track</p></figcaption></figure>
 
-![](../.gitbook/assets/UserTrack.png)
+Vous pouvez également cloner une piste de rhythm comme nouveau user track en utilisant le signe + dans le coin supérieur droit d'une vue d'ensemble de piste, comme indiqué ci-dessous. La piste de rhythm originale sera automatiquement mise en sourdine.
 
-Lorsque la piste est créée, vous pouvez sélectionner un instrument comme pour n’importe quelle piste.
+<figure><img src="../.gitbook/assets/2023-12-31 21_58_28-JJazzLab  4.0.2.png" alt=""><figcaption><p>Cloner une piste de rhythm comme nouveau user track</p></figcaption></figure>
 
 {% hint style="warning" %}
-Si vous sélectionnez une batterie ou un instrument de percussion et que votre [synthé de sortie](/broken/pages/-MQNBJUwiJ9pkXF9j5Ey) est un synthétiseur basique compatible GM: [réglez le canal de piste utilisateur](mix-console.md#midi-channel) sur 10, _et_ si le Canal 10 est déjà utilisé par une autre piste, activez le _Réacheminement Batterie_ _vers_ canal _10_ (voir [Paramètres du canal](mix-console.md#channel-settings)) dans votre piste utilisateur.
+Si vous sélectionnez un instrument de batterie ou de percussion pour le user track, _et_ que votre output synth est un synthétiseur basique compatible GM : [définissez le canal du user track](mix-console.md#midi-channel) sur 10, et si le canal 10 est déjà utilisé par une autre piste, activez le _Drums rerouting to channel 10_ (voir [Paramètres de canal](mix-console.md#channel-settings)) dans votre user track.
 {% endhint %}
 
-#### Edition du contenu Midi
+#### Éditer un user track
 
-Pour ajouter des notes Midi à une piste utilisateur, vous pouvez soit **glisser-déposer** un fichier Midi dans la zone rectangulaire, soit utiliser le bouton **Modifiez via le bouton externe** de l’éditeur Midi dans le coin inférieur gauche.&#x20;
+Éditez le user track en cliquant sur l'icône en haut à gauche du composant de vue d'ensemble du user track, comme indiqué ci-dessous.&#x20;
 
-Lors de l’utilisation de l’**édition via l'éditeur Midi externe**, JJazzLab exportera d’abord la piste d'accompagnement complète en tant que fichier Midi temporaire, puis l’ouvrira avec votre éditeur Midi externe, afin que vous puissiez ajouter des notes pour votre piste utilisateur.
+Cela ouvrira le [notes editor](notes-editor.md).
+
+<figure><img src="../.gitbook/assets/2023-12-31 22_02_16-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+Un user track a toujours la même longueur que votre song.
 
 {% hint style="danger" %}
-JJazzLab n’importe que les notes qui correspondent au canal Midi de la piste utilisateur. **Les notes provenant d’autres canaux Midi sont ignorées.**
-
-Par exemple, dans l’image ci-dessus, le canal de piste utilisateur est 1, donc lorsque vous utilisez votre éditeur Midi / DAW pour ajouter des notes sur la piste utilisateur, assurez-vous qu’elles sont bien sur le canal 1.
+Si vous éditez un user track, puis raccourcissez le song (par ex. en supprimant un song part), le user track sera tronqué à la nouvelle taille du song.
 {% endhint %}
 
-&#x4C;**’édition via un éditeur Midi externe** nécessite que vous ayez défini un éditeur Midi externe dans le panneau **Général des Options / Préférences**. Si vous n’en avez pas, nous vous recommandons **MidiEditor** pour Windows, c’est gratuit, open-source et léger. &#x20;
+## Exporter vers un fichier Midi avec glisser-déposer
 
-## Exporter vers un fichier Midi avec le glisser-déposer de la souris
+Vous pouvez exporter la **piste d'accompagnement complète** vers un fichier Midi en faisant glisser la souris depuis la zone vide de la mix console. Notez que c'est la même chose que le menu File/Export to Midi file, sauf que c'est plus pratique lorsque vous travaillez avec un autre logiciel tel qu'une DAW.
 
-Vous pouvez exporter la piste d’accompagnement complète vers un fichier Midi en faisant glisser la souris depuis la zone vide de la console de mixage. Notez que c’est la même chose que le menu Fichier/Exporter vers un fichier Midi, sauf que c’est plus pratique lorsque vous travaillez avec un autre logiciel tel qu’un DAW.
-
-Pour exporter une seule piste, glisser-déposer avec la souris à partir d’une icône de piste.
+Pour exporter une **piste individuelle**, commencez le glissement depuis l'icône de piste ou le composant de vue d'ensemble de la piste.
 
 ![Export a single track with mouse drag & drop](../.gitbook/assets/MixConsoleDragTrack.png)
 
-## Morceaux multi-rythmes
+## Songs multi-rhythms
 
-Lorsqu’un morceau utilise 2 rythmes ou plus, une fenêtre contextuelle s’affiche dans le coin supérieur gauche de la console de mixage pour sélectionner le rythme que vous souhaitez afficher.
+Lorsqu'un song utilise 2 rhythms ou plus, un menu contextuel s'affiche dans le coin supérieur gauche de la mix console pour sélectionner le rhythm que vous souhaitez afficher.
 
-![](../.gitbook/assets/MixConsole-RhythmSelectionPopup.png)
+![](../.gitbook/assets/mixconsole-rhythmselectionpopup.png)
 
-Notez que certaines commandes telles que le menu Modifier/Réinitialiser les canaux ne seront pas appliquées au(x) rythme(s) caché(s).
+Notez que certaines commandes telles que le menu **Edit/Reset channels** ne seront pas appliquées au(x) rhythm(s) masqué(s).
 
-## Raccourcis de la souris
+## Raccourcis souris
 
-| Sélection                           | Souris                       | Action                                |
-| ----------------------------------- | ---------------------------- | ------------------------------------- |
-| curseur de volume de canal, potards | double-clic                  | Valeur d’entrée avec le clavier       |
-| Curseur de volume de canal          | Maj+ glissement de la souris | Modifier le volume de tous les canaux |
+| Sélection                                     | Souris                       | Action                                  |
+| --------------------------------------------- | ---------------------------- | --------------------------------------- |
+| curseur de volume de canal, potentiomètres    | double-clic                  | saisir la valeur au clavier             |
+| curseur de volume de canal                    | shift + glisser la souris    | modifier le volume de tous les canaux   |
