@@ -4,7 +4,7 @@
 
 - `lychee --verbose --no-progress "./**/*.md"` runs the same Markdown link validation used in `.github/workflows/link-checker.yml`.
 - `lychee --verbose --no-progress "./path/to/file.md"` is the closest equivalent to a single-test run for this repo when you only changed one page.
-- `workflow_dispatch` on `.github/workflows/manual-translation-sync.yml` is the manual translation workflow. It expects a `from_ref` input and uses Copilot CLI to open one PR per language branch.
+- `workflow_dispatch` on `.github/workflows/manual-translation-sync.yml` is the manual translation workflow. It supports incremental syncs via `from_ref` and one-time bootstrap runs via `full_sync: true`, opening one PR per language branch.
 - There is no configured unit-test, lint, or real build pipeline in this repository. `pom.xml` must be ignored. Treat link checking as the authoritative automated validation.
 
 ## High-level architecture

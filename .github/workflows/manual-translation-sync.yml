@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       from_ref:
-        description: 'English ref before the updates to translate (for example: HEAD~3 or a commit SHA)'
-        required: true
+        description: 'English ref before the updates to translate (ignored when full_sync is true)'
+        required: false
+        default: 'HEAD~1'
         type: string
       to_ref:
         description: 'English ref containing the updates to translate'
@@ -17,6 +18,11 @@ on:
         required: false
         default: 'french,spanish,japanese,german'
         type: string
+      full_sync:
+        description: 'Translate all published Markdown files from the selected English ref instead of only changed files'
+        required: false
+        default: false
+        type: boolean
       dry_run:
         description: 'Generate translation changes without pushing branches or opening PRs'
         required: false
@@ -49,31 +55,39 @@ jobs:
       - name: Install Copilot CLI
         run: npm install -g @github/copilot
 
-      - name: Collect changed Markdown files
+      - name: Collect Markdown files to translate
         id: changes
         env:
           FROM_REF: ${{ inputs.from_ref }}
           TO_REF: ${{ inputs.to_ref }}
+          FULL_SYNC: ${{ inputs.full_sync }}
         run: |
           set -euo pipefail
 
           git fetch origin master "${{ matrix.language }}"
 
-          git rev-parse "${FROM_REF}^{commit}" >/dev/null
           git rev-parse "${TO_REF}^{commit}" >/dev/null
 
-          git diff --name-status --find-renames "${FROM_REF}" "${TO_REF}" -- '*.md' ':(exclude).github/**' > changes.tsv
+          if [ "${FULL_SYNC}" = "true" ]; then
+            git ls-tree -r --name-only "${TO_REF}" | grep -E '\.md$' | grep -v '^.github/' | sed 's/^/M\t/' > changes.tsv || true
+            RANGE_DESC="${TO_REF} (full sync)"
+          else
+            git rev-parse "${FROM_REF}^{commit}" >/dev/null
+            git diff --name-status --find-renames "${FROM_REF}" "${TO_REF}" -- '*.md' ':(exclude).github/**' > changes.tsv
+            RANGE_DESC="${FROM_REF}..${TO_REF}"
+          fi
 
           if [ ! -s changes.tsv ]; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
             {
               echo "### ${{ matrix.language }}"
-              echo "No Markdown changes found in ${FROM_REF}..${TO_REF}."
+              echo "No Markdown files found for ${RANGE_DESC}."
             } >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
           echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          echo "range_desc=${RANGE_DESC}" >> "$GITHUB_OUTPUT"
           {
             echo "files<<EOF"
             cat changes.tsv
@@ -85,23 +99,30 @@ jobs:
         id: branch
         env:
           TO_REF: ${{ inputs.to_ref }}
+          FULL_SYNC: ${{ inputs.full_sync }}
         run: |
           set -euo pipefail
 
           SHORT_SHA="$(git rev-parse --short "${TO_REF}")"
-          SYNC_BRANCH="ai-sync/${{ matrix.language }}/${SHORT_SHA}"
+          if [ "${FULL_SYNC}" = "true" ]; then
+            SYNC_BRANCH="ai-bootstrap/${{ matrix.language }}/${SHORT_SHA}"
+            git checkout -B "${SYNC_BRANCH}" "origin/master"
+          else
+            SYNC_BRANCH="ai-sync/${{ matrix.language }}/${SHORT_SHA}"
+            git checkout -B "${SYNC_BRANCH}" "origin/${{ matrix.language }}"
+          fi
 
-          git checkout -B "${SYNC_BRANCH}" "origin/${{ matrix.language }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           echo "sync_branch=${SYNC_BRANCH}" >> "$GITHUB_OUTPUT"
 
-      - name: Translate changed files
+      - name: Translate Markdown files
         if: steps.changes.outputs.has_changes == 'true'
         env:
           FROM_REF: ${{ inputs.from_ref }}
           TO_REF: ${{ inputs.to_ref }}
+          FULL_SYNC: ${{ inputs.full_sync }}
           LANGUAGE_BRANCH: ${{ matrix.language }}
           COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_PAT }}
         run: |
@@ -153,7 +174,9 @@ jobs:
 
             git show "${TO_REF}:${target_path}" > .copilot-tmp/new-english.md
 
-            if [ -f "$translation_seed_path" ]; then
+            if [ "${FULL_SYNC}" = "true" ] && git cat-file -e "origin/${LANGUAGE_BRANCH}:${translation_seed_path}" 2>/dev/null; then
+              git show "origin/${LANGUAGE_BRANCH}:${translation_seed_path}" > .copilot-tmp/current-translation.md
+            elif [ -f "$translation_seed_path" ]; then
               cp "$translation_seed_path" .copilot-tmp/current-translation.md
             elif [ -n "$renamed_from" ] && [ -f "$renamed_from" ]; then
               cp "$renamed_from" .copilot-tmp/current-translation.md
@@ -198,6 +221,8 @@ jobs:
       - name: Commit translation updates
         if: steps.changes.outputs.has_changes == 'true'
         id: commit
+        env:
+          FULL_SYNC: ${{ inputs.full_sync }}
         run: |
           set -euo pipefail
 
@@ -210,7 +235,11 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Sync master changes into ${{ matrix.language }}"
+          if [ "${FULL_SYNC}" = "true" ]; then
+            git commit -m "Bootstrap ${{ matrix.language }} from master"
+          else
+            git commit -m "Sync master changes into ${{ matrix.language }}"
+          fi
           echo "has_commit=true" >> "$GITHUB_OUTPUT"
 
       - name: Push sync branch
@@ -223,16 +252,24 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           BASE_BRANCH: ${{ matrix.language }}
           HEAD_BRANCH: ${{ steps.branch.outputs.sync_branch }}
-          FROM_REF: ${{ inputs.from_ref }}
-          TO_REF: ${{ inputs.to_ref }}
+          FULL_SYNC: ${{ inputs.full_sync }}
+          RANGE_DESC: ${{ steps.changes.outputs.range_desc }}
           CHANGED_FILES: ${{ steps.changes.outputs.files }}
         run: |
           set -euo pipefail
 
-          cat > pr-body.md <<EOF
-          This PR was generated by the manual translation sync workflow.
+          if [ "${FULL_SYNC}" = "true" ]; then
+            TITLE="Bootstrap ${BASE_BRANCH} from master"
+            INTRO="This PR was generated by the manual translation workflow in full-sync mode."
+          else
+            TITLE="Sync master changes into ${BASE_BRANCH}"
+            INTRO="This PR was generated by the manual translation sync workflow."
+          fi
 
-          English source range: \`${FROM_REF}..${TO_REF}\`
+          cat > pr-body.md <<EOF
+          ${INTRO}
+
+          English source: \`${RANGE_DESC}\`
 
           Changed Markdown files:
           \`\`\`
@@ -241,7 +278,6 @@ jobs:
           EOF
 
           PR_NUMBER="$(gh pr list --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --json number --jq '.[0].number')"
-          TITLE="Sync master changes into ${BASE_BRANCH}"
 
           if [ -n "${PR_NUMBER}" ] && [ "${PR_NUMBER}" != "null" ]; then
             gh pr edit "${PR_NUMBER}" --title "${TITLE}" --body-file pr-body.md

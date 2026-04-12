@@ -29,3 +29,22 @@
   Your computer is only used to trigger the workflow and later review/merge the PRs. The only credential you provide is the 
   COPILOT_PAT secret stored in the repository or organization settings, which the runner uses during the job.
 
+
+Added bootstrap support to .github/workflows/manual-translation-sync.yml.
+
+What changed
+
+ - New full_sync input: when true, the workflow translates all published .md files from to_ref, not just diffs.
+ - In bootstrap mode, the PR branch is created from origin/master and opened against the target language branch.
+ - Bootstrap PRs are named like Bootstrap french from master and use branches like ai-bootstrap/<language>/<sha>.
+ - from_ref is now optional and ignored during bootstrap runs.
+
+How to use it
+
+ - Normal incremental sync: leave full_sync unchecked, set from_ref and optionally to_ref.
+ - One-time reset/bootstrap: set:
+  - full_sync = true
+  - to_ref = origin/master
+  - languages = french,spanish,japanese,german or a subset
+
+That will generate one full translation PR per language branch from current English.
