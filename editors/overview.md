@@ -4,7 +4,7 @@ description: Create (or load) a song, then use the editors below to adapt it to 
 
 # Overview
 
-<figure><img src="../.gitbook/assets/FullEditorsText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/EditorsWithText.png" alt=""><figcaption><p>Song structure editor lets you define how sections make the final song</p></figcaption></figure>
 
 ### Use the **Lead Sheet Editor** to
 
