@@ -19,19 +19,18 @@ on:
         default: 'french,spanish,japanese,german'
         type: string
       full_sync:
-        description: 'Translate all published Markdown files from the selected English ref instead of only changed files'
+        description: 'Create bootstrap issues for all published Markdown files from the selected English ref'
         required: false
         default: false
         type: boolean
       dry_run:
-        description: 'Generate translation changes without pushing branches or opening PRs'
+        description: 'Create the issue without assigning it to Copilot'
         required: false
         default: false
         type: boolean
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   sync-language:
@@ -75,10 +74,6 @@ jobs:
           git fetch --prune origin "+refs/heads/*:refs/remotes/origin/*"
           git checkout -B master origin/master
 
-      - name: Install Copilot CLI
-        if: steps.selected.outputs.selected == 'true'
-        run: npm install -g @github/copilot
-
       - name: Collect Markdown files to translate
         if: steps.selected.outputs.selected == 'true'
         id: changes
@@ -90,19 +85,18 @@ jobs:
           set -euo pipefail
 
           git fetch origin master "${{ matrix.language }}"
-
           git rev-parse "${TO_REF}^{commit}" >/dev/null
 
           if [ "${FULL_SYNC}" = "true" ]; then
-            git ls-tree -r --name-only "${TO_REF}" | grep -E '\.md$' | grep -v '^.github/' | sed 's/^/M\t/' > changes.tsv || true
+            git ls-tree -r --name-only "${TO_REF}" | grep -E '\.md$' | grep -v '^.github/' > target-files.txt || true
             RANGE_DESC="${TO_REF} (full sync)"
           else
             git rev-parse "${FROM_REF}^{commit}" >/dev/null
-            git diff --name-status --find-renames "${FROM_REF}" "${TO_REF}" -- '*.md' ':(exclude).github/**' > changes.tsv
+            git diff --name-only --find-renames "${FROM_REF}" "${TO_REF}" -- '*.md' ':(exclude).github/**' > target-files.txt
             RANGE_DESC="${FROM_REF}..${TO_REF}"
           fi
 
-          if [ ! -s changes.tsv ]; then
+          if [ ! -s target-files.txt ]; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
             {
               echo "### ${{ matrix.language }}"
@@ -111,211 +105,222 @@ jobs:
             exit 0
           fi
 
+          FILE_COUNT="$(wc -l < target-files.txt | tr -d ' ')"
           echo "has_changes=true" >> "$GITHUB_OUTPUT"
           echo "range_desc=${RANGE_DESC}" >> "$GITHUB_OUTPUT"
-          {
-            echo "files<<EOF"
-            cat changes.tsv
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
-      - name: Create sync branch
-        if: steps.changes.outputs.has_changes == 'true'
-        id: branch
-        env:
-          TO_REF: ${{ inputs.to_ref }}
-          FULL_SYNC: ${{ inputs.full_sync }}
-        run: |
-          set -euo pipefail
-
-          SHORT_SHA="$(git rev-parse --short "${TO_REF}")"
-          if [ "${FULL_SYNC}" = "true" ]; then
-            SYNC_BRANCH="ai-bootstrap/${{ matrix.language }}/${SHORT_SHA}"
-            git checkout -B "${SYNC_BRANCH}" "origin/master"
-          else
-            SYNC_BRANCH="ai-sync/${{ matrix.language }}/${SHORT_SHA}"
-            git checkout -B "${SYNC_BRANCH}" "origin/${{ matrix.language }}"
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          echo "sync_branch=${SYNC_BRANCH}" >> "$GITHUB_OUTPUT"
-
-      - name: Translate Markdown files
+          echo "file_count=${FILE_COUNT}" >> "$GITHUB_OUTPUT"
+      - name: Create translation issue
         if: steps.changes.outputs.has_changes == 'true'
         env:
+          OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          LANGUAGE_BRANCH: ${{ matrix.language }}
           FROM_REF: ${{ inputs.from_ref }}
           TO_REF: ${{ inputs.to_ref }}
           FULL_SYNC: ${{ inputs.full_sync }}
-          LANGUAGE_BRANCH: ${{ matrix.language }}
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_PAT }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          RANGE_DESC: ${{ steps.changes.outputs.range_desc }}
+          FILE_COUNT: ${{ steps.changes.outputs.file_count }}
+          COPILOT_PAT: ${{ secrets.COPILOT_PAT }}
         run: |
           set -euo pipefail
 
-          if [ -z "${COPILOT_GITHUB_TOKEN:-}" ]; then
-            echo "::error::Missing repository secret COPILOT_PAT. Create a fine-grained PAT with Copilot Requests permission."
+          if [ -z "${COPILOT_PAT:-}" ]; then
+            echo "::error::Missing repository secret COPILOT_PAT."
             exit 1
           fi
 
-          mkdir -p .copilot-tmp
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import textwrap
+          import urllib.error
+          import urllib.request
 
-          while IFS=$'\t' read -r status path_a path_b; do
-            old_english_path=""
-            target_path=""
-            translation_seed_path=""
-            renamed_from=""
+          owner = os.environ["OWNER"]
+          repo = os.environ["REPO_NAME"]
+          language = os.environ["LANGUAGE_BRANCH"]
+          full_sync = os.environ["FULL_SYNC"].lower() == "true"
+          dry_run = os.environ["DRY_RUN"].lower() == "true"
+          range_desc = os.environ["RANGE_DESC"]
+          file_count = os.environ["FILE_COUNT"]
+          with open("target-files.txt", "r", encoding="utf-8") as handle:
+              target_files = [line.strip() for line in handle if line.strip()]
+          token = os.environ["COPILOT_PAT"]
 
-            case "$status" in
-              A|M)
-                old_english_path="$path_a"
-                target_path="$path_a"
-                translation_seed_path="$path_a"
-                ;;
-              D)
-                rm -f -- "$path_a"
-                git add -A -- "$path_a"
-                continue
-                ;;
-              R*)
-                old_english_path="$path_a"
-                target_path="$path_b"
-                translation_seed_path="$path_b"
-                renamed_from="$path_a"
-                ;;
-              *)
-                echo "::warning::Skipping unsupported diff status '$status'"
-                continue
-                ;;
-            esac
+          def graphql(query: str, variables: dict) -> dict:
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": query, "variables": variables}).encode("utf-8"),
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Content-Type": "application/json",
+                      "GraphQL-Features": "issues_copilot_assignment_api_support,coding_agent_model_selection",
+                      "User-Agent": "jjazzlab-translation-workflow",
+                  },
+                  method="POST",
+              )
+              try:
+                  with urllib.request.urlopen(req) as response:
+                      payload = json.load(response)
+              except urllib.error.HTTPError as exc:
+                  sys.stderr.write(exc.read().decode("utf-8", errors="replace"))
+                  raise
 
-            mkdir -p "$(dirname "$target_path")"
+              if "errors" in payload:
+                  raise RuntimeError(json.dumps(payload["errors"], indent=2))
+              return payload["data"]
 
-            if git cat-file -e "${FROM_REF}:${old_english_path}" 2>/dev/null; then
-              git show "${FROM_REF}:${old_english_path}" > .copilot-tmp/old-english.md
-            else
-              : > .copilot-tmp/old-english.md
-            fi
+          repo_query = """
+          query($owner: String!, $name: String!) {
+            repository(owner: $owner, name: $name) {
+              id
+              suggestedActors(capabilities: [CAN_BE_ASSIGNED], first: 100) {
+                nodes {
+                  __typename
+                  ... on Bot {
+                    id
+                    login
+                  }
+                  ... on User {
+                    id
+                    login
+                  }
+                }
+              }
+            }
+          }
+          """
 
-            git show "${TO_REF}:${target_path}" > .copilot-tmp/new-english.md
+          repo_data = graphql(repo_query, {"owner": owner, "name": repo})["repository"]
+          if repo_data is None:
+              raise RuntimeError("Repository lookup failed.")
 
-            if [ "${FULL_SYNC}" = "true" ] && git cat-file -e "origin/${LANGUAGE_BRANCH}:${translation_seed_path}" 2>/dev/null; then
-              git show "origin/${LANGUAGE_BRANCH}:${translation_seed_path}" > .copilot-tmp/current-translation.md
-            elif [ -f "$translation_seed_path" ]; then
-              cp "$translation_seed_path" .copilot-tmp/current-translation.md
-            elif [ -n "$renamed_from" ] && [ -f "$renamed_from" ]; then
-              cp "$renamed_from" .copilot-tmp/current-translation.md
-            else
-              : > .copilot-tmp/current-translation.md
-            fi
+          repo_id = repo_data["id"]
+          copilot_actor = None
+          for node in repo_data["suggestedActors"]["nodes"]:
+              login = (node or {}).get("login")
+              if login in {"copilot-swe-agent", "copilot"}:
+                  copilot_actor = node
+                  break
 
-            git show origin/master:.github/copilot/translate-docs-prompt.txt > .copilot-tmp/prompt.txt
-            git show origin/master:.github/copilot/translation-glossary.md > .copilot-tmp/translation-glossary.md
-            {
-              echo
-              echo "Target language branch: ${LANGUAGE_BRANCH}"
-              echo "Output file path: ${target_path}"
-              echo "Read these workspace files:"
-              echo "- .copilot-tmp/old-english.md"
-              echo "- .copilot-tmp/new-english.md"
-              echo "- .copilot-tmp/current-translation.md"
-              echo "- .copilot-tmp/translation-glossary.md"
-              echo
-              echo "Write the translated page to ${target_path}."
-            } >> .copilot-tmp/prompt.txt
+          if copilot_actor is None and not dry_run:
+              raise RuntimeError(
+                  "Copilot cloud agent is not assignable in this repository for the provided user token."
+              )
 
-            copilot -p "$(cat .copilot-tmp/prompt.txt)" \
-              --allow-tool='shell(cat:*)' \
-              --allow-tool=write \
-              --no-ask-user
+          if full_sync:
+              title = f"Bootstrap {language} from master"
+              task_summary = (
+                  f"Translate the current English documentation on `master` into the `{language}` branch."
+              )
+          else:
+              title = f"Sync master changes into {language}"
+              task_summary = (
+                  f"Translate the latest English documentation changes from `{range_desc}` into the `{language}` branch."
+              )
 
-            if [ -n "$renamed_from" ] && [ "$renamed_from" != "$target_path" ]; then
-              rm -f -- "$renamed_from"
-              git add -A -- "$renamed_from"
-            fi
+          if dry_run:
+              title = f"[Dry run] {title}"
 
-            git add -- "$target_path"
-          done < changes.tsv
+          if full_sync:
+              files_section = textwrap.dedent(f"""\
+              The task covers **all published Markdown pages** from `{range_desc}`.
 
-      - name: Validate links
-        if: steps.changes.outputs.has_changes == 'true'
-        run: |
-          set -euo pipefail
+              Target file count: **{file_count}**
+              """)
+          else:
+              files_block = "\n".join(target_files[:200])
+              files_section = textwrap.dedent(f"""\
+              Translate only these Markdown files:
 
-          LYCHHEE_VERSION="0.15.1"
-          curl -sSfL "https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHHEE_VERSION}/lychee-x86_64-unknown-linux-gnu.tar.gz" -o lychee.tar.gz
-          tar -xzf lychee.tar.gz lychee
-          chmod +x ./lychee
-          ./lychee --verbose --no-progress './**/*.md'
+              ```text
+              {files_block}
+              ```
+              """)
 
-      - name: Commit translation updates
-        if: steps.changes.outputs.has_changes == 'true'
-        id: commit
-        env:
-          FULL_SYNC: ${{ inputs.full_sync }}
-        run: |
-          set -euo pipefail
+          body = textwrap.dedent(f"""\
+          {task_summary}
 
-          if git diff --cached --quiet; then
-            echo "has_commit=false" >> "$GITHUB_OUTPUT"
-            {
-              echo "### ${{ matrix.language }}"
-              echo "No translated file changes were produced."
-            } >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
+          ## Target
 
-          if [ "${FULL_SYNC}" = "true" ]; then
-            git commit -m "Bootstrap ${{ matrix.language }} from master"
-          else
-            git commit -m "Sync master changes into ${{ matrix.language }}"
-          fi
-          echo "has_commit=true" >> "$GITHUB_OUTPUT"
+          - Repository: `{owner}/{repo}`
+          - Base branch for Copilot work: `{language}`
+          - English source: `{range_desc}`
+          - Translation mode: `{"full sync" if full_sync else "incremental sync"}`
 
-      - name: Push sync branch
-        if: steps.commit.outputs.has_commit == 'true' && inputs.dry_run != true
-        run: git push --force-with-lease origin "${{ steps.branch.outputs.sync_branch }}"
+          ## Required repository guidance
 
-      - name: Open or update pull request
-        if: steps.commit.outputs.has_commit == 'true' && inputs.dry_run != true
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BASE_BRANCH: ${{ matrix.language }}
-          HEAD_BRANCH: ${{ steps.branch.outputs.sync_branch }}
-          FULL_SYNC: ${{ inputs.full_sync }}
-          RANGE_DESC: ${{ steps.changes.outputs.range_desc }}
-          CHANGED_FILES: ${{ steps.changes.outputs.files }}
-        run: |
-          set -euo pipefail
+          Before making changes, read these files in the repository:
 
-          if [ "${FULL_SYNC}" = "true" ]; then
-            TITLE="Bootstrap ${BASE_BRANCH} from master"
-            INTRO="This PR was generated by the manual translation workflow in full-sync mode."
-          else
-            TITLE="Sync master changes into ${BASE_BRANCH}"
-            INTRO="This PR was generated by the manual translation sync workflow."
-          fi
+          - `.github/copilot-instructions.md`
+          - `.github/copilot/translate-docs-prompt.txt`
+          - `.github/copilot/translation-glossary.md`
 
-          cat > pr-body.md <<EOF
-          ${INTRO}
+          ## Translation requirements
 
-          English source: \`${RANGE_DESC}\`
+          - Preserve GitBook syntax exactly: YAML frontmatter keys, `{{% hint %}}`, `{{% embed %}}`, HTML `<figure>`, explicit anchors, tables, and code fences.
+          - Preserve relative links, `.md` targets, anchors, image paths, and filenames unless the English source changed them.
+          - Keep every term listed in `.github/copilot/translation-glossary.md` in English.
+          - Preserve literal UI/menu strings in English, for example `File/Import Songs...` and `Tools/Options/Midi`.
+          - Keep the translated branch consistent with existing translated wording where possible.
+          - Do not edit files under `.github/`.
 
-          Changed Markdown files:
-          \`\`\`
-          ${CHANGED_FILES}
-          \`\`\`
-          EOF
+          ## Scope
 
-          PR_NUMBER="$(gh pr list --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --json number --jq '.[0].number')"
+          {files_section}
 
-          if [ -n "${PR_NUMBER}" ] && [ "${PR_NUMBER}" != "null" ]; then
-            gh pr edit "${PR_NUMBER}" --title "${TITLE}" --body-file pr-body.md
-          else
-            gh pr create --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --title "${TITLE}" --body-file pr-body.md
-          fi
+          ## Expected result
 
-          {
-            echo "### ${BASE_BRANCH}"
-            echo "PR branch: \`${HEAD_BRANCH}\`"
-          } >> "$GITHUB_STEP_SUMMARY"
+          Raise a pull request targeting `{language}` with the translated documentation changes only.
+          """)
+
+          create_query = """
+          mutation($input: CreateIssueInput!) {
+            createIssue(input: $input) {
+              issue {
+                id
+                number
+                url
+                title
+              }
+            }
+          }
+          """
+
+          issue_input = {
+              "repositoryId": repo_id,
+              "title": title,
+              "body": body,
+          }
+
+          if not dry_run:
+              issue_input["assigneeIds"] = [copilot_actor["id"]]
+              issue_input["agentAssignment"] = {
+                  "targetRepositoryId": repo_id,
+                  "baseRef": language,
+                  "customInstructions": (
+                      "Read .github/copilot-instructions.md, "
+                      ".github/copilot/translate-docs-prompt.txt, and "
+                      ".github/copilot/translation-glossary.md before editing. "
+                      "Preserve GitBook syntax and keep glossary terms in English. "
+                      "Only work on the requested documentation scope and raise a PR targeting the base branch."
+                  ),
+              }
+
+          created = graphql(create_query, {"input": issue_input})["createIssue"]["issue"]
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"issue_number={created['number']}\n")
+              output.write(f"issue_url={created['url']}\n")
+              output.write(f"issue_title={created['title']}\n")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write(f"### {language}\n")
+              summary.write(f"Issue: [{created['title']}]({created['url']})\n\n")
+              if dry_run:
+                  summary.write("Created in dry-run mode without assigning it to Copilot.\n")
+              else:
+                  summary.write("Created and assigned to Copilot.\n")
+          PY
