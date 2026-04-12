@@ -2,7 +2,7 @@
 description: Add new languages for the JJazzLab user interface
 ---
 
-# Translate JJazzLab
+# Translate JJazzLab user interface
 
 ## THANKS to the top translation contributors!
 
