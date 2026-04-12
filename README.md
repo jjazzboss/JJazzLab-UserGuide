@@ -54,7 +54,7 @@ If you prefer to quickly create a new backing track from scratch, check out this
 * [Chord inspector](tools/notes-viewer.md): understand chord symbol notes and scales (piano, guitar diagrams, score)
 * [Practice loop with tempo auto-increase](tools/practice-loop-with-tempo-increase.md): efficiently practice exercices or difficult passages
 * [Arranger keyboard mode](tools/arranger-keyboard-mode.md): control backing track chords via a midi keyboard
-* [Improvisation help](tools/improvisation-help.md): get improvisation guides for your chord leadsheet
+* [Improvisation help](tools/improvisation-help.md): get improvisation guides for your lead sheet
 * [Chord symbols transposition](tools/chord-symbols-transposition.md): for transposing instruments (e.g. sax players)
 * [Easy Reader window](tools/easy-reader.md): focus on the current and next chord
 * [Song memo](tools/song-memo.md): text reminders about your song which can include links to files or web pages

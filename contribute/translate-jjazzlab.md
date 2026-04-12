@@ -2,7 +2,7 @@
 
 ## THANKS to the top translation contributors!
 
-With 7 languages supported, JJazzLab can now be used by 3.5 billions people ! :smile:
+With 9 languages supported, JJazzLab can now be used by 3.5 billions people ! :smile:
 
 * **Chinese**: Yafei
 * **German**: Hans Hahn, Torsten-Peh, helmutguitar, Ole Jenning, Samuel Buch
@@ -25,7 +25,7 @@ Everyone, provided that you're a native speaker of the target language and you'r
 
 ## How to start?
 
-* [**https://crwd.in/jjazzlab**](https://crwd.in/jjazzlab)  and register (it's free)
+* [**https://crwd.in/jjazzlab**](https://crwd.in/jjazzlab) and register (it's free)
 * Choose a target language
 * Select a translation file (phrases are grouped per feature or UI component)
 * Pick an English phrase and translate it
@@ -36,14 +36,12 @@ Crowdin provides many other translation facilities, like automatic translation p
 
 ![](../.gitbook/assets/crowdineditor.png)
 
-
-
 ## Recommendations & tips
 
 * **The shorter the better**\
-  Don't forget that your phrases will be part of the JJazzLab user interface. &#x20;
+  Don't forget that your phrases will be part of the JJazzLab user interface.
 * **Be consistent across translations**\
-  If "leadsheet" is "xyz" in your language, try to reuse "xyz" whenever possible. Use the Glossary if a term is often reused.
+  If "lead sheet" is "xyz" in your language, try to reuse "xyz" whenever possible. Use the Glossary if a term is often reused.
 * **Translate the Glossary first**\
   It's the last translation file at the bottom. It contains the most used terms found in JJazzLab, and helps maintain consistency across translations.
 * **Proofreader role**\

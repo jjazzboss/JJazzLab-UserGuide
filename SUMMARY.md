@@ -18,7 +18,7 @@
 ## Editors
 
 * [Overview](editors/overview.md)
-* [Chord lead sheet](editors/chord-lead-sheet.md)
+* [Lead sheet](editors/chord-lead-sheet.md)
 * [Song structure](editors/song-structure.md)
 * [Mix console](editors/mix-console.md)
 * [Notes editor](editors/notes-editor.md)

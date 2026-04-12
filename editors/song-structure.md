@@ -10,7 +10,7 @@ Use the **song structure editor** to:
 
 ## Song parts
 
-A **song part** is linked to a parent **section** of the [chord lead sheet](chord-lead-sheet.md).
+A **song part** is linked to a parent **section** of the [lead sheet](chord-lead-sheet.md).
 
 <figure><img src="../.gitbook/assets/SectionAndSongParts.png" alt=""><figcaption></figcaption></figure>
 

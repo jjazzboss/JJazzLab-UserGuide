@@ -32,9 +32,9 @@ The song import feature is not 100% reliable, but most of the files should be OK
 
 ## musicXML files (.xml, .mxl, musicxml)
 
-JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro.&#x20;
+JJazzLab can import musicXML (.xml, .musicxml) or compressed musicXML (.mxl). It has been tested successfully with musicXML files exported from iRealPro.
 
-What is imported: &#x20;
+What is imported:
 
 * Chord symbols
 * Time signatures
@@ -42,21 +42,19 @@ What is imported: &#x20;
 * Repeats, endings (1. 2. 3...), tocoda, coda, segno, DC al coda, DC al fine, DS al coda, DS al fine, as found in **sound** and **barline** elements.
 * Music style information found in the **groove** type of a **play/other-play element.**
 
-
-
 ## Text files (.txt)
 
 JJazzLab can read chords from text files. 3 formats are supported, GRID-BASED, TIME-BASED, BEAT-BASED.
 
-#### **GRID-BASED: e.g. "| 3/4 Bb7M | D7#5  | Eb7M | Db7#11 |"**
+#### **GRID-BASED: e.g. "| 3/4 Bb7M | D7#5 | Eb7M | Db7#11 |"**
 
-`!` can be used instead of `|`.  `%` repeats the previous bar. Any bar can start with a time signature.
+`!` can be used instead of `|`. `%` repeats the previous bar. Any bar can start with a time signature.
 
 Example:
 
-`|3/4 Bb7M | D7#5  | Eb7M  | Db7#11 |`\
-`| Cm7     | G7     | C7M   |       |`\
-`|4/4 Fm7  | Gm7 C7 | %     |  F7M  |`
+`|3/4 Bb7M | D7#5 | Eb7M | Db7#11 |`\
+`| Cm7 | G7 | C7M | |`\
+`|4/4 Fm7 | Gm7 C7 | % | F7M |`
 
 {% hint style="success" %}
 This format is compatible with text files exported from **ChordPulse**.
@@ -90,11 +88,8 @@ Example:\
 * "`title=My song name`" : if specified the created song will use this title as name
 * Accepted delimiter characters are `,` `;` or space or tab (time or beat-based format)
 
+## Impro-Visor lead sheet files (.ls)
 
-
-## Impro-Visor leadsheet files (.ls)
-
-JJazzLab can import Impro-Visor (.ls) leadsheet files.&#x20;
+JJazzLab can import Impro-Visor (.ls) lead sheet files.
 
 The import is limited to the time signatures and chord symbols.
-

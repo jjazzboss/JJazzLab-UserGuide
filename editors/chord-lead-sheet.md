@@ -1,6 +1,6 @@
-# Chord lead sheet
+# Lead sheet
 
-Use the **chord leadsheet editor** to:
+Use the **lead sheet editor** to:
 
 * Add chord symbols, eg **Cm6, Ab7, F#9M#11, NC (no chord), ...**
 * Add sections, eg **A, B, verse, chorus,** ...
@@ -19,14 +19,14 @@ Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to 
 
 ![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
 
-## Size of the leadsheet
+## Size of the lead sheet
 
 Select a bar then select **Set end bar** in the right-click menu (see below).
 
 {% hint style="info" %}
-The size of the song depends on both the leadsheet _and_ the song structure.
+The size of the song depends on both the lead sheet _and_ the song structure.
 
-For example, if chord leadsheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
+For example, if lead sheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
 {% endhint %}
 
 ## Selecting and moving items (chord symbols ...)
@@ -206,14 +206,14 @@ Suppose the same bar is used in different song parts. The lyrics for this bar mi
 
 **Example**: for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
 
-## Exporting/importing chord leadsheet as text
+## Exporting/importing lead sheet as text
 
 Select some bars or chord symbols and copy them (via menu Copy or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
 
 `|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |`\
 `| Gm7/Bb | C9/Bb | F7M | |`
 
-Text import works the other way around. Copy a similar text in the clipboard then paste it in the chord leadsheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
+Text import works the other way around. Copy a similar text in the clipboard then paste it in the lead sheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
 
 ## Mouse shortcuts
 
