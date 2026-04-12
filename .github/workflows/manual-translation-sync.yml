@@ -35,7 +35,6 @@ permissions:
 
 jobs:
   sync-language:
-    if: contains(format(',{0},', inputs.languages), format(',{0},', matrix.language))
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -43,19 +42,42 @@ jobs:
         language: [french, spanish, japanese, german]
 
     steps:
+      - name: Check language selection
+        id: selected
+        env:
+          SELECTED_LANGUAGES: ${{ inputs.languages }}
+          CURRENT_LANGUAGE: ${{ matrix.language }}
+        run: |
+          set -euo pipefail
+
+          NORMALIZED="$(echo "${SELECTED_LANGUAGES}" | tr '[:upper:]' '[:lower:]' | tr -d '[:space:]')"
+          if [[ ",${NORMALIZED}," == *",${CURRENT_LANGUAGE},"* ]]; then
+            echo "selected=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "selected=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "### ${CURRENT_LANGUAGE}"
+              echo "Skipped because it was not requested in the languages input."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Checkout master
+        if: steps.selected.outputs.selected == 'true'
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 0
 
       - name: Set up Node.js
+        if: steps.selected.outputs.selected == 'true'
         uses: actions/setup-node@v4
 
       - name: Install Copilot CLI
+        if: steps.selected.outputs.selected == 'true'
         run: npm install -g @github/copilot
 
       - name: Collect Markdown files to translate
+        if: steps.selected.outputs.selected == 'true'
         id: changes
         env:
           FROM_REF: ${{ inputs.from_ref }}
