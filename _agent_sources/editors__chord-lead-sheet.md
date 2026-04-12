@@ -1,0 +1,258 @@
+# Lead sheet
+
+Use the **lead sheet editor** to:
+
+* Add chord symbols, eg **Cm6, Ab7, F#9M#11, NC (no chord), ...**
+* Add sections, eg **A, B, verse, chorus,** ...
+* Move and edit chords to adjust rhythm accents, interpretation or harmony
+* Add bar annotations (for lyrics etc.)
+
+![](../.gitbook/assets/ChordLeadSheetText.png)
+
+## Popup menus
+
+Use the popup menu (**right-click** on windows/Linux, **ctrl-click** on Mac) to see commands available for the current selection: bars, chord symbols or sections.
+
+![Bar popup menu](<../.gitbook/assets/BarPopupMenu (2).png>)
+
+![Chord symbol popup menu](../.gitbook/assets/chordPopupMenu.png)
+
+![Section/Time signature popup menu](../.gitbook/assets/sectionPopupMenu.png)
+
+## Size of the lead sheet
+
+Select a bar then select **Set end bar** in the right-click menu (see below).
+
+{% hint style="info" %}
+The size of the song depends on both the lead sheet _and_ the song structure.
+
+For example, if lead sheet only contains a single 12-bar section called A, and song structure is A-A-A, then song size is 3\*12=36 bars.
+{% endhint %}
+
+## Selecting and moving items (chord symbols ...)
+
+Click on a bar or a chord symbol to select it. Use **ctrl-click** to select multiple bars or chord symbols.
+
+Use **shift-click** to extend the current selection.
+
+**Drag** a chord symbol with the mouse to move it to a new location. If you press **ctrl** while dragging, a **+** sign appears (see image below) indicating that the chord symbol will be copied, not moved.
+
+<figure><img src="../.gitbook/assets/dragCopyChord.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+**Sections** and **bar annotations** can be selected, moved or copied the same way.
+{% endhint %}
+
+#### Chord symbol quantization
+
+By default a chord symbol position is quantized to a sixteenth note (4 positions per beat).
+
+This can be adjusted per section via the bar or section popup menu **Quantization...**, as shown below.
+
+<figure><img src="../.gitbook/assets/ChordQuantizeMenu.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/ChordQuantizeDialog.png" alt=""><figcaption></figcaption></figure>
+
+The **auto** value adjusts the quantization based on the rhythm (binary or ternary) used by the first song part linked to this section.
+
+## Chord symbols
+
+Select a bar or a chord symbol, then type the first letter of the chord symbol (for ex. 'C'), the **Bar edit dialog** will appear automatically :
+
+<figure><img src="../.gitbook/assets/2024-04-26 22_32_35-Bar 3 - A 4_4.png" alt=""><figcaption><p>Bar edit dialog</p></figcaption></figure>
+
+When a bar is selected, the **Bar edit dialog** can also be showned by pressing ENTER, double-clicking a bar, or using the right-click menu Edit.
+
+To **copy** a chord symbol just **drag it** while pressing the **control** key.
+
+{% hint style="info" %}
+In order to **input a lead sheet from scratch**, the easiest way is to select the first bar then directly type in the chord symbols (bar edit dialog automatically appears when first letter is typed), press ENTER when done (it automatically selects the next bar), type in the chord symbols for the second bar, etc.
+{% endhint %}
+
+JJazzLab can recognize different forms of a given chord symbol. For example **C-7**, **Cm7**, **Cmi7**, **Cmin7** are all equivalent. You can add your own _chord aliases_ in the **Chord Symbols** tab of the Options/Preferences, as shown below:
+
+<figure><img src="../.gitbook/assets/2024-03-06 19_22_02-Options.png" alt=""><figcaption><p>Define your own chord symbol aliases</p></figcaption></figure>
+
+{% hint style="info" %}
+The special **NC** chord symbol can be used to get a silence until next chord symbol. If the complete silence is too much, you might try a chord symbol with the **shot** [interpretation](chord-lead-sheet.md#interpretation).
+{% endhint %}
+
+### Chord symbol interpretation
+
+Select a chord symbol, edit it (double-click, press enter, or right-click menu), and select the **Interpretation** tab.
+
+![](../.gitbook/assets/ChordSymbolEditDialog.png)
+
+The **Interpretation** tab lets you decide how this chord symbol should be played:
+
+* **Normal**
+* **Accent**: add a rhythmic accent and randomly a crash cymbal. You can make the accent stronger, or make sure a crash cymbal is played or not played.
+* **Hold**: add a rhythmic accent and hold notes until next chord symbol. If extended more instruments are hold.
+* **Shot**: add a rhythmic accent with chord notes played briefly. If extended more instruments are shot.
+* **Pedal bass**: bass line will only play the bass note (for ex. F for Fm7 or C for Fm7/C). This setting is on by default when you enter a slash chord.
+
+{% hint style="info" %}
+Each rhythm generation engine may render these Interpretation parameters differently.
+{% endhint %}
+
+The shape of the marker below the chord symbol depends on the interpretation mode:
+
+![](../.gitbook/assets/interpretationmarkers.png)
+
+For example, in order to render:
+
+![](../.gitbook/assets/rhythmicaccents.png)
+
+you could use the following interpretation parameters:
+
+![](../.gitbook/assets/examplerhythmicaccents.png)
+
+{% hint style="info" %}
+See below the keyboard shortcuts to change the interpretation of selected chords.
+{% endhint %}
+
+#### Harmony
+
+Select a chord symbol, edit it and select the **Harmony** tab.
+
+![](../.gitbook/assets/ChordSymbolEditDialogHarmony.png)
+
+The **Harmony** tab lets you select the scale to be used when rendering the music for this chord symbol.
+
+**Example** Suppose that the reference bass line for Eb7M contains a Ab (4th degree of the Eb major scale). If you select the Lydian mode (which has a sharp 11th degree) then the reference bass note Ab will be rendered as A for this chord symbol.
+
+By default no scale is selected: each rhythm generation engine will decide the "best" scale to use.
+
+#### Substitute chord symbol
+
+Select a chord symbol, edit it and select the **substitute** chord symbol tab.
+
+![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/ChordSymbolEditDialogSubstitute.png)
+
+This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.
+
+**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
+
+The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (void chord). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color (see image below).
+
+_Example:_
+
+In the Carlos Santana's "Europa" song, the 1st ending of the theme is a Cm7, but the 2nd one is a C major. To implement this in JJazzLab, one solution could be to duplicate section A1 to create section A2 with the different ending, then update the song structure accordingly. This is perfectly fine, but when changes are minor the **substitute** chord symbol can provide a simpler solution.
+
+You can see below (and in the dialog snapshot above) that a C7M **substitute** chord has been created for Cm7. C7M will be used for all song parts (see the [song structure editor](song-structure.md)) where the marker is set to Theme2. On the image below it means the C7M will be used only for the 2nd song part.
+
+![Snapshot to be updated! ALTERNATE > SUBSTITUTE](../.gitbook/assets/alternatechordleadsheet.png)
+
+There is another **substitute** chord symbol example in the 3rd bar: A7. If you listen to the original song you'll notice that they play a A7 on the last beat of the 3rd bar only during solos. So the A7 chord symbol defines its **substitute** chord symbol as the "void chord symbol" (same as no chord symbol) when marker is _not_ "Solo".
+
+### Customizable chord progressions
+
+Select a bar and use the popup menu **Insert/Chord progression** to select a chord progression to insert.
+
+<figure><img src="../.gitbook/assets/InsertChordprogression.png" alt=""><figcaption></figcaption></figure>
+
+The chord progression is inserted **at the selected bar**, replacing existing chords. Additional bars are created if required. Inserted chords are automatically selected, so that you can easily transpose them to the desired key (use the **mouse-wheel** on a chord, or press **ctrl-UP/DOWN**).
+
+Chord progressions are defined in a simple text file **`ChordProgression.txt`** located in your JJazzLab user directory. It is automatically created by JJazzLab if it does not exist.
+
+Use **Open configuration file...** from the **Chord progression...** popup menu (see image above) to edit it. This lets you define and organize the chord progressions which appear in the popup menu. You can define as many categories and subcategories as you want. For more info see the comments at the beginning of the file.
+
+## Sections
+
+A section has a **name** and a **time signature**. Typical sections are 'intro', 'verse', 'chorus', 'coda', 'A', 'B', etc.
+
+<figure><img src="../.gitbook/assets/Section.png" alt=""><figcaption></figcaption></figure>
+
+To add a section, **select a bar** then:
+
+* **Double-click** to edit the bar (or press ENTER, or use popup menu Edit...) and **change the section name**
+* or use bar popupmenu **Insert > Section...**
+
+{% hint style="danger" %}
+Section names must be unique. It's not possible to remove the initial section in the first bar.
+{% endhint %}
+
+Like chord symbols, sections can be moved or copied (hold ctrl key) with the mouse, or via copy & paste.
+
+### Force a section at new line
+
+You can force a section which is not on the first bar of a row to start on the next line.
+
+This can be useful when some sections have an odd number of bars.
+
+Select a bar with a section defined or select the section itself, then use popup menu **Section at New Line**.
+
+![](../.gitbook/assets/SectionNewLinePopupMenu.png)
+
+This will result in the display below:
+
+![](../.gitbook/assets/SectionNewLineResult.png)
+
+## Bar annotations / lyrics
+
+You can add **annotations** to any bar.
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_35_05-Chord lead sheet - English — Mozilla Firefox.png" alt=""><figcaption></figcaption></figure>
+
+When annotations are hidden, bar with annotations are marked with a post-it (tooltip shows the annotation text).
+
+<figure><img src="../.gitbook/assets/2024-01-01 00_42_01-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+#### Special # syntax for Easy Reader
+
+Suppose the same bar is used in different song parts. The lyrics for this bar might change depending on the song part. You can prepend **#** to annotation lines so that the [Easy Reader](../tools/easy-reader.md) displays only the relevant line.
+
+<figure><img src="../.gitbook/assets/2024-01-01 01_07_05-JJazzLab  4.0.2.png" alt=""><figcaption></figcaption></figure>
+
+**Example**: for the annotation above, Easy Reader will show "with... you" the first time, "and...you" the second time, and "take...you" whenever the current song part name is "chorus".
+
+## Exporting/importing lead sheet as text
+
+Select some bars or chord symbols and copy them (via menu Copy or ctrl-C/command-C). Then switch to any text editor and paste : the bars/chords are exported as text like below:
+
+`|4/4 Bb9 A7 | Dm7 G13 | Dm7 G13 | Dm7 G13 |`\
+`| Gm7/Bb | C9/Bb | F7M | |`
+
+Text import works the other way around. Copy a similar text in the clipboard then paste it in the lead sheet editor: the correspondings bars/chord symbols are imported in the JJazzLab song.
+
+## Mouse shortcuts
+
+| <mark style="background-color:blue;">**Selection**</mark> | <mark style="background-color:blue;">**Mouse**</mark> | <mark style="background-color:blue;">**Action**</mark> |
+| --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| bar, chord symbol, section                                | click                                                 | select                                                 |
+| chord symbol                                              | double click                                          | edit using chord symbol editor                         |
+| chord symbol                                              | ctrl-shift click                                      | hear the chord                                         |
+| bar, section, annotation                                  | double click                                          | edit using bar editor                                  |
+| bar, chord symbol, section                                | right-click                                           | popup menu                                             |
+| chord symbol                                              | mouse-wheel                                           | transpose                                              |
+| editor                                                    | ctrl mouse-wheel                                      | zoom in/out horizontally                               |
+| editor                                                    | ctrl-shift mouse-wheel                                | zoom in/out vertically                                 |
+
+## Keyboard shortcuts
+
+{% hint style="info" %}
+Many actions are also available via the context menu (right-click on Windows/Linux, ctrl-click on Mac), and when available the associated keyboard shortcut is displayed.
+{% endhint %}
+
+| Selection                  | Key             | Action                                    |
+| -------------------------- | --------------- | ----------------------------------------- |
+| chord Symbol               | enter           | edit with chord symbol editor             |
+| bar, section               | enter           | edit with bar editor dialog               |
+| bar                        | ctrl-E          | set end bar                               |
+| bar                        | I               | insert bars                               |
+| bar                        | delete          | clear bar contents                        |
+| chord symbol, section      | delete          | remove                                    |
+| chord symbol, section      | ctrl-left/right | move item one bar left/right              |
+| bar                        | shift-delete    | remove                                    |
+| chord symbol               | ctrl-up/down    | transpose                                 |
+| chord symbol               | P               | change interpretation                     |
+| chord symbol               | S               | stronger accent                           |
+| chord symbol               | H               | crash cymbal/no crash                     |
+| chord symbol               | X               | hold/shot more instruments                |
+| chord symbol               | M               | hear the chord                            |
+| chord symbol, section      | ctrl-A          | select all in section, then in lead sheet |
+| bar, chord symbol, section | ctrl-C/X/V      | copy/cut/paste items                      |
+| editor                     | ctrl-Z/Y        | undo/redo                                 |
+| editor                     | ctrl-L          | Show/hide bar annotations                 |
+| editor                     | alt-L           | Insert bar annotation                     |
+| editor                     | ctrl-W          | close song                                |
