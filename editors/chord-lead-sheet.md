@@ -125,15 +125,19 @@ By default no scale is selected: each rhythm generation engine will decide the "
 
 #### Substitute chord symbol
 
-Select a chord symbol, edit it and select the **substitute** chord symbol tab.
+Sometimes we need to repeat a section but with a single chord variation. Below is an example of the end of an 'A' section, where **Gmaj7** replaces **D7sus4** the 2nd time.
+
+<figure><img src="../.gitbook/assets/SubstituteLeadSheetExample.png" alt=""><figcaption></figcaption></figure>
+
+In a JJazzLab song, one way to do this is to replace the 'A' section by two 'A1' and 'A2' sections, with different endings.&#x20;
+
+The **substitute chord** feature lets you do this with one 'A' section: **D7sus4** has a **substitute chord** set to **Gmaj7**, to be used for the 2nd 'A' section.
+
+To set a substitute chord, select a chord symbol, edit it and select the **substitute** chord symbol tab.
 
 ![Snapshot to be updated! Alternate > Substitute](../.gitbook/assets/ChordSymbolEditDialogSubstitute.png)
 
-This tab lets you define a **substitute** chord symbol which will be used when some conditions are met.
-
-**Substitute** chord symbols are useful when you need to introduce a slight variation in a part of a song.
-
-The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (void chord). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color (see image below).
+The **substitute** chord symbol can be any chord symbol, with any interpretation or harmony, or no chord symbol at all (the "void" chord symbol). Chord symbols which have an **substitute** chord symbol defined are displayed with a different color (see image below).
 
 _Example:_
 
